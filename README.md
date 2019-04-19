@@ -1,21 +1,17 @@
 # elm-projects
 Learning Elm 0.19
 
-according to my current premmature knowledge , 
+According to my current premmature knowledge , 
 ```
 elm make src/something.elm
 ```
-makes index.html.
+makes index.html at the top of project directory. 
 
-so, i change the name and place to something like , 
+In order to make a child html files, I do the following. 
 ```
-mv index.html src/something.html
+elm make src/anotherfile.elm --output=anotherfile.html
 ```
-and then
-```
-elm make src/Main.elm
-```
-this makes index.html which refer to something.html
+I will make index.html to refer to anotherfile.html 
 
 this way I can make many elm and html files to show to others.
 ```
