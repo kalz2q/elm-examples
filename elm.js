@@ -4393,7 +4393,10 @@ var author$project$Main$main = A2(
 		[
 			A2(
 			elm$html$Html$h1,
-			_List_Nil,
+			_List_fromArray(
+				[
+					A2(elm$html$Html$Attributes$style, 'font-family', 'serif')
+				]),
 			_List_fromArray(
 				[
 					elm$html$Html$text('Links to Samples')
@@ -4419,6 +4422,22 @@ var author$project$Main$main = A2(
 								[
 									elm$html$Html$text('Counter')
 								]))
+						])),
+					A2(
+					elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							A2(
+							elm$html$Html$a,
+							_List_fromArray(
+								[
+									elm$html$Html$Attributes$href('src/Form.html')
+								]),
+							_List_fromArray(
+								[
+									elm$html$Html$text('Form')
+								]))
 						]))
 				])),
 			A2(
@@ -4430,7 +4449,7 @@ var author$project$Main$main = A2(
 				]),
 			_List_fromArray(
 				[
-					elm$html$Html$text('コピペしたり試行錯誤してElmファイルから作ったもののリストです。ソースファイルは以下をご覧ください。')
+					elm$html$Html$text('コピペしたり試行錯誤してElmから作ったもののリストです。ソースは以下をご覧ください。')
 				])),
 			A2(
 			elm$html$Html$a,
