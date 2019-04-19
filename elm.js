@@ -4415,54 +4415,6 @@ var author$project$Main$main = A2(
 								[
 									elm$html$Html$text('Counter')
 								]))
-						])),
-					A2(
-					elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$href('https://elm-lang.org')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('Homepage')
-								]))
-						])),
-					A2(
-					elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$href('https://package.elm-lang.org')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('Packages')
-								]))
-						])),
-					A2(
-					elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$href('https://ellie-app.com')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('Playground')
-								]))
 						]))
 				]))
 		]));
