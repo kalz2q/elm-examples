@@ -17,8 +17,9 @@ this way I can make many elm and html files to show to others.
 
 [link to html](https://kalz2q.github.io/elm-projects/) 
 
-[source fiels are](https://github.com/kalz2q/elm-projects)
-so, you can see the resultign html files or git clone everything and see by 
+[source fiels are](https://github.com/kalz2q/elm-projects) 
+
+so, now you can see the resulting html files directory or `git clone` everything and see by 
 ```
 elm reactor
 ```
