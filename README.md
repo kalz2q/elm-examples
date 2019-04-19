@@ -18,3 +18,15 @@ elm make src/Main.elm
 this makes index.html which refer to something.html
 
 this way I can make many elm and html files to show to others.
+```
+https://kalz2q.github.io/elm-projects/
+```
+source fiels are
+```
+https://github.com/kalz2q/elm-projects
+```
+so, you can see the resultign html files or git clone everything and see by 
+```
+elm reactor
+```
+enjoy!
