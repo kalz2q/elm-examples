@@ -4376,6 +4376,7 @@ var elm$html$Html$a = _VirtualDom_node('a');
 var elm$html$Html$div = _VirtualDom_node('div');
 var elm$html$Html$h1 = _VirtualDom_node('h1');
 var elm$html$Html$li = _VirtualDom_node('li');
+var elm$html$Html$p = _VirtualDom_node('p');
 var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
 var elm$html$Html$ul = _VirtualDom_node('ul');
@@ -4393,6 +4394,8 @@ var elm$html$Html$Attributes$href = function (url) {
 		'href',
 		_VirtualDom_noJavaScriptUri(url));
 };
+var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
+var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
 var author$project$Main$main = A2(
 	elm$html$Html$div,
 	_List_Nil,
@@ -4403,8 +4406,9 @@ var author$project$Main$main = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					elm$html$Html$text('Useful Links')
+					elm$html$Html$text('Links to Samples')
 				])),
+			A2(elm$html$Html$p, _List_Nil, _List_Nil),
 			A2(
 			elm$html$Html$ul,
 			_List_Nil,
@@ -4426,6 +4430,27 @@ var author$project$Main$main = A2(
 									elm$html$Html$text('Counter')
 								]))
 						]))
+				])),
+			A2(
+			elm$html$Html$p,
+			_List_fromArray(
+				[
+					A2(elm$html$Html$Attributes$style, 'font-size', '30px'),
+					A2(elm$html$Html$Attributes$style, 'font-family', 'Noto Serif CJK JP')
+				]),
+			_List_fromArray(
+				[
+					elm$html$Html$text('コピペしたり試行錯誤してElmファイルから作ったもののリストです。ソースファイルは以下をご覧ください。')
+				])),
+			A2(
+			elm$html$Html$a,
+			_List_fromArray(
+				[
+					elm$html$Html$Attributes$href('https://github.com/kalz2q/elm-projects')
+				]),
+			_List_fromArray(
+				[
+					elm$html$Html$text('https://github.com/kalz2q/elm-projects')
 				]))
 		]));
 _Platform_export({'Main':{'init':_VirtualDom_init(author$project$Main$main)(0)(0)}});}(this));
