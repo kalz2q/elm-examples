@@ -15,9 +15,9 @@ I will make index.html to refer to anotherfile.html
 
 this way I can make many elm and html files to show to others. 
 
-[link to html](https://kalz2q.github.io/elm-projects/) 
+[links to html](https://kalz2q.github.io/elm-projects/) 
 
-[source fiels are](https://github.com/kalz2q/elm-projects) 
+[source files are](https://github.com/kalz2q/elm-projects) 
 
 so, now you can see the resulting html files directory or `git clone` everything and see by 
 ```
