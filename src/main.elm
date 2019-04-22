@@ -7,7 +7,7 @@ import Html.Attributes exposing (..)
 main : Html msg
 main =
     div []
-        [ h1 [ style "font-family" "serif" ] [ text "Links to Samples" ]
+        [ h1 [ style "font-family" "serif" ] [ text "Links to Examples" ]
         , p [] []
         , ul []
             [ li [] [ a [ href "src/httpgutenberg.html" ] [ text "httpグーテンベルグ" ] ]
