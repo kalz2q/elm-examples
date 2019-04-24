@@ -19,7 +19,7 @@ main =
             , li [] [ a [ href "src/fieldtoreverse.html" ] [ text "テキストフィールドのサンプル" ] ]
             , li [] [ a [ href "src/httpgetrepository.html" ] [ text "Httpのサンプル" ] ]
             , li [] [ a [ href "src/textformlist.html" ] [ text "Form" ] ]
-            , li [] [ a [ href "src/counter.html" ] [ text "Counter" ] ]
+            , li [] [ a [ href "src/counter.js" ] [ text "Counter.js" ] ]
             ]
         , p [ style "font-size" "30px", style "font-family" "Noto Serif CJK JP" ] [ text "コピペしたり試行錯誤してElmから作ったもののリストです。ソースは以下をご覧ください。" ]
         , a [ href "https://github.com/kalz2q/elm-projects" ] [ text "https://github.com/kalz2q/elm-projects" ]
