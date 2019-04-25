@@ -21,7 +21,7 @@ stylesheet =
         attrs =
             [ attribute "rel" "stylesheet"
             , attribute "property" "stylesheet"
-            , attribute "href" "../css/styles.css"
+            , attribute "href" "https://kalz2q.github.io/elm-projects/css/styles.css"
             ]
 
         children =
@@ -31,11 +31,4 @@ stylesheet =
 
 
 main =
-    let
-        inner =
-            div [ id "inner", class "container" ] [ h1 [ class "text-center" ] [ text "hello flash of unstyled content" ] ]
-
-        hero =
-            div [ id "hero", class "jumbotron" ] [ inner ]
-    in
-    div [ id "outer" ] [ stylesheet, hero ]
+    text "this is a pen"
