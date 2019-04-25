@@ -4387,56 +4387,14 @@ var author$project$Main$stylesheet = function () {
 	return A3(elm$html$Html$node, tag, attrs, children);
 }();
 var elm$html$Html$div = _VirtualDom_node('div');
-var elm$html$Html$h1 = _VirtualDom_node('h1');
 var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
-var elm$json$Json$Encode$string = _Json_wrap;
-var elm$html$Html$Attributes$stringProperty = F2(
-	function (key, string) {
-		return A2(
-			_VirtualDom_property,
-			key,
-			elm$json$Json$Encode$string(string));
-	});
-var elm$html$Html$Attributes$class = elm$html$Html$Attributes$stringProperty('className');
-var elm$html$Html$Attributes$id = elm$html$Html$Attributes$stringProperty('id');
-var author$project$Main$main = function () {
-	var inner = A2(
-		elm$html$Html$div,
-		_List_fromArray(
-			[
-				elm$html$Html$Attributes$id('inner'),
-				elm$html$Html$Attributes$class('container')
-			]),
-		_List_fromArray(
-			[
-				A2(
-				elm$html$Html$h1,
-				_List_fromArray(
-					[
-						elm$html$Html$Attributes$class('text-center')
-					]),
-				_List_fromArray(
-					[
-						elm$html$Html$text('hello flash of unstyled content')
-					]))
-			]));
-	var hero = A2(
-		elm$html$Html$div,
-		_List_fromArray(
-			[
-				elm$html$Html$Attributes$id('hero'),
-				elm$html$Html$Attributes$class('jumbotron')
-			]),
-		_List_fromArray(
-			[inner]));
-	return A2(
-		elm$html$Html$div,
-		_List_fromArray(
-			[
-				elm$html$Html$Attributes$id('outer')
-			]),
-		_List_fromArray(
-			[author$project$Main$stylesheet, hero]));
-}();
+var author$project$Main$main = A2(
+	elm$html$Html$div,
+	_List_Nil,
+	_List_fromArray(
+		[
+			author$project$Main$stylesheet,
+			elm$html$Html$text('Heeello, World!')
+		]));
 _Platform_export({'Main':{'init':_VirtualDom_init(author$project$Main$main)(0)(0)}});}(this));
