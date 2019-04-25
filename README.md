@@ -1,5 +1,8 @@
 # elm-projects
-Learning Elm 0.19
+I am Learning Elm 0.19.
+
+All the elm source files are available at https://github.com/kalz2q/elm-projects.
+
 
 According to my current premmature knowledge , 
 ```
