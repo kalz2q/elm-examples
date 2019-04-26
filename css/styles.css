@@ -5,4 +5,8 @@
   font-size: 36px;
 }
 
-
+.text-center {
+  border: 1px solid #886;
+  width: 400px;
+  text-align: center;
+}

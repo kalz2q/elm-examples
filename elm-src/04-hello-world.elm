@@ -1,11 +1,11 @@
-module Main exposing (main)
+module helloworldAttribute exposing (main)
+import Html exposing (Html, div, text)
+import Html.Attributes exposing (class)
 
 -- I'm importing the Html.Attributes module, which has all the HTML attributes
 -- we need. I'm exposing the class attribute, which we can use for adding classes
 -- to HTML elements.
 
-import Html exposing (Html, div, text)
-import Html.Attributes exposing (class)
 
 
 
