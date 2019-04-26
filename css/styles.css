@@ -1,7 +1,7 @@
-body {
-  background-color: #3F8;
+#container {
+  background-color: beige;
   font-family: "Noto Serif CJK JP";
-  margin: 0;
+  margin: 20;
   font-size: 36px;
 }
 

@@ -14,7 +14,7 @@ main =
         , p [ style "font-size" "30px", style "font-family" "Noto Serif CJK JP" ] [ text "コピペしたり試行錯誤してElmから作ったもののリストです。" ]
         , ul []
             [ li [] [ a [ href "src/helloworld01.html" ] [ text "一番簡単なElmによるハローワールド" ] ]
-            , li [] [ a [ href "src/externalcss02.html" ] [ text "cssの組み込み実験" ] ]
+            , li [] [ a [ href "src/hellocss.html" ] [ text "cssの組み込み実験" ] ]
             , li [] [ a [ href "src/httpgutenberg.html" ] [ text "httpグーテンベルグ" ] ]
             , li [] [ a [ href "src/jsoncats.html" ] [ text "jsonによる猫動画" ] ]
             , li [] [ a [ href "src/randomnumber.html" ] [ text "randomサイコロ" ] ]

@@ -1,4 +1,4 @@
-module Main exposing (main, stylesheet)
+module HelloWorldWithCSS exposing (main, stylesheet)
 
 import Html exposing (Html, div, text, node)
 import Html.Attributes exposing (..)
@@ -23,4 +23,4 @@ stylesheet =
 
 main : Html msg
 main =
-    Html.div [] [ stylesheet,  Html.text "Heeello, World!" ]
+    div [id "container"] [ stylesheet,  text "ハロー、CSS" ]
