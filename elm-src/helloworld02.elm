@@ -7,10 +7,8 @@ main : Html msg
 main =
     text "Hello, World!"
 
--- typeについてよくわからないが、mainというもの(変数?)が
-
--- In Elm, we can explicitly say what any value's type is. Since the main value
--- is just an HTML text node, it has the type (Html msg). If the value isn't
--- that type, then we will get a compile error, which is helpful for
--- guaranteeing our program is correct. Type declarations aren't required, but
--- most people like writing type declarations so their code is easier to understand.
+-- typeについてよくわからないが、mainというもの(なにか)がHtml msgという型(type)を持っている
+-- Html.textは引数に文字列をとり、Html msgという型を返す
+-- mainを定義する前にmain : Html msgとすることにより、mainの定義の型が決まっているので、それと違った定義はあり得ない
+-- コンパイルエラーになる
+-- 定義前に型を指定することは強制ではないが、後からでも加えておくことがプログラムを読む際に役に立つ
