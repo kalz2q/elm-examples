@@ -2,48 +2,52 @@ module CounterAttribite exposing (main)
 
 import Browser exposing (sandbox)
 import Html exposing (Html, button, div, node, text)
-import Html.Attributes exposing (class, attribute)
+import Html.Attributes exposing (attribute, class)
 import Html.Events exposing (onClick)
+
+
 
 -- MODEL
 
-type alias Model = Int
+
+type alias Model =
+    Int
+
 
 init : Model
 init =
-  0
+    0
 
 
 type Msg
     = Increment
 
--- ElmのプログラムはModel, Update, Viewでできていて、elmで書かれているので順序は決まっていない。
--- This is the view function. The view function takes the model, which is an
--- integer, then returns an HTML element, which gets displayed on the screen.
--- Every time the model gets updated, the new value for the model will get passed
--- into the view function, which will output the HTML display.
--- So the view function is simply just a pure function that takes in the model
--- state as an argument and returns the HTML view that gets displayed on the page.
 
--- VIEW
+
+-- ElmのプログラムはModel, Update, Viewでできている。
+-- Modelの型から考えるらしい。多くの場合はレコードだが、今回はIntである。
+-- viewとupdateは関数で、viewはmodelを受け取り、Htmlを返す。
+-- なんらかのeventでupdateが起動しmodelが返されるとviewが変化する。
+
 
 view : Model -> Html Msg
 view model =
     div [ class "text-center" ]
-        [ stylesheet, div [] [  text (String.fromInt model) ]
+        [ stylesheet
+        , div [] [ text (String.fromInt model) ]
         , button
-            -- The onClick function takes Increment value and will trigger an event
-            -- whenever the user clicks on the button.
-            -- When an event is triggered, the message value gets passed to the update
-            -- function, then the update function returns the new model state.
-            -- So whenever a user clicks the button, the onClick event will get triggered
-            -- which will pass the Increment value to the update function.
-            [ class "btn btn-primary", onClick Increment ]
-            [ text "+" ]
+            [ class "btn-lg btn-primary", onClick Increment ]
+            [ text "++++" ]
         ]
 
 
-
+-- onClick関数はIncrementという値を受け取りeventを発生させる
+ function takes Increment value and will trigger an event
+-- whenever the user clicks on the button.
+-- When an event is triggered, the message value gets passed to the update
+-- function, then the update function returns the new model state.
+-- So whenever a user clicks the button, the onClick event will get triggered
+-- which will pass the Increment value to the update function.
 -- The update function will get called whenever an event is triggered. The message value
 -- will be passed in as the first value and the current model state will be passed in as
 -- the second value. The update function returns the new model state, which will be passed
@@ -85,6 +89,7 @@ main =
         , update = update
         }
 
+
 stylesheet =
     let
         tag =
@@ -93,7 +98,7 @@ stylesheet =
         attrs =
             [ attribute "rel" "stylesheet"
             , attribute "property" "stylesheet"
-            , attribute "href" "https://kalz2q.github.io/elm-projects/css/styles.css"
+            , attribute "href" "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             ]
 
         children =
