@@ -24,7 +24,7 @@ stylesheet =
         attrs =
             [ attribute "rel" "stylesheet"
             , attribute "property" "stylesheet"
-            , attribute "href" "https://kalz2q.github.io/elm-projects/css/styles.css"
+            , attribute "href" "styles.css"
             ]
 
         children =

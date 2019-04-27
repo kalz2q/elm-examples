@@ -42,7 +42,7 @@ view model =
 
 
 -- onClick関数はIncrementという値を受け取りeventを発生させる
- function takes Increment value and will trigger an event
+ -- function takes Increment value and will trigger an event
 -- whenever the user clicks on the button.
 -- When an event is triggered, the message value gets passed to the update
 -- function, then the update function returns the new model state.
@@ -98,7 +98,7 @@ stylesheet =
         attrs =
             [ attribute "rel" "stylesheet"
             , attribute "property" "stylesheet"
-            , attribute "href" "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            , attribute "href" "styles.css"
             ]
 
         children =
