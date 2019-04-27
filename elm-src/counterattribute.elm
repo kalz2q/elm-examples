@@ -14,12 +14,10 @@ init =
   0
 
 
--- UPDATE
-
 type Msg
     = Increment
 
-
+-- ElmのプログラムはModel, Update, Viewでできていて、elmで書かれているので順序は決まっていない。
 -- This is the view function. The view function takes the model, which is an
 -- integer, then returns an HTML element, which gets displayed on the screen.
 -- Every time the model gets updated, the new value for the model will get passed
