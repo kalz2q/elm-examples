@@ -1,4 +1,8 @@
 module MyElmProjects exposing (main)
+-- moduleの名前はページのtitleになるみたい。Mainでなくてもよい。
+-- elmファイル名はなんでも大丈夫だけれど、moduleとしてimportする場合には最初の文字が大文字。Index.elmとか。
+-- 今回は関係ない。
+
 
 import Html exposing (..)
 import Html.Attributes exposing (..)
