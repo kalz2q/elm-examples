@@ -1,18 +1,16 @@
-# elm-projects
+# elm-examples
 I am Learning Elm 0.19.
 
-All the elm source files are available at https://github.com/kalz2q/elm-projects
+All the elm source files are available at https://github.com/kalz2q/elm-examples
 
-Elm sources are in `elm-src` directory.
-
-Html files are in `src` directory.
-
-I did the following
+I made html files by
 ```
-elm make elm-src/hogehoge.elm --output=src/hogehoge.html
+elm make src/hogehoge.elm --output=src/hogehoge.html
 ```
-You can link to html files through
+So you can view both elm files and html files
 
-[https://kalz2q.github.io/elm-projects/](https://kalz2q.github.io/elm-projects/) 
+Link to html files through
+
+[https://kalz2q.github.io/elm-examples/](https://kalz2q.github.io/elm-examples/) 
 
 
