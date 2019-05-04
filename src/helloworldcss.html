@@ -1,3 +1,13 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>HelloWorldWithCSS</title>
+</head>
+
+<body>
+<div id="elm-f0111bc4e658d0f98db96260c16f7e49"></div>
+<script>
 (function(scope){
 'use strict';
 
@@ -4362,6 +4372,30 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 			return 3;
 	}
 };
+var elm$virtual_dom$VirtualDom$node = function (tag) {
+	return _VirtualDom_node(
+		_VirtualDom_noScript(tag));
+};
+var elm$html$Html$node = elm$virtual_dom$VirtualDom$node;
+var elm$virtual_dom$VirtualDom$attribute = F2(
+	function (key, value) {
+		return A2(
+			_VirtualDom_attribute,
+			_VirtualDom_noOnOrFormAction(key),
+			_VirtualDom_noJavaScriptOrHtmlUri(value));
+	});
+var elm$html$Html$Attributes$attribute = elm$virtual_dom$VirtualDom$attribute;
+var author$project$HelloWorldWithCSS$stylesheet = function () {
+	var tag = 'link';
+	var children = _List_Nil;
+	var attrs = _List_fromArray(
+		[
+			A2(elm$html$Html$Attributes$attribute, 'rel', 'stylesheet'),
+			A2(elm$html$Html$Attributes$attribute, 'property', 'stylesheet'),
+			A2(elm$html$Html$Attributes$attribute, 'href', 'styles.css')
+		]);
+	return A3(elm$html$Html$node, tag, attrs, children);
+}();
 var elm$html$Html$div = _VirtualDom_node('div');
 var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
@@ -4382,6 +4416,16 @@ var author$project$HelloWorldWithCSS$main = A2(
 		]),
 	_List_fromArray(
 		[
+			author$project$HelloWorldWithCSS$stylesheet,
 			elm$html$Html$text('ハロー、CSS')
 		]));
 _Platform_export({'HelloWorldWithCSS':{'init':_VirtualDom_init(author$project$HelloWorldWithCSS$main)(0)(0)}});}(this));
+
+var app = Elm.HelloWorldWithCSS.init({ node: document.getElementById("elm-f0111bc4e658d0f98db96260c16f7e49") });
+if (document.getElementById("elm-f0111bc4e658d0f98db96260c16f7e49"))
+{
+  document.getElementById("elm-f0111bc4e658d0f98db96260c16f7e49").innerText = 'This is a headless program, meaning there is nothing to show here.\n\nI started the program anyway though, and you can access it as `app` in the developer console.';
+}
+</script>
+</body>
+</html>
