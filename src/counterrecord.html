@@ -1,3 +1,13 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CounterRecord</title>
+</head>
+
+<body>
+<div id="elm-f0111bc4e658d0f98db96260c16f7e49"></div>
+<script>
 (function(scope){
 'use strict';
 
@@ -4398,11 +4408,11 @@ var author$project$CounterRecord$update = F2(
 		if (msg.$ === 'Increment') {
 			return _Utils_update(
 				model,
-				{number: model.number - 1});
+				{number: model.number + 1});
 		} else {
 			return _Utils_update(
 				model,
-				{number: model.number + 1});
+				{number: model.number - 1});
 		}
 	});
 var author$project$CounterRecord$Decrement = {$: 'Decrement'};
@@ -5196,3 +5206,12 @@ var author$project$CounterRecord$main = elm$browser$Browser$sandbox(
 	{init: author$project$CounterRecord$init, update: author$project$CounterRecord$update, view: author$project$CounterRecord$view});
 _Platform_export({'CounterRecord':{'init':author$project$CounterRecord$main(
 	elm$json$Json$Decode$succeed(_Utils_Tuple0))(0)}});}(this));
+
+var app = Elm.CounterRecord.init({ node: document.getElementById("elm-f0111bc4e658d0f98db96260c16f7e49") });
+if (document.getElementById("elm-f0111bc4e658d0f98db96260c16f7e49"))
+{
+  document.getElementById("elm-f0111bc4e658d0f98db96260c16f7e49").innerText = 'This is a headless program, meaning there is nothing to show here.\n\nI started the program anyway though, and you can access it as `app` in the developer console.';
+}
+</script>
+</body>
+</html>
