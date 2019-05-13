@@ -1,3 +1,13 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>SimpleHelloWorldElm</title>
+</head>
+
+<body>
+<div id="elm-f0111bc4e658d0f98db96260c16f7e49"></div>
+<script>
 (function(scope){
 'use strict';
 
@@ -10125,3 +10135,12 @@ var author$project$SimpleHelloWorldElm$main = A2(
 			[mdgriffith$elm_ui$Element$centerX, mdgriffith$elm_ui$Element$centerY]),
 		mdgriffith$elm_ui$Element$text('Cats, the Gathering')));
 _Platform_export({'SimpleHelloWorldElm':{'init':_VirtualDom_init(author$project$SimpleHelloWorldElm$main)(0)(0)}});}(this));
+
+var app = Elm.SimpleHelloWorldElm.init({ node: document.getElementById("elm-f0111bc4e658d0f98db96260c16f7e49") });
+if (document.getElementById("elm-f0111bc4e658d0f98db96260c16f7e49"))
+{
+  document.getElementById("elm-f0111bc4e658d0f98db96260c16f7e49").innerText = 'This is a headless program, meaning there is nothing to show here.\n\nI started the program anyway though, and you can access it as `app` in the developer console.';
+}
+</script>
+</body>
+</html>
