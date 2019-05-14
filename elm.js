@@ -3869,7 +3869,6 @@ function _VirtualDom_dekey(keyedNode)
 		b: keyedNode.b
 	};
 }
-<<<<<<< HEAD
 
 
 
@@ -4349,25 +4348,6 @@ function _Browser_load(url)
 	}));
 }
 var author$project$CounterElmUi$init = {count: 38};
-=======
-var elm$core$Basics$identity = function (x) {
-	return x;
-};
-var elm$core$Basics$False = {$: 'False'};
-var elm$core$Basics$True = {$: 'True'};
-var elm$core$Result$isOk = function (result) {
-	if (result.$ === 'Ok') {
-		return true;
-	} else {
-		return false;
-	}
-};
-var elm$core$Array$branchFactor = 32;
-var elm$core$Array$Array_elm_builtin = F4(
-	function (a, b, c, d) {
-		return {$: 'Array_elm_builtin', a: a, b: b, c: c, d: d};
-	});
->>>>>>> 481fbd09fb1ee433c09595503ddea917b4c85c62
 var elm$core$Basics$EQ = {$: 'EQ'};
 var elm$core$Basics$GT = {$: 'GT'};
 var elm$core$Basics$LT = {$: 'LT'};
@@ -4464,6 +4444,17 @@ var author$project$CounterElmUi$update = F2(
 	});
 var author$project$CounterElmUi$Decrement = {$: 'Decrement'};
 var author$project$CounterElmUi$Increment = {$: 'Increment'};
+var elm$core$Basics$fdiv = _Basics_fdiv;
+var elm$core$Basics$toFloat = _Basics_toFloat;
+var mdgriffith$elm_ui$Internal$Model$Rgba = F4(
+	function (a, b, c, d) {
+		return {$: 'Rgba', a: a, b: b, c: c, d: d};
+	});
+var mdgriffith$elm_ui$Element$rgb255 = F3(
+	function (red, green, blue) {
+		return A4(mdgriffith$elm_ui$Internal$Model$Rgba, red / 255, green / 255, blue / 255, 1);
+	});
+var author$project$CounterElmUi$lightgreen = A3(mdgriffith$elm_ui$Element$rgb255, 118, 255, 118);
 var elm$core$Basics$apL = F2(
 	function (f, x) {
 		return f(x);
@@ -4734,12 +4725,10 @@ var elm$core$Array$Array_elm_builtin = F4(
 		return {$: 'Array_elm_builtin', a: a, b: b, c: c, d: d};
 	});
 var elm$core$Basics$ceiling = _Basics_ceiling;
-var elm$core$Basics$fdiv = _Basics_fdiv;
 var elm$core$Basics$logBase = F2(
 	function (base, number) {
 		return _Basics_log(number) / _Basics_log(base);
 	});
-var elm$core$Basics$toFloat = _Basics_toFloat;
 var elm$core$Array$shiftStep = elm$core$Basics$ceiling(
 	A2(elm$core$Basics$logBase, 2, elm$core$Array$branchFactor));
 var elm$core$Elm$JsArray$empty = _JsArray_empty;
@@ -5081,21 +5070,10 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 			return 3;
 	}
 };
-<<<<<<< HEAD
 var elm$html$Html$div = _VirtualDom_node('div');
 var elm$html$Html$p = _VirtualDom_node('p');
 var elm$html$Html$s = _VirtualDom_node('s');
 var elm$html$Html$u = _VirtualDom_node('u');
-=======
-var elm$html$Html$a = _VirtualDom_node('a');
-var elm$html$Html$div = _VirtualDom_node('div');
-var elm$html$Html$h1 = _VirtualDom_node('h1');
-var elm$html$Html$li = _VirtualDom_node('li');
-var elm$html$Html$p = _VirtualDom_node('p');
-var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
-var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
-var elm$html$Html$ul = _VirtualDom_node('ul');
->>>>>>> 481fbd09fb1ee433c09595503ddea917b4c85c62
 var elm$json$Json$Encode$string = _Json_wrap;
 var elm$html$Html$Attributes$stringProperty = F2(
 	function (key, string) {
@@ -5104,7 +5082,6 @@ var elm$html$Html$Attributes$stringProperty = F2(
 			key,
 			elm$json$Json$Encode$string(string));
 	});
-<<<<<<< HEAD
 var elm$html$Html$Attributes$class = elm$html$Html$Attributes$stringProperty('className');
 var elm$virtual_dom$VirtualDom$keyedNode = function (tag) {
 	return _VirtualDom_keyedNode(
@@ -10346,10 +10323,6 @@ var mdgriffith$elm_ui$Internal$Model$StaticRootAndDynamic = F2(
 	});
 var mdgriffith$elm_ui$Internal$Model$AllowHover = {$: 'AllowHover'};
 var mdgriffith$elm_ui$Internal$Model$Layout = {$: 'Layout'};
-var mdgriffith$elm_ui$Internal$Model$Rgba = F4(
-	function (a, b, c, d) {
-		return {$: 'Rgba', a: a, b: b, c: c, d: d};
-	});
 var mdgriffith$elm_ui$Internal$Model$focusDefaultStyle = {
 	backgroundColor: elm$core$Maybe$Nothing,
 	borderColor: elm$core$Maybe$Nothing,
@@ -10659,6 +10632,16 @@ var mdgriffith$elm_ui$Internal$Model$Text = function (a) {
 var mdgriffith$elm_ui$Element$text = function (content) {
 	return mdgriffith$elm_ui$Internal$Model$Text(content);
 };
+var mdgriffith$elm_ui$Element$Background$color = function (clr) {
+	return A2(
+		mdgriffith$elm_ui$Internal$Model$StyleClass,
+		mdgriffith$elm_ui$Internal$Flag$bgColor,
+		A3(
+			mdgriffith$elm_ui$Internal$Model$Colored,
+			'bg-' + mdgriffith$elm_ui$Internal$Model$formatColorClass(clr),
+			'background-color',
+			clr));
+};
 var elm$core$Basics$composeL = F3(
 	function (g, f, x) {
 		return g(
@@ -10687,7 +10670,8 @@ var author$project$CounterElmUi$view = function (model) {
 		mdgriffith$elm_ui$Element$layout,
 		_List_fromArray(
 			[
-				mdgriffith$elm_ui$Element$padding(10)
+				mdgriffith$elm_ui$Element$padding(10),
+				mdgriffith$elm_ui$Element$Background$color(author$project$CounterElmUi$lightgreen)
 			]),
 		A2(
 			mdgriffith$elm_ui$Element$column,
@@ -10973,317 +10957,3 @@ var author$project$CounterElmUi$main = elm$browser$Browser$sandbox(
 	{init: author$project$CounterElmUi$init, update: author$project$CounterElmUi$update, view: author$project$CounterElmUi$view});
 _Platform_export({'CounterElmUi':{'init':author$project$CounterElmUi$main(
 	elm$json$Json$Decode$succeed(_Utils_Tuple0))(0)}});}(this));
-=======
-var elm$html$Html$Attributes$href = function (url) {
-	return A2(
-		elm$html$Html$Attributes$stringProperty,
-		'href',
-		_VirtualDom_noJavaScriptUri(url));
-};
-var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
-var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
-var author$project$MyElmProjects$main = A2(
-	elm$html$Html$div,
-	_List_Nil,
-	_List_fromArray(
-		[
-			A2(
-			elm$html$Html$h1,
-			_List_fromArray(
-				[
-					A2(elm$html$Html$Attributes$style, 'font-family', 'serif')
-				]),
-			_List_fromArray(
-				[
-					elm$html$Html$text('Links to Examples')
-				])),
-			A2(
-			elm$html$Html$p,
-			_List_Nil,
-			_List_fromArray(
-				[
-					elm$html$Html$text('I am learning Elm 0.19.')
-				])),
-			A2(
-			elm$html$Html$p,
-			_List_Nil,
-			_List_fromArray(
-				[
-					elm$html$Html$text('All the elm source files are availabel at ')
-				])),
-			A2(
-			elm$html$Html$p,
-			_List_Nil,
-			_List_fromArray(
-				[
-					A2(
-					elm$html$Html$a,
-					_List_fromArray(
-						[
-							elm$html$Html$Attributes$href('https://github.com/kalz2q/elm-projects')
-						]),
-					_List_fromArray(
-						[
-							elm$html$Html$text('https://github.com/kalz2q/elm-projects')
-						]))
-				])),
-			A2(
-			elm$html$Html$p,
-			_List_fromArray(
-				[
-					A2(elm$html$Html$Attributes$style, 'font-size', '30px'),
-					A2(elm$html$Html$Attributes$style, 'font-family', 'Noto Serif CJK JP')
-				]),
-			_List_fromArray(
-				[
-					elm$html$Html$text('コピペしたり試行錯誤してElmから作ったもののリストです。')
-				])),
-			A2(
-			elm$html$Html$ul,
-			_List_Nil,
-			_List_fromArray(
-				[
-					A2(
-					elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$href('src/helloworldattribute.html')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('attribute付きハローワールド')
-								]))
-						])),
-					A2(
-					elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$href('src/helloworlddiv.html')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('div付きハローワールド')
-								]))
-						])),
-					A2(
-					elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$href('src/helloworldtype.html')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('型付きハローワールド')
-								]))
-						])),
-					A2(
-					elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$href('src/helloworld01.html')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('一番簡単なElmによるハローワールド')
-								]))
-						])),
-					A2(
-					elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$href('src/helloworldcss.html')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('cssの組み込み実験')
-								]))
-						])),
-					A2(
-					elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$href('src/httpgutenberg.html')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('httpグーテンベルグ')
-								]))
-						])),
-					A2(
-					elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$href('src/jsoncats.html')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('jsonによる猫動画')
-								]))
-						])),
-					A2(
-					elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$href('src/randomnumber.html')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('randomサイコロ')
-								]))
-						])),
-					A2(
-					elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$href('src/timenow.html')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('time今何時?')
-								]))
-						])),
-					A2(
-					elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$href('src/maybetemperature.html')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('Maybe華氏何度?')
-								]))
-						])),
-					A2(
-					elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$href('src/passwordmatch.html')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('パスワードマッチ')
-								]))
-						])),
-					A2(
-					elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$href('src/fieldtoreverse.html')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('テキストフィールドのサンプル')
-								]))
-						])),
-					A2(
-					elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$href('src/httpgetrepository.html')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('Httpのサンプル')
-								]))
-						])),
-					A2(
-					elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$href('src/textformlist.html')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('Formテキスト入力')
-								]))
-						])),
-					A2(
-					elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$href('src/counter.html')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('Counter.html')
-								]))
-						]))
-				]))
-		]));
-_Platform_export({'MyElmProjects':{'init':_VirtualDom_init(author$project$MyElmProjects$main)(0)(0)}});}(this));
->>>>>>> 481fbd09fb1ee433c09595503ddea917b4c85c62
