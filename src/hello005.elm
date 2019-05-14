@@ -9,6 +9,7 @@ import Html exposing (Html)
 
 -- rowを使ってみる
 -- columnと両方使う
+-- hello005.elm
 
 
 main =

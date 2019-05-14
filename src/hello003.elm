@@ -9,6 +9,9 @@ import Html exposing (Html)
 
 -- 複数行にするにはどうするか
 -- なにかでwrapする必要がありそう => elか => columですね
+-- hello003.elm
+-- columnとrowはsecond argumentがListです
+
 
 
 main =
