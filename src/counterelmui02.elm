@@ -1,4 +1,4 @@
-module CounterElmUi exposing (Model, Msg(..), init, main, update, view)
+module CounterElmUi exposing (Model, Msg(..), black, init, main, tan, update, view)
 
 import Browser
 import Element exposing (..)
@@ -16,7 +16,7 @@ type alias Model =
 
 init : Model
 init =
-    { count = 38 }
+    { count = 68 }
 
 
 type Msg
@@ -34,14 +34,19 @@ update msg model =
             { model | count = model.count - 1 }
 
 
-lightgreen : Element.Color
-lightgreen =
-    rgb255 118 255 118
+tan : Element.Color
+tan =
+    rgb255 215 175 135
 
+
+black =
+    rgb255 0 0 0
+
+red = rgb255 255 0 0
 
 view : Model -> Html Msg
 view model =
-    Element.layout [ padding 10, Background.color lightgreen ] <|
+    Element.layout [ padding 10, Background.color tan ] <|
         column [ spacing 10, width <| px 200, centerX ]
             [ el
                 [ Element.Events.onClick Increment
@@ -49,9 +54,9 @@ view model =
               <|
                 Element.text "増"
             , el
-                []
+                [Font.color red]
               <|
-                Element.text (String.fromInt model.count)
+                Element.text (String.fromInt model.count ++ "歳")
             , el
                 [ Element.Events.onClick Decrement
                 ]
