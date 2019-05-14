@@ -1,4 +1,4 @@
-module SimpleHelloWorldElm exposing (main)
+module HelloWorldElm exposing (main)
 
 import Element exposing (..)
 import Element.Background as Background

@@ -1,4 +1,4 @@
-module SimpleHelloWorldElm exposing (main)
+module SimpleHellorldElm exposing (main)
 
 import Element exposing (..)
 import Element.Background as Background
@@ -7,19 +7,17 @@ import Html exposing (Html)
 
 
 
--- 複数行にするにはどうするか
--- なにかでwrapする必要がありそう => elか => columですね
--- background.colorをつけてみる
+-- rowを使ってみる
 
 
 
 main =
     layout [] <|
-        column [Background.color (rgb255 200 200 200)
-        , height fill
+        row [Background.color (rgb255 200 200 200)
+        , width fill
         , centerX]
-            [ el []
+            [ el [width <| fillPortion 3]
                 (text "hello world")
-            , el [] (text "hellooooo woooorld")
-            , el [] (text "whats up?")
+            , el [width <| fillPortion 4] (text "hellooooo woooorld")
+            , el [width <| fillPortion 5] (text "whats up? wwwwwwwwwwwwww")
             ]
