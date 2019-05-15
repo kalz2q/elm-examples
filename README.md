@@ -5,7 +5,7 @@ All the elm source files are available at https://github.com/kalz2q/elm-examples
 
 I made html files by
 ```
-elm make src/hogehoge.elm --output=src/hogehoge.html
+elm make src/hogehoge.elm --output=hogehoge.html
 ```
 So you can view both elm files and html files
 
