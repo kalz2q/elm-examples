@@ -52,8 +52,8 @@ listOfExamples =
         , row []
             [ text "・"
             , link []
-                { url = "hello007.html"
-                , label = text ("hello007.html" ++  "=> 色付きハローワールド")
+                { url = "hello006.html"
+                , label = text ("hello006.html => 色付きハローワールド")
                 }
             ]
         ]
