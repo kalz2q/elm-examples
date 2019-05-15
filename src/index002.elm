@@ -46,7 +46,7 @@ listOfExamples =
             [ text "・"
             , link []
                 { url = "time002.html"
-                , label = text ("time002.html" ++ "=> デジタル時計")
+                , label = text ("time002.html => デジタル時計")
                 }
             ]
         , row []
