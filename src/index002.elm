@@ -1,4 +1,4 @@
-module MyElmProjects exposing (main)
+module Index002 exposing (main)
 
 import Browser
 import Element exposing (..)
@@ -14,35 +14,46 @@ main : Html msg
 main =
     layout [ Font.family [ Font.typeface "Noto Serif CJK JP" ] ] <|
         column
-            [ width (px 400)
+            [ width (px 600)
             , height (px 400)
             , Background.color (rgb255 200 180 170)
             , centerX
-            , Font.size 14
             , spacing 10
             ]
-            [ el [ Font.size 30, Font.bold ] <| text "Links to Examples"
-            , el [] <| text "I am learning Elm 0.19."
-            , row [] 
-              [ text "All the elm source files are availabel at "
-              , link []
-                { url = "https://github.com/kalz2q/elm-projects"
-                , label = text "https://github.com/kalz2q/elm-projects"
-                }
-              ]
-            , el [] <| text "コピペしたり試行錯誤してElmから作ったもののリストです。"
-            , row []
-                [ text "・"
-                , link []
-                    { url = "src/time002.html"
-                    , label = text "時計"
-                    }
-                , row []
-                    [ text "・"
-                    , link []
-                        { url = "src/hello007.html"
-                        , label = text "ハローワールド"
-                        }
-                    ]
-                ]
+            [ firstColumn
+            , listOfExamples
             ]
+
+
+firstColumn =
+    column [ spacing 10, Font.size 14, centerX]
+        [ el [ Font.size 30, Font.bold, centerX ] <| text "Links to Examples"
+        , el [centerX] <| text "I am learning Elm 0.19."
+        , el [centerX] <| text "Source files are availabel at "
+        , link [centerX]
+            { url = "https://github.com/kalz2q/elm-examples"
+            , label = text "https://github.com/kalz2q/elm-examples"
+            }
+        , el [centerX] <| text "コピペしたり試行錯誤してElmから作ったもののリストです。"
+        , el [] <| text ""
+        ]
+
+
+listOfExamples =
+    column [spacing 10]
+        [ el [] <| text "リスト"
+        , row []
+            [ text "・"
+            , link []
+                { url = "time002.html"
+                , label = text ("time002.html" ++ "=> デジタル時計")
+                }
+            ]
+        , row []
+            [ text "・"
+            , link []
+                { url = "hello007.html"
+                , label = text ("hello007.html" ++  "=> 色付きハローワールド")
+                }
+            ]
+        ]

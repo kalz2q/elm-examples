@@ -1,3 +1,13 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Index002</title>
+</head>
+
+<body>
+<div id="elm-f0111bc4e658d0f98db96260c16f7e49"></div>
+<script>
 (function(scope){
 'use strict';
 
@@ -3990,6 +4000,11 @@ var elm$core$Set$toList = function (_n0) {
 	var dict = _n0.a;
 	return elm$core$Dict$keys(dict);
 };
+var mdgriffith$elm_ui$Internal$Model$AlignX = function (a) {
+	return {$: 'AlignX', a: a};
+};
+var mdgriffith$elm_ui$Internal$Model$CenterX = {$: 'CenterX'};
+var mdgriffith$elm_ui$Element$centerX = mdgriffith$elm_ui$Internal$Model$AlignX(mdgriffith$elm_ui$Internal$Model$CenterX);
 var elm$core$Basics$append = _Utils_append;
 var mdgriffith$elm_ui$Internal$Model$Height = function (a) {
 	return {$: 'Height', a: a};
@@ -9880,6 +9895,29 @@ var mdgriffith$elm_ui$Element$link = F2(
 				_List_fromArray(
 					[label])));
 	});
+var mdgriffith$elm_ui$Internal$Flag$spacing = mdgriffith$elm_ui$Internal$Flag$flag(3);
+var mdgriffith$elm_ui$Internal$Model$SpacingStyle = F3(
+	function (a, b, c) {
+		return {$: 'SpacingStyle', a: a, b: b, c: c};
+	});
+var mdgriffith$elm_ui$Internal$Model$StyleClass = F2(
+	function (a, b) {
+		return {$: 'StyleClass', a: a, b: b};
+	});
+var mdgriffith$elm_ui$Internal$Model$spacingName = F2(
+	function (x, y) {
+		return 'spacing-' + (elm$core$String$fromInt(x) + ('-' + elm$core$String$fromInt(y)));
+	});
+var mdgriffith$elm_ui$Element$spacing = function (x) {
+	return A2(
+		mdgriffith$elm_ui$Internal$Model$StyleClass,
+		mdgriffith$elm_ui$Internal$Flag$spacing,
+		A3(
+			mdgriffith$elm_ui$Internal$Model$SpacingStyle,
+			A2(mdgriffith$elm_ui$Internal$Model$spacingName, x, x),
+			x,
+			x));
+};
 var mdgriffith$elm_ui$Internal$Model$Text = function (a) {
 	return {$: 'Text', a: a};
 };
@@ -9896,10 +9934,6 @@ var mdgriffith$elm_ui$Internal$Flag$fontSize = mdgriffith$elm_ui$Internal$Flag$f
 var mdgriffith$elm_ui$Internal$Model$FontSize = function (a) {
 	return {$: 'FontSize', a: a};
 };
-var mdgriffith$elm_ui$Internal$Model$StyleClass = F2(
-	function (a, b) {
-		return {$: 'StyleClass', a: a, b: b};
-	});
 var mdgriffith$elm_ui$Element$Font$size = function (i) {
 	return A2(
 		mdgriffith$elm_ui$Internal$Model$StyleClass,
@@ -9908,7 +9942,12 @@ var mdgriffith$elm_ui$Element$Font$size = function (i) {
 };
 var author$project$Index002$firstColumn = A2(
 	mdgriffith$elm_ui$Element$column,
-	_List_Nil,
+	_List_fromArray(
+		[
+			mdgriffith$elm_ui$Element$spacing(10),
+			mdgriffith$elm_ui$Element$Font$size(14),
+			mdgriffith$elm_ui$Element$centerX
+		]),
 	_List_fromArray(
 		[
 			A2(
@@ -9916,27 +9955,32 @@ var author$project$Index002$firstColumn = A2(
 			_List_fromArray(
 				[
 					mdgriffith$elm_ui$Element$Font$size(30),
-					mdgriffith$elm_ui$Element$Font$bold
+					mdgriffith$elm_ui$Element$Font$bold,
+					mdgriffith$elm_ui$Element$centerX
 				]),
 			mdgriffith$elm_ui$Element$text('Links to Examples')),
 			A2(
 			mdgriffith$elm_ui$Element$el,
-			_List_Nil,
+			_List_fromArray(
+				[mdgriffith$elm_ui$Element$centerX]),
 			mdgriffith$elm_ui$Element$text('I am learning Elm 0.19.')),
 			A2(
 			mdgriffith$elm_ui$Element$el,
-			_List_Nil,
-			mdgriffith$elm_ui$Element$text('All the elm source files are availabel at ')),
+			_List_fromArray(
+				[mdgriffith$elm_ui$Element$centerX]),
+			mdgriffith$elm_ui$Element$text('Source files are availabel at ')),
 			A2(
 			mdgriffith$elm_ui$Element$link,
-			_List_Nil,
+			_List_fromArray(
+				[mdgriffith$elm_ui$Element$centerX]),
 			{
-				label: mdgriffith$elm_ui$Element$text('https://github.com/kalz2q/elm-projects'),
-				url: 'https://github.com/kalz2q/elm-projects'
+				label: mdgriffith$elm_ui$Element$text('https://github.com/kalz2q/elm-examples'),
+				url: 'https://github.com/kalz2q/elm-examples'
 			}),
 			A2(
 			mdgriffith$elm_ui$Element$el,
-			_List_Nil,
+			_List_fromArray(
+				[mdgriffith$elm_ui$Element$centerX]),
 			mdgriffith$elm_ui$Element$text('コピペしたり試行錯誤してElmから作ったもののリストです。')),
 			A2(
 			mdgriffith$elm_ui$Element$el,
@@ -9965,9 +10009,16 @@ var mdgriffith$elm_ui$Element$row = F2(
 	});
 var author$project$Index002$listOfExamples = A2(
 	mdgriffith$elm_ui$Element$column,
-	_List_Nil,
 	_List_fromArray(
 		[
+			mdgriffith$elm_ui$Element$spacing(10)
+		]),
+	_List_fromArray(
+		[
+			A2(
+			mdgriffith$elm_ui$Element$el,
+			_List_Nil,
+			mdgriffith$elm_ui$Element$text('リスト')),
 			A2(
 			mdgriffith$elm_ui$Element$row,
 			_List_Nil,
@@ -9978,7 +10029,7 @@ var author$project$Index002$listOfExamples = A2(
 					mdgriffith$elm_ui$Element$link,
 					_List_Nil,
 					{
-						label: mdgriffith$elm_ui$Element$text('時計'),
+						label: mdgriffith$elm_ui$Element$text('time002.html' + '=> デジタル時計'),
 						url: 'time002.html'
 					})
 				])),
@@ -9992,16 +10043,11 @@ var author$project$Index002$listOfExamples = A2(
 					mdgriffith$elm_ui$Element$link,
 					_List_Nil,
 					{
-						label: mdgriffith$elm_ui$Element$text('ハローワールド'),
+						label: mdgriffith$elm_ui$Element$text('hello007.html' + '=> 色付きハローワールド'),
 						url: 'hello007.html'
 					})
 				]))
 		]));
-var mdgriffith$elm_ui$Internal$Model$AlignX = function (a) {
-	return {$: 'AlignX', a: a};
-};
-var mdgriffith$elm_ui$Internal$Model$CenterX = {$: 'CenterX'};
-var mdgriffith$elm_ui$Element$centerX = mdgriffith$elm_ui$Internal$Model$AlignX(mdgriffith$elm_ui$Internal$Model$CenterX);
 var mdgriffith$elm_ui$Internal$Model$OnlyDynamic = F2(
 	function (a, b) {
 		return {$: 'OnlyDynamic', a: a, b: b};
@@ -10279,25 +10325,6 @@ var mdgriffith$elm_ui$Element$rgb255 = F3(
 	function (red, green, blue) {
 		return A4(mdgriffith$elm_ui$Internal$Model$Rgba, red / 255, green / 255, blue / 255, 1);
 	});
-var mdgriffith$elm_ui$Internal$Flag$spacing = mdgriffith$elm_ui$Internal$Flag$flag(3);
-var mdgriffith$elm_ui$Internal$Model$SpacingStyle = F3(
-	function (a, b, c) {
-		return {$: 'SpacingStyle', a: a, b: b, c: c};
-	});
-var mdgriffith$elm_ui$Internal$Model$spacingName = F2(
-	function (x, y) {
-		return 'spacing-' + (elm$core$String$fromInt(x) + ('-' + elm$core$String$fromInt(y)));
-	});
-var mdgriffith$elm_ui$Element$spacing = function (x) {
-	return A2(
-		mdgriffith$elm_ui$Internal$Model$StyleClass,
-		mdgriffith$elm_ui$Internal$Flag$spacing,
-		A3(
-			mdgriffith$elm_ui$Internal$Model$SpacingStyle,
-			A2(mdgriffith$elm_ui$Internal$Model$spacingName, x, x),
-			x,
-			x));
-};
 var mdgriffith$elm_ui$Element$Background$color = function (clr) {
 	return A2(
 		mdgriffith$elm_ui$Internal$Model$StyleClass,
@@ -10333,15 +10360,23 @@ var author$project$Index002$main = A2(
 		_List_fromArray(
 			[
 				mdgriffith$elm_ui$Element$width(
-				mdgriffith$elm_ui$Element$px(400)),
+				mdgriffith$elm_ui$Element$px(600)),
 				mdgriffith$elm_ui$Element$height(
 				mdgriffith$elm_ui$Element$px(400)),
 				mdgriffith$elm_ui$Element$Background$color(
 				A3(mdgriffith$elm_ui$Element$rgb255, 200, 180, 170)),
 				mdgriffith$elm_ui$Element$centerX,
-				mdgriffith$elm_ui$Element$Font$size(14),
 				mdgriffith$elm_ui$Element$spacing(10)
 			]),
 		_List_fromArray(
 			[author$project$Index002$firstColumn, author$project$Index002$listOfExamples])));
 _Platform_export({'Index002':{'init':_VirtualDom_init(author$project$Index002$main)(0)(0)}});}(this));
+
+var app = Elm.Index002.init({ node: document.getElementById("elm-f0111bc4e658d0f98db96260c16f7e49") });
+if (document.getElementById("elm-f0111bc4e658d0f98db96260c16f7e49"))
+{
+  document.getElementById("elm-f0111bc4e658d0f98db96260c16f7e49").innerText = 'This is a headless program, meaning there is nothing to show here.\n\nI started the program anyway though, and you can access it as `app` in the developer console.';
+}
+</script>
+</body>
+</html>
