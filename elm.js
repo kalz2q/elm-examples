@@ -3996,9 +3996,10 @@ var mdgriffith$elm_ui$Element$rgb255 = F3(
 	function (red, green, blue) {
 		return A4(mdgriffith$elm_ui$Internal$Model$Rgba, red / 255, green / 255, blue / 255, 1);
 	});
-var author$project$Hello006$green = A3(mdgriffith$elm_ui$Element$rgb255, 0, 200, 0);
-var author$project$Hello006$pink = A3(mdgriffith$elm_ui$Element$rgb255, 240, 30, 245);
-var author$project$Hello006$white = A3(mdgriffith$elm_ui$Element$rgb255, 255, 255, 255);
+var author$project$ColorFind001$lavender = A3(mdgriffith$elm_ui$Element$rgb255, 230, 230, 250);
+var author$project$ColorFind001$lightgoldenrodyellow = A3(mdgriffith$elm_ui$Element$rgb255, 250, 250, 210);
+var author$project$ColorFind001$lightgreen = A3(mdgriffith$elm_ui$Element$rgb255, 144, 238, 144);
+var author$project$ColorFind001$lightpink = A3(mdgriffith$elm_ui$Element$rgb255, 255, 182, 193);
 var elm$core$Basics$apL = F2(
 	function (f, x) {
 		return f(x);
@@ -4415,11 +4416,6 @@ var mdgriffith$elm_ui$Internal$Model$AlignX = function (a) {
 };
 var mdgriffith$elm_ui$Internal$Model$CenterX = {$: 'CenterX'};
 var mdgriffith$elm_ui$Element$centerX = mdgriffith$elm_ui$Internal$Model$AlignX(mdgriffith$elm_ui$Internal$Model$CenterX);
-var mdgriffith$elm_ui$Internal$Model$AlignY = function (a) {
-	return {$: 'AlignY', a: a};
-};
-var mdgriffith$elm_ui$Internal$Model$CenterY = {$: 'CenterY'};
-var mdgriffith$elm_ui$Element$centerY = mdgriffith$elm_ui$Internal$Model$AlignY(mdgriffith$elm_ui$Internal$Model$CenterY);
 var mdgriffith$elm_ui$Internal$Model$Height = function (a) {
 	return {$: 'Height', a: a};
 };
@@ -10117,6 +10113,55 @@ var mdgriffith$elm_ui$Element$layoutWith = F3(
 	});
 var mdgriffith$elm_ui$Element$layout = mdgriffith$elm_ui$Element$layoutWith(
 	{options: _List_Nil});
+var mdgriffith$elm_ui$Internal$Model$Fill = function (a) {
+	return {$: 'Fill', a: a};
+};
+var mdgriffith$elm_ui$Element$fill = mdgriffith$elm_ui$Internal$Model$Fill(1);
+var mdgriffith$elm_ui$Internal$Flag$spacing = mdgriffith$elm_ui$Internal$Flag$flag(3);
+var mdgriffith$elm_ui$Internal$Model$SpacingStyle = F3(
+	function (a, b, c) {
+		return {$: 'SpacingStyle', a: a, b: b, c: c};
+	});
+var mdgriffith$elm_ui$Internal$Model$spacingName = F2(
+	function (x, y) {
+		return 'spacing-' + (elm$core$String$fromInt(x) + ('-' + elm$core$String$fromInt(y)));
+	});
+var mdgriffith$elm_ui$Element$spacing = function (x) {
+	return A2(
+		mdgriffith$elm_ui$Internal$Model$StyleClass,
+		mdgriffith$elm_ui$Internal$Flag$spacing,
+		A3(
+			mdgriffith$elm_ui$Internal$Model$SpacingStyle,
+			A2(mdgriffith$elm_ui$Internal$Model$spacingName, x, x),
+			x,
+			x));
+};
+var mdgriffith$elm_ui$Internal$Model$Describe = function (a) {
+	return {$: 'Describe', a: a};
+};
+var mdgriffith$elm_ui$Internal$Model$Paragraph = {$: 'Paragraph'};
+var mdgriffith$elm_ui$Element$paragraph = F2(
+	function (attrs, children) {
+		return A4(
+			mdgriffith$elm_ui$Internal$Model$element,
+			mdgriffith$elm_ui$Internal$Model$asParagraph,
+			mdgriffith$elm_ui$Internal$Model$div,
+			A2(
+				elm$core$List$cons,
+				mdgriffith$elm_ui$Internal$Model$Describe(mdgriffith$elm_ui$Internal$Model$Paragraph),
+				A2(
+					elm$core$List$cons,
+					mdgriffith$elm_ui$Element$width(mdgriffith$elm_ui$Element$fill),
+					A2(
+						elm$core$List$cons,
+						mdgriffith$elm_ui$Element$spacing(5),
+						attrs))),
+			mdgriffith$elm_ui$Internal$Model$Unkeyed(children));
+	});
+var mdgriffith$elm_ui$Internal$Model$Px = function (a) {
+	return {$: 'Px', a: a};
+};
+var mdgriffith$elm_ui$Element$px = mdgriffith$elm_ui$Internal$Model$Px;
 var mdgriffith$elm_ui$Internal$Model$Text = function (a) {
 	return {$: 'Text', a: a};
 };
@@ -10133,30 +10178,48 @@ var mdgriffith$elm_ui$Element$Background$color = function (clr) {
 			'background-color',
 			clr));
 };
-var mdgriffith$elm_ui$Element$Font$color = function (fontColor) {
-	return A2(
-		mdgriffith$elm_ui$Internal$Model$StyleClass,
-		mdgriffith$elm_ui$Internal$Flag$fontColor,
-		A3(
-			mdgriffith$elm_ui$Internal$Model$Colored,
-			'fc-' + mdgriffith$elm_ui$Internal$Model$formatColorClass(fontColor),
-			'color',
-			fontColor));
-};
-var author$project$Hello006$main = A2(
+var author$project$ColorFind001$main = A2(
 	mdgriffith$elm_ui$Element$layout,
 	_List_fromArray(
 		[
-			mdgriffith$elm_ui$Element$Background$color(author$project$Hello006$pink)
+			mdgriffith$elm_ui$Element$width(
+			mdgriffith$elm_ui$Element$px(600)),
+			mdgriffith$elm_ui$Element$Background$color(author$project$ColorFind001$lavender)
 		]),
 	A2(
-		mdgriffith$elm_ui$Element$el,
+		mdgriffith$elm_ui$Element$paragraph,
 		_List_fromArray(
 			[
-				mdgriffith$elm_ui$Element$centerX,
-				mdgriffith$elm_ui$Element$centerY,
-				mdgriffith$elm_ui$Element$Background$color(author$project$Hello006$green),
-				mdgriffith$elm_ui$Element$Font$color(author$project$Hello006$white)
+				mdgriffith$elm_ui$Element$width(
+				mdgriffith$elm_ui$Element$px(400)),
+				mdgriffith$elm_ui$Element$Background$color(author$project$ColorFind001$lightpink),
+				mdgriffith$elm_ui$Element$centerX
 			]),
-		mdgriffith$elm_ui$Element$text('  Hello, World!  ')));
-_Platform_export({'Hello006':{'init':_VirtualDom_init(author$project$Hello006$main)(0)(0)}});}(this));
+		_List_fromArray(
+			[
+				A2(
+				mdgriffith$elm_ui$Element$el,
+				_List_fromArray(
+					[
+						mdgriffith$elm_ui$Element$width(
+						mdgriffith$elm_ui$Element$px(150)),
+						mdgriffith$elm_ui$Element$height(
+						mdgriffith$elm_ui$Element$px(150)),
+						mdgriffith$elm_ui$Element$spacing(10),
+						mdgriffith$elm_ui$Element$Background$color(author$project$ColorFind001$lightgoldenrodyellow)
+					]),
+				mdgriffith$elm_ui$Element$text('this')),
+				A2(
+				mdgriffith$elm_ui$Element$el,
+				_List_fromArray(
+					[
+						mdgriffith$elm_ui$Element$width(
+						mdgriffith$elm_ui$Element$px(150)),
+						mdgriffith$elm_ui$Element$height(
+						mdgriffith$elm_ui$Element$px(150)),
+						mdgriffith$elm_ui$Element$spacing(10),
+						mdgriffith$elm_ui$Element$Background$color(author$project$ColorFind001$lightgreen)
+					]),
+				mdgriffith$elm_ui$Element$text('that'))
+			])));
+_Platform_export({'ColorFind001':{'init':_VirtualDom_init(author$project$ColorFind001$main)(0)(0)}});}(this));
