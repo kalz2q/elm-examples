@@ -16,7 +16,7 @@ main =
         column
             [ width (px 600)
             , height (px 400)
-            , Background.color (rgb255 200 180 170)
+            , Background.color lightpink
             , centerX
             , spacing 10
             ]
@@ -52,8 +52,17 @@ listOfExamples =
         , row []
             [ text "・"
             , link []
+                { url = "holyg002.html"
+                , label = text ("holyg002.html => 色付き聖杯")
+                }
+            ]
+        , row []
+            [ text "・"
+            , link []
                 { url = "hello006.html"
-                , label = text ("hello006.html => 色付きハローワールド")
+                , label = text ("hello006.html => 色付きハローワールドセンタリング")
                 }
             ]
         ]
+
+lightpink = rgb255 255 182 193
