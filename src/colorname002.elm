@@ -1,4 +1,3 @@
-module ColorName exposing (colors)
 colors =
     [ { name = "black", code = "0 0 0" }
     , { name = "maroon", code = "128 0 0" }
