@@ -21,4 +21,5 @@ main =
                 (text "hello world")
             , el [] (text "hellooooo woooorld")
             , el [] (text "whats up?")
+            -- , Html.div [] [ Html.text "Hello, World!" ]
             ]
