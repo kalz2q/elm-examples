@@ -1,4 +1,4 @@
-module BlueBox exposing (main)
+module BlueBox002 exposing (main)
 
 import Element exposing (..)
 import Element.Background as Background

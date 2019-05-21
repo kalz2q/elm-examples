@@ -34,7 +34,7 @@ firstColumn =
             { url = "https://github.com/kalz2q/elm-examples"
             , label = text "https://github.com/kalz2q/elm-examples"
             }
-        , el [centerX] <| text "コピペしたり試行錯誤してElmから作ったもののリストです。"
+        , el [centerX] <| text "コピペしたり試行錯誤してElm作ったもののリストです。"
         , el [] <| text ""
         ]
 
@@ -61,6 +61,13 @@ listOfExamples =
             , link []
                 { url = "hello006.html"
                 , label = text ("hello006.html => 色付きハローワールドセンタリング")
+                }
+            ]
+         , row []
+            [ text "・"
+            , link []
+                { url = "bluebox001.html"
+                , label = text ("bluebox001.html => 青い正方形を上下センタリング")
                 }
             ]
         ]
