@@ -11,7 +11,7 @@ import Html exposing (Html)
 
 main =
     layout [ Background.color pink ] <|
-        el [ centerX, centerY, Background.color green, Font.color white ] <|
+        el [ centerX, centerY, Background.color green, Font.color white, width <| px 100, height <| px 100 ] <|
             text "  Hello, World!  "
 
 
