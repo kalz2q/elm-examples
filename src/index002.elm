@@ -34,7 +34,7 @@ firstColumn =
             { url = "https://github.com/kalz2q/elm-examples"
             , label = text "https://github.com/kalz2q/elm-examples"
             }
-        , el [centerX] <| text "コピペしたり試行錯誤してElm作ったもののリストです。"
+        , el [centerX] <| text "コピペしたり試行錯誤してElmで作ったもののリストです。"
         , el [] <| text ""
         ]
 
