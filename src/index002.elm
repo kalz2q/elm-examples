@@ -77,6 +77,13 @@ listOfExamples =
                 , label = text ("bluebox001.html => 青い正方形を上下センタリング")
                 }
             ]
+         , row []
+            [ text "・"
+            , link []
+                { url = "hello001.html"
+                , label = text ("hello001.html => 一番簡単な hello world")
+                }
+            ]
         ]
 
 lightpink = rgb255 255 182 193

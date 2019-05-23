@@ -1,12 +1,12 @@
 module Hello001 exposing (main)
 
-import Html exposing (text)
+import Html
 
 
 
--- 簡単なElmによるハローワールドです。
--- textの型はString -> Html Msg
-
+-- 一番簡単な hello world
+-- ここで text の型は
+-- String.String -> Html.Html msg
 
 main =
-    text "hello world"
+    Html.text "hello world"
