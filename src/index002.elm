@@ -66,6 +66,13 @@ listOfExamples =
          , row []
             [ text "・"
             , link []
+                { url = "bluebox002.html"
+                , label = text ("bluebox002.html => 青の研究")
+                }
+            ]
+         , row []
+            [ text "・"
+            , link []
                 { url = "bluebox001.html"
                 , label = text ("bluebox001.html => 青い正方形を上下センタリング")
                 }
