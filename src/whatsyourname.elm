@@ -1,4 +1,4 @@
-module TextFormList exposing (main)
+module WhatsYourName exposing (main)
 
 import Browser
 import Html exposing (..)
@@ -21,14 +21,14 @@ main =
 
 type alias Model =
     { input : String
-    , memos : List String
+    , answer: String
     }
 
 
 init : Model
 init =
     { input = ""
-    , memos = []
+    , answer = ""
     }
 
 
@@ -50,7 +50,7 @@ update msg model =
         Submit ->
             { model
                 | input = ""
-                , memos = model.input :: model.memos
+                , answer = "Hello, " ++ model.input
             }
 
 
@@ -61,16 +61,10 @@ update msg model =
 view : Model -> Html Msg
 view model =
     div []
-        [ Html.form [ onSubmit Submit ]
+        [ div [style "text-align" "center"] [text "What's your name?"]
+        , Html.form [ onSubmit Submit ]
             [ input [ onInput Input, value model.input ] []
-            , button
-                [ disabled (String.isEmpty (String.trim model.input)) ]
-                [ text "Submit" ]
             ]
-        , ul [] (List.map viewMemo model.memos)
+        , text model.answer
         ]
 
-
-viewMemo : String -> Html Msg
-viewMemo memo =
-    li [] [ text memo ]
