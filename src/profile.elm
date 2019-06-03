@@ -1,6 +1,6 @@
 module Profile exposing (greeting, main)
 
--- This is a elm version of profile program of dotinstall's  html lessons
+-- This is a elm version of profile program of dotinstall's  html/css lessons
 
 import Browser
 import Html exposing (Html, button, div, text)
@@ -14,19 +14,19 @@ main =
 
 greeting : Html msg
 greeting =
-    div []
-        [ Html.header []
+    div [ style "color" "red", style "font-family" "Noto Serif CJK JP", style "margin" "0" ]
+        [ Html.header [ style "background-color" "pink" ]
             [ Html.nav []
-                [ Html.ul []
+                [ Html.ul [ style "margin" "0", style "list-style-type" "none", style "padding-left" "0" ]
                     [ Html.a
-                        [ attribute "href" "profile.html" ]
-                        [ Html.li [] [ text "HOME" ] ]
+                        [ attribute "href" "profile.html", style "color" "inherit"]
+                        [ Html.li [ style "display" "inline-block", style "padding" "\n                        8px 8px", style "font-size" "12px" ] [ text "HOME" ] ]
                     , Html.a
                         [ attribute "href" "about.html" ]
-                        [ Html.li [] [ text "ABOUT" ] ]
+                        [ Html.li [ style "display" "inline-block", style "padding" "\n                        8px 8px", style "font-size" "12px" ] [ text "ABOUT" ] ]
                     ]
                 ]
-            , div [] [ Html.img [ src "header.png", style "width" "100%", style "height" "200px", alt "header picture" ] [] ]
+            , div [ style "margin" "0" ] [ Html.img [ src "header.png", style "width" "100%", style "height" "200", alt "header picture" ] [] ]
             ]
         , Html.img [ src "taro002.png", width 360, alt "taro's icon" ] []
         , Html.section []
@@ -54,7 +54,8 @@ greeting =
 
 
 h1style =
-    [ style "color" "red"
+    [ style "color" "#380"
     , style "height" "90px"
     , style "width" "100%"
+    , style "margin" "0"
     ]

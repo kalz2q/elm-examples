@@ -4366,9 +4366,10 @@ var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
 var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
 var author$project$Profile$h1style = _List_fromArray(
 	[
-		A2(elm$html$Html$Attributes$style, 'color', 'red'),
+		A2(elm$html$Html$Attributes$style, 'color', '#380'),
 		A2(elm$html$Html$Attributes$style, 'height', '90px'),
-		A2(elm$html$Html$Attributes$style, 'width', '100%')
+		A2(elm$html$Html$Attributes$style, 'width', '100%'),
+		A2(elm$html$Html$Attributes$style, 'margin', '0')
 	]);
 var elm$html$Html$a = _VirtualDom_node('a');
 var elm$html$Html$div = _VirtualDom_node('div');
@@ -4414,29 +4415,44 @@ var elm$html$Html$Attributes$width = function (n) {
 };
 var author$project$Profile$greeting = A2(
 	elm$html$Html$div,
-	_List_Nil,
+	_List_fromArray(
+		[
+			A2(elm$html$Html$Attributes$style, 'color', 'red'),
+			A2(elm$html$Html$Attributes$style, 'font-family', 'Noto Serif CJK JP'),
+			A2(elm$html$Html$Attributes$style, 'margin', '20')
+		]),
 	_List_fromArray(
 		[
 			A2(
 			elm$html$Html$header,
-			_List_Nil,
+			_List_fromArray(
+				[
+					A2(elm$html$Html$Attributes$style, 'background-color', 'pink')
+				]),
 			_List_fromArray(
 				[
 					A2(
 					elm$html$Html$nav,
-					_List_Nil,
+					_List_fromArray(
+						[
+							A2(elm$html$Html$Attributes$style, 'margin', '20')
+						]),
 					_List_fromArray(
 						[
 							A2(
 							elm$html$Html$ul,
-							_List_Nil,
+							_List_fromArray(
+								[
+									A2(elm$html$Html$Attributes$style, 'margin', '0')
+								]),
 							_List_fromArray(
 								[
 									A2(
 									elm$html$Html$a,
 									_List_fromArray(
 										[
-											A2(elm$html$Html$Attributes$attribute, 'href', 'profile.html')
+											A2(elm$html$Html$Attributes$attribute, 'href', 'profile.html'),
+											A2(elm$html$Html$Attributes$style, 'color', 'green')
 										]),
 									_List_fromArray(
 										[
@@ -4477,7 +4493,7 @@ var author$project$Profile$greeting = A2(
 								[
 									elm$html$Html$Attributes$src('header.png'),
 									A2(elm$html$Html$Attributes$style, 'width', '100%'),
-									A2(elm$html$Html$Attributes$style, 'height', '200px'),
+									A2(elm$html$Html$Attributes$style, 'height', '200'),
 									elm$html$Html$Attributes$alt('header picture')
 								]),
 							_List_Nil)
