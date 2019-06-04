@@ -4419,7 +4419,7 @@ var author$project$Profile$greeting = A2(
 		[
 			A2(elm$html$Html$Attributes$style, 'color', 'red'),
 			A2(elm$html$Html$Attributes$style, 'font-family', 'Noto Serif CJK JP'),
-			A2(elm$html$Html$Attributes$style, 'margin', '20')
+			A2(elm$html$Html$Attributes$style, 'margin', '0')
 		]),
 	_List_fromArray(
 		[
@@ -4427,23 +4427,28 @@ var author$project$Profile$greeting = A2(
 			elm$html$Html$header,
 			_List_fromArray(
 				[
-					A2(elm$html$Html$Attributes$style, 'background-color', 'pink')
+					A2(elm$html$Html$Attributes$style, 'text-align', 'right'),
+					A2(elm$html$Html$Attributes$style, 'padding', '20'),
+					A2(elm$html$Html$Attributes$style, 'background-image', 'url(header002.png)'),
+					A2(elm$html$Html$Attributes$style, 'height', '240px'),
+					A2(elm$html$Html$Attributes$style, 'background-size', 'cover'),
+					A2(elm$html$Html$Attributes$style, 'background-position', '50% 50%'),
+					A2(elm$html$Html$Attributes$style, 'margin-bottom', '60px')
 				]),
 			_List_fromArray(
 				[
 					A2(
 					elm$html$Html$nav,
-					_List_fromArray(
-						[
-							A2(elm$html$Html$Attributes$style, 'margin', '20')
-						]),
+					_List_Nil,
 					_List_fromArray(
 						[
 							A2(
 							elm$html$Html$ul,
 							_List_fromArray(
 								[
-									A2(elm$html$Html$Attributes$style, 'margin', '0')
+									A2(elm$html$Html$Attributes$style, 'margin', '0'),
+									A2(elm$html$Html$Attributes$style, 'list-style-type', 'none'),
+									A2(elm$html$Html$Attributes$style, 'padding-left', '0')
 								]),
 							_List_fromArray(
 								[
@@ -4451,14 +4456,17 @@ var author$project$Profile$greeting = A2(
 									elm$html$Html$a,
 									_List_fromArray(
 										[
-											A2(elm$html$Html$Attributes$attribute, 'href', 'profile.html'),
-											A2(elm$html$Html$Attributes$style, 'color', 'green')
+											A2(elm$html$Html$Attributes$attribute, 'href', 'profile.html')
 										]),
 									_List_fromArray(
 										[
 											A2(
 											elm$html$Html$li,
-											_List_Nil,
+											_List_fromArray(
+												[
+													A2(elm$html$Html$Attributes$style, 'display', 'inline-block'),
+													A2(elm$html$Html$Attributes$style, 'padding', '8px 8px')
+												]),
 											_List_fromArray(
 												[
 													elm$html$Html$text('HOME')
@@ -4474,45 +4482,36 @@ var author$project$Profile$greeting = A2(
 										[
 											A2(
 											elm$html$Html$li,
-											_List_Nil,
+											_List_fromArray(
+												[
+													A2(elm$html$Html$Attributes$style, 'display', 'inline-block'),
+													A2(elm$html$Html$Attributes$style, 'padding', '8px 8px')
+												]),
 											_List_fromArray(
 												[
 													elm$html$Html$text('ABOUT')
 												]))
 										]))
 								]))
-						])),
-					A2(
-					elm$html$Html$div,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$img,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$src('header.png'),
-									A2(elm$html$Html$Attributes$style, 'width', '100%'),
-									A2(elm$html$Html$Attributes$style, 'height', '200'),
-									elm$html$Html$Attributes$alt('header picture')
-								]),
-							_List_Nil)
 						]))
 				])),
 			A2(
-			elm$html$Html$img,
-			_List_fromArray(
-				[
-					elm$html$Html$Attributes$src('taro002.png'),
-					elm$html$Html$Attributes$width(360),
-					elm$html$Html$Attributes$alt('taro\'s icon')
-				]),
-			_List_Nil),
-			A2(
 			elm$html$Html$section,
-			_List_Nil,
 			_List_fromArray(
 				[
+					A2(elm$html$Html$Attributes$style, 'text-align', 'center')
+				]),
+			_List_fromArray(
+				[
+					A2(
+					elm$html$Html$img,
+					_List_fromArray(
+						[
+							elm$html$Html$Attributes$src('taro002.png'),
+							elm$html$Html$Attributes$width(360),
+							elm$html$Html$Attributes$alt('taro\'s icon')
+						]),
+					_List_Nil),
 					A2(
 					elm$html$Html$h1,
 					author$project$Profile$h1style,

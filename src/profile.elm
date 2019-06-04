@@ -15,22 +15,35 @@ main =
 greeting : Html msg
 greeting =
     div [ style "color" "red", style "font-family" "Noto Serif CJK JP", style "margin" "0" ]
-        [ Html.header [ style "background-color" "pink" ]
+        [ Html.header
+            [ style "text-align" "right"
+            , style "padding" "20"
+            , style "background-image" "url(header002.png)"
+            , style "height" "240px"
+            , style "background-size" "cover"
+            , style "background-position" "50% 50%"
+            , style "margin-bottom" "60px"
+            ]
             [ Html.nav []
                 [ Html.ul [ style "margin" "0", style "list-style-type" "none", style "padding-left" "0" ]
                     [ Html.a
-                        [ attribute "href" "profile.html", style "color" "inherit"]
-                        [ Html.li [ style "display" "inline-block", style "padding" "\n                        8px 8px", style "font-size" "12px" ] [ text "HOME" ] ]
+                        [ attribute "href" "profile.html"
+
+                        -- , style "color" "inherit"
+                        ]
+                        [ Html.li [ style "display" "inline-block", style "padding" "8px 8px" ] [ text "HOME" ] ]
                     , Html.a
                         [ attribute "href" "about.html" ]
-                        [ Html.li [ style "display" "inline-block", style "padding" "\n                        8px 8px", style "font-size" "12px" ] [ text "ABOUT" ] ]
+                        [ Html.li [ style "display" "inline-block", style "padding" "8px 8px" ] [ text "ABOUT" ] ]
                     ]
                 ]
-            , div [ style "margin" "0" ] [ Html.img [ src "header.png", style "width" "100%", style "height" "200", alt "header picture" ] [] ]
+
+            -- , div [ style "margin" "0" ] [ Html.img [ src "header.png", style "width" "100%", style "height" "200", alt "header picture" ] [] ]
             ]
-        , Html.img [ src "taro002.png", width 360, alt "taro's icon" ] []
-        , Html.section []
-            [ Html.h1
+        , Html.section [style "text-align" "center"]
+            [ 
+              Html.img [ src "taro002.png", width 360, alt "taro's icon" ] []
+               ,  Html.h1
                 h1style
                 [ text "Hello!"
                 ]
