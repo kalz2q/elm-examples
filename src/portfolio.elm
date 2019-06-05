@@ -1,4 +1,4 @@
-module Profile exposing (greeting, main)
+module Portfolio exposing (greeting, main)
 
 -- This is a elm version of profile program of dotinstall's  html/css lessons
 
@@ -25,13 +25,15 @@ greeting =
             , style "margin-bottom" "60px"
             ]
             [ Html.nav []
-                [ Html.ul [ style "margin" "0", style "list-style-type" "none", style "padding-left" "0" ]
+                [ Html.ul [ style "margin" "0"
+                , style "list-style-type" "none"
+                , style "padding-left" "0" ]
                     [ Html.a
                         [ attribute "href" "profile.html"
-
                         -- , style "color" "inherit"
                         ]
-                        [ Html.li [ style "display" "inline-block", style "padding" "8px 8px" ] [ text "HOME" ] ]
+                        [ Html.li [ style "display" "inline-block"
+                        , style "padding" "8px 8px" ] [ text "HOME" ] ]
                     , Html.a
                         [ attribute "href" "about.html" ]
                         [ Html.li [ style "display" "inline-block", style "padding" "8px 8px" ] [ text "ABOUT" ] ]
@@ -53,13 +55,13 @@ greeting =
                 ]
             ]
         , Html.footer []
-            [ Html.ul []
+            [ Html.ul [ style "list-style-type" "none"]
                 [ Html.a [ attribute "href" "mailto:xxxx@gmail.com" ]
-                    [ Html.li [] [ Html.img [ src "mail.png", width 40, alt "メール送信" ] [] ] ]
+                    [ Html.li [style "display" "inline-block"] [ Html.img [ src "mail.png", width 40, alt "メール送信" ] [] ] ]
                 , Html.a [ attribute "href" "https://dotinstall.com", attribute "target" "_blank" ]
-                    [ Html.li [] [ Html.img [ src "blog.png", width 40, alt "ブログサイトへ" ] [] ] ]
+                    [ Html.li [style "display" "inline-block"] [ Html.img [ src "blog.png", width 40, alt "ブログサイトへ" ] [] ] ]
                 , Html.a [ attribute "href" "https://dotinstall.com", attribute "target" "_blank" ]
-                    [ Html.li [] [ Html.img [ src "photos.png", width 40, alt "写真サイトへ" ] [] ] ]
+                    [ Html.li [style "display" "inline-block"] [ Html.img [ src "photos.png", width 40, alt "写真サイトへ" ] [] ] ]
                 ]
             , Html.p [] [ text ("©" ++ "TaroCatty") ]
             ]
