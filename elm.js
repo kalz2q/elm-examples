@@ -4364,7 +4364,7 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 };
 var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
 var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
-var author$project$Profile$h1style = _List_fromArray(
+var author$project$Portfolio$h1style = _List_fromArray(
 	[
 		A2(elm$html$Html$Attributes$style, 'color', '#380'),
 		A2(elm$html$Html$Attributes$style, 'height', '90px'),
@@ -4401,6 +4401,12 @@ var elm$virtual_dom$VirtualDom$attribute = F2(
 			_VirtualDom_noJavaScriptOrHtmlUri(value));
 	});
 var elm$html$Html$Attributes$attribute = elm$virtual_dom$VirtualDom$attribute;
+var elm$html$Html$Attributes$height = function (n) {
+	return A2(
+		_VirtualDom_attribute,
+		'height',
+		elm$core$String$fromInt(n));
+};
 var elm$html$Html$Attributes$src = function (url) {
 	return A2(
 		elm$html$Html$Attributes$stringProperty,
@@ -4413,7 +4419,7 @@ var elm$html$Html$Attributes$width = function (n) {
 		'width',
 		elm$core$String$fromInt(n));
 };
-var author$project$Profile$greeting = A2(
+var author$project$Portfolio$greeting = A2(
 	elm$html$Html$div,
 	_List_fromArray(
 		[
@@ -4508,13 +4514,16 @@ var author$project$Profile$greeting = A2(
 					_List_fromArray(
 						[
 							elm$html$Html$Attributes$src('taro002.png'),
-							elm$html$Html$Attributes$width(360),
-							elm$html$Html$Attributes$alt('taro\'s icon')
+							elm$html$Html$Attributes$width(200),
+							elm$html$Html$Attributes$height(200),
+							elm$html$Html$Attributes$alt('taro\'s icon'),
+							A2(elm$html$Html$Attributes$style, 'border-radius', '50%'),
+							A2(elm$html$Html$Attributes$style, 'border', 'pinks solid 10px')
 						]),
 					_List_Nil),
 					A2(
 					elm$html$Html$h1,
-					author$project$Profile$h1style,
+					author$project$Portfolio$h1style,
 					_List_fromArray(
 						[
 							elm$html$Html$text('Hello!')
@@ -4535,7 +4544,10 @@ var author$project$Profile$greeting = A2(
 				[
 					A2(
 					elm$html$Html$ul,
-					_List_Nil,
+					_List_fromArray(
+						[
+							A2(elm$html$Html$Attributes$style, 'list-style-type', 'none')
+						]),
 					_List_fromArray(
 						[
 							A2(
@@ -4548,7 +4560,10 @@ var author$project$Profile$greeting = A2(
 								[
 									A2(
 									elm$html$Html$li,
-									_List_Nil,
+									_List_fromArray(
+										[
+											A2(elm$html$Html$Attributes$style, 'display', 'inline-block')
+										]),
 									_List_fromArray(
 										[
 											A2(
@@ -4573,7 +4588,10 @@ var author$project$Profile$greeting = A2(
 								[
 									A2(
 									elm$html$Html$li,
-									_List_Nil,
+									_List_fromArray(
+										[
+											A2(elm$html$Html$Attributes$style, 'display', 'inline-block')
+										]),
 									_List_fromArray(
 										[
 											A2(
@@ -4598,7 +4616,10 @@ var author$project$Profile$greeting = A2(
 								[
 									A2(
 									elm$html$Html$li,
-									_List_Nil,
+									_List_fromArray(
+										[
+											A2(elm$html$Html$Attributes$style, 'display', 'inline-block')
+										]),
 									_List_fromArray(
 										[
 											A2(
@@ -4622,5 +4643,5 @@ var author$project$Profile$greeting = A2(
 						]))
 				]))
 		]));
-var author$project$Profile$main = author$project$Profile$greeting;
-_Platform_export({'Profile':{'init':_VirtualDom_init(author$project$Profile$main)(0)(0)}});}(this));
+var author$project$Portfolio$main = author$project$Portfolio$greeting;
+_Platform_export({'Portfolio':{'init':_VirtualDom_init(author$project$Portfolio$main)(0)(0)}});}(this));
