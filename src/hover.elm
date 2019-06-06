@@ -1,13 +1,10 @@
 module Hover exposing (Model, Msg(..), init, main, update, view)
 
+--
+
 import Browser
-import Html exposing (Attribute, Html, div, input, text)
-import Html.Attributes exposing (..)
-import Html.Events exposing (..)
-
-
-
--- MAIN
+import Html exposing (..)
+import Html.Events exposing (onClick, onMouseOver)
 
 
 main =
@@ -19,13 +16,16 @@ main =
 
 
 type alias Model =
-    { content : String
+    { number : Int
+    , backgroundcolor : String
     }
 
 
 init : Model
-init =
-    { content = "red" }
+init = { 
+    number = 68
+    , backgroundcolor = "red"
+     }
 
 
 
@@ -33,14 +33,22 @@ init =
 
 
 type Msg
-    = Change String
+    = Increment
+    | Decrement
+    | Change
 
 
 update : Msg -> Model -> Model
 update msg model =
     case msg of
-        Change newContent ->
-            { model | content = newContent }
+        Increment ->
+            model.number + 1
+
+        Decrement ->
+            model.number  - 1
+
+        Change ->
+            model.backgroundcolor "blue"
 
 
 
@@ -50,7 +58,12 @@ update msg model =
 view : Model -> Html Msg
 view model =
     div []
-        [ input [ placeholder "Text to reverse"
-        , value "red"
-        , onInput Change ] []
+        [ button
+            [ onClick Decrement
+            , onMouseOver Change
+            ]
+            [ text "数字をマイナスするよ" ]
+
+        -- , div [] [ text (String.fromInt model) ]
+        -- , button [ onClick Increment ] [ text "数字をプラスするよ" ]
         ]
