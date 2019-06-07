@@ -1,4 +1,6 @@
-module Main exposing (Model, Msg(..), init, main, update)
+module Navigation002 exposing (Model, Msg(..), init, main, subscriptions, update, view, viewLink)
+
+-- this is a sample from elm guide introduction to elm
 
 import Browser
 import Browser.Navigation as Nav
@@ -17,7 +19,7 @@ main =
         { init = init
         , view = view
         , update = update
-        , subscriptions =subscriptions
+        , subscriptions = subscriptions
         , onUrlChange = UrlChanged
         , onUrlRequest = LinkClicked
         }
@@ -62,3 +64,38 @@ update msg model =
             ( { model | url = url }
             , Cmd.none
             )
+
+
+
+-- SUBSCRIPTIONS
+
+
+subscriptions : Model -> Sub Msg
+subscriptions _ =
+    Sub.none
+
+
+
+-- VIEW
+
+
+view : Model -> Browser.Document Msg
+view model =
+    { title = "URL Interceptor"
+    , body =
+        [ text "The current URL is: "
+        , b [] [ text (Url.toString model.url) ]
+        , ul []
+            [ viewLink "/home"
+            , viewLink "/profile"
+            , viewLink "/reviews/the-century-of-the-self"
+            , viewLink "/reviews/public-opinion"
+            , viewLink "/reviews/shah-of-shahs"
+            ]
+        ]
+    }
+
+
+viewLink : String -> Html msg
+viewLink path =
+    li [] [ a [ href path ] [ text path ] ]
