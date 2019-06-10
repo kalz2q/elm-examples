@@ -1,13 +1,9 @@
-module MouseOver exposing (main)
--- I am studyign https://ellie-app.com/qPWtPP4f9fa1 wghichi is written in with an older version of the elm compiler
-
-
-
-import Browser
-import Html exposing (..)
-import Html.Attributes exposing (..)
-import Html.Events exposing (..)
-import Json.Decode exposing (..)
+module Main exposing (main)
+-- This is https://ellie-app.com/qPWtPP4f9fa1 which is written withan older verrsion 
+import Html as H exposing (Html)
+import Html.Attributes as HA
+import Html.Events as HE
+import Json.Decode as JD
 
 
 type Msg
@@ -22,8 +18,8 @@ type Msg
 
 view : Model -> Html Msg
 view model =
-    div []
-        [ div
+    H.div []
+        [ H.div
             [ HE.onWithOptions
                 "mouseenter"
                 { stopPropagation = model.stopPropagationEnterLeave
@@ -53,8 +49,8 @@ view model =
                 , ( "padding", "20px" )
                 ]
             ]
-            [ text "This is layer 1... Hover over me!"
-            , div
+            [ H.text "This is layer 1... Hover over me!"
+            , H.div
                 [ HE.onWithOptions
                     "mouseenter"
                     { stopPropagation = model.stopPropagationEnterLeave
@@ -84,35 +80,35 @@ view model =
                     , ( "padding", "20px" )
                     ]
                 ]
-                [ text "This is layer 2... Hover over me!"
+                [ H.text "This is layer 2... Hover over me!"
                 ]
             ]
-        , button [ HE.onClick Reset ] [ text "Reset" ]
-        , button [ HE.onClick ToggleStopPropagationEnterLeave ] [ text ("stopPropagation for Enter/Leave is " ++ toString model.stopPropagationEnterLeave ++ " ... Toggle!") ]
-        , button [ HE.onClick ToggleStopPropagationOverOut ] [ text ("stopPropagation for Over/Out is " ++ toString model.stopPropagationOverOut ++ " ... Toggle!") ]
-        , div
+        , H.button [ HE.onClick Reset ] [ H.text "Reset" ]
+        , H.button [ HE.onClick ToggleStopPropagationEnterLeave ] [ H.text ("stopPropagation for Enter/Leave is " ++ toString model.stopPropagationEnterLeave ++ " ... Toggle!") ]
+        , H.button [ HE.onClick ToggleStopPropagationOverOut ] [ H.text ("stopPropagation for Over/Out is " ++ toString model.stopPropagationOverOut ++ " ... Toggle!") ]
+        , H.div
             [ HA.style
                 [ ( "display", "flex" )
                 , ( "flex-direction", "row" )
                 ]
             ]
-            [ div
+            [ H.div
                 [ HA.style
                     [ ( "display", "flex" )
                     , ( "flex", "1" )
                     ]
                 ]
-                [ text "Enter / Leave"
-                , ul [] (model.enterLeave |> List.map (\msg -> li [] [ text (toString msg) ]))
+                [ H.text "Enter / Leave"
+                , H.ul [] (model.enterLeave |> List.map (\msg -> H.li [] [ H.text (toString msg) ]))
                 ]
-            , div
+            , H.div
                 [ HA.style
                     [ ( "display", "flex" )
                     , ( "flex", "1" )
                     ]
                 ]
-                [ text "Over / Out"
-                , ul [] (model.overOut |> List.map (\msg -> li [] [ text (toString msg) ]))
+                [ H.text "Over / Out"
+                , H.ul [] (model.overOut |> List.map (\msg -> H.li [] [ H.text (toString msg) ]))
                 ]
             ]
         ]
@@ -162,7 +158,7 @@ update msg model =
 
 main : Program Never Model Msg
 main =
-    Browser.sandbox
+    H.beginnerProgram
         { model = initialModel
         , view = view
         , update = update
