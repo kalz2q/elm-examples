@@ -1,4 +1,7 @@
-module Main exposing (Model, Msg(..), init, main, subscriptions, update, view)
+module Random001 exposing (Model, Msg(..), init, main, subscriptions, update, view)
+
+-- initにrandomを入れられるか実験
+-- できた。
 
 import Browser
 import Html exposing (..)
@@ -19,11 +22,6 @@ main =
         }
 
 
-
--- initにrandomを入れられるか実験
--- MODEL
-
-
 type alias Model =
     { dieFace : Int
     }
@@ -31,18 +29,11 @@ type alias Model =
 
 init : () -> ( Model, Cmd Msg )
 init _ =
-    ( initUpdate (Random.generate NewFace (Random.int 1 6) )
-    , Cmd.none
+    ( Model 1
+    , Random.generate NewFace (Random.int 1 1000)
     )
 
-initUpdate : Msg -> Model -> Model
-initUpdate msg model =
-  case msg of
-        Roll ->
-          model
 
-        NewFace newFace ->
-             Model newFace
 
 -- UPDATE
 
