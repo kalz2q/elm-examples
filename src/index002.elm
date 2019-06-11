@@ -45,6 +45,13 @@ listOfExamples =
         , row []
             [ text "・"
             , link []
+                { url = "random001.html"
+                , label = text ("random001.html => random number 発生機")
+                }
+            ]
+        , row []
+            [ text "・"
+            , link []
                 { url = "time002.html"
                 , label = text ("time002.html => デジタル時計")
                 }

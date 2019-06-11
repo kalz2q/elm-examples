@@ -1,16 +1,10 @@
 module Random001 exposing (Model, Msg(..), init, main, subscriptions, update, view)
 
--- initにrandomを入れられるか実験
--- できた。
-
 import Browser
 import Html exposing (..)
+import Html.Attributes exposing (..)
 import Html.Events exposing (..)
 import Random
-
-
-
--- MAIN
 
 
 main =
@@ -23,42 +17,28 @@ main =
 
 
 type alias Model =
-    { dieFace : Int
+    { randomNumber : Int
     }
 
 
 init : () -> ( Model, Cmd Msg )
 init _ =
     ( Model 1
-    , Random.generate NewFace (Random.int 1 1000)
+    , Random.generate NewFace (Random.int 1 100000)
     )
 
 
-
--- UPDATE
-
-
 type Msg
-    = Roll
-    | NewFace Int
+    = NewFace Int
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        Roll ->
-            ( model
-            , Random.generate NewFace (Random.int 1 6)
-            )
-
         NewFace newFace ->
             ( Model newFace
             , Cmd.none
             )
-
-
-
--- SUBSCRIPTIONS
 
 
 subscriptions : Model -> Sub Msg
@@ -66,13 +46,21 @@ subscriptions model =
     Sub.none
 
 
-
--- VIEW
-
-
 view : Model -> Html Msg
 view model =
-    div []
-        [ h1 [] [ text (String.fromInt model.dieFace) ]
-        , button [ onClick Roll ] [ text "Roll" ]
+    div
+        [ style "text-align" "center"
+        , style "margin" "60px auto"
+        , style "width" "400px"
+        ]
+        [ h3 [] [ text "Following is a random number " ]
+        , h3 [] [ text "between 1 and 100000." ]
+        , h3 [] [ text "If you don't like the number," ]
+        , h3 [] [ text "reload the page" ]
+        , h3 [] [ text "and a new number will appear.       " ]
+        , h1
+            [ style "color" "red"
+            , style "margin" "0"
+            ]
+            [ text (String.fromInt model.randomNumber) ]
         ]
