@@ -31,11 +31,18 @@ type alias Model =
 
 init : () -> ( Model, Cmd Msg )
 init _ =
-    ( Model (Random.generate (Random.int 1 6))
+    ( initUpdate (Random.generate NewFace (Random.int 1 6) )
     , Cmd.none
     )
 
+initUpdate : Msg -> Model -> Model
+initUpdate msg model =
+  case msg of
+        Roll ->
+          model
 
+        NewFace newFace ->
+             Model newFace
 
 -- UPDATE
 
