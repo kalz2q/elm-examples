@@ -52,6 +52,15 @@ listOfExamples =
         , row []
             [ text "・"
             , link []
+                { url = "textalignleft.html"
+                , label = text ("textalignleft.html => Elmでごく普通に左寄せの文章を書く実験。英語と日本語。")
+                }
+            ]
+
+
+        , row []
+            [ text "・"
+            , link []
                 { url = "time002.html"
                 , label = text ("time002.html => デジタル時計")
                 }
