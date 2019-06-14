@@ -1,4 +1,4 @@
-module Main exposing (main)
+-- module Main exposing (main)
 
 -- We've exposed 3 new values: sandbox, button, and onClick.
 -- The first one is sandbox, which will allow us to write an interactive
