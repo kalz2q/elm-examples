@@ -19,15 +19,15 @@ type alias Model =
 init : Model 
 init = ""
 
-type alias Msg  =
-  String
+
+type Msg = NoMsg
 
 update : Msg -> Model -> Model
 update msg model =
     case msg of
         _ ->
-            " "
+            "hello world!"
 
 -- view : Model -> Html.Html Msg
 view =
-    Html.div [] [Html.text "Hello, world!!"]
+    Html.div [] [Html.text model ]
