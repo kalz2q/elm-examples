@@ -1,10 +1,12 @@
-module BlueBox002 exposing (main)
+module BlueBox004 exposing (main)
 
--- bookmark
-
+import Html
+import Html.Attributes as HA
 
 main =
-    layout [Font.size 12] <|
+    Html.div [HA.style "font-size" "80%"
+
+    
         column [ centerX , centerY]
             [ wrappedRow
                 [width <| px 400]
