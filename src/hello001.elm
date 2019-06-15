@@ -1,12 +1,12 @@
 module Hello001 exposing (main)
 
 import Html
+import Html.Attributes as HA
 
-
-
--- 一番簡単な hello world
--- ここで text の型は
--- String.String -> Html.Html msg
 
 main =
-    Html.text "hello world"
+    Html.div
+        [ HA.style "color" "red"
+        , HA.style "font-size" "200%"
+        ]
+        [ Html.text "hello world" ]
