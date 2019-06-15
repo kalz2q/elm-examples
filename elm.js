@@ -4363,17 +4363,17 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 	}
 };
 var elm$html$Html$div = _VirtualDom_node('div');
-var elm$html$Html$h1 = _VirtualDom_node('h1');
+var elm$html$Html$h2 = _VirtualDom_node('h2');
+var elm$html$Html$p = _VirtualDom_node('p');
 var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
 var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
 var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
-var author$project$HelloWithAttributes$main = A2(
+var author$project$Paragraph001$main = A2(
 	elm$html$Html$div,
 	_List_fromArray(
 		[
 			A2(elm$html$Html$Attributes$style, 'background-color', 'yellow'),
-			A2(elm$html$Html$Attributes$style, 'color', 'red'),
 			A2(elm$html$Html$Attributes$style, 'width', '600px'),
 			A2(elm$html$Html$Attributes$style, 'height', '400px'),
 			A2(elm$html$Html$Attributes$style, 'margin', 'auto'),
@@ -4382,18 +4382,62 @@ var author$project$HelloWithAttributes$main = A2(
 	_List_fromArray(
 		[
 			A2(
-			elm$html$Html$h1,
+			elm$html$Html$p,
 			_List_fromArray(
 				[
-					A2(elm$html$Html$Attributes$style, 'width', '200px'),
-					A2(elm$html$Html$Attributes$style, 'height', '100px'),
-					A2(elm$html$Html$Attributes$style, 'margin', 'auto'),
-					A2(elm$html$Html$Attributes$style, 'text-align', 'center'),
-					A2(elm$html$Html$Attributes$style, 'position', 'absolute')
+					A2(elm$html$Html$Attributes$style, 'margin', '50px auto'),
+					A2(elm$html$Html$Attributes$style, 'width', '400px'),
+					A2(elm$html$Html$Attributes$style, 'background-color', 'lightgreen'),
+					A2(elm$html$Html$Attributes$style, 'text-align', 'left')
 				]),
 			_List_fromArray(
 				[
-					elm$html$Html$text('Hello, world!')
+					A2(
+					elm$html$Html$h2,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text('Hello, world!')
+						])),
+					elm$html$Html$text('This is a pen. '),
+					elm$html$Html$text('This is not a pen. '),
+					elm$html$Html$text('This is a ball. '),
+					elm$html$Html$text('This is a pen. '),
+					elm$html$Html$text('This is not a pen. '),
+					elm$html$Html$text('This is a ball. '),
+					elm$html$Html$text('This is a pen. '),
+					elm$html$Html$text('This is not a pen. '),
+					elm$html$Html$text('This is a ball. '),
+					elm$html$Html$text('This is a pen. '),
+					elm$html$Html$text('This is not a pen. '),
+					elm$html$Html$text('This is a ball. '),
+					elm$html$Html$text('This is a pen. '),
+					elm$html$Html$text('This is not a pen. '),
+					elm$html$Html$text('This is a ball. '),
+					elm$html$Html$text('This is a pen. '),
+					elm$html$Html$text('This is not a pen. '),
+					elm$html$Html$text('This is a ball. '),
+					A2(
+					elm$html$Html$h2,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text('今日はいい天気です')
+						])),
+					elm$html$Html$text('今日はいい天気です. '),
+					elm$html$Html$text('This is not a pen. '),
+					elm$html$Html$text('今日はいい天気です. '),
+					elm$html$Html$text('This is not a pen. '),
+					elm$html$Html$text('今日はいい天気です. '),
+					elm$html$Html$text('This is not a pen. '),
+					elm$html$Html$text('今日はいい天気です. '),
+					elm$html$Html$text('This is not a pen. '),
+					elm$html$Html$text('今日はいい天気です. '),
+					elm$html$Html$text('This is not a pen. '),
+					elm$html$Html$text('今日はいい天気です. '),
+					elm$html$Html$text('This is not a pen. '),
+					elm$html$Html$text('今日はいい天気です. '),
+					elm$html$Html$text('This is not a pen. ')
 				]))
 		]));
-_Platform_export({'HelloWithAttributes':{'init':_VirtualDom_init(author$project$HelloWithAttributes$main)(0)(0)}});}(this));
+_Platform_export({'Paragraph001':{'init':_VirtualDom_init(author$project$Paragraph001$main)(0)(0)}});}(this));
