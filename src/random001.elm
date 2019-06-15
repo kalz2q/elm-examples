@@ -1,9 +1,9 @@
-module Random001 exposing (Model, Msg(..), init, main, subscriptions, update, view)
+-- random001.elm
 
 import Browser
-import Html exposing (..)
-import Html.Attributes exposing (..)
-import Html.Events exposing (..)
+import Html
+import Html.Attributes as HA
+-- import Html.Events HE
 import Random
 
 
@@ -24,19 +24,19 @@ type alias Model =
 init : () -> ( Model, Cmd Msg )
 init _ =
     ( Model 1
-    , Random.generate NewFace (Random.int 1 100000)
+    , Random.generate NewRandom (Random.int 1 100000)
     )
 
 
 type Msg
-    = NewFace Int
+    = NewRandom Int
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        NewFace newFace ->
-            ( Model newFace
+        NewRandom newRandom ->
+            ( Model newRandom
             , Cmd.none
             )
 
@@ -46,21 +46,18 @@ subscriptions model =
     Sub.none
 
 
-view : Model -> Html Msg
+view : Model -> Html.Html Msg
 view model =
-    div
-        [ style "text-align" "center"
-        , style "margin" "60px auto"
-        , style "width" "400px"
+   Html.div
+        [ HA.style "text-align" "center"
+        , HA.style "margin" "60px auto"
+        , HA.style "width" "400px"
+        , HA.style "background-color" "lightpink"
         ]
-        [ h3 [] [ text "Following is a random number " ]
-        , h3 [] [ text "between 1 and 100000." ]
-        , h3 [] [ text "If you don't like the number," ]
-        , h3 [] [ text "reload the page" ]
-        , h3 [] [ text "and a new number will appear.       " ]
-        , h1
-            [ style "color" "red"
-            , style "margin" "0"
+        [ Html.h3 [] [ Html.text "Random number between 1 and 100000." ]
+        , Html.h1
+            [ HA.style "color" "red"
+            , HA.style "margin" "0"
             ]
-            [ text (String.fromInt model.randomNumber) ]
+            [ Html.text (String.fromInt model.randomNumber) ]
         ]

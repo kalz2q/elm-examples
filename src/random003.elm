@@ -1,4 +1,4 @@
-
+-- TwoDice
 -- solution to 2 dice
 
 import Browser
