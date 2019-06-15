@@ -1,5 +1,4 @@
-module HelloName exposing (..)
-
+module HelloName exposing (Model, Msg(..), init, main, update, view)
 
 import Browser
 import Html
@@ -16,7 +15,6 @@ main =
         }
 
 
-
 type alias Model =
     { input : String
     , output : String
@@ -26,9 +24,8 @@ type alias Model =
 init : Model
 init =
     { input = ""
-    , output= ""
+    , output = ""
     }
-
 
 
 type Msg
@@ -45,7 +42,7 @@ update msg model =
         Submit ->
             { model
                 | input = ""
-                , output = ("Hello, " ++ model.input ++ "!!!")
+                , output = "Hello, " ++ model.input ++ "!!!"
             }
 
 
@@ -55,19 +52,25 @@ update msg model =
 
 view : Model -> Html.Html Msg
 view model =
-   Html.div [HA.style "width" "600px"
+    Html.div
+        [ HA.style "width" "600px"
         , HA.style "background-color" "yellow"
-        , HA.style "margin" "auto"] 
-        [ Html.h3 [][Html.text "Enter your name, please!" ]
-            , Html.form [ HE.onSubmit Submit ]
-            [ Html.input [ HE.onInput Input
-            , HA.value model.input 
-            ] []
+        , HA.style "margin" "auto"
+        ]
+        [ Html.h3 [] [ Html.text "Enter your name, please!" ]
+        , Html.form
+            [ HE.onSubmit Submit
+            ]
+            [ Html.input
+                [ HE.onInput Input
+                , HA.value model.input
+                ]
+                []
             , Html.button
-                [ HA.disabled (String.isEmpty (String.trim model.input)) ]
+                [ HA.disabled (String.isEmpty (String.trim model.input))
+                , HA.hidden True
+                ]
                 [ Html.text "Submit" ]
             ]
-        , Html.h3 [] [Html.text model.output]
+        , Html.h3 [] [ Html.text model.output ]
         ]
-
-
