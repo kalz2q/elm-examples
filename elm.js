@@ -4363,30 +4363,85 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 	}
 };
 var elm$html$Html$div = _VirtualDom_node('div');
-var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
-var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
-var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
-var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
-var author$project$BlueBox003$main = A2(
+var elm$svg$Svg$trustedNode = _VirtualDom_nodeNS('http://www.w3.org/2000/svg');
+var elm$svg$Svg$rect = elm$svg$Svg$trustedNode('rect');
+var elm$svg$Svg$svg = elm$svg$Svg$trustedNode('svg');
+var elm$svg$Svg$Attributes$fill = _VirtualDom_attribute('fill');
+var elm$svg$Svg$Attributes$height = _VirtualDom_attribute('height');
+var elm$svg$Svg$Attributes$viewBox = _VirtualDom_attribute('viewBox');
+var elm$svg$Svg$Attributes$width = _VirtualDom_attribute('width');
+var elm$svg$Svg$Attributes$x = _VirtualDom_attribute('x');
+var elm$svg$Svg$Attributes$y = _VirtualDom_attribute('y');
+var author$project$Svg002$main = A2(
 	elm$html$Html$div,
-	_List_fromArray(
-		[
-			A2(elm$html$Html$Attributes$style, 'width', '100px'),
-			A2(elm$html$Html$Attributes$style, 'height', '100px'),
-			A2(elm$html$Html$Attributes$style, 'position', 'absolute'),
-			A2(elm$html$Html$Attributes$style, 'top', '50%'),
-			A2(elm$html$Html$Attributes$style, 'left', '50%'),
-			A2(elm$html$Html$Attributes$style, 'transform', 'translate(-50%, -50%)'),
-			A2(elm$html$Html$Attributes$style, 'Background.color', 'skyblue')
-		]),
+	_List_Nil,
 	_List_fromArray(
 		[
 			A2(
-			elm$html$Html$div,
-			_List_Nil,
+			elm$svg$Svg$svg,
 			_List_fromArray(
 				[
-					elm$html$Html$text('skyblue')
+					elm$svg$Svg$Attributes$width('160'),
+					elm$svg$Svg$Attributes$height('160'),
+					elm$svg$Svg$Attributes$viewBox('0 0 160 160')
+				]),
+			_List_fromArray(
+				[
+					A2(
+					elm$svg$Svg$rect,
+					_List_fromArray(
+						[
+							elm$svg$Svg$Attributes$x('0'),
+							elm$svg$Svg$Attributes$y('0'),
+							elm$svg$Svg$Attributes$width('160'),
+							elm$svg$Svg$Attributes$height('160'),
+							elm$svg$Svg$Attributes$fill('skyblue')
+						]),
+					_List_Nil),
+					A2(
+					elm$svg$Svg$rect,
+					_List_fromArray(
+						[
+							elm$svg$Svg$Attributes$x('40'),
+							elm$svg$Svg$Attributes$y('40'),
+							elm$svg$Svg$Attributes$width('80'),
+							elm$svg$Svg$Attributes$height('80'),
+							elm$svg$Svg$Attributes$fill('tomato')
+						]),
+					_List_Nil)
+				])),
+			A2(
+			elm$svg$Svg$svg,
+			_List_fromArray(
+				[
+					elm$svg$Svg$Attributes$width('160'),
+					elm$svg$Svg$Attributes$height('160'),
+					elm$svg$Svg$Attributes$viewBox('40 40 80 80')
+				]),
+			_List_fromArray(
+				[
+					A2(
+					elm$svg$Svg$rect,
+					_List_fromArray(
+						[
+							elm$svg$Svg$Attributes$x('0'),
+							elm$svg$Svg$Attributes$y('0'),
+							elm$svg$Svg$Attributes$width('160'),
+							elm$svg$Svg$Attributes$height('160'),
+							elm$svg$Svg$Attributes$fill('skyblue')
+						]),
+					_List_Nil),
+					A2(
+					elm$svg$Svg$rect,
+					_List_fromArray(
+						[
+							elm$svg$Svg$Attributes$x('40'),
+							elm$svg$Svg$Attributes$y('40'),
+							elm$svg$Svg$Attributes$width('80'),
+							elm$svg$Svg$Attributes$height('80'),
+							elm$svg$Svg$Attributes$fill('tomato')
+						]),
+					_List_Nil)
 				]))
 		]));
-_Platform_export({'BlueBox003':{'init':_VirtualDom_init(author$project$BlueBox003$main)(0)(0)}});}(this));
+_Platform_export({'Svg002':{'init':_VirtualDom_init(author$project$Svg002$main)(0)(0)}});}(this));

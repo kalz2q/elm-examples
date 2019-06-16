@@ -1,35 +1,29 @@
--- svg and canvas is not treated by elm-ui
--- canvas is not available on elm
--- there is canvas but it is not working because it uses color
--- now checking svg on elm
--- or d3.js
+module Svg001 exposing (..)
 
-
-module Main exposing (main)
-
-import Svg exposing (..)
-import Svg.Attributes exposing (..)
+import Svg
+import Svg.Attributes as SA
 
 
 main =
-    svg
-        [ width "120"
-        , height "120"
-        , viewBox "0 0 120 120"
+    Svg.svg
+        [ SA.width "120"
+        , SA.height "120"
+        , SA.viewBox "0 0 120 120"
+        , SA.fill "skyblue"
         ]
-        [ rect
-            [ x "10"
-            , y "10"
-            , width "100"
-            , height "100"
-            , rx "15"
-            , ry "15"
+        [ Svg.rect
+            [ SA.x "10"
+            , SA.y "10"
+            , SA.width "100"
+            , SA.height "100"
+            , SA.rx "15"
+            , SA.ry "15"
             ]
             []
-        , circle
-            [ cx "50"
-            , cy "50"
-            , r "50"
+        , Svg.circle
+            [ SA.cx "50"
+            , SA.cy "50"
+            , SA.r "50"
             ]
             []
         ]
