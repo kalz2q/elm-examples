@@ -1,4 +1,4 @@
-module ElmLogoAnimation exposing (main)
+module SvgLogoAnimation exposing (main)
 
 import Array
 import Browser

@@ -16,7 +16,7 @@ main =
             [ Svg.defs []
                 [ Svg.style
                     [ SA.id "mybox"]
-                    [Svg.style[SA.style "fill:pink"][]]
+                    []
                 , Svg.linearGradient [ SA.id "base" ]
                     [ Svg.stop [ SA.offset "0%", SA.stopColor "brown" ] []
                     , Svg.stop [ SA.offset "100%" ] []

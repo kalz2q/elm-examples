@@ -49,11 +49,12 @@ main =
                 , x "-50%"
                 , y "-50%"
                 ]
-                [ Svg.feGaussianBlur
-                    [ Svg.Attributes.in_ "StrokePaint"
-                    , stdDeviation "3"
-                    ]
-                    []
+                [ 
+                    -- Svg.feGaussianBlur
+                    -- [ Svg.Attributes.in_ "StrokePaint"
+                    -- , stdDeviation "3"
+                    -- ]
+                    -- []
                 ]
             ]
 
