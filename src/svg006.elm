@@ -1,6 +1,6 @@
-module Svg005 exposing (main)
+module Svg006 exposing (main)
 
--- This is how to use id or class or defs 
+-- This is how to use defs => failure
 
 import Html
 import Svg
@@ -14,7 +14,10 @@ main =
             , SA.height "160"
             ]
             [ Svg.defs []
-                [ Svg.linearGradient [ SA.id "mybox" ]
+                [ Svg.style
+                    [ SA.id "mybox"]
+                    [Svg.style[SA.style "fill:pink"][]]
+                , Svg.linearGradient [ SA.id "base" ]
                     [ Svg.stop [ SA.offset "0%", SA.stopColor "brown" ] []
                     , Svg.stop [ SA.offset "100%" ] []
                     ]
@@ -40,8 +43,16 @@ main =
                 , SA.y "20"
                 , SA.width "30"
                 , SA.height "30"
+                , SA.fill "lightgreen"
+
                 -- , SA.class "mybox"
-                , SA.fill "url(#mybox)"
+                -- , SA.fill "url(#mybox)"
+                -- > disappear
+                , SA.style "url(#mybox)"
+                -- > black -> lightgreen
+                -- , SA.style "#mybox"
+                --> black -> lightgreen
+                -- , SA.fill "url(#base)"
                 ]
                 []
             ]
