@@ -13,11 +13,17 @@ main =
             [ SA.width "160"
             , SA.height "160"
             ]
-            [ Svg.defs []
-                [ Svg.style
-                    [ SA.id "mybox"]
-                    []
-                , Svg.linearGradient [ SA.id "base" ]
+            [ Svg.style
+                [ SA.id "mybox"
+                , SA.fill "pink"
+                ]
+                []
+            , Svg.defs []
+                [ --     Svg.style
+                  --     [ SA.id "mybox"]
+                  --     []
+                  -- ,
+                  Svg.linearGradient [ SA.id "base" ]
                     [ Svg.stop [ SA.offset "0%", SA.stopColor "brown" ] []
                     , Svg.stop [ SA.offset "100%" ] []
                     ]
@@ -44,11 +50,12 @@ main =
                 , SA.width "30"
                 , SA.height "30"
                 , SA.fill "lightgreen"
+                , SA.style "url(#mybox)"
 
                 -- , SA.class "mybox"
                 -- , SA.fill "url(#mybox)"
                 -- > disappear
-                , SA.style "url(#mybox)"
+                -- , SA.style "url(#mybox)"
                 -- > black -> lightgreen
                 -- , SA.style "#mybox"
                 --> black -> lightgreen
