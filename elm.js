@@ -4365,16 +4365,18 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 var elm$html$Html$div = _VirtualDom_node('div');
 var elm$svg$Svg$trustedNode = _VirtualDom_nodeNS('http://www.w3.org/2000/svg');
 var elm$svg$Svg$circle = elm$svg$Svg$trustedNode('circle');
-var elm$svg$Svg$style = elm$svg$Svg$trustedNode('style');
+var elm$svg$Svg$rect = elm$svg$Svg$trustedNode('rect');
 var elm$svg$Svg$svg = elm$svg$Svg$trustedNode('svg');
-var elm$svg$Svg$Attributes$class = _VirtualDom_attribute('class');
 var elm$svg$Svg$Attributes$cx = _VirtualDom_attribute('cx');
 var elm$svg$Svg$Attributes$cy = _VirtualDom_attribute('cy');
 var elm$svg$Svg$Attributes$fill = _VirtualDom_attribute('fill');
 var elm$svg$Svg$Attributes$height = _VirtualDom_attribute('height');
 var elm$svg$Svg$Attributes$r = _VirtualDom_attribute('r');
+var elm$svg$Svg$Attributes$viewBox = _VirtualDom_attribute('viewBox');
 var elm$svg$Svg$Attributes$width = _VirtualDom_attribute('width');
-var author$project$SvgUse001$main = A2(
+var elm$svg$Svg$Attributes$x = _VirtualDom_attribute('x');
+var elm$svg$Svg$Attributes$y = _VirtualDom_attribute('y');
+var author$project$Svg007$main = A2(
 	elm$html$Html$div,
 	_List_Nil,
 	_List_fromArray(
@@ -4384,27 +4386,93 @@ var author$project$SvgUse001$main = A2(
 			_List_fromArray(
 				[
 					elm$svg$Svg$Attributes$width('160'),
-					elm$svg$Svg$Attributes$height('160')
+					elm$svg$Svg$Attributes$height('160'),
+					elm$svg$Svg$Attributes$viewBox('0 0 160 160')
 				]),
 			_List_fromArray(
 				[
 					A2(
-					elm$svg$Svg$style,
+					elm$svg$Svg$rect,
 					_List_fromArray(
 						[
-							elm$svg$Svg$Attributes$class('classA')
+							elm$svg$Svg$Attributes$x('0'),
+							elm$svg$Svg$Attributes$y('0'),
+							elm$svg$Svg$Attributes$width('100%'),
+							elm$svg$Svg$Attributes$width('100%')
 						]),
 					_List_Nil),
 					A2(
 					elm$svg$Svg$circle,
 					_List_fromArray(
 						[
-							elm$svg$Svg$Attributes$cx('50'),
-							elm$svg$Svg$Attributes$cy('50'),
-							elm$svg$Svg$Attributes$r('50'),
-							elm$svg$Svg$Attributes$fill('url(.classA)')
+							elm$svg$Svg$Attributes$cx('50%'),
+							elm$svg$Svg$Attributes$cy('50%'),
+							elm$svg$Svg$Attributes$r('4'),
+							elm$svg$Svg$Attributes$fill('white')
+						]),
+					_List_Nil)
+				])),
+			A2(
+			elm$svg$Svg$svg,
+			_List_fromArray(
+				[
+					elm$svg$Svg$Attributes$width('160'),
+					elm$svg$Svg$Attributes$height('160'),
+					elm$svg$Svg$Attributes$viewBox('0 0 10 10')
+				]),
+			_List_fromArray(
+				[
+					A2(
+					elm$svg$Svg$rect,
+					_List_fromArray(
+						[
+							elm$svg$Svg$Attributes$x('0'),
+							elm$svg$Svg$Attributes$y('0'),
+							elm$svg$Svg$Attributes$width('100%'),
+							elm$svg$Svg$Attributes$width('100%')
+						]),
+					_List_Nil),
+					A2(
+					elm$svg$Svg$circle,
+					_List_fromArray(
+						[
+							elm$svg$Svg$Attributes$cx('50%'),
+							elm$svg$Svg$Attributes$cy('50%'),
+							elm$svg$Svg$Attributes$r('4'),
+							elm$svg$Svg$Attributes$fill('white')
+						]),
+					_List_Nil)
+				])),
+			A2(
+			elm$svg$Svg$svg,
+			_List_fromArray(
+				[
+					elm$svg$Svg$Attributes$width('160'),
+					elm$svg$Svg$Attributes$height('160'),
+					elm$svg$Svg$Attributes$viewBox('0 0 10 10')
+				]),
+			_List_fromArray(
+				[
+					A2(
+					elm$svg$Svg$rect,
+					_List_fromArray(
+						[
+							elm$svg$Svg$Attributes$x('0'),
+							elm$svg$Svg$Attributes$y('0'),
+							elm$svg$Svg$Attributes$width('100%'),
+							elm$svg$Svg$Attributes$width('100%')
+						]),
+					_List_Nil),
+					A2(
+					elm$svg$Svg$circle,
+					_List_fromArray(
+						[
+							elm$svg$Svg$Attributes$cx('50%'),
+							elm$svg$Svg$Attributes$cy('50%'),
+							elm$svg$Svg$Attributes$r('4'),
+							elm$svg$Svg$Attributes$fill('white')
 						]),
 					_List_Nil)
 				]))
 		]));
-_Platform_export({'SvgUse001':{'init':_VirtualDom_init(author$project$SvgUse001$main)(0)(0)}});}(this));
+_Platform_export({'Svg007':{'init':_VirtualDom_init(author$project$Svg007$main)(0)(0)}});}(this));

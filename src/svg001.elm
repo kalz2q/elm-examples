@@ -8,7 +8,7 @@ main =
     Svg.svg
         [ SA.width "120"
         , SA.height "120"
-        , SA.viewBox "0 0 120 120"
+        , SA.viewBox "0 0 400 120"
         , SA.fill "skyblue"
         ]
         [ Svg.rect
