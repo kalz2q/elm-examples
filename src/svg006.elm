@@ -29,11 +29,13 @@ main =
                     ]
                 ]
             , Svg.rect
-                [ SA.x "0"
-                , SA.y "0"
-                , SA.width "160"
-                , SA.height "160"
-                , SA.fill "skyblue"
+                [ 
+                --     SA.x "0"
+                -- , SA.y "0"
+                -- , 
+                -- SA.width "160"
+                -- , SA.height "160"
+                -- , SA.fill "skyblue"
                 ]
                 []
             , Svg.rect
