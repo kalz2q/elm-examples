@@ -4365,24 +4365,15 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 var elm$html$Html$div = _VirtualDom_node('div');
 var elm$svg$Svg$trustedNode = _VirtualDom_nodeNS('http://www.w3.org/2000/svg');
 var elm$svg$Svg$circle = elm$svg$Svg$trustedNode('circle');
-var elm$svg$Svg$defs = elm$svg$Svg$trustedNode('defs');
-var elm$svg$Svg$g = elm$svg$Svg$trustedNode('g');
+var elm$svg$Svg$style = elm$svg$Svg$trustedNode('style');
 var elm$svg$Svg$svg = elm$svg$Svg$trustedNode('svg');
-var elm$svg$Svg$use = elm$svg$Svg$trustedNode('use');
+var elm$svg$Svg$Attributes$class = _VirtualDom_attribute('class');
 var elm$svg$Svg$Attributes$cx = _VirtualDom_attribute('cx');
 var elm$svg$Svg$Attributes$cy = _VirtualDom_attribute('cy');
 var elm$svg$Svg$Attributes$fill = _VirtualDom_attribute('fill');
 var elm$svg$Svg$Attributes$height = _VirtualDom_attribute('height');
-var elm$svg$Svg$Attributes$id = _VirtualDom_attribute('id');
 var elm$svg$Svg$Attributes$r = _VirtualDom_attribute('r');
 var elm$svg$Svg$Attributes$width = _VirtualDom_attribute('width');
-var elm$svg$Svg$Attributes$xlinkHref = function (value) {
-	return A3(
-		_VirtualDom_attributeNS,
-		'http://www.w3.org/1999/xlink',
-		'xlink:href',
-		_VirtualDom_noJavaScriptUri(value));
-};
 var author$project$SvgUse001$main = A2(
 	elm$html$Html$div,
 	_List_Nil,
@@ -4398,37 +4389,22 @@ var author$project$SvgUse001$main = A2(
 			_List_fromArray(
 				[
 					A2(
-					elm$svg$Svg$defs,
-					_List_Nil,
+					elm$svg$Svg$style,
 					_List_fromArray(
 						[
-							A2(
-							elm$svg$Svg$g,
-							_List_fromArray(
-								[
-									elm$svg$Svg$Attributes$id('Port')
-								]),
-							_List_fromArray(
-								[
-									A2(
-									elm$svg$Svg$circle,
-									_List_fromArray(
-										[
-											elm$svg$Svg$Attributes$fill('red'),
-											elm$svg$Svg$Attributes$r('40')
-										]),
-									_List_Nil)
-								])),
-							A2(
-							elm$svg$Svg$use,
-							_List_fromArray(
-								[
-									elm$svg$Svg$Attributes$cx('50'),
-									elm$svg$Svg$Attributes$cy('10'),
-									elm$svg$Svg$Attributes$xlinkHref('url(#Port)')
-								]),
-							_List_Nil)
-						]))
+							elm$svg$Svg$Attributes$class('classA')
+						]),
+					_List_Nil),
+					A2(
+					elm$svg$Svg$circle,
+					_List_fromArray(
+						[
+							elm$svg$Svg$Attributes$cx('50'),
+							elm$svg$Svg$Attributes$cy('50'),
+							elm$svg$Svg$Attributes$r('50'),
+							elm$svg$Svg$Attributes$fill('url(.classA)')
+						]),
+					_List_Nil)
 				]))
 		]));
 _Platform_export({'SvgUse001':{'init':_VirtualDom_init(author$project$SvgUse001$main)(0)(0)}});}(this));
