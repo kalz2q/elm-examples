@@ -4364,33 +4364,16 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 };
 var elm$html$Html$div = _VirtualDom_node('div');
 var elm$svg$Svg$trustedNode = _VirtualDom_nodeNS('http://www.w3.org/2000/svg');
-var elm$svg$Svg$circle = elm$svg$Svg$trustedNode('circle');
-var elm$svg$Svg$ellipse = elm$svg$Svg$trustedNode('ellipse');
-var elm$svg$Svg$line = elm$svg$Svg$trustedNode('line');
 var elm$svg$Svg$path = elm$svg$Svg$trustedNode('path');
-var elm$svg$Svg$polygon = elm$svg$Svg$trustedNode('polygon');
 var elm$svg$Svg$polyline = elm$svg$Svg$trustedNode('polyline');
-var elm$svg$Svg$rect = elm$svg$Svg$trustedNode('rect');
 var elm$svg$Svg$svg = elm$svg$Svg$trustedNode('svg');
-var elm$svg$Svg$Attributes$cx = _VirtualDom_attribute('cx');
-var elm$svg$Svg$Attributes$cy = _VirtualDom_attribute('cy');
 var elm$svg$Svg$Attributes$d = _VirtualDom_attribute('d');
 var elm$svg$Svg$Attributes$fill = _VirtualDom_attribute('fill');
 var elm$svg$Svg$Attributes$height = _VirtualDom_attribute('height');
-var elm$svg$Svg$Attributes$points = _VirtualDom_attribute('points');
-var elm$svg$Svg$Attributes$r = _VirtualDom_attribute('r');
-var elm$svg$Svg$Attributes$rx = _VirtualDom_attribute('rx');
-var elm$svg$Svg$Attributes$ry = _VirtualDom_attribute('ry');
 var elm$svg$Svg$Attributes$stroke = _VirtualDom_attribute('stroke');
 var elm$svg$Svg$Attributes$strokeWidth = _VirtualDom_attribute('stroke-width');
 var elm$svg$Svg$Attributes$width = _VirtualDom_attribute('width');
-var elm$svg$Svg$Attributes$x = _VirtualDom_attribute('x');
-var elm$svg$Svg$Attributes$x1 = _VirtualDom_attribute('x1');
-var elm$svg$Svg$Attributes$x2 = _VirtualDom_attribute('x2');
-var elm$svg$Svg$Attributes$y = _VirtualDom_attribute('y');
-var elm$svg$Svg$Attributes$y1 = _VirtualDom_attribute('y1');
-var elm$svg$Svg$Attributes$y2 = _VirtualDom_attribute('y2');
-var author$project$Shapes$main = A2(
+var author$project$Main$main = A2(
 	elm$html$Html$div,
 	_List_Nil,
 	_List_fromArray(
@@ -4405,92 +4388,27 @@ var author$project$Shapes$main = A2(
 			_List_fromArray(
 				[
 					A2(
-					elm$svg$Svg$rect,
+					elm$svg$Svg$path,
 					_List_fromArray(
 						[
-							elm$svg$Svg$Attributes$x('10'),
-							elm$svg$Svg$Attributes$y('10'),
-							elm$svg$Svg$Attributes$width('30'),
-							elm$svg$Svg$Attributes$height('30'),
-							elm$svg$Svg$Attributes$stroke('black'),
-							elm$svg$Svg$Attributes$fill('transparent'),
+							elm$svg$Svg$Attributes$d('M20,230 Q40,205 50,230 T90,230'),
+							elm$svg$Svg$Attributes$stroke('blue'),
+							elm$svg$Svg$Attributes$fill('none'),
 							elm$svg$Svg$Attributes$strokeWidth('5')
 						]),
-					_List_Nil),
-					A2(
-					elm$svg$Svg$rect,
-					_List_fromArray(
-						[
-							elm$svg$Svg$Attributes$x('60'),
-							elm$svg$Svg$Attributes$y('10'),
-							elm$svg$Svg$Attributes$rx('10'),
-							elm$svg$Svg$Attributes$ry('10'),
-							elm$svg$Svg$Attributes$width('30'),
-							elm$svg$Svg$Attributes$height('30'),
-							elm$svg$Svg$Attributes$stroke('olive'),
-							elm$svg$Svg$Attributes$fill('pink'),
-							elm$svg$Svg$Attributes$strokeWidth('7')
-						]),
-					_List_Nil),
-					A2(
-					elm$svg$Svg$circle,
-					_List_fromArray(
-						[
-							elm$svg$Svg$Attributes$cx('25'),
-							elm$svg$Svg$Attributes$cy('75'),
-							elm$svg$Svg$Attributes$r('20'),
-							elm$svg$Svg$Attributes$stroke('red'),
-							elm$svg$Svg$Attributes$fill('skyblue'),
-							elm$svg$Svg$Attributes$strokeWidth('5')
-						]),
-					_List_Nil),
-					A2(
-					elm$svg$Svg$ellipse,
-					_List_fromArray(
-						[
-							elm$svg$Svg$Attributes$cx('75'),
-							elm$svg$Svg$Attributes$cy('75'),
-							elm$svg$Svg$Attributes$rx('20'),
-							elm$svg$Svg$Attributes$ry('5'),
-							elm$svg$Svg$Attributes$stroke('red'),
-							elm$svg$Svg$Attributes$fill('skyblue'),
-							elm$svg$Svg$Attributes$strokeWidth('5')
-						]),
-					_List_Nil),
-					A2(
-					elm$svg$Svg$line,
-					_List_fromArray(
-						[
-							elm$svg$Svg$Attributes$x1('10'),
-							elm$svg$Svg$Attributes$x2('59'),
-							elm$svg$Svg$Attributes$y1('110'),
-							elm$svg$Svg$Attributes$y2('150'),
-							elm$svg$Svg$Attributes$stroke('orange'),
-							elm$svg$Svg$Attributes$strokeWidth('5')
-						]),
-					_List_Nil),
+					_List_Nil)
+				])),
+			A2(
+			elm$svg$Svg$svg,
+			_List_fromArray(
+				[
+					elm$svg$Svg$Attributes$width('200'),
+					elm$svg$Svg$Attributes$height('250')
+				]),
+			_List_fromArray(
+				[
 					A2(
 					elm$svg$Svg$polyline,
-					_List_fromArray(
-						[
-							elm$svg$Svg$Attributes$points('60 110 65 120 70 115 75 130 80 125 85 140 90 135 95 150 100 145'),
-							elm$svg$Svg$Attributes$stroke('orange'),
-							elm$svg$Svg$Attributes$fill('beige'),
-							elm$svg$Svg$Attributes$strokeWidth('5')
-						]),
-					_List_Nil),
-					A2(
-					elm$svg$Svg$polygon,
-					_List_fromArray(
-						[
-							elm$svg$Svg$Attributes$points('50 160 55 180 70 180 60 190 65 205 50 195 35 205 40 190 30 180 45 180'),
-							elm$svg$Svg$Attributes$stroke('green'),
-							elm$svg$Svg$Attributes$fill('beige'),
-							elm$svg$Svg$Attributes$strokeWidth('5')
-						]),
-					_List_Nil),
-					A2(
-					elm$svg$Svg$path,
 					_List_fromArray(
 						[
 							elm$svg$Svg$Attributes$d('M20,230 Q40,205 50,230 T90,230'),
@@ -4501,4 +4419,4 @@ var author$project$Shapes$main = A2(
 					_List_Nil)
 				]))
 		]));
-_Platform_export({'Shapes':{'init':_VirtualDom_init(author$project$Shapes$main)(0)(0)}});}(this));
+_Platform_export({'Main':{'init':_VirtualDom_init(author$project$Main$main)(0)(0)}});}(this));
