@@ -3869,16 +3869,11 @@ function _VirtualDom_dekey(keyedNode)
 		b: keyedNode.b
 	};
 }
-var elm$core$Basics$True = {$: 'True'};
-var author$project$IfThenClass$awesome = true;
-var elm$core$Maybe$Just = function (a) {
-	return {$: 'Just', a: a};
-};
-var author$project$IfThenClass$maybeName = elm$core$Maybe$Just('taro');
 var elm$core$Basics$identity = function (x) {
 	return x;
 };
 var elm$core$Basics$False = {$: 'False'};
+var elm$core$Basics$True = {$: 'True'};
 var elm$core$Result$isOk = function (result) {
 	if (result.$ === 'Ok') {
 		return true;
@@ -4137,6 +4132,9 @@ var elm$core$Array$initialize = F2(
 			return A5(elm$core$Array$initializeHelp, fn, initialFromIndex, len, _List_Nil, tail);
 		}
 	});
+var elm$core$Maybe$Just = function (a) {
+	return {$: 'Just', a: a};
+};
 var elm$core$Maybe$Nothing = {$: 'Nothing'};
 var elm$core$Result$Err = function (a) {
 	return {$: 'Err', a: a};
@@ -4365,39 +4363,60 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 	}
 };
 var elm$html$Html$div = _VirtualDom_node('div');
-var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
-var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
-var elm$json$Json$Encode$string = _Json_wrap;
-var elm$html$Html$Attributes$stringProperty = F2(
-	function (key, string) {
-		return A2(
-			_VirtualDom_property,
-			key,
-			elm$json$Json$Encode$string(string));
-	});
-var elm$html$Html$Attributes$class = elm$html$Html$Attributes$stringProperty('className');
-var author$project$IfThenClass$main = A2(
+var elm$svg$Svg$trustedNode = _VirtualDom_nodeNS('http://www.w3.org/2000/svg');
+var elm$svg$Svg$rect = elm$svg$Svg$trustedNode('rect');
+var elm$svg$Svg$svg = elm$svg$Svg$trustedNode('svg');
+var elm$svg$Svg$Attributes$fill = _VirtualDom_attribute('fill');
+var elm$svg$Svg$Attributes$height = _VirtualDom_attribute('height');
+var elm$svg$Svg$Attributes$rx = _VirtualDom_attribute('rx');
+var elm$svg$Svg$Attributes$ry = _VirtualDom_attribute('ry');
+var elm$svg$Svg$Attributes$stroke = _VirtualDom_attribute('stroke');
+var elm$svg$Svg$Attributes$strokeWidth = _VirtualDom_attribute('stroke-width');
+var elm$svg$Svg$Attributes$width = _VirtualDom_attribute('width');
+var elm$svg$Svg$Attributes$x = _VirtualDom_attribute('x');
+var elm$svg$Svg$Attributes$y = _VirtualDom_attribute('y');
+var author$project$Shapes$main = A2(
 	elm$html$Html$div,
+	_List_Nil,
 	_List_fromArray(
 		[
-			author$project$IfThenClass$awesome ? elm$html$Html$Attributes$class('awesome') : elm$html$Html$Attributes$class('')
-		]),
-	_List_fromArray(
-		[
-			function () {
-			var _n0 = author$project$IfThenClass$maybeName;
-			if (_n0.$ === 'Just') {
-				var name = _n0.a;
-				return A2(
-					elm$html$Html$div,
-					_List_Nil,
+			A2(
+			elm$svg$Svg$svg,
+			_List_fromArray(
+				[
+					elm$svg$Svg$Attributes$width('200'),
+					elm$svg$Svg$Attributes$height('250')
+				]),
+			_List_fromArray(
+				[
+					A2(
+					elm$svg$Svg$rect,
 					_List_fromArray(
 						[
-							elm$html$Html$text(name)
-						]));
-			} else {
-				return elm$html$Html$text('');
-			}
-		}()
+							elm$svg$Svg$Attributes$x('10'),
+							elm$svg$Svg$Attributes$y('10'),
+							elm$svg$Svg$Attributes$width('30'),
+							elm$svg$Svg$Attributes$height('30'),
+							elm$svg$Svg$Attributes$stroke('black'),
+							elm$svg$Svg$Attributes$fill('transparent'),
+							elm$svg$Svg$Attributes$strokeWidth('5')
+						]),
+					_List_Nil),
+					A2(
+					elm$svg$Svg$rect,
+					_List_fromArray(
+						[
+							elm$svg$Svg$Attributes$x('60'),
+							elm$svg$Svg$Attributes$y('10'),
+							elm$svg$Svg$Attributes$rx('10'),
+							elm$svg$Svg$Attributes$ry('10'),
+							elm$svg$Svg$Attributes$width('30'),
+							elm$svg$Svg$Attributes$height('30'),
+							elm$svg$Svg$Attributes$stroke('olive'),
+							elm$svg$Svg$Attributes$fill('pink'),
+							elm$svg$Svg$Attributes$strokeWidth('7')
+						]),
+					_List_Nil)
+				]))
 		]));
-_Platform_export({'IfThenClass':{'init':_VirtualDom_init(author$project$IfThenClass$main)(0)(0)}});}(this));
+_Platform_export({'Shapes':{'init':_VirtualDom_init(author$project$Shapes$main)(0)(0)}});}(this));
