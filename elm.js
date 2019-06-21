@@ -4365,7 +4365,6 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 var elm$html$Html$div = _VirtualDom_node('div');
 var elm$svg$Svg$trustedNode = _VirtualDom_nodeNS('http://www.w3.org/2000/svg');
 var elm$svg$Svg$path = elm$svg$Svg$trustedNode('path');
-var elm$svg$Svg$polyline = elm$svg$Svg$trustedNode('polyline');
 var elm$svg$Svg$svg = elm$svg$Svg$trustedNode('svg');
 var elm$svg$Svg$Attributes$d = _VirtualDom_attribute('d');
 var elm$svg$Svg$Attributes$fill = _VirtualDom_attribute('fill');
@@ -4373,7 +4372,7 @@ var elm$svg$Svg$Attributes$height = _VirtualDom_attribute('height');
 var elm$svg$Svg$Attributes$stroke = _VirtualDom_attribute('stroke');
 var elm$svg$Svg$Attributes$strokeWidth = _VirtualDom_attribute('stroke-width');
 var elm$svg$Svg$Attributes$width = _VirtualDom_attribute('width');
-var author$project$Main$main = A2(
+var author$project$Bezier001$main = A2(
 	elm$html$Html$div,
 	_List_Nil,
 	_List_fromArray(
@@ -4382,11 +4381,20 @@ var author$project$Main$main = A2(
 			elm$svg$Svg$svg,
 			_List_fromArray(
 				[
-					elm$svg$Svg$Attributes$width('200'),
-					elm$svg$Svg$Attributes$height('250')
+					elm$svg$Svg$Attributes$width('190'),
+					elm$svg$Svg$Attributes$height('300')
 				]),
 			_List_fromArray(
 				[
+					A2(
+					elm$svg$Svg$path,
+					_List_fromArray(
+						[
+							elm$svg$Svg$Attributes$d('M 10 10 C 20 20, 40 20, 50 10'),
+							elm$svg$Svg$Attributes$stroke('black'),
+							elm$svg$Svg$Attributes$fill('transparent')
+						]),
+					_List_Nil),
 					A2(
 					elm$svg$Svg$path,
 					_List_fromArray(
@@ -4397,26 +4405,6 @@ var author$project$Main$main = A2(
 							elm$svg$Svg$Attributes$strokeWidth('5')
 						]),
 					_List_Nil)
-				])),
-			A2(
-			elm$svg$Svg$svg,
-			_List_fromArray(
-				[
-					elm$svg$Svg$Attributes$width('200'),
-					elm$svg$Svg$Attributes$height('250')
-				]),
-			_List_fromArray(
-				[
-					A2(
-					elm$svg$Svg$polyline,
-					_List_fromArray(
-						[
-							elm$svg$Svg$Attributes$d('M20,230 Q40,205 50,230 T90,230'),
-							elm$svg$Svg$Attributes$stroke('blue'),
-							elm$svg$Svg$Attributes$fill('none'),
-							elm$svg$Svg$Attributes$strokeWidth('5')
-						]),
-					_List_Nil)
 				]))
 		]));
-_Platform_export({'Main':{'init':_VirtualDom_init(author$project$Main$main)(0)(0)}});}(this));
+_Platform_export({'Bezier001':{'init':_VirtualDom_init(author$project$Bezier001$main)(0)(0)}});}(this));

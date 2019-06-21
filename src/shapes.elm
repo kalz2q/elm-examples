@@ -1,4 +1,4 @@
--- module Shapes exposing (main)
+module Shapes exposing (main)
 
 import Html
 import Svg
