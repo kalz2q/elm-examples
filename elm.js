@@ -4368,11 +4368,12 @@ var elm$svg$Svg$path = elm$svg$Svg$trustedNode('path');
 var elm$svg$Svg$svg = elm$svg$Svg$trustedNode('svg');
 var elm$svg$Svg$Attributes$d = _VirtualDom_attribute('d');
 var elm$svg$Svg$Attributes$fill = _VirtualDom_attribute('fill');
+var elm$svg$Svg$Attributes$fillOpacity = _VirtualDom_attribute('fill-opacity');
 var elm$svg$Svg$Attributes$height = _VirtualDom_attribute('height');
 var elm$svg$Svg$Attributes$stroke = _VirtualDom_attribute('stroke');
 var elm$svg$Svg$Attributes$strokeWidth = _VirtualDom_attribute('stroke-width');
 var elm$svg$Svg$Attributes$width = _VirtualDom_attribute('width');
-var author$project$Bezier001$main = A2(
+var author$project$Arc$main = A2(
 	elm$html$Html$div,
 	_List_Nil,
 	_List_fromArray(
@@ -4381,8 +4382,8 @@ var author$project$Bezier001$main = A2(
 			elm$svg$Svg$svg,
 			_List_fromArray(
 				[
-					elm$svg$Svg$Attributes$width('190'),
-					elm$svg$Svg$Attributes$height('300')
+					elm$svg$Svg$Attributes$width('320'),
+					elm$svg$Svg$Attributes$height('320')
 				]),
 			_List_fromArray(
 				[
@@ -4390,21 +4391,13 @@ var author$project$Bezier001$main = A2(
 					elm$svg$Svg$path,
 					_List_fromArray(
 						[
-							elm$svg$Svg$Attributes$d('M 10 10 C 20 20, 40 20, 50 10'),
+							elm$svg$Svg$Attributes$d('M 10 80 L 110 215 A 30 50 0 0 1 162.55 162.45  L 172.55 152.45           A 30 50 -45 0 1 215.1 109.9 L 315 10'),
 							elm$svg$Svg$Attributes$stroke('black'),
-							elm$svg$Svg$Attributes$fill('transparent')
-						]),
-					_List_Nil),
-					A2(
-					elm$svg$Svg$path,
-					_List_fromArray(
-						[
-							elm$svg$Svg$Attributes$d('M20,230 Q40,205 50,230 T90,230'),
-							elm$svg$Svg$Attributes$stroke('blue'),
-							elm$svg$Svg$Attributes$fill('none'),
-							elm$svg$Svg$Attributes$strokeWidth('5')
+							elm$svg$Svg$Attributes$fill('green'),
+							elm$svg$Svg$Attributes$strokeWidth('2'),
+							elm$svg$Svg$Attributes$fillOpacity('0.5')
 						]),
 					_List_Nil)
 				]))
 		]));
-_Platform_export({'Bezier001':{'init':_VirtualDom_init(author$project$Bezier001$main)(0)(0)}});}(this));
+_Platform_export({'Arc':{'init':_VirtualDom_init(author$project$Arc$main)(0)(0)}});}(this));
