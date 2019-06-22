@@ -9,7 +9,10 @@ main =
     Html.div []
         [ Svg.svg [ SA.width "320", SA.height "320" ]
             [ Svg.path
-                [ SA.d "M 10 315 L 110 215  A 36 60 0 0 1 150.71 170.29 L 172.55 152.45   A 30 50 -45 0 1 215.1 109.9 L 315 10"
+                [ SA.d """M 10 315
+                L 110 215  
+                A 36 60 0 0 1 150.71 170.29 L 172.55 152.45   
+                A 36 60 -45 0 1 215.1 109.9 L 315 10"""
                 , SA.stroke "black"
                 , SA.fill "green"
                 , SA.strokeWidth "2"
@@ -21,6 +24,7 @@ main =
                 , SA.cy "170.29"
                 , SA.r "10"
                 , SA.fill "red"
+                , SA.fillOpacity "0.5"                
                 ]
                 []
             , Svg.circle
@@ -28,6 +32,7 @@ main =
                 , SA.cy "215"
                 , SA.r "10"
                 , SA.fill "red"
+                , SA.fillOpacity "0.5"
                 ]
                 []
             , Svg.ellipse [ SA.cx "144.931", SA.cy "229.512", SA.rx "36", SA.ry "60", SA.fill "transparent", SA.stroke "blue" ] []
