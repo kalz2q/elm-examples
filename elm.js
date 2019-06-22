@@ -4364,23 +4364,14 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 };
 var elm$html$Html$div = _VirtualDom_node('div');
 var elm$svg$Svg$trustedNode = _VirtualDom_nodeNS('http://www.w3.org/2000/svg');
-var elm$svg$Svg$circle = elm$svg$Svg$trustedNode('circle');
-var elm$svg$Svg$ellipse = elm$svg$Svg$trustedNode('ellipse');
 var elm$svg$Svg$path = elm$svg$Svg$trustedNode('path');
 var elm$svg$Svg$svg = elm$svg$Svg$trustedNode('svg');
-var elm$svg$Svg$Attributes$cx = _VirtualDom_attribute('cx');
-var elm$svg$Svg$Attributes$cy = _VirtualDom_attribute('cy');
 var elm$svg$Svg$Attributes$d = _VirtualDom_attribute('d');
 var elm$svg$Svg$Attributes$fill = _VirtualDom_attribute('fill');
-var elm$svg$Svg$Attributes$fillOpacity = _VirtualDom_attribute('fill-opacity');
 var elm$svg$Svg$Attributes$height = _VirtualDom_attribute('height');
-var elm$svg$Svg$Attributes$r = _VirtualDom_attribute('r');
-var elm$svg$Svg$Attributes$rx = _VirtualDom_attribute('rx');
-var elm$svg$Svg$Attributes$ry = _VirtualDom_attribute('ry');
-var elm$svg$Svg$Attributes$stroke = _VirtualDom_attribute('stroke');
 var elm$svg$Svg$Attributes$strokeWidth = _VirtualDom_attribute('stroke-width');
 var elm$svg$Svg$Attributes$width = _VirtualDom_attribute('width');
-var author$project$Arc002$main = A2(
+var author$project$Arc003$main = A2(
 	elm$html$Html$div,
 	_List_Nil,
 	_List_fromArray(
@@ -4389,8 +4380,8 @@ var author$project$Arc002$main = A2(
 			elm$svg$Svg$svg,
 			_List_fromArray(
 				[
-					elm$svg$Svg$Attributes$width('320'),
-					elm$svg$Svg$Attributes$height('320')
+					elm$svg$Svg$Attributes$width('325'),
+					elm$svg$Svg$Attributes$height('325')
 				]),
 			_List_fromArray(
 				[
@@ -4398,57 +4389,35 @@ var author$project$Arc002$main = A2(
 					elm$svg$Svg$path,
 					_List_fromArray(
 						[
-							elm$svg$Svg$Attributes$d('M 10 315 L 110 215  A 36 60 0 0 1 150.71 170.29 L 172.55 152.45   A 30 50 -45 0 1 215.1 109.9 L 315 10'),
-							elm$svg$Svg$Attributes$stroke('black'),
+							elm$svg$Svg$Attributes$d('M 80 80\n                  A 45 45, 0, 0, 0, 125 125\n                  L 125 80 Z'),
 							elm$svg$Svg$Attributes$fill('green'),
-							elm$svg$Svg$Attributes$strokeWidth('2'),
-							elm$svg$Svg$Attributes$fillOpacity('0.5')
+							elm$svg$Svg$Attributes$strokeWidth('3')
 						]),
 					_List_Nil),
 					A2(
-					elm$svg$Svg$circle,
+					elm$svg$Svg$path,
 					_List_fromArray(
 						[
-							elm$svg$Svg$Attributes$cx('150.71'),
-							elm$svg$Svg$Attributes$cy('170.29'),
-							elm$svg$Svg$Attributes$r('2'),
+							elm$svg$Svg$Attributes$d('M 230 80\n                  A 45 45, 0, 1, 0, 275 125\n                  L 275 80 Z'),
 							elm$svg$Svg$Attributes$fill('red')
 						]),
 					_List_Nil),
 					A2(
-					elm$svg$Svg$circle,
+					elm$svg$Svg$path,
 					_List_fromArray(
 						[
-							elm$svg$Svg$Attributes$cx('110'),
-							elm$svg$Svg$Attributes$cy('215'),
-							elm$svg$Svg$Attributes$r('2'),
-							elm$svg$Svg$Attributes$fill('red')
+							elm$svg$Svg$Attributes$d('M 80 230\n                  A 45 45, 0, 0, 1, 125 275\n                  L 125 230 Z'),
+							elm$svg$Svg$Attributes$fill('purple')
 						]),
 					_List_Nil),
 					A2(
-					elm$svg$Svg$ellipse,
+					elm$svg$Svg$path,
 					_List_fromArray(
 						[
-							elm$svg$Svg$Attributes$cx('144.931'),
-							elm$svg$Svg$Attributes$cy('229.512'),
-							elm$svg$Svg$Attributes$rx('36'),
-							elm$svg$Svg$Attributes$ry('60'),
-							elm$svg$Svg$Attributes$fill('transparent'),
-							elm$svg$Svg$Attributes$stroke('blue')
-						]),
-					_List_Nil),
-					A2(
-					elm$svg$Svg$ellipse,
-					_List_fromArray(
-						[
-							elm$svg$Svg$Attributes$cx('115.779'),
-							elm$svg$Svg$Attributes$cy('155.778'),
-							elm$svg$Svg$Attributes$rx('36'),
-							elm$svg$Svg$Attributes$ry('60'),
-							elm$svg$Svg$Attributes$fill('transparent'),
-							elm$svg$Svg$Attributes$stroke('blue')
+							elm$svg$Svg$Attributes$d('M 230 230\n                  A 45 45, 0, 1, 1, 275 275\n                  L 275 230 Z'),
+							elm$svg$Svg$Attributes$fill('blue')
 						]),
 					_List_Nil)
 				]))
 		]));
-_Platform_export({'Arc002':{'init':_VirtualDom_init(author$project$Arc002$main)(0)(0)}});}(this));
+_Platform_export({'Arc003':{'init':_VirtualDom_init(author$project$Arc003$main)(0)(0)}});}(this));
