@@ -1,4 +1,4 @@
-module Svg006 exposing (main)
+module SvgCss exposing (main)
 
 -- This is how to use defs => failure
 
