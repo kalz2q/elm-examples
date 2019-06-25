@@ -4366,18 +4366,23 @@ var elm$html$Html$div = _VirtualDom_node('div');
 var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
 var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
 var elm$svg$Svg$trustedNode = _VirtualDom_nodeNS('http://www.w3.org/2000/svg');
+var elm$svg$Svg$defs = elm$svg$Svg$trustedNode('defs');
+var elm$svg$Svg$linearGradient = elm$svg$Svg$trustedNode('linearGradient');
 var elm$svg$Svg$rect = elm$svg$Svg$trustedNode('rect');
+var elm$svg$Svg$stop = elm$svg$Svg$trustedNode('stop');
 var elm$svg$Svg$svg = elm$svg$Svg$trustedNode('svg');
 var elm$svg$Svg$Attributes$fill = _VirtualDom_attribute('fill');
-var elm$svg$Svg$Attributes$fillOpacity = _VirtualDom_attribute('fill-opacity');
 var elm$svg$Svg$Attributes$height = _VirtualDom_attribute('height');
-var elm$svg$Svg$Attributes$stroke = _VirtualDom_attribute('stroke');
-var elm$svg$Svg$Attributes$strokeOpacity = _VirtualDom_attribute('stroke-opacity');
-var elm$svg$Svg$Attributes$strokeWidth = _VirtualDom_attribute('stroke-width');
+var elm$svg$Svg$Attributes$id = _VirtualDom_attribute('id');
+var elm$svg$Svg$Attributes$offset = _VirtualDom_attribute('offset');
+var elm$svg$Svg$Attributes$rx = _VirtualDom_attribute('rx');
+var elm$svg$Svg$Attributes$ry = _VirtualDom_attribute('ry');
+var elm$svg$Svg$Attributes$stopColor = _VirtualDom_attribute('stop-color');
+var elm$svg$Svg$Attributes$stopOpacity = _VirtualDom_attribute('stop-opacity');
 var elm$svg$Svg$Attributes$width = _VirtualDom_attribute('width');
 var elm$svg$Svg$Attributes$x = _VirtualDom_attribute('x');
 var elm$svg$Svg$Attributes$y = _VirtualDom_attribute('y');
-var author$project$FillStroke$main = A2(
+var author$project$LinearGradient$main = A2(
 	elm$html$Html$div,
 	_List_fromArray(
 		[
@@ -4387,24 +4392,115 @@ var author$project$FillStroke$main = A2(
 		[
 			A2(
 			elm$svg$Svg$svg,
-			_List_Nil,
 			_List_fromArray(
 				[
+					elm$svg$Svg$Attributes$width('120'),
+					elm$svg$Svg$Attributes$height('250')
+				]),
+			_List_fromArray(
+				[
+					A2(
+					elm$svg$Svg$defs,
+					_List_Nil,
+					_List_fromArray(
+						[
+							A2(
+							elm$svg$Svg$linearGradient,
+							_List_fromArray(
+								[
+									elm$svg$Svg$Attributes$id('Gradient1')
+								]),
+							_List_fromArray(
+								[
+									A2(
+									elm$svg$Svg$stop,
+									_List_fromArray(
+										[
+											elm$svg$Svg$Attributes$offset('0%'),
+											elm$svg$Svg$Attributes$stopColor('red')
+										]),
+									_List_Nil),
+									A2(
+									elm$svg$Svg$stop,
+									_List_fromArray(
+										[
+											elm$svg$Svg$Attributes$offset('50%'),
+											elm$svg$Svg$Attributes$stopColor('black'),
+											elm$svg$Svg$Attributes$stopOpacity('0')
+										]),
+									_List_Nil),
+									A2(
+									elm$svg$Svg$stop,
+									_List_fromArray(
+										[
+											elm$svg$Svg$Attributes$offset('100%'),
+											elm$svg$Svg$Attributes$stopColor('yellow'),
+											elm$svg$Svg$Attributes$stopOpacity('0')
+										]),
+									_List_Nil)
+								])),
+							A2(
+							elm$svg$Svg$linearGradient,
+							_List_fromArray(
+								[
+									elm$svg$Svg$Attributes$id('Gradient2')
+								]),
+							_List_fromArray(
+								[
+									A2(
+									elm$svg$Svg$stop,
+									_List_fromArray(
+										[
+											elm$svg$Svg$Attributes$offset('0%'),
+											elm$svg$Svg$Attributes$stopColor('green')
+										]),
+									_List_Nil),
+									A2(
+									elm$svg$Svg$stop,
+									_List_fromArray(
+										[
+											elm$svg$Svg$Attributes$offset('50%'),
+											elm$svg$Svg$Attributes$stopColor('black'),
+											elm$svg$Svg$Attributes$stopOpacity('0')
+										]),
+									_List_Nil),
+									A2(
+									elm$svg$Svg$stop,
+									_List_fromArray(
+										[
+											elm$svg$Svg$Attributes$offset('100%'),
+											elm$svg$Svg$Attributes$stopColor('blue'),
+											elm$svg$Svg$Attributes$stopOpacity('0')
+										]),
+									_List_Nil)
+								]))
+						])),
 					A2(
 					elm$svg$Svg$rect,
 					_List_fromArray(
 						[
 							elm$svg$Svg$Attributes$x('10'),
 							elm$svg$Svg$Attributes$y('10'),
+							elm$svg$Svg$Attributes$rx('15'),
+							elm$svg$Svg$Attributes$ry('15'),
 							elm$svg$Svg$Attributes$width('100'),
 							elm$svg$Svg$Attributes$height('100'),
-							elm$svg$Svg$Attributes$stroke('blue'),
-							elm$svg$Svg$Attributes$strokeWidth('3'),
-							elm$svg$Svg$Attributes$fill('purple'),
-							elm$svg$Svg$Attributes$fillOpacity('0.5'),
-							elm$svg$Svg$Attributes$strokeOpacity('0.8')
+							elm$svg$Svg$Attributes$fill('url(Gradient1)')
+						]),
+					_List_Nil),
+					A2(
+					elm$svg$Svg$rect,
+					_List_fromArray(
+						[
+							elm$svg$Svg$Attributes$x('10'),
+							elm$svg$Svg$Attributes$y('120'),
+							elm$svg$Svg$Attributes$rx('15'),
+							elm$svg$Svg$Attributes$ry('15'),
+							elm$svg$Svg$Attributes$width('100'),
+							elm$svg$Svg$Attributes$height('100'),
+							elm$svg$Svg$Attributes$fill('url(Gradient2)')
 						]),
 					_List_Nil)
 				]))
 		]));
-_Platform_export({'FillStroke':{'init':_VirtualDom_init(author$project$FillStroke$main)(0)(0)}});}(this));
+_Platform_export({'LinearGradient':{'init':_VirtualDom_init(author$project$LinearGradient$main)(0)(0)}});}(this));
