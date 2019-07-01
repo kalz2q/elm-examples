@@ -1,12 +1,10 @@
 module NumGuess exposing (main)
 
-
 -- number guessing game
 -- first version is forked from textformlist.elm and helloname.elm
 -- secondly, add random001.elm
 -- bookmark
 -- this is not going well because random001.elm i s intended to start with a random number so ... try other way roun d
-
 
 import Browser
 import Html
@@ -24,6 +22,7 @@ main =
         , view = view
         }
 
+
 type alias Model =
     { input : String
     , randomNumber : Int
@@ -34,11 +33,11 @@ type alias Model =
 init : () -> ( Model, Cmd Msg )
 init _ =
     ( { input = ""
-    , rndomNumber = 1
-    , memos = []
-    }
-    , randomNumber = Random.generate NewRandom (Random.int 1 100000))
-
+      , randomNumber = 1
+      , memos = []
+      }
+    , Random.generate NewRandom (Random.int 1 100000)
+    )
 
 
 type Msg
@@ -47,27 +46,33 @@ type Msg
     | Submit
 
 
-update : Msg -> Model -> (Model, Cmd Msg)
+update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
         Input input ->
-            ({ model | input = input }
-            , Cmd.none)
+            ( { model | input = input }
+            , Cmd.none
+            )
 
         NewRandom newRandom ->
-          ({model | randomNumber = NewRandom}
-          , Cmd.none)
+            ( { model | randomNumber = newRandom }
+            , Cmd.none
+            )
 
--- bookmark
         Submit ->
-            { model
+            ( { model
                 | input = ""
-                , memos = model.memos ++ model.input :: []
-            }
+                , memos = model.memos ++ feedbackText model :: []
+              }
+            , Cmd.none
+            )
 
-subscriptions : Model -> Sub Msg
-subscriptions model =
-    Sub.none
+
+
+-- subscriptions : Model -> Sub Msg
+-- subscriptions model =
+--     Sub.none
+
 
 view : Model -> Html.Html Msg
 view model =
@@ -85,3 +90,24 @@ view model =
 viewMemo : String -> Html.Html Msg
 viewMemo memo =
     Html.li [] [ Html.text memo ]
+
+-- bookmark
+
+
+
+-- feedbackText : Model -> Html Msg
+feedbackText : Model -> String
+feedbackText model =
+    case model.input of
+        String.toInt (model.input) > randomNumber ->
+            if guess == model.answer then
+                div [] [ text <| "You correctly guessed " ++ String.fromInt model.answer ]
+
+            else if guess > model.answer then
+                div [] [ text "Too high!" ]
+
+            else
+                div [] [ text "Too low!" ]
+
+        Nothing ->
+            text ""
