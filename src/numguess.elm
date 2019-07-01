@@ -20,7 +20,7 @@ main =
     Browser.element
         { init = init
         , update = update
-        , subscriptions = subscriptions
+        , subscriptions = \_ -> Sub.none
         , view = view
         }
 
@@ -34,10 +34,10 @@ type alias Model =
 init : () -> ( Model, Cmd Msg )
 init _ =
     ( { input = ""
-    , randomNumber = Random.generate NewRandom (Random.int 1 100000)
+    , rndomNumber = 1
     , memos = []
     }
-    , Cmd.none)
+    , randomNumber = Random.generate NewRandom (Random.int 1 100000))
 
 
 
