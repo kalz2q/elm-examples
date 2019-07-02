@@ -27,55 +27,47 @@ main =
 
 
 type alias Model =
-    { typedGuess : Maybe Int -- Nothing if invalid Int
-    , submittedGuess : Maybe Int
+    { guess : Maybe Int -- Nothing if invalid Int
+    -- , submittedGuess : Maybe Int
     , answer : Int
     , totalGuesses : Int
     }
 
+init : () -> ( Model, Cmd Msg )
+init _ =
+    ( { guess = Nothing
+    --   , submittedGuess = Nothing
+      , answer = 0 -- Default to 0 for now. There are better ways to model this
+      , totalGuesses = 0
+      }
+    , Random.generate NewRandom (Random.int 1 10)
+    )
 
 type Msg
-    = RandomNumberReceived Int
+    = NewRandom Int
     | TypedText String
     | SubmitGuess
 
 
 
 
-
-
-init : () -> ( Model, Cmd Msg )
-init _ =
-    ( { typedGuess = Nothing
-      , submittedGuess = Nothing
-      , answer = 0 -- Default to 0 for now. There are better ways to model this
-      , totalGuesses = 0
-      }
-    , Random.generate RandomNumberReceived (Random.int 1 10)
-    )
-
-
-
--- Update
-
-
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        RandomNumberReceived answer ->
+        NewRandom answer ->
             ( { model | answer = answer }
             , Cmd.none
             )
 
         TypedText inputString ->
-            ( { model | typedGuess = String.toInt inputString }
+            ( { model | guess = String.toInt inputString }
             , Cmd.none
             )
 
         SubmitGuess ->
             ( { model
-                | typedGuess = Nothing
-                , submittedGuess = model.typedGuess
+                | guess = Nothing
+                -- , submittedGuess = model.typedGuess
                 , totalGuesses = model.totalGuesses + 1
               }
             , Cmd.none
@@ -92,7 +84,7 @@ view model =
             [ Html.input
                 [ HA.type_ "text"
                 , HE.onInput TypedText
-                ,  HA.value (Maybe.withDefault "" (Maybe.map String.fromInt  model.typedGuess))
+                ,  HA.value (Maybe.withDefault "" (Maybe.map String.fromInt  model.guess))
                 ]
                 []
             , Html.button
@@ -106,7 +98,7 @@ view model =
 
 feedbackText : Model -> Html.Html Msg
 feedbackText model =
-    case model.submittedGuess of
+    case model.guess of
         Just guess ->
             if guess == model.answer then
                 Html.div [] [ Html.text  ( "You correctly guessed " ++ String.fromInt model.answer )]

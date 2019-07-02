@@ -4393,8 +4393,8 @@ function _Browser_load(url)
 		}
 	}));
 }
-var author$project$NumGuess002$RandomNumberReceived = function (a) {
-	return {$: 'RandomNumberReceived', a: a};
+var author$project$NumGuess003$NewRandom = function (a) {
+	return {$: 'NewRandom', a: a};
 };
 var elm$core$Maybe$Nothing = {$: 'Nothing'};
 var elm$core$Elm$JsArray$foldr = _JsArray_foldr;
@@ -5026,21 +5026,21 @@ var elm$random$Random$int = F2(
 				}
 			});
 	});
-var author$project$NumGuess002$init = function (_n0) {
+var author$project$NumGuess003$init = function (_n0) {
 	return _Utils_Tuple2(
-		{answer: 0, submittedGuess: elm$core$Maybe$Nothing, totalGuesses: 0, typedGuess: elm$core$Maybe$Nothing},
+		{answer: 0, guess: elm$core$Maybe$Nothing, totalGuesses: 0},
 		A2(
 			elm$random$Random$generate,
-			author$project$NumGuess002$RandomNumberReceived,
+			author$project$NumGuess003$NewRandom,
 			A2(elm$random$Random$int, 1, 10)));
 };
 var elm$core$Platform$Cmd$batch = _Platform_batch;
 var elm$core$Platform$Cmd$none = elm$core$Platform$Cmd$batch(_List_Nil);
 var elm$core$String$toInt = _String_toInt;
-var author$project$NumGuess002$update = F2(
+var author$project$NumGuess003$update = F2(
 	function (msg, model) {
 		switch (msg.$) {
-			case 'RandomNumberReceived':
+			case 'NewRandom':
 				var answer = msg.a;
 				return _Utils_Tuple2(
 					_Utils_update(
@@ -5053,19 +5053,19 @@ var author$project$NumGuess002$update = F2(
 					_Utils_update(
 						model,
 						{
-							typedGuess: elm$core$String$toInt(inputString)
+							guess: elm$core$String$toInt(inputString)
 						}),
 					elm$core$Platform$Cmd$none);
 			default:
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{submittedGuess: model.typedGuess, totalGuesses: model.totalGuesses + 1, typedGuess: elm$core$Maybe$Nothing}),
+						{guess: elm$core$Maybe$Nothing, totalGuesses: model.totalGuesses + 1}),
 					elm$core$Platform$Cmd$none);
 		}
 	});
-var author$project$NumGuess002$SubmitGuess = {$: 'SubmitGuess'};
-var author$project$NumGuess002$TypedText = function (a) {
+var author$project$NumGuess003$SubmitGuess = {$: 'SubmitGuess'};
+var author$project$NumGuess003$TypedText = function (a) {
 	return {$: 'TypedText', a: a};
 };
 var elm$json$Json$Decode$map = _Json_map1;
@@ -5086,8 +5086,8 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 var elm$html$Html$div = _VirtualDom_node('div');
 var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
-var author$project$NumGuess002$feedbackText = function (model) {
-	var _n0 = model.submittedGuess;
+var author$project$NumGuess003$feedbackText = function (model) {
+	var _n0 = model.guess;
 	if (_n0.$ === 'Just') {
 		var guess = _n0.a;
 		return _Utils_eq(guess, model.answer) ? A2(
@@ -5250,7 +5250,7 @@ var elm$html$Html$Events$onInput = function (tagger) {
 			elm$html$Html$Events$alwaysStop,
 			A2(elm$json$Json$Decode$map, tagger, elm$html$Html$Events$targetValue)));
 };
-var author$project$NumGuess002$view = function (model) {
+var author$project$NumGuess003$view = function (model) {
 	return A2(
 		elm$html$Html$div,
 		_List_Nil,
@@ -5266,19 +5266,19 @@ var author$project$NumGuess002$view = function (model) {
 						_List_fromArray(
 							[
 								elm$html$Html$Attributes$type_('text'),
-								elm$html$Html$Events$onInput(author$project$NumGuess002$TypedText),
+								elm$html$Html$Events$onInput(author$project$NumGuess003$TypedText),
 								elm$html$Html$Attributes$value(
 								A2(
 									elm$core$Maybe$withDefault,
 									'',
-									A2(elm$core$Maybe$map, elm$core$String$fromInt, model.typedGuess)))
+									A2(elm$core$Maybe$map, elm$core$String$fromInt, model.guess)))
 							]),
 						_List_Nil),
 						A2(
 						elm$html$Html$button,
 						_List_fromArray(
 							[
-								elm$html$Html$Events$onClick(author$project$NumGuess002$SubmitGuess)
+								elm$html$Html$Events$onClick(author$project$NumGuess003$SubmitGuess)
 							]),
 						_List_fromArray(
 							[
@@ -5293,7 +5293,7 @@ var author$project$NumGuess002$view = function (model) {
 						elm$html$Html$text(
 						'Guesses: ' + elm$core$String$fromInt(model.totalGuesses))
 					])),
-				author$project$NumGuess002$feedbackText(model)
+				author$project$NumGuess003$feedbackText(model)
 			]));
 };
 var elm$browser$Browser$External = function (a) {
@@ -5535,14 +5535,14 @@ var elm$url$Url$fromString = function (str) {
 var elm$browser$Browser$element = _Browser_element;
 var elm$core$Platform$Sub$batch = _Platform_batch;
 var elm$core$Platform$Sub$none = elm$core$Platform$Sub$batch(_List_Nil);
-var author$project$NumGuess002$main = elm$browser$Browser$element(
+var author$project$NumGuess003$main = elm$browser$Browser$element(
 	{
-		init: author$project$NumGuess002$init,
+		init: author$project$NumGuess003$init,
 		subscriptions: function (_n0) {
 			return elm$core$Platform$Sub$none;
 		},
-		update: author$project$NumGuess002$update,
-		view: author$project$NumGuess002$view
+		update: author$project$NumGuess003$update,
+		view: author$project$NumGuess003$view
 	});
-_Platform_export({'NumGuess002':{'init':author$project$NumGuess002$main(
+_Platform_export({'NumGuess003':{'init':author$project$NumGuess003$main(
 	elm$json$Json$Decode$succeed(_Utils_Tuple0))(0)}});}(this));
