@@ -1,13 +1,12 @@
-module NumGuess002 exposing (main)
+module NumGuess003 exposing (main)
 
--- this version of number guessing game is from learn discourse
--- fairly simple but a bit too safe about inputting
+
 -- 001 is working, mission for 002 is
 -- simplify input logic
--- 反応しないことよりちゃんと反応することの方が親切だと思います
-
--- simplify input logicの前にパイプをカッコにするとか、関数にnamespaceをつけるとかした
--- copyを003にして続ける
+-- numguess.elmと並べて変更する
+-- modelをinput : String => Maybe Intにする
+-- modelをtypedGuess , submittedGuessをひとつにする
+-- guess : Maybe Intにしよう
 
 
 
