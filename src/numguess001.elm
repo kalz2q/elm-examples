@@ -7,6 +7,55 @@ module NumGuess001 exposing (main)
 -- 1.simplify import bu using `as` HA, HE, etc.
 -- 2.simplify screen
 -- 3.simplify logic
+== 4.don't destruct working module Name exposing (Model, Msg, update, view, subscriptions, init)
+
+import Html exposing (..)
+
+
+main : Program Never Model Msg
+main =
+    Html.program
+        { init = init
+        , view = view
+        , update = update
+        , subscriptions = subscriptions
+    }
+
+
+type alias Model =
+    { property : propertyType
+    }
+
+
+type Msg
+    = Msg1
+    | Msg2
+
+
+update : Msg -> Model -> (Model, Cmd Msg)
+update msg model =
+    case msg of
+        Msg1 ->
+            (model, Cmd.none)
+
+        Msg2 ->
+            (model, Cmd.none)
+
+
+view : Model -> Html Msg
+view model =
+    div []
+        [ text "New Html Program" ]
+
+
+subscriptions : Model -> Sub Msg
+subscriptions model =
+    Sub.none
+
+
+init : (Model, Cmd Msg)
+init = 
+    (Model modelInitialValue, Cmd.none)
 
 
 import Browser
