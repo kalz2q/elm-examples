@@ -1,4 +1,13 @@
-module Main exposing (main)
+module NumGuess001 exposing (main)
+
+-- this version of number guessing game is from learn discourse
+-- fairly simple but a bit too safe about inputting
+-- using |> and |< is confusing for me
+-- I am now thinking the way how to deal with new elm programs
+-- 1.simplify import bu using `as` HA, HE, etc.
+-- 2.simplify screen
+-- 3.simplify logic
+
 
 import Browser
 import Html exposing (Html, button, div, input, text)
