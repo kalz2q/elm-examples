@@ -1,5 +1,4 @@
-module NumGuess003 exposing (main)
-
+module NumGuess004 exposing (main)
 
 -- 001 is working, mission for 002 is
 -- simplify input logic
@@ -8,14 +7,15 @@ module NumGuess003 exposing (main)
 -- modelをtypedGuess , submittedGuessをひとつにする
 -- guess : Maybe Intにしよう
 -- とりあえず動いたが、動きが変だが、うごいているので003は固定
--- 004で動きを直す
-
+-- 004で動きを直す。とりあえずguesses: nは要らない
+-- HelloNameのようにonInputでinputを貯めて、onSubmitで動くようにする
 
 import Browser
 import Html
 import Html.Attributes as HA
 import Html.Events as HE
 import Random
+
 
 main : Program () Model Msg
 main =
@@ -28,28 +28,26 @@ main =
 
 
 type alias Model =
-    { guess : Maybe Int -- Nothing if invalid Int
-    -- , submittedGuess : Maybe Int
+    { input : String
+    , guess : Maybe Int
     , answer : Int
-    , totalGuesses : Int
     }
+
 
 init : () -> ( Model, Cmd Msg )
 init _ =
-    ( { guess = Nothing
-    --   , submittedGuess = Nothing
-      , answer = 0 -- Default to 0 for now. There are better ways to model this
-      , totalGuesses = 0
+    ( { input = ""
+      , guess = Nothing
+      , answer = 0
       }
-    , Random.generate NewRandom (Random.int 1 10)
+    , Random.generate NewRandom (Random.int 1 100)
     )
+
 
 type Msg
     = NewRandom Int
     | TypedText String
     | SubmitGuess
-
-
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -68,31 +66,23 @@ update msg model =
         SubmitGuess ->
             ( { model
                 | guess = Nothing
-                -- , submittedGuess = model.typedGuess
-                , totalGuesses = model.totalGuesses + 1
               }
             , Cmd.none
             )
 
 
-
 view : Model -> Html.Html Msg
 view model =
-    Html.div
-        []
-        [ Html.div
-            []
-            [ Html.input
-                [ HA.type_ "text"
-                , HE.onInput TypedText
-                ,  HA.value (Maybe.withDefault "" (Maybe.map String.fromInt  model.guess))
+    Html.div []
+            [ Html.form
+                [ HE.onSubmit SubmitGuess
+
+                -- ,  HA.value (Maybe.withDefault "" (Maybe.map String.fromInt  model.guess))
                 ]
-                []
+                [ Html.input [ HE.onInput TypedText, HA.value (Maybe.withDefault "" (Maybe.map String.fromInt model.guess)) ] ]
             , Html.button
-                [ HE.onClick SubmitGuess ]
-                [ Html.text "Guess!" ]
-            ]
-        , Html.div [] [ Html.text ( "Guesses: " ++ String.fromInt model.totalGuesses ) ]
+                [ HA.disabled (String.isEmpty (String.trim inputString)) ]
+                [ Html.text "Submit" ]
         , feedbackText model
         ]
 
@@ -102,7 +92,7 @@ feedbackText model =
     case model.guess of
         Just guess ->
             if guess == model.answer then
-                Html.div [] [ Html.text  ( "You correctly guessed " ++ String.fromInt model.answer )]
+                Html.div [] [ Html.text ("You correctly guessed " ++ String.fromInt model.answer) ]
 
             else if guess > model.answer then
                 Html.div [] [ Html.text "Too high!" ]
