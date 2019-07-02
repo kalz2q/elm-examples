@@ -1,4 +1,4 @@
-module NumGuess003 exposing (main)
+Mmodule NumGuess003 exposing (main)
 
 
 -- 001 is working, mission for 002 is

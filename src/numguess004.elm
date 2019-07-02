@@ -46,8 +46,8 @@ init _ =
 
 type Msg
     = NewRandom Int
-    | TypedText String
-    | SubmitGuess
+    | Input String
+    | Submit
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -58,14 +58,15 @@ update msg model =
             , Cmd.none
             )
 
-        TypedText inputString ->
-            ( { model | guess = String.toInt inputString }
+        Input input ->
+            ( { model | input = input }
             , Cmd.none
             )
 
-        SubmitGuess ->
+        Submit ->
             ( { model
-                | guess = Nothing
+                | input = ""
+                | guess = String.toInt  model.input
               }
             , Cmd.none
             )
