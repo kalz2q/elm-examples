@@ -1,19 +1,16 @@
-module NumGuess001 exposing (main)
+module NumGuess002 exposing (main)
 
 -- this version of number guessing game is from learn discourse
 -- fairly simple but a bit too safe about inputting
--- using |> and |< is confusing for me
--- I am now thinking the way how to deal with new elm programs
--- 1.simplify import bu using `as` HA, HE, etc.
--- 2.simplify screen
--- 3.simplify logic
---  4.don't destruct working 
+-- 001 is working, mission for 002 is
+-- simplify input logic
+-- 反応しないことよりちゃんと反応することの方が親切だと思います
 
 
 import Browser
-import Html exposing (Html, button, div, input, text)
-import Html.Attributes exposing (type_, value)
-import Html.Events exposing (onClick, onInput)
+import Html
+import Html.Attributes as HA
+import Html.Events as HE
 import Random
 
 main : Program () Model Msg
@@ -86,39 +83,39 @@ update msg model =
 -- View
 
 
-view : Model -> Html Msg
+view : Model -> Html.Html Msg
 view model =
-    div
+    Html.div
         []
-        [ div
+        [ Html.div
             []
-            [ input
-                [ type_ "text"
-                , onInput TypedText
-                , model.typedGuess |> Maybe.map String.fromInt |> Maybe.withDefault "" |> value
+            [ Html.input
+                [ HA.type_ "text"
+                , HE.onInput TypedText
+                , model.typedGuess |> Maybe.map String.fromInt |> Maybe.withDefault "" |> HA.value
                 ]
                 []
-            , button
-                [ onClick SubmitGuess ]
-                [ text "Guess!" ]
+            , Html.button
+                [ HE.onClick SubmitGuess ]
+                [ Html.text "Guess!" ]
             ]
-        , div [] [ text <| "Guesses: " ++ String.fromInt model.totalGuesses ]
+        , Html.div [] [ Html.text ( "Guesses: " ++ String.fromInt model.totalGuesses ) ]
         , feedbackText model
         ]
 
 
-feedbackText : Model -> Html Msg
+feedbackText : Model -> Html.Html Msg
 feedbackText model =
     case model.submittedGuess of
         Just guess ->
             if guess == model.answer then
-                div [] [ text <| "You correctly guessed " ++ String.fromInt model.answer ]
+                Html.div [] [ Html.text  ( "You correctly guessed " ++ String.fromInt model.answer )]
 
             else if guess > model.answer then
-                div [] [ text "Too high!" ]
+                Html.div [] [ Html.text "Too high!" ]
 
             else
-                div [] [ text "Too low!" ]
+                Html.div [] [ Html.text "Too low!" ]
 
         Nothing ->
-            text ""
+            Html.text ""

@@ -4393,7 +4393,7 @@ function _Browser_load(url)
 		}
 	}));
 }
-var author$project$Main$RandomNumberReceived = function (a) {
+var author$project$NumGuess002$RandomNumberReceived = function (a) {
 	return {$: 'RandomNumberReceived', a: a};
 };
 var elm$core$Maybe$Nothing = {$: 'Nothing'};
@@ -5026,18 +5026,18 @@ var elm$random$Random$int = F2(
 				}
 			});
 	});
-var author$project$Main$init = function (_n0) {
+var author$project$NumGuess002$init = function (_n0) {
 	return _Utils_Tuple2(
 		{answer: 0, submittedGuess: elm$core$Maybe$Nothing, totalGuesses: 0, typedGuess: elm$core$Maybe$Nothing},
 		A2(
 			elm$random$Random$generate,
-			author$project$Main$RandomNumberReceived,
+			author$project$NumGuess002$RandomNumberReceived,
 			A2(elm$random$Random$int, 1, 10)));
 };
 var elm$core$Platform$Cmd$batch = _Platform_batch;
 var elm$core$Platform$Cmd$none = elm$core$Platform$Cmd$batch(_List_Nil);
 var elm$core$String$toInt = _String_toInt;
-var author$project$Main$update = F2(
+var author$project$NumGuess002$update = F2(
 	function (msg, model) {
 		switch (msg.$) {
 			case 'RandomNumberReceived':
@@ -5064,8 +5064,8 @@ var author$project$Main$update = F2(
 					elm$core$Platform$Cmd$none);
 		}
 	});
-var author$project$Main$SubmitGuess = {$: 'SubmitGuess'};
-var author$project$Main$TypedText = function (a) {
+var author$project$NumGuess002$SubmitGuess = {$: 'SubmitGuess'};
+var author$project$NumGuess002$TypedText = function (a) {
 	return {$: 'TypedText', a: a};
 };
 var elm$json$Json$Decode$map = _Json_map1;
@@ -5086,7 +5086,7 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 var elm$html$Html$div = _VirtualDom_node('div');
 var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
-var author$project$Main$feedbackText = function (model) {
+var author$project$NumGuess002$feedbackText = function (model) {
 	var _n0 = model.submittedGuess;
 	if (_n0.$ === 'Just') {
 		var guess = _n0.a;
@@ -5250,7 +5250,7 @@ var elm$html$Html$Events$onInput = function (tagger) {
 			elm$html$Html$Events$alwaysStop,
 			A2(elm$json$Json$Decode$map, tagger, elm$html$Html$Events$targetValue)));
 };
-var author$project$Main$view = function (model) {
+var author$project$NumGuess002$view = function (model) {
 	return A2(
 		elm$html$Html$div,
 		_List_Nil,
@@ -5266,7 +5266,7 @@ var author$project$Main$view = function (model) {
 						_List_fromArray(
 							[
 								elm$html$Html$Attributes$type_('text'),
-								elm$html$Html$Events$onInput(author$project$Main$TypedText),
+								elm$html$Html$Events$onInput(author$project$NumGuess002$TypedText),
 								elm$html$Html$Attributes$value(
 								A2(
 									elm$core$Maybe$withDefault,
@@ -5278,7 +5278,7 @@ var author$project$Main$view = function (model) {
 						elm$html$Html$button,
 						_List_fromArray(
 							[
-								elm$html$Html$Events$onClick(author$project$Main$SubmitGuess)
+								elm$html$Html$Events$onClick(author$project$NumGuess002$SubmitGuess)
 							]),
 						_List_fromArray(
 							[
@@ -5293,7 +5293,7 @@ var author$project$Main$view = function (model) {
 						elm$html$Html$text(
 						'Guesses: ' + elm$core$String$fromInt(model.totalGuesses))
 					])),
-				author$project$Main$feedbackText(model)
+				author$project$NumGuess002$feedbackText(model)
 			]));
 };
 var elm$browser$Browser$External = function (a) {
@@ -5535,14 +5535,14 @@ var elm$url$Url$fromString = function (str) {
 var elm$browser$Browser$element = _Browser_element;
 var elm$core$Platform$Sub$batch = _Platform_batch;
 var elm$core$Platform$Sub$none = elm$core$Platform$Sub$batch(_List_Nil);
-var author$project$Main$main = elm$browser$Browser$element(
+var author$project$NumGuess002$main = elm$browser$Browser$element(
 	{
-		init: author$project$Main$init,
+		init: author$project$NumGuess002$init,
 		subscriptions: function (_n0) {
 			return elm$core$Platform$Sub$none;
 		},
-		update: author$project$Main$update,
-		view: author$project$Main$view
+		update: author$project$NumGuess002$update,
+		view: author$project$NumGuess002$view
 	});
-_Platform_export({'Main':{'init':author$project$Main$main(
+_Platform_export({'NumGuess002':{'init':author$project$NumGuess002$main(
 	elm$json$Json$Decode$succeed(_Utils_Tuple0))(0)}});}(this));
