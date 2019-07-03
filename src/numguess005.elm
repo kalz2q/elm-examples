@@ -59,11 +59,13 @@ update msg model =
             , Cmd.none
             )
 
-        Submit ->
+        Submit->
             ( { model
-                | input = ""
+                | 
+                input = ""
                 , guess = String.toInt model.input
                 , memos = model.memos ++ model.input :: []
+                -- , memos = model.memos ++ (feedbackText2 model) :: []
               }
             , Cmd.none
             )
@@ -118,17 +120,19 @@ feedbackText model =
             Html.text ""
 
 feedbackText2 : Model -> String
-feedbackText2 input =
+feedbackText2 model =
     case model.guess of
         Just guess ->
             if guess == model.answer then
-                Html.div [] [ Html.text ("You correctly guessed " ++ String.fromInt model.answer) ]
+                "You correctly guessed " ++ String.fromInt model.answer
 
             else if guess > model.answer then
-                Html.div [] [ Html.text "Too high!" ]
+                -- Html.div [] [ Html.text "Too high!" ]
+                "Your input is " ++ (String.fromInt guess) ++ " which is too high!"
 
             else
-                Html.div [] [ Html.text "Too low!" ]
+                -- Html.div [] [ Html.text "Too low!" ]
+                "Your input is " ++ (String.fromInt guess) ++ " which is too low!"
 
         Nothing ->
-            Html.text ""
+             "Your input is invalid!"
