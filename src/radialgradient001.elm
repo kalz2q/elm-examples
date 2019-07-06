@@ -1,4 +1,4 @@
-module RadialGradient exposing (main)
+module RadialGradient001 exposing (main)
 
 import Html
 import Html.Attributes as HA
@@ -8,9 +8,16 @@ import Svg.Attributes as SA
 
 main =
     Html.div [ HA.style "textAlign" "center" ]
-        [ Svg.svg [ SA.width "120", SA.height "250" ]
+        [ Svg.svg [ SA.width "120", SA.height "300" ]
             [ Svg.defs []
-                [ Svg.radialGradient [ SA.id "RadialGradient1" ]
+                [ Svg.radialGradient
+                    [ SA.id "RadialGradient"
+                    , SA.cx "0.5"
+                    , SA.cy "0.5"
+                    , SA.r "0.5"
+                    , SA.fx "0.25"
+                    , SA.fy "0.25"
+                    ]
                     [ Svg.stop
                         [ SA.offset "0%"
                         , SA.stopColor "red"
@@ -18,22 +25,7 @@ main =
                         []
                     , Svg.stop
                         [ SA.offset "100%"
-                        , SA.stopColor "blue"
-                        ]
-                        []
-                    ]
-                , Svg.radialGradient [ SA.id "RadialGradient2"
-                               , SA.cx "0.25"
-                               , SA.cy "0.25"
-                                ]
-                    [ Svg.stop
-                        [ SA.offset "0%"
-                        , SA.stopColor "green"
-                        ]
-                        []
-                    , Svg.stop
-                        [ SA.offset "100%"
-                        , SA.stopColor "yellow"
+                        , SA.stopColor "lightblue"
                         ]
                         []
                     ]
@@ -47,7 +39,7 @@ main =
                 , SA.height "100"
                 , SA.stroke "black"
                 , SA.strokeWidth "3"
-                , SA.fill "url(#RadialGradient1)"
+                , SA.fill "url(#RadialGradient)"
                 ]
                 []
             , Svg.rect
@@ -59,8 +51,51 @@ main =
                 , SA.height "100"
                 , SA.stroke "black"
                 , SA.strokeWidth "3"
-                , SA.fill "url(#RadialGradient2)"
+                , SA.fill "url(#RadialGradient)"
                 ]
                 []
+            , Svg.circle
+                [ SA.cx "60"
+                , SA.cy "60"
+                , SA.r "50"
+                , SA.fill "transparent"
+                , SA.stroke "white"
+                , SA.strokeWidth "3"
+                ]
+                []
+            , Svg.circle
+                [ SA.cx "35"
+                , SA.cy "35"
+                , SA.r "2"
+                , SA.fill "white"
+                , SA.stroke "white"
+                , SA.strokeWidth "2"
+                ]
+                []
+            , Svg.circle
+                [ SA.cx "60"
+                , SA.cy "60"
+                , SA.r "2"
+                , SA.fill "white"
+                , SA.stroke "white"
+                , SA.strokeWidth "2"
+                ]
+                []
+            , Svg.text_
+                [ SA.x "38"
+                , SA.y "40"
+                , SA.fill "white"
+                , SA.fontFamily "sans-serif"
+                , SA.fontSize "10pt"
+                ]
+                [ Svg.text "(fx, fy)" ]
+            , Svg.text_
+                [ SA.x "63"
+                , SA.y "63"
+                , SA.fill "white"
+                , SA.fontFamily "sans-serif"
+                , SA.fontSize "10pt"
+                ]
+                [ Svg.text "(cx, fcy)" ]
             ]
         ]
