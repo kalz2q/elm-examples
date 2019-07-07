@@ -4366,26 +4366,16 @@ var elm$html$Html$div = _VirtualDom_node('div');
 var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
 var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
 var elm$svg$Svg$trustedNode = _VirtualDom_nodeNS('http://www.w3.org/2000/svg');
-var elm$svg$Svg$defs = elm$svg$Svg$trustedNode('defs');
-var elm$svg$Svg$linearGradient = elm$svg$Svg$trustedNode('linearGradient');
-var elm$svg$Svg$pattern = elm$svg$Svg$trustedNode('pattern');
 var elm$svg$Svg$rect = elm$svg$Svg$trustedNode('rect');
-var elm$svg$Svg$stop = elm$svg$Svg$trustedNode('stop');
 var elm$svg$Svg$svg = elm$svg$Svg$trustedNode('svg');
 var elm$svg$Svg$Attributes$fill = _VirtualDom_attribute('fill');
 var elm$svg$Svg$Attributes$height = _VirtualDom_attribute('height');
-var elm$svg$Svg$Attributes$id = _VirtualDom_attribute('id');
-var elm$svg$Svg$Attributes$offset = _VirtualDom_attribute('offset');
-var elm$svg$Svg$Attributes$stopColor = _VirtualDom_attribute('stop-color');
-var elm$svg$Svg$Attributes$stroke = _VirtualDom_attribute('stroke');
+var elm$svg$Svg$Attributes$style = _VirtualDom_attribute('style');
+var elm$svg$Svg$Attributes$transform = _VirtualDom_attribute('transform');
 var elm$svg$Svg$Attributes$width = _VirtualDom_attribute('width');
 var elm$svg$Svg$Attributes$x = _VirtualDom_attribute('x');
-var elm$svg$Svg$Attributes$x1 = _VirtualDom_attribute('x1');
-var elm$svg$Svg$Attributes$x2 = _VirtualDom_attribute('x2');
 var elm$svg$Svg$Attributes$y = _VirtualDom_attribute('y');
-var elm$svg$Svg$Attributes$y1 = _VirtualDom_attribute('y1');
-var elm$svg$Svg$Attributes$y2 = _VirtualDom_attribute('y2');
-var author$project$Pattern001$main = A2(
+var author$project$SvgTrasF003$main = A2(
 	elm$html$Html$div,
 	_List_fromArray(
 		[
@@ -4397,105 +4387,24 @@ var author$project$Pattern001$main = A2(
 			elm$svg$Svg$svg,
 			_List_fromArray(
 				[
-					elm$svg$Svg$Attributes$width('200'),
-					elm$svg$Svg$Attributes$height('200')
+					elm$svg$Svg$Attributes$width('31'),
+					elm$svg$Svg$Attributes$height('31'),
+					elm$svg$Svg$Attributes$style('background-color: #bff'),
+					elm$svg$Svg$Attributes$fill('red')
 				]),
 			_List_fromArray(
 				[
 					A2(
-					elm$svg$Svg$defs,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							elm$svg$Svg$linearGradient,
-							_List_fromArray(
-								[
-									elm$svg$Svg$Attributes$id('Gradient1')
-								]),
-							_List_fromArray(
-								[
-									A2(
-									elm$svg$Svg$stop,
-									_List_fromArray(
-										[
-											elm$svg$Svg$Attributes$offset('5%'),
-											elm$svg$Svg$Attributes$stopColor('white')
-										]),
-									_List_Nil),
-									A2(
-									elm$svg$Svg$stop,
-									_List_fromArray(
-										[
-											elm$svg$Svg$Attributes$offset('95%'),
-											elm$svg$Svg$Attributes$stopColor('blue')
-										]),
-									_List_Nil)
-								])),
-							A2(
-							elm$svg$Svg$linearGradient,
-							_List_fromArray(
-								[
-									elm$svg$Svg$Attributes$id('Gradient2'),
-									elm$svg$Svg$Attributes$x1('0'),
-									elm$svg$Svg$Attributes$x2('0'),
-									elm$svg$Svg$Attributes$y1('0'),
-									elm$svg$Svg$Attributes$y2('1')
-								]),
-							_List_fromArray(
-								[
-									A2(
-									elm$svg$Svg$stop,
-									_List_fromArray(
-										[
-											elm$svg$Svg$Attributes$offset('5%'),
-											elm$svg$Svg$Attributes$stopColor('red')
-										]),
-									_List_Nil),
-									A2(
-									elm$svg$Svg$stop,
-									_List_fromArray(
-										[
-											elm$svg$Svg$Attributes$offset('95%'),
-											elm$svg$Svg$Attributes$stopColor('orange')
-										]),
-									_List_Nil)
-								])),
-							A2(
-							elm$svg$Svg$pattern,
-							_List_fromArray(
-								[
-									elm$svg$Svg$Attributes$id('Pattern'),
-									elm$svg$Svg$Attributes$x('0'),
-									elm$svg$Svg$Attributes$y('0'),
-									elm$svg$Svg$Attributes$width('.25'),
-									elm$svg$Svg$Attributes$height('.25')
-								]),
-							_List_fromArray(
-								[
-									A2(
-									elm$svg$Svg$rect,
-									_List_fromArray(
-										[
-											elm$svg$Svg$Attributes$x('0'),
-											elm$svg$Svg$Attributes$y('0'),
-											elm$svg$Svg$Attributes$width('50'),
-											elm$svg$Svg$Attributes$height('50'),
-											elm$svg$Svg$Attributes$fill('skyblue')
-										]),
-									_List_Nil)
-								]))
-						])),
-					A2(
 					elm$svg$Svg$rect,
 					_List_fromArray(
 						[
-							elm$svg$Svg$Attributes$fill('url(#Pattern)'),
-							elm$svg$Svg$Attributes$stroke('black'),
-							elm$svg$Svg$Attributes$width('200'),
-							elm$svg$Svg$Attributes$height('200')
+							elm$svg$Svg$Attributes$x('12'),
+							elm$svg$Svg$Attributes$y('-10'),
+							elm$svg$Svg$Attributes$width('20'),
+							elm$svg$Svg$Attributes$height('20'),
+							elm$svg$Svg$Attributes$transform('rotate (45) ')
 						]),
 					_List_Nil)
 				]))
 		]));
-_Platform_export({'Pattern001':{'init':_VirtualDom_init(author$project$Pattern001$main)(0)(0)}});}(this));
+_Platform_export({'SvgTrasF003':{'init':_VirtualDom_init(author$project$SvgTrasF003$main)(0)(0)}});}(this));
