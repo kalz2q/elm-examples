@@ -1,14 +1,13 @@
-module Random003TwoDice exposing (main)
--- TwoDice
--- solution to 2 dice
--- => twodice.elm
+module TwoDice exposing (main)
+
+-- originals are svgdice002.elm and random003.elm
 
 import Browser
-import Html exposing (..)
-import Html.Events exposing (..)
-import Html.Attributes exposing (..)
+import Html
+import Html.Events as HE
+import Html.Attributes as HA
 import Random
--- import String exposing (concat)
+
  
  
  
@@ -20,9 +19,6 @@ main =
     , view = view
     }
  
- 
- 
--- MODEL
  
  
 type alias Model =
@@ -60,15 +56,10 @@ update msg model =
  
  
  
--- SUBSCRIPTIONS
- 
- 
 subscriptions : Model -> Sub Msg
 subscriptions model =
   Sub.none
  
- 
--- UTILITIES
  
  
 createImage : Int -> String
@@ -77,15 +68,13 @@ createImage dieFace =
  
  
  
--- VIEW
  
- 
-view : Model -> Html Msg
+view : Model -> Html.Html Msg
 view model =
-  div []
-    [ img [src (createImage model.dieFaceA)] []
-    , h1 [] [ text (String.fromInt model.dieFaceA) ]
-    , img [src (createImage model.dieFaceB)] []
-    , h1 [] [ text (String.fromInt model.dieFaceB) ]
-    , button [ onClick Roll ] [ text "Roll" ]
+  Html.div [HA.style "textAlign" "center"]
+    [ Html.img [HA.src (createImage model.dieFaceA)] []
+    , Html.h1 [] [ Html.text (String.fromInt model.dieFaceA) ]
+    , Html.img [HA.src (createImage model.dieFaceB)] []
+    , Html.h1 [] [ Html.text (String.fromInt model.dieFaceB) ]
+    , Html.button [ HE.onClick Roll ] [ Html.text "Roll" ]
     ]
