@@ -1,8 +1,7 @@
-module SvgCss002 exposing (main)
+module SvgStyle003 exposing (main)
 
 -- this does not work
 -- the idea is clipPath, svgclip.elm where defs Svg,clipPath,Svg.circle SA.clipPath that is clipPath is use for Svg and SA.
-
 --   <defs>
 --   <style>
 --     circle {
@@ -13,10 +12,7 @@ module SvgCss002 exposing (main)
 --     }
 --   </defs>
 --   </style>
-
 --   <circle cx="50" cy="50" r="40" />
-
-
 
 import Html
 import Html.Attributes as HA
@@ -28,22 +24,20 @@ main =
     Html.div [ HA.style "textAlign" "center" ]
         [ Svg.svg [ SA.width "200", SA.height "200" ]
             [ Svg.defs []
-                [ Svg.style
-                    [ SA.id "mycircle"
-                    , SA.fill "orange"
-                    , SA.stroke "blue"
-                    , SA.strokeWidth "10"
-                    ]
-                    [Svg.style
-                      [SA.fill "red"]
-                      []
+                [ Svg.style []
+                    [ Svg.text """circle {
+                                     fill: orange;
+                                     stroke: black;
+                                     stroke-width: 10px;
+                               }
+                               """
                     ]
                 ]
             , Svg.circle
                 [ SA.cx "50"
                 , SA.cy "50"
                 , SA.r "40"
-                , SA.style "url(#mycircle)"
+                -- , SA.style "url(#mycircle)"
                 ]
                 []
             ]

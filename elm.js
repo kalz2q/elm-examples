@@ -4366,23 +4366,19 @@ var elm$html$Html$div = _VirtualDom_node('div');
 var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
 var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
 var elm$svg$Svg$trustedNode = _VirtualDom_nodeNS('http://www.w3.org/2000/svg');
+var elm$svg$Svg$circle = elm$svg$Svg$trustedNode('circle');
 var elm$svg$Svg$defs = elm$svg$Svg$trustedNode('defs');
-var elm$svg$Svg$linearGradient = elm$svg$Svg$trustedNode('linearGradient');
-var elm$svg$Svg$mask = elm$svg$Svg$trustedNode('mask');
-var elm$svg$Svg$rect = elm$svg$Svg$trustedNode('rect');
-var elm$svg$Svg$stop = elm$svg$Svg$trustedNode('stop');
+var elm$svg$Svg$style = elm$svg$Svg$trustedNode('style');
 var elm$svg$Svg$svg = elm$svg$Svg$trustedNode('svg');
-var elm$svg$Svg$Attributes$fill = _VirtualDom_attribute('fill');
+var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
+var elm$svg$Svg$text = elm$virtual_dom$VirtualDom$text;
+var elm$svg$Svg$Attributes$cx = _VirtualDom_attribute('cx');
+var elm$svg$Svg$Attributes$cy = _VirtualDom_attribute('cy');
 var elm$svg$Svg$Attributes$height = _VirtualDom_attribute('height');
-var elm$svg$Svg$Attributes$id = _VirtualDom_attribute('id');
-var elm$svg$Svg$Attributes$mask = _VirtualDom_attribute('mask');
-var elm$svg$Svg$Attributes$offset = _VirtualDom_attribute('offset');
-var elm$svg$Svg$Attributes$stopColor = _VirtualDom_attribute('stop-color');
-var elm$svg$Svg$Attributes$stopOpacity = _VirtualDom_attribute('stop-opacity');
+var elm$svg$Svg$Attributes$r = _VirtualDom_attribute('r');
+var elm$svg$Svg$Attributes$style = _VirtualDom_attribute('style');
 var elm$svg$Svg$Attributes$width = _VirtualDom_attribute('width');
-var elm$svg$Svg$Attributes$x = _VirtualDom_attribute('x');
-var elm$svg$Svg$Attributes$y = _VirtualDom_attribute('y');
-var author$project$SvgMask$main = A2(
+var author$project$SvgStyle003$main = A2(
 	elm$html$Html$div,
 	_List_fromArray(
 		[
@@ -4405,76 +4401,23 @@ var author$project$SvgMask$main = A2(
 					_List_fromArray(
 						[
 							A2(
-							elm$svg$Svg$linearGradient,
+							elm$svg$Svg$style,
+							_List_Nil,
 							_List_fromArray(
 								[
-									elm$svg$Svg$Attributes$id('Gradient')
-								]),
-							_List_fromArray(
-								[
-									A2(
-									elm$svg$Svg$stop,
-									_List_fromArray(
-										[
-											elm$svg$Svg$Attributes$offset('0'),
-											elm$svg$Svg$Attributes$stopColor('white'),
-											elm$svg$Svg$Attributes$stopOpacity('0')
-										]),
-									_List_Nil),
-									A2(
-									elm$svg$Svg$stop,
-									_List_fromArray(
-										[
-											elm$svg$Svg$Attributes$offset('1'),
-											elm$svg$Svg$Attributes$stopColor('white'),
-											elm$svg$Svg$Attributes$stopOpacity('0')
-										]),
-									_List_Nil)
-								])),
-							A2(
-							elm$svg$Svg$mask,
-							_List_fromArray(
-								[
-									elm$svg$Svg$Attributes$id('Mask')
-								]),
-							_List_fromArray(
-								[
-									A2(
-									elm$svg$Svg$rect,
-									_List_fromArray(
-										[
-											elm$svg$Svg$Attributes$x('0'),
-											elm$svg$Svg$Attributes$y('0'),
-											elm$svg$Svg$Attributes$width('200'),
-											elm$svg$Svg$Attributes$height('200'),
-											elm$svg$Svg$Attributes$fill('url(#Gradient)')
-										]),
-									_List_Nil)
+									elm$svg$Svg$text('circle {\n                                     fill: orange;\n                                     stroke: black;\n                                     stroke-width: 10px;\n                               }\n                               ')
 								]))
 						])),
 					A2(
-					elm$svg$Svg$rect,
+					elm$svg$Svg$circle,
 					_List_fromArray(
 						[
-							elm$svg$Svg$Attributes$x('0'),
-							elm$svg$Svg$Attributes$y('0'),
-							elm$svg$Svg$Attributes$width('200'),
-							elm$svg$Svg$Attributes$height('200'),
-							elm$svg$Svg$Attributes$fill('green')
-						]),
-					_List_Nil),
-					A2(
-					elm$svg$Svg$rect,
-					_List_fromArray(
-						[
-							elm$svg$Svg$Attributes$x('0'),
-							elm$svg$Svg$Attributes$y('0'),
-							elm$svg$Svg$Attributes$width('200'),
-							elm$svg$Svg$Attributes$height('200'),
-							elm$svg$Svg$Attributes$fill('red'),
-							elm$svg$Svg$Attributes$mask('url(#Mask)')
+							elm$svg$Svg$Attributes$cx('50'),
+							elm$svg$Svg$Attributes$cy('50'),
+							elm$svg$Svg$Attributes$r('40'),
+							elm$svg$Svg$Attributes$style('url(#mycircle)')
 						]),
 					_List_Nil)
 				]))
 		]));
-_Platform_export({'SvgMask':{'init':_VirtualDom_init(author$project$SvgMask$main)(0)(0)}});}(this));
+_Platform_export({'SvgStyle003':{'init':_VirtualDom_init(author$project$SvgStyle003$main)(0)(0)}});}(this));
