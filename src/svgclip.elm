@@ -15,7 +15,7 @@ main =
                         [ SA.x "0"
                         , SA.y "0"
                         , SA.width "200"
-                        , SA.height "100"
+                        , SA.height "150"
                         ]
                         []
                     ]
@@ -24,7 +24,6 @@ main =
                 [ SA.cx "100"
                 , SA.cy "100"
                 , SA.r "100"
-                -- , SA.ry "15"
                 , SA.stroke "red"
                 , SA.strokeWidth "3"
                 , SA.clipPath "url(#cutOffBottom)"
