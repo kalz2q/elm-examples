@@ -1,4 +1,4 @@
--- random001.elm
+module Random001 exposing (main)
 
 import Browser
 import Html

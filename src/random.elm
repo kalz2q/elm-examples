@@ -1,3 +1,5 @@
+module MyRandom exposing (main)
+
 import Browser
 import Html exposing (..)
 import Html.Events exposing (..)
@@ -29,7 +31,6 @@ type alias Model =
 init : () -> (Model, Cmd Msg)
 init _ =
   ( Model 1
-  -- , Cmd.none
   , Cmd.none
   )
 

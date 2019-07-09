@@ -1,4 +1,4 @@
-module SvgDice exposing (Model, Msg(..), init, main, subscriptions, svgCirclesForDieFace, update, view)
+module SvgDice exposing (main)
 
 import Browser
 import Html exposing (..)

@@ -1,3 +1,4 @@
+module Random003TwoDice exposing (main)
 -- TwoDice
 -- solution to 2 dice
 
