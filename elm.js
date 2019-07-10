@@ -4366,19 +4366,18 @@ var elm$html$Html$div = _VirtualDom_node('div');
 var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
 var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
 var elm$svg$Svg$trustedNode = _VirtualDom_nodeNS('http://www.w3.org/2000/svg');
-var elm$svg$Svg$circle = elm$svg$Svg$trustedNode('circle');
 var elm$svg$Svg$defs = elm$svg$Svg$trustedNode('defs');
+var elm$svg$Svg$rect = elm$svg$Svg$trustedNode('rect');
 var elm$svg$Svg$style = elm$svg$Svg$trustedNode('style');
 var elm$svg$Svg$svg = elm$svg$Svg$trustedNode('svg');
 var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var elm$svg$Svg$text = elm$virtual_dom$VirtualDom$text;
-var elm$svg$Svg$Attributes$cx = _VirtualDom_attribute('cx');
-var elm$svg$Svg$Attributes$cy = _VirtualDom_attribute('cy');
 var elm$svg$Svg$Attributes$height = _VirtualDom_attribute('height');
-var elm$svg$Svg$Attributes$r = _VirtualDom_attribute('r');
-var elm$svg$Svg$Attributes$style = _VirtualDom_attribute('style');
+var elm$svg$Svg$Attributes$id = _VirtualDom_attribute('id');
 var elm$svg$Svg$Attributes$width = _VirtualDom_attribute('width');
-var author$project$SvgStyle003$main = A2(
+var elm$svg$Svg$Attributes$x = _VirtualDom_attribute('x');
+var elm$svg$Svg$Attributes$y = _VirtualDom_attribute('y');
+var author$project$SvgStyle001$main = A2(
 	elm$html$Html$div,
 	_List_fromArray(
 		[
@@ -4405,19 +4404,20 @@ var author$project$SvgStyle003$main = A2(
 							_List_Nil,
 							_List_fromArray(
 								[
-									elm$svg$Svg$text('circle {\n                                     fill: orange;\n                                     stroke: black;\n                                     stroke-width: 10px;\n                               }\n                               ')
+									elm$svg$Svg$text(' #myrect {\n                                stroke : black;\n                                fill: red;\n                                stroke-width: 10px;\n                               }\n                        ')
 								]))
 						])),
 					A2(
-					elm$svg$Svg$circle,
+					elm$svg$Svg$rect,
 					_List_fromArray(
 						[
-							elm$svg$Svg$Attributes$cx('50'),
-							elm$svg$Svg$Attributes$cy('50'),
-							elm$svg$Svg$Attributes$r('40'),
-							elm$svg$Svg$Attributes$style('url(#mycircle)')
+							elm$svg$Svg$Attributes$x('10'),
+							elm$svg$Svg$Attributes$height('180'),
+							elm$svg$Svg$Attributes$y('10'),
+							elm$svg$Svg$Attributes$width('180'),
+							elm$svg$Svg$Attributes$id('myrect')
 						]),
 					_List_Nil)
 				]))
 		]));
-_Platform_export({'SvgStyle003':{'init':_VirtualDom_init(author$project$SvgStyle003$main)(0)(0)}});}(this));
+_Platform_export({'SvgStyle001':{'init':_VirtualDom_init(author$project$SvgStyle001$main)(0)(0)}});}(this));

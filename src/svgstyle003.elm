@@ -1,7 +1,5 @@
 module SvgStyle003 exposing (main)
 
--- this does not work
--- the idea is clipPath, svgclip.elm where defs Svg,clipPath,Svg.circle SA.clipPath that is clipPath is use for Svg and SA.
 --   <defs>
 --   <style>
 --     circle {
@@ -37,7 +35,6 @@ main =
                 [ SA.cx "50"
                 , SA.cy "50"
                 , SA.r "40"
-                -- , SA.style "url(#mycircle)"
                 ]
                 []
             ]
