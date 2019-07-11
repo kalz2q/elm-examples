@@ -853,53 +853,6 @@ var _Basics_xor = F2(function(a, b) { return a !== b; });
 
 
 
-function _Char_toCode(char)
-{
-	var code = char.charCodeAt(0);
-	if (0xD800 <= code && code <= 0xDBFF)
-	{
-		return (code - 0xD800) * 0x400 + char.charCodeAt(1) - 0xDC00 + 0x10000
-	}
-	return code;
-}
-
-function _Char_fromCode(code)
-{
-	return _Utils_chr(
-		(code < 0 || 0x10FFFF < code)
-			? '\uFFFD'
-			:
-		(code <= 0xFFFF)
-			? String.fromCharCode(code)
-			:
-		(code -= 0x10000,
-			String.fromCharCode(Math.floor(code / 0x400) + 0xD800, code % 0x400 + 0xDC00)
-		)
-	);
-}
-
-function _Char_toUpper(char)
-{
-	return _Utils_chr(char.toUpperCase());
-}
-
-function _Char_toLower(char)
-{
-	return _Utils_chr(char.toLowerCase());
-}
-
-function _Char_toLocaleUpper(char)
-{
-	return _Utils_chr(char.toLocaleUpperCase());
-}
-
-function _Char_toLocaleLower(char)
-{
-	return _Utils_chr(char.toLocaleLowerCase());
-}
-
-
-
 var _String_cons = F2(function(chr, str)
 {
 	return chr + str;
@@ -1209,6 +1162,53 @@ function _String_fromList(chars)
 	return _List_toArray(chars).join('');
 }
 
+
+
+
+function _Char_toCode(char)
+{
+	var code = char.charCodeAt(0);
+	if (0xD800 <= code && code <= 0xDBFF)
+	{
+		return (code - 0xD800) * 0x400 + char.charCodeAt(1) - 0xDC00 + 0x10000
+	}
+	return code;
+}
+
+function _Char_fromCode(code)
+{
+	return _Utils_chr(
+		(code < 0 || 0x10FFFF < code)
+			? '\uFFFD'
+			:
+		(code <= 0xFFFF)
+			? String.fromCharCode(code)
+			:
+		(code -= 0x10000,
+			String.fromCharCode(Math.floor(code / 0x400) + 0xD800, code % 0x400 + 0xDC00)
+		)
+	);
+}
+
+function _Char_toUpper(char)
+{
+	return _Utils_chr(char.toUpperCase());
+}
+
+function _Char_toLower(char)
+{
+	return _Utils_chr(char.toLowerCase());
+}
+
+function _Char_toLocaleUpper(char)
+{
+	return _Utils_chr(char.toLocaleUpperCase());
+}
+
+function _Char_toLocaleLower(char)
+{
+	return _Utils_chr(char.toLocaleLowerCase());
+}
 
 
 
@@ -3869,23 +3869,6 @@ function _VirtualDom_dekey(keyedNode)
 		b: keyedNode.b
 	};
 }
-var elm$core$Basics$identity = function (x) {
-	return x;
-};
-var elm$core$Basics$False = {$: 'False'};
-var elm$core$Basics$True = {$: 'True'};
-var elm$core$Result$isOk = function (result) {
-	if (result.$ === 'Ok') {
-		return true;
-	} else {
-		return false;
-	}
-};
-var elm$core$Array$branchFactor = 32;
-var elm$core$Array$Array_elm_builtin = F4(
-	function (a, b, c, d) {
-		return {$: 'Array_elm_builtin', a: a, b: b, c: c, d: d};
-	});
 var elm$core$Basics$EQ = {$: 'EQ'};
 var elm$core$Basics$GT = {$: 'GT'};
 var elm$core$Basics$LT = {$: 'LT'};
@@ -3966,12 +3949,53 @@ var elm$core$Array$foldr = F3(
 var elm$core$Array$toList = function (array) {
 	return A3(elm$core$Array$foldr, elm$core$List$cons, _List_Nil, array);
 };
-var elm$core$Basics$ceiling = _Basics_ceiling;
+var elm$core$Basics$add = _Basics_add;
+var elm$core$Basics$append = _Utils_append;
 var elm$core$Basics$fdiv = _Basics_fdiv;
+var elm$core$Basics$mul = _Basics_mul;
+var elm$core$Basics$pi = _Basics_pi;
+var elm$core$Basics$degrees = function (angleInDegrees) {
+	return (angleInDegrees * elm$core$Basics$pi) / 180;
+};
+var elm$core$Basics$e = _Basics_e;
+var elm$core$Basics$floor = _Basics_floor;
 var elm$core$Basics$logBase = F2(
 	function (base, number) {
 		return _Basics_log(number) / _Basics_log(base);
 	});
+var elm$core$Basics$modBy = _Basics_modBy;
+var elm$core$Basics$negate = function (n) {
+	return -n;
+};
+var elm$core$Basics$pow = _Basics_pow;
+var elm$core$Basics$remainderBy = _Basics_remainderBy;
+var elm$core$Basics$sin = _Basics_sin;
+var elm$core$Basics$sqrt = _Basics_sqrt;
+var elm$core$Basics$sub = _Basics_sub;
+var elm$core$Maybe$Just = function (a) {
+	return {$: 'Just', a: a};
+};
+var elm$core$Maybe$Nothing = {$: 'Nothing'};
+var elm$core$String$fromFloat = _String_fromNumber;
+var elm$core$String$fromInt = _String_fromNumber;
+var elm$core$Basics$identity = function (x) {
+	return x;
+};
+var elm$core$Basics$False = {$: 'False'};
+var elm$core$Basics$True = {$: 'True'};
+var elm$core$Result$isOk = function (result) {
+	if (result.$ === 'Ok') {
+		return true;
+	} else {
+		return false;
+	}
+};
+var elm$core$Array$branchFactor = 32;
+var elm$core$Array$Array_elm_builtin = F4(
+	function (a, b, c, d) {
+		return {$: 'Array_elm_builtin', a: a, b: b, c: c, d: d};
+	});
+var elm$core$Basics$ceiling = _Basics_ceiling;
 var elm$core$Basics$toFloat = _Basics_toFloat;
 var elm$core$Array$shiftStep = elm$core$Basics$ceiling(
 	A2(elm$core$Basics$logBase, 2, elm$core$Array$branchFactor));
@@ -4053,19 +4077,15 @@ var elm$core$Array$treeFromBuilder = F2(
 			}
 		}
 	});
-var elm$core$Basics$add = _Basics_add;
 var elm$core$Basics$apL = F2(
 	function (f, x) {
 		return f(x);
 	});
-var elm$core$Basics$floor = _Basics_floor;
 var elm$core$Basics$gt = _Utils_gt;
 var elm$core$Basics$max = F2(
 	function (x, y) {
 		return (_Utils_cmp(x, y) > 0) ? x : y;
 	});
-var elm$core$Basics$mul = _Basics_mul;
-var elm$core$Basics$sub = _Basics_sub;
 var elm$core$Elm$JsArray$length = _JsArray_length;
 var elm$core$Array$builderToArray = F2(
 	function (reverseNodeList, builder) {
@@ -4120,7 +4140,6 @@ var elm$core$Array$initializeHelp = F5(
 		}
 	});
 var elm$core$Basics$le = _Utils_le;
-var elm$core$Basics$remainderBy = _Basics_remainderBy;
 var elm$core$Array$initialize = F2(
 	function (len, fn) {
 		if (len <= 0) {
@@ -4132,10 +4151,6 @@ var elm$core$Array$initialize = F2(
 			return A5(elm$core$Array$initializeHelp, fn, initialFromIndex, len, _List_Nil, tail);
 		}
 	});
-var elm$core$Maybe$Just = function (a) {
-	return {$: 'Just', a: a};
-};
-var elm$core$Maybe$Nothing = {$: 'Nothing'};
 var elm$core$Result$Err = function (a) {
 	return {$: 'Err', a: a};
 };
@@ -4158,7 +4173,6 @@ var elm$json$Json$Decode$OneOf = function (a) {
 	return {$: 'OneOf', a: a};
 };
 var elm$core$Basics$and = _Basics_and;
-var elm$core$Basics$append = _Utils_append;
 var elm$core$Basics$or = _Basics_or;
 var elm$core$Char$toCode = _Char_toCode;
 var elm$core$Char$isLower = function (_char) {
@@ -4223,7 +4237,6 @@ var elm$core$List$indexedMap = F2(
 			xs);
 	});
 var elm$core$String$all = _String_all;
-var elm$core$String$fromInt = _String_fromNumber;
 var elm$core$String$join = F2(
 	function (sep, chunks) {
 		return A2(
@@ -4363,61 +4376,184 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 	}
 };
 var elm$html$Html$div = _VirtualDom_node('div');
+var elm$html$Html$h1 = _VirtualDom_node('h1');
+var elm$html$Html$li = _VirtualDom_node('li');
+var elm$html$Html$ol = _VirtualDom_node('ol');
+var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
+var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
 var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
 var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
-var elm$svg$Svg$trustedNode = _VirtualDom_nodeNS('http://www.w3.org/2000/svg');
-var elm$svg$Svg$defs = elm$svg$Svg$trustedNode('defs');
-var elm$svg$Svg$rect = elm$svg$Svg$trustedNode('rect');
-var elm$svg$Svg$style = elm$svg$Svg$trustedNode('style');
-var elm$svg$Svg$svg = elm$svg$Svg$trustedNode('svg');
-var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
-var elm$svg$Svg$text = elm$virtual_dom$VirtualDom$text;
-var elm$svg$Svg$Attributes$height = _VirtualDom_attribute('height');
-var elm$svg$Svg$Attributes$id = _VirtualDom_attribute('id');
-var elm$svg$Svg$Attributes$width = _VirtualDom_attribute('width');
-var elm$svg$Svg$Attributes$x = _VirtualDom_attribute('x');
-var elm$svg$Svg$Attributes$y = _VirtualDom_attribute('y');
-var author$project$SvgStyle001$main = A2(
+var author$project$Arithmetic$main = A2(
 	elm$html$Html$div,
 	_List_fromArray(
 		[
-			A2(elm$html$Html$Attributes$style, 'textAlign', 'center')
+			A2(elm$html$Html$Attributes$style, 'background-color', 'gainsboro'),
+			A2(elm$html$Html$Attributes$style, 'width', '600px'),
+			A2(elm$html$Html$Attributes$style, 'margin', 'auto'),
+			A2(elm$html$Html$Attributes$style, 'position', 'relative')
 		]),
 	_List_fromArray(
 		[
 			A2(
-			elm$svg$Svg$svg,
+			elm$html$Html$h1,
 			_List_fromArray(
 				[
-					elm$svg$Svg$Attributes$width('200'),
-					elm$svg$Svg$Attributes$height('200')
+					A2(elm$html$Html$Attributes$style, 'text-align', 'center')
 				]),
 			_List_fromArray(
 				[
+					elm$html$Html$text('Arithmetic Operators')
+				])),
+			A2(
+			elm$html$Html$ol,
+			_List_Nil,
+			_List_fromArray(
+				[
 					A2(
-					elm$svg$Svg$defs,
+					elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							A2(
-							elm$svg$Svg$style,
-							_List_Nil,
-							_List_fromArray(
-								[
-									elm$svg$Svg$text(' #myrect {\n                                stroke : black;\n                                fill: red;\n                                stroke-width: 10px;\n                               }\n                        ')
-								]))
+							elm$html$Html$text(
+							'addition: 1 + 2 is ' + elm$core$String$fromInt(1 + 2))
 						])),
 					A2(
-					elm$svg$Svg$rect,
+					elm$html$Html$li,
+					_List_Nil,
 					_List_fromArray(
 						[
-							elm$svg$Svg$Attributes$x('10'),
-							elm$svg$Svg$Attributes$height('180'),
-							elm$svg$Svg$Attributes$y('10'),
-							elm$svg$Svg$Attributes$width('180'),
-							elm$svg$Svg$Attributes$id('myrect')
-						]),
-					_List_Nil)
+							elm$html$Html$text(
+							'subtraction: 1 -  2 is ' + elm$core$String$fromInt(1 - 2))
+						])),
+					A2(
+					elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text(
+							'multiplication: 3 * 2 is ' + elm$core$String$fromInt(3 * 2))
+						])),
+					A2(
+					elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text(
+							'division: 2 / 3 is ' + elm$core$String$fromFloat(2 / 3))
+						])),
+					A2(
+					elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text(
+							'division: floor ( 2 / 3 ) is ' + elm$core$String$fromInt(
+								elm$core$Basics$floor(2 / 3)))
+						])),
+					A2(
+					elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text(
+							'modBy: modBy 4 -9 is ' + elm$core$String$fromInt(
+								A2(elm$core$Basics$modBy, 4, -9)))
+						])),
+					A2(
+					elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text(
+							'modBy: modBy -4 9 is ' + elm$core$String$fromInt(
+								A2(elm$core$Basics$modBy, -4, 9)))
+						])),
+					A2(
+					elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text(
+							'modBy: modBy -4 -9 is ' + elm$core$String$fromInt(
+								A2(elm$core$Basics$modBy, -4, -9)))
+						])),
+					A2(
+					elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text(
+							'remainderBy: remainderBy 4 -9 is ' + elm$core$String$fromInt((-9) % 4))
+						])),
+					A2(
+					elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text(
+							'remainderBy: remainderBy -4 9 is ' + elm$core$String$fromInt(9 % (-4)))
+						])),
+					A2(
+					elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text(
+							'remainderBy: remainderBy -4 -9 is ' + elm$core$String$fromInt((-9) % (-4)))
+						])),
+					A2(
+					elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text(
+							'power: 2 ^ 3 is ' + elm$core$String$fromInt(
+								A2(elm$core$Basics$pow, 2, 3)))
+						])),
+					A2(
+					elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text(
+							'sqrt: sqrt 3 is ' + elm$core$String$fromFloat(
+								elm$core$Basics$sqrt(3)))
+						])),
+					A2(
+					elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text(
+							'π: pi is ' + elm$core$String$fromFloat(elm$core$Basics$pi))
+						])),
+					A2(
+					elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text(
+							'e: e is ' + elm$core$String$fromFloat(elm$core$Basics$e))
+						])),
+					A2(
+					elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text(
+							'log: logBase 10 100  is ' + elm$core$String$fromFloat(
+								A2(elm$core$Basics$logBase, 10, 100)))
+						])),
+					A2(
+					elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text(
+							'sin: sin (degrees 30)   is ' + elm$core$String$fromFloat(
+								elm$core$Basics$sin(
+									elm$core$Basics$degrees(30))))
+						]))
 				]))
 		]));
-_Platform_export({'SvgStyle001':{'init':_VirtualDom_init(author$project$SvgStyle001$main)(0)(0)}});}(this));
+_Platform_export({'Arithmetic':{'init':_VirtualDom_init(author$project$Arithmetic$main)(0)(0)}});}(this));
