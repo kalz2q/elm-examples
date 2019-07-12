@@ -1,61 +1,60 @@
-module Rverse001 exposing (..)
+module Rverse001 exposing (main)
 
 import Browser
-import Html exposing (Html, Attribute, div, input, text, button)
-import Html.Attributes exposing (..)
-import Html.Events exposing (onInput, onClick)
-
-
-
--- MAIN
+import Html
+import Html.Attributes as HA
+import Html.Events as HE
 
 
 main =
-  Browser.sandbox { init = init, update = update, view = view }
-
-
-
--- MODEL
+    Browser.sandbox { init = init, update = update, view = view }
 
 
 type alias Model =
-  { content : String
-  }
+    { content : String
+    }
 
 
 init : Model
 init =
-  { content = "" }
+    { content = "" }
 
-
-
--- UPDATE
 
 
 type Msg
-  = Change String
+    = Change String
 
 
 update : Msg -> Model -> Model
 update msg model =
-  case msg of
-    Change newContent ->
-      { model | content = newContent }
+    case msg of
+        Change newContent ->
+            { model | content = newContent }
 
 
 
--- VIEW
-
-
-view : Model -> Html Msg
+view : Model -> Html.Html Msg
 view model =
-  div []
-    [ input [ style "background" "pink"
-    , placeholder "Text to reverse"
-    , value model.content
-    , onInput Change ] []
-    , div [] [ text (String.reverse model.content) ]
-    ]
-
-
--- onInput : (String -> msg) -> Attribute msg
+    Html.div
+        [ HA.style "background-color" "lemonchiffon"
+        , HA.style "width" "600px"
+        , HA.style "height" "200px"
+        , HA.style "margin" "auto"
+        , HA.style "textAlign" "center"
+        , HA.style "font-size" "32px"
+        , HA.style "position" "relative"
+        ]
+        [ Html.p 
+          [
+              HA.style "textAlign" "center"
+        ]
+          [Html.text "Type a text to reverse"]
+        , Html.input
+            [ HA.style "background" "pink"
+            , HA.placeholder "Text to reverse"
+            , HA.value model.content
+            , HE.onInput Change
+            ]
+            []
+        , Html.div [] [ Html.text (String.reverse model.content) ]
+        ]

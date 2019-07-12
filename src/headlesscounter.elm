@@ -1,9 +1,12 @@
-port module Main exposing (main, tick)
+-- port module Main exposing (main, tick)
+module Main exposing (main)
+
+
 
 import Time
 
 
-port tick : Int -> Cmd msg
+-- port tick : Int -> Cmd msg
 
 
 main : Program () Int ()
@@ -17,7 +20,7 @@ main =
         , update =
             \_ model ->
                 ( model + 1
-                , tick model
+                -- , tick model
                 )
         , subscriptions = \_ -> Time.every 1000 (\_ -> ())
         }
