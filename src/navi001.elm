@@ -1,16 +1,10 @@
-module Navigation002 exposing (Model, Msg(..), init, main, subscriptions, update, view, viewLink)
-
--- this is a sample from elm guide introduction to elm
+module Navi001 exposing (main)
 
 import Browser
 import Browser.Navigation as Nav
-import Html exposing (..)
-import Html.Attributes exposing (..)
+import Html
+import Html.Attributes as HA
 import Url
-
-
-
--- MAIN
 
 
 main : Program () Model Msg
@@ -19,14 +13,10 @@ main =
         { init = init
         , view = view
         , update = update
-        , subscriptions = subscriptions
+        , subscriptions = \_ -> Sub.none
         , onUrlChange = UrlChanged
         , onUrlRequest = LinkClicked
         }
-
-
-
--- MODEL
 
 
 type alias Model =
@@ -38,10 +28,6 @@ type alias Model =
 init : () -> Url.Url -> Nav.Key -> ( Model, Cmd Msg )
 init flags url key =
     ( Model key url, Cmd.none )
-
-
-
--- UPDATE
 
 
 type Msg
@@ -66,36 +52,28 @@ update msg model =
             )
 
 
-
--- SUBSCRIPTIONS
-
-
-subscriptions : Model -> Sub Msg
-subscriptions _ =
-    Sub.none
-
-
-
--- VIEW
-
-
 view : Model -> Browser.Document Msg
 view model =
     { title = "URL Interceptor"
     , body =
-        [ text "The current URL is: "
-        , b [] [ text (Url.toString model.url) ]
-        , ul []
-            [ viewLink "/home"
-            , viewLink "/profile"
-            , viewLink "/reviews/the-century-of-the-self"
-            , viewLink "/reviews/public-opinion"
-            , viewLink "/reviews/shah-of-shahs"
+        [ Html.div
+            [ HA.style "width" "600px"
+            , HA.style "margin" "60px auto"
+            ]
+            [ Html.text "The current URL is: "
+            , Html.b [] [ Html.text (Url.toString model.url) ]
+            , Html.ul []
+                [ viewLink "/home"
+                , viewLink "/profile"
+                , viewLink "/reviews/the-century-of-the-self"
+                , viewLink "/reviews/public-opinion"
+                , viewLink "/reviews/shah-of-shahs"
+                ]
             ]
         ]
     }
 
 
-viewLink : String -> Html msg
+viewLink : String -> Html.Html msg
 viewLink path =
-    li [] [ a [ href path ] [ text path ] ]
+    Html.li [] [ Html.a [ HA.href path ] [ Html.text path ] ]
