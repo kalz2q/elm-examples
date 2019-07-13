@@ -4310,16 +4310,29 @@ function _Browser_load(url)
 		}
 	}));
 }
-var author$project$Conv002$init = {input: ''};
+var author$project$Conv002$init = {inputA: '', inputB: '', inputC: ''};
 var author$project$Conv002$update = F2(
 	function (msg, model) {
-		var newInput = msg.a;
-		return _Utils_update(
-			model,
-			{input: newInput});
+		switch (msg.$) {
+			case 'ChangeA':
+				var newInput = msg.a;
+				return _Utils_update(
+					model,
+					{inputA: newInput});
+			case 'ChangeB':
+				var newInput = msg.a;
+				return _Utils_update(
+					model,
+					{inputB: newInput});
+			default:
+				var newInput = msg.a;
+				return _Utils_update(
+					model,
+					{inputC: newInput});
+		}
 	});
-var author$project$Conv002$Change = function (a) {
-	return {$: 'Change', a: a};
+var author$project$Conv002$ChangeA = function (a) {
+	return {$: 'ChangeA', a: a};
 };
 var elm$core$Basics$identity = function (x) {
 	return x;
@@ -4918,8 +4931,8 @@ var elm$html$Html$Events$onInput = function (tagger) {
 			elm$html$Html$Events$alwaysStop,
 			A2(elm$json$Json$Decode$map, tagger, elm$html$Html$Events$targetValue)));
 };
-var author$project$Conv002$viewConverter = F3(
-	function (userInput, color, equivalentTemp) {
+var author$project$Conv002$viewConverter = F4(
+	function (userInput, color, bordercolor, equivalentTemp) {
 		return A2(
 			elm$html$Html$span,
 			_List_Nil,
@@ -4930,8 +4943,9 @@ var author$project$Conv002$viewConverter = F3(
 					_List_fromArray(
 						[
 							elm$html$Html$Attributes$value(userInput),
-							elm$html$Html$Events$onInput(author$project$Conv002$Change),
-							A2(elm$html$Html$Attributes$style, 'width', '40px')
+							elm$html$Html$Events$onInput(author$project$Conv002$ChangeA),
+							A2(elm$html$Html$Attributes$style, 'width', '40px'),
+							A2(elm$html$Html$Attributes$style, 'border-color', bordercolor)
 						]),
 					_List_Nil),
 					elm$html$Html$text('°C = '),
@@ -4948,9 +4962,78 @@ var author$project$Conv002$viewConverter = F3(
 					elm$html$Html$text('°F')
 				]));
 	});
+var author$project$Conv002$ChangeB = function (a) {
+	return {$: 'ChangeB', a: a};
+};
+var author$project$Conv002$viewConverter2 = F4(
+	function (userInput, color, bordercolor, equivalentTemp) {
+		return A2(
+			elm$html$Html$span,
+			_List_Nil,
+			_List_fromArray(
+				[
+					A2(
+					elm$html$Html$input,
+					_List_fromArray(
+						[
+							elm$html$Html$Attributes$value(userInput),
+							elm$html$Html$Events$onInput(author$project$Conv002$ChangeB),
+							A2(elm$html$Html$Attributes$style, 'width', '40px'),
+							A2(elm$html$Html$Attributes$style, 'border-color', bordercolor)
+						]),
+					_List_Nil),
+					elm$html$Html$text('°F = '),
+					A2(
+					elm$html$Html$span,
+					_List_fromArray(
+						[
+							A2(elm$html$Html$Attributes$style, 'color', color)
+						]),
+					_List_fromArray(
+						[
+							elm$html$Html$text(equivalentTemp)
+						])),
+					elm$html$Html$text('°C')
+				]));
+	});
+var author$project$Conv002$ChangeC = function (a) {
+	return {$: 'ChangeC', a: a};
+};
+var author$project$Conv002$viewConverter3 = F4(
+	function (userInput, color, bordercolor, equivalentTemp) {
+		return A2(
+			elm$html$Html$span,
+			_List_Nil,
+			_List_fromArray(
+				[
+					A2(
+					elm$html$Html$input,
+					_List_fromArray(
+						[
+							elm$html$Html$Attributes$value(userInput),
+							elm$html$Html$Events$onInput(author$project$Conv002$ChangeC),
+							A2(elm$html$Html$Attributes$style, 'width', '40px'),
+							A2(elm$html$Html$Attributes$style, 'border-color', bordercolor)
+						]),
+					_List_Nil),
+					elm$html$Html$text('inch = '),
+					A2(
+					elm$html$Html$span,
+					_List_fromArray(
+						[
+							A2(elm$html$Html$Attributes$style, 'color', color)
+						]),
+					_List_fromArray(
+						[
+							elm$html$Html$text(equivalentTemp)
+						])),
+					elm$html$Html$text('cm')
+				]));
+	});
 var elm$core$String$fromFloat = _String_fromNumber;
 var elm$core$String$toFloat = _String_toFloat;
 var elm$html$Html$div = _VirtualDom_node('div');
+var elm$html$Html$p = _VirtualDom_node('p');
 var author$project$Conv002$view = function (model) {
 	return A2(
 		elm$html$Html$div,
@@ -4966,17 +5049,49 @@ var author$project$Conv002$view = function (model) {
 			]),
 		_List_fromArray(
 			[
+				A2(elm$html$Html$p, _List_Nil, _List_Nil),
 				function () {
-				var _n0 = elm$core$String$toFloat(model.input);
+				var _n0 = elm$core$String$toFloat(model.inputA);
 				if (_n0.$ === 'Just') {
 					var celsius = _n0.a;
-					return A3(
+					return A4(
 						author$project$Conv002$viewConverter,
-						model.input,
+						model.inputA,
 						'blue',
+						'black',
 						elm$core$String$fromFloat((celsius * 1.8) + 32));
 				} else {
-					return A3(author$project$Conv002$viewConverter, model.input, 'red', '???');
+					return A4(author$project$Conv002$viewConverter, model.inputA, 'red', 'red', '???');
+				}
+			}(),
+				A2(elm$html$Html$p, _List_Nil, _List_Nil),
+				function () {
+				var _n1 = elm$core$String$toFloat(model.inputB);
+				if (_n1.$ === 'Just') {
+					var fahrenheit = _n1.a;
+					return A4(
+						author$project$Conv002$viewConverter2,
+						model.inputB,
+						'blue',
+						'black',
+						elm$core$String$fromFloat((fahrenheit - 32) / 1.8));
+				} else {
+					return A4(author$project$Conv002$viewConverter2, model.inputB, 'red', 'red', '???');
+				}
+			}(),
+				A2(elm$html$Html$p, _List_Nil, _List_Nil),
+				function () {
+				var _n2 = elm$core$String$toFloat(model.inputC);
+				if (_n2.$ === 'Just') {
+					var inch = _n2.a;
+					return A4(
+						author$project$Conv002$viewConverter3,
+						model.inputC,
+						'blue',
+						'black',
+						elm$core$String$fromFloat(inch * 2.54));
+				} else {
+					return A4(author$project$Conv002$viewConverter3, model.inputC, 'red', 'red', '???');
 				}
 			}()
 			]));
