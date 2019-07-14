@@ -32,7 +32,8 @@ init : () -> ( Model, Cmd Msg )
 init _ =
     ( Loading
     , Http.get
-        { url = "/doremishou.txt"
+        { url = "http://www.gutenberg.org/cache/epub/6456/pg6456.txt"
+        -- /doremishou.txt"
         
         -- "https://storage.googleapis.com/doremishou/doremishou.txt"
 
