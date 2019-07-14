@@ -1,4 +1,4 @@
-module Main exposing (Model(..), Msg(..), init, main, subscriptions, update, view)
+module HttpGutenberg exposing (main)
 
 import Browser
 import Html exposing (Html, pre, text)
@@ -32,7 +32,9 @@ init : () -> ( Model, Cmd Msg )
 init _ =
     ( Loading
     , Http.get
-        { url = "https://storage.googleapis.com/doremishou/doremishou.txt"
+        { url = "/doremishou.txt"
+        
+        -- "https://storage.googleapis.com/doremishou/doremishou.txt"
 
         --  "https://elm-lang.org/assets/public-opinion.txt"
         , expect = Http.expectString GotText
