@@ -4310,13 +4310,13 @@ function _Browser_load(url)
 		}
 	}));
 }
-var author$project$Navi002$LinkClicked = function (a) {
+var author$project$Navi003$LinkClicked = function (a) {
 	return {$: 'LinkClicked', a: a};
 };
-var author$project$Navi002$UrlChanged = function (a) {
+var author$project$Navi003$UrlChanged = function (a) {
 	return {$: 'UrlChanged', a: a};
 };
-var author$project$Navi002$Model = F2(
+var author$project$Navi003$Model = F2(
 	function (key, url) {
 		return {key: key, url: url};
 	});
@@ -4797,10 +4797,10 @@ var elm$json$Json$Decode$errorToStringHelp = F2(
 	});
 var elm$core$Platform$Cmd$batch = _Platform_batch;
 var elm$core$Platform$Cmd$none = elm$core$Platform$Cmd$batch(_List_Nil);
-var author$project$Navi002$init = F3(
+var author$project$Navi003$init = F3(
 	function (flags, url, key) {
 		return _Utils_Tuple2(
-			A2(author$project$Navi002$Model, key, url),
+			A2(author$project$Navi003$Model, key, url),
 			elm$core$Platform$Cmd$none);
 	});
 var elm$browser$Browser$External = function (a) {
@@ -5162,7 +5162,7 @@ var elm$url$Url$toString = function (url) {
 					_Utils_ap(http, url.host)),
 				url.path)));
 };
-var author$project$Navi002$update = F2(
+var author$project$Navi003$update = F2(
 	function (msg, model) {
 		if (msg.$ === 'LinkClicked') {
 			var urlRequest = msg.a;
@@ -5207,7 +5207,7 @@ var elm$html$Html$Attributes$href = function (url) {
 		'href',
 		_VirtualDom_noJavaScriptUri(url));
 };
-var author$project$Navi002$viewLink = function (path) {
+var author$project$Navi003$viewLink = function (path) {
 	return A2(
 		elm$html$Html$li,
 		_List_Nil,
@@ -5230,7 +5230,7 @@ var elm$html$Html$div = _VirtualDom_node('div');
 var elm$html$Html$ul = _VirtualDom_node('ul');
 var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
 var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
-var author$project$Navi002$view = function (model) {
+var author$project$Navi003$view = function (model) {
 	return {
 		body: _List_fromArray(
 			[
@@ -5273,10 +5273,11 @@ var author$project$Navi002$view = function (model) {
 												elm$html$Html$text('/home')
 											]))
 									])),
-								author$project$Navi002$viewLink('/profile'),
-								author$project$Navi002$viewLink('/reviews/the-century-of-the-self'),
-								author$project$Navi002$viewLink('/reviews/public-opinion'),
-								author$project$Navi002$viewLink('/reviews/shah-of-shahs')
+								author$project$Navi003$viewLink('/profile'),
+								author$project$Navi003$viewLink('/reviews/the-century-of-the-self'),
+								author$project$Navi003$viewLink('/reviews/public-opinion'),
+								author$project$Navi003$viewLink('/reviews/shah-of-shahs'),
+								author$project$Navi003$viewLink('https://guide.elm-lang.org/webapps/navigation.html')
 							]))
 					]))
 			]),
@@ -5286,16 +5287,16 @@ var author$project$Navi002$view = function (model) {
 var elm$browser$Browser$application = _Browser_application;
 var elm$core$Platform$Sub$batch = _Platform_batch;
 var elm$core$Platform$Sub$none = elm$core$Platform$Sub$batch(_List_Nil);
-var author$project$Navi002$main = elm$browser$Browser$application(
+var author$project$Navi003$main = elm$browser$Browser$application(
 	{
-		init: author$project$Navi002$init,
-		onUrlChange: author$project$Navi002$UrlChanged,
-		onUrlRequest: author$project$Navi002$LinkClicked,
+		init: author$project$Navi003$init,
+		onUrlChange: author$project$Navi003$UrlChanged,
+		onUrlRequest: author$project$Navi003$LinkClicked,
 		subscriptions: function (_n0) {
 			return elm$core$Platform$Sub$none;
 		},
-		update: author$project$Navi002$update,
-		view: author$project$Navi002$view
+		update: author$project$Navi003$update,
+		view: author$project$Navi003$view
 	});
-_Platform_export({'Navi002':{'init':author$project$Navi002$main(
+_Platform_export({'Navi003':{'init':author$project$Navi003$main(
 	elm$json$Json$Decode$succeed(_Utils_Tuple0))(0)}});}(this));
