@@ -6,13 +6,13 @@ import Browser.Navigation as Nav
 -- import Dict
 -- import Elm.Version as V
 import Html
-import Page.Docs as Docs
-import Page.Diff as Diff
-import Page.Help as Help
-import Page.Problem as Problem
-import Page.Search as Search
-import Session
-import Skeleton
+-- import Page.Docs as Docs
+-- import Page.Diff as Diff
+-- import Page.Help as Help
+-- import Page.Problem as Problem
+-- import Page.Search as Search
+-- import Session
+-- import Skeleton
 import Url
 import Url.Parser as Parser exposing (Parser, (</>), custom, fragment, map, oneOf, s, top)
 
@@ -43,12 +43,12 @@ type alias Model =
 
 
 type Page
-  = NotFound Session.Data
-  | Search Search.Model
-  | Docs Docs.Model
-  | Diff Diff.Model
-  | Help Help.Model
-
+  = NotFound String
+  -- = NotFound Session.Data
+--   | Search Search.Model
+--   | Docs Docs.Model
+--   | Diff Diff.Model
+--   | Help Help.Model
 
 
 -- SUBSCRIPTIONS
@@ -75,28 +75,29 @@ view model =
         , kids = Problem.notFound
         }
 
-    Search search ->
-      Skeleton.view SearchMsg (Search.view search)
+--     Search search ->
+--       Skeleton.view SearchMsg (Search.view search)
 
-    Docs docs ->
-      Skeleton.view DocsMsg (Docs.view docs)
+--     Docs docs ->
+--       Skeleton.view DocsMsg (Docs.view docs)
 
-    Diff diff ->
-      Skeleton.view never (Diff.view diff)
+--     Diff diff ->
+--       Skeleton.view never (Diff.view diff)
 
-    Help help ->
-      Skeleton.view never (Help.view help)
+--     Help help ->
+--       Skeleton.view never (Help.view help)
 
 
 
--- INIT
+-- -- INIT
 
 
 init : () -> Url.Url -> Nav.Key -> ( Model, Cmd Msg )
 init _ url key =
   stepUrl url
     { key = key
-    , page = NotFound Session.empty
+    -- , page = NotFound Session.empty
+    , page = NotFound ""
     }
 
 
@@ -108,10 +109,12 @@ type Msg
   = NoOp
   | LinkClicked Browser.UrlRequest
   | UrlChanged Url.Url
-  | SearchMsg Search.Msg
-  | DiffMsg Diff.Msg
-  | DocsMsg Docs.Msg
-  | HelpMsg Help.Msg
+
+
+  -- | SearchMsg Search.Msg
+  -- | DiffMsg Diff.Msg
+  -- | DocsMsg Docs.Msg
+  -- | HelpMsg Help.Msg
 
 
 
@@ -133,109 +136,122 @@ update message model =
           , Nav.load href
           )
 
-    UrlChanged url ->
-      stepUrl url model
-
-    SearchMsg msg ->
-      case model.page of
-        Search search -> stepSearch model (Search.update msg search)
-        _             -> ( model, Cmd.none )
-
-    DiffMsg msg ->
-      case model.page of
-        Diff diff -> stepDiff model (Diff.update msg diff)
-        _         -> ( model, Cmd.none )
-
-    DocsMsg msg ->
-      case model.page of
-        Docs docs -> stepDocs model (Docs.update msg docs)
-        _         -> ( model, Cmd.none )
-
-    HelpMsg msg ->
-      case model.page of
-        Help docs -> stepHelp model (Help.update msg docs)
-        _         -> ( model, Cmd.none )
+        UrlChanged url -> (model, Nav.pushUrl model.key (Url.toString url))
 
 
-stepSearch : Model -> ( Search.Model, Cmd Search.Msg ) -> ( Model, Cmd Msg )
-stepSearch model (search, cmds) =
-  ( { model | page = Search search }
-  , Cmd.map SearchMsg cmds
-  )
+    -- UrlChanged url ->
+    --   stepUrl url model
+
+    -- SearchMsg msg ->
+    --   case model.page of
+    --     Search search -> stepSearch model (Search.update msg search)
+    --     _             -> ( model, Cmd.none )
+
+    -- DiffMsg msg ->
+    --   case model.page of
+    --     Diff diff -> stepDiff model (Diff.update msg diff)
+    --     _         -> ( model, Cmd.none )
+
+    -- DocsMsg msg ->
+    --   case model.page of
+    --     Docs docs -> stepDocs model (Docs.update msg docs)
+    --     _         -> ( model, Cmd.none )
+
+    -- HelpMsg msg ->
+    --   case model.page of
+    --     Help docs -> stepHelp model (Help.update msg docs)
+    --     _         -> ( model, Cmd.none )
 
 
-stepDocs : Model -> ( Docs.Model, Cmd Docs.Msg ) -> ( Model, Cmd Msg )
-stepDocs model (docs, cmds) =
-  ( { model | page = Docs docs }
-  , Cmd.map DocsMsg cmds
-  )
+-- stepSearch : Model -> ( Search.Model, Cmd Search.Msg ) -> ( Model, Cmd Msg )
+-- stepSearch model (search, cmds) =
+--   ( { model | page = Search search }
+--   , Cmd.map SearchMsg cmds
+--   )
 
 
-stepDiff : Model -> ( Diff.Model, Cmd Diff.Msg ) -> ( Model, Cmd Msg )
-stepDiff model (diff, cmds) =
-  ( { model | page = Diff diff }
-  , Cmd.map DiffMsg cmds
-  )
+-- stepDocs : Model -> ( Docs.Model, Cmd Docs.Msg ) -> ( Model, Cmd Msg )
+-- stepDocs model (docs, cmds) =
+--   ( { model | page = Docs docs }
+--   , Cmd.map DocsMsg cmds
+--   )
 
 
-stepHelp : Model -> ( Help.Model, Cmd Help.Msg ) -> ( Model, Cmd Msg )
-stepHelp model (help, cmds) =
-  ( { model | page = Help help }
-  , Cmd.map HelpMsg cmds
-  )
+-- stepDiff : Model -> ( Diff.Model, Cmd Diff.Msg ) -> ( Model, Cmd Msg )
+-- stepDiff model (diff, cmds) =
+--   ( { model | page = Diff diff }
+--   , Cmd.map DiffMsg cmds
+--   )
+
+
+-- stepHelp : Model -> ( Help.Model, Cmd Help.Msg ) -> ( Model, Cmd Msg )
+-- stepHelp model (help, cmds) =
+--   ( { model | page = Help help }
+--   , Cmd.map HelpMsg cmds
+--   )
 
 
 
 -- EXIT
 
 
-exit : Model -> Session.Data
-exit model =
-  case model.page of
-    NotFound session -> session
-    Search m -> m.session
-    Docs m -> m.session
-    Diff m -> m.session
-    Help m -> m.session
+-- exit : Model -> Session.Data
+-- exit model =
+--   case model.page of
+--     NotFound session -> session
+--     Search m -> m.session
+--     Docs m -> m.session
+--     Diff m -> m.session
+--     Help m -> m.session
 
 
 
 -- ROUTER
 
 
-stepUrl : Url.Url -> Model -> (Model, Cmd Msg)
-stepUrl url model =
-  let
-    session =
-      exit model
+-- stepUrl : Url.Url -> Model -> (Model, Cmd Msg)
+-- stepUrl url model =
+--   let
+--     session =
+--       exit model
 
-    parser =
-      oneOf
-        [ route top
-            ( stepSearch model (Search.init session)
-            )
-        , route (s "packages" </> author_ </> project_)
-            (\author project ->
-                stepDiff model (Diff.init session author project)
-            )
-        -- , route (s "packages" </> author_ </> project_ </> version_ </> focus_)
-        --     (\author project version focus ->
-        --         stepDocs model (Docs.init session author project version focus)
-        --     )
-        , route (s "help" </> s "design-guidelines")
-            (stepHelp model (Help.init session "Design Guidelines" "/assets/help/design-guidelines.md"))
-        , route (s "help" </> s "documentation-format")
-            (stepHelp model (Help.init session "Documentation Format" "/assets/help/documentation-format.md"))
-        ]
-  in
-  case Parser.parse parser url of
-    Just answer ->
-      answer
+--     parser =
+--       oneOf
+--         [ route top
+--             ( stepSearch model (Search.init session)
+--             )
+--         , route (s "packages" </> author_ </> project_)
+--             (\author project ->
+--                 stepDiff model (Diff.init session author project)
+--             )
+--         -- , route (s "packages" </> author_ </> project_ </> version_ </> focus_)
+--         --     (\author project version focus ->
+--         --         stepDocs model (Docs.init session author project version focus)
+--         --     )
+--         , route (s "help" </> s "design-guidelines")
+--             (stepHelp model (Help.init session "Design Guidelines" "/assets/help/design-guidelines.md"))
+--         , route (s "help" </> s "documentation-format")
+--             (stepHelp model (Help.init session "Documentation Format" "/assets/help/documentation-format.md"))
+--         ]
+--   in
+--   case Parser.parse parser url of
+--     Just answecs.Focus -> a) a
+-- focus_ =
+--   oneOf
+--     [ map Docs.Readme top
+--     , map Docs.Module (moduleName_ </> fragment identity)
+--     ]
+    --   answer
 
-    Nothing ->
-      ( { model | page = NotFound session }
-      , Cmd.none
-      )
+    -- Nothing ->cs.Focus -> a) a
+-- focus_ =
+--   oneOf
+--     [ map Docs.Readme top
+--     , map Docs.Module (moduleName_ </> fragment identity)
+--     ]
+      -- ( { model | page = NotFound session }
+      -- , Cmd.none
+      -- )
 
 
 route : Parser a b -> a -> Parser (b -> c) c
@@ -262,12 +278,12 @@ project_ =
 --       Maybe.map Just (V.fromString string)
 
 
-focus_ : Parser (Docs.Focus -> a) a
-focus_ =
-  oneOf
-    [ map Docs.Readme top
-    , map Docs.Module (moduleName_ </> fragment identity)
-    ]
+-- focus_ : Parser (Docs.Focus -> a) a
+-- focus_ =
+--   oneOf
+--     [ map Docs.Readme top
+--     , map Docs.Module (moduleName_ </> fragment identity)
+--     ]
 
 
 moduleName_ : Parser (String -> a) a
