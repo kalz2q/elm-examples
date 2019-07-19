@@ -1,10 +1,8 @@
-module Navi008 exposing (main)
-
--- lets make this to a template
+module Spa003 exposing (main)
 
 import Browser
 import Browser.Navigation as Nav
-import Html exposing (..)
+import Html
 import Html.Attributes as HA
 import Html.Events as HE
 import Url
@@ -40,13 +38,13 @@ type Route
     | BlogList (Maybe String)
     | BlogPost Int
     | Main
-    | Modules -- 2018/04/05追加
+    | Modules
 
 
 routeParser : Parser.Parser (Route -> a) a
 routeParser =
     Parser.oneOf
-        [ Parser.map Home Parser.top
+        [ Parser.map Home (Parser.s "home")
         , Parser.map BlogList (Parser.s "blog" <?> Query.string "search")
         , Parser.map BlogPost (Parser.s "blog" </> Parser.int)
         , Parser.map Modules (Parser.s "modules")
@@ -84,13 +82,19 @@ subscriptions model =
 
 view : Model -> Browser.Document Msg
 view model =
-    { title = "URL Interceptor"
+    { title = "SPA Example Skelton"
     , body =
-        [ div []
-            [ h1 [] [ text "Links" ]
-            , ul [] (List.map viewLink [ "/", "/blog/", "/blog/42", "/blog/37", "/blog/?search=cats", "modules" ])
-            , h1 [] [ text "各lページの画面です" ]
-            , div [] [ viewRoute model.url ]
+        [ Html.div
+            [ HA.style "width" "600px"
+            , HA.style "margin" "60px auto"
+            ]
+            [ Html.h2 []
+                [ Html.text "The current URL is: "
+                , Html.b [] [ Html.text (Url.toString model.url) ]
+                ]
+            , Html.ul [] (List.map viewLink [ "/home", "/blog/", "/blog/42", "/blog/37", "/blog/?search=cats", "/modules", "https://guide.elm-lang.org/webapps/navigation.html" ])
+            , Html.h2 [] [ Html.text "各ページの画面です" ]
+            , Html.div [] [ viewRoute model.url ]
             ]
         ]
     }
@@ -101,52 +105,52 @@ viewLink path =
     Html.li [] [ Html.a [ HA.href path ] [ Html.text path ] ]
 
 
-viewRoute : Url.Url -> Html msg
+viewRoute : Url.Url -> Html.Html msg
 viewRoute url =
     viewPage url
 
 
-viewPage : Url.Url -> Html msg
+viewPage : Url.Url -> Html.Html msg
 viewPage path =
     case Parser.parse routeParser path of
         Just Home ->
-            div []
-                [ h2 [] [ text "Welcomw to My Page!" ]
-                , p [] [ text "これはテストページのトップです" ]
+            Html.div []
+                [ Html.h2 [] [ Html.text "Welcomw to My Page!" ]
+                , Html.p [] [ Html.text "これはテストページのトップです" ]
                 ]
 
         Just (BlogList Nothing) ->
-            div []
-                [ h2 [] [ text "ブログ一覧" ]
-                , p [] [ text "これはブログの一覧ページです" ]
+            Html.div []
+                [ Html.h2 [] [ Html.text "ブログ一覧" ]
+                , Html.p [] [ Html.text "これはブログの一覧ページです" ]
                 ]
 
         Just (BlogList (Just search)) ->
-            div []
-                [ h2 [] [ text "ブログ検索結果" ]
-                , p [] [ text ("これはブログの検索結果(" ++ search ++ ")ページです") ]
+            Html.div []
+                [ Html.h2 [] [ Html.text "ブログ検索結果" ]
+                , Html.p [] [ Html.text ("これはブログの検索結果(" ++ search ++ ")ページです") ]
                 ]
 
         Just (BlogPost id) ->
-            div []
-                [ h2 [] [ text "ブログ記事表示" ]
-                , p [] [ text ("これはブログの記事(" ++ String.fromInt id ++ ")を表示します") ]
+            Html.div []
+                [ Html.h2 [] [ Html.text "ブログ記事表示" ]
+                , Html.p [] [ Html.text ("これはブログの記事(" ++ String.fromInt id ++ ")を表示します") ]
                 ]
 
         Just Modules ->
-            div []
-                [ h2 [] [ text "Modules" ]
-                , p [] [ text "これはプログラムがロードされModulesです。" ]
+            Html.div []
+                [ Html.h2 [] [ Html.text "Modules" ]
+                , Html.p [] [ Html.text "これはプログラムがロードされたModulesです。" ]
                 ]
 
         Just Main ->
-            div []
-                [ h2 [] [ text "初期画面" ]
-                , p [] [ text "これはプログラムがロードされた初期画面です。" ]
+            Html.div []
+                [ Html.h2 [] [ Html.text "初期画面" ]
+                , Html.p [] [ Html.text "これはプログラムがロードされた初期画面です。" ]
                 ]
 
         Nothing ->
-            div []
-                [ h2 [] [ text "初期画面" ]
-                , p [] [ text "これはプログラムがロードされた初期画面です。" ]
+            Html.div []
+                [ Html.h2 [] [ Html.text "初期画面" ]
+                , Html.p [] [ Html.text "これはプログラムがロードされた初期画面です。" ]
                 ]
