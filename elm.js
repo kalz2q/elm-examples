@@ -3869,6 +3869,7 @@ function _VirtualDom_dekey(keyedNode)
 		b: keyedNode.b
 	};
 }
+<<<<<<< HEAD
 var elm$core$Basics$identity = function (x) {
 	return x;
 };
@@ -3886,6 +3887,10 @@ var elm$core$Array$Array_elm_builtin = F4(
 	function (a, b, c, d) {
 		return {$: 'Array_elm_builtin', a: a, b: b, c: c, d: d};
 	});
+=======
+var elm$core$Basics$True = {$: 'True'};
+var author$project$Misc001$trueInElm = true;
+>>>>>>> d29c07e2abb40cc1c424d2ca6e5813c63fe3881c
 var elm$core$Basics$EQ = {$: 'EQ'};
 var elm$core$Basics$GT = {$: 'GT'};
 var elm$core$Basics$LT = {$: 'LT'};
@@ -3966,6 +3971,26 @@ var elm$core$Array$foldr = F3(
 var elm$core$Array$toList = function (array) {
 	return A3(elm$core$Array$foldr, elm$core$List$cons, _List_Nil, array);
 };
+<<<<<<< HEAD
+=======
+var elm$core$Debug$toString = _Debug_toString;
+var elm$core$Basics$identity = function (x) {
+	return x;
+};
+var elm$core$Basics$False = {$: 'False'};
+var elm$core$Result$isOk = function (result) {
+	if (result.$ === 'Ok') {
+		return true;
+	} else {
+		return false;
+	}
+};
+var elm$core$Array$branchFactor = 32;
+var elm$core$Array$Array_elm_builtin = F4(
+	function (a, b, c, d) {
+		return {$: 'Array_elm_builtin', a: a, b: b, c: c, d: d};
+	});
+>>>>>>> d29c07e2abb40cc1c424d2ca6e5813c63fe3881c
 var elm$core$Basics$ceiling = _Basics_ceiling;
 var elm$core$Basics$fdiv = _Basics_fdiv;
 var elm$core$Basics$logBase = F2(
@@ -4363,6 +4388,7 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 	}
 };
 var elm$html$Html$div = _VirtualDom_node('div');
+<<<<<<< HEAD
 var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
 var author$project$Picshare$main = A2(
@@ -4373,3 +4399,49 @@ var author$project$Picshare$main = A2(
 			elm$html$Html$text('Picshare')
 		]));
 _Platform_export({'Picshare':{'init':_VirtualDom_init(author$project$Picshare$main)(0)(0)}});}(this));
+=======
+var elm$html$Html$h1 = _VirtualDom_node('h1');
+var elm$html$Html$li = _VirtualDom_node('li');
+var elm$html$Html$ol = _VirtualDom_node('ol');
+var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
+var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
+var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
+var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
+var author$project$Misc001$main = A2(
+	elm$html$Html$div,
+	_List_fromArray(
+		[
+			A2(elm$html$Html$Attributes$style, 'background-color', 'gainsboro'),
+			A2(elm$html$Html$Attributes$style, 'width', '600px'),
+			A2(elm$html$Html$Attributes$style, 'margin', 'auto'),
+			A2(elm$html$Html$Attributes$style, 'position', 'relative')
+		]),
+	_List_fromArray(
+		[
+			A2(
+			elm$html$Html$h1,
+			_List_fromArray(
+				[
+					A2(elm$html$Html$Attributes$style, 'text-align', 'center')
+				]),
+			_List_fromArray(
+				[
+					elm$html$Html$text('Miscellaneous Facts in Elm')
+				])),
+			A2(
+			elm$html$Html$ol,
+			_List_Nil,
+			_List_fromArray(
+				[
+					A2(
+					elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text(
+							elm$core$Debug$toString(author$project$Misc001$trueInElm))
+						]))
+				]))
+		]));
+_Platform_export({'Misc001':{'init':_VirtualDom_init(author$project$Misc001$main)(0)(0)}});}(this));
+>>>>>>> d29c07e2abb40cc1c424d2ca6e5813c63fe3881c
