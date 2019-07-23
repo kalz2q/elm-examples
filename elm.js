@@ -3869,7 +3869,6 @@ function _VirtualDom_dekey(keyedNode)
 		b: keyedNode.b
 	};
 }
-<<<<<<< HEAD
 var elm$core$Basics$identity = function (x) {
 	return x;
 };
@@ -3887,10 +3886,6 @@ var elm$core$Array$Array_elm_builtin = F4(
 	function (a, b, c, d) {
 		return {$: 'Array_elm_builtin', a: a, b: b, c: c, d: d};
 	});
-=======
-var elm$core$Basics$True = {$: 'True'};
-var author$project$Misc001$trueInElm = true;
->>>>>>> d29c07e2abb40cc1c424d2ca6e5813c63fe3881c
 var elm$core$Basics$EQ = {$: 'EQ'};
 var elm$core$Basics$GT = {$: 'GT'};
 var elm$core$Basics$LT = {$: 'LT'};
@@ -3971,26 +3966,6 @@ var elm$core$Array$foldr = F3(
 var elm$core$Array$toList = function (array) {
 	return A3(elm$core$Array$foldr, elm$core$List$cons, _List_Nil, array);
 };
-<<<<<<< HEAD
-=======
-var elm$core$Debug$toString = _Debug_toString;
-var elm$core$Basics$identity = function (x) {
-	return x;
-};
-var elm$core$Basics$False = {$: 'False'};
-var elm$core$Result$isOk = function (result) {
-	if (result.$ === 'Ok') {
-		return true;
-	} else {
-		return false;
-	}
-};
-var elm$core$Array$branchFactor = 32;
-var elm$core$Array$Array_elm_builtin = F4(
-	function (a, b, c, d) {
-		return {$: 'Array_elm_builtin', a: a, b: b, c: c, d: d};
-	});
->>>>>>> d29c07e2abb40cc1c424d2ca6e5813c63fe3881c
 var elm$core$Basics$ceiling = _Basics_ceiling;
 var elm$core$Basics$fdiv = _Basics_fdiv;
 var elm$core$Basics$logBase = F2(
@@ -4388,60 +4363,98 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 	}
 };
 var elm$html$Html$div = _VirtualDom_node('div');
-<<<<<<< HEAD
+var elm$html$Html$h1 = _VirtualDom_node('h1');
+var elm$html$Html$h2 = _VirtualDom_node('h2');
+var elm$html$Html$img = _VirtualDom_node('img');
 var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
-var author$project$Picshare$main = A2(
+var elm$json$Json$Encode$string = _Json_wrap;
+var elm$html$Html$Attributes$stringProperty = F2(
+	function (key, string) {
+		return A2(
+			_VirtualDom_property,
+			key,
+			elm$json$Json$Encode$string(string));
+	});
+var elm$html$Html$Attributes$src = function (url) {
+	return A2(
+		elm$html$Html$Attributes$stringProperty,
+		'src',
+		_VirtualDom_noJavaScriptOrHtmlUri(url));
+};
+var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
+var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
+var author$project$Picshare001$main = A2(
 	elm$html$Html$div,
 	_List_Nil,
 	_List_fromArray(
 		[
-			elm$html$Html$text('Picshare')
-		]));
-_Platform_export({'Picshare':{'init':_VirtualDom_init(author$project$Picshare$main)(0)(0)}});}(this));
-=======
-var elm$html$Html$h1 = _VirtualDom_node('h1');
-var elm$html$Html$li = _VirtualDom_node('li');
-var elm$html$Html$ol = _VirtualDom_node('ol');
-var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
-var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
-var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
-var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
-var author$project$Misc001$main = A2(
-	elm$html$Html$div,
-	_List_fromArray(
-		[
-			A2(elm$html$Html$Attributes$style, 'background-color', 'gainsboro'),
-			A2(elm$html$Html$Attributes$style, 'width', '600px'),
-			A2(elm$html$Html$Attributes$style, 'margin', 'auto'),
-			A2(elm$html$Html$Attributes$style, 'position', 'relative')
-		]),
-	_List_fromArray(
-		[
 			A2(
-			elm$html$Html$h1,
+			elm$html$Html$div,
 			_List_fromArray(
 				[
+					A2(elm$html$Html$Attributes$style, 'background-color', '#aaa'),
+					A2(elm$html$Html$Attributes$style, 'padding-bottom', '10px'),
+					A2(elm$html$Html$Attributes$style, 'padding-top', '10px'),
 					A2(elm$html$Html$Attributes$style, 'text-align', 'center')
 				]),
 			_List_fromArray(
 				[
-					elm$html$Html$text('Miscellaneous Facts in Elm')
-				])),
-			A2(
-			elm$html$Html$ol,
-			_List_Nil,
-			_List_fromArray(
-				[
 					A2(
-					elm$html$Html$li,
+					elm$html$Html$h1,
 					_List_Nil,
 					_List_fromArray(
 						[
-							elm$html$Html$text(
-							elm$core$Debug$toString(author$project$Misc001$trueInElm))
+							elm$html$Html$text('Picshare')
+						]))
+				])),
+			A2(
+			elm$html$Html$div,
+			_List_fromArray(
+				[
+					A2(elm$html$Html$Attributes$style, 'margin', '0 auto 60px')
+				]),
+			_List_fromArray(
+				[
+					A2(
+					elm$html$Html$div,
+					_List_fromArray(
+						[
+							A2(elm$html$Html$Attributes$style, 'box-shadow', '0 0 2px #ccc'),
+							A2(elm$html$Html$Attributes$style, 'background', '#fff')
+						]),
+					_List_fromArray(
+						[
+							A2(
+							elm$html$Html$img,
+							_List_fromArray(
+								[
+									elm$html$Html$Attributes$src('https://programming-elm.com/1.jpg')
+								]),
+							_List_Nil),
+							A2(
+							elm$html$Html$div,
+							_List_fromArray(
+								[
+									A2(elm$html$Html$Attributes$style, 'padding-bottom', '10px')
+								]),
+							_List_fromArray(
+								[
+									A2(
+									elm$html$Html$h2,
+									_List_fromArray(
+										[
+											A2(elm$html$Html$Attributes$style, 'font-size', '30px'),
+											A2(elm$html$Html$Attributes$style, 'font-weight', 'lighter'),
+											A2(elm$html$Html$Attributes$style, 'font-style', 'italic'),
+											A2(elm$html$Html$Attributes$style, 'margin', '0 0 10px 0')
+										]),
+									_List_fromArray(
+										[
+											elm$html$Html$text('Surfing')
+										]))
+								]))
 						]))
 				]))
 		]));
-_Platform_export({'Misc001':{'init':_VirtualDom_init(author$project$Misc001$main)(0)(0)}});}(this));
->>>>>>> d29c07e2abb40cc1c424d2ca6e5813c63fe3881c
+_Platform_export({'Picshare001':{'init':_VirtualDom_init(author$project$Picshare001$main)(0)(0)}});}(this));

@@ -1,4 +1,4 @@
-module Picshare001 exposing (main)
+module Picshare002 exposing (main)
 
 import Html
 import Html.Attributes as HA
@@ -23,7 +23,7 @@ main =
                 [ HA.style "box-shadow" "0 0 10px #ccc"
                 , HA.style "background" "#fff"
                 ]
-                [ Html.img [ HA.src "https://programming-elm.com/1.jpg" ] []
+                [ Html.img [ HA.src "https://programming-elm.com/1.jpg", HA.style "width" "300px" ] []
                 , Html.div [ HA.style "padding-bottom" "10px" ]
                     [ Html.h2
                         [ HA.style "font-size" "30px"
