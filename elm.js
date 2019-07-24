@@ -3869,7 +3869,7 @@ function _VirtualDom_dekey(keyedNode)
 		b: keyedNode.b
 	};
 }
-var author$project$Picshare002$baseUrl = 'https://programming-elm.com/';
+var author$project$Picshare003$initialModel = {caption: 'Santa Clause', url: 'https://drive.google.com/uc?id=1NyeKCX2Hh0iioPYQs7JsJ8e_okLC4L5Y'};
 var elm$core$Basics$identity = function (x) {
 	return x;
 };
@@ -4385,7 +4385,7 @@ var elm$html$Html$Attributes$src = function (url) {
 };
 var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
 var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
-var author$project$Picshare002$viewDetailedPhoto = F2(
+var author$project$Picshare003$viewDetailedPhoto = F2(
 	function (url, caption) {
 		return A2(
 			elm$html$Html$div,
@@ -4433,7 +4433,7 @@ var author$project$Picshare002$viewDetailedPhoto = F2(
 				]));
 	});
 var elm$html$Html$h1 = _VirtualDom_node('h1');
-var author$project$Picshare002$main = A2(
+var author$project$Picshare003$main = A2(
 	elm$html$Html$div,
 	_List_Nil,
 	_List_fromArray(
@@ -4467,9 +4467,7 @@ var author$project$Picshare002$main = A2(
 				]),
 			_List_fromArray(
 				[
-					A2(author$project$Picshare002$viewDetailedPhoto, author$project$Picshare002$baseUrl + '1.jpg', 'Surfing'),
-					A2(author$project$Picshare002$viewDetailedPhoto, author$project$Picshare002$baseUrl + '2.jpg', 'The Fox'),
-					A2(author$project$Picshare002$viewDetailedPhoto, author$project$Picshare002$baseUrl + '3.jpg', 'Evening')
+					A2(author$project$Picshare003$viewDetailedPhoto, author$project$Picshare003$initialModel.url, author$project$Picshare003$initialModel.caption)
 				]))
 		]));
-_Platform_export({'Picshare002':{'init':_VirtualDom_init(author$project$Picshare002$main)(0)(0)}});}(this));
+_Platform_export({'Picshare003':{'init':_VirtualDom_init(author$project$Picshare003$main)(0)(0)}});}(this));
