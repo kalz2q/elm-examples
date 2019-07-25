@@ -8,7 +8,7 @@ import Html.Attributes as HA
 
 
 type alias Model =
-    { url : String, caption : String , liked : Bool}
+    { url : String, caption : String, liked : Bool }
 
 
 initialModel : Model
@@ -53,7 +53,7 @@ viewDetailedPhoto model =
         ]
 
 
-view : { url : String, caption : String } -> Html.Html msg
+view : { url : String, caption : String, liked : Bool } -> Html.Html msg
 view model =
     Html.div []
         [ Html.div
@@ -69,5 +69,6 @@ view model =
             , HA.style "margin" "auto"
             , HA.style "width" "400px"
             ]
-            [ viewDetailedPhoto model ]
+            [ viewDetailedPhoto model
+            ]
         ]
