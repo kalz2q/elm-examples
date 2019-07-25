@@ -4364,8 +4364,7 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 	}
 };
 var elm$html$Html$div = _VirtualDom_node('div');
-var elm$html$Html$h2 = _VirtualDom_node('h2');
-var elm$html$Html$img = _VirtualDom_node('img');
+var elm$html$Html$h1 = _VirtualDom_node('h1');
 var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
 var elm$json$Json$Encode$string = _Json_wrap;
@@ -4377,62 +4376,51 @@ var elm$html$Html$Attributes$stringProperty = F2(
 			elm$json$Json$Encode$string(string));
 	});
 var elm$html$Html$Attributes$class = elm$html$Html$Attributes$stringProperty('className');
-var elm$html$Html$Attributes$src = function (url) {
-	return A2(
-		elm$html$Html$Attributes$stringProperty,
-		'src',
-		_VirtualDom_noJavaScriptOrHtmlUri(url));
-};
 var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
 var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
-var author$project$Picshare003$viewDetailedPhoto = F2(
-	function (url, caption) {
-		return A2(
-			elm$html$Html$div,
-			_List_fromArray(
-				[
-					elm$html$Html$Attributes$class('detailed-photo'),
-					A2(elm$html$Html$Attributes$style, 'box-shadow', '0 0 10px #555'),
-					A2(elm$html$Html$Attributes$style, 'background', 'yellow')
-				]),
-			_List_fromArray(
-				[
-					A2(
-					elm$html$Html$img,
-					_List_fromArray(
-						[
-							elm$html$Html$Attributes$src(url),
-							A2(elm$html$Html$Attributes$style, 'width', '400px'),
-							A2(elm$html$Html$Attributes$style, 'margin-top', '10px')
-						]),
-					_List_Nil),
-					A2(
-					elm$html$Html$div,
-					_List_fromArray(
-						[
-							elm$html$Html$Attributes$class('photo-info'),
-							A2(elm$html$Html$Attributes$style, 'padding-bottom', '10px')
-						]),
-					_List_fromArray(
-						[
-							A2(
-							elm$html$Html$h2,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$class('caption'),
-									A2(elm$html$Html$Attributes$style, 'font-size', '30px'),
-									A2(elm$html$Html$Attributes$style, 'font-weight', 'lighter'),
-									A2(elm$html$Html$Attributes$style, 'font-style', 'italic'),
-									A2(elm$html$Html$Attributes$style, 'margin', '0 0 10px 0')
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text(caption)
-								]))
-						]))
-				]));
-	});
-var elm$html$Html$h1 = _VirtualDom_node('h1');
+var author$project$Picshare003$view = function (model) {
+	return A2(
+		elm$html$Html$div,
+		_List_Nil,
+		_List_fromArray(
+			[
+				A2(
+				elm$html$Html$div,
+				_List_fromArray(
+					[
+						elm$html$Html$Attributes$class('header'),
+						A2(elm$html$Html$Attributes$style, 'background-color', '#aaa'),
+						A2(elm$html$Html$Attributes$style, 'padding-bottom', '10px'),
+						A2(elm$html$Html$Attributes$style, 'padding-top', '10px'),
+						A2(elm$html$Html$Attributes$style, 'text-align', 'center')
+					]),
+				_List_fromArray(
+					[
+						A2(
+						elm$html$Html$h1,
+						_List_Nil,
+						_List_fromArray(
+							[
+								elm$html$Html$text('Picshare')
+							]))
+					])),
+				A2(
+				elm$html$Html$div,
+				_List_fromArray(
+					[
+						elm$html$Html$Attributes$class('content-flow'),
+						A2(elm$html$Html$Attributes$style, 'margin', 'auto'),
+						A2(elm$html$Html$Attributes$style, 'width', '400px')
+					]),
+				_List_fromArray(
+					[
+						author$project$Picshare003$viewDetailedPhoto(model)
+					]))
+			]));
+};
+var author$project$Picshare003$viewDetailedPhoto = function (model) {
+	return author$project$Picshare003$view(author$project$Picshare003$initialModel);
+};
 var author$project$Picshare003$main = A2(
 	elm$html$Html$div,
 	_List_Nil,
@@ -4467,7 +4455,7 @@ var author$project$Picshare003$main = A2(
 				]),
 			_List_fromArray(
 				[
-					A2(author$project$Picshare003$viewDetailedPhoto, author$project$Picshare003$initialModel.url, author$project$Picshare003$initialModel.caption)
+					author$project$Picshare003$viewDetailedPhoto(author$project$Picshare003$initialModel)
 				]))
 		]));
 _Platform_export({'Picshare003':{'init':_VirtualDom_init(author$project$Picshare003$main)(0)(0)}});}(this));

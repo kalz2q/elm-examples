@@ -7,43 +7,32 @@ import Html
 import Html.Attributes as HA
 
 
-initialModel : { url : String, caption : String }
+type alias Model =
+    { url : String, caption : String , liked : Bool}
+
+
+initialModel : Model
 initialModel =
     { url = "https://drive.google.com/uc?id=1NyeKCX2Hh0iioPYQs7JsJ8e_okLC4L5Y"
     , caption = "Santa Clause"
+    , liked = False
     }
 
 
 main : Html.Html msg
 main =
-    Html.div []
-        [ Html.div
-            [ HA.class "header"
-            , HA.style "background-color" "#aaa"
-            , HA.style "padding-bottom" "10px"
-            , HA.style "padding-top" "10px"
-            , HA.style "text-align" "center"
-            ]
-            [ Html.h1 [] [ Html.text "Picshare" ] ]
-        , Html.div
-            [ --  HA.style "margin" "0 auto 60px"
-              HA.style "margin" "auto"
-            , HA.style "width" "400px"
-            ]
-            [ viewDetailedPhoto initialModel.url initialModel.caption
-            ]
-        ]
+    view initialModel
 
 
-viewDetailedPhoto : String -> String -> Html.Html msg
-viewDetailedPhoto url caption =
+viewDetailedPhoto : Model -> Html.Html msg
+viewDetailedPhoto model =
     Html.div
         [ HA.class "detailed-photo"
         , HA.style "box-shadow" "0 0 10px #555"
         , HA.style "background" "yellow"
         ]
         [ Html.img
-            [ HA.src url
+            [ HA.src model.url
             , HA.style "width" "400px"
             , HA.style "margin-top" "10px"
             ]
@@ -59,6 +48,26 @@ viewDetailedPhoto url caption =
                 , HA.style "font-style" "italic"
                 , HA.style "margin" "0 0 10px 0"
                 ]
-                [ Html.text caption ]
+                [ Html.text model.caption ]
             ]
+        ]
+
+
+view : { url : String, caption : String } -> Html.Html msg
+view model =
+    Html.div []
+        [ Html.div
+            [ HA.class "header"
+            , HA.style "background-color" "#aaa"
+            , HA.style "padding-bottom" "10px"
+            , HA.style "padding-top" "10px"
+            , HA.style "text-align" "center"
+            ]
+            [ Html.h1 [] [ Html.text "Picshare" ] ]
+        , Html.div
+            [ HA.class "content-flow"
+            , HA.style "margin" "auto"
+            , HA.style "width" "400px"
+            ]
+            [ viewDetailedPhoto model ]
         ]
