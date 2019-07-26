@@ -1,10 +1,11 @@
-module Picshare003 exposing (main)
+module Picshare004 exposing (main)
 
 -- success in Santa Claus in Picshare002
 -- p.49
 
 import Html
 import Html.Attributes as HA
+import Html.Events as HE
 
 
 type alias Model =
@@ -19,13 +20,33 @@ initialModel =
     }
 
 
-main : Html.Html msg
+main : Html.Html Msg
 main =
     view initialModel
 
 
-viewDetailedPhoto : Model -> Html.Html msg
+type Msg
+    = Unlike
+    | Like
+
+
+viewDetailedPhoto : Model -> Html.Html Msg
 viewDetailedPhoto model =
+    let
+        buttonClass =
+            if model.liked then
+                "fa-heart"
+
+            else
+                "fa-heart-o"
+
+        msg =
+            if model.liked then
+                Unlike
+
+            else
+                Like
+    in
     Html.div
         [ HA.class "detailed-photo"
         , HA.style "box-shadow" "0 0 10px #555"
@@ -41,7 +62,15 @@ viewDetailedPhoto model =
             [ HA.class "photo-info"
             , HA.style "padding-bottom" "10px"
             ]
-            [ Html.h2
+            [ Html.div [ HA.class "like-button" ]
+                [ Html.i
+                    [ HA.class "fa fa-2x"
+                    , HA.class buttonClass
+                    , HE.onClick msg
+                    ]
+                    []
+                ]
+            , Html.h2
                 [ HA.class "caption"
                 , HA.style "font-size" "30px"
                 , HA.style "font-weight" "lighter"
@@ -53,7 +82,7 @@ viewDetailedPhoto model =
         ]
 
 
-view : { url : String, caption : String, liked : Bool } -> Html.Html msg
+view : { url : String, caption : String, liked : Bool } -> Html.Html Msg
 view model =
     Html.div []
         [ Html.div
