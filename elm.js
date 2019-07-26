@@ -3870,9 +3870,9 @@ function _VirtualDom_dekey(keyedNode)
 	};
 }
 var elm$core$Basics$False = {$: 'False'};
-var author$project$Picshare004$initialModel = {caption: 'Santa Clause', liked: false, url: 'https://drive.google.com/uc?id=1NyeKCX2Hh0iioPYQs7JsJ8e_okLC4L5Y'};
-var author$project$Picshare004$Like = {$: 'Like'};
-var author$project$Picshare004$Unlike = {$: 'Unlike'};
+var author$project$Picshare005$initialModel = {caption: 'Santa Clause', liked: false, url: 'https://drive.google.com/uc?id=1NyeKCX2Hh0iioPYQs7JsJ8e_okLC4L5Y'};
+var author$project$Picshare005$Like = {$: 'Like'};
+var author$project$Picshare005$Unlike = {$: 'Unlike'};
 var elm$core$Basics$identity = function (x) {
 	return x;
 };
@@ -4405,8 +4405,8 @@ var elm$html$Html$Events$onClick = function (msg) {
 		'click',
 		elm$json$Json$Decode$succeed(msg));
 };
-var author$project$Picshare004$viewDetailedPhoto = function (model) {
-	var msg = model.liked ? author$project$Picshare004$Unlike : author$project$Picshare004$Like;
+var author$project$Picshare005$viewDetailedPhoto = function (model) {
+	var msg = model.liked ? author$project$Picshare005$Unlike : author$project$Picshare005$Like;
 	var buttonClass = model.liked ? 'fa-heart' : 'fa-heart-o';
 	return A2(
 		elm$html$Html$div,
@@ -4472,7 +4472,7 @@ var author$project$Picshare004$viewDetailedPhoto = function (model) {
 			]));
 };
 var elm$html$Html$h1 = _VirtualDom_node('h1');
-var author$project$Picshare004$view = function (model) {
+var author$project$Picshare005$view = function (model) {
 	return A2(
 		elm$html$Html$div,
 		_List_Nil,
@@ -4508,9 +4508,9 @@ var author$project$Picshare004$view = function (model) {
 					]),
 				_List_fromArray(
 					[
-						author$project$Picshare004$viewDetailedPhoto(model)
+						author$project$Picshare005$viewDetailedPhoto(model)
 					]))
 			]));
 };
-var author$project$Picshare004$main = author$project$Picshare004$view(author$project$Picshare004$initialModel);
-_Platform_export({'Picshare004':{'init':_VirtualDom_init(author$project$Picshare004$main)(0)(0)}});}(this));
+var author$project$Picshare005$main = author$project$Picshare005$view(author$project$Picshare005$initialModel);
+_Platform_export({'Picshare005':{'init':_VirtualDom_init(author$project$Picshare005$main)(0)(0)}});}(this));

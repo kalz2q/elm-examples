@@ -1,9 +1,9 @@
-module Picshare004 exposing (main)
+module Picshare005 exposing (main)
 
 -- success in Santa Claus in Picshare002
 -- p.49
 --   <link href="https://programming-elm.com/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
+-- introducing update function
 
 import Html
 import Html.Attributes as HA
@@ -31,6 +31,13 @@ type Msg
     = Unlike
     | Like
 
+update : Msg -> Model -> Model
+update msg model =
+  case msg of
+    Like ->
+      { model | liked = True }
+    Unlike ->
+      { model | liked = False }
 
 viewDetailedPhoto : Model -> Html.Html Msg
 viewDetailedPhoto model =
