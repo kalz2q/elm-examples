@@ -1,13 +1,24 @@
 module Picshare005 exposing (main)
 
--- success in Santa Claus in Picshare002
--- p.49
 --   <link href="https://programming-elm.com/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
--- introducing update function
+-- p.55
+-- introducing browser
 
+import Browser
 import Html
 import Html.Attributes as HA
 import Html.Events as HE
+
+
+
+
+main : Program () Model  Msg
+main =
+  Browser.sandbox
+    { init = initialModel
+    , view = view
+    , update = update
+    }
 
 
 type alias Model =
@@ -22,22 +33,20 @@ initialModel =
     }
 
 
-main : Html.Html Msg
-main =
-    view initialModel
-
-
 type Msg
     = Unlike
     | Like
 
+
 update : Msg -> Model -> Model
 update msg model =
-  case msg of
-    Like ->
-      { model | liked = True }
-    Unlike ->
-      { model | liked = False }
+    case msg of
+        Like ->
+            { model | liked = True }
+
+        Unlike ->
+            { model | liked = False }
+
 
 viewDetailedPhoto : Model -> Html.Html Msg
 viewDetailedPhoto model =
@@ -72,12 +81,12 @@ viewDetailedPhoto model =
             , HA.style "padding-bottom" "10px"
             ]
             [ Html.div [ HA.class "like-button" ]
-                [ Html.i
+                [ Html.span
                     [ HA.class "fa fa-2x"
                     , HA.class buttonClass
                     , HE.onClick msg
                     ]
-                    []
+                    [Html.text "like-button"]
                 ]
             , Html.h2
                 [ HA.class "caption"
@@ -108,5 +117,6 @@ view model =
             , HA.style "width" "400px"
             ]
             [ viewDetailedPhoto model
+            , if model.liked then Html.text "liked" else Html.text "unliked"
             ]
         ]
