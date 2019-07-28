@@ -4311,37 +4311,7 @@ function _Browser_load(url)
 	}));
 }
 var elm$core$Basics$False = {$: 'False'};
-var author$project$Picshare005$initialModel = {caption: 'Santa Clause', liked: false, url: 'https://drive.google.com/uc?id=1NyeKCX2Hh0iioPYQs7JsJ8e_okLC4L5Y'};
-var elm$core$Basics$True = {$: 'True'};
-var author$project$Picshare005$update = F2(
-	function (msg, model) {
-		if (msg.$ === 'Like') {
-			return _Utils_update(
-				model,
-				{liked: true});
-		} else {
-			return _Utils_update(
-				model,
-				{liked: false});
-		}
-	});
-var author$project$Picshare005$Like = {$: 'Like'};
-var author$project$Picshare005$Unlike = {$: 'Unlike'};
-var elm$core$Basics$identity = function (x) {
-	return x;
-};
-var elm$core$Result$isOk = function (result) {
-	if (result.$ === 'Ok') {
-		return true;
-	} else {
-		return false;
-	}
-};
-var elm$core$Array$branchFactor = 32;
-var elm$core$Array$Array_elm_builtin = F4(
-	function (a, b, c, d) {
-		return {$: 'Array_elm_builtin', a: a, b: b, c: c, d: d};
-	});
+var author$project$Picshare007$initialModel = {caption: 'Santa Clause', liked: false, url: 'https://drive.google.com/uc?id=1NyeKCX2Hh0iioPYQs7JsJ8e_okLC4L5Y'};
 var elm$core$Basics$EQ = {$: 'EQ'};
 var elm$core$Basics$GT = {$: 'GT'};
 var elm$core$Basics$LT = {$: 'LT'};
@@ -4422,6 +4392,29 @@ var elm$core$Array$foldr = F3(
 var elm$core$Array$toList = function (array) {
 	return A3(elm$core$Array$foldr, elm$core$List$cons, _List_Nil, array);
 };
+var elm$core$Basics$not = _Basics_not;
+var author$project$Picshare007$update = F2(
+	function (msg, model) {
+		return _Utils_update(
+			model,
+			{liked: !model.liked});
+	});
+var elm$core$Basics$identity = function (x) {
+	return x;
+};
+var elm$core$Basics$True = {$: 'True'};
+var elm$core$Result$isOk = function (result) {
+	if (result.$ === 'Ok') {
+		return true;
+	} else {
+		return false;
+	}
+};
+var elm$core$Array$branchFactor = 32;
+var elm$core$Array$Array_elm_builtin = F4(
+	function (a, b, c, d) {
+		return {$: 'Array_elm_builtin', a: a, b: b, c: c, d: d};
+	});
 var elm$core$Basics$ceiling = _Basics_ceiling;
 var elm$core$Basics$fdiv = _Basics_fdiv;
 var elm$core$Basics$logBase = F2(
@@ -4818,10 +4811,91 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 			return 3;
 	}
 };
+var elm$svg$Svg$trustedNode = _VirtualDom_nodeNS('http://www.w3.org/2000/svg');
+var elm$svg$Svg$path = elm$svg$Svg$trustedNode('path');
+var elm$svg$Svg$svg = elm$svg$Svg$trustedNode('svg');
+var elm$svg$Svg$Attributes$d = _VirtualDom_attribute('d');
+var elm$svg$Svg$Attributes$fill = _VirtualDom_attribute('fill');
+var elm$svg$Svg$Attributes$height = _VirtualDom_attribute('height');
+var elm$svg$Svg$Attributes$viewBox = _VirtualDom_attribute('viewBox');
+var elm$svg$Svg$Attributes$width = _VirtualDom_attribute('width');
+var author$project$Picshare007$pinkheart = A2(
+	elm$svg$Svg$svg,
+	_List_fromArray(
+		[
+			elm$svg$Svg$Attributes$width('28'),
+			elm$svg$Svg$Attributes$height('28'),
+			elm$svg$Svg$Attributes$viewBox('0 0 28 28')
+		]),
+	_List_fromArray(
+		[
+			A2(
+			elm$svg$Svg$path,
+			_List_fromArray(
+				[
+					elm$svg$Svg$Attributes$d('M14 26c-0.25 0-0.5-0.094-0.688-0.281l-9.75-9.406c-0.125-0.109-3.563-3.25-3.563-7 0-4.578 2.797-7.313 7.469-7.313 2.734 0 5.297 2.156 6.531 3.375 1.234-1.219 3.797-3.375 6.531-3.375 4.672 0 7.469 2.734 7.469 7.313 0 3.75-3.437 6.891-3.578 7.031l-9.734 9.375c-0.187 0.187-0.438 0.281-0.688 0.281z'),
+					elm$svg$Svg$Attributes$fill('pink')
+				]),
+			_List_Nil)
+		]));
+var author$project$Picshare007$ToggleLike = {$: 'ToggleLike'};
+var author$project$Picshare007$blackheart = A2(
+	elm$svg$Svg$svg,
+	_List_fromArray(
+		[
+			elm$svg$Svg$Attributes$width('28'),
+			elm$svg$Svg$Attributes$height('28'),
+			elm$svg$Svg$Attributes$viewBox('0 0 28 28')
+		]),
+	_List_fromArray(
+		[
+			A2(
+			elm$svg$Svg$path,
+			_List_fromArray(
+				[
+					elm$svg$Svg$Attributes$d('M14 26c-0.25 0-0.5-0.094-0.688-0.281l-9.75-9.406c-0.125-0.109-3.563-3.25-3.563-7 0-4.578 2.797-7.313 7.469-7.313 2.734 0 5.297 2.156 6.531 3.375 1.234-1.219 3.797-3.375 6.531-3.375 4.672 0 7.469 2.734 7.469 7.313 0 3.75-3.437 6.891-3.578 7.031l-9.734 9.375c-0.187 0.187-0.438 0.281-0.688 0.281z'),
+					elm$svg$Svg$Attributes$fill('black')
+				]),
+			_List_Nil)
+		]));
 var elm$html$Html$div = _VirtualDom_node('div');
+var elm$html$Html$span = _VirtualDom_node('span');
+var elm$virtual_dom$VirtualDom$Normal = function (a) {
+	return {$: 'Normal', a: a};
+};
+var elm$virtual_dom$VirtualDom$on = _VirtualDom_on;
+var elm$html$Html$Events$on = F2(
+	function (event, decoder) {
+		return A2(
+			elm$virtual_dom$VirtualDom$on,
+			event,
+			elm$virtual_dom$VirtualDom$Normal(decoder));
+	});
+var elm$html$Html$Events$onClick = function (msg) {
+	return A2(
+		elm$html$Html$Events$on,
+		'click',
+		elm$json$Json$Decode$succeed(msg));
+};
+var author$project$Picshare007$viewLoveButton = function (model) {
+	var whichheart = model.liked ? author$project$Picshare007$pinkheart : author$project$Picshare007$blackheart;
+	return A2(
+		elm$html$Html$div,
+		_List_Nil,
+		_List_fromArray(
+			[
+				A2(
+				elm$html$Html$span,
+				_List_fromArray(
+					[
+						elm$html$Html$Events$onClick(author$project$Picshare007$ToggleLike)
+					]),
+				_List_fromArray(
+					[whichheart]))
+			]));
+};
 var elm$html$Html$h2 = _VirtualDom_node('h2');
 var elm$html$Html$img = _VirtualDom_node('img');
-var elm$html$Html$span = _VirtualDom_node('span');
 var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
 var elm$json$Json$Encode$string = _Json_wrap;
@@ -4841,26 +4915,7 @@ var elm$html$Html$Attributes$src = function (url) {
 };
 var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
 var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
-var elm$virtual_dom$VirtualDom$Normal = function (a) {
-	return {$: 'Normal', a: a};
-};
-var elm$virtual_dom$VirtualDom$on = _VirtualDom_on;
-var elm$html$Html$Events$on = F2(
-	function (event, decoder) {
-		return A2(
-			elm$virtual_dom$VirtualDom$on,
-			event,
-			elm$virtual_dom$VirtualDom$Normal(decoder));
-	});
-var elm$html$Html$Events$onClick = function (msg) {
-	return A2(
-		elm$html$Html$Events$on,
-		'click',
-		elm$json$Json$Decode$succeed(msg));
-};
-var author$project$Picshare005$viewDetailedPhoto = function (model) {
-	var msg = model.liked ? author$project$Picshare005$Unlike : author$project$Picshare005$Like;
-	var buttonClass = model.liked ? 'fa-heart' : 'fa-heart-o';
+var author$project$Picshare007$viewDetailedPhoto = function (model) {
 	return A2(
 		elm$html$Html$div,
 		_List_fromArray(
@@ -4889,27 +4944,8 @@ var author$project$Picshare005$viewDetailedPhoto = function (model) {
 					]),
 				_List_fromArray(
 					[
-						A2(
-						elm$html$Html$div,
-						_List_fromArray(
-							[
-								elm$html$Html$Attributes$class('like-button')
-							]),
-						_List_fromArray(
-							[
-								A2(
-								elm$html$Html$span,
-								_List_fromArray(
-									[
-										elm$html$Html$Attributes$class('fa fa-2x'),
-										elm$html$Html$Attributes$class(buttonClass),
-										elm$html$Html$Events$onClick(msg)
-									]),
-								_List_fromArray(
-									[
-										elm$html$Html$text('like-button')
-									]))
-							])),
+						author$project$Picshare007$viewLoveButton(model),
+						author$project$Picshare007$pinkheart,
 						A2(
 						elm$html$Html$h2,
 						_List_fromArray(
@@ -4928,7 +4964,7 @@ var author$project$Picshare005$viewDetailedPhoto = function (model) {
 			]));
 };
 var elm$html$Html$h1 = _VirtualDom_node('h1');
-var author$project$Picshare005$view = function (model) {
+var author$project$Picshare007$view = function (model) {
 	return A2(
 		elm$html$Html$div,
 		_List_Nil,
@@ -4964,8 +5000,7 @@ var author$project$Picshare005$view = function (model) {
 					]),
 				_List_fromArray(
 					[
-						author$project$Picshare005$viewDetailedPhoto(model),
-						model.liked ? elm$html$Html$text('liked') : elm$html$Html$text('unliked')
+						author$project$Picshare007$viewDetailedPhoto(model)
 					]))
 			]));
 };
@@ -5286,7 +5321,7 @@ var elm$browser$Browser$sandbox = function (impl) {
 			view: impl.view
 		});
 };
-var author$project$Picshare005$main = elm$browser$Browser$sandbox(
-	{init: author$project$Picshare005$initialModel, update: author$project$Picshare005$update, view: author$project$Picshare005$view});
-_Platform_export({'Picshare005':{'init':author$project$Picshare005$main(
+var author$project$Picshare007$main = elm$browser$Browser$sandbox(
+	{init: author$project$Picshare007$initialModel, update: author$project$Picshare007$update, view: author$project$Picshare007$view});
+_Platform_export({'Picshare007':{'init':author$project$Picshare007$main(
 	elm$json$Json$Decode$succeed(_Utils_Tuple0))(0)}});}(this));

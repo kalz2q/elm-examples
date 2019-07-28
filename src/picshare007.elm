@@ -1,4 +1,4 @@
-module Picshare006 exposing (main)
+module Picshare007 exposing (main)
 
 -- p.61 refactoring
 
@@ -32,37 +32,34 @@ initialModel =
 
 
 type Msg
-    = Unlike
-    | Like
+    = ToggleLike
 
 
 update : Msg -> Model -> Model
 update msg model =
     case msg of
-        Like ->
-            { model | liked = True }
+        ToggleLike ->
+            { model | liked = not model.liked }
 
-        Unlike ->
-            { model | liked = False }
+
+viewLoveButton : Model -> Html.Html Msg
+viewLoveButton model =
+    let
+        whichheart =
+            if model.liked then
+                pinkheart
+
+            else
+                blackheart
+    in
+    Html.div []
+        [ Html.span [ HE.onClick ToggleLike ]
+            [ whichheart ]
+        ]
 
 
 viewDetailedPhoto : Model -> Html.Html Msg
 viewDetailedPhoto model =
-    let
-        buttonClass =
-            if model.liked then
-                "fa-heart"
-
-            else
-                "fa-heart-o"
-
-        msg =
-            if model.liked then
-                Unlike
-
-            else
-                Like
-    in
     Html.div
         [ HA.class "detailed-photo"
         , HA.style "box-shadow" "0 0 10px #555"
@@ -78,19 +75,7 @@ viewDetailedPhoto model =
             [ HA.class "photo-info"
             , HA.style "padding-bottom" "10px"
             ]
-            [ Html.div [ HA.class "like-button" ]
-                [ Html.span
-                    [ HA.class "fa fa-2x"
-                    , HA.class buttonClass
-                    , HE.onClick msg
-                    ]
-                    [ if model.liked then
-                        pinkheart
-
-                      else
-                        blackheart
-                    ]
-                ]
+            [ viewLoveButton model
             , Html.h2
                 [ HA.class "caption"
                 , HA.style "font-size" "30px"
