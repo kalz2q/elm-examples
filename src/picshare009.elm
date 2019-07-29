@@ -1,6 +1,6 @@
-module Picshare008 exposing (main)
+module Picshare009 exposing (main)
 
--- p.64 add comments
+-- p.73 json decode and http api
 
 import Browser
 import Html
