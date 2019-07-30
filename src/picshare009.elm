@@ -19,8 +19,13 @@ main =
         }
 
 
+type alias Id =
+    Int
+
+
 type alias Model =
-    { url : String
+    { id : Id
+    , url : String
     , caption : String
     , liked : Bool
     , comments : List String
@@ -30,7 +35,8 @@ type alias Model =
 
 initialModel : Model
 initialModel =
-    { url = "https://drive.google.com/uc?id=1NyeKCX2Hh0iioPYQs7JsJ8e_okLC4L5Y"
+    { id = 1
+    , url = "https://drive.google.com/uc?id=1NyeKCX2Hh0iioPYQs7JsJ8e_okLC4L5Y"
     , caption = "Santa Clause"
     , liked = False
     , comments = [ "Cowabunga, dude!" ]
@@ -49,10 +55,10 @@ update msg model =
     case msg of
         ToggleLike ->
             { model | liked = not model.liked }
-        
+
         Input input ->
-            { model | newComment = input}
-        
+            { model | newComment = input }
+
         Submit ->
             { model
                 | newComment = ""
@@ -101,7 +107,7 @@ viewComments : Model -> Html.Html Msg
 viewComments model =
     Html.div []
         [ viewCommentList model.comments
-        , Html.form [HE.onSubmit Submit]
+        , Html.form [ HE.onSubmit Submit ]
             [ Html.input
                 [ HA.type_ "text"
                 , HA.placeholder "Add a comment..."
@@ -109,9 +115,10 @@ viewComments model =
                 , HE.onInput Input
                 ]
                 []
-            , Html.button [ HA.disabled (String.isEmpty (String.trim model.newComment))
-
-            ] [ Html.text "Save" ]
+            , Html.button
+                [ HA.disabled (String.isEmpty (String.trim model.newComment))
+                ]
+                [ Html.text "Save" ]
             ]
         ]
 
