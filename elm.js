@@ -4391,22 +4391,45 @@ var elm$core$Set$toList = function (_n0) {
 	var dict = _n0.a;
 	return elm$core$Dict$keys(dict);
 };
-var author$project$Picshare008$initialModel = {
+var author$project$Picshare009$initialModel = {
 	caption: 'Santa Clause',
 	comments: _List_fromArray(
 		['Cowabunga, dude!']),
+	id: 1,
 	liked: false,
 	newComment: '',
 	url: 'https://drive.google.com/uc?id=1NyeKCX2Hh0iioPYQs7JsJ8e_okLC4L5Y'
 };
-var elm$core$Basics$not = _Basics_not;
-var author$project$Picshare008$update = F2(
-	function (msg, model) {
-		return _Utils_update(
-			model,
-			{liked: !model.liked});
-	});
 var elm$core$Basics$append = _Utils_append;
+var elm$core$Basics$not = _Basics_not;
+var author$project$Picshare009$update = F2(
+	function (msg, model) {
+		switch (msg.$) {
+			case 'ToggleLike':
+				return _Utils_update(
+					model,
+					{liked: !model.liked});
+			case 'Input':
+				var input = msg.a;
+				return _Utils_update(
+					model,
+					{newComment: input});
+			default:
+				return _Utils_update(
+					model,
+					{
+						comments: _Utils_ap(
+							model.comments,
+							_List_fromArray(
+								[model.newComment])),
+						newComment: ''
+					});
+		}
+	});
+var author$project$Picshare009$Input = function (a) {
+	return {$: 'Input', a: a};
+};
+var author$project$Picshare009$Submit = {$: 'Submit'};
 var elm$core$Basics$identity = function (x) {
 	return x;
 };
@@ -4822,7 +4845,7 @@ var elm$html$Html$li = _VirtualDom_node('li');
 var elm$html$Html$strong = _VirtualDom_node('strong');
 var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
-var author$project$Picshare008$viewComment = function (comment) {
+var author$project$Picshare009$viewComment = function (comment) {
 	return A2(
 		elm$html$Html$li,
 		_List_Nil,
@@ -4909,7 +4932,7 @@ var elm$core$List$map = F2(
 	});
 var elm$html$Html$div = _VirtualDom_node('div');
 var elm$html$Html$ul = _VirtualDom_node('ul');
-var author$project$Picshare008$viewCommentList = function (comments) {
+var author$project$Picshare009$viewCommentList = function (comments) {
 	if (!comments.b) {
 		return elm$html$Html$text('');
 	} else {
@@ -4921,13 +4944,26 @@ var author$project$Picshare008$viewCommentList = function (comments) {
 					A2(
 					elm$html$Html$ul,
 					_List_Nil,
-					A2(elm$core$List$map, author$project$Picshare008$viewComment, comments))
+					A2(elm$core$List$map, author$project$Picshare009$viewComment, comments))
 				]));
 	}
 };
+var elm$core$String$isEmpty = function (string) {
+	return string === '';
+};
+var elm$core$String$trim = _String_trim;
 var elm$html$Html$button = _VirtualDom_node('button');
 var elm$html$Html$form = _VirtualDom_node('form');
 var elm$html$Html$input = _VirtualDom_node('input');
+var elm$json$Json$Encode$bool = _Json_wrap;
+var elm$html$Html$Attributes$boolProperty = F2(
+	function (key, bool) {
+		return A2(
+			_VirtualDom_property,
+			key,
+			elm$json$Json$Encode$bool(bool));
+	});
+var elm$html$Html$Attributes$disabled = elm$html$Html$Attributes$boolProperty('disabled');
 var elm$json$Json$Encode$string = _Json_wrap;
 var elm$html$Html$Attributes$stringProperty = F2(
 	function (key, string) {
@@ -4938,16 +4974,76 @@ var elm$html$Html$Attributes$stringProperty = F2(
 	});
 var elm$html$Html$Attributes$placeholder = elm$html$Html$Attributes$stringProperty('placeholder');
 var elm$html$Html$Attributes$type_ = elm$html$Html$Attributes$stringProperty('type');
-var author$project$Picshare008$viewComments = function (model) {
+var elm$html$Html$Attributes$value = elm$html$Html$Attributes$stringProperty('value');
+var elm$html$Html$Events$alwaysStop = function (x) {
+	return _Utils_Tuple2(x, true);
+};
+var elm$virtual_dom$VirtualDom$MayStopPropagation = function (a) {
+	return {$: 'MayStopPropagation', a: a};
+};
+var elm$virtual_dom$VirtualDom$on = _VirtualDom_on;
+var elm$html$Html$Events$stopPropagationOn = F2(
+	function (event, decoder) {
+		return A2(
+			elm$virtual_dom$VirtualDom$on,
+			event,
+			elm$virtual_dom$VirtualDom$MayStopPropagation(decoder));
+	});
+var elm$json$Json$Decode$field = _Json_decodeField;
+var elm$json$Json$Decode$at = F2(
+	function (fields, decoder) {
+		return A3(elm$core$List$foldr, elm$json$Json$Decode$field, decoder, fields);
+	});
+var elm$json$Json$Decode$string = _Json_decodeString;
+var elm$html$Html$Events$targetValue = A2(
+	elm$json$Json$Decode$at,
+	_List_fromArray(
+		['target', 'value']),
+	elm$json$Json$Decode$string);
+var elm$html$Html$Events$onInput = function (tagger) {
+	return A2(
+		elm$html$Html$Events$stopPropagationOn,
+		'input',
+		A2(
+			elm$json$Json$Decode$map,
+			elm$html$Html$Events$alwaysStop,
+			A2(elm$json$Json$Decode$map, tagger, elm$html$Html$Events$targetValue)));
+};
+var elm$html$Html$Events$alwaysPreventDefault = function (msg) {
+	return _Utils_Tuple2(msg, true);
+};
+var elm$virtual_dom$VirtualDom$MayPreventDefault = function (a) {
+	return {$: 'MayPreventDefault', a: a};
+};
+var elm$html$Html$Events$preventDefaultOn = F2(
+	function (event, decoder) {
+		return A2(
+			elm$virtual_dom$VirtualDom$on,
+			event,
+			elm$virtual_dom$VirtualDom$MayPreventDefault(decoder));
+	});
+var elm$html$Html$Events$onSubmit = function (msg) {
+	return A2(
+		elm$html$Html$Events$preventDefaultOn,
+		'submit',
+		A2(
+			elm$json$Json$Decode$map,
+			elm$html$Html$Events$alwaysPreventDefault,
+			elm$json$Json$Decode$succeed(msg)));
+};
+var author$project$Picshare009$viewComments = function (model) {
 	return A2(
 		elm$html$Html$div,
 		_List_Nil,
 		_List_fromArray(
 			[
-				author$project$Picshare008$viewCommentList(model.comments),
+				author$project$Picshare009$viewCommentList(model.comments),
 				A2(
 				elm$html$Html$form,
-				_List_Nil,
+				_List_fromArray(
+					[
+						elm$html$Html$Events$onSubmit(author$project$Picshare009$Submit)
+					]),
 				_List_fromArray(
 					[
 						A2(
@@ -4955,12 +5051,19 @@ var author$project$Picshare008$viewComments = function (model) {
 						_List_fromArray(
 							[
 								elm$html$Html$Attributes$type_('text'),
-								elm$html$Html$Attributes$placeholder('Add a comment...')
+								elm$html$Html$Attributes$placeholder('Add a comment...'),
+								elm$html$Html$Attributes$value(model.newComment),
+								elm$html$Html$Events$onInput(author$project$Picshare009$Input)
 							]),
 						_List_Nil),
 						A2(
 						elm$html$Html$button,
-						_List_Nil,
+						_List_fromArray(
+							[
+								elm$html$Html$Attributes$disabled(
+								elm$core$String$isEmpty(
+									elm$core$String$trim(model.newComment)))
+							]),
 						_List_fromArray(
 							[
 								elm$html$Html$text('Save')
@@ -4968,7 +5071,7 @@ var author$project$Picshare008$viewComments = function (model) {
 					]))
 			]));
 };
-var author$project$Picshare008$ToggleLike = {$: 'ToggleLike'};
+var author$project$Picshare009$ToggleLike = {$: 'ToggleLike'};
 var elm$svg$Svg$trustedNode = _VirtualDom_nodeNS('http://www.w3.org/2000/svg');
 var elm$svg$Svg$path = elm$svg$Svg$trustedNode('path');
 var elm$svg$Svg$svg = elm$svg$Svg$trustedNode('svg');
@@ -4977,7 +5080,7 @@ var elm$svg$Svg$Attributes$fill = _VirtualDom_attribute('fill');
 var elm$svg$Svg$Attributes$height = _VirtualDom_attribute('height');
 var elm$svg$Svg$Attributes$viewBox = _VirtualDom_attribute('viewBox');
 var elm$svg$Svg$Attributes$width = _VirtualDom_attribute('width');
-var author$project$Picshare008$blackheart = A2(
+var author$project$Picshare009$blackheart = A2(
 	elm$svg$Svg$svg,
 	_List_fromArray(
 		[
@@ -4996,7 +5099,7 @@ var author$project$Picshare008$blackheart = A2(
 				]),
 			_List_Nil)
 		]));
-var author$project$Picshare008$pinkheart = A2(
+var author$project$Picshare009$pinkheart = A2(
 	elm$svg$Svg$svg,
 	_List_fromArray(
 		[
@@ -5019,7 +5122,6 @@ var elm$html$Html$span = _VirtualDom_node('span');
 var elm$virtual_dom$VirtualDom$Normal = function (a) {
 	return {$: 'Normal', a: a};
 };
-var elm$virtual_dom$VirtualDom$on = _VirtualDom_on;
 var elm$html$Html$Events$on = F2(
 	function (event, decoder) {
 		return A2(
@@ -5033,8 +5135,8 @@ var elm$html$Html$Events$onClick = function (msg) {
 		'click',
 		elm$json$Json$Decode$succeed(msg));
 };
-var author$project$Picshare008$viewLoveButton = function (model) {
-	var whichheart = model.liked ? author$project$Picshare008$pinkheart : author$project$Picshare008$blackheart;
+var author$project$Picshare009$viewLoveButton = function (model) {
+	var whichheart = model.liked ? author$project$Picshare009$pinkheart : author$project$Picshare009$blackheart;
 	return A2(
 		elm$html$Html$div,
 		_List_Nil,
@@ -5044,7 +5146,7 @@ var author$project$Picshare008$viewLoveButton = function (model) {
 				elm$html$Html$span,
 				_List_fromArray(
 					[
-						elm$html$Html$Events$onClick(author$project$Picshare008$ToggleLike)
+						elm$html$Html$Events$onClick(author$project$Picshare009$ToggleLike)
 					]),
 				_List_fromArray(
 					[whichheart]))
@@ -5061,7 +5163,7 @@ var elm$html$Html$Attributes$src = function (url) {
 };
 var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
 var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
-var author$project$Picshare008$viewDetailedPhoto = function (model) {
+var author$project$Picshare009$viewDetailedPhoto = function (model) {
 	return A2(
 		elm$html$Html$div,
 		_List_fromArray(
@@ -5090,7 +5192,7 @@ var author$project$Picshare008$viewDetailedPhoto = function (model) {
 					]),
 				_List_fromArray(
 					[
-						author$project$Picshare008$viewLoveButton(model),
+						author$project$Picshare009$viewLoveButton(model),
 						A2(
 						elm$html$Html$h2,
 						_List_fromArray(
@@ -5105,12 +5207,12 @@ var author$project$Picshare008$viewDetailedPhoto = function (model) {
 							[
 								elm$html$Html$text(model.caption)
 							])),
-						author$project$Picshare008$viewComments(model)
+						author$project$Picshare009$viewComments(model)
 					]))
 			]));
 };
 var elm$html$Html$h1 = _VirtualDom_node('h1');
-var author$project$Picshare008$view = function (model) {
+var author$project$Picshare009$view = function (model) {
 	return A2(
 		elm$html$Html$div,
 		_List_Nil,
@@ -5146,7 +5248,7 @@ var author$project$Picshare008$view = function (model) {
 					]),
 				_List_fromArray(
 					[
-						author$project$Picshare008$viewDetailedPhoto(model)
+						author$project$Picshare009$viewDetailedPhoto(model)
 					]))
 			]));
 };
@@ -5265,9 +5367,6 @@ var elm$core$String$startsWith = _String_startsWith;
 var elm$url$Url$Http = {$: 'Http'};
 var elm$url$Url$Https = {$: 'Https'};
 var elm$core$String$indexes = _String_indexes;
-var elm$core$String$isEmpty = function (string) {
-	return string === '';
-};
 var elm$core$String$left = F2(
 	function (n, string) {
 		return (n < 1) ? '' : A3(elm$core$String$slice, 0, n, string);
@@ -5398,7 +5497,7 @@ var elm$browser$Browser$sandbox = function (impl) {
 			view: impl.view
 		});
 };
-var author$project$Picshare008$main = elm$browser$Browser$sandbox(
-	{init: author$project$Picshare008$initialModel, update: author$project$Picshare008$update, view: author$project$Picshare008$view});
-_Platform_export({'Picshare008':{'init':author$project$Picshare008$main(
+var author$project$Picshare009$main = elm$browser$Browser$sandbox(
+	{init: author$project$Picshare009$initialModel, update: author$project$Picshare009$update, view: author$project$Picshare009$view});
+_Platform_export({'Picshare009':{'init':author$project$Picshare009$main(
 	elm$json$Json$Decode$succeed(_Utils_Tuple0))(0)}});}(this));
