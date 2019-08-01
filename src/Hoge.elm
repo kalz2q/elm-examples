@@ -1,12 +1,10 @@
-module Picshare009 exposing (main)
+module Hoge exposing (..)
 
--- p.73 json decode and http api
 
 import Browser
 import Html
 import Html.Attributes as HA
 import Html.Events as HE
-import Http
 import Json.Decode as Json
 import Json.Decode.Pipeline as JP
 import Svg
@@ -57,12 +55,6 @@ initialModel =
     , newComment = ""
     }
 
-fetchFeed : Cmd Msg
-fetchFeed =
-  Http.get 
-    { url = "https://programming-elm.com/feed/1"
-    , expect = Http.expectJson LoadFeed photoDecoder
-    }
 
 type Msg
     = ToggleLike
