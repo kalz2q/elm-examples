@@ -4980,7 +4980,7 @@ var NoRedInk$elm_json_decode_pipeline$Json$Decode$Pipeline$required = F3(
 			A2(elm$json$Json$Decode$field, key, valDecoder),
 			decoder);
 	});
-var author$project$Picshare010$Model = F6(
+var author$project$Picshare010$Photo = F6(
 	function (id, url, caption, liked, comments, newComment) {
 		return {caption: caption, comments: comments, id: id, liked: liked, newComment: newComment, url: url};
 	});
@@ -5011,7 +5011,7 @@ var author$project$Picshare010$photoDecoder = A2(
 						NoRedInk$elm_json_decode_pipeline$Json$Decode$Pipeline$required,
 						'id',
 						elm$json$Json$Decode$int,
-						elm$json$Json$Decode$succeed(author$project$Picshare010$Model)))))));
+						elm$json$Json$Decode$succeed(author$project$Picshare010$Photo)))))));
 var elm$core$Result$mapError = F2(
 	function (f, result) {
 		if (result.$ === 'Ok') {
@@ -5893,15 +5893,7 @@ var author$project$Picshare010$fetchFeed = elm$http$Http$get(
 		expect: A2(elm$http$Http$expectJson, author$project$Picshare010$LoadFeed, author$project$Picshare010$photoDecoder),
 		url: 'https://programming-elm.com/feed/1'
 	});
-var author$project$Picshare010$initialModel = {
-	caption: 'Santa Clause',
-	comments: _List_fromArray(
-		['Cowabunga, dude!']),
-	id: 1,
-	liked: false,
-	newComment: '',
-	url: 'Https://programming-elm.com/feed/1'
-};
+var author$project$Picshare010$initialModel = {photo: elm$core$Maybe$Nothing};
 var author$project$Picshare010$init = function (_n0) {
 	return _Utils_Tuple2(author$project$Picshare010$initialModel, author$project$Picshare010$fetchFeed);
 };
@@ -5910,7 +5902,49 @@ var elm$core$Platform$Sub$none = elm$core$Platform$Sub$batch(_List_Nil);
 var author$project$Picshare010$subscriptions = function (model) {
 	return elm$core$Platform$Sub$none;
 };
+var elm$core$String$trim = _String_trim;
+var author$project$Picshare010$saveNewComment = function (photo) {
+	var comment = elm$core$String$trim(photo.newComment);
+	if (comment === '') {
+		return photo;
+	} else {
+		return _Utils_update(
+			photo,
+			{
+				comments: _Utils_ap(
+					photo.comments,
+					_List_fromArray(
+						[comment])),
+				newComment: ''
+			});
+	}
+};
 var elm$core$Basics$not = _Basics_not;
+var author$project$Picshare010$toggleLike = function (photo) {
+	return _Utils_update(
+		photo,
+		{liked: !photo.liked});
+};
+var author$project$Picshare010$updateComment = F2(
+	function (comment, photo) {
+		return _Utils_update(
+			photo,
+			{newComment: comment});
+	});
+var elm$core$Maybe$map = F2(
+	function (f, maybe) {
+		if (maybe.$ === 'Just') {
+			var value = maybe.a;
+			return elm$core$Maybe$Just(
+				f(value));
+		} else {
+			return elm$core$Maybe$Nothing;
+		}
+	});
+var author$project$Picshare010$updateFeed = F2(
+	function (updatePhoto, maybePhoto) {
+		return A2(elm$core$Maybe$map, updatePhoto, maybePhoto);
+	});
 var elm$core$Platform$Cmd$batch = _Platform_batch;
 var elm$core$Platform$Cmd$none = elm$core$Platform$Cmd$batch(_List_Nil);
 var author$project$Picshare010$update = F2(
@@ -5920,29 +5954,43 @@ var author$project$Picshare010$update = F2(
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{liked: !model.liked}),
+						{
+							photo: A2(author$project$Picshare010$updateFeed, author$project$Picshare010$toggleLike, model.photo)
+						}),
 					elm$core$Platform$Cmd$none);
 			case 'Input':
 				var input = msg.a;
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{newComment: input}),
+						{
+							photo: A2(
+								author$project$Picshare010$updateFeed,
+								author$project$Picshare010$updateComment(input),
+								model.photo)
+						}),
 					elm$core$Platform$Cmd$none);
 			case 'Submit':
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
 						{
-							comments: _Utils_ap(
-								model.comments,
-								_List_fromArray(
-									[model.newComment])),
-							newComment: ''
+							photo: A2(author$project$Picshare010$updateFeed, author$project$Picshare010$saveNewComment, model.photo)
 						}),
 					elm$core$Platform$Cmd$none);
 			default:
-				return _Utils_Tuple2(model, elm$core$Platform$Cmd$none);
+				if (msg.a.$ === 'Ok') {
+					var photo = msg.a.a;
+					return _Utils_Tuple2(
+						_Utils_update(
+							model,
+							{
+								photo: elm$core$Maybe$Just(photo)
+							}),
+						elm$core$Platform$Cmd$none);
+				} else {
+					return _Utils_Tuple2(model, elm$core$Platform$Cmd$none);
+				}
 		}
 	});
 var author$project$Picshare010$Input = function (a) {
@@ -6017,7 +6065,6 @@ var author$project$Picshare010$viewCommentList = function (comments) {
 var elm$core$String$isEmpty = function (string) {
 	return string === '';
 };
-var elm$core$String$trim = _String_trim;
 var elm$html$Html$button = _VirtualDom_node('button');
 var elm$html$Html$form = _VirtualDom_node('form');
 var elm$html$Html$input = _VirtualDom_node('input');
@@ -6095,13 +6142,13 @@ var elm$html$Html$Events$onSubmit = function (msg) {
 			elm$html$Html$Events$alwaysPreventDefault,
 			elm$json$Json$Decode$succeed(msg)));
 };
-var author$project$Picshare010$viewComments = function (model) {
+var author$project$Picshare010$viewComments = function (photo) {
 	return A2(
 		elm$html$Html$div,
 		_List_Nil,
 		_List_fromArray(
 			[
-				author$project$Picshare010$viewCommentList(model.comments),
+				author$project$Picshare010$viewCommentList(photo.comments),
 				A2(
 				elm$html$Html$form,
 				_List_fromArray(
@@ -6116,7 +6163,7 @@ var author$project$Picshare010$viewComments = function (model) {
 							[
 								elm$html$Html$Attributes$type_('text'),
 								elm$html$Html$Attributes$placeholder('Add a comment...'),
-								elm$html$Html$Attributes$value(model.newComment),
+								elm$html$Html$Attributes$value(photo.newComment),
 								elm$html$Html$Events$onInput(author$project$Picshare010$Input)
 							]),
 						_List_Nil),
@@ -6126,7 +6173,7 @@ var author$project$Picshare010$viewComments = function (model) {
 							[
 								elm$html$Html$Attributes$disabled(
 								elm$core$String$isEmpty(
-									elm$core$String$trim(model.newComment)))
+									elm$core$String$trim(photo.newComment)))
 							]),
 						_List_fromArray(
 							[
@@ -6201,8 +6248,8 @@ var elm$html$Html$Events$onClick = function (msg) {
 		'click',
 		elm$json$Json$Decode$succeed(msg));
 };
-var author$project$Picshare010$viewLoveButton = function (model) {
-	var whichheart = model.liked ? author$project$Picshare010$pinkheart : author$project$Picshare010$blackheart;
+var author$project$Picshare010$viewLoveButton = function (photo) {
+	var whichheart = photo.liked ? author$project$Picshare010$pinkheart : author$project$Picshare010$blackheart;
 	return A2(
 		elm$html$Html$div,
 		_List_fromArray(
@@ -6247,7 +6294,7 @@ var elm$html$Html$Attributes$src = function (url) {
 };
 var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
 var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
-var author$project$Picshare010$viewDetailedPhoto = function (model) {
+var author$project$Picshare010$viewDetailedPhoto = function (photo) {
 	return A2(
 		elm$html$Html$div,
 		_List_fromArray(
@@ -6262,7 +6309,7 @@ var author$project$Picshare010$viewDetailedPhoto = function (model) {
 				elm$html$Html$img,
 				_List_fromArray(
 					[
-						elm$html$Html$Attributes$src(model.url),
+						elm$html$Html$Attributes$src(photo.url),
 						A2(elm$html$Html$Attributes$style, 'width', '400px'),
 						A2(elm$html$Html$Attributes$style, 'margin-top', '10px')
 					]),
@@ -6276,7 +6323,7 @@ var author$project$Picshare010$viewDetailedPhoto = function (model) {
 					]),
 				_List_fromArray(
 					[
-						author$project$Picshare010$viewLoveButton(model),
+						author$project$Picshare010$viewLoveButton(photo),
 						A2(
 						elm$html$Html$h2,
 						_List_fromArray(
@@ -6289,11 +6336,28 @@ var author$project$Picshare010$viewDetailedPhoto = function (model) {
 							]),
 						_List_fromArray(
 							[
-								elm$html$Html$text(model.caption)
+								elm$html$Html$text(photo.caption)
 							])),
-						author$project$Picshare010$viewComments(model)
+						author$project$Picshare010$viewComments(photo)
 					]))
 			]));
+};
+var author$project$Picshare010$viewFeed = function (maybePhoto) {
+	if (maybePhoto.$ === 'Just') {
+		var photo = maybePhoto.a;
+		return author$project$Picshare010$viewDetailedPhoto(photo);
+	} else {
+		return A2(
+			elm$html$Html$div,
+			_List_fromArray(
+				[
+					elm$html$Html$Attributes$class('loading-feed')
+				]),
+			_List_fromArray(
+				[
+					elm$html$Html$text('Loading Feed...')
+				]));
+	}
 };
 var elm$html$Html$h1 = _VirtualDom_node('h1');
 var author$project$Picshare010$view = function (model) {
@@ -6332,7 +6396,7 @@ var author$project$Picshare010$view = function (model) {
 					]),
 				_List_fromArray(
 					[
-						author$project$Picshare010$viewDetailedPhoto(model)
+						author$project$Picshare010$viewFeed(model.photo)
 					]))
 			]));
 };

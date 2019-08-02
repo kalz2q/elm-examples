@@ -44,30 +44,15 @@ type alias Model =
     }
 
 
-photoDecoder : Json.Decoder Model
+photoDecoder : Json.Decoder Photo
 photoDecoder =
-    Json.succeed Model
+    Json.succeed Photo
         |> JP.required "id" Json.int
         |> JP.required "url" Json.string
         |> JP.required "caption" Json.string
         |> JP.required "liked" Json.bool
         |> JP.required "comments" (Json.list Json.string)
         |> JP.hardcoded ""
-
-
-
--- initialModel : Model
--- initialModel =
---     { photo =
---         Just
---             { id = 1
---             , url = "Https://programming-elm.com/feed/1.jpg"
---             , caption = "Santa Clause"
---             , liked = False
---             , comments = [ "Cowabunga, dude!" ]
---             , newComment = ""
---             }
---     }
 
 
 initialModel : Model
@@ -92,31 +77,72 @@ type Msg
     = ToggleLike
     | Input String
     | Submit
-    | LoadFeed (Result Http.Error Model)
+    | LoadFeed (Result Http.Error Photo)
+
+saveNewComment : Photo -> Photo
+saveNewComment photo =
+    let
+        comment =
+            String.trim photo.newComment
+    in
+    case comment of
+        "" ->
+            photo
+
+        _ ->
+            { photo
+                | comments = photo.comments ++ [ comment ]
+                , newComment = ""
+            }
+
+
+
+
+toggleLike : Photo -> Photo
+toggleLike photo =
+    { photo | liked = not photo.liked }
+
+
+updateComment : String -> Photo -> Photo
+updateComment comment photo =
+    { photo | newComment = comment }
+
+
+updateFeed : (Photo -> Photo) -> Maybe Photo -> Maybe Photo
+updateFeed updatePhoto maybePhoto =
+    Maybe.map updatePhoto maybePhoto
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
         ToggleLike ->
-            ( { model | liked = not model.liked }
+            ( { model
+                | photo = updateFeed toggleLike model.photo
+              }
             , Cmd.none
             )
 
         Input input ->
-            ( { model | newComment = input }
+            ( { model
+                | photo = updateFeed (updateComment input) model.photo
+              }
             , Cmd.none
             )
 
         Submit ->
             ( { model
-                | newComment = ""
-                , comments = model.comments ++ [ model.newComment ]
+                | photo = updateFeed saveNewComment model.photo
               }
             , Cmd.none
             )
 
-        LoadFeed _ ->
+        LoadFeed (Ok photo) ->
+            ( { model | photo = Just photo }
+            , Cmd.none
+            )
+
+        LoadFeed (Err _) ->
             ( model, Cmd.none )
 
 
@@ -216,7 +242,7 @@ viewDetailedPhoto photo =
         ]
 
 
-viewFeed : Maybe Model -> Html.Html Msg
+viewFeed : Maybe Photo -> Html.Html Msg
 viewFeed maybePhoto =
     case maybePhoto of
         Just photo ->
