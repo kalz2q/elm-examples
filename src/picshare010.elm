@@ -1,6 +1,7 @@
-module Picshare009 exposing (main)
+module Picshare010 exposing (main)
 
--- p.73 json decode and http api
+-- p.90 json decode and http api
+-- communicate04
 
 import Browser
 import Html
@@ -13,6 +14,10 @@ import Svg
 import Svg.Attributes as SA
 
 
+type alias Id =
+    Int
+
+
 main : Program () Model Msg
 main =
     Browser.element
@@ -23,17 +28,19 @@ main =
         }
 
 
-type alias Id =
-    Int
-
-
-type alias Model =
+type alias Photo =
     { id : Id
     , url : String
     , caption : String
     , liked : Bool
     , comments : List String
     , newComment : String
+    }
+
+
+type alias Model =
+    { photo :
+        Maybe Photo
     }
 
 
@@ -48,15 +55,24 @@ photoDecoder =
         |> JP.hardcoded ""
 
 
+
+-- initialModel : Model
+-- initialModel =
+--     { photo =
+--         Just
+--             { id = 1
+--             , url = "Https://programming-elm.com/feed/1.jpg"
+--             , caption = "Santa Clause"
+--             , liked = False
+--             , comments = [ "Cowabunga, dude!" ]
+--             , newComment = ""
+--             }
+--     }
+
+
 initialModel : Model
 initialModel =
-    { id = 1
-    , url = "https://drive.google.com/uc?id=1NyeKCX2Hh0iioPYQs7JsJ8e_okLC4L5Y"
-    , caption = "Santa Clause"
-    , liked = False
-    , comments = [ "Cowabunga, dude!" ]
-    , newComment = ""
-    }
+    { photo = Nothing }
 
 
 init : () -> ( Model, Cmd Msg )
@@ -109,20 +125,20 @@ subscriptions model =
     Sub.none
 
 
-viewLoveButton : Model -> Html.Html Msg
-viewLoveButton model =
+viewLoveButton : Photo -> Html.Html Msg
+viewLoveButton photo =
     let
         whichheart =
-            if model.liked then
+            if photo.liked then
                 pinkheart
 
             else
                 blackheart
     in
-    Html.div [HA.align "center"]
+    Html.div [ HA.align "center" ]
         [ Html.span [ HE.onClick ToggleLike ]
             [ whichheart ]
-        , Html.p [][  Html.text "click the heart icon to toggle its color between pink and black"]
+        , Html.p [] [ Html.text "click the heart icon to toggle its color between pink and black" ]
         , Html.span [ HE.onClick ToggleLike ]
             [ whichheart ]
         ]
@@ -149,35 +165,35 @@ viewCommentList comments =
                 ]
 
 
-viewComments : Model -> Html.Html Msg
-viewComments model =
+viewComments : Photo -> Html.Html Msg
+viewComments photo =
     Html.div []
-        [ viewCommentList model.comments
+        [ viewCommentList photo.comments
         , Html.form [ HE.onSubmit Submit ]
             [ Html.input
                 [ HA.type_ "text"
                 , HA.placeholder "Add a comment..."
-                , HA.value model.newComment
+                , HA.value photo.newComment
                 , HE.onInput Input
                 ]
                 []
             , Html.button
-                [ HA.disabled (String.isEmpty (String.trim model.newComment))
+                [ HA.disabled (String.isEmpty (String.trim photo.newComment))
                 ]
                 [ Html.text "Save" ]
             ]
         ]
 
 
-viewDetailedPhoto : Model -> Html.Html Msg
-viewDetailedPhoto model =
+viewDetailedPhoto : Photo -> Html.Html Msg
+viewDetailedPhoto photo =
     Html.div
         [ HA.class "detailed-photo"
         , HA.style "box-shadow" "0 0 10px #555"
         , HA.style "background" "yellow"
         ]
         [ Html.img
-            [ HA.src model.url
+            [ HA.src photo.url
             , HA.style "width" "400px"
             , HA.style "margin-top" "10px"
             ]
@@ -186,7 +202,7 @@ viewDetailedPhoto model =
             [ HA.class "photo-info"
             , HA.style "padding-bottom" "10px"
             ]
-            [ viewLoveButton model
+            [ viewLoveButton photo
             , Html.h2
                 [ HA.class "caption"
                 , HA.style "font-size" "30px"
@@ -194,10 +210,21 @@ viewDetailedPhoto model =
                 , HA.style "font-style" "italic"
                 , HA.style "margin" "0 0 10px 0"
                 ]
-                [ Html.text model.caption ]
-            , viewComments model
+                [ Html.text photo.caption ]
+            , viewComments photo
             ]
         ]
+
+
+viewFeed : Maybe Model -> Html.Html Msg
+viewFeed maybePhoto =
+    case maybePhoto of
+        Just photo ->
+            viewDetailedPhoto photo
+
+        Nothing ->
+            Html.div [ HA.class "loading-feed" ]
+                [ Html.text "Loading Feed..." ]
 
 
 view : Model -> Html.Html Msg
@@ -216,7 +243,7 @@ view model =
             , HA.style "margin" "auto"
             , HA.style "width" "400px"
             ]
-            [ viewDetailedPhoto model
+            [ viewFeed model.photo
             ]
         ]
 
