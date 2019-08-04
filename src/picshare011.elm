@@ -28,6 +28,10 @@ main =
         }
 
 
+type alias Feed =
+    List Photo
+
+
 type alias Photo =
     { id : Id
     , url : String
@@ -39,8 +43,8 @@ type alias Photo =
 
 
 type alias Model =
-    { photo :
-        Maybe Photo
+    { feed :
+        Maybe Feed
     }
 
 
@@ -57,7 +61,7 @@ photoDecoder =
 
 initialModel : Model
 initialModel =
-    { photo = Nothing }
+    { feed = Nothing }
 
 
 init : () -> ( Model, Cmd Msg )
@@ -68,16 +72,16 @@ init _ =
 fetchFeed : Cmd Msg
 fetchFeed =
     Http.get
-        { url = "https://programming-elm.com/feed/1"
-        , expect = Http.expectJson LoadFeed photoDecoder
-        }
+        { url = "https://programming-elm.com/feed"
+        , expect = Http.expectJson LoadFeed (Json.list photoDecoder)        }
 
 
 type Msg
     = ToggleLike
     | Input String
     | Submit
-    | LoadFeed (Result Http.Error Photo)
+    | LoadFeed (Result Http.Error Feed)
+
 
 saveNewComment : Photo -> Photo
 saveNewComment photo =
@@ -94,8 +98,6 @@ saveNewComment photo =
                 | comments = photo.comments ++ [ comment ]
                 , newComment = ""
             }
-
-
 
 
 toggleLike : Photo -> Photo
@@ -116,6 +118,7 @@ updateFeed updatePhoto maybePhoto =
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
+    {-}
         ToggleLike ->
             ( { model
                 | photo = updateFeed toggleLike model.photo
@@ -136,14 +139,17 @@ update msg model =
               }
             , Cmd.none
             )
-
-        LoadFeed (Ok photo) ->
-            ( { model | photo = Just photo }
+ -}
+        LoadFeed (Ok feed) ->
+            ( { model | feed = Just feed }
             , Cmd.none
             )
 
         LoadFeed (Err _) ->
             ( model, Cmd.none )
+
+        _ -> 
+             (model, Cmd.none )
 
 
 subscriptions : Model -> Sub Msg
@@ -162,10 +168,14 @@ viewLoveButton photo =
                 blackheart
     in
     Html.div [ HA.align "center" ]
-        [ Html.span [ HE.onClick ToggleLike ]
+        [ Html.span [ 
+            -- HE.onClick ToggleLike 
+        ]
             [ whichheart ]
         , Html.p [] [ Html.text "click the heart icon to toggle its color between pink and black" ]
-        , Html.span [ HE.onClick ToggleLike ]
+        , Html.span [ 
+            -- HE.onClick ToggleLike 
+            ]
             [ whichheart ]
         ]
 
@@ -195,12 +205,14 @@ viewComments : Photo -> Html.Html Msg
 viewComments photo =
     Html.div []
         [ viewCommentList photo.comments
-        , Html.form [ HE.onSubmit Submit ]
+        , Html.form [ 
+            -- HE.onSubmit Submit 
+            ]
             [ Html.input
                 [ HA.type_ "text"
                 , HA.placeholder "Add a comment..."
                 , HA.value photo.newComment
-                , HE.onInput Input
+                -- , HE.onInput Input
                 ]
                 []
             , Html.button
@@ -242,11 +254,12 @@ viewDetailedPhoto photo =
         ]
 
 
-viewFeed : Maybe Photo -> Html.Html Msg
-viewFeed maybePhoto =
-    case maybePhoto of
-        Just photo ->
-            viewDetailedPhoto photo
+viewFeed : Maybe Feed -> Html.Html Msg
+viewFeed maybeFeed =
+    case maybeFeed of
+        Just feed ->
+            Html.div [] (List.map viewDetailedPhoto feed)
+            -- viewDetailedPhoto photo
 
         Nothing ->
             Html.div [ HA.class "loading-feed" ]
@@ -269,7 +282,7 @@ view model =
             , HA.style "margin" "auto"
             , HA.style "width" "400px"
             ]
-            [ viewFeed model.photo
+            [ viewFeed model.feed
             ]
         ]
 
