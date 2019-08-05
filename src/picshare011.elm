@@ -77,9 +77,9 @@ fetchFeed =
 
 
 type Msg
-    = ToggleLike
-    | Input String
-    | Submit
+    = ToggleLike Id
+    | Input Id String
+    | Submit Id
     | LoadFeed (Result Http.Error Feed)
 
 
@@ -108,6 +108,17 @@ toggleLike photo =
 updateComment : String -> Photo -> Photo
 updateComment comment photo =
     { photo | newComment = comment }
+
+updatePhotoById : (Photo -> Photo) -> Id -> Feed -> Feed
+updatePhotoById updatePhoto id feed =
+  List.map ( \photo ->
+                if photo.id == id then
+                   updatePhoto photo
+                else
+                  photo
+          )
+          feed
+
 
 
 updateFeed : (Photo -> Photo) -> Maybe Photo -> Maybe Photo
@@ -169,14 +180,10 @@ viewLoveButton photo =
     in
     Html.div [ HA.align "center" ]
         [ Html.span [ 
-            -- HE.onClick ToggleLike 
+            HE.onClick (ToggleLike photo.id)
         ]
             [ whichheart ]
         , Html.p [] [ Html.text "click the heart icon to toggle its color between pink and black" ]
-        , Html.span [ 
-            -- HE.onClick ToggleLike 
-            ]
-            [ whichheart ]
         ]
 
 
@@ -206,13 +213,13 @@ viewComments photo =
     Html.div []
         [ viewCommentList photo.comments
         , Html.form [ 
-            -- HE.onSubmit Submit 
+            HE.onSubmit (Submit photo.id)
             ]
             [ Html.input
                 [ HA.type_ "text"
                 , HA.placeholder "Add a comment..."
                 , HA.value photo.newComment
-                -- , HE.onInput Input
+                , HE.onInput (Input photo.id)
                 ]
                 []
             , Html.button
@@ -259,7 +266,6 @@ viewFeed maybeFeed =
     case maybeFeed of
         Just feed ->
             Html.div [] (List.map viewDetailedPhoto feed)
-            -- viewDetailedPhoto photo
 
         Nothing ->
             Html.div [ HA.class "loading-feed" ]
