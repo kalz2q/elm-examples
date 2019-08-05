@@ -73,7 +73,8 @@ fetchFeed : Cmd Msg
 fetchFeed =
     Http.get
         { url = "https://programming-elm.com/feed"
-        , expect = Http.expectJson LoadFeed (Json.list photoDecoder)        }
+        , expect = Http.expectJson LoadFeed (Json.list photoDecoder)
+        }
 
 
 type Msg
@@ -109,16 +110,18 @@ updateComment : String -> Photo -> Photo
 updateComment comment photo =
     { photo | newComment = comment }
 
+
 updatePhotoById : (Photo -> Photo) -> Id -> Feed -> Feed
 updatePhotoById updatePhoto id feed =
-  List.map ( \photo ->
-                if photo.id == id then
-                   updatePhoto photo
-                else
-                  photo
-          )
-          feed
+    List.map
+        (\photo ->
+            if photo.id == id then
+                updatePhoto photo
 
+            else
+                photo
+        )
+        feed
 
 
 updateFeed : (Photo -> Photo) -> Maybe Photo -> Maybe Photo
@@ -129,28 +132,28 @@ updateFeed updatePhoto maybePhoto =
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-    {-}
-        ToggleLike ->
-            ( { model
-                | photo = updateFeed toggleLike model.photo
-              }
-            , Cmd.none
-            )
+        {- }
+           ToggleLike ->
+               ( { model
+                   | photo = updateFeed toggleLike model.photo
+                 }
+               , Cmd.none
+               )
 
-        Input input ->
-            ( { model
-                | photo = updateFeed (updateComment input) model.photo
-              }
-            , Cmd.none
-            )
+           Input input ->
+               ( { model
+                   | photo = updateFeed (updateComment input) model.photo
+                 }
+               , Cmd.none
+               )
 
-        Submit ->
-            ( { model
-                | photo = updateFeed saveNewComment model.photo
-              }
-            , Cmd.none
-            )
- -}
+           Submit ->
+               ( { model
+                   | photo = updateFeed saveNewComment model.photo
+                 }
+               , Cmd.none
+               )
+        -}
         LoadFeed (Ok feed) ->
             ( { model | feed = Just feed }
             , Cmd.none
@@ -159,8 +162,8 @@ update msg model =
         LoadFeed (Err _) ->
             ( model, Cmd.none )
 
-        _ -> 
-             (model, Cmd.none )
+        _ ->
+            ( model, Cmd.none )
 
 
 subscriptions : Model -> Sub Msg
@@ -179,9 +182,9 @@ viewLoveButton photo =
                 blackheart
     in
     Html.div [ HA.align "center" ]
-        [ Html.span [ 
-            HE.onClick (ToggleLike photo.id)
-        ]
+        [ Html.span
+            [ HE.onClick (ToggleLike photo.id)
+            ]
             [ whichheart ]
         , Html.p [] [ Html.text "click the heart icon to toggle its color between pink and black" ]
         ]
@@ -212,8 +215,8 @@ viewComments : Photo -> Html.Html Msg
 viewComments photo =
     Html.div []
         [ viewCommentList photo.comments
-        , Html.form [ 
-            HE.onSubmit (Submit photo.id)
+        , Html.form
+            [ HE.onSubmit (Submit photo.id)
             ]
             [ Html.input
                 [ HA.type_ "text"
