@@ -1,7 +1,7 @@
 module Picshare011 exposing (main)
 
--- p.97 websocket and go real-time
--- 05_realtime
+-- p.102 adding handling errors
+-- end of 05 realtime
 
 import Browser
 import Html
@@ -45,6 +45,7 @@ type alias Photo =
 type alias Model =
     { feed :
         Maybe Feed
+    , error : Maybe Http.Error
     }
 
 
@@ -61,7 +62,9 @@ photoDecoder =
 
 initialModel : Model
 initialModel =
-    { feed = Nothing }
+    { feed = Nothing
+    , error = Nothing
+    }
 
 
 init : () -> ( Model, Cmd Msg )
@@ -158,8 +161,9 @@ update msg model =
             , Cmd.none
             )
 
-        LoadFeed (Err _) ->
-            ( model, Cmd.none )
+        LoadFeed (Err error) ->
+            ( { model | error = Just error } , Cmd.none )
+
 
 
 subscriptions : Model -> Sub Msg
@@ -260,6 +264,33 @@ viewDetailedPhoto photo =
         ]
 
 
+
+-- bookmark:
+
+
+viewContent : Model -> Html.Html Msg
+viewContent model =
+    case model.error of
+        Just error ->
+            Html.div [ HA.class "feed-error" ]
+                [ Html.text (errorMessage error) ]
+
+        Nothing ->
+            viewFeed model.feed
+
+
+errorMessage : Http.Error -> String
+errorMessage error =
+    case error of
+        Http.BadBody _ ->
+            """Sorry, we couldn't process your feed at this time.
+We're working on it!"""
+
+        _ ->
+            """Sorry, we couldn't load your feed at this time.
+Please try again later."""
+
+
 viewFeed : Maybe Feed -> Html.Html Msg
 viewFeed maybeFeed =
     case maybeFeed of
@@ -287,7 +318,8 @@ view model =
             , HA.style "margin" "auto"
             , HA.style "width" "400px"
             ]
-            [ viewFeed model.feed
+            -- [ viewFeed model.feed
+            [ viewContent model
             ]
         ]
 
