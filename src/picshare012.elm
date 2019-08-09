@@ -1,7 +1,8 @@
-module Picshare011 exposing (main)
+module Picshare012 exposing (main)
 
 -- p.102 adding handling errors
 -- end of 05 realtime
+-- websocketはやらない
 
 import Browser
 import Html
@@ -12,6 +13,7 @@ import Json.Decode as Json
 import Json.Decode.Pipeline as JP
 import Svg
 import Svg.Attributes as SA
+import WebSocket
 
 
 type alias Id =
@@ -75,9 +77,14 @@ init _ =
 fetchFeed : Cmd Msg
 fetchFeed =
     Http.get
-        { url = "https://programming-elm.com/feed"
+        { url = "https://programming-elm.com/feed" -- try bacfeed tp see error
         , expect = Http.expectJson LoadFeed (Json.list photoDecoder)
         }
+
+
+wsUrl : String
+wsUrl =
+    "wss://programming-elm.com/"
 
 
 type Msg
@@ -85,6 +92,7 @@ type Msg
     | Input Id String
     | Submit Id
     | LoadFeed (Result Http.Error Feed)
+    | LoadStreamPhoto String
 
 
 saveNewComment : Photo -> Photo
@@ -158,17 +166,23 @@ update msg model =
 
         LoadFeed (Ok feed) ->
             ( { model | feed = Just feed }
-            , Cmd.none
+            , WebSocket.listen wsUrl
             )
 
         LoadFeed (Err error) ->
-            ( { model | error = Just error } , Cmd.none )
+            ( { model | error = Just error }, Cmd.none )
 
+        LoadStreamPhoto data ->
+            let
+                _ =
+                    Debug.log "WebSocket data" data
+            in
+            ( model, Cmd.none )
 
 
 subscriptions : Model -> Sub Msg
 subscriptions model =
-    Sub.none
+    WebSocket.receive LoadStreamPhoto
 
 
 viewLoveButton : Photo -> Html.Html Msg
