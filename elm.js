@@ -5896,14 +5896,25 @@ var author$project$Picshare012$fetchFeed = elm$http$Http$get(
 			elm$json$Json$Decode$list(author$project$Picshare012$photoDecoder)),
 		url: 'https://programming-elm.com/feed'
 	});
-var author$project$Picshare012$initialModel = {error: elm$core$Maybe$Nothing, feed: elm$core$Maybe$Nothing};
+var author$project$Picshare012$initialModel = {error: elm$core$Maybe$Nothing, feed: elm$core$Maybe$Nothing, streamQueue: _List_Nil};
 var author$project$Picshare012$init = function (_n0) {
 	return _Utils_Tuple2(author$project$Picshare012$initialModel, author$project$Picshare012$fetchFeed);
 };
-var elm$core$Platform$Sub$batch = _Platform_batch;
-var elm$core$Platform$Sub$none = elm$core$Platform$Sub$batch(_List_Nil);
+var author$project$Picshare012$LoadStreamPhoto = function (a) {
+	return {$: 'LoadStreamPhoto', a: a};
+};
+var author$project$WebSocket$receive = _Platform_incomingPort('receive', elm$json$Json$Decode$string);
+var elm$core$Basics$composeL = F3(
+	function (g, f, x) {
+		return g(
+			f(x));
+	});
 var author$project$Picshare012$subscriptions = function (model) {
-	return elm$core$Platform$Sub$none;
+	return author$project$WebSocket$receive(
+		A2(
+			elm$core$Basics$composeL,
+			author$project$Picshare012$LoadStreamPhoto,
+			elm$json$Json$Decode$decodeString(author$project$Picshare012$photoDecoder)));
 };
 var elm$core$String$trim = _String_trim;
 var author$project$Picshare012$saveNewComment = function (photo) {
@@ -6014,7 +6025,7 @@ var author$project$Picshare012$update = F2(
 							feed: A3(author$project$Picshare012$updateFeed, author$project$Picshare012$saveNewComment, id, model.feed)
 						}),
 					elm$core$Platform$Cmd$none);
-			default:
+			case 'LoadFeed':
 				if (msg.a.$ === 'Ok') {
 					var feed = msg.a.a;
 					return _Utils_Tuple2(
@@ -6034,6 +6045,21 @@ var author$project$Picshare012$update = F2(
 							}),
 						elm$core$Platform$Cmd$none);
 				}
+			case 'LoadStreamPhoto':
+				if (msg.a.$ === 'Ok') {
+					var photo = msg.a.a;
+					return _Utils_Tuple2(
+						_Utils_update(
+							model,
+							{
+								streamQueue: A2(elm$core$List$cons, photo, model.streamQueue)
+							}),
+						elm$core$Platform$Cmd$none);
+				} else {
+					return _Utils_Tuple2(model, elm$core$Platform$Cmd$none);
+				}
+			default:
+				return _Utils_Tuple2(model, elm$core$Platform$Cmd$none);
 		}
 	});
 var author$project$Picshare012$errorMessage = function (error) {

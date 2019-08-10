@@ -9,7 +9,7 @@ import Html
 import Html.Attributes as HA
 import Html.Events as HE
 import Http
-import Json.Decode as Json
+import Json.Decode as Json exposing (Decoder, bool, decodeString, int, list, string, succeed)
 import Json.Decode.Pipeline as JP
 import Svg
 import Svg.Attributes as SA
@@ -48,10 +48,11 @@ type alias Model =
     { feed :
         Maybe Feed
     , error : Maybe Http.Error
+    , streamQueue : Feed
     }
 
 
-photoDecoder : Json.Decoder Photo
+photoDecoder : Decoder Photo
 photoDecoder =
     Json.succeed Photo
         |> JP.required "id" Json.int
@@ -66,6 +67,7 @@ initialModel : Model
 initialModel =
     { feed = Nothing
     , error = Nothing
+    , streamQueue = []
     }
 
 
@@ -92,7 +94,8 @@ type Msg
     | Input Id String
     | Submit Id
     | LoadFeed (Result Http.Error Feed)
-    | LoadStreamPhoto String
+    | LoadStreamPhoto (Result Json.Error Photo)
+    | FlushStreamQueue
 
 
 saveNewComment : Photo -> Photo
@@ -172,17 +175,22 @@ update msg model =
         LoadFeed (Err error) ->
             ( { model | error = Just error }, Cmd.none )
 
-        LoadStreamPhoto data ->
-            let
-                _ =
-                    Debug.log "WebSocket data" data
-            in
+        LoadStreamPhoto (Ok photo) ->
+            ( { model | streamQueue = photo :: model.streamQueue }
+            , Cmd.none
+            )
+
+        LoadStreamPhoto (Err _) ->
+            ( model, Cmd.none )
+
+        FlushStreamQueue ->
             ( model, Cmd.none )
 
 
 subscriptions : Model -> Sub Msg
 subscriptions model =
-    WebSocket.receive LoadStreamPhoto
+    WebSocket.receive
+        (LoadStreamPhoto << decodeString photoDecoder)
 
 
 viewLoveButton : Photo -> Html.Html Msg
@@ -202,6 +210,25 @@ viewLoveButton photo =
             [ whichheart ]
         , Html.p [] [ Html.text "click the heart icon to toggle its color between pink and black" ]
         ]
+
+
+viewStreamNotification : Feed -> Html.Html Msg
+viewStreamNotification queue =
+    case queue of
+        [] ->
+            Html.text ""
+
+        _ ->
+            let
+                content =
+                    "View new photos: "
+                        ++ String.fromInt (List.length queue)
+            in
+            Html.div
+                [ HA.class "stream-notification"
+                , HE.onClick FlushStreamQueue
+                ]
+                [ Html.text content ]
 
 
 viewComment : String -> Html.Html Msg
