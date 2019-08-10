@@ -6059,7 +6059,17 @@ var author$project$Picshare012$update = F2(
 					return _Utils_Tuple2(model, elm$core$Platform$Cmd$none);
 				}
 			default:
-				return _Utils_Tuple2(model, elm$core$Platform$Cmd$none);
+				return _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{
+							feed: A2(
+								elm$core$Maybe$map,
+								elm$core$Basics$append(model.streamQueue),
+								model.feed),
+							streamQueue: _List_Nil
+						}),
+					elm$core$Platform$Cmd$none);
 		}
 	});
 var author$project$Picshare012$errorMessage = function (error) {
@@ -6423,6 +6433,26 @@ var author$project$Picshare012$viewFeed = function (maybeFeed) {
 				]));
 	}
 };
+var author$project$Picshare012$FlushStreamQueue = {$: 'FlushStreamQueue'};
+var author$project$Picshare012$viewStreamNotification = function (queue) {
+	if (!queue.b) {
+		return elm$html$Html$text('');
+	} else {
+		var content = 'View new photos: ' + elm$core$String$fromInt(
+			elm$core$List$length(queue));
+		return A2(
+			elm$html$Html$div,
+			_List_fromArray(
+				[
+					elm$html$Html$Attributes$class('stream-notification'),
+					elm$html$Html$Events$onClick(author$project$Picshare012$FlushStreamQueue)
+				]),
+			_List_fromArray(
+				[
+					elm$html$Html$text(content)
+				]));
+	}
+};
 var author$project$Picshare012$viewContent = function (model) {
 	var _n0 = model.error;
 	if (_n0.$ === 'Just') {
@@ -6439,7 +6469,14 @@ var author$project$Picshare012$viewContent = function (model) {
 					author$project$Picshare012$errorMessage(error))
 				]));
 	} else {
-		return author$project$Picshare012$viewFeed(model.feed);
+		return A2(
+			elm$html$Html$div,
+			_List_Nil,
+			_List_fromArray(
+				[
+					author$project$Picshare012$viewStreamNotification(model.streamQueue),
+					author$project$Picshare012$viewFeed(model.feed)
+				]));
 	}
 };
 var elm$html$Html$h1 = _VirtualDom_node('h1');

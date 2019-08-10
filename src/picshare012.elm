@@ -184,7 +184,12 @@ update msg model =
             ( model, Cmd.none )
 
         FlushStreamQueue ->
-            ( model, Cmd.none )
+            ( { model
+                | feed = Maybe.map ((++) model.streamQueue) model.feed
+                , streamQueue = []
+              }
+            , Cmd.none
+            )
 
 
 subscriptions : Model -> Sub Msg
@@ -305,10 +310,6 @@ viewDetailedPhoto photo =
         ]
 
 
-
--- bookmark:
-
-
 viewContent : Model -> Html.Html Msg
 viewContent model =
     case model.error of
@@ -317,7 +318,10 @@ viewContent model =
                 [ Html.text (errorMessage error) ]
 
         Nothing ->
-            viewFeed model.feed
+            Html.div []
+                [ viewStreamNotification model.streamQueue
+                , viewFeed model.feed
+                ]
 
 
 errorMessage : Http.Error -> String
