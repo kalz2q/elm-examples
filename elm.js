@@ -2488,6 +2488,107 @@ function _Http_track(router, xhr, tracker)
 	});
 }
 
+// CREATE
+
+var _Regex_never = /.^/;
+
+var _Regex_fromStringWith = F2(function(options, string)
+{
+	var flags = 'g';
+	if (options.multiline) { flags += 'm'; }
+	if (options.caseInsensitive) { flags += 'i'; }
+
+	try
+	{
+		return elm$core$Maybe$Just(new RegExp(string, flags));
+	}
+	catch(error)
+	{
+		return elm$core$Maybe$Nothing;
+	}
+});
+
+
+// USE
+
+var _Regex_contains = F2(function(re, string)
+{
+	return string.match(re) !== null;
+});
+
+
+var _Regex_findAtMost = F3(function(n, re, str)
+{
+	var out = [];
+	var number = 0;
+	var string = str;
+	var lastIndex = re.lastIndex;
+	var prevLastIndex = -1;
+	var result;
+	while (number++ < n && (result = re.exec(string)))
+	{
+		if (prevLastIndex == re.lastIndex) break;
+		var i = result.length - 1;
+		var subs = new Array(i);
+		while (i > 0)
+		{
+			var submatch = result[i];
+			subs[--i] = submatch
+				? elm$core$Maybe$Just(submatch)
+				: elm$core$Maybe$Nothing;
+		}
+		out.push(A4(elm$regex$Regex$Match, result[0], result.index, number, _List_fromArray(subs)));
+		prevLastIndex = re.lastIndex;
+	}
+	re.lastIndex = lastIndex;
+	return _List_fromArray(out);
+});
+
+
+var _Regex_replaceAtMost = F4(function(n, re, replacer, string)
+{
+	var count = 0;
+	function jsReplacer(match)
+	{
+		if (count++ >= n)
+		{
+			return match;
+		}
+		var i = arguments.length - 3;
+		var submatches = new Array(i);
+		while (i > 0)
+		{
+			var submatch = arguments[i];
+			submatches[--i] = submatch
+				? elm$core$Maybe$Just(submatch)
+				: elm$core$Maybe$Nothing;
+		}
+		return replacer(A4(elm$regex$Regex$Match, match, arguments[arguments.length - 2], count, _List_fromArray(submatches)));
+	}
+	return string.replace(re, jsReplacer);
+});
+
+var _Regex_splitAtMost = F3(function(n, re, str)
+{
+	var string = str;
+	var out = [];
+	var start = re.lastIndex;
+	var restoreLastIndex = re.lastIndex;
+	while (n--)
+	{
+		var result = re.exec(string);
+		if (!result) break;
+		out.push(string.slice(start, result.index));
+		start = re.lastIndex;
+	}
+	out.push(string.slice(start));
+	re.lastIndex = restoreLastIndex;
+	return _List_fromArray(out);
+});
+
+var _Regex_infinity = Infinity;
+
+
 
 
 // HELPERS
@@ -4485,18 +4586,37 @@ function _Browser_load(url)
 		}
 	}));
 }
-var author$project$Picshare012$LoadFeed = function (a) {
-	return {$: 'LoadFeed', a: a};
+var author$project$SaladBuilder003$Lettuce = {$: 'Lettuce'};
+var author$project$SaladBuilder003$NoDressing = {$: 'NoDressing'};
+var elm$core$Basics$False = {$: 'False'};
+var elm$core$Basics$True = {$: 'True'};
+var elm$core$Maybe$Nothing = {$: 'Nothing'};
+var elm$core$Basics$identity = function (x) {
+	return x;
 };
-var elm$core$Basics$apR = F2(
-	function (x, f) {
-		return f(x);
-	});
-var elm$core$Array$branchFactor = 32;
-var elm$core$Array$Array_elm_builtin = F4(
-	function (a, b, c, d) {
-		return {$: 'Array_elm_builtin', a: a, b: b, c: c, d: d};
-	});
+var elm$core$Dict$RBEmpty_elm_builtin = {$: 'RBEmpty_elm_builtin'};
+var elm$core$Dict$empty = elm$core$Dict$RBEmpty_elm_builtin;
+var elm$core$Set$Set_elm_builtin = function (a) {
+	return {$: 'Set_elm_builtin', a: a};
+};
+var elm$core$Set$empty = elm$core$Set$Set_elm_builtin(elm$core$Dict$empty);
+var author$project$SaladBuilder003$initialModel = {
+	building: true,
+	email: '',
+	error: elm$core$Maybe$Nothing,
+	name: '',
+	phone: '',
+	salad: {base: author$project$SaladBuilder003$Lettuce, dressing: author$project$SaladBuilder003$NoDressing, toppings: elm$core$Set$empty},
+	sending: false,
+	success: false
+};
+var elm$core$Result$isOk = function (result) {
+	if (result.$ === 'Ok') {
+		return true;
+	} else {
+		return false;
+	}
+};
 var elm$core$Basics$EQ = {$: 'EQ'};
 var elm$core$Basics$GT = {$: 'GT'};
 var elm$core$Basics$LT = {$: 'LT'};
@@ -4577,6 +4697,11 @@ var elm$core$Array$foldr = F3(
 var elm$core$Array$toList = function (array) {
 	return A3(elm$core$Array$foldr, elm$core$List$cons, _List_Nil, array);
 };
+var elm$core$Array$branchFactor = 32;
+var elm$core$Array$Array_elm_builtin = F4(
+	function (a, b, c, d) {
+		return {$: 'Array_elm_builtin', a: a, b: b, c: c, d: d};
+	});
 var elm$core$Basics$ceiling = _Basics_ceiling;
 var elm$core$Basics$fdiv = _Basics_fdiv;
 var elm$core$Basics$logBase = F2(
@@ -4639,6 +4764,10 @@ var elm$core$Array$compressNodes = F2(
 			}
 		}
 	});
+var elm$core$Basics$apR = F2(
+	function (x, f) {
+		return f(x);
+	});
 var elm$core$Basics$eq = _Utils_equal;
 var elm$core$Tuple$first = function (_n0) {
 	var x = _n0.a;
@@ -4697,7 +4826,6 @@ var elm$core$Array$builderToArray = F2(
 				builder.tail);
 		}
 	});
-var elm$core$Basics$False = {$: 'False'};
 var elm$core$Basics$idiv = _Basics_idiv;
 var elm$core$Basics$lt = _Utils_lt;
 var elm$core$Elm$JsArray$initialize = _JsArray_initialize;
@@ -4743,20 +4871,11 @@ var elm$core$Array$initialize = F2(
 var elm$core$Maybe$Just = function (a) {
 	return {$: 'Just', a: a};
 };
-var elm$core$Maybe$Nothing = {$: 'Nothing'};
 var elm$core$Result$Err = function (a) {
 	return {$: 'Err', a: a};
 };
 var elm$core$Result$Ok = function (a) {
 	return {$: 'Ok', a: a};
-};
-var elm$core$Basics$True = {$: 'True'};
-var elm$core$Result$isOk = function (result) {
-	if (result.$ === 'Ok') {
-		return true;
-	} else {
-		return false;
-	}
 };
 var elm$json$Json$Decode$Failure = F2(
 	function (a, b) {
@@ -4963,71 +5082,94 @@ var elm$json$Json$Decode$errorToStringHelp = F2(
 			}
 		}
 	});
-var elm$json$Json$Decode$map2 = _Json_map2;
-var NoRedInk$elm_json_decode_pipeline$Json$Decode$Pipeline$custom = elm$json$Json$Decode$map2(elm$core$Basics$apR);
+var elm$core$Platform$Cmd$batch = _Platform_batch;
+var elm$core$Platform$Cmd$none = elm$core$Platform$Cmd$batch(_List_Nil);
+var author$project$SaladBuilder003$init = function (_n0) {
+	return _Utils_Tuple2(author$project$SaladBuilder003$initialModel, elm$core$Platform$Cmd$none);
+};
+var author$project$SaladBuilder003$SubmissionResult = function (a) {
+	return {$: 'SubmissionResult', a: a};
+};
+var author$project$SaladBuilder003$baseToString = function (base) {
+	switch (base.$) {
+		case 'Lettuce':
+			return 'Lettuce';
+		case 'Spinach':
+			return 'Spinach';
+		default:
+			return 'Spring Mix';
+	}
+};
+var author$project$SaladBuilder003$dressingToString = function (dressing) {
+	switch (dressing.$) {
+		case 'NoDressing':
+			return 'No Dressing';
+		case 'Italian':
+			return 'Italian';
+		case 'RaspberryVinaigrette':
+			return 'Raspberry Vinaigrette';
+		default:
+			return 'Oil and Vinegar';
+	}
+};
+var elm$json$Json$Encode$list = F2(
+	function (func, entries) {
+		return _Json_wrap(
+			A3(
+				elm$core$List$foldl,
+				_Json_addEntry(func),
+				_Json_emptyArray(_Utils_Tuple0),
+				entries));
+	});
+var elm$json$Json$Encode$object = function (pairs) {
+	return _Json_wrap(
+		A3(
+			elm$core$List$foldl,
+			F2(
+				function (_n0, obj) {
+					var k = _n0.a;
+					var v = _n0.b;
+					return A3(_Json_addField, k, v, obj);
+				}),
+			_Json_emptyObject(_Utils_Tuple0),
+			pairs));
+};
+var elm$json$Json$Encode$string = _Json_wrap;
+var author$project$SaladBuilder003$encodeOrder = function (model) {
+	return elm$json$Json$Encode$object(
+		_List_fromArray(
+			[
+				_Utils_Tuple2(
+				'base',
+				elm$json$Json$Encode$string(
+					author$project$SaladBuilder003$baseToString(model.salad.base))),
+				_Utils_Tuple2(
+				'toppings',
+				A2(
+					elm$json$Json$Encode$list,
+					elm$json$Json$Encode$string,
+					elm$core$Set$toList(model.salad.toppings))),
+				_Utils_Tuple2(
+				'dressing',
+				elm$json$Json$Encode$string(
+					author$project$SaladBuilder003$dressingToString(model.salad.dressing))),
+				_Utils_Tuple2(
+				'name',
+				elm$json$Json$Encode$string(model.name)),
+				_Utils_Tuple2(
+				'email',
+				elm$json$Json$Encode$string(model.email)),
+				_Utils_Tuple2(
+				'phone',
+				elm$json$Json$Encode$string(model.phone))
+			]));
+};
+var author$project$SaladBuilder003$sendUrl = 'https://programming-elm.com/salad/send';
 var elm$core$Basics$composeR = F3(
 	function (f, g, x) {
 		return g(
 			f(x));
 	});
-var elm$json$Json$Decode$succeed = _Json_succeed;
-var NoRedInk$elm_json_decode_pipeline$Json$Decode$Pipeline$hardcoded = A2(elm$core$Basics$composeR, elm$json$Json$Decode$succeed, NoRedInk$elm_json_decode_pipeline$Json$Decode$Pipeline$custom);
-var elm$json$Json$Decode$field = _Json_decodeField;
-var NoRedInk$elm_json_decode_pipeline$Json$Decode$Pipeline$required = F3(
-	function (key, valDecoder, decoder) {
-		return A2(
-			NoRedInk$elm_json_decode_pipeline$Json$Decode$Pipeline$custom,
-			A2(elm$json$Json$Decode$field, key, valDecoder),
-			decoder);
-	});
-var author$project$Picshare012$Photo = F6(
-	function (id, url, caption, liked, comments, newComment) {
-		return {caption: caption, comments: comments, id: id, liked: liked, newComment: newComment, url: url};
-	});
-var elm$json$Json$Decode$bool = _Json_decodeBool;
-var elm$json$Json$Decode$int = _Json_decodeInt;
-var elm$json$Json$Decode$list = _Json_decodeList;
-var elm$json$Json$Decode$string = _Json_decodeString;
-var author$project$Picshare012$photoDecoder = A2(
-	NoRedInk$elm_json_decode_pipeline$Json$Decode$Pipeline$hardcoded,
-	'',
-	A3(
-		NoRedInk$elm_json_decode_pipeline$Json$Decode$Pipeline$required,
-		'comments',
-		elm$json$Json$Decode$list(elm$json$Json$Decode$string),
-		A3(
-			NoRedInk$elm_json_decode_pipeline$Json$Decode$Pipeline$required,
-			'liked',
-			elm$json$Json$Decode$bool,
-			A3(
-				NoRedInk$elm_json_decode_pipeline$Json$Decode$Pipeline$required,
-				'caption',
-				elm$json$Json$Decode$string,
-				A3(
-					NoRedInk$elm_json_decode_pipeline$Json$Decode$Pipeline$required,
-					'url',
-					elm$json$Json$Decode$string,
-					A3(
-						NoRedInk$elm_json_decode_pipeline$Json$Decode$Pipeline$required,
-						'id',
-						elm$json$Json$Decode$int,
-						elm$json$Json$Decode$succeed(author$project$Picshare012$Photo)))))));
-var elm$core$Result$mapError = F2(
-	function (f, result) {
-		if (result.$ === 'Ok') {
-			var v = result.a;
-			return elm$core$Result$Ok(v);
-		} else {
-			var e = result.a;
-			return elm$core$Result$Err(
-				f(e));
-		}
-	});
-var elm$core$Basics$identity = function (x) {
-	return x;
-};
-var elm$core$Dict$RBEmpty_elm_builtin = {$: 'RBEmpty_elm_builtin'};
-var elm$core$Dict$empty = elm$core$Dict$RBEmpty_elm_builtin;
 var elm$core$Basics$compare = _Utils_compare;
 var elm$core$Dict$get = F2(
 	function (targetKey, dict) {
@@ -5588,6 +5730,17 @@ var elm$http$Http$expectStringResponse = F2(
 			elm$core$Basics$identity,
 			A2(elm$core$Basics$composeR, toResult, toMsg));
 	});
+var elm$core$Result$mapError = F2(
+	function (f, result) {
+		if (result.$ === 'Ok') {
+			var v = result.a;
+			return elm$core$Result$Ok(v);
+		} else {
+			var e = result.a;
+			return elm$core$Result$Err(
+				f(e));
+		}
+	});
 var elm$http$Http$BadBody = function (a) {
 	return {$: 'BadBody', a: a};
 };
@@ -5622,21 +5775,18 @@ var elm$http$Http$resolve = F2(
 					toResult(body));
 		}
 	});
-var elm$json$Json$Decode$decodeString = _Json_runOnString;
-var elm$http$Http$expectJson = F2(
-	function (toMsg, decoder) {
-		return A2(
-			elm$http$Http$expectStringResponse,
-			toMsg,
-			elm$http$Http$resolve(
-				function (string) {
-					return A2(
-						elm$core$Result$mapError,
-						elm$json$Json$Decode$errorToString,
-						A2(elm$json$Json$Decode$decodeString, decoder, string));
-				}));
-	});
-var elm$http$Http$emptyBody = _Http_emptyBody;
+var elm$http$Http$expectString = function (toMsg) {
+	return A2(
+		elm$http$Http$expectStringResponse,
+		toMsg,
+		elm$http$Http$resolve(elm$core$Result$Ok));
+};
+var elm$http$Http$jsonBody = function (value) {
+	return A2(
+		_Http_pair,
+		'application/json',
+		A2(elm$json$Json$Encode$encode, 0, value));
+};
 var elm$http$Http$Request = function (a) {
 	return {$: 'Request', a: a};
 };
@@ -5884,209 +6034,258 @@ var elm$http$Http$request = function (r) {
 		elm$http$Http$Request(
 			{allowCookiesFromOtherDomains: false, body: r.body, expect: r.expect, headers: r.headers, method: r.method, timeout: r.timeout, tracker: r.tracker, url: r.url}));
 };
-var elm$http$Http$get = function (r) {
+var elm$http$Http$post = function (r) {
 	return elm$http$Http$request(
-		{body: elm$http$Http$emptyBody, expect: r.expect, headers: _List_Nil, method: 'GET', timeout: elm$core$Maybe$Nothing, tracker: elm$core$Maybe$Nothing, url: r.url});
+		{body: r.body, expect: r.expect, headers: _List_Nil, method: 'POST', timeout: elm$core$Maybe$Nothing, tracker: elm$core$Maybe$Nothing, url: r.url});
 };
-var author$project$Picshare012$fetchFeed = elm$http$Http$get(
-	{
-		expect: A2(
-			elm$http$Http$expectJson,
-			author$project$Picshare012$LoadFeed,
-			elm$json$Json$Decode$list(author$project$Picshare012$photoDecoder)),
-		url: 'https://programming-elm.com/feed'
+var author$project$SaladBuilder003$send = function (model) {
+	return elm$http$Http$post(
+		{
+			body: elm$http$Http$jsonBody(
+				author$project$SaladBuilder003$encodeOrder(model)),
+			expect: elm$http$Http$expectString(author$project$SaladBuilder003$SubmissionResult),
+			url: author$project$SaladBuilder003$sendUrl
+		});
+};
+var author$project$SaladBuilder003$toppingToString = function (topping) {
+	switch (topping.$) {
+		case 'Tomatoes':
+			return 'Tomatoes';
+		case 'Cucumbers':
+			return 'Cucumbers';
+		default:
+			return 'Onions';
+	}
+};
+var elm$core$Set$insert = F2(
+	function (key, _n0) {
+		var dict = _n0.a;
+		return elm$core$Set$Set_elm_builtin(
+			A3(elm$core$Dict$insert, key, _Utils_Tuple0, dict));
 	});
-var author$project$Picshare012$initialModel = {error: elm$core$Maybe$Nothing, feed: elm$core$Maybe$Nothing, streamQueue: _List_Nil};
-var author$project$Picshare012$init = function (_n0) {
-	return _Utils_Tuple2(author$project$Picshare012$initialModel, author$project$Picshare012$fetchFeed);
+var elm$core$Set$remove = F2(
+	function (key, _n0) {
+		var dict = _n0.a;
+		return elm$core$Set$Set_elm_builtin(
+			A2(elm$core$Dict$remove, key, dict));
+	});
+var author$project$SaladBuilder003$updateSalad = F2(
+	function (msg, salad) {
+		switch (msg.$) {
+			case 'SetBase':
+				var base = msg.a;
+				return _Utils_update(
+					salad,
+					{base: base});
+			case 'ToggleTopping':
+				var topping = msg.a;
+				var add = msg.b;
+				var updater = add ? elm$core$Set$insert : elm$core$Set$remove;
+				return _Utils_update(
+					salad,
+					{
+						toppings: A2(
+							updater,
+							author$project$SaladBuilder003$toppingToString(topping),
+							salad.toppings)
+					});
+			default:
+				var dressing = msg.a;
+				return _Utils_update(
+					salad,
+					{dressing: dressing});
+		}
+	});
+var author$project$SaladBuilder003$update = F2(
+	function (msg, model) {
+		switch (msg.$) {
+			case 'SaladMsg':
+				var saladMsg = msg.a;
+				return _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{
+							salad: A2(author$project$SaladBuilder003$updateSalad, saladMsg, model.salad)
+						}),
+					elm$core$Platform$Cmd$none);
+			case 'SetName':
+				var name = msg.a;
+				return _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{name: name}),
+					elm$core$Platform$Cmd$none);
+			case 'SetEmail':
+				var email = msg.a;
+				return _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{email: email}),
+					elm$core$Platform$Cmd$none);
+			case 'SetPhone':
+				var phone = msg.a;
+				return _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{phone: phone}),
+					elm$core$Platform$Cmd$none);
+			case 'Send':
+				var newModel = _Utils_update(
+					model,
+					{building: false, error: elm$core$Maybe$Nothing, sending: true});
+				return _Utils_Tuple2(
+					newModel,
+					author$project$SaladBuilder003$send(newModel));
+			default:
+				if (msg.a.$ === 'Ok') {
+					return _Utils_Tuple2(
+						_Utils_update(
+							model,
+							{error: elm$core$Maybe$Nothing, sending: false, success: true}),
+						elm$core$Platform$Cmd$none);
+				} else {
+					return _Utils_Tuple2(
+						_Utils_update(
+							model,
+							{
+								building: true,
+								error: elm$core$Maybe$Just('There was a problem sending your order. Please try again.'),
+								sending: false
+							}),
+						elm$core$Platform$Cmd$none);
+				}
+		}
+	});
+var author$project$SaladBuilder003$Cucumbers = {$: 'Cucumbers'};
+var author$project$SaladBuilder003$Italian = {$: 'Italian'};
+var author$project$SaladBuilder003$OilVinegar = {$: 'OilVinegar'};
+var author$project$SaladBuilder003$Onions = {$: 'Onions'};
+var author$project$SaladBuilder003$RaspberryVinaigrette = {$: 'RaspberryVinaigrette'};
+var author$project$SaladBuilder003$SaladMsg = function (a) {
+	return {$: 'SaladMsg', a: a};
 };
-var author$project$Picshare012$LoadStreamPhoto = function (a) {
-	return {$: 'LoadStreamPhoto', a: a};
+var author$project$SaladBuilder003$Send = {$: 'Send'};
+var author$project$SaladBuilder003$SetBase = function (a) {
+	return {$: 'SetBase', a: a};
 };
-var author$project$WebSocket$receive = _Platform_incomingPort('receive', elm$json$Json$Decode$string);
+var author$project$SaladBuilder003$SetDressing = function (a) {
+	return {$: 'SetDressing', a: a};
+};
+var author$project$SaladBuilder003$SetEmail = function (a) {
+	return {$: 'SetEmail', a: a};
+};
+var author$project$SaladBuilder003$SetName = function (a) {
+	return {$: 'SetName', a: a};
+};
+var author$project$SaladBuilder003$SetPhone = function (a) {
+	return {$: 'SetPhone', a: a};
+};
+var author$project$SaladBuilder003$Spinach = {$: 'Spinach'};
+var author$project$SaladBuilder003$SpringMix = {$: 'SpringMix'};
+var author$project$SaladBuilder003$ToggleTopping = F2(
+	function (a, b) {
+		return {$: 'ToggleTopping', a: a, b: b};
+	});
+var author$project$SaladBuilder003$Tomatoes = {$: 'Tomatoes'};
+var elm$core$Basics$neq = _Utils_notEqual;
+var elm$core$String$trim = _String_trim;
+var author$project$SaladBuilder003$isRequired = function (value) {
+	return elm$core$String$trim(value) !== '';
+};
+var elm$core$Maybe$withDefault = F2(
+	function (_default, maybe) {
+		if (maybe.$ === 'Just') {
+			var value = maybe.a;
+			return value;
+		} else {
+			return _default;
+		}
+	});
+var elm$regex$Regex$Match = F4(
+	function (match, index, number, submatches) {
+		return {index: index, match: match, number: number, submatches: submatches};
+	});
+var elm$regex$Regex$contains = _Regex_contains;
+var elm$regex$Regex$fromStringWith = _Regex_fromStringWith;
+var elm$regex$Regex$never = _Regex_never;
+var author$project$SaladBuilder003$isValidEmail = function (value) {
+	var regexString = '^(([^<>()\\[\\]\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$';
+	var options = {caseInsensitive: true, multiline: false};
+	var regex = A2(
+		elm$core$Maybe$withDefault,
+		elm$regex$Regex$never,
+		A2(elm$regex$Regex$fromStringWith, options, regexString));
+	return A2(
+		elm$regex$Regex$contains,
+		regex,
+		elm$core$String$trim(value));
+};
+var elm$regex$Regex$fromString = function (string) {
+	return A2(
+		elm$regex$Regex$fromStringWith,
+		{caseInsensitive: false, multiline: false},
+		string);
+};
+var author$project$SaladBuilder003$isValidPhone = function (value) {
+	var regex = A2(
+		elm$core$Maybe$withDefault,
+		elm$regex$Regex$never,
+		elm$regex$Regex$fromString('^\\d{10}$'));
+	return A2(
+		elm$regex$Regex$contains,
+		regex,
+		elm$core$String$trim(value));
+};
 var elm$core$Basics$composeL = F3(
 	function (g, f, x) {
 		return g(
 			f(x));
 	});
-var author$project$Picshare012$subscriptions = function (model) {
-	return author$project$WebSocket$receive(
-		A2(
-			elm$core$Basics$composeL,
-			author$project$Picshare012$LoadStreamPhoto,
-			elm$json$Json$Decode$decodeString(author$project$Picshare012$photoDecoder)));
-};
-var elm$core$String$trim = _String_trim;
-var author$project$Picshare012$saveNewComment = function (photo) {
-	var comment = elm$core$String$trim(photo.newComment);
-	if (comment === '') {
-		return photo;
-	} else {
-		return _Utils_update(
-			photo,
-			{
-				comments: _Utils_ap(
-					photo.comments,
-					_List_fromArray(
-						[comment])),
-				newComment: ''
-			});
-	}
-};
 var elm$core$Basics$not = _Basics_not;
-var author$project$Picshare012$toggleLike = function (photo) {
-	return _Utils_update(
-		photo,
-		{liked: !photo.liked});
-};
-var author$project$Picshare012$updateComment = F2(
-	function (comment, photo) {
-		return _Utils_update(
-			photo,
-			{newComment: comment});
-	});
-var elm$core$List$map = F2(
-	function (f, xs) {
-		return A3(
-			elm$core$List$foldr,
-			F2(
-				function (x, acc) {
-					return A2(
-						elm$core$List$cons,
-						f(x),
-						acc);
-				}),
-			_List_Nil,
-			xs);
-	});
-var author$project$Picshare012$updatePhotoById = F3(
-	function (updatePhoto, id, feed) {
-		return A2(
-			elm$core$List$map,
-			function (photo) {
-				return _Utils_eq(photo.id, id) ? updatePhoto(photo) : photo;
-			},
-			feed);
-	});
-var elm$core$Maybe$map = F2(
-	function (f, maybe) {
-		if (maybe.$ === 'Just') {
-			var value = maybe.a;
-			return elm$core$Maybe$Just(
-				f(value));
-		} else {
-			return elm$core$Maybe$Nothing;
+var elm$core$List$any = F2(
+	function (isOkay, list) {
+		any:
+		while (true) {
+			if (!list.b) {
+				return false;
+			} else {
+				var x = list.a;
+				var xs = list.b;
+				if (isOkay(x)) {
+					return true;
+				} else {
+					var $temp$isOkay = isOkay,
+						$temp$list = xs;
+					isOkay = $temp$isOkay;
+					list = $temp$list;
+					continue any;
+				}
+			}
 		}
 	});
-var author$project$Picshare012$updateFeed = F3(
-	function (updatePhoto, id, maybeFeed) {
-		return A2(
-			elm$core$Maybe$map,
-			A2(author$project$Picshare012$updatePhotoById, updatePhoto, id),
-			maybeFeed);
+var elm$core$List$all = F2(
+	function (isOkay, list) {
+		return !A2(
+			elm$core$List$any,
+			A2(elm$core$Basics$composeL, elm$core$Basics$not, isOkay),
+			list);
 	});
-var author$project$Picshare012$wsUrl = 'wss://programming-elm.com/';
-var elm$json$Json$Encode$string = _Json_wrap;
-var author$project$WebSocket$listen = _Platform_outgoingPort('listen', elm$json$Json$Encode$string);
-var elm$core$Platform$Cmd$batch = _Platform_batch;
-var elm$core$Platform$Cmd$none = elm$core$Platform$Cmd$batch(_List_Nil);
-var author$project$Picshare012$update = F2(
-	function (msg, model) {
-		switch (msg.$) {
-			case 'ToggleLike':
-				var id = msg.a;
-				return _Utils_Tuple2(
-					_Utils_update(
-						model,
-						{
-							feed: A3(author$project$Picshare012$updateFeed, author$project$Picshare012$toggleLike, id, model.feed)
-						}),
-					elm$core$Platform$Cmd$none);
-			case 'Input':
-				var id = msg.a;
-				var input = msg.b;
-				return _Utils_Tuple2(
-					_Utils_update(
-						model,
-						{
-							feed: A3(
-								author$project$Picshare012$updateFeed,
-								author$project$Picshare012$updateComment(input),
-								id,
-								model.feed)
-						}),
-					elm$core$Platform$Cmd$none);
-			case 'Submit':
-				var id = msg.a;
-				return _Utils_Tuple2(
-					_Utils_update(
-						model,
-						{
-							feed: A3(author$project$Picshare012$updateFeed, author$project$Picshare012$saveNewComment, id, model.feed)
-						}),
-					elm$core$Platform$Cmd$none);
-			case 'LoadFeed':
-				if (msg.a.$ === 'Ok') {
-					var feed = msg.a.a;
-					return _Utils_Tuple2(
-						_Utils_update(
-							model,
-							{
-								feed: elm$core$Maybe$Just(feed)
-							}),
-						author$project$WebSocket$listen(author$project$Picshare012$wsUrl));
-				} else {
-					var error = msg.a.a;
-					return _Utils_Tuple2(
-						_Utils_update(
-							model,
-							{
-								error: elm$core$Maybe$Just(error)
-							}),
-						elm$core$Platform$Cmd$none);
-				}
-			case 'LoadStreamPhoto':
-				if (msg.a.$ === 'Ok') {
-					var photo = msg.a.a;
-					return _Utils_Tuple2(
-						_Utils_update(
-							model,
-							{
-								streamQueue: A2(elm$core$List$cons, photo, model.streamQueue)
-							}),
-						elm$core$Platform$Cmd$none);
-				} else {
-					return _Utils_Tuple2(model, elm$core$Platform$Cmd$none);
-				}
-			default:
-				return _Utils_Tuple2(
-					_Utils_update(
-						model,
-						{
-							feed: A2(
-								elm$core$Maybe$map,
-								elm$core$Basics$append(model.streamQueue),
-								model.feed),
-							streamQueue: _List_Nil
-						}),
-					elm$core$Platform$Cmd$none);
-		}
-	});
-var author$project$Picshare012$errorMessage = function (error) {
-	if (error.$ === 'BadBody') {
-		return 'Sorry, we couldn\'t process your feed at this time.\nWe\'re working on it!';
-	} else {
-		return 'Sorry, we couldn\'t load your feed at this time.\nPlease try again later.';
-	}
-};
-var author$project$Picshare012$Input = F2(
-	function (a, b) {
-		return {$: 'Input', a: a, b: b};
-	});
-var author$project$Picshare012$Submit = function (a) {
-	return {$: 'Submit', a: a};
+var author$project$SaladBuilder003$isValid = function (model) {
+	return A2(
+		elm$core$List$all,
+		elm$core$Basics$identity,
+		_List_fromArray(
+			[
+				author$project$SaladBuilder003$isRequired(model.name),
+				author$project$SaladBuilder003$isRequired(model.email),
+				author$project$SaladBuilder003$isValidEmail(model.email),
+				author$project$SaladBuilder003$isRequired(model.phone),
+				author$project$SaladBuilder003$isValidPhone(model.phone)
+			]));
 };
 var elm$json$Json$Decode$map = _Json_map1;
+var elm$json$Json$Decode$map2 = _Json_map2;
+var elm$json$Json$Decode$succeed = _Json_succeed;
 var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 	switch (handler.$) {
 		case 'Normal':
@@ -6099,50 +6298,53 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 			return 3;
 	}
 };
-var elm$html$Html$li = _VirtualDom_node('li');
-var elm$html$Html$strong = _VirtualDom_node('strong');
+var elm$html$Html$div = _VirtualDom_node('div');
 var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
-var author$project$Picshare012$viewComment = function (comment) {
-	return A2(
-		elm$html$Html$li,
-		_List_Nil,
-		_List_fromArray(
-			[
-				A2(
-				elm$html$Html$strong,
-				_List_Nil,
-				_List_fromArray(
-					[
-						elm$html$Html$text('Comment:')
-					])),
-				elm$html$Html$text(' ' + comment)
-			]));
-};
-var elm$html$Html$div = _VirtualDom_node('div');
-var elm$html$Html$ul = _VirtualDom_node('ul');
-var author$project$Picshare012$viewCommentList = function (comments) {
-	if (!comments.b) {
-		return elm$html$Html$text('');
-	} else {
+var elm$html$Html$Attributes$stringProperty = F2(
+	function (key, string) {
+		return A2(
+			_VirtualDom_property,
+			key,
+			elm$json$Json$Encode$string(string));
+	});
+var elm$html$Html$Attributes$class = elm$html$Html$Attributes$stringProperty('className');
+var author$project$SaladBuilder003$viewError = function (error) {
+	if (error.$ === 'Just') {
+		var errorMessage = error.a;
 		return A2(
 			elm$html$Html$div,
-			_List_Nil,
 			_List_fromArray(
 				[
-					A2(
-					elm$html$Html$ul,
-					_List_Nil,
-					A2(elm$core$List$map, author$project$Picshare012$viewComment, comments))
+					elm$html$Html$Attributes$class('error')
+				]),
+			_List_fromArray(
+				[
+					elm$html$Html$text(errorMessage)
 				]));
+	} else {
+		return elm$html$Html$text('');
 	}
 };
-var elm$core$String$isEmpty = function (string) {
-	return string === '';
-};
+var elm$core$Dict$member = F2(
+	function (key, dict) {
+		var _n0 = A2(elm$core$Dict$get, key, dict);
+		if (_n0.$ === 'Just') {
+			return true;
+		} else {
+			return false;
+		}
+	});
+var elm$core$Set$member = F2(
+	function (key, _n0) {
+		var dict = _n0.a;
+		return A2(elm$core$Dict$member, key, dict);
+	});
 var elm$html$Html$button = _VirtualDom_node('button');
-var elm$html$Html$form = _VirtualDom_node('form');
+var elm$html$Html$h2 = _VirtualDom_node('h2');
 var elm$html$Html$input = _VirtualDom_node('input');
+var elm$html$Html$label = _VirtualDom_node('label');
+var elm$html$Html$section = _VirtualDom_node('section');
 var elm$json$Json$Encode$bool = _Json_wrap;
 var elm$html$Html$Attributes$boolProperty = F2(
 	function (key, bool) {
@@ -6151,24 +6353,51 @@ var elm$html$Html$Attributes$boolProperty = F2(
 			key,
 			elm$json$Json$Encode$bool(bool));
 	});
+var elm$html$Html$Attributes$checked = elm$html$Html$Attributes$boolProperty('checked');
 var elm$html$Html$Attributes$disabled = elm$html$Html$Attributes$boolProperty('disabled');
-var elm$html$Html$Attributes$stringProperty = F2(
-	function (key, string) {
-		return A2(
-			_VirtualDom_property,
-			key,
-			elm$json$Json$Encode$string(string));
-	});
-var elm$html$Html$Attributes$placeholder = elm$html$Html$Attributes$stringProperty('placeholder');
+var elm$html$Html$Attributes$name = elm$html$Html$Attributes$stringProperty('name');
 var elm$html$Html$Attributes$type_ = elm$html$Html$Attributes$stringProperty('type');
 var elm$html$Html$Attributes$value = elm$html$Html$Attributes$stringProperty('value');
+var elm$virtual_dom$VirtualDom$Normal = function (a) {
+	return {$: 'Normal', a: a};
+};
+var elm$virtual_dom$VirtualDom$on = _VirtualDom_on;
+var elm$html$Html$Events$on = F2(
+	function (event, decoder) {
+		return A2(
+			elm$virtual_dom$VirtualDom$on,
+			event,
+			elm$virtual_dom$VirtualDom$Normal(decoder));
+	});
+var elm$json$Json$Decode$field = _Json_decodeField;
+var elm$json$Json$Decode$at = F2(
+	function (fields, decoder) {
+		return A3(elm$core$List$foldr, elm$json$Json$Decode$field, decoder, fields);
+	});
+var elm$json$Json$Decode$bool = _Json_decodeBool;
+var elm$html$Html$Events$targetChecked = A2(
+	elm$json$Json$Decode$at,
+	_List_fromArray(
+		['target', 'checked']),
+	elm$json$Json$Decode$bool);
+var elm$html$Html$Events$onCheck = function (tagger) {
+	return A2(
+		elm$html$Html$Events$on,
+		'change',
+		A2(elm$json$Json$Decode$map, tagger, elm$html$Html$Events$targetChecked));
+};
+var elm$html$Html$Events$onClick = function (msg) {
+	return A2(
+		elm$html$Html$Events$on,
+		'click',
+		elm$json$Json$Decode$succeed(msg));
+};
 var elm$html$Html$Events$alwaysStop = function (x) {
 	return _Utils_Tuple2(x, true);
 };
 var elm$virtual_dom$VirtualDom$MayStopPropagation = function (a) {
 	return {$: 'MayStopPropagation', a: a};
 };
-var elm$virtual_dom$VirtualDom$on = _VirtualDom_on;
 var elm$html$Html$Events$stopPropagationOn = F2(
 	function (event, decoder) {
 		return A2(
@@ -6176,10 +6405,7 @@ var elm$html$Html$Events$stopPropagationOn = F2(
 			event,
 			elm$virtual_dom$VirtualDom$MayStopPropagation(decoder));
 	});
-var elm$json$Json$Decode$at = F2(
-	function (fields, decoder) {
-		return A3(elm$core$List$foldr, elm$json$Json$Decode$field, decoder, fields);
-	});
+var elm$json$Json$Decode$string = _Json_decodeString;
 var elm$html$Html$Events$targetValue = A2(
 	elm$json$Json$Decode$at,
 	_List_fromArray(
@@ -6194,329 +6420,654 @@ var elm$html$Html$Events$onInput = function (tagger) {
 			elm$html$Html$Events$alwaysStop,
 			A2(elm$json$Json$Decode$map, tagger, elm$html$Html$Events$targetValue)));
 };
-var elm$html$Html$Events$alwaysPreventDefault = function (msg) {
-	return _Utils_Tuple2(msg, true);
-};
-var elm$virtual_dom$VirtualDom$MayPreventDefault = function (a) {
-	return {$: 'MayPreventDefault', a: a};
-};
-var elm$html$Html$Events$preventDefaultOn = F2(
-	function (event, decoder) {
-		return A2(
-			elm$virtual_dom$VirtualDom$on,
-			event,
-			elm$virtual_dom$VirtualDom$MayPreventDefault(decoder));
-	});
-var elm$html$Html$Events$onSubmit = function (msg) {
-	return A2(
-		elm$html$Html$Events$preventDefaultOn,
-		'submit',
-		A2(
-			elm$json$Json$Decode$map,
-			elm$html$Html$Events$alwaysPreventDefault,
-			elm$json$Json$Decode$succeed(msg)));
-};
-var author$project$Picshare012$viewComments = function (photo) {
+var author$project$SaladBuilder003$viewBuild = function (model) {
 	return A2(
 		elm$html$Html$div,
 		_List_Nil,
 		_List_fromArray(
 			[
-				author$project$Picshare012$viewCommentList(photo.comments),
+				author$project$SaladBuilder003$viewError(model.error),
 				A2(
-				elm$html$Html$form,
+				elm$html$Html$section,
 				_List_fromArray(
 					[
-						elm$html$Html$Events$onSubmit(
-						author$project$Picshare012$Submit(photo.id))
+						elm$html$Html$Attributes$class('salad-section')
 					]),
 				_List_fromArray(
 					[
 						A2(
-						elm$html$Html$input,
+						elm$html$Html$h2,
+						_List_Nil,
 						_List_fromArray(
 							[
-								elm$html$Html$Attributes$type_('text'),
-								elm$html$Html$Attributes$placeholder('Add a comment...'),
-								elm$html$Html$Attributes$value(photo.newComment),
-								elm$html$Html$Events$onInput(
-								author$project$Picshare012$Input(photo.id))
+								elm$html$Html$text('1. Select Base')
+							])),
+						A2(
+						elm$html$Html$label,
+						_List_fromArray(
+							[
+								elm$html$Html$Attributes$class('select-option')
 							]),
-						_List_Nil),
+						_List_fromArray(
+							[
+								A2(
+								elm$html$Html$input,
+								_List_fromArray(
+									[
+										elm$html$Html$Attributes$type_('radio'),
+										elm$html$Html$Attributes$name('base'),
+										elm$html$Html$Attributes$checked(
+										_Utils_eq(model.salad.base, author$project$SaladBuilder003$Lettuce)),
+										elm$html$Html$Events$onClick(
+										author$project$SaladBuilder003$SaladMsg(
+											author$project$SaladBuilder003$SetBase(author$project$SaladBuilder003$Lettuce)))
+									]),
+								_List_Nil),
+								elm$html$Html$text('Lettuce')
+							])),
+						A2(
+						elm$html$Html$label,
+						_List_fromArray(
+							[
+								elm$html$Html$Attributes$class('select-option')
+							]),
+						_List_fromArray(
+							[
+								A2(
+								elm$html$Html$input,
+								_List_fromArray(
+									[
+										elm$html$Html$Attributes$type_('radio'),
+										elm$html$Html$Attributes$name('base'),
+										elm$html$Html$Attributes$checked(
+										_Utils_eq(model.salad.base, author$project$SaladBuilder003$Spinach)),
+										elm$html$Html$Events$onClick(
+										author$project$SaladBuilder003$SaladMsg(
+											author$project$SaladBuilder003$SetBase(author$project$SaladBuilder003$Spinach)))
+									]),
+								_List_Nil),
+								elm$html$Html$text('Spinach')
+							])),
+						A2(
+						elm$html$Html$label,
+						_List_fromArray(
+							[
+								elm$html$Html$Attributes$class('select-option')
+							]),
+						_List_fromArray(
+							[
+								A2(
+								elm$html$Html$input,
+								_List_fromArray(
+									[
+										elm$html$Html$Attributes$type_('radio'),
+										elm$html$Html$Attributes$name('base'),
+										elm$html$Html$Attributes$checked(
+										_Utils_eq(model.salad.base, author$project$SaladBuilder003$SpringMix)),
+										elm$html$Html$Events$onClick(
+										author$project$SaladBuilder003$SaladMsg(
+											author$project$SaladBuilder003$SetBase(author$project$SaladBuilder003$SpringMix)))
+									]),
+								_List_Nil),
+								elm$html$Html$text('Spring Mix')
+							]))
+					])),
+				A2(
+				elm$html$Html$section,
+				_List_fromArray(
+					[
+						elm$html$Html$Attributes$class('salad-section')
+					]),
+				_List_fromArray(
+					[
+						A2(
+						elm$html$Html$h2,
+						_List_Nil,
+						_List_fromArray(
+							[
+								elm$html$Html$text('2. Select Toppings')
+							])),
+						A2(
+						elm$html$Html$label,
+						_List_fromArray(
+							[
+								elm$html$Html$Attributes$class('select-option')
+							]),
+						_List_fromArray(
+							[
+								A2(
+								elm$html$Html$input,
+								_List_fromArray(
+									[
+										elm$html$Html$Attributes$type_('checkbox'),
+										elm$html$Html$Attributes$checked(
+										A2(
+											elm$core$Set$member,
+											author$project$SaladBuilder003$toppingToString(author$project$SaladBuilder003$Tomatoes),
+											model.salad.toppings)),
+										elm$html$Html$Events$onCheck(
+										A2(
+											elm$core$Basics$composeL,
+											author$project$SaladBuilder003$SaladMsg,
+											author$project$SaladBuilder003$ToggleTopping(author$project$SaladBuilder003$Tomatoes)))
+									]),
+								_List_Nil),
+								elm$html$Html$text('Tomatoes')
+							])),
+						A2(
+						elm$html$Html$label,
+						_List_fromArray(
+							[
+								elm$html$Html$Attributes$class('select-option')
+							]),
+						_List_fromArray(
+							[
+								A2(
+								elm$html$Html$input,
+								_List_fromArray(
+									[
+										elm$html$Html$Attributes$type_('checkbox'),
+										elm$html$Html$Attributes$checked(
+										A2(
+											elm$core$Set$member,
+											author$project$SaladBuilder003$toppingToString(author$project$SaladBuilder003$Cucumbers),
+											model.salad.toppings)),
+										elm$html$Html$Events$onCheck(
+										A2(
+											elm$core$Basics$composeL,
+											author$project$SaladBuilder003$SaladMsg,
+											author$project$SaladBuilder003$ToggleTopping(author$project$SaladBuilder003$Cucumbers)))
+									]),
+								_List_Nil),
+								elm$html$Html$text('Cucumbers')
+							])),
+						A2(
+						elm$html$Html$label,
+						_List_fromArray(
+							[
+								elm$html$Html$Attributes$class('select-option')
+							]),
+						_List_fromArray(
+							[
+								A2(
+								elm$html$Html$input,
+								_List_fromArray(
+									[
+										elm$html$Html$Attributes$type_('checkbox'),
+										elm$html$Html$Attributes$checked(
+										A2(
+											elm$core$Set$member,
+											author$project$SaladBuilder003$toppingToString(author$project$SaladBuilder003$Onions),
+											model.salad.toppings)),
+										elm$html$Html$Events$onCheck(
+										A2(
+											elm$core$Basics$composeL,
+											author$project$SaladBuilder003$SaladMsg,
+											author$project$SaladBuilder003$ToggleTopping(author$project$SaladBuilder003$Onions)))
+									]),
+								_List_Nil),
+								elm$html$Html$text('Onions')
+							]))
+					])),
+				A2(
+				elm$html$Html$section,
+				_List_fromArray(
+					[
+						elm$html$Html$Attributes$class('salad-section')
+					]),
+				_List_fromArray(
+					[
+						A2(
+						elm$html$Html$h2,
+						_List_Nil,
+						_List_fromArray(
+							[
+								elm$html$Html$text('3. Select Dressing')
+							])),
+						A2(
+						elm$html$Html$label,
+						_List_fromArray(
+							[
+								elm$html$Html$Attributes$class('select-option')
+							]),
+						_List_fromArray(
+							[
+								A2(
+								elm$html$Html$input,
+								_List_fromArray(
+									[
+										elm$html$Html$Attributes$type_('radio'),
+										elm$html$Html$Attributes$name('dressing'),
+										elm$html$Html$Attributes$checked(
+										_Utils_eq(model.salad.dressing, author$project$SaladBuilder003$NoDressing)),
+										elm$html$Html$Events$onClick(
+										author$project$SaladBuilder003$SaladMsg(
+											author$project$SaladBuilder003$SetDressing(author$project$SaladBuilder003$NoDressing)))
+									]),
+								_List_Nil),
+								elm$html$Html$text('None')
+							])),
+						A2(
+						elm$html$Html$label,
+						_List_fromArray(
+							[
+								elm$html$Html$Attributes$class('select-option')
+							]),
+						_List_fromArray(
+							[
+								A2(
+								elm$html$Html$input,
+								_List_fromArray(
+									[
+										elm$html$Html$Attributes$type_('radio'),
+										elm$html$Html$Attributes$name('dressing'),
+										elm$html$Html$Attributes$checked(
+										_Utils_eq(model.salad.dressing, author$project$SaladBuilder003$Italian)),
+										elm$html$Html$Events$onClick(
+										author$project$SaladBuilder003$SaladMsg(
+											author$project$SaladBuilder003$SetDressing(author$project$SaladBuilder003$Italian)))
+									]),
+								_List_Nil),
+								elm$html$Html$text('Italian')
+							])),
+						A2(
+						elm$html$Html$label,
+						_List_fromArray(
+							[
+								elm$html$Html$Attributes$class('select-option')
+							]),
+						_List_fromArray(
+							[
+								A2(
+								elm$html$Html$input,
+								_List_fromArray(
+									[
+										elm$html$Html$Attributes$type_('radio'),
+										elm$html$Html$Attributes$name('dressing'),
+										elm$html$Html$Attributes$checked(
+										_Utils_eq(model.salad.dressing, author$project$SaladBuilder003$RaspberryVinaigrette)),
+										elm$html$Html$Events$onClick(
+										author$project$SaladBuilder003$SaladMsg(
+											author$project$SaladBuilder003$SetDressing(author$project$SaladBuilder003$RaspberryVinaigrette)))
+									]),
+								_List_Nil),
+								elm$html$Html$text('Raspberry Vinaigrette')
+							])),
+						A2(
+						elm$html$Html$label,
+						_List_fromArray(
+							[
+								elm$html$Html$Attributes$class('select-option')
+							]),
+						_List_fromArray(
+							[
+								A2(
+								elm$html$Html$input,
+								_List_fromArray(
+									[
+										elm$html$Html$Attributes$type_('radio'),
+										elm$html$Html$Attributes$name('dressing'),
+										elm$html$Html$Attributes$checked(
+										_Utils_eq(model.salad.dressing, author$project$SaladBuilder003$OilVinegar)),
+										elm$html$Html$Events$onClick(
+										author$project$SaladBuilder003$SaladMsg(
+											author$project$SaladBuilder003$SetDressing(author$project$SaladBuilder003$OilVinegar)))
+									]),
+								_List_Nil),
+								elm$html$Html$text('Oil and Vinegar')
+							]))
+					])),
+				A2(
+				elm$html$Html$section,
+				_List_fromArray(
+					[
+						elm$html$Html$Attributes$class('salad-section')
+					]),
+				_List_fromArray(
+					[
+						A2(
+						elm$html$Html$h2,
+						_List_Nil,
+						_List_fromArray(
+							[
+								elm$html$Html$text('4. Enter Contact Info')
+							])),
+						A2(
+						elm$html$Html$div,
+						_List_fromArray(
+							[
+								elm$html$Html$Attributes$class('text-input')
+							]),
+						_List_fromArray(
+							[
+								A2(
+								elm$html$Html$label,
+								_List_Nil,
+								_List_fromArray(
+									[
+										A2(
+										elm$html$Html$div,
+										_List_Nil,
+										_List_fromArray(
+											[
+												elm$html$Html$text('Name:')
+											])),
+										A2(
+										elm$html$Html$input,
+										_List_fromArray(
+											[
+												elm$html$Html$Attributes$type_('text'),
+												elm$html$Html$Attributes$value(model.name),
+												elm$html$Html$Events$onInput(author$project$SaladBuilder003$SetName)
+											]),
+										_List_Nil)
+									]))
+							])),
+						A2(
+						elm$html$Html$div,
+						_List_fromArray(
+							[
+								elm$html$Html$Attributes$class('text-input')
+							]),
+						_List_fromArray(
+							[
+								A2(
+								elm$html$Html$label,
+								_List_Nil,
+								_List_fromArray(
+									[
+										A2(
+										elm$html$Html$div,
+										_List_Nil,
+										_List_fromArray(
+											[
+												elm$html$Html$text('Email:')
+											])),
+										A2(
+										elm$html$Html$input,
+										_List_fromArray(
+											[
+												elm$html$Html$Attributes$type_('text'),
+												elm$html$Html$Attributes$value(model.email),
+												elm$html$Html$Events$onInput(author$project$SaladBuilder003$SetEmail)
+											]),
+										_List_Nil)
+									]))
+							])),
+						A2(
+						elm$html$Html$div,
+						_List_fromArray(
+							[
+								elm$html$Html$Attributes$class('text-input')
+							]),
+						_List_fromArray(
+							[
+								A2(
+								elm$html$Html$label,
+								_List_Nil,
+								_List_fromArray(
+									[
+										A2(
+										elm$html$Html$div,
+										_List_Nil,
+										_List_fromArray(
+											[
+												elm$html$Html$text('Phone:')
+											])),
+										A2(
+										elm$html$Html$input,
+										_List_fromArray(
+											[
+												elm$html$Html$Attributes$type_('text'),
+												elm$html$Html$Attributes$value(model.phone),
+												elm$html$Html$Events$onInput(author$project$SaladBuilder003$SetPhone)
+											]),
+										_List_Nil)
+									]))
+							])),
 						A2(
 						elm$html$Html$button,
 						_List_fromArray(
 							[
+								elm$html$Html$Attributes$class('send-button'),
 								elm$html$Html$Attributes$disabled(
-								elm$core$String$isEmpty(
-									elm$core$String$trim(photo.newComment)))
+								!author$project$SaladBuilder003$isValid(model)),
+								elm$html$Html$Events$onClick(author$project$SaladBuilder003$Send)
 							]),
 						_List_fromArray(
 							[
-								elm$html$Html$text('Save')
+								elm$html$Html$text('Send Order')
 							]))
 					]))
 			]));
 };
-var author$project$Picshare012$ToggleLike = function (a) {
-	return {$: 'ToggleLike', a: a};
-};
-var elm$svg$Svg$trustedNode = _VirtualDom_nodeNS('http://www.w3.org/2000/svg');
-var elm$svg$Svg$path = elm$svg$Svg$trustedNode('path');
-var elm$svg$Svg$svg = elm$svg$Svg$trustedNode('svg');
-var elm$svg$Svg$Attributes$d = _VirtualDom_attribute('d');
-var elm$svg$Svg$Attributes$fill = _VirtualDom_attribute('fill');
-var elm$svg$Svg$Attributes$height = _VirtualDom_attribute('height');
-var elm$svg$Svg$Attributes$viewBox = _VirtualDom_attribute('viewBox');
-var elm$svg$Svg$Attributes$width = _VirtualDom_attribute('width');
-var author$project$Picshare012$blackheart = A2(
-	elm$svg$Svg$svg,
-	_List_fromArray(
-		[
-			elm$svg$Svg$Attributes$width('28'),
-			elm$svg$Svg$Attributes$height('28'),
-			elm$svg$Svg$Attributes$viewBox('0 0 28 28')
-		]),
-	_List_fromArray(
-		[
-			A2(
-			elm$svg$Svg$path,
-			_List_fromArray(
-				[
-					elm$svg$Svg$Attributes$d('M14 26c-0.25 0-0.5-0.094-0.688-0.281l-9.75-9.406c-0.125-0.109-3.563-3.25-3.563-7 0-4.578 2.797-7.313 7.469-7.313 2.734 0 5.297 2.156 6.531 3.375 1.234-1.219 3.797-3.375 6.531-3.375 4.672 0 7.469 2.734 7.469 7.313 0 3.75-3.437 6.891-3.578 7.031l-9.734 9.375c-0.187 0.187-0.438 0.281-0.688 0.281z'),
-					elm$svg$Svg$Attributes$fill('black')
-				]),
-			_List_Nil)
-		]));
-var author$project$Picshare012$pinkheart = A2(
-	elm$svg$Svg$svg,
-	_List_fromArray(
-		[
-			elm$svg$Svg$Attributes$width('28'),
-			elm$svg$Svg$Attributes$height('28'),
-			elm$svg$Svg$Attributes$viewBox('0 0 28 28')
-		]),
-	_List_fromArray(
-		[
-			A2(
-			elm$svg$Svg$path,
-			_List_fromArray(
-				[
-					elm$svg$Svg$Attributes$d('M14 26c-0.25 0-0.5-0.094-0.688-0.281l-9.75-9.406c-0.125-0.109-3.563-3.25-3.563-7 0-4.578 2.797-7.313 7.469-7.313 2.734 0 5.297 2.156 6.531 3.375 1.234-1.219 3.797-3.375 6.531-3.375 4.672 0 7.469 2.734 7.469 7.313 0 3.75-3.437 6.891-3.578 7.031l-9.734 9.375c-0.187 0.187-0.438 0.281-0.688 0.281z'),
-					elm$svg$Svg$Attributes$fill('pink')
-				]),
-			_List_Nil)
-		]));
-var elm$html$Html$p = _VirtualDom_node('p');
-var elm$html$Html$span = _VirtualDom_node('span');
-var elm$html$Html$Attributes$align = elm$html$Html$Attributes$stringProperty('align');
-var elm$virtual_dom$VirtualDom$Normal = function (a) {
-	return {$: 'Normal', a: a};
-};
-var elm$html$Html$Events$on = F2(
-	function (event, decoder) {
-		return A2(
-			elm$virtual_dom$VirtualDom$on,
-			event,
-			elm$virtual_dom$VirtualDom$Normal(decoder));
+var elm$core$List$map = F2(
+	function (f, xs) {
+		return A3(
+			elm$core$List$foldr,
+			F2(
+				function (x, acc) {
+					return A2(
+						elm$core$List$cons,
+						f(x),
+						acc);
+				}),
+			_List_Nil,
+			xs);
 	});
-var elm$html$Html$Events$onClick = function (msg) {
-	return A2(
-		elm$html$Html$Events$on,
-		'click',
-		elm$json$Json$Decode$succeed(msg));
-};
-var author$project$Picshare012$viewLoveButton = function (photo) {
-	var whichheart = photo.liked ? author$project$Picshare012$pinkheart : author$project$Picshare012$blackheart;
+var elm$html$Html$li = _VirtualDom_node('li');
+var elm$html$Html$p = _VirtualDom_node('p');
+var elm$html$Html$table = _VirtualDom_node('table');
+var elm$html$Html$td = _VirtualDom_node('td');
+var elm$html$Html$th = _VirtualDom_node('th');
+var elm$html$Html$tr = _VirtualDom_node('tr');
+var elm$html$Html$ul = _VirtualDom_node('ul');
+var author$project$SaladBuilder003$viewConfirmation = function (model) {
 	return A2(
 		elm$html$Html$div,
 		_List_fromArray(
 			[
-				elm$html$Html$Attributes$align('center')
+				elm$html$Html$Attributes$class('confirmation')
 			]),
 		_List_fromArray(
 			[
 				A2(
-				elm$html$Html$span,
+				elm$html$Html$h2,
+				_List_Nil,
 				_List_fromArray(
 					[
-						elm$html$Html$Events$onClick(
-						author$project$Picshare012$ToggleLike(photo.id))
-					]),
-				_List_fromArray(
-					[whichheart])),
+						elm$html$Html$text('Woo hoo!')
+					])),
 				A2(
 				elm$html$Html$p,
 				_List_Nil,
 				_List_fromArray(
 					[
-						elm$html$Html$text('click the heart icon to toggle its color between pink and black')
-					]))
-			]));
-};
-var elm$html$Html$h2 = _VirtualDom_node('h2');
-var elm$html$Html$img = _VirtualDom_node('img');
-var elm$html$Html$Attributes$class = elm$html$Html$Attributes$stringProperty('className');
-var elm$html$Html$Attributes$src = function (url) {
-	return A2(
-		elm$html$Html$Attributes$stringProperty,
-		'src',
-		_VirtualDom_noJavaScriptOrHtmlUri(url));
-};
-var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
-var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
-var author$project$Picshare012$viewDetailedPhoto = function (photo) {
-	return A2(
-		elm$html$Html$div,
-		_List_fromArray(
-			[
-				elm$html$Html$Attributes$class('detailed-photo'),
-				A2(elm$html$Html$Attributes$style, 'box-shadow', '0 0 10px #555'),
-				A2(elm$html$Html$Attributes$style, 'background', 'yellow')
-			]),
-		_List_fromArray(
-			[
+						elm$html$Html$text('Thanks for your order!')
+					])),
 				A2(
-				elm$html$Html$img,
+				elm$html$Html$table,
+				_List_Nil,
 				_List_fromArray(
 					[
-						elm$html$Html$Attributes$src(photo.url),
-						A2(elm$html$Html$Attributes$style, 'width', '400px'),
-						A2(elm$html$Html$Attributes$style, 'margin-top', '10px')
-					]),
-				_List_Nil),
-				A2(
-				elm$html$Html$div,
-				_List_fromArray(
-					[
-						elm$html$Html$Attributes$class('photo-info'),
-						A2(elm$html$Html$Attributes$style, 'padding-bottom', '10px')
-					]),
-				_List_fromArray(
-					[
-						author$project$Picshare012$viewLoveButton(photo),
 						A2(
-						elm$html$Html$h2,
+						elm$html$Html$tr,
+						_List_Nil,
 						_List_fromArray(
 							[
-								elm$html$Html$Attributes$class('caption'),
-								A2(elm$html$Html$Attributes$style, 'font-size', '30px'),
-								A2(elm$html$Html$Attributes$style, 'font-weight', 'lighter'),
-								A2(elm$html$Html$Attributes$style, 'font-style', 'italic'),
-								A2(elm$html$Html$Attributes$style, 'margin', '0 0 10px 0')
-							]),
-						_List_fromArray(
-							[
-								elm$html$Html$text(photo.caption)
+								A2(
+								elm$html$Html$th,
+								_List_Nil,
+								_List_fromArray(
+									[
+										elm$html$Html$text('Base:')
+									])),
+								A2(
+								elm$html$Html$td,
+								_List_Nil,
+								_List_fromArray(
+									[
+										elm$html$Html$text(
+										author$project$SaladBuilder003$baseToString(model.salad.base))
+									]))
 							])),
-						author$project$Picshare012$viewComments(photo)
+						A2(
+						elm$html$Html$tr,
+						_List_Nil,
+						_List_fromArray(
+							[
+								A2(
+								elm$html$Html$th,
+								_List_Nil,
+								_List_fromArray(
+									[
+										elm$html$Html$text('Toppings:')
+									])),
+								A2(
+								elm$html$Html$td,
+								_List_Nil,
+								_List_fromArray(
+									[
+										A2(
+										elm$html$Html$ul,
+										_List_Nil,
+										A2(
+											elm$core$List$map,
+											function (topping) {
+												return A2(
+													elm$html$Html$li,
+													_List_Nil,
+													_List_fromArray(
+														[
+															elm$html$Html$text(topping)
+														]));
+											},
+											elm$core$Set$toList(model.salad.toppings)))
+									]))
+							])),
+						A2(
+						elm$html$Html$tr,
+						_List_Nil,
+						_List_fromArray(
+							[
+								A2(
+								elm$html$Html$th,
+								_List_Nil,
+								_List_fromArray(
+									[
+										elm$html$Html$text('Dressing:')
+									])),
+								A2(
+								elm$html$Html$td,
+								_List_Nil,
+								_List_fromArray(
+									[
+										elm$html$Html$text(
+										author$project$SaladBuilder003$dressingToString(model.salad.dressing))
+									]))
+							])),
+						A2(
+						elm$html$Html$tr,
+						_List_Nil,
+						_List_fromArray(
+							[
+								A2(
+								elm$html$Html$th,
+								_List_Nil,
+								_List_fromArray(
+									[
+										elm$html$Html$text('Name:')
+									])),
+								A2(
+								elm$html$Html$td,
+								_List_Nil,
+								_List_fromArray(
+									[
+										elm$html$Html$text(model.name)
+									]))
+							])),
+						A2(
+						elm$html$Html$tr,
+						_List_Nil,
+						_List_fromArray(
+							[
+								A2(
+								elm$html$Html$th,
+								_List_Nil,
+								_List_fromArray(
+									[
+										elm$html$Html$text('Email:')
+									])),
+								A2(
+								elm$html$Html$td,
+								_List_Nil,
+								_List_fromArray(
+									[
+										elm$html$Html$text(model.email)
+									]))
+							])),
+						A2(
+						elm$html$Html$tr,
+						_List_Nil,
+						_List_fromArray(
+							[
+								A2(
+								elm$html$Html$th,
+								_List_Nil,
+								_List_fromArray(
+									[
+										elm$html$Html$text('Phone:')
+									])),
+								A2(
+								elm$html$Html$td,
+								_List_Nil,
+								_List_fromArray(
+									[
+										elm$html$Html$text(model.phone)
+									]))
+							]))
 					]))
 			]));
 };
-var author$project$Picshare012$viewFeed = function (maybeFeed) {
-	if (maybeFeed.$ === 'Just') {
-		var feed = maybeFeed.a;
-		return A2(
-			elm$html$Html$div,
-			_List_Nil,
-			A2(elm$core$List$map, author$project$Picshare012$viewDetailedPhoto, feed));
-	} else {
-		return A2(
-			elm$html$Html$div,
-			_List_fromArray(
-				[
-					elm$html$Html$Attributes$class('loading-feed')
-				]),
-			_List_fromArray(
-				[
-					elm$html$Html$text('Loading Feed...')
-				]));
-	}
-};
-var author$project$Picshare012$FlushStreamQueue = {$: 'FlushStreamQueue'};
-var author$project$Picshare012$viewStreamNotification = function (queue) {
-	if (!queue.b) {
-		return elm$html$Html$text('');
-	} else {
-		var content = 'View new photos: ' + elm$core$String$fromInt(
-			elm$core$List$length(queue));
-		return A2(
-			elm$html$Html$div,
-			_List_fromArray(
-				[
-					elm$html$Html$Attributes$class('stream-notification'),
-					elm$html$Html$Events$onClick(author$project$Picshare012$FlushStreamQueue)
-				]),
-			_List_fromArray(
-				[
-					elm$html$Html$text(content)
-				]));
-	}
-};
-var author$project$Picshare012$viewContent = function (model) {
-	var _n0 = model.error;
-	if (_n0.$ === 'Just') {
-		var error = _n0.a;
-		return A2(
-			elm$html$Html$div,
-			_List_fromArray(
-				[
-					elm$html$Html$Attributes$class('feed-error')
-				]),
-			_List_fromArray(
-				[
-					elm$html$Html$text(
-					author$project$Picshare012$errorMessage(error))
-				]));
-	} else {
-		return A2(
-			elm$html$Html$div,
-			_List_Nil,
-			_List_fromArray(
-				[
-					author$project$Picshare012$viewStreamNotification(model.streamQueue),
-					author$project$Picshare012$viewFeed(model.feed)
-				]));
-	}
+var author$project$SaladBuilder003$viewSending = A2(
+	elm$html$Html$div,
+	_List_fromArray(
+		[
+			elm$html$Html$Attributes$class('sending')
+		]),
+	_List_fromArray(
+		[
+			elm$html$Html$text('Sending Order...')
+		]));
+var author$project$SaladBuilder003$viewStep = function (model) {
+	return model.sending ? author$project$SaladBuilder003$viewSending : (model.building ? author$project$SaladBuilder003$viewBuild(model) : author$project$SaladBuilder003$viewConfirmation(model));
 };
 var elm$html$Html$h1 = _VirtualDom_node('h1');
-var author$project$Picshare012$view = function (model) {
+var author$project$SaladBuilder003$view = function (model) {
 	return A2(
 		elm$html$Html$div,
 		_List_Nil,
 		_List_fromArray(
 			[
 				A2(
-				elm$html$Html$div,
+				elm$html$Html$h1,
 				_List_fromArray(
 					[
-						elm$html$Html$Attributes$class('header'),
-						A2(elm$html$Html$Attributes$style, 'background-color', '#aaa'),
-						A2(elm$html$Html$Attributes$style, 'padding-bottom', '10px'),
-						A2(elm$html$Html$Attributes$style, 'padding-top', '10px'),
-						A2(elm$html$Html$Attributes$style, 'text-align', 'center')
+						elm$html$Html$Attributes$class('header')
 					]),
 				_List_fromArray(
 					[
-						A2(
-						elm$html$Html$h1,
-						_List_Nil,
-						_List_fromArray(
-							[
-								elm$html$Html$text('Picshare')
-							]))
+						elm$html$Html$text('Saladise - Build a Salad')
 					])),
 				A2(
 				elm$html$Html$div,
 				_List_fromArray(
 					[
-						elm$html$Html$Attributes$class('content-flow'),
-						A2(elm$html$Html$Attributes$style, 'margin', 'auto'),
-						A2(elm$html$Html$Attributes$style, 'width', '400px')
+						elm$html$Html$Attributes$class('content')
 					]),
 				_List_fromArray(
 					[
-						author$project$Picshare012$viewContent(model)
+						author$project$SaladBuilder003$viewStep(model)
 					]))
 			]));
 };
@@ -6606,6 +7157,9 @@ var elm$core$String$startsWith = _String_startsWith;
 var elm$url$Url$Http = {$: 'Http'};
 var elm$url$Url$Https = {$: 'Https'};
 var elm$core$String$indexes = _String_indexes;
+var elm$core$String$isEmpty = function (string) {
+	return string === '';
+};
 var elm$core$String$left = F2(
 	function (n, string) {
 		return (n < 1) ? '' : A3(elm$core$String$slice, 0, n, string);
@@ -6719,7 +7273,18 @@ var elm$url$Url$fromString = function (str) {
 		A2(elm$core$String$dropLeft, 8, str)) : elm$core$Maybe$Nothing);
 };
 var elm$browser$Browser$element = _Browser_element;
-var author$project$Picshare012$main = elm$browser$Browser$element(
-	{init: author$project$Picshare012$init, subscriptions: author$project$Picshare012$subscriptions, update: author$project$Picshare012$update, view: author$project$Picshare012$view});
-_Platform_export({'Picshare012':{'init':author$project$Picshare012$main(
+var elm$core$Basics$always = F2(
+	function (a, _n0) {
+		return a;
+	});
+var elm$core$Platform$Sub$batch = _Platform_batch;
+var elm$core$Platform$Sub$none = elm$core$Platform$Sub$batch(_List_Nil);
+var author$project$SaladBuilder003$main = elm$browser$Browser$element(
+	{
+		init: author$project$SaladBuilder003$init,
+		subscriptions: elm$core$Basics$always(elm$core$Platform$Sub$none),
+		update: author$project$SaladBuilder003$update,
+		view: author$project$SaladBuilder003$view
+	});
+_Platform_export({'SaladBuilder003':{'init':author$project$SaladBuilder003$main(
 	elm$json$Json$Decode$succeed(_Utils_Tuple0))(0)}});}(this));
