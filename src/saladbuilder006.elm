@@ -1,6 +1,7 @@
-module SaladBuilder005 exposing (main)
+module SaladBuilder006 exposing (main)
 
--- remove view duplication p.133
+--  p.143
+-- debug
 
 import Browser
 import Html exposing (Html, button, div, h1, h2, input, label, li, p, section, table, td, text, th, tr, ul)
