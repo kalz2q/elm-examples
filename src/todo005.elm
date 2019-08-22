@@ -20,10 +20,6 @@ main =
 
 
 -- MODEL
--- type alias Model =
---     { text : String
---     , todos : List String
---     }
 
 
 type alias Model =
@@ -50,47 +46,66 @@ init =
     Model "" All []
 
 
+type Msg
+    = Add
+    | UpdateField String
+    | Toggle Int
+    | SetVisibility Visibility
+
+
 
 -- UPDATE
-
-
-type Msg
-    = NewTodo String
-    | AddTodo
-    | RemoveTodo Int
 
 
 update : Msg -> Model -> Model
 update msg model =
     case msg of
-        NewTodo newTodo ->
-            { model | text = newTodo }
+        UpdateField todo ->
+            { model | field = todo }
 
-        AddTodo ->
-            { model | text = "", todos = model.todos ++ [ model.text ] }
-
-        RemoveTodo index ->
+        Add ->
             let
-                beforeTodos =
-                    List.take index model.todos
+                nextId : Int
+                nextId =
+                    case List.head model.todos of
+                        Nothing ->
+                            0
 
-                afterTodos =
-                    List.drop (index + 1) model.todos
-
-                newTodos =
-                    beforeTodos ++ afterTodos
+                        Just todo ->
+                            todo.id + 1
             in
-            { model | todos = newTodos }
+            { model
+                | field = ""
+                , todos =
+                    { id = nextId
+                    , title = model.field
+                    , completed = False
+                    }
+            }
+
+        Toggle id ->
+            let
+                updateTodo todo =
+                    if todo.id == id then
+                        { todo | completed = not todo.completed }
+
+                    else
+                        todo
+            in
+            { model | todos = List.map updateTodo model.todos }
+
+        SetVisibility visibility ->
+            { model | filter = visibility }
 
 
 view : Model -> Html Msg
 view model =
     div []
-        [ form [ HE.onSubmit AddTodo ]
+        [ form [ HE.onSubmit Add ]
             [ div []
                 [ input
-                    [ HE.onInput NewTodo
-                    , HA.value model.text
+                    [ HE.onInput UpdateField
+                    , HA.value model.field
                     , HA.autofocus True
                     , HA.placeholder """ Enter "todo" """
                     ]
@@ -101,19 +116,103 @@ view model =
                     [ text "+" ]
                 ]
             ]
-        , div []
-            (List.indexedMap viewTodo model.todos)
+        , ul []
+            (model.todos
+                |> List.filter (filterTodo model.filter)
+                |> List.map renderTodo
+            )
+        , model.todos
+            |> itemsLeft
+            |> String.fromInt
+            |> String.append "Item left : "
+            |> text
+        , filterView model.filter
         ]
 
 
-viewTodo : Int -> String -> Html Msg
-viewTodo index todo =
-    div []
-        [ div []
-            [ text todo
-            , span
-                [ HE.onClick (RemoveTodo index)
-                ]
-                [ text "----->      ✖ (when done , click to delete from list) " ]
+filterTodo : Visibility -> Todo -> Bool
+filterTodo visibility todo =
+    case visibility of
+        All ->
+            True
+
+        Active ->
+            not todo.completed
+
+        Completed ->
+            todo.completed
+
+
+itemsLeft : List Todo -> Int
+itemsLeft todos =
+    let
+        nbCompleted : Int
+        nbCompleted =
+            List.foldl
+                (\item count ->
+                    if item.completed then
+                        count + 1
+
+                    else
+                        count
+                )
+                0
+                todos
+    in
+    List.length todos - nbCompleted
+
+
+renderTodo : Todo -> ( String, Html Msg )
+renderTodo todo =
+    let
+        lineThroughStyle =
+            HA.style
+                (if todo.completed then
+                    [ ( "text-decoration", "line-through" ) ]
+
+                 else
+                    []
+                )
+    in
+    ( String.fromInt todo.id
+    , li
+        [ lineThroughStyle
+        ]
+        [ input
+            [ HA.type_ "checkbox"
+            , HE.onClick (Toggle todo.id)
+            , HA.checked todo.completed
             ]
+            []
+        , text todo.title
+        ]
+    )
+
+
+filterView : Visibility -> Html.Html Msg
+filterView visibility =
+    let
+        underlineAttr filter =
+            if visibility == filter then
+                [ ( "text-decoration", "underline" ) ]
+
+            else
+                []
+    in
+    div []
+        [ a
+            [ HE.onClick (SetVisibility All)
+            , HA.style (underlineAttr All)
+            ]
+            [ text "  All  " ]
+        , a
+            [ HE.onClick (SetVisibility Completed)
+            , HA.style (underlineAttr Completed)
+            ]
+            [ text "  Completed  " ]
+        , a
+            [ HE.onClick (SetVisibility Active)
+            , HA.style (underlineAttr Active)
+            ]
+            [ text "  Active  " ]
         ]
