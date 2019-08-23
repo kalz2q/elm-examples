@@ -58,7 +58,7 @@ update msg model =
     case msg of
         UpdateField todo ->
             ( { model | newTodo = todo }
-            , Cmd.batch [ setStorage model, Cmd.none ]
+            , setStorage model
             )
 
         Add ->
@@ -70,18 +70,27 @@ update msg model =
                     | todoList = model.newTodo :: model.todoList
                     , newTodo = ""
                   }
-                , Cmd.batch [ setStorage model, Cmd.none ]
+                , setStorage model
                 )
 
         Delete n ->
             let
                 t =
                     model.todoList
+
+                beforeTodos =
+                    List.take n model.todoList
+
+                afterTodos =
+                    List.drop (n + 1) model.todoList
+
+                newTodos =
+                    beforeTodos ++ afterTodos
             in
             ( { model
-                | todoList = List.take n t ++ List.drop (n + 1) t
+                | todoList = newTodos
               }
-            , Cmd.batch [ setStorage model, Cmd.none ]
+            , setStorage model
             )
 
         Read s ->
@@ -132,26 +141,39 @@ view model =
                             [ text "add todo" ]
                         ]
                     ]
-                , ul [ HA.style "list-style" "none" ]
-                    -- (showList model.todoList)
-                    (model.todoList
-                        |> List.indexedMap renderTodo
+
+                -- , ul [ HA.style "list-style" "none" ]
+                -- (showList model.todoList)
+                -- (model.todoList
+                --     |> List.indexedMap renderTodo
+                -- )
+                , div []
+                    (List.indexedMap
+                        (\index todo ->
+                            div []
+                                [ span [ HE.onClick (Delete index) ]
+                                    [ text "(___)    " ]
+                                , text todo
+                                ]
+                        )
+                        model.todoList
                     )
                 ]
             ]
         ]
 
 
-renderTodo : Int -> String -> Html Msg
-renderTodo index todo =
-    li
-        []
-        [ a
-            [ HE.onClick (Delete index)
-            ]
-            [ text "(___)    " ]
-        , span [] [ text todo ]
-        ]
+
+-- renderTodo : Int -> String -> Html Msg
+-- renderTodo index todo =
+--     li
+--         []
+--         [ a
+--             [ HE.onClick (Delete index)
+--             ]
+--             [ text "(___)    " ]
+--         , span [] [ text todo ]
+--         ]
 
 
 main : Program () Model Msg

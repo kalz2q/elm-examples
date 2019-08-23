@@ -1,8 +1,6 @@
-module Todo002 exposing (..)
+module Todo002 exposing (Model, Msg(..), init, main, update, view)
 
 -- add remove button
-
-module Main exposing (Model, Msg(..), init, main, update, view)
 
 import Browser
 import Html exposing (..)

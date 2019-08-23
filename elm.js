@@ -4814,6 +4814,43 @@ var author$project$Main$fromJsonModel = A3(
 		elm$json$Json$Decode$field,
 		'todoList',
 		elm$json$Json$Decode$list(elm$json$Json$Decode$string)));
+var elm$json$Json$Encode$list = F2(
+	function (func, entries) {
+		return _Json_wrap(
+			A3(
+				elm$core$List$foldl,
+				_Json_addEntry(func),
+				_Json_emptyArray(_Utils_Tuple0),
+				entries));
+	});
+var elm$json$Json$Encode$object = function (pairs) {
+	return _Json_wrap(
+		A3(
+			elm$core$List$foldl,
+			F2(
+				function (_n0, obj) {
+					var k = _n0.a;
+					var v = _n0.b;
+					return A3(_Json_addField, k, v, obj);
+				}),
+			_Json_emptyObject(_Utils_Tuple0),
+			pairs));
+};
+var elm$json$Json$Encode$string = _Json_wrap;
+var author$project$Main$setStorage = _Platform_outgoingPort(
+	'setStorage',
+	function ($) {
+		return elm$json$Json$Encode$object(
+			_List_fromArray(
+				[
+					_Utils_Tuple2(
+					'newTodo',
+					elm$json$Json$Encode$string($.newTodo)),
+					_Utils_Tuple2(
+					'todoList',
+					elm$json$Json$Encode$list(elm$json$Json$Encode$string)($.todoList))
+				]));
+	});
 var elm$core$Basics$composeR = F3(
 	function (f, g, x) {
 		return g(
@@ -4981,7 +5018,7 @@ var author$project$Main$update = F2(
 					_Utils_update(
 						model,
 						{newTodo: todo}),
-					elm$core$Platform$Cmd$none);
+					author$project$Main$setStorage(model));
 			case 'Add':
 				return isSpace(model.newTodo) ? _Utils_Tuple2(model, elm$core$Platform$Cmd$none) : _Utils_Tuple2(
 					_Utils_update(
@@ -4990,19 +5027,18 @@ var author$project$Main$update = F2(
 							newTodo: '',
 							todoList: A2(elm$core$List$cons, model.newTodo, model.todoList)
 						}),
-					elm$core$Platform$Cmd$none);
+					author$project$Main$setStorage(model));
 			case 'Delete':
 				var n = msg.a;
 				var t = model.todoList;
+				var beforeTodos = A2(elm$core$List$take, n, model.todoList);
+				var afterTodos = A2(elm$core$List$drop, n + 1, model.todoList);
+				var newTodos = _Utils_ap(beforeTodos, afterTodos);
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{
-							todoList: _Utils_ap(
-								A2(elm$core$List$take, n, t),
-								A2(elm$core$List$drop, n + 1, t))
-						}),
-					elm$core$Platform$Cmd$none);
+						{todoList: newTodos}),
+					author$project$Main$setStorage(model));
 			default:
 				var s = msg.a;
 				return _Utils_Tuple2(
@@ -5022,11 +5058,11 @@ var author$project$Main$update = F2(
 		}
 	});
 var author$project$Main$Add = {$: 'Add'};
-var author$project$Main$UpdateField = function (a) {
-	return {$: 'UpdateField', a: a};
-};
 var author$project$Main$Delete = function (a) {
 	return {$: 'Delete', a: a};
+};
+var author$project$Main$UpdateField = function (a) {
+	return {$: 'UpdateField', a: a};
 };
 var elm$core$Basics$identity = function (x) {
 	return x;
@@ -5046,10 +5082,34 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 	}
 };
 var elm$html$Html$a = _VirtualDom_node('a');
-var elm$html$Html$li = _VirtualDom_node('li');
+var elm$html$Html$div = _VirtualDom_node('div');
+var elm$html$Html$form = _VirtualDom_node('form');
+var elm$html$Html$h1 = _VirtualDom_node('h1');
+var elm$html$Html$input = _VirtualDom_node('input');
+var elm$html$Html$section = _VirtualDom_node('section');
 var elm$html$Html$span = _VirtualDom_node('span');
 var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
+var elm$json$Json$Encode$bool = _Json_wrap;
+var elm$html$Html$Attributes$boolProperty = F2(
+	function (key, bool) {
+		return A2(
+			_VirtualDom_property,
+			key,
+			elm$json$Json$Encode$bool(bool));
+	});
+var elm$html$Html$Attributes$autofocus = elm$html$Html$Attributes$boolProperty('autofocus');
+var elm$html$Html$Attributes$hidden = elm$html$Html$Attributes$boolProperty('hidden');
+var elm$html$Html$Attributes$stringProperty = F2(
+	function (key, string) {
+		return A2(
+			_VirtualDom_property,
+			key,
+			elm$json$Json$Encode$string(string));
+	});
+var elm$html$Html$Attributes$placeholder = elm$html$Html$Attributes$stringProperty('placeholder');
+var elm$html$Html$Attributes$type_ = elm$html$Html$Attributes$stringProperty('type');
+var elm$html$Html$Attributes$value = elm$html$Html$Attributes$stringProperty('value');
 var elm$virtual_dom$VirtualDom$Normal = function (a) {
 	return {$: 'Normal', a: a};
 };
@@ -5067,62 +5127,6 @@ var elm$html$Html$Events$onClick = function (msg) {
 		'click',
 		elm$json$Json$Decode$succeed(msg));
 };
-var author$project$Main$renderTodo = F2(
-	function (index, todo) {
-		return A2(
-			elm$html$Html$li,
-			_List_Nil,
-			_List_fromArray(
-				[
-					A2(
-					elm$html$Html$a,
-					_List_fromArray(
-						[
-							elm$html$Html$Events$onClick(
-							author$project$Main$Delete(index))
-						]),
-					_List_fromArray(
-						[
-							elm$html$Html$text('(___)    ')
-						])),
-					A2(
-					elm$html$Html$span,
-					_List_Nil,
-					_List_fromArray(
-						[
-							elm$html$Html$text(todo)
-						]))
-				]));
-	});
-var elm$html$Html$div = _VirtualDom_node('div');
-var elm$html$Html$form = _VirtualDom_node('form');
-var elm$html$Html$h1 = _VirtualDom_node('h1');
-var elm$html$Html$input = _VirtualDom_node('input');
-var elm$html$Html$section = _VirtualDom_node('section');
-var elm$html$Html$ul = _VirtualDom_node('ul');
-var elm$json$Json$Encode$bool = _Json_wrap;
-var elm$html$Html$Attributes$boolProperty = F2(
-	function (key, bool) {
-		return A2(
-			_VirtualDom_property,
-			key,
-			elm$json$Json$Encode$bool(bool));
-	});
-var elm$html$Html$Attributes$autofocus = elm$html$Html$Attributes$boolProperty('autofocus');
-var elm$html$Html$Attributes$hidden = elm$html$Html$Attributes$boolProperty('hidden');
-var elm$json$Json$Encode$string = _Json_wrap;
-var elm$html$Html$Attributes$stringProperty = F2(
-	function (key, string) {
-		return A2(
-			_VirtualDom_property,
-			key,
-			elm$json$Json$Encode$string(string));
-	});
-var elm$html$Html$Attributes$placeholder = elm$html$Html$Attributes$stringProperty('placeholder');
-var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
-var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
-var elm$html$Html$Attributes$type_ = elm$html$Html$Attributes$stringProperty('type');
-var elm$html$Html$Attributes$value = elm$html$Html$Attributes$stringProperty('value');
 var elm$html$Html$Events$alwaysStop = function (x) {
 	return _Utils_Tuple2(x, true);
 };
@@ -5315,12 +5319,32 @@ var author$project$Main$view = function (model) {
 											]))
 									])),
 								A2(
-								elm$html$Html$ul,
-								_List_fromArray(
-									[
-										A2(elm$html$Html$Attributes$style, 'list-style', 'none')
-									]),
-								A2(elm$core$List$indexedMap, author$project$Main$renderTodo, model.todoList))
+								elm$html$Html$div,
+								_List_Nil,
+								A2(
+									elm$core$List$indexedMap,
+									F2(
+										function (index, todo) {
+											return A2(
+												elm$html$Html$div,
+												_List_Nil,
+												_List_fromArray(
+													[
+														A2(
+														elm$html$Html$span,
+														_List_fromArray(
+															[
+																elm$html$Html$Events$onClick(
+																author$project$Main$Delete(index))
+															]),
+														_List_fromArray(
+															[
+																elm$html$Html$text('(___)    ')
+															])),
+														elm$html$Html$text(todo)
+													]));
+										}),
+									model.todoList))
 							]))
 					]))
 			]));

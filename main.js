@@ -5018,12 +5018,7 @@ var author$project$Main$update = F2(
 					_Utils_update(
 						model,
 						{newTodo: todo}),
-					elm$core$Platform$Cmd$batch(
-						_List_fromArray(
-							[
-								author$project$Main$setStorage(model),
-								elm$core$Platform$Cmd$none
-							])));
+					author$project$Main$setStorage(model));
 			case 'Add':
 				return isSpace(model.newTodo) ? _Utils_Tuple2(model, elm$core$Platform$Cmd$none) : _Utils_Tuple2(
 					_Utils_update(
@@ -5032,12 +5027,7 @@ var author$project$Main$update = F2(
 							newTodo: '',
 							todoList: A2(elm$core$List$cons, model.newTodo, model.todoList)
 						}),
-					elm$core$Platform$Cmd$batch(
-						_List_fromArray(
-							[
-								author$project$Main$setStorage(model),
-								elm$core$Platform$Cmd$none
-							])));
+					author$project$Main$setStorage(model));
 			case 'Delete':
 				var n = msg.a;
 				var t = model.todoList;
@@ -5049,12 +5039,7 @@ var author$project$Main$update = F2(
 								A2(elm$core$List$take, n, t),
 								A2(elm$core$List$drop, n + 1, t))
 						}),
-					elm$core$Platform$Cmd$batch(
-						_List_fromArray(
-							[
-								author$project$Main$setStorage(model),
-								elm$core$Platform$Cmd$none
-							])));
+					author$project$Main$setStorage(model));
 			default:
 				var s = msg.a;
 				return _Utils_Tuple2(
