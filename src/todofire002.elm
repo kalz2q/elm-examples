@@ -1,7 +1,4 @@
--- port module Main exposing (main)
-
-
-module TodoFire002 exposing (main)
+port module Main exposing (main)
 
 import Browser
 import Html exposing (..)
@@ -45,27 +42,36 @@ init _ =
 ---- UPDATE ----
 
 
-type
-    Msg
-    -- = Change String
-    -- | Add
-    -- | Delete Int
-    -- | KeyDown Int
-    -- | Read String
+type Msg
     = Add
+    | UpdateField String
     | Delete Int
+    | Read String
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
+    let
+        isSpace =
+            String.trim >> String.isEmpty
+    in
     case msg of
-        Add ->
-            ( { model
-                | todoList = model.newTodo :: model.todoList
-                , newTodo = ""
-              }
-            , Cmd.none
+        UpdateField todo ->
+            ( { model | newTodo = todo }
+            , Cmd.batch [ setStorage model, Cmd.none ]
             )
+
+        Add ->
+            if isSpace model.newTodo then
+                ( model, Cmd.none )
+
+            else
+                ( { model
+                    | todoList = model.newTodo :: model.todoList
+                    , newTodo = ""
+                  }
+                , Cmd.batch [ setStorage model, Cmd.none ]
+                )
 
         Delete n ->
             let
@@ -75,21 +81,23 @@ update msg model =
             ( { model
                 | todoList = List.take n t ++ List.drop (n + 1) t
               }
+            , Cmd.batch [ setStorage model, Cmd.none ]
+            )
+
+        Read s ->
+            ( case Json.decodeString fromJsonModel s of
+                Err e ->
+                    model
+
+                Ok newModel ->
+                    { newModel
+                        | newTodo = model.newTodo
+                    }
             , Cmd.none
             )
 
 
 
--- Read s ->
---     ( case Json.decodeString fromJsonModel s of
---         Err e ->
---             model
---         Ok newModel ->
---             { newModel
---                 | newTodo = model.newTodo
---             }
---     , Cmd.none
---     )
 ---- VIEW ----
 
 
@@ -100,7 +108,7 @@ view model =
             [ div []
                 [ div []
                     [ h1 []
-                        [ text "Elm Todo localStorage" ]
+                        [ text "Elm Todo Firebase/Firestore" ]
                     ]
                 ]
             ]
@@ -110,6 +118,7 @@ view model =
                     [ div []
                         [ input
                             [ HA.type_ "text"
+                            , HE.onInput UpdateField
                             , HA.placeholder "input your todo"
                             , HA.autofocus True
                             , HA.value model.newTodo
@@ -126,41 +135,23 @@ view model =
                 , ul [ HA.style "list-style" "none" ]
                     -- (showList model.todoList)
                     (model.todoList
-                        |> List.map renderTodo
+                        |> List.indexedMap renderTodo
                     )
                 ]
             ]
         ]
 
 
-renderTodo : String -> Html Msg
-renderTodo todo =
+renderTodo : Int -> String -> Html Msg
+renderTodo index todo =
     li
         []
-        [ input
-            [ HA.type_ "checkbox"
+        [ a
+            [ HE.onClick (Delete index)
             ]
-            []
+            [ text "(___)    " ]
         , span [] [ text todo ]
         ]
-
-
-
--- showList : List String -> List (Html Msg)
--- showList =
---     let
---         todos =
---             List.indexedMap Tuple.pair
---         column ( n, s ) =
---             li [ HA.class "Json.list-item has-text-left" ]
---                 [ div []
---                     [ text s
---                     , a [ HA.class "button is-danger", HE.onClick (Delete n) ] [ text "delete" ]
---                     ]
---                 ]
---     in
---     todos >> List.map column
----- MAIN ----
 
 
 main : Program () Model Msg
@@ -169,27 +160,18 @@ main =
         { init = init
         , view = view
 
-        -- undo comment out
         -- , update = updateWithStorage
-        -- , subscriptions = subscriptions
         , update = update
-        , subscriptions = \_ -> Sub.none
+        , subscriptions = subscriptions
         }
 
 
+subscriptions : Model -> Sub Msg
+subscriptions model =
+    read Read
 
--- undo comment out
--- subscriptions : Model -> Sub Msg
--- subscriptions model =
---     read Read
--- port read : (String -> msg) -> Sub msg
--- port setStorage : Model -> Cmd msg
--- updateWithStorage : Msg -> Model -> ( Model, Cmd Msg )
--- updateWithStorage msg model =
---     let
---         ( newModel, cmds ) =
---             update msg model
---     in
---     ( newModel
---     , Cmd.batch [ setStorage newModel, cmds ]
---     )
+
+port read : (String -> msg) -> Sub msg
+
+
+port setStorage : Model -> Cmd msg
