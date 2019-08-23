@@ -81,6 +81,7 @@ update msg model =
                     , title = model.field
                     , completed = False
                     }
+                        :: model.todos
             }
 
         Toggle id ->
@@ -116,7 +117,7 @@ view model =
                     [ text "+" ]
                 ]
             ]
-        , ul []
+        , ul [ HA.style "list-style" "none" ]
             (model.todos
                 |> List.filter (filterTodo model.filter)
                 |> List.map renderTodo
@@ -162,57 +163,72 @@ itemsLeft todos =
     List.length todos - nbCompleted
 
 
-renderTodo : Todo -> ( String, Html Msg )
+renderTodo : Todo -> Html Msg
 renderTodo todo =
     let
         lineThroughStyle =
-            HA.style
-                (if todo.completed then
-                    [ ( "text-decoration", "line-through" ) ]
+            if todo.completed then
+                HA.style "text-decoration" "line-through"
 
-                 else
-                    []
-                )
+            else
+                HA.style "" ""
     in
-    ( String.fromInt todo.id
-    , li
-        [ lineThroughStyle
-        ]
-        [ input
+    -- ( String.fromInt todo.id
+    -- ,
+    li
+        []
+        [ span []
+            [ text ("<" ++ String.fromInt todo.id ++ ">   ") ]
+        , input
             [ HA.type_ "checkbox"
             , HE.onClick (Toggle todo.id)
             , HA.checked todo.completed
             ]
             []
-        , text todo.title
+        , span [ lineThroughStyle ] [ text todo.title ]
         ]
-    )
 
 
-filterView : Visibility -> Html.Html Msg
+
+-- )
+-- renderTodo : Todo -> Html Msg
+-- renderTodo todo =
+--     li
+--         []
+--         [ input
+--             [ HA.type_ "checkbox"
+--             , HE.onClick (Toggle todo.id)
+--             , HA.checked todo.completed
+--             ]
+--             []
+--         , text todo.title
+--         ]
+
+
+filterView : Visibility -> Html Msg
 filterView visibility =
     let
         underlineAttr filter =
             if visibility == filter then
-                [ ( "text-decoration", "underline" ) ]
+                HA.style "text-decoration" "underline"
 
             else
-                []
+                HA.style "" ""
     in
     div []
         [ a
             [ HE.onClick (SetVisibility All)
-            , HA.style (underlineAttr All)
+            , underlineAttr All
             ]
             [ text "  All  " ]
         , a
             [ HE.onClick (SetVisibility Completed)
-            , HA.style (underlineAttr Completed)
+            , underlineAttr Completed
             ]
             [ text "  Completed  " ]
         , a
             [ HE.onClick (SetVisibility Active)
-            , HA.style (underlineAttr Active)
+            , underlineAttr Active
             ]
             [ text "  Active  " ]
         ]
