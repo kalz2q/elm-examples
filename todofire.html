@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Main</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="elm"></div>
+
+<script src="https://www.gstatic.com/firebasejs/6.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.4.1/firebase-firestore.js"></script>
+
+    <script>
+
+        
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyC0CNclOVdUsIUVOKoC8ocQE1Dj8k5AA3E",
+            authDomain: "foo001-b1e42.firebaseapp.com",
+            databaseURL: "https://foo001-b1e42.firebaseio.com",
+            projectId: "foo001-b1e42",
+            storageBucket: "foo001-b1e42.appspot.com",
+            messagingSenderId: "36080734541",
+            appId: "1:36080734541:web:515848f3e8bc8473"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        const DB = firebase.firestore();
+
+        var docRef = DB.collection('foo').doc('1111111');
+
+        docRef.onSnapshot(function (doc) {
+            console.log(doc.data());
+            console.log(typeof doc.data());
+            console.log(typeof JSON.stringify(doc.data()));
+            app.ports.read.send(JSON.stringify(doc.data()));
+        });
+
+        var app = Elm.Main.init({
+            node: document.getElementById('elm')
+        });
+
+        app.ports.setStorage.subscribe(function (state) {
+            docRef.update(state);
+        });
+    </script>
+</body>
+
+</html>
