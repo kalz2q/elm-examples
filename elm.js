@@ -4390,7 +4390,7 @@ var elm$core$Set$toList = function (_n0) {
 	var dict = _n0.a;
 	return elm$core$Dict$keys(dict);
 };
-var author$project$Main$emptyModel = {newTodo: '', todoList: _List_Nil};
+var author$project$TodoFire002$emptyModel = {newTodo: '', todoList: _List_Nil};
 var elm$core$Basics$False = {$: 'False'};
 var elm$core$Basics$True = {$: 'True'};
 var elm$core$Result$isOk = function (result) {
@@ -4788,74 +4788,9 @@ var elm$json$Json$Decode$errorToStringHelp = F2(
 	});
 var elm$core$Platform$Cmd$batch = _Platform_batch;
 var elm$core$Platform$Cmd$none = elm$core$Platform$Cmd$batch(_List_Nil);
-var author$project$Main$init = function (_n0) {
-	return _Utils_Tuple2(author$project$Main$emptyModel, elm$core$Platform$Cmd$none);
+var author$project$TodoFire002$init = function (_n0) {
+	return _Utils_Tuple2(author$project$TodoFire002$emptyModel, elm$core$Platform$Cmd$none);
 };
-var author$project$Main$Read = function (a) {
-	return {$: 'Read', a: a};
-};
-var elm$json$Json$Decode$string = _Json_decodeString;
-var author$project$Main$read = _Platform_incomingPort('read', elm$json$Json$Decode$string);
-var author$project$Main$subscriptions = function (model) {
-	return author$project$Main$read(author$project$Main$Read);
-};
-var elm$json$Json$Encode$list = F2(
-	function (func, entries) {
-		return _Json_wrap(
-			A3(
-				elm$core$List$foldl,
-				_Json_addEntry(func),
-				_Json_emptyArray(_Utils_Tuple0),
-				entries));
-	});
-var elm$json$Json$Encode$object = function (pairs) {
-	return _Json_wrap(
-		A3(
-			elm$core$List$foldl,
-			F2(
-				function (_n0, obj) {
-					var k = _n0.a;
-					var v = _n0.b;
-					return A3(_Json_addField, k, v, obj);
-				}),
-			_Json_emptyObject(_Utils_Tuple0),
-			pairs));
-};
-var elm$json$Json$Encode$string = _Json_wrap;
-var author$project$Main$setStorage = _Platform_outgoingPort(
-	'setStorage',
-	function ($) {
-		return elm$json$Json$Encode$object(
-			_List_fromArray(
-				[
-					_Utils_Tuple2(
-					'newTodo',
-					elm$json$Json$Encode$string($.newTodo)),
-					_Utils_Tuple2(
-					'todoList',
-					elm$json$Json$Encode$list(elm$json$Json$Encode$string)($.todoList))
-				]));
-	});
-var author$project$Main$Model = F2(
-	function (newTodo, todoList) {
-		return {newTodo: newTodo, todoList: todoList};
-	});
-var elm$json$Json$Decode$field = _Json_decodeField;
-var elm$json$Json$Decode$list = _Json_decodeList;
-var elm$json$Json$Decode$map2 = _Json_map2;
-var author$project$Main$fromJsonModel = A3(
-	elm$json$Json$Decode$map2,
-	author$project$Main$Model,
-	A2(elm$json$Json$Decode$field, 'newTodo', elm$json$Json$Decode$string),
-	A2(
-		elm$json$Json$Decode$field,
-		'todoList',
-		elm$json$Json$Decode$list(elm$json$Json$Decode$string)));
-var elm$core$Basics$composeR = F3(
-	function (f, g, x) {
-		return g(
-			f(x));
-	});
 var elm$core$List$drop = F2(
 	function (n, list) {
 		drop:
@@ -5003,101 +4938,37 @@ var elm$core$List$take = F2(
 	function (n, list) {
 		return A3(elm$core$List$takeFast, 0, n, list);
 	});
-var elm$core$String$isEmpty = function (string) {
-	return string === '';
-};
-var elm$core$String$trim = _String_trim;
-var elm$json$Json$Decode$decodeString = _Json_runOnString;
-var author$project$Main$update = F2(
+var author$project$TodoFire002$update = F2(
 	function (msg, model) {
-		var isSpace = A2(elm$core$Basics$composeR, elm$core$String$trim, elm$core$String$isEmpty);
-		switch (msg.$) {
-			case 'Change':
-				var str = msg.a;
-				return _Utils_Tuple2(
-					_Utils_update(
-						model,
-						{newTodo: str}),
-					elm$core$Platform$Cmd$none);
-			case 'Add':
-				return isSpace(model.newTodo) ? _Utils_Tuple2(model, elm$core$Platform$Cmd$none) : _Utils_Tuple2(
-					_Utils_update(
-						model,
-						{
-							newTodo: '',
-							todoList: A2(elm$core$List$cons, model.newTodo, model.todoList)
-						}),
-					elm$core$Platform$Cmd$none);
-			case 'Delete':
-				var n = msg.a;
-				var t = model.todoList;
-				return _Utils_Tuple2(
-					_Utils_update(
-						model,
-						{
-							todoList: _Utils_ap(
-								A2(elm$core$List$take, n, t),
-								A2(elm$core$List$drop, n + 1, t))
-						}),
-					elm$core$Platform$Cmd$none);
-			case 'KeyDown':
-				var key = msg.a;
-				return (key === 13) ? (isSpace(model.newTodo) ? _Utils_Tuple2(model, elm$core$Platform$Cmd$none) : _Utils_Tuple2(
-					_Utils_update(
-						model,
-						{
-							newTodo: '',
-							todoList: A2(elm$core$List$cons, model.newTodo, model.todoList)
-						}),
-					elm$core$Platform$Cmd$none)) : _Utils_Tuple2(model, elm$core$Platform$Cmd$none);
-			default:
-				var s = msg.a;
-				return _Utils_Tuple2(
-					function () {
-						var _n1 = A2(elm$json$Json$Decode$decodeString, author$project$Main$fromJsonModel, s);
-						if (_n1.$ === 'Err') {
-							var e = _n1.a;
-							return model;
-						} else {
-							var newModel = _n1.a;
-							return _Utils_update(
-								newModel,
-								{newTodo: model.newTodo});
-						}
-					}(),
-					elm$core$Platform$Cmd$none);
+		if (msg.$ === 'Add') {
+			return _Utils_Tuple2(
+				_Utils_update(
+					model,
+					{
+						newTodo: '',
+						todoList: A2(elm$core$List$cons, model.newTodo, model.todoList)
+					}),
+				elm$core$Platform$Cmd$none);
+		} else {
+			var n = msg.a;
+			var t = model.todoList;
+			return _Utils_Tuple2(
+				_Utils_update(
+					model,
+					{
+						todoList: _Utils_ap(
+							A2(elm$core$List$take, n, t),
+							A2(elm$core$List$drop, n + 1, t))
+					}),
+				elm$core$Platform$Cmd$none);
 		}
 	});
-var author$project$Main$updateWithStorage = F2(
-	function (msg, model) {
-		var _n0 = A2(author$project$Main$update, msg, model);
-		var newModel = _n0.a;
-		var cmds = _n0.b;
-		return _Utils_Tuple2(
-			newModel,
-			elm$core$Platform$Cmd$batch(
-				_List_fromArray(
-					[
-						author$project$Main$setStorage(newModel),
-						cmds
-					])));
-	});
-var author$project$Main$Add = {$: 'Add'};
-var author$project$Main$Change = function (a) {
-	return {$: 'Change', a: a};
-};
-var author$project$Main$KeyDown = function (a) {
-	return {$: 'KeyDown', a: a};
-};
-var elm$json$Json$Decode$int = _Json_decodeInt;
-var elm$html$Html$Events$keyCode = A2(elm$json$Json$Decode$field, 'keyCode', elm$json$Json$Decode$int);
-var elm$virtual_dom$VirtualDom$Normal = function (a) {
-	return {$: 'Normal', a: a};
-};
+var author$project$TodoFire002$Add = {$: 'Add'};
 var elm$core$Basics$identity = function (x) {
 	return x;
 };
 var elm$json$Json$Decode$map = _Json_map1;
+var elm$json$Json$Decode$map2 = _Json_map2;
 var elm$json$Json$Decode$succeed = _Json_succeed;
 var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 	switch (handler.$) {
@@ -5111,22 +4982,41 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 			return 3;
 	}
 };
-var elm$virtual_dom$VirtualDom$on = _VirtualDom_on;
-var elm$html$Html$Events$on = F2(
-	function (event, decoder) {
+var elm$html$Html$input = _VirtualDom_node('input');
+var elm$html$Html$li = _VirtualDom_node('li');
+var elm$html$Html$span = _VirtualDom_node('span');
+var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
+var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
+var elm$json$Json$Encode$string = _Json_wrap;
+var elm$html$Html$Attributes$stringProperty = F2(
+	function (key, string) {
 		return A2(
-			elm$virtual_dom$VirtualDom$on,
-			event,
-			elm$virtual_dom$VirtualDom$Normal(decoder));
+			_VirtualDom_property,
+			key,
+			elm$json$Json$Encode$string(string));
 	});
-var author$project$Main$onKeyDown = function (tagger) {
+var elm$html$Html$Attributes$type_ = elm$html$Html$Attributes$stringProperty('type');
+var author$project$TodoFire002$renderTodo = function (todo) {
 	return A2(
-		elm$html$Html$Events$on,
-		'keydown',
-		A2(elm$json$Json$Decode$map, tagger, elm$html$Html$Events$keyCode));
-};
-var author$project$Main$Delete = function (a) {
-	return {$: 'Delete', a: a};
+		elm$html$Html$li,
+		_List_Nil,
+		_List_fromArray(
+			[
+				A2(
+				elm$html$Html$input,
+				_List_fromArray(
+					[
+						elm$html$Html$Attributes$type_('checkbox')
+					]),
+				_List_Nil),
+				A2(
+				elm$html$Html$span,
+				_List_Nil,
+				_List_fromArray(
+					[
+						elm$html$Html$text(todo)
+					]))
+			]));
 };
 var elm$core$List$foldrHelper = F4(
 	function (fn, acc, ctr, ls) {
@@ -5197,73 +5087,10 @@ var elm$core$List$map = F2(
 			_List_Nil,
 			xs);
 	});
-var elm$core$Tuple$pair = F2(
-	function (a, b) {
-		return _Utils_Tuple2(a, b);
-	});
 var elm$html$Html$a = _VirtualDom_node('a');
 var elm$html$Html$div = _VirtualDom_node('div');
-var elm$html$Html$li = _VirtualDom_node('li');
-var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
-var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
-var elm$html$Html$Attributes$stringProperty = F2(
-	function (key, string) {
-		return A2(
-			_VirtualDom_property,
-			key,
-			elm$json$Json$Encode$string(string));
-	});
-var elm$html$Html$Attributes$class = elm$html$Html$Attributes$stringProperty('className');
-var elm$html$Html$Events$onClick = function (msg) {
-	return A2(
-		elm$html$Html$Events$on,
-		'click',
-		elm$json$Json$Decode$succeed(msg));
-};
-var author$project$Main$showList = function () {
-	var todos = elm$core$List$indexedMap(elm$core$Tuple$pair);
-	var column = function (_n0) {
-		var n = _n0.a;
-		var s = _n0.b;
-		return A2(
-			elm$html$Html$li,
-			_List_fromArray(
-				[
-					elm$html$Html$Attributes$class('Json.list-item has-text-left')
-				]),
-			_List_fromArray(
-				[
-					A2(
-					elm$html$Html$div,
-					_List_Nil,
-					_List_fromArray(
-						[
-							elm$html$Html$text(s),
-							A2(
-							elm$html$Html$a,
-							_List_fromArray(
-								[
-									elm$html$Html$Attributes$class('button is-danger'),
-									elm$html$Html$Events$onClick(
-									author$project$Main$Delete(n))
-								]),
-							_List_fromArray(
-								[
-									elm$html$Html$text('delete')
-								]))
-						]))
-				]));
-	};
-	return A2(
-		elm$core$Basics$composeR,
-		todos,
-		elm$core$List$map(column));
-}();
-var elm$html$Html$footer = _VirtualDom_node('footer');
 var elm$html$Html$form = _VirtualDom_node('form');
 var elm$html$Html$h1 = _VirtualDom_node('h1');
-var elm$html$Html$input = _VirtualDom_node('input');
-var elm$html$Html$p = _VirtualDom_node('p');
 var elm$html$Html$section = _VirtualDom_node('section');
 var elm$html$Html$ul = _VirtualDom_node('ul');
 var elm$json$Json$Encode$bool = _Json_wrap;
@@ -5275,47 +5102,35 @@ var elm$html$Html$Attributes$boolProperty = F2(
 			elm$json$Json$Encode$bool(bool));
 	});
 var elm$html$Html$Attributes$autofocus = elm$html$Html$Attributes$boolProperty('autofocus');
-var elm$html$Html$Attributes$href = function (url) {
-	return A2(
-		elm$html$Html$Attributes$stringProperty,
-		'href',
-		_VirtualDom_noJavaScriptUri(url));
-};
+var elm$html$Html$Attributes$hidden = elm$html$Html$Attributes$boolProperty('hidden');
 var elm$html$Html$Attributes$placeholder = elm$html$Html$Attributes$stringProperty('placeholder');
-var elm$html$Html$Attributes$type_ = elm$html$Html$Attributes$stringProperty('type');
+var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
+var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
 var elm$html$Html$Attributes$value = elm$html$Html$Attributes$stringProperty('value');
-var elm$html$Html$Events$alwaysStop = function (x) {
-	return _Utils_Tuple2(x, true);
+var elm$html$Html$Events$alwaysPreventDefault = function (msg) {
+	return _Utils_Tuple2(msg, true);
 };
-var elm$virtual_dom$VirtualDom$MayStopPropagation = function (a) {
-	return {$: 'MayStopPropagation', a: a};
+var elm$virtual_dom$VirtualDom$MayPreventDefault = function (a) {
+	return {$: 'MayPreventDefault', a: a};
 };
-var elm$html$Html$Events$stopPropagationOn = F2(
+var elm$virtual_dom$VirtualDom$on = _VirtualDom_on;
+var elm$html$Html$Events$preventDefaultOn = F2(
 	function (event, decoder) {
 		return A2(
 			elm$virtual_dom$VirtualDom$on,
 			event,
-			elm$virtual_dom$VirtualDom$MayStopPropagation(decoder));
+			elm$virtual_dom$VirtualDom$MayPreventDefault(decoder));
 	});
-var elm$json$Json$Decode$at = F2(
-	function (fields, decoder) {
-		return A3(elm$core$List$foldr, elm$json$Json$Decode$field, decoder, fields);
-	});
-var elm$html$Html$Events$targetValue = A2(
-	elm$json$Json$Decode$at,
-	_List_fromArray(
-		['target', 'value']),
-	elm$json$Json$Decode$string);
-var elm$html$Html$Events$onInput = function (tagger) {
+var elm$html$Html$Events$onSubmit = function (msg) {
 	return A2(
-		elm$html$Html$Events$stopPropagationOn,
-		'input',
+		elm$html$Html$Events$preventDefaultOn,
+		'submit',
 		A2(
 			elm$json$Json$Decode$map,
-			elm$html$Html$Events$alwaysStop,
-			A2(elm$json$Json$Decode$map, tagger, elm$html$Html$Events$targetValue)));
+			elm$html$Html$Events$alwaysPreventDefault,
+			elm$json$Json$Decode$succeed(msg)));
 };
-var author$project$Main$view = function (model) {
+var author$project$TodoFire002$view = function (model) {
 	return A2(
 		elm$html$Html$div,
 		_List_Nil,
@@ -5323,34 +5138,22 @@ var author$project$Main$view = function (model) {
 			[
 				A2(
 				elm$html$Html$section,
-				_List_fromArray(
-					[
-						elm$html$Html$Attributes$class('hero is-primary')
-					]),
+				_List_Nil,
 				_List_fromArray(
 					[
 						A2(
 						elm$html$Html$div,
-						_List_fromArray(
-							[
-								elm$html$Html$Attributes$class('hero-body')
-							]),
+						_List_Nil,
 						_List_fromArray(
 							[
 								A2(
 								elm$html$Html$div,
-								_List_fromArray(
-									[
-										elm$html$Html$Attributes$class('container')
-									]),
+								_List_Nil,
 								_List_fromArray(
 									[
 										A2(
 										elm$html$Html$h1,
-										_List_fromArray(
-											[
-												elm$html$Html$Attributes$class('title')
-											]),
+										_List_Nil,
 										_List_fromArray(
 											[
 												elm$html$Html$text('Elm Todo localStorage')
@@ -5360,64 +5163,48 @@ var author$project$Main$view = function (model) {
 					])),
 				A2(
 				elm$html$Html$section,
-				_List_fromArray(
-					[
-						elm$html$Html$Attributes$class('section')
-					]),
+				_List_Nil,
 				_List_fromArray(
 					[
 						A2(
 						elm$html$Html$div,
 						_List_fromArray(
 							[
-								elm$html$Html$Attributes$class('container')
+								elm$html$Html$Events$onSubmit(author$project$TodoFire002$Add)
 							]),
 						_List_fromArray(
 							[
 								A2(
 								elm$html$Html$form,
-								_List_fromArray(
-									[
-										elm$html$Html$Attributes$class('Json.field has-addons')
-									]),
+								_List_Nil,
 								_List_fromArray(
 									[
 										A2(
 										elm$html$Html$div,
-										_List_fromArray(
-											[
-												elm$html$Html$Attributes$class('control')
-											]),
+										_List_Nil,
 										_List_fromArray(
 											[
 												A2(
 												elm$html$Html$input,
 												_List_fromArray(
 													[
-														elm$html$Html$Attributes$class('input'),
 														elm$html$Html$Attributes$type_('text'),
 														elm$html$Html$Attributes$placeholder('input your todo'),
-														author$project$Main$onKeyDown(author$project$Main$KeyDown),
 														elm$html$Html$Attributes$autofocus(true),
-														elm$html$Html$Events$onInput(author$project$Main$Change),
 														elm$html$Html$Attributes$value(model.newTodo)
 													]),
 												_List_Nil)
 											])),
 										A2(
 										elm$html$Html$div,
-										_List_fromArray(
-											[
-												elm$html$Html$Attributes$class('control')
-											]),
+										_List_Nil,
 										_List_fromArray(
 											[
 												A2(
 												elm$html$Html$a,
 												_List_fromArray(
 													[
-														elm$html$Html$Attributes$class('button is-info'),
-														elm$html$Html$Events$onClick(author$project$Main$Add)
+														elm$html$Html$Attributes$hidden(true)
 													]),
 												_List_fromArray(
 													[
@@ -5429,43 +5216,9 @@ var author$project$Main$view = function (model) {
 								elm$html$Html$ul,
 								_List_fromArray(
 									[
-										elm$html$Html$Attributes$class('Json.list is-hoverable')
+										A2(elm$html$Html$Attributes$style, 'list-style', 'none')
 									]),
-								author$project$Main$showList(model.todoList))
-							]))
-					])),
-				A2(
-				elm$html$Html$footer,
-				_List_fromArray(
-					[
-						elm$html$Html$Attributes$class('footer')
-					]),
-				_List_fromArray(
-					[
-						A2(
-						elm$html$Html$div,
-						_List_fromArray(
-							[
-								elm$html$Html$Attributes$class('content has-text-centered')
-							]),
-						_List_fromArray(
-							[
-								A2(
-								elm$html$Html$p,
-								_List_Nil,
-								_List_fromArray(
-									[
-										A2(
-										elm$html$Html$a,
-										_List_fromArray(
-											[
-												elm$html$Html$Attributes$href('https://i-doctor.sakura.ne.jp/font/?p=38214')
-											]),
-										_List_fromArray(
-											[
-												elm$html$Html$text('WordPressでフリーオリジナルフォント2')
-											]))
-									]))
+								A2(elm$core$List$map, author$project$TodoFire002$renderTodo, model.todoList))
 							]))
 					]))
 			]));
@@ -5581,6 +5334,9 @@ var elm$core$String$startsWith = _String_startsWith;
 var elm$url$Url$Http = {$: 'Http'};
 var elm$url$Url$Https = {$: 'Https'};
 var elm$core$String$indexes = _String_indexes;
+var elm$core$String$isEmpty = function (string) {
+	return string === '';
+};
 var elm$core$String$left = F2(
 	function (n, string) {
 		return (n < 1) ? '' : A3(elm$core$String$slice, 0, n, string);
@@ -5694,7 +5450,16 @@ var elm$url$Url$fromString = function (str) {
 		A2(elm$core$String$dropLeft, 8, str)) : elm$core$Maybe$Nothing);
 };
 var elm$browser$Browser$element = _Browser_element;
-var author$project$Main$main = elm$browser$Browser$element(
-	{init: author$project$Main$init, subscriptions: author$project$Main$subscriptions, update: author$project$Main$updateWithStorage, view: author$project$Main$view});
-_Platform_export({'Main':{'init':author$project$Main$main(
+var elm$core$Platform$Sub$batch = _Platform_batch;
+var elm$core$Platform$Sub$none = elm$core$Platform$Sub$batch(_List_Nil);
+var author$project$TodoFire002$main = elm$browser$Browser$element(
+	{
+		init: author$project$TodoFire002$init,
+		subscriptions: function (_n0) {
+			return elm$core$Platform$Sub$none;
+		},
+		update: author$project$TodoFire002$update,
+		view: author$project$TodoFire002$view
+	});
+_Platform_export({'TodoFire002':{'init':author$project$TodoFire002$main(
 	elm$json$Json$Decode$succeed(_Utils_Tuple0))(0)}});}(this));
