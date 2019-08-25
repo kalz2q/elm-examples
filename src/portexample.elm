@@ -1,5 +1,4 @@
-port module PortExamples exposing (..)
-
+port module Main exposing (main)
 
 -- // cf. elmprogramming.com
 
@@ -16,7 +15,10 @@ view : Model -> Html Msg
 view model =
     div []
         [ button [ onClick SendDataToJS ]
-            [ text "Send Data to JavaScript" ]
+            [ text "Click to Send Data to JavaScript"
+            , br [] []
+            , text "See the Result in Cosole"
+            ]
         ]
 
 

@@ -1,16 +1,15 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <title>this</title>
-</head>
-<body>
-  <div id="elm-code-is-loaded-here"></div>
-  <script src="elm.js"></script>
-  <script>
-  var app = Elm.PortExamples.init({
-    node: document.getElementById('elm-code-is-loaded-here')
-  });
 
+<head>
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <main></main>
+  <script>
+    var app = Elm.Main.init({
+      node: document.querySelector('main')
+    });
 
     app.ports.sendData.subscribe(function (data) {
       console.log("Data from Elm: ", data);

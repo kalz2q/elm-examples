@@ -4787,18 +4787,18 @@ var elm$json$Json$Decode$errorToStringHelp = F2(
 	});
 var elm$core$Platform$Cmd$batch = _Platform_batch;
 var elm$core$Platform$Cmd$none = elm$core$Platform$Cmd$batch(_List_Nil);
-var author$project$PortExamples$init = function (_n0) {
+var author$project$Main$init = function (_n0) {
 	return _Utils_Tuple2('', elm$core$Platform$Cmd$none);
 };
 var elm$json$Json$Encode$string = _Json_wrap;
-var author$project$PortExamples$sendData = _Platform_outgoingPort('sendData', elm$json$Json$Encode$string);
-var author$project$PortExamples$update = F2(
+var author$project$Main$sendData = _Platform_outgoingPort('sendData', elm$json$Json$Encode$string);
+var author$project$Main$update = F2(
 	function (msg, model) {
 		return _Utils_Tuple2(
 			model,
-			author$project$PortExamples$sendData('Hello JavaScript!'));
+			author$project$Main$sendData('Hello JavaScript!'));
 	});
-var author$project$PortExamples$SendDataToJS = {$: 'SendDataToJS'};
+var author$project$Main$SendDataToJS = {$: 'SendDataToJS'};
 var elm$core$Basics$identity = function (x) {
 	return x;
 };
@@ -4817,6 +4817,7 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 			return 3;
 	}
 };
+var elm$html$Html$br = _VirtualDom_node('br');
 var elm$html$Html$button = _VirtualDom_node('button');
 var elm$html$Html$div = _VirtualDom_node('div');
 var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
@@ -4838,7 +4839,7 @@ var elm$html$Html$Events$onClick = function (msg) {
 		'click',
 		elm$json$Json$Decode$succeed(msg));
 };
-var author$project$PortExamples$view = function (model) {
+var author$project$Main$view = function (model) {
 	return A2(
 		elm$html$Html$div,
 		_List_Nil,
@@ -4848,11 +4849,18 @@ var author$project$PortExamples$view = function (model) {
 				elm$html$Html$button,
 				_List_fromArray(
 					[
-						elm$html$Html$Events$onClick(author$project$PortExamples$SendDataToJS)
+						elm$html$Html$Events$onClick(author$project$Main$SendDataToJS)
 					]),
 				_List_fromArray(
 					[
-						elm$html$Html$text('Send Data to JavaScript')
+						A2(
+						elm$html$Html$br,
+						_List_Nil,
+						_List_fromArray(
+							[
+								elm$html$Html$text('Click to Send Data to JavaScript')
+							])),
+						elm$html$Html$text('See the Result in Cosole')
 					]))
 			]));
 };
@@ -5154,14 +5162,14 @@ var elm$url$Url$fromString = function (str) {
 var elm$browser$Browser$element = _Browser_element;
 var elm$core$Platform$Sub$batch = _Platform_batch;
 var elm$core$Platform$Sub$none = elm$core$Platform$Sub$batch(_List_Nil);
-var author$project$PortExamples$main = elm$browser$Browser$element(
+var author$project$Main$main = elm$browser$Browser$element(
 	{
-		init: author$project$PortExamples$init,
+		init: author$project$Main$init,
 		subscriptions: function (_n0) {
 			return elm$core$Platform$Sub$none;
 		},
-		update: author$project$PortExamples$update,
-		view: author$project$PortExamples$view
+		update: author$project$Main$update,
+		view: author$project$Main$view
 	});
-_Platform_export({'PortExamples':{'init':author$project$PortExamples$main(
+_Platform_export({'Main':{'init':author$project$Main$main(
 	elm$json$Json$Decode$succeed(_Utils_Tuple0))(0)}});}(this));
