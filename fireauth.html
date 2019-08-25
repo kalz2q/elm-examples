@@ -28,7 +28,7 @@
         authDomain: "bar001-763d5.firebaseapp.com",
         databaseURL: "https://bar001-763d5.firebaseio.com",
         projectId: "bar001-763d5",
-        storageBucket: "",
+        storageBucket: "bar001-763d5.appspot.com",
         messagingSenderId: "759151675879",
         appId: "1:759151675879:web:8e9abab80e900d25"
       };
@@ -46,7 +46,7 @@
 
       app.ports.push.subscribe(text => {
         const user = firebase.auth().currentUser;
-        DB.collection('foo').doc(user.uid).set({ input: text });
+        DB.collection('bar').doc(user.id).set({ input: text });
       });
 
       // ログイン監視

@@ -1,4 +1,4 @@
-port module Main exposing 
+port module Main exposing
     ( Model
     , Msg(..)
     , init
@@ -8,10 +8,6 @@ port module Main exposing
     , update
     , view
     )
-
--- Elm portsでFirebase Firestoreを触ろう！
--- という記事のソースなのですが、javascript側がないので考える => あった。index.js？
--- dotinstallのfirebase入門をもう一度見たほうがいいかもしれない
 
 import Browser
 import Browser.Navigation as Nav
