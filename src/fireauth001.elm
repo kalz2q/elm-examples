@@ -1,13 +1,13 @@
-port module Main exposing
-    ( Model
-    , Msg(..)
-    , init
-    , main
-    , read
-    , signedIn
-    , update
-    , view
-    )
+port module Main exposing (main)
+    -- ( Model
+    -- , Msg(..)
+    -- , init
+    -- , main
+    -- , read
+    -- , signedIn
+    -- , update
+    -- , view
+    -- )
 
 -- Elm portsでFirebase Firestoreを触ろう！
 -- という記事のソースなのですが、javascript側がないので考える => あった。index.js？

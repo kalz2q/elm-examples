@@ -4787,18 +4787,72 @@ var elm$json$Json$Decode$errorToStringHelp = F2(
 	});
 var elm$core$Platform$Cmd$batch = _Platform_batch;
 var elm$core$Platform$Cmd$none = elm$core$Platform$Cmd$batch(_List_Nil);
-var author$project$Main$init = function (_n0) {
-	return _Utils_Tuple2('', elm$core$Platform$Cmd$none);
+var author$project$Main$init = function (isSignedIn) {
+	return _Utils_Tuple2(
+		{isSignedIn: false, pushText: ''},
+		elm$core$Platform$Cmd$none);
+};
+var author$project$Main$Read = function (a) {
+	return {$: 'Read', a: a};
+};
+var author$project$Main$SignedIn = function (a) {
+	return {$: 'SignedIn', a: a};
+};
+var elm$json$Json$Decode$string = _Json_decodeString;
+var author$project$Main$read = _Platform_incomingPort('read', elm$json$Json$Decode$string);
+var elm$json$Json$Decode$bool = _Json_decodeBool;
+var author$project$Main$signedIn = _Platform_incomingPort('signedIn', elm$json$Json$Decode$bool);
+var elm$core$Platform$Sub$batch = _Platform_batch;
+var author$project$Main$subscriptions = function (model) {
+	return elm$core$Platform$Sub$batch(
+		_List_fromArray(
+			[
+				author$project$Main$signedIn(author$project$Main$SignedIn),
+				author$project$Main$read(author$project$Main$Read)
+			]));
 };
 var elm$json$Json$Encode$string = _Json_wrap;
-var author$project$Main$sendData = _Platform_outgoingPort('sendData', elm$json$Json$Encode$string);
+var author$project$Main$push = _Platform_outgoingPort('push', elm$json$Json$Encode$string);
+var elm$json$Json$Encode$null = _Json_encodeNull;
+var author$project$Main$signIn = _Platform_outgoingPort(
+	'signIn',
+	function ($) {
+		return elm$json$Json$Encode$null;
+	});
 var author$project$Main$update = F2(
 	function (msg, model) {
-		return _Utils_Tuple2(
-			model,
-			author$project$Main$sendData('Hello JavaScript!'));
+		switch (msg.$) {
+			case 'SignIn':
+				return _Utils_Tuple2(
+					model,
+					author$project$Main$signIn(_Utils_Tuple0));
+			case 'SignedIn':
+				var isSignedIn = msg.a;
+				return _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{isSignedIn: isSignedIn}),
+					elm$core$Platform$Cmd$none);
+			case 'Push':
+				var text = msg.a;
+				return _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{pushText: text}),
+					author$project$Main$push(text));
+			default:
+				var text = msg.a;
+				return _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{pushText: text}),
+					elm$core$Platform$Cmd$none);
+		}
 	});
-var author$project$Main$SendDataToJS = {$: 'SendDataToJS'};
+var author$project$Main$Push = function (a) {
+	return {$: 'Push', a: a};
+};
+var author$project$Main$SignIn = {$: 'SignIn'};
 var elm$core$Basics$identity = function (x) {
 	return x;
 };
@@ -4817,11 +4871,21 @@ var elm$virtual_dom$VirtualDom$toHandlerInt = function (handler) {
 			return 3;
 	}
 };
-var elm$html$Html$br = _VirtualDom_node('br');
 var elm$html$Html$button = _VirtualDom_node('button');
 var elm$html$Html$div = _VirtualDom_node('div');
+var elm$html$Html$input = _VirtualDom_node('input');
 var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
+var elm$html$Html$Attributes$stringProperty = F2(
+	function (key, string) {
+		return A2(
+			_VirtualDom_property,
+			key,
+			elm$json$Json$Encode$string(string));
+	});
+var elm$html$Html$Attributes$class = elm$html$Html$Attributes$stringProperty('className');
+var elm$html$Html$Attributes$type_ = elm$html$Html$Attributes$stringProperty('type');
+var elm$html$Html$Attributes$value = elm$html$Html$Attributes$stringProperty('value');
 var elm$virtual_dom$VirtualDom$Normal = function (a) {
 	return {$: 'Normal', a: a};
 };
@@ -4839,49 +4903,19 @@ var elm$html$Html$Events$onClick = function (msg) {
 		'click',
 		elm$json$Json$Decode$succeed(msg));
 };
-var author$project$Main$view = function (model) {
-	return A2(
-		elm$html$Html$div,
-		_List_Nil,
-		_List_fromArray(
-			[
-				A2(
-				elm$html$Html$button,
-				_List_fromArray(
-					[
-						elm$html$Html$Events$onClick(author$project$Main$SendDataToJS)
-					]),
-				_List_fromArray(
-					[
-						elm$html$Html$text('Click to Send Data to JavaScript'),
-						A2(elm$html$Html$br, _List_Nil, _List_Nil),
-						elm$html$Html$text('See the Result in Cosole')
-					]))
-			]));
+var elm$html$Html$Events$alwaysStop = function (x) {
+	return _Utils_Tuple2(x, true);
 };
-var elm$browser$Browser$External = function (a) {
-	return {$: 'External', a: a};
+var elm$virtual_dom$VirtualDom$MayStopPropagation = function (a) {
+	return {$: 'MayStopPropagation', a: a};
 };
-var elm$browser$Browser$Internal = function (a) {
-	return {$: 'Internal', a: a};
-};
-var elm$browser$Browser$Dom$NotFound = function (a) {
-	return {$: 'NotFound', a: a};
-};
-var elm$core$Basics$never = function (_n0) {
-	never:
-	while (true) {
-		var nvr = _n0.a;
-		var $temp$_n0 = nvr;
-		_n0 = $temp$_n0;
-		continue never;
-	}
-};
-var elm$core$Task$Perform = function (a) {
-	return {$: 'Perform', a: a};
-};
-var elm$core$Task$succeed = _Scheduler_succeed;
-var elm$core$Task$init = elm$core$Task$succeed(_Utils_Tuple0);
+var elm$html$Html$Events$stopPropagationOn = F2(
+	function (event, decoder) {
+		return A2(
+			elm$virtual_dom$VirtualDom$on,
+			event,
+			elm$virtual_dom$VirtualDom$MayStopPropagation(decoder));
+	});
 var elm$core$List$foldrHelper = F4(
 	function (fn, acc, ctr, ls) {
 		if (!ls.b) {
@@ -4937,6 +4971,80 @@ var elm$core$List$foldr = F3(
 	function (fn, acc, ls) {
 		return A4(elm$core$List$foldrHelper, fn, acc, 0, ls);
 	});
+var elm$json$Json$Decode$field = _Json_decodeField;
+var elm$json$Json$Decode$at = F2(
+	function (fields, decoder) {
+		return A3(elm$core$List$foldr, elm$json$Json$Decode$field, decoder, fields);
+	});
+var elm$html$Html$Events$targetValue = A2(
+	elm$json$Json$Decode$at,
+	_List_fromArray(
+		['target', 'value']),
+	elm$json$Json$Decode$string);
+var elm$html$Html$Events$onInput = function (tagger) {
+	return A2(
+		elm$html$Html$Events$stopPropagationOn,
+		'input',
+		A2(
+			elm$json$Json$Decode$map,
+			elm$html$Html$Events$alwaysStop,
+			A2(elm$json$Json$Decode$map, tagger, elm$html$Html$Events$targetValue)));
+};
+var author$project$Main$view = function (_n0) {
+	var pushText = _n0.pushText;
+	var isSignedIn = _n0.isSignedIn;
+	return A2(
+		elm$html$Html$div,
+		_List_fromArray(
+			[
+				elm$html$Html$Attributes$class('container')
+			]),
+		_List_fromArray(
+			[
+				A2(
+				elm$html$Html$button,
+				_List_fromArray(
+					[
+						elm$html$Html$Events$onClick(author$project$Main$SignIn)
+					]),
+				_List_fromArray(
+					[
+						elm$html$Html$text('Google サインイン')
+					])),
+				isSignedIn ? A2(
+				elm$html$Html$input,
+				_List_fromArray(
+					[
+						elm$html$Html$Attributes$type_('input'),
+						elm$html$Html$Attributes$value(pushText),
+						elm$html$Html$Events$onInput(author$project$Main$Push)
+					]),
+				_List_Nil) : elm$html$Html$text('')
+			]));
+};
+var elm$browser$Browser$External = function (a) {
+	return {$: 'External', a: a};
+};
+var elm$browser$Browser$Internal = function (a) {
+	return {$: 'Internal', a: a};
+};
+var elm$browser$Browser$Dom$NotFound = function (a) {
+	return {$: 'NotFound', a: a};
+};
+var elm$core$Basics$never = function (_n0) {
+	never:
+	while (true) {
+		var nvr = _n0.a;
+		var $temp$_n0 = nvr;
+		_n0 = $temp$_n0;
+		continue never;
+	}
+};
+var elm$core$Task$Perform = function (a) {
+	return {$: 'Perform', a: a};
+};
+var elm$core$Task$succeed = _Scheduler_succeed;
+var elm$core$Task$init = elm$core$Task$succeed(_Utils_Tuple0);
 var elm$core$List$map = F2(
 	function (f, xs) {
 		return A3(
@@ -5154,17 +5262,21 @@ var elm$url$Url$fromString = function (str) {
 		elm$url$Url$Https,
 		A2(elm$core$String$dropLeft, 8, str)) : elm$core$Maybe$Nothing);
 };
-var elm$browser$Browser$element = _Browser_element;
-var elm$core$Platform$Sub$batch = _Platform_batch;
-var elm$core$Platform$Sub$none = elm$core$Platform$Sub$batch(_List_Nil);
-var author$project$Main$main = elm$browser$Browser$element(
+var elm$browser$Browser$document = _Browser_document;
+var author$project$Main$main = elm$browser$Browser$document(
 	{
 		init: author$project$Main$init,
-		subscriptions: function (_n0) {
-			return elm$core$Platform$Sub$none;
-		},
+		subscriptions: author$project$Main$subscriptions,
 		update: author$project$Main$update,
-		view: author$project$Main$view
+		view: function (m) {
+			return {
+				body: _List_fromArray(
+					[
+						author$project$Main$view(m)
+					]),
+				title: 'Elm Firebase'
+			};
+		}
 	});
 _Platform_export({'Main':{'init':author$project$Main$main(
 	elm$json$Json$Decode$succeed(_Utils_Tuple0))(0)}});}(this));

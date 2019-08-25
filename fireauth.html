@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>FireAuth</title>
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <main></main>
+
+    <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+      const app = Elm.Main.init({
+        node: document.querySelector('main')
+      });
+
+
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyC4P98OTo59P7GMJKEJ1gcZ-a1Gz5oh_2U",
+        authDomain: "bar001-763d5.firebaseapp.com",
+        databaseURL: "https://bar001-763d5.firebaseio.com",
+        projectId: "bar001-763d5",
+        storageBucket: "",
+        messagingSenderId: "759151675879",
+        appId: "1:759151675879:web:8e9abab80e900d25"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+
+
+      const provider = new firebase.auth.GoogleAuthProvider();
+      const DB = firebase.firestore();
+
+      // ログイン監視
+      app.ports.signIn.subscribe(_ => {
+        firebase.auth().signInWithPopup(provider).then((_) => { }).catch((error) => { });
+      });
+
+      app.ports.push.subscribe(text => {
+        const user = firebase.auth().currentUser;
+        DB.collection('foo').doc(user.uid).set({ input: text });
+      });
+
+      // ログイン監視
+      firebase.auth().onAuthStateChanged((user) => {
+        if (user) {
+          app.ports.signedIn.send(true);
+
+          // ログイン後にDatabase監視
+          DB.collection('foo').doc(user.uid).onSnapshot((doc) => {
+            const data = doc.data();
+            app.ports.read.send(data.input);
+          });
+        }
+      });
+
+    </script>
+</body>
+
+</html>
