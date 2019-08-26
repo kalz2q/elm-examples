@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>WebStorage001</title>
+  <script type="text/javascript">
+    function init() {
+      localStorage.Hashikawa = "Artistic";
+      // localStorage["Hashikawa"] = "Artistic";
+      // localStorage.setItem("Hashikawa", "Artistic");
+      //上記３行、どの書き方でも同じ
+
+      // localStorage.removeItem("Hashikawa"); 
+    // var val = localStorage.Hashikawa;
+    // var val = localStorage["Hashikawa"];
+    var val = localStorage.getItem("Hashikawa");
+    // 上記３行、どの書き方でも同じ
+    document.querySelector("#result").innerHTML = val;
+
+
+    }
+  </script>
+
+</head>
+
+<body onload="init()">
+  <h1 id="result"></h1>
+</body>
+
+</html>
