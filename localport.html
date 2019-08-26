@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>LocalFPort</title>
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <main></main>
+
+
+
+  <script>
+    const storedState = localStorage.getItem('elm-todo-save2');
+    const startingState = storedState ? JSON.parse(storedState) : null;
+
+    const app = Elm.Main.init({
+      node: document.querySelector('main'),
+      flags: startingState
+    });
+
+    app.ports.sendStorage.subscribe(function (state) {
+      localStorage.setItem('elm-todo-save2', JSON.stringify(state))
+    });
+
+
+  </script>
+</body>
+
+</html>
