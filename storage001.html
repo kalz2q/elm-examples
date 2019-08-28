@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>WebStorage</title>
+  <script type="text/javascript">
+    function init() {
+      var oldData = localStorage.getItem("goku");
+      if (oldData) {
+        var realData = JSON.parse(oldData);
+        document.querySelector("#name").value = realData.name;
+        document.querySelector("#category").value = realData.category;
+        document.querySelector("#strength").value = realData.strength;
+      }
+
+      document.querySelector("#form").addEventListener("input",
+        function () {
+          var data = {
+            name: document.querySelector("#name").value,
+            category: document.querySelector("#category").value,
+            strength: document.querySelector("#strength").value
+          };
+          localStorage.setItem("goku", JSON.stringify(data));
+
+          var nowData = localStorage.getItem("goku");
+          var realData = JSON.parse(nowData);
+          val = realData.name + " " + realData.category + " " + realData.strength;
+          document.querySelector("#result").innerHTML = val;
+        }, false
+      );
+    }
+  </script>
+</head>
+
+<body onload="init()">
+  <form id="form">
+    <label for="name">
+      名前
+      <input type="text" name="name" id="name">
+    </label>
+    <label for="name">
+      人種
+      <input type="text" name="category" id="category">
+    </label>
+    <label for="name">
+      強さ
+      <input type="text" name="strength" id="strength">
+    </label>
+    <div id="result"></div>
+  </form>
+
+</html>

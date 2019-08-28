@@ -1,5 +1,7 @@
 module Todo001 exposing (Model, Msg(..), init, main, update, view)
 
+-- question this is basically 25-elm-examples
+-- my question is why doesn't this have trim procesure?  or isEmpty decision?
 import Browser
 import Html exposing (..)
 import Html.Attributes as HA
@@ -50,8 +52,13 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
-    div [ ]
-        [ input [ HE.onInput NewTodo, HA.value model.text, HA.autofocus True ] []
-        , button [ HE.onClick AddTodo] [ text "Add Todo" ]
+    div []
+        [ input
+            [ HE.onInput NewTodo
+            , HA.value model.text
+            , HA.autofocus True
+            ]
+            []
+        , button [ HE.onClick AddTodo ] [ text "Add Todo" ]
         , div [] (List.map (\todo -> div [] [ text todo ]) model.todos)
         ]

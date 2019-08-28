@@ -66,15 +66,22 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
-    div []
+    div
+        [ HA.style "margin" "60px auto"
+        , HA.style "width" "400px"
+        ]
         [ input [ HE.onInput NewTodo, HA.value model.text, HA.autofocus True ] []
         , button [ HE.onClick AddTodo ] [ text "Add Todo" ]
         , div []
             (List.indexedMap
                 (\index todo ->
                     div []
-                        [ span [ HE.onClick (RemoveTodo index) ] [ text "☒   " ]
-                        , text todo
+                        [ text todo
+                        , span
+                            [ HE.onClick (RemoveTodo index)
+                            , HA.style "float" "right"
+                            ]
+                            [ button [] [ text "Delete" ] ]
                         ]
                 )
                 model.todos
