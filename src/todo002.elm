@@ -1,6 +1,7 @@
 module Todo002 exposing (Model, Msg(..), init, main, update, view)
 
 -- add remove button
+-- next mission is to implement localstorage like 21
 
 import Browser
 import Html exposing (..)
@@ -70,18 +71,30 @@ view model =
         [ HA.style "margin" "60px auto"
         , HA.style "width" "400px"
         ]
-        [ input [ HE.onInput NewTodo, HA.value model.text, HA.autofocus True ] []
-        , button [ HE.onClick AddTodo ] [ text "Add Todo" ]
+        [ h1 [] [ text "Enter itmes to do" ]
+        , Html.form [ HE.onSubmit AddTodo ]
+            [ input
+                [ HE.onInput NewTodo
+                , HA.value model.text
+                , HA.autofocus True
+                , HA.style "width" "70%"
+                ]
+                []
+            , button
+                [ HA.disabled (String.isEmpty (String.trim model.text))
+                , HA.style "width" "27%"
+                ]
+                [ text "Add Todo" ]
+            ]
         , div []
             (List.indexedMap
                 (\index todo ->
-                    div []
+                    div [ HA.style "padding" "2px" ]
                         [ text todo
                         , span
                             [ HE.onClick (RemoveTodo index)
-                            , HA.style "float" "right"
                             ]
-                            [ button [] [ text "Delete" ] ]
+                            [ button [ HA.style "float" "right" ] [ text "Delete" ] ]
                         ]
                 )
                 model.todos
