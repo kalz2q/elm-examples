@@ -1,16 +1,22 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>21</title>
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.css">
+  <title>TodoLocal001</title>
+  <!-- elm make src/todo006.elm --output=main.js -->
+  <!-- cf. 21 of 25 elm examples -->
+  <script src="main.js"></script>
 </head>
 
 <body>
-  <div id="root"></div>
-  <script src="elm.js"></script>
+  <main></main>
+
+
+
   <script>
+    // const todos = localStorage.getItem('todos');
+    // const todos = todos ? JSON.parse(todos) : null;
+
     var isArrayOfStrings = function (array) {
       return Array.isArray(array) && array.every(function (element) {
         return typeof element === 'string';
@@ -22,14 +28,17 @@
       return isArrayOfStrings(todos) ? todos : [];
     };
 
-    var app = Elm.Main.init({
-      node: document.getElementById('root'),
-      flags: { todos: getTodos() }
+
+    const app = Elm.Main.init({
+      node: document.querySelector('main'),
+      flags: {todos : getTodos()}
     });
 
     app.ports.saveTodos.subscribe(function (todos) {
-      localStorage.todos = JSON.stringify(todos);
+      localStorage.setItem('todos', JSON.stringify(todos))
     });
+
+
   </script>
 </body>
 
