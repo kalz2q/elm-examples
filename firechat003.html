@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- detour to set data in collection chat 1111111 todos -->
+
+<head>
+    <meta charset="utf-8">
+    <title>FireChat003</title>
+</head>
+
+<body>
+    <main>Chat App</main>
+    <form autocomplete="off">
+        <input type="text" id="message" placeholder="your message...">
+    </form>
+
+    <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-auth.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAcGKXBceLoU_TL0HUB49jwf2wBT3fwhRw",
+            authDomain: "chat001-a4a95.firebaseapp.com",
+            databaseURL: "https://chat001-a4a95.firebaseio.com",
+            projectId: "chat001-a4a95",
+            storageBucket: "",
+            messagingSenderId: "929149012971",
+            appId: "1:929149012971:web:d02e11cc0a521bb1"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+
+        var docRef = db.collection('chat').doc('1111111');
+
+
+        docRef.update ({todos: ["buy milk","learn elm", "prepare for meeting", "go to school", "take some rest", "check todos"]})
+
+
+    </script>
+</body>
+
+</html>
