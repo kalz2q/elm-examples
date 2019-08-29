@@ -37,17 +37,18 @@
 
         var docRef = db.collection('chat').doc('1111111');
 
-        docRef.get().then(function (doc) {
-            if (doc.exists) {
-                console.log("Document data:", doc.data());
-            } else {
-                // doc.data() will be undefined in this case
-                console.log("No such document!");
-            }
-        }).catch(function (error) {
-            console.log("Error getting document:", error);
-        });
+        // docRef.get().then(function (doc) {
+        //     if (doc.exists) {
+        //         console.log("Document data:", doc.data());
+        //     } else {
+        //         // doc.data() will be undefined in this case
+        //         console.log("No such document!");
+        //     }
+        // }).catch(function (error) {
+        //     console.log("Error getting document:", error);
+        // });
 
+        console.log(docRef.get());
         // docRef.update({ todos: ["read newspaper","buy milk", "learn elm", "prepare for meeting", "go to school", "take some rest", "check todos"] })
 
 

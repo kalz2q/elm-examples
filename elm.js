@@ -4310,10 +4310,11 @@ function _Browser_load(url)
 		}
 	}));
 }
-var author$project$Main$Model = F2(
-	function (text, todos) {
-		return {text: text, todos: todos};
+var author$project$Main$Model = F3(
+	function (text, todos, editing) {
+		return {editing: editing, text: text, todos: todos};
 	});
+var elm$core$Maybe$Nothing = {$: 'Nothing'};
 var elm$core$Basics$False = {$: 'False'};
 var elm$core$Basics$True = {$: 'True'};
 var elm$core$Result$isOk = function (result) {
@@ -4577,7 +4578,6 @@ var elm$core$Array$initialize = F2(
 var elm$core$Maybe$Just = function (a) {
 	return {$: 'Just', a: a};
 };
-var elm$core$Maybe$Nothing = {$: 'Nothing'};
 var elm$core$Result$Err = function (a) {
 	return {$: 'Err', a: a};
 };
@@ -4793,7 +4793,7 @@ var elm$core$Platform$Cmd$batch = _Platform_batch;
 var elm$core$Platform$Cmd$none = elm$core$Platform$Cmd$batch(_List_Nil);
 var author$project$Main$init = function (flags) {
 	return _Utils_Tuple2(
-		A2(author$project$Main$Model, '', flags.todos),
+		A3(author$project$Main$Model, '', flags.todoList, elm$core$Maybe$Nothing),
 		elm$core$Platform$Cmd$none);
 };
 var elm$core$Platform$Sub$batch = _Platform_batch;
@@ -4972,14 +4972,15 @@ var author$project$Main$update = F2(
 						{text: newText}),
 					elm$core$Platform$Cmd$none);
 			case 'AddTodo':
+				var newTodos = _Utils_ap(
+					model.todos,
+					_List_fromArray(
+						[model.text]));
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{
-							text: '',
-							todos: A2(elm$core$List$cons, model.text, model.todos)
-						}),
-					author$project$Main$saveTodos(model.todos));
+						{text: '', todos: newTodos}),
+					author$project$Main$saveTodos(newTodos));
 			default:
 				var index = msg.a;
 				var beforeTodos = A2(elm$core$List$take, index, model.todos);
@@ -4989,7 +4990,7 @@ var author$project$Main$update = F2(
 					_Utils_update(
 						model,
 						{todos: newTodos}),
-					author$project$Main$saveTodos(model.todos));
+					author$project$Main$saveTodos(newTodos));
 		}
 	});
 var author$project$Main$AddTodo = {$: 'AddTodo'};
@@ -5026,7 +5027,6 @@ var elm$html$Html$div = _VirtualDom_node('div');
 var elm$html$Html$form = _VirtualDom_node('form');
 var elm$html$Html$h1 = _VirtualDom_node('h1');
 var elm$html$Html$input = _VirtualDom_node('input');
-var elm$html$Html$section = _VirtualDom_node('section');
 var elm$html$Html$span = _VirtualDom_node('span');
 var elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var elm$html$Html$text = elm$virtual_dom$VirtualDom$text;
@@ -5050,7 +5050,6 @@ var elm$html$Html$Attributes$stringProperty = F2(
 var elm$html$Html$Attributes$placeholder = elm$html$Html$Attributes$stringProperty('placeholder');
 var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
 var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
-var elm$html$Html$Attributes$type_ = elm$html$Html$Attributes$stringProperty('type');
 var elm$html$Html$Attributes$value = elm$html$Html$Attributes$stringProperty('value');
 var elm$virtual_dom$VirtualDom$Normal = function (a) {
 	return {$: 'Normal', a: a};
@@ -5197,83 +5196,77 @@ var author$project$Main$view = function (model) {
 						elm$html$Html$text('Enter itmes to do')
 					])),
 				A2(
-				elm$html$Html$section,
-				_List_Nil,
+				elm$html$Html$form,
+				_List_fromArray(
+					[
+						elm$html$Html$Events$onSubmit(author$project$Main$AddTodo)
+					]),
 				_List_fromArray(
 					[
 						A2(
-						elm$html$Html$form,
+						elm$html$Html$input,
 						_List_fromArray(
 							[
-								elm$html$Html$Events$onSubmit(author$project$Main$AddTodo)
+								elm$html$Html$Events$onInput(author$project$Main$UpdateText),
+								elm$html$Html$Attributes$value(model.text),
+								elm$html$Html$Attributes$autofocus(true),
+								A2(elm$html$Html$Attributes$style, 'width', '70%'),
+								elm$html$Html$Attributes$placeholder('Enter a todo')
+							]),
+						_List_Nil),
+						A2(
+						elm$html$Html$button,
+						_List_fromArray(
+							[
+								elm$html$Html$Attributes$disabled(
+								elm$core$String$isEmpty(
+									elm$core$String$trim(model.text))),
+								A2(elm$html$Html$Attributes$style, 'width', '27%')
 							]),
 						_List_fromArray(
 							[
-								A2(
-								elm$html$Html$input,
+								elm$html$Html$text('Add Todo')
+							]))
+					])),
+				A2(
+				elm$html$Html$div,
+				_List_Nil,
+				A2(
+					elm$core$List$indexedMap,
+					F2(
+						function (index, todo) {
+							return A2(
+								elm$html$Html$div,
 								_List_fromArray(
 									[
-										elm$html$Html$Attributes$type_('text'),
-										elm$html$Html$Events$onInput(author$project$Main$UpdateText),
-										elm$html$Html$Attributes$placeholder('input your todo'),
-										elm$html$Html$Attributes$autofocus(true),
-										elm$html$Html$Attributes$value(model.text)
-									]),
-								_List_Nil),
-								A2(
-								elm$html$Html$button,
-								_List_fromArray(
-									[
-										elm$html$Html$Attributes$disabled(
-										elm$core$String$isEmpty(
-											elm$core$String$trim(model.text))),
-										A2(elm$html$Html$Attributes$style, 'width', '27%')
+										A2(elm$html$Html$Attributes$style, 'padding', '2px')
 									]),
 								_List_fromArray(
 									[
-										elm$html$Html$text('Add Todo')
-									]))
-							])),
-						A2(
-						elm$html$Html$div,
-						_List_Nil,
-						A2(
-							elm$core$List$indexedMap,
-							F2(
-								function (index, todo) {
-									return A2(
-										elm$html$Html$div,
+										elm$html$Html$text(todo),
+										A2(
+										elm$html$Html$span,
 										_List_fromArray(
 											[
-												A2(elm$html$Html$Attributes$style, 'padding', '2px')
+												elm$html$Html$Events$onClick(
+												author$project$Main$RemoveTodo(index))
 											]),
 										_List_fromArray(
 											[
-												elm$html$Html$text(todo),
 												A2(
-												elm$html$Html$span,
+												elm$html$Html$button,
 												_List_fromArray(
 													[
-														elm$html$Html$Events$onClick(
-														author$project$Main$RemoveTodo(index))
+														A2(elm$html$Html$Attributes$style, 'float', 'right')
 													]),
 												_List_fromArray(
 													[
-														A2(
-														elm$html$Html$button,
-														_List_fromArray(
-															[
-																A2(elm$html$Html$Attributes$style, 'float', 'right')
-															]),
-														_List_fromArray(
-															[
-																elm$html$Html$text('Remove')
-															]))
+														elm$html$Html$text('Remove')
 													]))
-											]));
-								}),
-							model.todos))
-					]))
+											]))
+									]));
+						}),
+					model.todos))
 			]));
 };
 var elm$browser$Browser$External = function (a) {
@@ -5521,11 +5514,11 @@ var author$project$Main$main = elm$browser$Browser$element(
 _Platform_export({'Main':{'init':author$project$Main$main(
 	A2(
 		elm$json$Json$Decode$andThen,
-		function (todos) {
+		function (todoList) {
 			return elm$json$Json$Decode$succeed(
-				{todos: todos});
+				{todoList: todoList});
 		},
 		A2(
 			elm$json$Json$Decode$field,
-			'todos',
+			'todoList',
 			elm$json$Json$Decode$list(elm$json$Json$Decode$string))))(0)}});}(this));
