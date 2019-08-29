@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TodoLocal002</title>
+  <!-- elm make src/todo007.elm --output=main.js -->
+  <!-- last time I used flags  and ports  and this time use ports both way -->
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <main></main>
+
+
+
+  <script>
+
+    var isArrayOfStrings = function (array) {
+      return Array.isArray(array) && array.every(function (element) {
+        return typeof element === 'string';
+      });
+    };
+
+    var getTodos = function () {
+      var todos = JSON.parse(localStorage.todos || '[]') || [];
+      return isArrayOfStrings(todos) ? todos : [];
+    };
+
+    app.ports.readTodos.send({ todos: getTodos() });
+    // app.ports.read.send(JSON.stringify(doc.data()));
+    
+    const app = Elm.Main.init({
+      node: document.querySelector('main'),
+      // flags: { todos: getTodos() }
+    });
+
+    app.ports.saveTodos.subscribe(function (todos) {
+      localStorage.setItem('todos', JSON.stringify(todos))
+    });
+
+
+  </script>
+</body>
+
+</html>
