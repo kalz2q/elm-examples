@@ -37,13 +37,15 @@
 
         var docRef = db.collection('foo').doc('1111111');
 
-console.log(docRef.get().then(function (doc) { return (doc.data()) }));
-
-        var app = Elm.Main.init({
-            node: document.querySelector('main'),
-            flags: 
-                docRef.get().then(function (doc) { return (doc.data()) })
+        docRef.get().then(function (doc) { 
+            var app = Elm.Main.init({
+                node: document.querySelector('main'),
+                flags: 
+                    doc.data()
+            });
         });
+
+
 
 
         app.ports.saveTodos.subscribe(function (todos) {
