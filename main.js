@@ -4793,7 +4793,7 @@ var elm$core$Platform$Cmd$batch = _Platform_batch;
 var elm$core$Platform$Cmd$none = elm$core$Platform$Cmd$batch(_List_Nil);
 var author$project$Main$init = function (flags) {
 	return _Utils_Tuple2(
-		A3(author$project$Main$Model, '', flags.todoList, elm$core$Maybe$Nothing),
+		A3(author$project$Main$Model, '', flags.todos, elm$core$Maybe$Nothing),
 		elm$core$Platform$Cmd$none);
 };
 var elm$core$Platform$Sub$batch = _Platform_batch;
@@ -4980,7 +4980,7 @@ var author$project$Main$update = F2(
 					_Utils_update(
 						model,
 						{text: '', todos: newTodos}),
-					author$project$Main$saveTodos(newTodos));
+					author$project$Main$saveTodos(model.todos));
 			default:
 				var index = msg.a;
 				var beforeTodos = A2(elm$core$List$take, index, model.todos);
@@ -5514,11 +5514,11 @@ var author$project$Main$main = elm$browser$Browser$element(
 _Platform_export({'Main':{'init':author$project$Main$main(
 	A2(
 		elm$json$Json$Decode$andThen,
-		function (todoList) {
+		function (todos) {
 			return elm$json$Json$Decode$succeed(
-				{todoList: todoList});
+				{todos: todos});
 		},
 		A2(
 			elm$json$Json$Decode$field,
-			'todoList',
+			'todos',
 			elm$json$Json$Decode$list(elm$json$Json$Decode$string))))(0)}});}(this));

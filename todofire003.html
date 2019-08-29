@@ -4,11 +4,6 @@
 <head>
     <title>todofire003</title>
     <!-- elm make src/todo007.elm --output=main.js -->
-    <!-- todofire003.htmlを作る
-    todolocal001.htmlから構造を写す
-    firechat004.htmlからfirestoreとのデータのやりとりを写す
-    todo006.elmからtodo007.elmを作る
-    firetodoあたりから云々。 -->
     <script src="main.js"></script>
 </head>
 
@@ -37,20 +32,21 @@
 
         var docRef = db.collection('foo').doc('1111111');
 
-        docRef.get().then(function (doc) { 
+        docRef.get().then(function (doc) {
             var app = Elm.Main.init({
                 node: document.querySelector('main'),
-                flags: 
+                flags:
                     doc.data()
+            });
+
+            app.ports.saveTodos.subscribe(function (todos) {
+                docRef.set({ todos: todos });
             });
         });
 
+        // docRef.update({ todos: ["read newspaper", "buy milk", "learn elm", "prepare for meeting", "go to school", "take some rest", "check todos"] })
 
 
-
-        app.ports.saveTodos.subscribe(function (todos) {
-            docRef.update(todos);
-        });
 
     </script>
 </body>

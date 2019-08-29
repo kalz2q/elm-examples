@@ -2,8 +2,8 @@ port module Main exposing (main)
 
 -- port module Todo007 exposing (main)
 -- this is todo006 revision
--- next mission is to implement firestore
--- link to todofire003.html
+-- mission is to implement firestore
+-- linked from todofire003.html
 
 import Browser
 import Html exposing (..)
@@ -75,7 +75,7 @@ update msg model =
                     model.todos ++ [ model.text ]
             in
             ( { model | text = "", todos = newTodos }
-            , saveTodos newTodos
+            , saveTodos model.todos
             )
 
         RemoveTodo index ->
