@@ -3,6 +3,8 @@
 
 <head>
     <title>todofire002</title>
+    <!-- elm make src/todofire002.elm --output=main.js -->
+    <!-- cf. 21 of 25 elm examples -->
     <script src="main.js"></script>
 </head>
 
@@ -13,7 +15,6 @@
     <script src="https://www.gstatic.com/firebasejs/6.4.1/firebase-firestore.js"></script>
 
     <script>
-        var app = Elm.Main.init({ node: document.querySelector('main') })
 
         // Your web app's Firebase configuration
         var firebaseConfig = {
@@ -36,12 +37,18 @@
             console.log(doc.data());
             console.log(typeof doc.data());
             console.log(typeof JSON.stringify(doc.data()));
-            app.ports.read.send(JSON.stringify(doc.data()));
+            // app.ports.read.send(JSON.stringify(doc.data()));
         });
 
+        var app = Elm.Main.init({
+            node: document.querySelector('main'),
+            flags: {
+                todos: (JSON.stringify(doc.data()))
+            }
+        });
 
-        app.ports.setStorage.subscribe(function (state) {
-            docRef.update(state);
+        app.ports.setStorage.subscribe(function (todos) {
+            docRef.update(todos);
         });
     </script>
 </body>

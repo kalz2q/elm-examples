@@ -1,6 +1,6 @@
 port module Main exposing (main)
--- port module Todo006 exposing (main)
 
+-- port module Todo006 exposing (main)
 -- this is todo002 revision
 -- next mission is to implement localstorage like 21 / 25-elm-examples
 -- link to todolocal001.html

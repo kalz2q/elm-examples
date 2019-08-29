@@ -1,5 +1,8 @@
 port module Main exposing (main)
 
+-- todofire002.elm
+-- rewrite according to todo006.elm which is a localStorage version
+
 import Browser
 import Html exposing (..)
 import Html.Attributes as HA
@@ -8,32 +11,49 @@ import Json.Decode as Json
 
 
 
+--MAIN
+
+
+type alias Flags =
+    { todos : List String }
+
+
+main : Program Flags Model Msg
+main =
+    Browser.element
+        { init = init
+        , view = view
+        , update = update
+        , subscriptions = subscriptions
+        }
+
+
+
 ---- MODEL ----
 
 
 type alias Model =
-    { newTodo : String
-    , todoList : List String
+    { text : String
+    , todos : List String
     }
 
 
-fromJsonModel : Json.Decoder Model
-fromJsonModel =
-    Json.map2 Model
-        (Json.field "newTodo" Json.string)
-        (Json.field "todoList" (Json.list Json.string))
+
+-- fromJsonModel : Json.Decoder Model
+-- fromJsonModel =
+--     Json.map2 Model
+--         (Json.field "newTodo" Json.string)
+--         (Json.field "todoList" (Json.list Json.string))
+-- emptyModel : Model
+-- emptyModel =
+--     { newTodo = ""
+--     , todoList = []
+-- }
 
 
-emptyModel : Model
-emptyModel =
-    { newTodo = ""
-    , todoList = []
-    }
-
-
-init : () -> ( Model, Cmd Msg )
-init _ =
-    ( emptyModel
+init : Flags -> ( Model, Cmd Msg )
+init flags =
+    ( Model "" flags.todos
     , Cmd.none
     )
 
@@ -43,67 +63,47 @@ init _ =
 
 
 type Msg
-    = Add
-    | UpdateField String
-    | Delete Int
-    | Read String
+    = UpdateText String
+    | AddTodo
+    | RemoveTodo Int
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
-    let
-        isSpace =
-            String.trim >> String.isEmpty
-    in
     case msg of
-        UpdateField todo ->
-            ( { model | newTodo = todo }
-            , setStorage model
+        UpdateText newText ->
+            ( { model | text = newText }
+            , Cmd.none
             )
 
-        Add ->
-            if isSpace model.newTodo then
-                ( model, Cmd.none )
+        AddTodo ->
+            ( { model
+                | todos = model.text :: model.todos
+                , text = ""
+              }
+            , saveTodos model.todos
+            )
 
-            else
-                ( { model
-                    | todoList = model.newTodo :: model.todoList
-                    , newTodo = ""
-                  }
-                , setStorage model
-                )
-
-        Delete n ->
+        RemoveTodo index ->
             let
-                t =
-                    model.todoList
-
                 beforeTodos =
-                    List.take n model.todoList
+                    List.take index model.todos
 
                 afterTodos =
-                    List.drop (n + 1) model.todoList
+                    List.drop (index + 1) model.todos
 
                 newTodos =
                     beforeTodos ++ afterTodos
             in
-            ( { model
-                | todoList = newTodos
-              }
-            , setStorage model
-            )
+            ( { model | todos = newTodos }, saveTodos model.todos )
 
-        Read s ->
-            ( case Json.decodeString fromJsonModel s of
-                Err e ->
-                    model
 
-                Ok newModel ->
-                    { newModel
-                        | newTodo = model.newTodo
-                    }
-            , Cmd.none
-            )
+port saveTodos : List String -> Cmd msg
+
+
+subscriptions : Model -> Sub Msg
+subscriptions model =
+    Sub.none
 
 
 
@@ -112,88 +112,50 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
-    div []
-        [ section []
-            [ div []
-                [ div []
-                    [ h1 []
-                        [ text "Elm Todo Firebase/Firestore" ]
-                    ]
-                ]
-            ]
-        , section []
-            [ div [ HE.onSubmit Add ]
-                [ form []
-                    [ div []
-                        [ input
-                            [ HA.type_ "text"
-                            , HE.onInput UpdateField
-                            , HA.placeholder "input your todo"
-                            , HA.autofocus True
-                            , HA.value model.newTodo
-                            ]
-                            []
-                        ]
-                    , div []
-                        [ a
-                            [ HA.hidden True
-                            ]
-                            [ text "add todo" ]
-                        ]
-                    ]
-
-                -- , ul [ HA.style "list-style" "none" ]
-                -- (showList model.todoList)
-                -- (model.todoList
-                --     |> List.indexedMap renderTodo
-                -- )
-                , div []
-                    (List.indexedMap
-                        (\index todo ->
-                            div []
-                                [ span [ HE.onClick (Delete index) ]
-                                    [ text "(___)    " ]
-                                , text todo
-                                ]
-                        )
-                        model.todoList
-                    )
-                ]
-            ]
+    div
+        [ HA.style "margin" "60px auto"
+        , HA.style "width" "400px"
         ]
+        [ h1 [] [ text "Enter itmes to do" ]
+        , section []
+            [ form [ HE.onSubmit AddTodo ]
+                [ input
+                    [ HA.type_ "text"
+                    , HE.onInput UpdateText
+                    , HA.placeholder "input your todo"
+                    , HA.autofocus True
+                    , HA.value model.text
+                    ]
+                    []
+                , button
+                    [ HA.disabled (String.isEmpty (String.trim model.text))
+                    , HA.style "width" "27%"
+                    ]
+                    [ text "Add Todo" ]
+                ]
+            , div []
+                (List.indexedMap
+                    (\index todo ->
+                        div [ HA.style "padding" "2px" ]
+                            [ text todo
+                            , span
+                                [ HE.onClick (RemoveTodo index)
+                                ]
+                                [ button [ HA.style "float" "right" ] [ text "Remove" ] ]
+                            ]
+                    )
+                    model.todos
+                )
+            ]
 
-
-
--- renderTodo : Int -> String -> Html Msg
--- renderTodo index todo =
---     li
---         []
---         [ a
---             [ HE.onClick (Delete index)
---             ]
---             [ text "(___)    " ]
---         , span [] [ text todo ]
---         ]
-
-
-main : Program () Model Msg
-main =
-    Browser.element
-        { init = init
-        , view = view
-
-        -- , update = updateWithStorage
-        , update = update
-        , subscriptions = subscriptions
-        }
-
-
-subscriptions : Model -> Sub Msg
-subscriptions model =
-    read Read
-
-
-port read : (String -> msg) -> Sub msg
-
-
-port setStorage : Model -> Cmd msg
+        -- renderTodo : Int -> String -> Html Msg
+        -- renderTodo index todo =
+        --     li
+        --         []
+        --         [ a
+        --             [ HE.onClick (Delete index)
+        --             ]
+        --             [ text "(___)    " ]
+        --         , span [] [ text todo ]
+        --         ]
+        ]
