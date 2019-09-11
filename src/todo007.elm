@@ -75,7 +75,7 @@ update msg model =
                     model.todos ++ [ model.text ]
             in
             ( { model | text = "", todos = newTodos }
-            , saveTodos model.todos
+            , saveTodos newTodos
             )
 
         RemoveTodo index ->
