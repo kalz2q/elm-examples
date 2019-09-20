@@ -7,7 +7,6 @@ import Html.Events exposing (..)
 import Json.Decode exposing (..)
 
 
-
 main =
     Browser.sandbox
         { init = initialModel
@@ -23,7 +22,7 @@ main =
 type alias Model msg =
     { mouseEnter : Bool
     , mouseLeave : Bool
-    , bgcolor:  (Html.Attribute msg)
+    , bgcolor : Html.Attribute msg
     }
 
 
@@ -37,26 +36,29 @@ type Msg
     | MouseLeave
 
 
-update : Msg -> (Model msg) -> Model msg
+update : Msg -> Model msg -> Model msg
 update msg model =
     case msg of
         MouseEnter ->
-            { model | bgcolor = (style "background-color" "red")}
+            { model | bgcolor = style "background-color" "red" }
 
         MouseLeave ->
-            { model | bgcolor = (style "background-color" "slategray")}
+            { model | bgcolor = style "background-color" "slategray" }
 
 
 view : Model Msg -> Html Msg
 view model =
-    div [style "width" "600px"
-      , style "height" "400px"
-      , style "margin" "auto"
-      , model.bgcolor]
+    div
+        [ style "width" "600px"
+        , style "height" "400px"
+        , style "margin" "auto"
+        , onMouseEnter MouseEnter
+        , onMouseLeave MouseLeave
+        , model.bgcolor
+        ]
         [ div
-            [ 
-            onMouseEnter MouseEnter
-            , onMouseLeave MouseLeave
+            [-- onMouseEnter MouseEnter
+             -- , onMouseLeave MouseLeave
             ]
             [ text "This is layer 2... Hover over me!" ]
         ]
