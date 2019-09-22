@@ -1,7 +1,8 @@
 port module Main exposing (main)
 
--- project is:
--- deploy todomvc on ellie-app.com 
+-- todomvc003.elm
+-- project is to make it firebase(firestore) base
+-- refer todofire002.elm
 
 import Browser
 import Browser.Dom as Dom
