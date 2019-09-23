@@ -1,4 +1,6 @@
 port module Main exposing (..)
+-- copied to todomvc001.elm
+-- elm make src/todomvc001.elm --output=main.js
 
 {-| TodoMVC implemented in Elm, using plain HTML and CSS for rendering.
 
