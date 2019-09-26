@@ -1,4 +1,13 @@
-module Board exposing (Board, Cell(..), Links, Msg(..), born, concatIndexedMapWith, init, kill, next, update, view)
+module Board exposing (..)
+
+-- I don't know what this program is
+-- think this is written in elm 0.18
+-- There s alive and dead ant it must be life game
+-- ok I found it there is lifegame.elm and it tries
+-- to import Board (this)
+-- I change 
+-- lifegame.elm => life001.elm, 
+-- Board.elm => life002.elm
 
 import Array exposing (Array)
 import Browser.Dom as Dom exposing (Element)
