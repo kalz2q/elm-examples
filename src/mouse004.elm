@@ -4,7 +4,6 @@ import Browser
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
-import Json.Decode exposing (..)
 
 
 main =
@@ -33,7 +32,7 @@ initialModel =
 
 type Msg
     = MouseEnter
-    | MouseLeave
+    | MouseOut
 
 
 update : Msg -> Model msg -> Model msg
@@ -42,7 +41,7 @@ update msg model =
         MouseEnter ->
             { model | bgcolor = style "background-color" "red" }
 
-        MouseLeave ->
+        MouseOut ->
             { model | bgcolor = style "background-color" "slategray" }
 
 
@@ -52,13 +51,13 @@ view model =
         [ style "width" "600px"
         , style "height" "400px"
         , style "margin" "auto"
+        , style "cursor" "pointer"
         , onMouseEnter MouseEnter
-        , onMouseLeave MouseLeave
+        , onMouseOut MouseOut
         , model.bgcolor
         ]
         [ div
-            [-- onMouseEnter MouseEnter
-             -- , onMouseLeave MouseLeave
+            [
             ]
-            [ text "This is layer 2... Hover over me!" ]
+            [ text "Hover over me!" ]
         ]
