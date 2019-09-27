@@ -1,4 +1,4 @@
-module ClickMe001 exposing (Model, Msg(..), init, main, update, view)
+module ClickMe002 exposing (Model, Msg(..), init, main, update, view)
 
 import Browser
 import Html exposing (..)

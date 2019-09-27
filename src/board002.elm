@@ -1,7 +1,9 @@
 module Board001 exposing (Model, Msg(..), init, main, update, view)
 
--- default is chess board 9 x 9
--- using counter to increase and decrease rows and columns
+-- default is 24px 3 x 3 board
+-- using counter to increase and decrease boxSize and boardSize
+-- based on negiboudu "elm de masume wo byougasuru"
+
 
 import Browser
 import Html exposing (..)
@@ -22,14 +24,14 @@ main =
 
 
 type alias Model =
-    { rows : Int
-    , columns : Int
+    { boxSize : Int
+    , boardSize : Int
     }
 
 
 init : Model
 init =
-    Model 9 9
+    Model 24 3
 
 
 
@@ -37,26 +39,26 @@ init =
 
 
 type Msg
-    = IncrementRows
-    | DecrementRows
-    | IncrementColumns
-    | DecrementColumns
+    = IncrementBoxSize
+    | DecrementBoxSize
+    | IncrementBoardSize
+    | DecrementBoardSize
 
 
 update : Msg -> Model -> Model
 update msg model =
     case msg of
-        IncrementRows ->
-            { model | rows = model.rows + 1 }
+        IncrementBoxSize ->
+            { model | boxSize = model.boxSize + 1 }
 
-        DecrementRows ->
-            { model | rows = model.rows - 1 }
+        DecrementBoxSize ->
+            { model | boxSize = model.boxSize - 1 }
 
-        IncrementColumns ->
-            { model | columns = model.columns + 1 }
+        IncrementBoardSize ->
+            { model | boardSize = model.boardSize + 1 }
 
-        DecrementColumns ->
-            { model | columns = model.columns - 1 }
+        DecrementBoardSize ->
+            { model | boardSize = model.boardSize - 1 }
 
 
 
@@ -65,29 +67,40 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
-    div []
+    div
+        [ style "max-width" "400px"
+        , style "margin" "auto"
+        ]
         [ div []
-            [ text "columns"
-            , button [ onClick DecrementColumns ] [ text "-" ]
-            , text (String.fromInt model.columns)
-            , button [ onClick IncrementColumns ] [ text "+" ]
+            [ div [style "font-weight" "bold"]
+                [ text "boxSize:  "
+                , button [ onClick DecrementBoxSize ] [ text " - " ]
+                , text ("  " ++ String.fromInt model.boxSize ++ " px ")
+                , button [ onClick IncrementBoxSize ] [ text " + " ]
+                ]
+            , div [style "font-weight" "bold"]
+                [ text "boardSize:  "
+                , button [ onClick DecrementBoardSize ] [ text " - " ]
+                , text ( "  " 
+                    ++ String.fromInt model.boardSize
+                    ++ "  x  "
+                    ++ String.fromInt model.boardSize
+                    ++ "  " )
+                , button [ onClick IncrementBoardSize ] [ text " + " ]
+                ]
+
+            , table
+                [ style "border" "solid thin"
+                , style "border-collapse" "collapse"
+                ]
+              <|
+                List.repeat model.boardSize <|
+                    tr [ style "height" (String.fromInt model.boxSize ++ "px") ] <|
+                        List.repeat model.boardSize <|
+                            td
+                                [ style "border" "solid thin"
+                                , style "width" (String.fromInt model.boxSize ++ "px")
+                                ]
+                                []
             ]
-        , div []
-            [ text "rows"
-            , button [ onClick DecrementRows ] [ text "-" ]
-            , text (String.fromInt model.rows)
-            , button [ onClick IncrementRows ] [ text "+" ]
-            ]
-        -- , td
-        --     [ style "border" "solid thin"
-        --     , style "width" (String.fromInt (2 * model.columns) ++ "px")
-        --     ]
-        --     []
-        --     |> List.repeat model.columns
-        --     |> tr [ style "height" (String.fromInt (2 * model.rows) ++ "px") ]
-        --     |> List.repeat model.columns
-        --     |> table
-        --         [ style "border" "solid thin"
-        --         , style "border-collapse" "collapse"
-        --         ]
         ]

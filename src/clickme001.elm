@@ -17,50 +17,55 @@ main =
 
 type alias Model =
     { string : String
-    , background : String
-    , borderRadius : String
+    , background1 : String
+    , background2 : String
+    , borderRadius1 : String
+    , borderRadius2 : String
     }
 
 
 init : Model
 init =
     { string = "Click Me!"
-    , background = "pink"
-    , borderRadius = "0%"
+    , background1 = "pink"
+    , background2 = "pink"
+    , borderRadius1 = "0%"
+    , borderRadius2 = "0%"
     }
 
 
 type Msg
-    = Click1 | Click2
+    = Click1
+    | Click2
 
 
 update : Msg -> Model -> Model
 update msg model =
     case msg of
         Click1 ->
-            if model.background == "pink" then
+            if model.background1 == "pink" then
                 { model
-                    | background = "skyblue"
-                    , borderRadius = "50%"
+                    | background1 = "skyblue"
+                    , borderRadius1 = "50%"
                 }
 
             else
                 { model
-                    | background = "pink"
-                    , borderRadius = "0%"
+                    | background1 = "pink"
+                    , borderRadius1 = "0%"
                 }
 
         Click2 ->
-            if model.background == "pink" then
+            if model.background2 == "pink" then
                 { model
-                    | background = "skyblue"
-                    , borderRadius = "50%"
+                    | background2 = "skyblue"
+                    , borderRadius2 = "50%"
                 }
 
             else
                 { model
-                    | background = "pink"
-                    , borderRadius = "0%"
+                    | background2 = "pink"
+                    , borderRadius2 = "0%"
                 }
 
 
@@ -69,21 +74,18 @@ view model =
     div
         [ HA.style "display" "flex"
         , HA.style "flex-wrap" "wrap"
-                    , HA.style "width" "600px"
-                                , HA.style "margin" "auto"
-        
+        , HA.style "width" "600px"
+        , HA.style "margin" "auto"
         ]
         [ div
-            [ HA.style "class" "box"
+            [ HA.style "id" "box1"
             , HA.style "width" "200px"
             , HA.style "height" "200px"
             , HA.style "margin" "60px auto"
             , HA.style "position" "relative"
             , HA.style "cursor" "pointer"
-            , HA.style "background" model.background
-            , HA.style "borderRadius" model.borderRadius
-
-            -- , HA.style "transform" "rotate(180deg)"
+            , HA.style "background" model.background1
+            , HA.style "borderRadius" model.borderRadius1
             , HA.style "transition" "0.8s"
             , HE.onClick Click1
             ]
@@ -96,18 +98,15 @@ view model =
                 ]
                 [ text model.string ]
             ]
-            ,
-            div
-            [ HA.style "class" "box"
+        , div
+            [ HA.style "id" "box"
             , HA.style "width" "200px"
             , HA.style "height" "200px"
             , HA.style "margin" "60px auto"
             , HA.style "position" "relative"
             , HA.style "cursor" "pointer"
-            , HA.style "background" model.background
-            , HA.style "borderRadius" model.borderRadius
-
-            -- , HA.style "transform" "rotate(180deg)"
+            , HA.style "background" model.background2
+            , HA.style "borderRadius" model.borderRadius2
             , HA.style "transition" "0.8s"
             , HE.onClick Click2
             ]

@@ -1,6 +1,5 @@
 module Board001 exposing (..)
--- default is chess board
--- using counter to increase and decrease rows and columns
+
 
 import Browser
 import Html exposing (..)

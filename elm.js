@@ -4311,10 +4311,10 @@ function _Browser_load(url)
 	}));
 }
 var author$project$Board001$Model = F2(
-	function (rows, columns) {
-		return {columns: columns, rows: rows};
+	function (boxSize, boardSize) {
+		return {boardSize: boardSize, boxSize: boxSize};
 	});
-var author$project$Board001$init = A2(author$project$Board001$Model, 9, 9);
+var author$project$Board001$init = A2(author$project$Board001$Model, 24, 3);
 var elm$core$Basics$EQ = {$: 'EQ'};
 var elm$core$Basics$GT = {$: 'GT'};
 var elm$core$Basics$LT = {$: 'LT'};
@@ -4400,30 +4400,30 @@ var elm$core$Basics$sub = _Basics_sub;
 var author$project$Board001$update = F2(
 	function (msg, model) {
 		switch (msg.$) {
-			case 'IncrementRows':
+			case 'IncrementBoxSize':
 				return _Utils_update(
 					model,
-					{rows: model.rows + 1});
-			case 'DecrementRows':
+					{boxSize: model.boxSize + 1});
+			case 'DecrementBoxSize':
 				return _Utils_update(
 					model,
-					{rows: model.rows - 1});
-			case 'IncrementColumns':
+					{boxSize: model.boxSize - 1});
+			case 'IncrementBoardSize':
 				return _Utils_update(
 					model,
-					{columns: model.columns + 1});
+					{boardSize: model.boardSize + 1});
 			default:
 				return _Utils_update(
 					model,
-					{columns: model.columns - 1});
+					{boardSize: model.boardSize - 1});
 		}
 	});
-var author$project$Board001$DecrementColumns = {$: 'DecrementColumns'};
-var author$project$Board001$DecrementRows = {$: 'DecrementRows'};
-var author$project$Board001$IncrementColumns = {$: 'IncrementColumns'};
-var author$project$Board001$IncrementRows = {$: 'IncrementRows'};
-var elm$core$Basics$apR = F2(
-	function (x, f) {
+var author$project$Board001$DecrementBoardSize = {$: 'DecrementBoardSize'};
+var author$project$Board001$DecrementBoxSize = {$: 'DecrementBoxSize'};
+var author$project$Board001$IncrementBoardSize = {$: 'IncrementBoardSize'};
+var author$project$Board001$IncrementBoxSize = {$: 'IncrementBoxSize'};
+var elm$core$Basics$apL = F2(
+	function (f, x) {
 		return f(x);
 	});
 var elm$core$Basics$append = _Utils_append;
@@ -4533,6 +4533,10 @@ var elm$core$Array$compressNodes = F2(
 			}
 		}
 	});
+var elm$core$Basics$apR = F2(
+	function (x, f) {
+		return f(x);
+	});
 var elm$core$Basics$eq = _Utils_equal;
 var elm$core$Tuple$first = function (_n0) {
 	var x = _n0.a;
@@ -4553,10 +4557,6 @@ var elm$core$Array$treeFromBuilder = F2(
 				continue treeFromBuilder;
 			}
 		}
-	});
-var elm$core$Basics$apL = F2(
-	function (f, x) {
-		return f(x);
 	});
 var elm$core$Basics$floor = _Basics_floor;
 var elm$core$Basics$gt = _Utils_gt;
@@ -4883,7 +4883,11 @@ var elm$html$Html$Events$onClick = function (msg) {
 var author$project$Board001$view = function (model) {
 	return A2(
 		elm$html$Html$div,
-		_List_Nil,
+		_List_fromArray(
+			[
+				A2(elm$html$Html$Attributes$style, 'max-width', '400px'),
+				A2(elm$html$Html$Attributes$style, 'margin', 'auto')
+			]),
 		_List_fromArray(
 			[
 				A2(
@@ -4891,92 +4895,98 @@ var author$project$Board001$view = function (model) {
 				_List_Nil,
 				_List_fromArray(
 					[
-						elm$html$Html$text('columns'),
 						A2(
-						elm$html$Html$button,
+						elm$html$Html$div,
+						_List_Nil,
 						_List_fromArray(
 							[
-								elm$html$Html$Events$onClick(author$project$Board001$DecrementColumns)
-							]),
-						_List_fromArray(
-							[
-								elm$html$Html$text('-')
-							])),
-						elm$html$Html$text(
-						elm$core$String$fromInt(model.columns)),
-						A2(
-						elm$html$Html$button,
-						_List_fromArray(
-							[
-								elm$html$Html$Events$onClick(author$project$Board001$IncrementColumns)
-							]),
-						_List_fromArray(
-							[
-								elm$html$Html$text('+')
-							]))
-					])),
-				A2(
-				elm$html$Html$div,
-				_List_Nil,
-				_List_fromArray(
-					[
-						elm$html$Html$text('rows'),
-						A2(
-						elm$html$Html$button,
-						_List_fromArray(
-							[
-								elm$html$Html$Events$onClick(author$project$Board001$DecrementRows)
-							]),
-						_List_fromArray(
-							[
-								elm$html$Html$text('-')
-							])),
-						elm$html$Html$text(
-						elm$core$String$fromInt(model.rows)),
-						A2(
-						elm$html$Html$button,
-						_List_fromArray(
-							[
-								elm$html$Html$Events$onClick(author$project$Board001$IncrementRows)
-							]),
-						_List_fromArray(
-							[
-								elm$html$Html$text('+')
-							]))
-					])),
-				A2(
-				elm$html$Html$table,
-				_List_fromArray(
-					[
-						A2(elm$html$Html$Attributes$style, 'border', 'solid thin'),
-						A2(elm$html$Html$Attributes$style, 'border-collapse', 'collapse')
-					]),
-				A2(
-					elm$core$List$repeat,
-					model.columns,
-					A2(
-						elm$html$Html$tr,
-						_List_fromArray(
-							[
+								elm$html$Html$text('boxSize'),
 								A2(
-								elm$html$Html$Attributes$style,
-								'height',
-								elm$core$String$fromInt(model.rows) + 'px')
+								elm$html$Html$button,
+								_List_fromArray(
+									[
+										elm$html$Html$Events$onClick(author$project$Board001$DecrementBoxSize)
+									]),
+								_List_fromArray(
+									[
+										elm$html$Html$text('-')
+									])),
+								elm$html$Html$text(
+								elm$core$String$fromInt(model.boxSize)),
+								A2(
+								elm$html$Html$button,
+								_List_fromArray(
+									[
+										elm$html$Html$Events$onClick(author$project$Board001$IncrementBoxSize)
+									]),
+								_List_fromArray(
+									[
+										elm$html$Html$text('+')
+									]))
+							])),
+						A2(
+						elm$html$Html$div,
+						_List_Nil,
+						_List_fromArray(
+							[
+								elm$html$Html$text('boardSize'),
+								A2(
+								elm$html$Html$button,
+								_List_fromArray(
+									[
+										elm$html$Html$Events$onClick(author$project$Board001$DecrementBoardSize)
+									]),
+								_List_fromArray(
+									[
+										elm$html$Html$text('-')
+									])),
+								elm$html$Html$text(
+								elm$core$String$fromInt(model.boardSize)),
+								A2(
+								elm$html$Html$button,
+								_List_fromArray(
+									[
+										elm$html$Html$Events$onClick(author$project$Board001$IncrementBoardSize)
+									]),
+								_List_fromArray(
+									[
+										elm$html$Html$text('+')
+									]))
+							])),
+						A2(
+						elm$html$Html$table,
+						_List_fromArray(
+							[
+								A2(elm$html$Html$Attributes$style, 'border', 'solid thin'),
+								A2(elm$html$Html$Attributes$style, 'border-collapse', 'collapse')
 							]),
 						A2(
 							elm$core$List$repeat,
-							model.columns,
+							model.boardSize,
 							A2(
-								elm$html$Html$td,
+								elm$html$Html$tr,
 								_List_fromArray(
 									[
-										A2(elm$html$Html$Attributes$style, 'border', 'solid thin'),
 										A2(
 										elm$html$Html$Attributes$style,
-										'width',
-										elm$core$String$fromInt(model.rows) + 'px')
+										'height',
+										elm$core$String$fromInt(model.boxSize) + 'px')
 									]),
-								_List_Nil)))))
+								A2(
+									elm$core$List$repeat,
+									model.boardSize,
+									A2(
+										elm$html$Html$td,
+										_List_fromArray(
+											[
+												A2(elm$html$Html$Attributes$style, 'border', 'solid thin'),
+												A2(
+												elm$html$Html$Attributes$style,
+												'width',
+												elm$core$String$fromInt(model.boxSize) + 'px')
+											]),
+										_List_Nil)))))
+					]))
 			]));
 };
 var elm$core$Platform$Cmd$batch = _Platform_batch;
