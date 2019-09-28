@@ -1,6 +1,6 @@
 module Shiritori001 exposing (main)
 
--- make a shiritori program using buta.dic
+-- make a shiritori program using buta.txt
 -- cf. random005.elm
 
 import Browser
@@ -24,23 +24,60 @@ type alias Model =
   , memos : List String
   }
 
-init : Model
-init = Model "" []
+init : () -> ( Model, Cmd Msg )
+init _ =
+   ( Model "" []
+   , Cmd.none)
+
 
 -- UPDATE
 
 type Msg
    = Input String
+   | Submit
+   | GenerateRandom
+   | NewRandom Int
 
-update : Msg -> Model -> Model
+
+update : Msg -> Model -> (Model, Cmd Msg)
 update msg model =
-  Input input ->
-     {model | input = newInput}
+  case msg of
+    Input input ->
+      ( {model | input = input}, Cmd.none  )
+    Submit -> 
+      ()
+    GenerateRandom ->
+      ()
+    NewRandom n ->
+      ()
+
+
 
 view : Model -> Html Msg
 view model =
     div
+        [ HA.style "textAlign" "center"
+        , HA.style "width" "400px"
+        , HA.style "margin" "60px auto"
+        ]
+        [ text "Generate a random number between 1 and 10000"
+        , button [ HE.onClick GenerateRandom ] [ text "Generate" ]
+        , ul [ HA.style "textAlign" "left" ] (List.map viewMemo model.memos)
+        ]
 
+
+viewMemo : String -> Html Msg
+viewMemo memo =
+    li [] [ Html.text memo ]
+
+
+feedbackText : Int -> String
+feedbackText number =
+    if isPrime number then
+        " which is a PRIME number!!"
+
+    else
+        "   which is not a prime number."
 
 
 
