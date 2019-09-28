@@ -1,4 +1,4 @@
-module Shiritori001 exposing (main)
+module Shiritori002 exposing (main)
 
 -- make a shiritori program using buta.txt
 -- cf. random005.elm, shiritori.rb
@@ -40,7 +40,6 @@ init _ =
 type Msg
    = Input String
    | Submit
-   | GenerateRandom
    | NewRandom Int
 
 
@@ -49,27 +48,35 @@ update msg model =
   case msg of
     Input input ->
       ( {model | input = input}, Cmd.none  )
+
     Submit -> 
       if isValid model.input then
-        ( { model | input =""}
-        , Cmd.none)
+        let
+           selected_dictionary = select (lastChar model.input) butaWords
+        in
+        ( { model | input =""
+                  , validInput = model.input
+                  , memos = model.memos ++ model.input :: [] }
+          , Random.generate NewRandom (Random.int 1 (List.length selected_dictionary) ))
       else
         ( {model | input = ""}
         , Cmd.none)
 
-    GenerateRandom ->
-        ( model, Random.generate NewRandom (Random.int List.length selected_dictionary) )
-
-    NewRandom newRandom ->
+    NewRandom n ->
+      if isValid model.input then
+        let
+           selected_dictionary = select (lastChar model.validInput) butaWords
+        in
             ( { model
                 | memos =
                     model.memos
-                        ++ (String.fromInt newRandom ++ feedbackText newRandom)
-                        :: []
+                        ++ List.take 1 (List.drop (n+1) selected_dictionary)
               }
             , Cmd.none
             )
-
+      else
+        ( {model | input = ""}
+        , Cmd.none)
 
 view : Model -> Html Msg
 view model =
@@ -78,7 +85,8 @@ view model =
         , HA.style "width" "400px"
         , HA.style "margin" "60px auto"
         ]
-        [ h1 [] [ "豚辞書しりとり"]
+        [ h1 [] [ text "しりとり"]
+        , text "ひらかなで入力してください"
         , form [ HE.onSubmit Submit ]
             [ input
                 [ HE.onInput Input
@@ -105,21 +113,12 @@ viewMemo memo =
 
 select : String -> List String -> List String
 select string dict =
-   List.filter (\word -> string == Maybe.withDefault List.head (String.toList word)) dict
+   List.filter (\word -> string == Maybe.withDefault "ん" (List.head (String.split "" word))) dict
 
--- def random_select(before, dictionary)
---   selected_dictionary = []
---   dictionary.each{ |word| 
---     if /\A#{getLastChar(before)}\w*/=== word
---       selected_dictionary.push(word)
---     end
---   }
---   return selected_dictionary[rand(selected_dictionary.length)]
--- end
 
 isValid : String -> Bool
 isValid input =
-    List.all inAiueo (String.toList input) 
+    List.all inAiueo (String.split "" input) 
 
 inAiueo : String -> Bool
 inAiueo string =
@@ -128,11 +127,20 @@ inAiueo string =
 
 aiueo : List String
 aiueo = 
-  String.words "あ い う え お か き く け こ さ し す せ そ た ち つ て と な に ぬ ね の は ひ ふ へ ほ ま み む め も や ゆ よ ら り る れ ろ わ"
+  String.words "あ い う え お か き く け こ さ し す せ そ た ち つ て と な に ぬ ね の は ひ ふ へ ほ ま み む め も や ゆ よ ら り る れ ろ わ ー ん が ぎ ぐ げ ご ざ じ ず ぜ ぞ だ ぢ づ で ど ば び ぶ べ ぼ ぱ ぴ ぷ ぺ ぽ ぃ ぅ ぇ ぉ ゃ ゅ ょ っ ゎ"
+
+
+lastChar : String -> String
+lastChar input =
+  case getLastChar input of
+     Just "ー" -> lastChar ( String.join "" (List.take 1 (String.split "" input)))
+     Just char -> char
+     Nothing -> "ん"
+
 
 getLastChar : String -> Maybe String
 getLastChar input =
-  String.toList input
+  String.split "" input
   |> List.reverse
   |> List.head
 
@@ -180635,4 +180643,5 @@ butadic = """
 わんれん
 わんれんぐす
 わんわん
+ん
 """
