@@ -18,7 +18,7 @@ main =
         , Html.div
             [ --  HA.style "margin" "0 auto 60px"
               HA.style "margin" "auto"
-            , HA.style "width" "400px"
+            , HA.style "width" "300px"
             ]
             [ viewDetailedPhoto (baseUrl ++ "1.jpg") "Surfing"
             , viewDetailedPhoto (baseUrl ++ "2.jpg") "The Fox"
@@ -37,7 +37,7 @@ viewDetailedPhoto url caption =
         ]
         [ Html.img
             [ HA.src url
-            , HA.style "width" "400px"
+            , HA.style "width" "200px"
             , HA.style "margin-top" "10px"
             ]
             []
