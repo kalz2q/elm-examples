@@ -23,7 +23,7 @@ main =
             [ viewDetailedPhoto (baseUrl ++ "1.jpg") "Surfing"
             , viewDetailedPhoto (baseUrl ++ "2.jpg") "The Fox"
             , viewDetailedPhoto (baseUrl ++ "3.jpg") "Evening"
-            , viewDetailedPhoto ("https://drive.google.com/uc?id=1NyeKCX2Hh0iioPYQs7JsJ8e_okLC4L5Y") "sataclause"
+            , viewDetailedPhoto ("https://drive.google.com/uc?id=1NyeKCX2Hh0iioPYQs7JsJ8e_okLC4L5Y") "santaclause"
             ]
         ]
 
