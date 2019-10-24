@@ -4447,20 +4447,18 @@ var author$project$NumToComma001$update = F2(
 				model,
 				{input: input});
 		} else {
-			var enteredNumber = function () {
+			var convertedString = function () {
 				var _n1 = elm$core$String$toInt(model.input);
 				if (_n1.$ === 'Just') {
 					var _int = _n1.a;
-					return _int;
+					return A2(author$project$NumToComma001$toIntString, _int, false);
 				} else {
-					return 0;
+					return 'Error!';
 				}
 			}();
 			return _Utils_update(
 				model,
-				{
-					stringWithCommas: A2(author$project$NumToComma001$toIntString, enteredNumber, false)
-				});
+				{input: '', stringWithCommas: convertedString});
 		}
 	});
 var author$project$NumToComma001$Input = function (a) {
@@ -4895,6 +4893,7 @@ var elm$core$String$isEmpty = function (string) {
 var elm$core$String$trim = _String_trim;
 var elm$html$Html$button = _VirtualDom_node('button');
 var elm$html$Html$form = _VirtualDom_node('form');
+var elm$html$Html$h2 = _VirtualDom_node('h2');
 var elm$html$Html$input = _VirtualDom_node('input');
 var elm$json$Json$Encode$bool = _Json_wrap;
 var elm$html$Html$Attributes$boolProperty = F2(
@@ -5039,7 +5038,20 @@ var author$project$NumToComma001$view = function (model) {
 			]),
 		_List_fromArray(
 			[
-				elm$html$Html$text('Please enter a number to conver to a string with commas'),
+				A2(
+				elm$html$Html$h2,
+				_List_Nil,
+				_List_fromArray(
+					[
+						elm$html$Html$text('Please enter a number to convert')
+					])),
+				A2(
+				elm$html$Html$h2,
+				_List_Nil,
+				_List_fromArray(
+					[
+						elm$html$Html$text('to a string with commas')
+					])),
 				A2(
 				elm$html$Html$form,
 				_List_fromArray(

@@ -20,7 +20,7 @@ import Html
         , tr
         , ul
         )
-import Html.Attributes exposing (checked, class, disabled, name, type_, value, style)
+import Html.Attributes exposing (checked, class, disabled, name, style, type_, value)
 import Html.Events exposing (onCheck, onClick, onInput)
 import Http
 import Json.Encode exposing (Value, list, object, string)
@@ -186,9 +186,11 @@ isValid model =
 view : Model -> Html Msg
 view model =
     div []
-        [ h1 [ class "header"
-        , style "background" "#3E7019"
-        , style "width" "200px" ]
+        [ h1
+            [ class "header"
+            , style "background" "#3E7019"
+            , style "width" "200px"
+            ]
             [ text "Saladise - Build a Salad" ]
         , div [ class "content" ]
             [ if model.sending then
@@ -417,7 +419,8 @@ type Msg
 
 sendUrl : String
 sendUrl =
-    "https://programming-elm.com/salad/send"
+    -- "https://programming-elm.com/salad/send"
+    "https://programming-elm.com/salad/send?fail"
 
 
 encodeOrder : Model -> Value
