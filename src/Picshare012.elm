@@ -79,7 +79,7 @@ init _ =
 fetchFeed : Cmd Msg
 fetchFeed =
     Http.get
-        { url = "https://programming-elm.com/feed" -- try bacfeed tp see error
+        { url = "https://programming-elm.com/feed" -- try badfeed to see error
         , expect = Http.expectJson LoadFeed (Json.list photoDecoder)
         }
 
