@@ -1,4 +1,4 @@
-module SaladBuilder exposing (main)
+module Saladbuilder exposing (main)
 
 import Browser
 import Html
