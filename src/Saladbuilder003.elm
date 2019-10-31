@@ -1,6 +1,7 @@
 module SaladBuilder003 exposing (main)
 
 -- modularise update
+-- type Msg    = SaladMsg SaladMsg
 
 import Browser
 import Html exposing (Html, button, div, h1, h2, input, label, li, p, section, table, td, text, th, tr, ul)
