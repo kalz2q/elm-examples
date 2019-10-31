@@ -1,6 +1,7 @@
-module SaladBuilder004 exposing (main)
+module Saladbuilder004 exposing (main)
 
 -- handle the contact related state
+-- type Msg = ContactMsg ContactMsg
 
 import Browser
 import Html exposing (Html, button, div, h1, h2, input, label, li, p, section, table, td, text, th, tr, ul)
