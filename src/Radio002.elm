@@ -1,4 +1,4 @@
-module Radio001 exposing (main)
+module Radio002 exposing (main)
 
 -- reading radio_buttons.md
 
@@ -52,7 +52,12 @@ view model =
 radio : msg -> String -> Html msg
 radio msg name =
     label []
-        [ input [ HA.type_ "radio", HE.onClick msg ] []
+        [ input
+            [ HA.type_ "radio"
+            , HA.name "fontSize"
+            , HE.onClick msg
+            ]
+            []
         , text name
         ]
 
