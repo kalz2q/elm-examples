@@ -4310,12 +4310,10 @@ function _Browser_load(url)
 		}
 	}));
 }
-var $author$project$Radio001$Model = F2(
-	function (fontSize, content) {
-		return {content: content, fontSize: fontSize};
-	});
-var $author$project$Radio001$Small = {$: 'Small'};
-var $author$project$Radio001$init = A2($author$project$Radio001$Model, $author$project$Radio001$Small, 'This is a sample content.');
+var $author$project$Viewbody$Model = function (_int) {
+	return {_int: _int};
+};
+var $author$project$Viewbody$init = $author$project$Viewbody$Model(0);
 var $elm$core$Basics$EQ = {$: 'EQ'};
 var $elm$core$Basics$GT = {$: 'GT'};
 var $elm$core$Basics$LT = {$: 'LT'};
@@ -5126,103 +5124,32 @@ var $elm$browser$Browser$sandbox = function (impl) {
 			view: impl.view
 		});
 };
-var $author$project$Radio001$update = F2(
+var $author$project$Viewbody$update = F2(
 	function (msg, model) {
-		var newFontSize = msg.a;
-		return _Utils_update(
-			model,
-			{fontSize: newFontSize});
+		return model;
 	});
-var $author$project$Radio001$Large = {$: 'Large'};
-var $author$project$Radio001$Medium = {$: 'Medium'};
-var $author$project$Radio001$SwitchTo = function (a) {
-	return {$: 'SwitchTo', a: a};
-};
-var $elm$html$Html$div = _VirtualDom_node('div');
-var $elm$html$Html$fieldset = _VirtualDom_node('fieldset');
-var $elm$html$Html$input = _VirtualDom_node('input');
-var $elm$html$Html$label = _VirtualDom_node('label');
-var $elm$virtual_dom$VirtualDom$Normal = function (a) {
-	return {$: 'Normal', a: a};
-};
-var $elm$virtual_dom$VirtualDom$on = _VirtualDom_on;
-var $elm$html$Html$Events$on = F2(
-	function (event, decoder) {
-		return A2(
-			$elm$virtual_dom$VirtualDom$on,
-			event,
-			$elm$virtual_dom$VirtualDom$Normal(decoder));
-	});
-var $elm$html$Html$Events$onClick = function (msg) {
-	return A2(
-		$elm$html$Html$Events$on,
-		'click',
-		$elm$json$Json$Decode$succeed(msg));
-};
 var $elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var $elm$html$Html$text = $elm$virtual_dom$VirtualDom$text;
-var $elm$json$Json$Encode$string = _Json_wrap;
-var $elm$html$Html$Attributes$stringProperty = F2(
-	function (key, string) {
-		return A2(
-			_VirtualDom_property,
-			key,
-			$elm$json$Json$Encode$string(string));
-	});
-var $elm$html$Html$Attributes$type_ = $elm$html$Html$Attributes$stringProperty('type');
-var $author$project$Radio001$radio = F2(
-	function (msg, name) {
-		return A2(
-			$elm$html$Html$label,
-			_List_Nil,
-			_List_fromArray(
-				[
-					A2(
-					$elm$html$Html$input,
-					_List_fromArray(
-						[
-							$elm$html$Html$Attributes$type_('radio'),
-							$elm$html$Html$Events$onClick(msg)
-						]),
-					_List_Nil),
-					$elm$html$Html$text(name)
-				]));
-	});
-var $elm$html$Html$section = _VirtualDom_node('section');
-var $author$project$Radio001$view = function (model) {
+var $elm$html$Html$div = _VirtualDom_node('div');
+var $elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
+var $elm$html$Html$Attributes$style = $elm$virtual_dom$VirtualDom$style;
+var $author$project$Viewbody$viewBody = function (children) {
 	return A2(
 		$elm$html$Html$div,
-		_List_Nil,
 		_List_fromArray(
 			[
-				A2(
-				$elm$html$Html$fieldset,
-				_List_Nil,
-				_List_fromArray(
-					[
-						A2(
-						$author$project$Radio001$radio,
-						$author$project$Radio001$SwitchTo($author$project$Radio001$Small),
-						'Small'),
-						A2(
-						$author$project$Radio001$radio,
-						$author$project$Radio001$SwitchTo($author$project$Radio001$Medium),
-						'Medium'),
-						A2(
-						$author$project$Radio001$radio,
-						$author$project$Radio001$SwitchTo($author$project$Radio001$Large),
-						'Large')
-					])),
-				A2(
-				$elm$html$Html$section,
-				_List_Nil,
-				_List_fromArray(
-					[
-						$elm$html$Html$text(model.content)
-					]))
+				A2($elm$html$Html$Attributes$style, 'font', 'large')
+			]),
+		children);
+};
+var $author$project$Viewbody$view = function (model) {
+	return $author$project$Viewbody$viewBody(
+		_List_fromArray(
+			[
+				$elm$html$Html$text('hello')
 			]));
 };
-var $author$project$Radio001$main = $elm$browser$Browser$sandbox(
-	{init: $author$project$Radio001$init, update: $author$project$Radio001$update, view: $author$project$Radio001$view});
-_Platform_export({'Radio001':{'init':$author$project$Radio001$main(
+var $author$project$Viewbody$main = $elm$browser$Browser$sandbox(
+	{init: $author$project$Viewbody$init, update: $author$project$Viewbody$update, view: $author$project$Viewbody$view});
+_Platform_export({'Viewbody':{'init':$author$project$Viewbody$main(
 	$elm$json$Json$Decode$succeed(_Utils_Tuple0))(0)}});}(this));

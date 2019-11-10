@@ -1,4 +1,4 @@
-module Elmbase exposing (main)
+module Viewbody exposing (main)
 
 import Browser
 import Html exposing (..)
@@ -19,17 +19,26 @@ init =
     Model 0
 
 
-type Msg
-    = Reset
-
-
 
 -- VIEW
 
 
+viewBody : List (Html msg) -> Html msg
+viewBody children =
+    div [ HA.style "color" "red" ] children
+
+
 view : Model -> Html Msg
 view model =
-    div [] []
+    viewBody [ text "hello" ]
+
+
+
+-- UPDATE
+
+
+type Msg
+    = Reset
 
 
 update : Msg -> Model -> Model
@@ -47,6 +56,6 @@ main : Program () Model Msg
 main =
     Browser.sandbox
         { init = init
-        , view = view 
+        , view = view
         , update = update
         }
