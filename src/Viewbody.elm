@@ -25,12 +25,30 @@ init =
 
 viewBody : List (Html msg) -> Html msg
 viewBody children =
-    div [ HA.style "color" "red" ] children
+    div
+        [ HA.style "color" "red"
+        , HA.style "background" "slategray"
+        ]
+        children
+
+
+viewSection : String -> List (Html msg) -> Html msg
+viewSection heading children =
+    section [ HA.style "color" "blue" ]
+        (h2 [] [ text heading ] :: children)
 
 
 view : Model -> Html Msg
 view model =
-    viewBody [ text "hello" ]
+    viewBody
+        [ text "hello"
+        , viewSection "これから"
+            [ text "はじまる"
+            ]
+        , viewSection "nazeka"
+            [ text "wakaranai"
+            ]
+        ]
 
 
 
