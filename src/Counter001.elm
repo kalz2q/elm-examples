@@ -1,4 +1,8 @@
-module Counter exposing (main)
+module Counter001 exposing (main)
+
+-- The original program is elm guide sample
+-- exercise : rewrite using "exposing as"
+-- exercise : Use Html.Architecture
 
 import Browser
 import Html exposing (Html, button, div, text)
@@ -37,7 +41,7 @@ update msg model =
 view : Model -> Html Msg
 view model =
     div []
-        [ button [ onClick Decrement ] [ text "数字をマイナスするよ" ]
+        [ button [ onClick Decrement ] [ text "-1" ]
         , div [] [ text (String.fromInt model) ]
-        , button [ onClick Increment ] [ text "数字をプラスするよ" ]
+        , button [ onClick Increment ] [ text "+1" ]
         ]

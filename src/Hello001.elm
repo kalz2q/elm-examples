@@ -1,12 +1,15 @@
 module Hello001 exposing (main)
 
-import Html
+-- write hello world without using browser.sandbox => Hello001
+
+import Html exposing (..)
 import Html.Attributes as HA
 
 
+main : Html msg
 main =
-    Html.div
-        [ HA.style "color" "red"
+    div
+        [ HA.style "color" "blue"
         , HA.style "font-size" "200%"
         ]
         [ Html.text "hello world" ]
