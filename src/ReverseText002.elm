@@ -1,13 +1,21 @@
-module Rverse001 exposing (main)
+module ReverseText002 exposing (main)
+
+-- the original is from elm guide
+-- rewirte using HA.style => ReverseText002
 
 import Browser
-import Html
+import Html exposing (..)
 import Html.Attributes as HA
 import Html.Events as HE
 
 
+main : Program () Model Msg
 main =
-    Browser.sandbox { init = init, update = update, view = view }
+    Browser.sandbox
+        { init = init
+        , update = update
+        , view = view
+        }
 
 
 type alias Model =
@@ -18,7 +26,6 @@ type alias Model =
 init : Model
 init =
     { content = "" }
-
 
 
 type Msg
@@ -32,8 +39,7 @@ update msg model =
             { model | content = newContent }
 
 
-
-view : Model -> Html.Html Msg
+view : Model -> Html Msg
 view model =
     Html.div
         [ HA.style "background-color" "lemonchiffon"
@@ -44,17 +50,16 @@ view model =
         , HA.style "font-size" "32px"
         , HA.style "position" "relative"
         ]
-        [ Html.p 
-          [
-              HA.style "textAlign" "center"
-        ]
-          [Html.text "Type a text to reverse"]
-        , Html.input
+        [ p
+            [ HA.style "textAlign" "center"
+            ]
+            [ text "Type a text to reverse" ]
+        , input
             [ HA.style "background" "pink"
             , HA.placeholder "Text to reverse"
             , HA.value model.content
             , HE.onInput Change
             ]
             []
-        , Html.div [] [ Html.text (String.reverse model.content) ]
+        , div [] [ Html.text (String.reverse model.content) ]
         ]
