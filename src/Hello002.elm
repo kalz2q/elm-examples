@@ -48,20 +48,28 @@ update msg model =
             "some other string"
 
 
-
--- in this view model is shown but it is really defined by init
-
-
 viewFormat : List (Html msg) -> Html msg
 viewFormat children =
-    div [ HA.style "background-color" "yellow" ] children
+    div
+        [ HA.style "background-color" "bisque"
+        , HA.style "color" "darkcyan"
+        , HA.style "font-size" "200%"
+        , HA.style "text-align" "center"
+        ]
+        children
 
 
 view : Model -> Html Msg
 view model =
     viewFormat
         [ h2 [] [ text model ]
-        , text "this is a pen."
+        , text "بدك ياه بالإنكليزي ولا بالعربي؟"
+        , p []
+            [ text ";lkj;jk klj;ljkl; lkj;jk "
+            , text "KLKJ+JKL+ OUPOIU L+J+LJK"
+            , h2 [] [ text "helloooo" ]
+            ]
+        , text "おはこんばんちは"
         ]
 
 

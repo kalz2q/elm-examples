@@ -2,25 +2,33 @@ module Counter003 exposing (main)
 
 -- The original program is elm guide sample Counter001
 -- exercise : rewrite using ".." and "as" => Counter002
--- exercise : Use Html.Architecture => Counter003
+-- exercise : Use Browser.element => Counter003
 
 import Browser
 import Html exposing (..)
+import Html.Attributes as HA
 import Html.Events as HE
 
 
 main : Program () Model Msg
 main =
-    Browser.sandbox { init = init, update = update, view = view }
+    Browser.element
+        { init = init
+        , view = view
+        , update = update
+        , subscriptions = subscriptions
+        }
 
 
 type alias Model =
-    Int
+    { currentNumber : Int }
 
 
-init : Model
-init =
-    0
+init : () -> ( Model, Cmd Msg )
+init _ =
+    ( Model 0
+    , Cmd.none
+    )
 
 
 type Msg
@@ -28,20 +36,40 @@ type Msg
     | Decrement
 
 
-update : Msg -> Model -> Model
+update : Msg -> Model -> ( Model, Cmd msg )
 update msg model =
     case msg of
         Increment ->
-            model + 1
+            ( Model (model.currentNumber + 1)
+            , Cmd.none
+            )
 
         Decrement ->
-            model - 1
+            ( Model (model.currentNumber - 1)
+            , Cmd.none
+            )
+
+
+subscriptions : Model -> Sub Msg
+subscriptions model =
+    Sub.none
+
+
+viewFormat : List (Html msg) -> Html msg
+viewFormat children =
+    div
+        [ HA.style "background-color" "bisque"
+        , HA.style "color" "darkcyan"
+        , HA.style "font-size" "200%"
+        , HA.style "text-align" "center"
+        ]
+        children
 
 
 view : Model -> Html Msg
 view model =
-    div []
+    viewFormat
         [ button [ HE.onClick Decrement ] [ text "-1" ]
-        , div [] [ text (String.fromInt model) ]
+        , div [] [ text (String.fromInt model.currentNumber) ]
         , button [ HE.onClick Increment ] [ text "+1" ]
         ]

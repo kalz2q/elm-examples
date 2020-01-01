@@ -2,7 +2,7 @@ module Counter002 exposing (main)
 
 -- The original program is elm guide sample Counter001
 -- exercise : rewrite using ".." and "as" => Counter002
--- exercise : Use Html.Architecture
+-- exercise : Use Html.Architecture Browser.element => Counter003
 
 import Browser
 import Html exposing (..)
