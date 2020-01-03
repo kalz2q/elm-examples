@@ -1,4 +1,4 @@
-module ReverseText002 exposing (main)
+module ReverseText003 exposing (main)
 
 -- the original is from elm guide
 -- rewirte using HA.style => ReverseText002
