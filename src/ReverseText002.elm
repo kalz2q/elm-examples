@@ -39,27 +39,34 @@ update msg model =
             { model | content = newContent }
 
 
-view : Model -> Html Msg
-view model =
-    Html.div
+viewFormat : List (Html msg) -> Html msg
+viewFormat children =
+    div
         [ HA.style "background-color" "lemonchiffon"
+        , HA.style "color" "crimson"
         , HA.style "width" "600px"
-        , HA.style "height" "200px"
+        , HA.style "height" "400px"
         , HA.style "margin" "auto"
-        , HA.style "textAlign" "center"
         , HA.style "font-size" "32px"
+        , HA.style "text-align" "center"
         , HA.style "position" "relative"
         ]
+        children
+
+
+view : Model -> Html Msg
+view model =
+    viewFormat
         [ p
-            [ HA.style "textAlign" "center"
-            ]
+            []
             [ text "Type a text to reverse" ]
         , input
             [ HA.style "background" "pink"
             , HA.placeholder "Text to reverse"
             , HA.value model.content
+            , HA.autofocus True
             , HE.onInput Change
             ]
             []
-        , div [] [ Html.text (String.reverse model.content) ]
+        , h3 [ HA.style "color" "olive" ] [ text (String.reverse model.content) ]
         ]
