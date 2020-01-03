@@ -21,6 +21,7 @@ main =
 type alias Model =
     { content1 : String
     , content2 : String
+    , content3 : String
     }
 
 
@@ -28,6 +29,7 @@ init : Model
 init =
     { content1 = ""
     , content2 = ""
+    , content3 = ""
     }
 
 
@@ -51,7 +53,9 @@ update msg model =
             }
 
         AddText ->
-            model
+            { model
+                | content3 = model.content1 ++ model.content2
+            }
 
 
 viewFormat : List (Html msg) -> Html msg
@@ -91,5 +95,5 @@ view model =
             ]
             []
         , button [ HE.onClick AddText ] [ text "AddText" ]
-        , h3 [ HA.style "color" "olive" ] [ text (model.content1 ++ model.content2) ]
+        , h3 [ HA.style "color" "olive" ] [ text model.content3 ]
         ]
