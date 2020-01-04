@@ -8,17 +8,9 @@ import Html.Attributes as HA
 import Html.Events as HE
 
 
-
--- MAIN
-
-
 main : Program () Model Msg
 main =
     Browser.sandbox { init = init, update = update, view = view }
-
-
-
--- MODEL
 
 
 type alias Model =
