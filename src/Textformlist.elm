@@ -1,4 +1,4 @@
-module TextFormList exposing (main)
+module Textformlist exposing (main)
 
 import Browser
 import Html exposing (..)
