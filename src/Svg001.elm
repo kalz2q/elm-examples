@@ -1,29 +1,29 @@
-module Svg001 exposing (..)
+module Svg001 exposing (main)
 
+-- learning svg and viewport
+-- cf. SA.preserveAspectRatio "none"
+
+import Html exposing (..)
+import Html.Attributes as HA
 import Svg
 import Svg.Attributes as SA
 
 
+main : Html msg
 main =
-    Svg.svg
-        [ SA.width "120"
-        , SA.height "120"
-        , SA.viewBox "0 0 400 120"
-        , SA.fill "skyblue"
-        ]
-        [ Svg.rect
-            [ SA.x "10"
-            , SA.y "10"
-            , SA.width "100"
-            , SA.height "100"
-            , SA.rx "15"
-            , SA.ry "15"
+    div [ HA.style "text-align" "center" ]
+        [ Svg.svg
+            [ SA.width "400" -- viewport
+            , SA.height "400"
+            , SA.viewBox "0 0 200 200"
+            , SA.style "background:#38a"
             ]
-            []
-        , Svg.circle
-            [ SA.cx "50"
-            , SA.cy "50"
-            , SA.r "50"
+            [ Svg.circle
+                [ SA.cx "50"
+                , SA.cy "50"
+                , SA.r "50"
+                , SA.fill "blue"
+                ]
+                []
             ]
-            []
         ]
