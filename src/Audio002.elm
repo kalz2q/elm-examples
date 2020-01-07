@@ -84,8 +84,10 @@ targetCurrentTime =
 view : Model -> Html Msg
 view model =
     div []
-        [ video
-            [ src "http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4"
+        [ audio
+            [ src "foo.wav"
+
+            -- src "http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4"
             , on "timeupdate" (Json.map CurrentTime targetCurrentTime)
             , on "seek" (Json.map CurrentTime targetCurrentTime)
             , on "seek" (Json.succeed Seeking)

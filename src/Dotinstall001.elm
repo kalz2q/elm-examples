@@ -46,7 +46,7 @@ view model =
         [ pinkheart
         , div
             [ HA.style "width" "600px"
-            , HA.style "text-align" "center"
+            , HA.style "text-align" "left"
             ]
             [ h1 [] [ text "ノーネームグダグダ" ]
             , p []
@@ -56,17 +56,28 @@ view model =
                 , hr [] []
                 , text "続けてみよう。"
                 , p [] []
-                , text "あれワードラップしないね。"
+                , text "あれワードラップしないねね。"
+                , blockquote []
+                    [ text "これはblockquoteです。"
+                    , text "おなじ中"
+                    , br [] []
+                    , text "blockquoteは字下げされます。"
+                    ]
                 ]
             , swedishflag
             , h2 [] [ text "はじめに" ]
             , p []
                 [ text "こんにちは。おはよう。こんばんは。おはこんばんちは。おはこんばんちは。おはこんばんちは。おはこんばんちは。おはこんばんちは。おはこんばんちは。"
-                , strong [] [ text "すごい" ]
+                , strong [] [ text "すすごい" ]
+                , br [] [ text "すごい" ]
                 , text "おは！！！"
                 ]
             , h2 [] [ text "使い方" ]
-            , p [] [ text "git clone して、あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。" ]
+            , p []
+                [ text "git clone して、あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。"
+                , br [] []
+                , text "brは改行です。"
+                ]
             ]
         ]
 
