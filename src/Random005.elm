@@ -46,7 +46,7 @@ update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
         GenerateRandom ->
-            ( model, Random.generate NewRandom (Random.int 1 10000) )
+            ( model, Random.generate NewRandom (Random.int 1 1000) )
 
         NewRandom newRandom ->
             ( { model

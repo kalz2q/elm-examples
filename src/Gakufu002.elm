@@ -3,13 +3,16 @@ module Gakufu002 exposing (main)
 -- Gakufu001で、pdfを表示、mp3を鳴らすのができた。
 -- randomボタンとplay controlをつける。
 -- 数曲のファイルにする。
--- play => 10DniZHZ3-IPLTOgZwIpBZr5B1P78ApPY
 
 import Browser
 import Html exposing (..)
 import Html.Attributes as HA
 import Html.Events as HE
 import Random
+
+
+
+-- main : Program () Model Msg
 
 
 main : Program () Model Msg
@@ -29,11 +32,15 @@ type alias Model =
     }
 
 
-init : Model -> ( Model, Cmd Msg )
-init =
-    ( { pdfUrl = "https://drive.google.com/uc?id=1yYAaH3a9SZ2FdkRWXIeCqc6G3u9_awL2"
-      , mp3Url = "https://drive.google.com/uc?id=10DniZHZ3-IPLTOgZwIpBZr5B1P78ApPY"
-      , title = "湯の町エレジー"
+
+-- init : Model -> ( Model, Cmd Msg )
+
+
+init : () -> ( Model, Cmd Msg )
+init _ =
+    ( { pdfUrl = ""
+      , mp3Url = ""
+      , title = "3の町エレジー"
       }
     , Cmd.none
     )
@@ -53,9 +60,20 @@ update msg model =
             )
 
         NewRandom n ->
-            ( { model | pdfUrl = (List.take 1 (List.drop n dict)).pdfUrl }
-            , Cmd.none
-            )
+            case List.drop (n - 1) dict of
+                x :: _ ->
+                    ( { model
+                        | pdfUrl = x.pdfUrl
+                        , mp3Url = x.mp3Url
+                        , title = x.title
+                      }
+                    , Cmd.none
+                    )
+
+                [] ->
+                    ( { model | pdfUrl = "" }
+                    , Cmd.none
+                    )
 
 
 subscriptions : Model -> Sub Msg
@@ -70,7 +88,7 @@ viewDetailedPdf model =
         , HA.style "background" "#aaa"
         ]
         [ img
-            [ HA.src model.url
+            [ HA.src model.pdfUrl
             , HA.style "width" "100%"
             ]
             []
@@ -101,7 +119,7 @@ view model =
                 [ text "楽譜を歌おう"
                 , button [ HE.onClick Submit ] [ text "Random" ]
                 , audio
-                    [ HA.src "https://drive.google.com/uc?id=10DniZHZ3-IPLTOgZwIpBZr5B1P78ApPY"
+                    [ HA.src model.mp3Url
                     , HA.controls True
                     , HA.style "text-align" "right"
                     ]
@@ -125,6 +143,6 @@ dict =
       }
     , { pdfUrl = ""
       , mp3Url = ""
-      , title = ""
+      , title = "2の町エレジー"
       }
     ]
