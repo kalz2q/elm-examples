@@ -10,7 +10,8 @@ import Html.Attributes as HA
 
 main =
     audio
-        [ HA.src "https://drive.google.com/file/d/1IUy62-fQedrICiFxD_pgIUbH9Sfcrhr7/view?usp=sharing"
+        [ HA.src "https://drive.google.com/uc?id=1IUy62-fQedrICiFxD_pgIUbH9Sfcrhr7"
         , HA.controls True
+        , HA.autoplay True
         ]
         []

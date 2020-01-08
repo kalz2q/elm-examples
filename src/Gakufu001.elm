@@ -10,6 +10,7 @@ module Gakufu001 exposing (main)
 -- https://drive.google.com/uc?id=1NyeKCX2Hh0iioPYQs7JsJ8e_okLC4L5Y
 -- https://drive.google.com/uc?id=1zRy9O9U4w8HsSnJuMJvDQG276MwGept9/view?usp=sharing
 -- これで成功 embed iframe どちらでも枠ができてしまうけど。
+-- wavも鳴らせた。autoplayはダメだけど
 
 import Browser
 import Html exposing (..)
@@ -32,7 +33,7 @@ type alias Model =
 
 initialModel : Model
 initialModel =
-    { url = "https://drive.google.com/uc?id=1zRy9O9U4w8HsSnJuMJvDQG276MwGept9"
+    { url = "https://drive.google.com/uc?id=1yYAaH3a9SZ2FdkRWXIeCqc6G3u9_awL2"
     , caption = "湯の町エレジー"
     }
 
@@ -53,25 +54,17 @@ viewDetailedPdf model =
     div
         [ HA.class "detailed-photo"
         , HA.style "box-shadow" "0 0 10px #555"
-        , HA.style "background" "yellow"
+        , HA.style "background" "#aaa"
         ]
-        [ iframe
+        [ img
             [ HA.src model.url
-            , HA.style "width" "400px"
-            , HA.style "margin-top" "10px"
+            , HA.style "width" "100%"
             ]
             []
         , div
-            [ HA.class "photo-info"
-            , HA.style "padding-bottom" "10px"
+            [ HA.style "padding-bottom" "10px"
             ]
-            [ Html.div []
-                [ Html.span
-                    [ HE.onClick NoMsg
-                    ]
-                    [ Html.text "like-button" ]
-                ]
-            , Html.h2
+            [ h2
                 [ HA.class "caption"
                 , HA.style "font-size" "30px"
                 , HA.style "font-weight" "lighter"
@@ -86,18 +79,21 @@ viewDetailedPdf model =
 view : Model -> Html Msg
 view model =
     Html.div []
-        [ Html.div
-            [ HA.class "header"
-            , HA.style "background-color" "#aaa"
+        [ div
+            [ HA.style "background-color" "#aaa"
             , HA.style "padding-bottom" "10px"
             , HA.style "padding-top" "10px"
             , HA.style "text-align" "center"
             ]
-            [ Html.h1 [] [ Html.text "楽譜を歌おう" ] ]
-        , Html.div
-            [ HA.class "content-flow"
-            , HA.style "margin" "auto"
-            , HA.style "width" "400px"
+            [ Html.h1 []
+                [ Html.text "楽譜を歌おう"
+                , button [] [ text "Random" ]
+                , button [] [ text "Play" ]
+                ]
+            ]
+        , div
+            [ HA.style "margin" "auto"
+            , HA.style "width" "90%"
             ]
             [ viewDetailedPdf model
             ]
