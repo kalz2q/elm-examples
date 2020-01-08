@@ -140,10 +140,9 @@ lastChar input =
      Just char -> char
      Nothing -> "ん"
 
-
-getLastChar : String -> Maybe String
-getLastChar input =
-  String.split "" input
+pdfUrl = ""
+    , mp3Url = ""
+    , title = ""}ut
   |> List.reverse
   |> List.head
 
