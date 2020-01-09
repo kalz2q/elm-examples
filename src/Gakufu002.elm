@@ -64,12 +64,13 @@ update msg model =
                         | jpgUrl = x.jpgUrl
                         , mp3Url = x.mp3Url
                         , title = x.title
+                        , filename = x.filename
                       }
                     , Cmd.none
                     )
 
                 [] ->
-                    ( { model | jpgUrl = "https://drive.google.com/uc?id=" }
+                    ( model
                     , Cmd.none
                     )
 
@@ -141,12 +142,12 @@ view model =
 dict : List Model
 dict =
     [ { jpgUrl = "https://drive.google.com/uc?id=1UZyUrTOKp0dQFRZpMOtBoC-5SOkRWjLN"
-      , mp3Url = "https://drive.google.com/uc?id="
+      , mp3Url = "https://drive.google.com/uc?id=1kdzpk4PUE7DmWo_CPmJw5NlcYZetNILL"
       , title = "クリスマス・イブ(きっとあなたはこない、山下達郎)"
       , filename = "christmaseve_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1IRp2uhDtP0y3-Vi8mQ3lD2H1goca5FIG"
-      , mp3Url = "https://drive.google.com/uc?id="
+      , mp3Url = "https://drive.google.com/uc?id=1877DcOpz7rhRQ7XhpV7I34MQf018IDYt"
       , title = "水戸黄門(じんせいらくありゃくもあるさ)"
       , filename = "mitokomon_crop.pdf"
       }
@@ -156,87 +157,87 @@ dict =
       , filename = "yunomachieleby_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1aDQQwqhKEd7Pp119WgththIX5xCReZJA"
-      , mp3Url = "https://drive.google.com/uc?id="
+      , mp3Url = "https://drive.google.com/uc?id=1EYX9vEimFxmheBcfSW6yYeKeWn3wr7tF"
       , title = "別れ船(なごりつきないはてしない)"
       , filename = "wakarebune_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1EVnM-OK2qhU9_dfhzo1duk-pkFc7xq4U"
-      , mp3Url = "https://drive.google.com/uc?id="
+      , mp3Url = "https://drive.google.com/uc?id=1ukG2ddTIjNxixk3wFcxuHa6LoaERkOZ9"
       , title = "水色のワルツ(きみにあううれしさの)"
       , filename = "mizuironowaltz_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=13qvBdUW2hUmj8K8YQq3NYGplrIQEz1-8"
-      , mp3Url = "https://drive.google.com/uc?id="
+      , mp3Url = "https://drive.google.com/uc?id=1HpWU1ALfTSgFY-j6L6q5UbK2fU7Lqs0v"
       , title = "村の鍛冶屋(しばしもやすまずつちうつひびき)"
       , filename = "muranokajiya_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1LA2tJNHcDnLULcFeZlgrebxIfpBRldoc"
-      , mp3Url = "https://drive.google.com/uc?id="
+      , mp3Url = "https://drive.google.com/uc?id=12DqY7QpcHmTPmOKR9e2qisWw3nXj3bDW"
       , title = "ないしょ話(ないしょないしょないしょのはなしはあのねのね)"
       , filename = "naishobanashi_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=173YBD3K4i38Jwp86tITt8HLP6meH95EF"
-      , mp3Url = "https://drive.google.com/uc?id="
+      , mp3Url = "https://drive.google.com/uc?id=1I67md4E3xmihAW4NUtkpxMSBhuFFiwSj"
       , title = "啼くな小鳩よ(なくなこばとよこころのつまよ)"
       , filename = "nakunakobato_crop.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=/1p0WE_D-BQflLSFKCb-zBdrf5-JP9rpXK"
-      , mp3Url = "https://drive.google.com/uc?id="
+    , { jpgUrl = "https://drive.google.com/uc?id=1p0WE_D-BQflLSFKCb-zBdrf5-JP9rpXK"
+      , mp3Url = "https://drive.google.com/uc?id=1KPPux4R0iWYFLmgXkT3nlp7S0ARO4gsm"
       , title = "人形(わたしのにんぎょうはよいにんぎょう)"
       , filename = "ningyou_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1GkAovEn1RX0octtij3RhEFRVP909RVkj"
-      , mp3Url = "https://drive.google.com/uc?id="
+      , mp3Url = "https://drive.google.com/uc?id=1-EnDUJAs3H2mXxAuQUNTThOwEqwr2aeZ"
       , title = "おうま(おうまのおやこはなかよしこよし)"
       , filename = "ouma_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1NUhjyN1RA7hHIdgehT_t8c3a-lmtwfOi"
-      , mp3Url = "https://drive.google.com/uc?id="
+      , mp3Url = "https://drive.google.com/uc?id=1fJlzuVAvv8HlLFnfEAZAYFKlzrcCrm_w"
       , title = "お江戸日本橋(おえどにほんばしななつだち)"
       , filename = "oedonihonbashi_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1Ypf-qHMJpCNGCQaM9z-S6HrD52WxuYd4"
-      , mp3Url = "https://drive.google.com/uc?id="
+      , mp3Url = "https://drive.google.com/uc?id=https://drive.google.com/file/d/1zGxhzgyQzCioWc2q-ndPsngTc31B62Wl/view?usp=sharing"
       , title = "男の純情(おとこいのちのじゅんじょうは)"
       , filename = "otokonojunjo_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1kbZWYmbmey3nIiqmOXTOtRkTe9CaBy96"
-      , mp3Url = "https://drive.google.com/uc?id="
+      , mp3Url = "https://drive.google.com/uc?id=https://drive.google.com/file/d/1zYbflXUGPh9uanDKb0fUtFgBKess3CED/view?usp=sharing"
       , title = "籠の鳥(あいたさみたさにこわさをわすれ)"
       , filename = "kagonotori_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1IvBImRmycyz6DjPcYSKtjePifjl-Qzr8"
-      , mp3Url = "https://drive.google.com/uc?id="
+      , mp3Url = "https://drive.google.com/uc?id=https://drive.google.com/file/d/1W3TCfx2EcpHzwAZoTjEx8-Pd_9VUg7BO/view?usp=sharing"
       , title = "霞か雲か(かすみかくもか)"
       , filename = "kasumikakumoka_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1DlCptEvaC8hgi2PQ4x8WMDClzqhgQ_Ya"
-      , mp3Url = "https://drive.google.com/uc?id="
+      , mp3Url = "https://drive.google.com/uc?id=https://drive.google.com/file/d/1K4TQFXgt53K93O0hQARD4Ness4BKWMQL/view?usp=sharing"
       , title = "青い背広で(あおいせびろでこころもかるく)"
       , filename = "aoisebirode_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1rjPPTolAs6n9WqmR99YH0ZRqhWxKbxD8"
-      , mp3Url = "https://drive.google.com/uc?id="
+      , mp3Url = "https://drive.google.com/uc?id=https://drive.google.com/file/d/1htBCrCocgK3yEJUEMIcuiPw80Y0vj6NJ/view?usp=sharing"
       , title = "愛国行進曲(みよとうかいのそらあけて)"
       , filename = "aikokukoushinkyoku_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=12UvRWM8rLQ-Hw6esfhAWzxbtOQjVjLi_"
-      , mp3Url = "https://drive.google.com/uc?id="
+      , mp3Url = "https://drive.google.com/uc?id=https://drive.google.com/file/d/1RZD7C6eRljOnZJDszAw2kNW4h6z9XjCO/view?usp=sharing"
       , title = "お富さん(いきなくろべいみこしのまつに)"
       , filename = "otomisan_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1wbK42EmR7xXUeQSheWgWM5T9AGGqto4f"
-      , mp3Url = "https://drive.google.com/uc?id="
+      , mp3Url = "https://drive.google.com/uc?id=https://drive.google.com/file/d/1tfd7nMuibpLTtRt16BVpk_RHjXoBtd_s/view?usp=sharing"
       , title = "かなりや(うたをわすれたかなりやは)"
       , filename = "canary_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1NuSnmhtLx6Qvz4J81ZAq055q5zmii-Nv"
-      , mp3Url = "https://drive.google.com/uc?id="
+      , mp3Url = "https://drive.google.com/uc?id=https://drive.google.com/file/d/1aN36sgqSVuMOc1RQJsjMtzs6B2xmFVmE/view?usp=sharing"
       , title = "鎌倉(しちりがはまのいそづたい)"
       , filename = "kamakura_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1HwuZutXc5NfkfpSZ6ICPPeclzBRvsqgX"
-      , mp3Url = "https://drive.google.com/uc?id="
+      , mp3Url = "https://drive.google.com/uc?id=https://drive.google.com/file/d/1e3PqIRk1uLk0ykS9S2htaLznGfnIKDrU/view?usp=sharing"
       , title = "祇園小唄(つきはおぼろにひがしやま)"
       , filename = "gionkouta_crop.pdf"
       }
