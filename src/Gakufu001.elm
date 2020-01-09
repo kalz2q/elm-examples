@@ -12,6 +12,7 @@ module Gakufu001 exposing (main)
 -- これで成功 embed iframe どちらでも枠ができてしまうけど。
 -- wavも鳴らせた。autoplayはダメだけど
 -- play => 10DniZHZ3-IPLTOgZwIpBZr5B1P78ApPY
+--
 
 import Browser
 import Html exposing (..)
