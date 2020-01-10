@@ -1,7 +1,6 @@
-module Dotinstall001 exposing (main)
+module Dotinstall002 exposing (main)
 
--- svg画像を配置する
--- img [HA.src ""] [] => SVG.svg [SA.width "600"] []
+-- Dotinstall001でsvg画像を配置した。
 
 import Browser
 import Html exposing (..)
