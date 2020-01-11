@@ -93,6 +93,9 @@ view model =
                 , audio
                     [ HA.src "https://drive.google.com/uc?id=10DniZHZ3-IPLTOgZwIpBZr5B1P78ApPY"
                     , HA.controls True
+
+                    -- , HA.id "myAudio"
+                    -- , HA.style "myAudio.playbackRate" "3.0"
                     , HA.style "text-align" "right"
                     ]
                     []
