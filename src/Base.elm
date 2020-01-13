@@ -6,6 +6,15 @@ import Html.Attributes as HA
 import Html.Events as HE
 
 
+main : Program () Model Msg
+main =
+    Browser.sandbox
+        { init = init
+        , update = update
+        , view = view
+        }
+
+
 
 -- MODEL
 
@@ -21,14 +30,6 @@ init =
 
 
 -- VIEW
-
-
-view : Model -> Html Msg
-view model =
-    div [] []
-
-
-
 -- UPDATE
 
 
@@ -43,14 +44,6 @@ update msg model =
             model
 
 
-
--- MAIN
-
-
-main : Program () Model Msg
-main =
-    Browser.sandbox
-        { init = init
-        , view = view
-        , update = update
-        }
+view : Model -> Html Msg
+view model =
+    div [] []
