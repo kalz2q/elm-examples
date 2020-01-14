@@ -1,93 +1,99 @@
-module Shuffle002 exposing (Flags, Model, Msg(..), main)
-
--- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
--- rewrite shuffle001 to pickup only part 3 which is my focus now
+module Shuffle002 exposing (main)
 
 import Browser
-import Html as H
+import Html exposing (..)
+import Html.Attributes as HA
+import Html.Events as HE
 import Random
 
 
-type alias Model =
-    { partFour : String
-    }
-
-
-type Msg
-    = GotFour (List Int)
-
-
-type alias Flags =
-    ()
-
-
-main : Program Flags Model Msg
+main : Program () Model Msg
 main =
     Browser.element
-        { init =
-            always
-                ( { partFour = [] }
-                , Cmd.batch
-                    [ Random.generate GotFour partFour
-                    ]
-                )
+        { init = init
         , view = view
         , update = update
         , subscriptions = always Sub.none
         }
 
 
+type alias Model =
+    { list : List String
+    }
+
+
+init : () -> ( Model, Cmd Msg )
+init _ =
+    ( Model []
+    , Cmd.none
+    )
+
+
+type Msg
+    = Shuffle
+    | NewList (List String)
+
+
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        GotFour intList ->
-            ( { model | partFour = intList }, Cmd.none )
+        Shuffle ->
+            ( model
+            , Random.generate NewList
+                (shuffle listString)
+            )
+
+        NewList newList ->
+            ( { model
+                | list = newList
+              }
+            , Cmd.none
+            )
 
 
-view : Model -> H.Html Msg
-view m =
-    let
-        concatedPartFour =
-            List.map String.fromInt m.partFour |> String.join ", "
-    in
-    H.table []
-        [ .tr
-            []
-            [ H.td [] [ H.text "Part4" ]
-            , H.td [] [ H.text concatedPartFour ]
-            ]
+listString =
+    [ "This", "is", "an", "apple", "and", "this", "is", "a", "pencil" ]
+
+
+
+-- , text <| String.join "\",\" " model.list
+
+
+view : Model -> Html Msg
+view model =
+    div []
+        [ text "Let's shuffle the following sample list."
+        , p [] []
+        , text (fromListStringToString listString)
+        , br [] []
+        , button [ HE.onClick Shuffle ] [ text "Shuffle" ]
+        , br [] []
+        , text (fromListStringToString model.list)
         ]
 
 
-partFour : Random.Generator (List Int)
-partFour =
+fromListStringToString : List String -> String
+fromListStringToString list =
+    "[\"" ++ String.join ", " list ++ "\"]"
+
+
+shuffle : List a -> Random.Generator (List a)
+shuffle list =
     let
-        listLengthGen : Random.Generator Int
-        listLengthGen =
-            Random.int 5 10
+        randomNumbers : Random.Generator (List Int)
+        randomNumbers =
+            Random.list (List.length list) <| Random.int Random.minInt Random.maxInt
 
-        evenGen : Random.Generator Int
-        evenGen =
-            Random.int 1 50 |> Random.map ((*) 2)
+        zipWithList : List Int -> List ( a, Int )
+        zipWithList intList =
+            List.map2 Tuple.pair list intList
 
-        listGen : Int -> Random.Generator (List Int)
-        listGen len =
-            Random.list len evenGen
+        listWithRandomNumbers : Random.Generator (List ( a, Int ))
+        listWithRandomNumbers =
+            Random.map zipWithList randomNumbers
+
+        sortedGenerator : Random.Generator (List ( a, Int ))
+        sortedGenerator =
+            Random.map (List.sortBy Tuple.second) listWithRandomNumbers
     in
-    listLengthGen |> Random.andThen listGen
-
-
-myMap : (a -> b) -> Random.Generator a -> Random.Generator b
-myMap f gen =
-    gen |> Random.andThen (\val -> f val |> Random.constant)
-
-
-myMap2 : (a -> b -> c) -> Random.Generator a -> Random.Generator b -> Random.Generator c
-myMap2 f gen1 gen2 =
-    gen1
-        |> Random.andThen
-            (\val1 ->
-                gen2
-                    |> Random.andThen
-                        (\val2 -> f val1 val2 |> Random.constant)
-            )
+    Random.map (List.map Tuple.first) sortedGenerator
