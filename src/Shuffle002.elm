@@ -64,11 +64,11 @@ view model =
     div []
         [ text "Let's shuffle the following sample list."
         , p [] []
-        , text (fromListStringToString listString)
+        , text (Debug.toString listString)
         , br [] []
         , button [ HE.onClick Shuffle ] [ text "Shuffle" ]
         , br [] []
-        , text (fromListStringToString model.list)
+        , text (Debug.toString model.list)
         ]
 
 
