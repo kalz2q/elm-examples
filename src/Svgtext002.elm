@@ -1,4 +1,4 @@
-module SvgText002 exposing (main)
+module Svgtext002 exposing (main)
 
 import Html
 import Html.Attributes as HA

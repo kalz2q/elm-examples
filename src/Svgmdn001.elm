@@ -1,4 +1,4 @@
-module SvgMdn001 exposing (main)
+module Svgmdn001 exposing (main)
 
 import Svg
 import Svg.Attributes as SA

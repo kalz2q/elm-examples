@@ -1,4 +1,4 @@
-module SvgScale exposing (main)
+module Svgscale exposing (main)
 
 -- how to scale svg icon
 -- how to resize svg icon

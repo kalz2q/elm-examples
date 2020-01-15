@@ -1,4 +1,4 @@
-module SvgMask exposing (main)
+module Svgmask exposing (main)
 
 import Html
 import Html.Attributes as HA

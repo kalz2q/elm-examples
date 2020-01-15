@@ -1,4 +1,4 @@
-module SvgStyle003 exposing (main)
+module Svgstyle003 exposing (main)
 
 --   <defs>
 --   <style>

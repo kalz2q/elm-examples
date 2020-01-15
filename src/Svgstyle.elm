@@ -1,4 +1,4 @@
-module SvgStyle exposing (main)
+module Svgstyle exposing (main)
 
 import Html
 import Html.Attributes as HA

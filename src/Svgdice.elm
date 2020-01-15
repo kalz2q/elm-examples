@@ -1,4 +1,4 @@
-module SvgDice exposing (main)
+module Svgdice exposing (main)
 
 import Browser
 import Html exposing (..)

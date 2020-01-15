@@ -2,13 +2,13 @@ module Svg002 exposing (main)
 
 -- This is how to use viewBox
 
-import Html
+import Html exposing (..)
 import Svg
 import Svg.Attributes as SA
 
 
 main =
-    Html.div []
+    div []
         [ Svg.svg
             [ SA.width "160"
             , SA.height "160"

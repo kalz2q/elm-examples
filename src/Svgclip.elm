@@ -1,4 +1,4 @@
-module SvgClip exposing (main)
+module Svgclip exposing (main)
 
 import Html
 import Html.Attributes as HA

@@ -2,7 +2,7 @@ module Svg003 exposing (main)
 
 -- this is from mdn
 
-import Html
+import Html exposing (..)
 import Svg
 import Svg.Attributes as SA
 

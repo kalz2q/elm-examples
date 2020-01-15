@@ -1,4 +1,4 @@
-module SvgStyle exposing (main)
+module Svgstyle000 exposing (main)
 
 -- This is how to use defs => failure
 
@@ -29,13 +29,12 @@ main =
                     ]
                 ]
             , Svg.rect
-                [ 
-                --     SA.x "0"
-                -- , SA.y "0"
-                -- , 
-                -- SA.width "160"
-                -- , SA.height "160"
-                -- , SA.fill "skyblue"
+                [--     SA.x "0"
+                 -- , SA.y "0"
+                 -- ,
+                 -- SA.width "160"
+                 -- , SA.height "160"
+                 -- , SA.fill "skyblue"
                 ]
                 []
             , Svg.rect

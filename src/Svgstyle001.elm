@@ -1,4 +1,4 @@
-module SvgStyle001 exposing (main)
+module Svgstyle001 exposing (main)
 
 --   <defs>
 --     <style type="text/css"><![CDATA[

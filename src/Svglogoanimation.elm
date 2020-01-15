@@ -1,4 +1,4 @@
-module SvgLogoAnimation exposing (main)
+module Svglogoanimation exposing (main)
 
 import Array
 import Browser
