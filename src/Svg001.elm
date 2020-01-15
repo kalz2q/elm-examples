@@ -1,6 +1,7 @@
 module Svg001 exposing (main)
 
 -- learning svg and viewport
+-- msn , dotinstall, etc.
 -- cf. SA.preserveAspectRatio "none"
 
 import Html exposing (..)
