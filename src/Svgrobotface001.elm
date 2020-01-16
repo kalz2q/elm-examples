@@ -1,21 +1,20 @@
-module Svg008 exposing (main)
-
-
+module Svgrobotface001 exposing (main)
 
 import Html exposing (..)
+import Html.Attributes as HA
 import Svg
 import Svg.Attributes as SA
 
 
 main : Html msg
 main =
-    div []
-        [ faceSvg
+    div [ HA.style "text-align" "center" ]
+        [ robotfaceSvg
         ]
 
 
-faceSvg : Html msg
-faceSvg =
+robotfaceSvg : Html msg
+robotfaceSvg =
     Svg.svg
         [ SA.width "160", SA.height "160" ]
         [ Svg.rect

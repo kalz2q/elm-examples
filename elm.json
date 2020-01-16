@@ -20,6 +20,7 @@
             "elm/time": "1.0.0",
             "elm/url": "1.0.0",
             "elm-community/typed-svg": "5.0.1",
+            "evancz/elm-playground": "1.0.3",
             "joakin/elm-canvas": "3.0.5",
             "mdgriffith/elm-ui": "1.1.0",
             "mpizenberg/elm-pointer-events": "4.0.1",
