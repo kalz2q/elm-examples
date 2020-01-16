@@ -13,18 +13,22 @@ import Svg.Attributes as SA
 main : Html msg
 main =
     div [ HA.style "text-align" "center" ]
-        [ Svg.svg
-            [ SA.width "400" -- viewport
-            , SA.height "400"
-            , SA.viewBox "0 0 200 200"
-            , SA.style "background:#38a"
+        [ circleSvg
+        ]
+
+
+circleSvg =
+    Svg.svg
+        [ SA.width "400" -- viewport
+        , SA.height "400"
+        , SA.viewBox "0 0 400 400"
+        , SA.style "background:#38a"
+        ]
+        [ Svg.circle
+            [ SA.cx "50"
+            , SA.cy "50"
+            , SA.r "50"
+            , SA.fill "blue"
             ]
-            [ Svg.circle
-                [ SA.cx "50"
-                , SA.cy "50"
-                , SA.r "50"
-                , SA.fill "blue"
-                ]
-                []
-            ]
+            []
         ]

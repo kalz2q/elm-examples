@@ -7,22 +7,33 @@ import Svg
 import Svg.Attributes as SA
 
 
+main : Html msg
 main =
     Svg.svg
-        [ SA.viewBox "0 0 300 100"
+        [ SA.viewBox "0 0 400 400"
         , SA.stroke "red"
         , SA.fill "grey"
         ]
-        [ Svg.circle
-            [ SA.cx "50"
-            , SA.cy "50"
-            , SA.r "40"
-            ]
-            []
-        , Svg.circle
-            [ SA.cx "50"
-            , SA.cy "50"
-            , SA.r "4"
-            ]
-            []
+        [ circleSvg1
+        , circleSvg2
         ]
+
+
+circleSvg1 : Html msg
+circleSvg1 =
+    Svg.circle
+        [ SA.cx "50"
+        , SA.cy "50"
+        , SA.r "40"
+        , SA.fill "green"
+        ]
+        []
+
+
+circleSvg2 =
+    Svg.circle
+        [ SA.cx "50"
+        , SA.cy "50"
+        , SA.r "4"
+        ]
+        []
