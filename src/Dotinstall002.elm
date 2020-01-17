@@ -1,6 +1,10 @@
 module Dotinstall002 exposing (main)
 
 -- Dotinstall001でsvg画像を配置した。
+-- testing pre and code and multi-line string
+-- ellie-app.comで使うstyleをどうコメントで書くか
+--
+--
 
 import Browser
 import Html exposing (..)
@@ -70,12 +74,30 @@ view model =
                 , strong [] [ text "すすごい" ]
                 , br [] [ text "すごい" ]
                 , text "おは！！！"
+                , pre [] [ text "text" ]
+                , code [] [ text "hahwhat?" ]
                 ]
             , h2 [] [ text "使い方" ]
-            , p []
-                [ text "git clone して、あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。あとはご自由に。"
-                , br [] []
-                , text "br[]は改行です。p[][]は段落改行。"
+            , text "br[]は改行です。p[][]は段落改行。"
+            , div []
+                [ text "<pre>タグは次のように使います" ]
+            , br [] []
+            ]
+        , pre []
+            [ text
+                """
+        this si useful for holding json or other
+        content that has !u"uqaotation" amrks
+        """
+            ]
+        , pre []
+            [ code []
+                [ text
+                    """
+        this si useful for holding json or other
+        printf
+        content that has !u"uqaotation" amrks
+        """
                 ]
             ]
         ]
