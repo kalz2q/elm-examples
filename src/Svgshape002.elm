@@ -1,7 +1,4 @@
--- module Shapes001 exposing (main)
-
-
-module Main exposing (main)
+module Svgshape002 exposing (main)
 
 import Html
 import Svg

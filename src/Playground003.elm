@@ -1,21 +1,16 @@
-module Playground001 exposing (main, tree, triangleEye, view)
+module Playground003 exposing (main, tree, triangleEye, view)
 
 import Playground exposing (..)
 
 
-
--- Playground.animation : (Playground.Time -> List Playground.Shape) -> Program () Playground.Animation Playground.Msg
-
-
-main : Program () Playground.Animation Playground.Msg
+main : Program () Playground.Screen ( Int, Int )
 main =
-    animation view
+    triangleEye
 
 
 view : Playground.Time -> List Playground.Shape
 view time =
-    [ rectangle brown 40 200
-        |> rotate (spin 8 time)
+    [ rotate (spin 10 time) <| rectangle brown 40 200
     ]
 
 
@@ -29,11 +24,14 @@ view time =
 --   -> Playground.Number
 --   -> Playground.Screen
 
+-- Playground.picture
+--     : List Playground.Shape -> Program () Playground.Screen ( Int, Int )
+
 
 triangleEye : Program () Playground.Screen ( Int, Int )
 triangleEye =
     picture
-        [ triangle green 150
+        [ triangle green 150 
         , circle white 40
         , circle black 10
         ]

@@ -6,6 +6,7 @@ module Animation001 exposing (main, view)
 -- Learn more about the playground here:
 --   https://package.elm-lang.org/packages/evancz/elm-playground/latest/
 --
+-- typeがわからないからわからないのかも。
 
 import Playground exposing (..)
 
@@ -14,6 +15,7 @@ main =
     animation view
 
 
+view : Playground.Time -> List Playground.Shape
 view time =
     [ octagon darkGray 36
         |> moveLeft 100

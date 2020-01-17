@@ -1,11 +1,13 @@
-module Playground001 exposing (main, tree, triangleEye, view)
+module Playground002 exposing (main, tree, triangleEye, view)
 
 import Playground exposing (..)
 
 
 
--- Playground.animation : (Playground.Time -> List Playground.Shape) -> Program () Playground.Animation Playground.Msg
-
+-- try reverse arrow symbol |> -> <|
+-- [ rectangle brown 40 200
+--     |> rotate (spin 8 time)
+-- ]
 
 main : Program () Playground.Animation Playground.Msg
 main =
@@ -14,8 +16,7 @@ main =
 
 view : Playground.Time -> List Playground.Shape
 view time =
-    [ rectangle brown 40 200
-        |> rotate (spin 8 time)
+    [ rotate (spin 10 time) <| rectangle brown 40 200
     ]
 
 

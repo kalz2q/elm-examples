@@ -1,4 +1,4 @@
-module Shapes exposing (main)
+module Svgshape001 exposing (main)
 
 import Html
 import Svg
@@ -72,4 +72,3 @@ main =
                 []
             ]
         ]
-
