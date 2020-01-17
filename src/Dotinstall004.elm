@@ -1,7 +1,8 @@
-module Dotinstall003 exposing (main)
+module Dotinstall004 exposing (main)
 
--- listを表現する
--- table を作る => Dotinstall004
+-- listを表現する => Dotinstall003.elm
+-- table を作る => Dotinstall004.elm
+--
 -- ellie-app.comで使うstyleをどうコメントで書くか
 --
 --
@@ -49,42 +50,16 @@ view model =
         , HA.style "margin" "auto"
         ]
         [ pinkheart
-        , h1 [] [ text "ノーネームグダグダ" ]
-        , p []
-            [ text "考えるプログラムとか"
-            , br [] []
-            , text "続けてみよう。実験中。実験中。実験中。実験中。実験中。実験中。実験中。"
-            , ul []
-                [ li []
-                    [ text "すごい" ]
-                , li
-                    []
-                    [ text "やばい" ]
-                , li
-                    []
-                    [ text "つよい" ]
+        , table []
+            [ thead [] [ text "年" ]
+            , thead [] [ text "出来事" ]
+            , td []
+                [ text "2015"
+                , text "会社設立"
                 ]
+            , td [] [ text "2019" ]
+            , td [] [ text "サイト" ]
             ]
-        , swedishflag
-        , h2 [] [ text "はじめに" ]
-        , text "リストを表現してみる"
-        , dl []
-            [ dt []
-                [ text "これは本です" ]
-            , dd
-                []
-                [ text "あれは歌です" ]
-            , dt []
-                [ text "これは馬です" ]
-            , dd
-                []
-                [ text "これは歌です" ]
-            ]
-        , h2 [] [ text "使い方" ]
-        , text "br[]は改行です。p[][]は段落改行。"
-        , div []
-            [ text "<pre>タグは次のように使います" ]
-        , br [] []
         ]
 
 
