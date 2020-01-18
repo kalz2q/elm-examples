@@ -506,11 +506,7 @@ dict =
       , title = "あら野のはてに(あらののはてにゆうひはおちて。クリスマス)"
       , filename = "aranonohateni_crop.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1gU6S8zYcwn_DUkh7bRY7PmpsyBw3XS19"
-      , mp3Url = "https://drive.google.com/uc?id=1jZi0sumxmgzh7RtNz4HYwispequell5M"
-      , title = "あわてんぼうのサンタクロース(クリスマス)"
-      , filename = "awatenbo_crop.pdf"
-      }
+
     , { jpgUrl = "https://drive.google.com/uc?id=1bRvWIAaz5jkCp2cF1dWILxHdF9roI3jq"
       , mp3Url = "https://drive.google.com/uc?id=1kDi3Uj0k1AsAIW404Z6vhktke11h_kIO"
       , title = "牧人ひつじを(まきびとひつじをまもれる。クリスマス)"
@@ -636,11 +632,6 @@ dict =
       , title = "日の丸の旗（しろじにあかくひのまるそめて）"
       , filename = "hinomaru_crop.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1eLcT52W0iJKr6QsZx035ZlOLq-mLtYVI"
-      , mp3Url = "https://drive.google.com/uc?id=1k_ogeiXqZO1t2j2blp_YXAPXCGhZ-WAT"
-      , title = "アイアイ(あいあいあいあいおさるさんだよ)"
-      , filename = "aiai_crop.pdf"
-      }
     , { jpgUrl = "https://drive.google.com/uc?id=15ETizs6k2i0-DOzVrGVL7stHTNZKNrWV"
       , mp3Url = "https://drive.google.com/uc?id=1DCKvW0_W3slyIBUyYw1Y902gLCAD-nAZ"
       , title = "ビッグ・ベンの鐘(ウェストミンスター宮殿の時計)"
@@ -751,11 +742,7 @@ dict =
       , title = "故郷を離るる歌(そののさゆりなでしこかきねのちぐさ)"
       , filename = "kokyowohanaruru_crop.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=17vVWTRDQs-kwqIo8NKYAxHneeNdZn4ii"
-      , mp3Url = "https://drive.google.com/uc?id=191copT2VibT0H4sWQwIxrOTp1IRqKGbw"
-      , title = "アマリリス(みんなできこうたのしいオルゴールを)"
-      , filename = "amaryllis_crop.pdf"
-      }
+
     , { jpgUrl = "https://drive.google.com/uc?id=14rSEr5sGqWguJVfCjOqUN3niHthbww0s"
       , mp3Url = "https://drive.google.com/uc?id=187rB_4IbKxlySnLWvOLKotNwPCLlfc_t"
       , title = "東京節(パイノパイノパイ)"
@@ -1451,4 +1438,46 @@ dict =
       , title = "つき(でたでたつきが)"
       , filename = "tanabatasama.pdf"
       }
+    , { jpgUrl = "https://drive.google.com/uc?id=1oP0q9blYIYqd8iI8qUvLfGflzL_lYQS2"
+      , mp3Url = "https://drive.google.com/uc?id=1k_ogeiXqZO1t2j2blp_YXAPXCGhZ-WAT"
+      , title = "アイアイ(あいあいあいあいおさるさんだよ)"
+      , filename = "aiai.pdf"
+      }
+
+    , { jpgUrl = "https://drive.google.com/uc?id=1x04LCyD7W7PGX-CfFc7nHJQrcz52vKub"
+      , mp3Url = "https://drive.google.com/uc?id=1iQ1fIS_kb-gO76rEvZYRzpnHfIvV0JUI"
+      , title = "愛国の花(ましろきふじのけだかさを)"
+      , filename = "aikokunohana.pdf"
+      }
+     , { jpgUrl = "https://drive.google.com/uc?id=1sZLBoet1rQY2KpaEY-oiOTnuDUujnXho"
+       , mp3Url = "https://drive.google.com/uc?id=1aCn5JSJsR_FWh3NK9gd9HXOnc_SA-JV7"
+       , title = "赤城の子守唄(なくなよしよしねんねしな)"
+       , filename = "akaginokomoriuta.pdf"
+      }
+     , { jpgUrl = "https://drive.google.com/uc?id=1zOwlo4l0G0j4_7iLBEURm7BxwE2FCWGT"
+       , mp3Url = "https://drive.google.com/uc?id=1SQfGOXhNEMp6SgZqQ6kBFgIjXrK6vOhn"
+       , title = "暁に祈る(あああのかおであのこえで)"
+       , filename = "akatsukiniinoru.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1v9Alp-27jquhozHihi0BWjtnRPU3Pae0"
+      , mp3Url = "https://drive.google.com/uc?id=191copT2VibT0H4sWQwIxrOTp1IRqKGbw"
+      , title = "アマリリス(みんなできこうたのしいオルゴールを)"
+      , filename = "amaryllis.pdf"
+      }      
+    , { jpgUrl = "https://drive.google.com/uc?id=1OMEmVbQmVeBBnNWB606QmkvR0hdT-r70"
+      , mp3Url = "https://drive.google.com/uc?id=1Ickl_2Sh7BefCKRaC8HeKkPixioGiL5O"
+      , title = "アルプス一万尺"
+      , filename = "alpsichiman.pdf"
+        }
+    , { jpgUrl = "https://drive.google.com/uc?id=1PP7CFxRwKtwUhEsDN4HhUB5zHJBNQJ0L"
+      , mp3Url = "https://drive.google.com/uc?id=1jZi0sumxmgzh7RtNz4HYwispequell5M"
+      , title = "あわてんぼうのサンタクロース(クリスマス)"
+      , filename = "awatenbo.pdf"
+      }
+
     ]
+      --, { jpgUrl = ""
+      --  , mp3Url = ""
+      --  , title = ""
+      --  , filename = ".pdf"
+      --  }

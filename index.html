@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Gakufu002</title>
+  <title>Gakufu005</title>
   <style>body { padding: 0; margin: 0; }</style>
 </head>
 
@@ -5196,14 +5196,14 @@ var $elm$core$Task$perform = F2(
 				A2($elm$core$Task$map, toMessage, task)));
 	});
 var $elm$browser$Browser$element = _Browser_element;
-var $author$project$Gakufu002$Model = F4(
-	function (jpgUrl, mp3Url, title, filename) {
-		return {filename: filename, jpgUrl: jpgUrl, mp3Url: mp3Url, title: title};
+var $author$project$Gakufu005$Model = F6(
+	function (jpgUrl, mp3Url, title, filename, dolist, list) {
+		return {dolist: dolist, filename: filename, jpgUrl: jpgUrl, list: list, mp3Url: mp3Url, title: title};
 	});
-var $author$project$Gakufu002$NewRandom = function (a) {
-	return {$: 'NewRandom', a: a};
+var $author$project$Gakufu005$NewList = function (a) {
+	return {$: 'NewList', a: a};
 };
-var $author$project$Gakufu002$dict = _List_fromArray(
+var $author$project$Gakufu005$dict = _List_fromArray(
 	[
 		{filename: 'mitokomon_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1IRp2uhDtP0y3-Vi8mQ3lD2H1goca5FIG', mp3Url: 'https://drive.google.com/uc?id=1877DcOpz7rhRQ7XhpV7I34MQf018IDYt', title: '水戸黄門(じんせいらくありゃくもあるさ)'},
 		{filename: 'yunomachieleby_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1yYAaH3a9SZ2FdkRWXIeCqc6G3u9_awL2', mp3Url: 'https://drive.google.com/uc?id=10DniZHZ3-IPLTOgZwIpBZr5B1P78ApPY', title: '湯の町エレジー(いずのやまやまつきあわく)'},
@@ -5255,7 +5255,6 @@ var $author$project$Gakufu002$dict = _List_fromArray(
 		{filename: 'morobito_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1w1LhB8aOftp1A3zOmlSQGjMye7GsowJI', mp3Url: 'https://drive.google.com/uc?id=1jvYKa16U5WI-Yo1sWxKkVgFXlxRWWupv', title: 'もろびとこぞりて(クリスマス)'},
 		{filename: 'nakayoshikomichi_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1Rn_NdO_TVfUzQSEz5hzfyiDWzpV0POo0', mp3Url: 'https://drive.google.com/uc?id=18t43GAZWMFEtBX1zaK-Fn1e5sB1ZLrlZ', title: '仲よし小道(なかよしこみちはどこのみち)'},
 		{filename: 'doreminouta_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1IacrrSmODZqEb8SLBJM9oMx3HzWCn9aU', mp3Url: 'https://drive.google.com/uc?id=1YXchgECNKskPYUTPNQtNopALvcSNJ5k8', title: 'ドレミの歌(どはどーなつのど)'},
-		{filename: 'tulip_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1GVv_r_eSmVHEJj6taKeADSWvF9yZ2z0Z', mp3Url: 'https://drive.google.com/uc?id=1k1a_-yvWssztDePXzVzWAm-N5Zzt_tdE', title: 'チューリップ(さいたさいたちゅーりっぷのはなが)'},
 		{filename: 'kakashi_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1Rj5vA2sE-XqwPHlLHsnLYhLnXXqj9fiN', mp3Url: 'https://drive.google.com/uc?id=1nNbubE84_wM-BO4l3C6OQgbBqbcBFY8E', title: '案山子(やまだのなかのいっぽんあしの)'},
 		{filename: 'kagewoshitaite_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=11bHak0tzxDlND1TNEspcwXXQuKbC4ach', mp3Url: 'https://drive.google.com/uc?id=1Mhwb0IcHhUI376V8PcuqjcknaIBmB_8F', title: '影を慕いて(まぼろしのかげをしたいて)'},
 		{filename: 'maritotonosama_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1zEp_VHoJXF1bH0cthqkJiQcvbbuGGU9h', mp3Url: 'https://drive.google.com/uc?id=10AAQ6JoGnOZKrO_RZhoCGmjy6VYzxd4x', title: '鞠と殿さま(てんてんてんまりてんてまり)'},
@@ -5303,7 +5302,6 @@ var $author$project$Gakufu002$dict = _List_fromArray(
 		{filename: 'anomachi_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1GKtBpaVp0cOQqDqNONUJbHu8zyw-x-LL', mp3Url: 'https://drive.google.com/uc?id=1mXIa3E4212g41CWLdoveCZ7yhMc8i_UM', title: 'あの町この町(あのまちこのまちひがくれる)'},
 		{filename: 'sendo_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1VUL2KCXmQe8bgEXxjLDTPnT_FpX3tzPn', mp3Url: 'https://drive.google.com/uc?id=1GJMpEGadPsX0RXVdRRy89_kv_GGv-NDq', title: '船頭さん(むらのわたしのせんどさんは)'},
 		{filename: 'haruyokoimatsutoya_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1Q-qvIUB4vJhojte5Gl4TcebEfnP2XoXs', mp3Url: 'https://drive.google.com/uc?id=1ULAQpP62VcW3oGR4LcZzgS-7-yutIsVk', title: '春よ、来い(松任谷由美。あわきひたりたつにわかあめ)'},
-		{filename: 'takotako_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1KTzuK4ZuQVwaK95Ca9w3x6IgTMKNf5ty', mp3Url: 'https://drive.google.com/uc?id=1pbUzmGLfj5n23CEx9OanXdy4NUhZ7XCZ', title: 'たこのうた(たこたこあがれ)'},
 		{filename: 'naniwabushi_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=167ShNKUA5n2FmUB5k5IhMu02XRZvmuJY', mp3Url: 'https://drive.google.com/uc?id=1_XRfq3pQyshxhjGk4jnxGEGp3XNzj-tz', title: '浪花節だよ人生は(のめといわれてすなおにのんだ)'},
 		{filename: 'maruetsu_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1LMibWxQMAnQQzel6SMeQJzNMeaCab2Fs', mp3Url: 'https://drive.google.com/uc?id=1xvUEHUkyZ566gXRaSgNhxQ8QeT-nmWe1', title: 'マルエツの歌(どくたーげんきどくたーげんき)'},
 		{filename: 'lawsonhyaku_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1SOgvT204wgKf8ZOm0L1sVl85sjI8druw', mp3Url: 'https://drive.google.com/uc?id=13EUkyyxzgmZvdSIkxhhG-kce5rsL0Gh-', title: 'ローソンストア100(ひゃくひゃくひゃくえん)'},
@@ -5401,7 +5399,6 @@ var $author$project$Gakufu002$dict = _List_fromArray(
 		{filename: 'okinakuri_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1Ez4BeywMtfrBTlAR6GtfHY7FClCaijj0', mp3Url: 'https://drive.google.com/uc?id=1Cd05l-iihpVT_a5zeXFNtggvTa7UZVyd', title: '大きな栗の木の下で(おおきなくりのきのしたで)'},
 		{filename: 'tonbono_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1KzatRA02xsN9LsrBbPFSPm7Kg9b4S7kt', mp3Url: 'https://drive.google.com/uc?id=1n4vPS1PVcR09hIeEnngs4YzLw6yMxfEb', title: 'とんぼのめがね'},
 		{filename: 'oshogatsu_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1Qe4tiRgEtZv-XVrUf9C9PuucAEM4MsuJ', mp3Url: 'https://drive.google.com/uc?id=186fahMimqSAbgc-24_R_ogjsrerNVfXw', title: 'お正月(もういくつねるとおしょうがつ)'},
-		{filename: 'tewotata_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1MwBxk_OcRIEi0c1rcU872bDzc3nRmdWq', mp3Url: 'https://drive.google.com/uc?id=16WJ8vbWNWXSGHYlPXtk7aY3jYSvC2mgN', title: '手をたたきましょう'},
 		{filename: 'gaisen_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1dtrqgTM1a_FuGcRS7pCQ45m6tpK2XG4j', mp3Url: 'https://drive.google.com/uc?id=1C-FH8z0sjNk34NK_CwG5YmtJ50ngkAfg', title: '凱旋行進曲(ヴェルディ。アイーダ)'},
 		{filename: 'obladi_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1jsm43y2et47tEXW5XiVEgqwRynF3tmMq', mp3Url: 'https://drive.google.com/uc?id=1wfPPWpGdQwjB7QcWXIm1qZwt6-YN7Lno', title: 'Ob-La-Di, Ob-La-Da (ビートルズ)'},
 		{filename: 'carrythatweight_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1gi9N06Fn5X3JoKpTKPv8FGq33BqgtrfA', mp3Url: 'https://drive.google.com/uc?id=1iVF-9H9cuc9hkrT3y3JA6gRgTGYGROsJ', title: 'Carry That Weight (ビートルズ)'},
@@ -5410,7 +5407,6 @@ var $author$project$Gakufu002$dict = _List_fromArray(
 		{filename: 'cosmos_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1w758ucrQ8iOGBNe58Su4I-thIUkbk5lr', mp3Url: 'https://drive.google.com/uc?id=1wQvReBXq6S9yNk0qGrTqSjsERIFraU1T', title: '秋桜(うすべにのこすもすがあきのひの)'},
 		{filename: 'dango3kyodai_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1dKzyqi2R-BRWpB1urm1yYtRjy6KQrqia', mp3Url: 'https://drive.google.com/uc?id=1W3Uj4G1xupngrcJjI773Nu7wefJXAl7U', title: 'だんご３兄弟(くしにささってだんごだんご)'},
 		{filename: 'chimchimcheree_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1gBrFQXn7493yX1wU6KUF1KabtxsRKLby', mp3Url: 'https://drive.google.com/uc?id=1jOdhUTybguaIK2O-25NrD7bxqkClKIII', title: 'チム・チム・チェリー(ちむちむにーちむちむにー)'},
-		{filename: 'tetsuwan_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1c6kRVplJk3XW8MLoFBXBKrdDc8StaH_O', mp3Url: 'https://drive.google.com/uc?id=1Q2KNpLnyiMMWMG5QYKP7adXXGKr0URZu', title: '鉄腕アトム(そらをこえてららら)'},
 		{filename: 'yogiriyo_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1JYXpUnLFgTyht62TFMCq-JePJJEPSWCS', mp3Url: 'https://drive.google.com/uc?id=1XpVxzqAUwjglsqW_3s-_b1gn4LL_pPss', title: '夜霧よ今夜もありがとう(しのびあうこいをつつむよぎりよ)'},
 		{filename: 'hoshinonagareni_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1dknMDQb0ovZlIKfOZvO-VGQhMTdLj7qG', mp3Url: 'https://drive.google.com/uc?id=1GcyV-v2HA1z9UZoWV0dE9EHiadxIVk6r', title: '星の流れに(ほしのながれにみをうらなって)'},
 		{filename: 'ichigatsuichijitsu_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1hc_X37Yq9v-h6BUruUJuVMNo4KzxmtBX', mp3Url: 'https://drive.google.com/uc?id=1HvoxTFUG58F_TgvbEgCbuReF9UIwtJXO', title: '一月一日(いちがついちじつ、としのはじめのためしとて)'},
@@ -5454,7 +5450,13 @@ var $author$project$Gakufu002$dict = _List_fromArray(
 		{filename: 'yashinomi_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1N2yp-2PXoRn4UMWb1A4spC8Te_o-nKbn', mp3Url: 'https://drive.google.com/uc?id=1yvuyD1w5J-wQieCt_t5T9zNVfgR0fYQJ', title: '椰子の実(やしのみ。なもしらぬとおきしまより)'},
 		{filename: 'yesterdayonce_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1EW8U886L9jqdG-DmnlFXweQLgxPDQm61', mp3Url: 'https://drive.google.com/uc?id=1NvxcOW3XfsGmbw4ASpKZTxPljlo98wSl', title: 'イエスタデイ・ワンス・モア(カーペンターズ)'},
 		{filename: 'yuki100p_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1umpVJaRj0k6ponp-oLNACkPBq7-Eivr-', mp3Url: 'https://drive.google.com/uc?id=17lJ_XLyiXrrQfcEgrWm06YSuT9QCEPFt', title: '勇気100パーセント(がっかりしてめそめそしてどうしたんだい)'},
-		{filename: 'yorokobi_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1U3DMP2e99qqOFxyW6ayg04ehnXf5UjwS', mp3Url: 'https://drive.google.com/uc?id=1SWixMVXncKkpZXORY3qqnu0mb0_I29Wq', title: '喜びの歌(はれたるあおぞらただようくもよ)'}
+		{filename: 'yorokobi_crop.pdf', jpgUrl: 'https://drive.google.com/uc?id=1U3DMP2e99qqOFxyW6ayg04ehnXf5UjwS', mp3Url: 'https://drive.google.com/uc?id=1SWixMVXncKkpZXORY3qqnu0mb0_I29Wq', title: '喜びの歌(はれたるあおぞらただようくもよ)'},
+		{filename: 'takotako.pdf', jpgUrl: 'https://drive.google.com/uc?id=1rK9xSFpnZ-mVz4BFCVAe4VQUdZacoYcb', mp3Url: 'https://drive.google.com/uc?id=1pbUzmGLfj5n23CEx9OanXdy4NUhZ7XCZ', title: 'たこのうた(たこたこあがれ)'},
+		{filename: 'tulip.pdf', jpgUrl: 'https://drive.google.com/uc?id=1vHoatud8GL2tGaGFbuz-fc5FySfZ-uyI', mp3Url: 'https://drive.google.com/uc?id=1k1a_-yvWssztDePXzVzWAm-N5Zzt_tdE', title: 'チューリップ(さいたさいたちゅーりっぷのはなが)'},
+		{filename: 'tetsuwan.pdf', jpgUrl: 'https://drive.google.com/uc?id=1Q2KNpLnyiMMWMG5QYKP7adXXGKr0URZu', mp3Url: 'https://drive.google.com/uc?id=1jlRhWy7kdIhergO6-cjnb6Th-Uyt-2Fz', title: '鉄腕アトム(そらをこえてららら)'},
+		{filename: 'tewotata.pdf', jpgUrl: 'https://drive.google.com/uc?id=1hzFWYgZcfAnCkl4EYAOAdAsaP2lnghAS', mp3Url: 'https://drive.google.com/uc?id=16WJ8vbWNWXSGHYlPXtk7aY3jYSvC2mgN', title: '手をたたきましょう'},
+		{filename: 'tanabatasama.pdf', jpgUrl: 'https://drive.google.com/uc?id=1j4Xq9iU_IS4o6RLZIn8EuPlEXG6D1qEW', mp3Url: 'https://drive.google.com/uc?id=1XpNvTdHJxoY6kpauEdobLfrtmnhZhuP4', title: 'たなばたさま'},
+		{filename: 'tanabatasama.pdf', jpgUrl: 'https://drive.google.com/uc?id=1LHP_RpWF-hSWb4IUMIXTfuiETn1gtqBo', mp3Url: 'https://drive.google.com/uc?id=1X3nfZgOn2rnD-BzTDo60O-mHoPNS7L7D', title: 'つき(でたでたつきが)'}
 	]);
 var $elm$random$Random$Generate = function (a) {
 	return {$: 'Generate', a: a};
@@ -5605,21 +5607,80 @@ var $elm$random$Random$int = F2(
 				}
 			});
 	});
-var $author$project$Gakufu002$init = function (_v0) {
+var $elm$random$Random$listHelp = F4(
+	function (revList, n, gen, seed) {
+		listHelp:
+		while (true) {
+			if (n < 1) {
+				return _Utils_Tuple2(revList, seed);
+			} else {
+				var _v0 = gen(seed);
+				var value = _v0.a;
+				var newSeed = _v0.b;
+				var $temp$revList = A2($elm$core$List$cons, value, revList),
+					$temp$n = n - 1,
+					$temp$gen = gen,
+					$temp$seed = newSeed;
+				revList = $temp$revList;
+				n = $temp$n;
+				gen = $temp$gen;
+				seed = $temp$seed;
+				continue listHelp;
+			}
+		}
+	});
+var $elm$random$Random$list = F2(
+	function (n, _v0) {
+		var gen = _v0.a;
+		return $elm$random$Random$Generator(
+			function (seed) {
+				return A4($elm$random$Random$listHelp, _List_Nil, n, gen, seed);
+			});
+	});
+var $elm$random$Random$maxInt = 2147483647;
+var $elm$random$Random$minInt = -2147483648;
+var $elm$core$Tuple$pair = F2(
+	function (a, b) {
+		return _Utils_Tuple2(a, b);
+	});
+var $elm$core$Tuple$second = function (_v0) {
+	var y = _v0.b;
+	return y;
+};
+var $elm$core$List$sortBy = _List_sortBy;
+var $author$project$Gakufu005$shuffle = function (list) {
+	var zipWithList = function (intList) {
+		return A3($elm$core$List$map2, $elm$core$Tuple$pair, list, intList);
+	};
+	var randomNumbers = A2(
+		$elm$random$Random$list,
+		$elm$core$List$length(list),
+		A2($elm$random$Random$int, $elm$random$Random$minInt, $elm$random$Random$maxInt));
+	var listWithRandomNumbers = A2($elm$random$Random$map, zipWithList, randomNumbers);
+	var sortedGenerator = A2(
+		$elm$random$Random$map,
+		$elm$core$List$sortBy($elm$core$Tuple$second),
+		listWithRandomNumbers);
+	return A2(
+		$elm$random$Random$map,
+		$elm$core$List$map($elm$core$Tuple$first),
+		sortedGenerator);
+};
+var $author$project$Gakufu005$init = function (_v0) {
 	return _Utils_Tuple2(
-		A4($author$project$Gakufu002$Model, '', '', '', ''),
+		A6($author$project$Gakufu005$Model, '', '', '', '', true, $author$project$Gakufu005$dict),
 		A2(
 			$elm$random$Random$generate,
-			$author$project$Gakufu002$NewRandom,
-			A2(
-				$elm$random$Random$int,
-				1,
-				$elm$core$List$length($author$project$Gakufu002$dict))));
+			$author$project$Gakufu005$NewList,
+			$author$project$Gakufu005$shuffle($author$project$Gakufu005$dict)));
 };
 var $elm$core$Platform$Sub$batch = _Platform_batch;
 var $elm$core$Platform$Sub$none = $elm$core$Platform$Sub$batch(_List_Nil);
-var $author$project$Gakufu002$subscriptions = function (model) {
+var $author$project$Gakufu005$subscriptions = function (model) {
 	return $elm$core$Platform$Sub$none;
+};
+var $author$project$Gakufu005$NewRandom = function (a) {
+	return {$: 'NewRandom', a: a};
 };
 var $elm$core$List$drop = F2(
 	function (n, list) {
@@ -5644,34 +5705,64 @@ var $elm$core$List$drop = F2(
 	});
 var $elm$core$Platform$Cmd$batch = _Platform_batch;
 var $elm$core$Platform$Cmd$none = $elm$core$Platform$Cmd$batch(_List_Nil);
-var $author$project$Gakufu002$update = F2(
+var $author$project$Gakufu005$update = F2(
 	function (msg, model) {
-		if (msg.$ === 'Submit') {
-			return _Utils_Tuple2(
-				model,
-				A2(
-					$elm$random$Random$generate,
-					$author$project$Gakufu002$NewRandom,
+		switch (msg.$) {
+			case 'Submit':
+				return _Utils_Tuple2(
+					model,
 					A2(
-						$elm$random$Random$int,
-						1,
-						$elm$core$List$length($author$project$Gakufu002$dict))));
-		} else {
-			var n = msg.a;
-			var _v1 = A2($elm$core$List$drop, n - 1, $author$project$Gakufu002$dict);
-			if (_v1.b) {
-				var x = _v1.a;
+						$elm$random$Random$generate,
+						$author$project$Gakufu005$NewRandom,
+						A2(
+							$elm$random$Random$int,
+							1,
+							$elm$core$List$length($author$project$Gakufu005$dict))));
+			case 'NewRandom':
+				var n = msg.a;
+				var _v1 = A2($elm$core$List$drop, n, $author$project$Gakufu005$dict);
+				if (_v1.b) {
+					var x = _v1.a;
+					return _Utils_Tuple2(
+						_Utils_update(
+							model,
+							{filename: x.filename, jpgUrl: x.jpgUrl, mp3Url: x.mp3Url, title: x.title}),
+						$elm$core$Platform$Cmd$none);
+				} else {
+					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
+				}
+			case 'Shuffle':
+				return _Utils_Tuple2(
+					model,
+					A2(
+						$elm$random$Random$generate,
+						$author$project$Gakufu005$NewList,
+						$author$project$Gakufu005$shuffle($author$project$Gakufu005$dict)));
+			case 'NewList':
+				var newList = msg.a;
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{filename: x.filename, jpgUrl: x.jpgUrl, mp3Url: x.mp3Url, title: x.title}),
+						{list: newList}),
 					$elm$core$Platform$Cmd$none);
-			} else {
-				return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
-			}
+			default:
+				var index = msg.a;
+				var _v2 = A2($elm$core$List$drop, index, model.list);
+				if (_v2.b) {
+					var x = _v2.a;
+					return _Utils_Tuple2(
+						_Utils_update(
+							model,
+							{dolist: false, filename: x.filename, jpgUrl: x.jpgUrl, mp3Url: x.mp3Url, title: x.title}),
+						$elm$core$Platform$Cmd$none);
+				} else {
+					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
+				}
 		}
 	});
-var $author$project$Gakufu002$Submit = {$: 'Submit'};
+var $author$project$Gakufu005$ShowMusic = function (a) {
+	return {$: 'ShowMusic', a: a};
+};
 var $elm$html$Html$audio = _VirtualDom_node('audio');
 var $elm$html$Html$button = _VirtualDom_node('button');
 var $elm$json$Json$Encode$bool = _Json_wrap;
@@ -5702,6 +5793,7 @@ var $elm$html$Html$Events$onClick = function (msg) {
 		'click',
 		$elm$json$Json$Decode$succeed(msg));
 };
+var $elm$html$Html$span = _VirtualDom_node('span');
 var $elm$json$Json$Encode$string = _Json_wrap;
 var $elm$html$Html$Attributes$stringProperty = F2(
 	function (key, string) {
@@ -5720,16 +5812,11 @@ var $elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
 var $elm$html$Html$Attributes$style = $elm$virtual_dom$VirtualDom$style;
 var $elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var $elm$html$Html$text = $elm$virtual_dom$VirtualDom$text;
-var $elm$html$Html$h2 = _VirtualDom_node('h2');
 var $elm$html$Html$img = _VirtualDom_node('img');
-var $author$project$Gakufu002$viewDetailedPdf = function (model) {
+var $author$project$Gakufu005$viewDetailedPdf = function (model) {
 	return A2(
 		$elm$html$Html$div,
-		_List_fromArray(
-			[
-				A2($elm$html$Html$Attributes$style, 'box-shadow', '0 0 10px #555'),
-				A2($elm$html$Html$Attributes$style, 'background', '#aaa')
-			]),
+		_List_Nil,
 		_List_fromArray(
 			[
 				A2(
@@ -5739,94 +5826,99 @@ var $author$project$Gakufu002$viewDetailedPdf = function (model) {
 						$elm$html$Html$Attributes$src(model.jpgUrl),
 						A2($elm$html$Html$Attributes$style, 'width', '100%')
 					]),
-				_List_Nil),
-				A2(
-				$elm$html$Html$div,
-				_List_fromArray(
-					[
-						A2($elm$html$Html$Attributes$style, 'padding-bottom', '10px')
-					]),
-				_List_fromArray(
-					[
-						A2(
-						$elm$html$Html$h2,
-						_List_fromArray(
-							[
-								A2($elm$html$Html$Attributes$style, 'font-size', '30px'),
-								A2($elm$html$Html$Attributes$style, 'font-weight', 'lighter'),
-								A2($elm$html$Html$Attributes$style, 'font-style', 'italic'),
-								A2($elm$html$Html$Attributes$style, 'margin', '0 0 10px 0')
-							]),
-						_List_fromArray(
-							[
-								$elm$html$Html$text(model.title)
-							]))
-					]))
+				_List_Nil)
 			]));
 };
-var $author$project$Gakufu002$view = function (model) {
-	return A2(
-		$elm$html$Html$div,
-		_List_Nil,
-		_List_fromArray(
-			[
-				A2(
-				$elm$html$Html$div,
-				_List_fromArray(
-					[
-						A2($elm$html$Html$Attributes$style, 'background-color', '#aaa'),
-						A2($elm$html$Html$Attributes$style, 'padding-bottom', '10px'),
-						A2($elm$html$Html$Attributes$style, 'padding-top', '10px'),
-						A2($elm$html$Html$Attributes$style, 'text-align', 'center')
-					]),
-				_List_fromArray(
-					[
-						A2(
-						$elm$html$Html$h1,
-						_List_Nil,
-						_List_fromArray(
-							[
-								$elm$html$Html$text('楽譜を歌おう'),
-								A2(
-								$elm$html$Html$button,
-								_List_fromArray(
-									[
-										$elm$html$Html$Events$onClick($author$project$Gakufu002$Submit)
-									]),
-								_List_fromArray(
-									[
-										$elm$html$Html$text('Random')
-									])),
-								A2(
-								$elm$html$Html$audio,
-								_List_fromArray(
-									[
-										$elm$html$Html$Attributes$src(model.mp3Url),
-										$elm$html$Html$Attributes$controls(true),
-										A2($elm$html$Html$Attributes$style, 'text-align', 'right')
-									]),
-								_List_Nil)
-							]))
-					])),
-				A2(
-				$elm$html$Html$div,
-				_List_fromArray(
-					[
-						A2($elm$html$Html$Attributes$style, 'margin', 'auto'),
-						A2($elm$html$Html$Attributes$style, 'width', '90%')
-					]),
-				_List_fromArray(
-					[
-						$author$project$Gakufu002$viewDetailedPdf(model)
-					]))
-			]));
+var $author$project$Gakufu005$view = function (model) {
+	var _v0 = model.dolist;
+	if (_v0) {
+		return A2(
+			$elm$html$Html$div,
+			_List_fromArray(
+				[
+					A2($elm$html$Html$Attributes$style, 'margin', 'auto'),
+					A2($elm$html$Html$Attributes$style, 'width', '800px')
+				]),
+			A2(
+				$elm$core$List$indexedMap,
+				F2(
+					function (index, music) {
+						return A2(
+							$elm$html$Html$div,
+							_List_Nil,
+							_List_fromArray(
+								[
+									$elm$html$Html$text(music.title),
+									A2(
+									$elm$html$Html$span,
+									_List_fromArray(
+										[
+											$elm$html$Html$Events$onClick(
+											$author$project$Gakufu005$ShowMusic(index))
+										]),
+									_List_fromArray(
+										[
+											A2(
+											$elm$html$Html$button,
+											_List_fromArray(
+												[
+													A2($elm$html$Html$Attributes$style, 'float', 'right')
+												]),
+											_List_fromArray(
+												[
+													$elm$html$Html$text('Show Music')
+												]))
+										]))
+								]));
+					}),
+				model.list));
+	} else {
+		return A2(
+			$elm$html$Html$div,
+			_List_Nil,
+			_List_fromArray(
+				[
+					A2(
+					$elm$html$Html$div,
+					_List_Nil,
+					_List_fromArray(
+						[
+							A2(
+							$elm$html$Html$h1,
+							_List_Nil,
+							_List_fromArray(
+								[
+									A2(
+									$elm$html$Html$audio,
+									_List_fromArray(
+										[
+											$elm$html$Html$Attributes$src(model.mp3Url),
+											$elm$html$Html$Attributes$controls(true),
+											A2($elm$html$Html$Attributes$style, 'float', 'right')
+										]),
+									_List_Nil)
+								]))
+						])),
+					A2(
+					$elm$html$Html$div,
+					_List_fromArray(
+						[
+							A2($elm$html$Html$Attributes$style, 'margin', 'auto'),
+							A2($elm$html$Html$Attributes$style, 'width', '90%')
+						]),
+					_List_fromArray(
+						[
+							$author$project$Gakufu005$viewDetailedPdf(model)
+						]))
+				]));
+	}
 };
-var $author$project$Gakufu002$main = $elm$browser$Browser$element(
-	{init: $author$project$Gakufu002$init, subscriptions: $author$project$Gakufu002$subscriptions, update: $author$project$Gakufu002$update, view: $author$project$Gakufu002$view});
-_Platform_export({'Gakufu002':{'init':$author$project$Gakufu002$main(
+var $author$project$Gakufu005$main = $elm$browser$Browser$element(
+	{init: $author$project$Gakufu005$init, subscriptions: $author$project$Gakufu005$subscriptions, update: $author$project$Gakufu005$update, view: $author$project$Gakufu005$view});
+_Platform_export({'Gakufu005':{'init':$author$project$Gakufu005$main(
 	$elm$json$Json$Decode$succeed(_Utils_Tuple0))(0)}});}(this));
 
-  var app = Elm.Gakufu002.init({ node: document.getElementById("elm") });
+  var app = Elm.Gakufu005.init({ node: document.getElementById("elm") });
 }
 catch (e)
 {
