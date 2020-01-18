@@ -1,15 +1,9 @@
-module Gakufu004 exposing (main)
+module Gakufu005 exposing (main)
 
 -- Achieved random list of music => Gakufu004.elm
 -- next project is attach a button to show music sheet
 -- Todo002.elm will work as reference
 --
--- Idea is:
--- when open there is a list of music random
--- they are really buttons
--- when clicked there will be a music sheet and play button
--- in parallel im makinng leadsheets but forget them now
--- make this with current files
 
 import Browser
 import Html exposing (..)
@@ -58,6 +52,7 @@ type Msg
     | NewRandom Int
     | Shuffle
     | NewList (List Musicdata)
+    | ShowMusic Int
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -69,7 +64,7 @@ update msg model =
             )
 
         NewRandom n ->
-            case List.drop (n - 1) dict of
+            case List.drop n dict of
                 x :: _ ->
                     ( { model
                         | jpgUrl = x.jpgUrl
@@ -96,6 +91,24 @@ update msg model =
             , Cmd.none
             )
 
+        ShowMusic index ->
+            case List.drop index model.list of
+                x :: _ ->
+                    ( { model
+                        | jpgUrl = x.jpgUrl
+                        , mp3Url = x.mp3Url
+                        , title = x.title
+                        , filename = x.filename
+                        , dolist = False
+                      }
+                    , Cmd.none
+                    )
+
+                [] ->
+                    ( model
+                    , Cmd.none
+                    )
+
 
 subscriptions : Model -> Sub Msg
 subscriptions model =
@@ -111,45 +124,37 @@ viewDetailedPdf model =
             , HA.style "width" "100%"
             ]
             []
-        , div
-            [ HA.style "padding-bottom" "10px"
-            ]
-            [ h2
-                [ HA.style "font-size" "30px"
-                , HA.style "font-weight" "lighter"
-                , HA.style "font-style" "italic"
-                , HA.style "margin" "0 0 10px 0"
-                ]
-                [ Html.text model.title ]
-            ]
         ]
-
-
-viewTitle music =
-    div [] [ text music.title ]
 
 
 view : Model -> Html Msg
 view model =
     case model.dolist of
         True ->
-            div []
-                (List.map viewTitle model.list)
+            div
+                [ HA.style "margin" "auto"
+                , HA.style "width" "800px"
+                ]
+                (List.indexedMap
+                    (\index music ->
+                        div []
+                            [ text music.title
+                            , span [ HE.onClick (ShowMusic index) ]
+                                [ button [ HA.style "float" "right" ] [ text "Show Music" ] ]
+                            ]
+                    )
+                    model.list
+                )
 
         False ->
             div []
                 [ div
-                    [ HA.style "background-color" "#aaa"
-                    , HA.style "padding-bottom" "10px"
-                    , HA.style "padding-top" "10px"
-                    , HA.style "text-align" "center"
-                    ]
+                    []
                     [ h1 []
-                        [ button [ HE.onClick Submit ] [ text "Random" ]
-                        , audio
+                        [ audio
                             [ HA.src model.mp3Url
                             , HA.controls True
-                            , HA.style "text-align" "right"
+                            , HA.style "float" "right"
                             ]
                             []
                         ]
@@ -436,11 +441,6 @@ dict =
       , title = "ドレミの歌(どはどーなつのど)"
       , filename = "doreminouta_crop.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1GVv_r_eSmVHEJj6taKeADSWvF9yZ2z0Z"
-      , mp3Url = "https://drive.google.com/uc?id=1k1a_-yvWssztDePXzVzWAm-N5Zzt_tdE"
-      , title = "チューリップ(さいたさいたちゅーりっぷのはなが)"
-      , filename = "tulip_crop.pdf"
-      }
     , { jpgUrl = "https://drive.google.com/uc?id=1Rj5vA2sE-XqwPHlLHsnLYhLnXXqj9fiN"
       , mp3Url = "https://drive.google.com/uc?id=1nNbubE84_wM-BO4l3C6OQgbBqbcBFY8E"
       , title = "案山子(やまだのなかのいっぽんあしの)"
@@ -675,11 +675,6 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1ULAQpP62VcW3oGR4LcZzgS-7-yutIsVk"
       , title = "春よ、来い(松任谷由美。あわきひたりたつにわかあめ)"
       , filename = "haruyokoimatsutoya_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1KTzuK4ZuQVwaK95Ca9w3x6IgTMKNf5ty"
-      , mp3Url = "https://drive.google.com/uc?id=1pbUzmGLfj5n23CEx9OanXdy4NUhZ7XCZ"
-      , title = "たこのうた(たこたこあがれ)"
-      , filename = "takotako_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=167ShNKUA5n2FmUB5k5IhMu02XRZvmuJY"
       , mp3Url = "https://drive.google.com/uc?id=1_XRfq3pQyshxhjGk4jnxGEGp3XNzj-tz"
@@ -1166,11 +1161,6 @@ dict =
       , title = "お正月(もういくつねるとおしょうがつ)"
       , filename = "oshogatsu_crop.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1MwBxk_OcRIEi0c1rcU872bDzc3nRmdWq"
-      , mp3Url = "https://drive.google.com/uc?id=16WJ8vbWNWXSGHYlPXtk7aY3jYSvC2mgN"
-      , title = "手をたたきましょう"
-      , filename = "tewotata_crop.pdf"
-      }
     , { jpgUrl = "https://drive.google.com/uc?id=1dtrqgTM1a_FuGcRS7pCQ45m6tpK2XG4j"
       , mp3Url = "https://drive.google.com/uc?id=1C-FH8z0sjNk34NK_CwG5YmtJ50ngkAfg"
       , title = "凱旋行進曲(ヴェルディ。アイーダ)"
@@ -1210,11 +1200,6 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1jOdhUTybguaIK2O-25NrD7bxqkClKIII"
       , title = "チム・チム・チェリー(ちむちむにーちむちむにー)"
       , filename = "chimchimcheree_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1c6kRVplJk3XW8MLoFBXBKrdDc8StaH_O"
-      , mp3Url = "https://drive.google.com/uc?id=1Q2KNpLnyiMMWMG5QYKP7adXXGKr0URZu"
-      , title = "鉄腕アトム(そらをこえてららら)"
-      , filename = "tetsuwan_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1JYXpUnLFgTyht62TFMCq-JePJJEPSWCS"
       , mp3Url = "https://drive.google.com/uc?id=1XpVxzqAUwjglsqW_3s-_b1gn4LL_pPss"
@@ -1435,5 +1420,35 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1SWixMVXncKkpZXORY3qqnu0mb0_I29Wq"
       , title = "喜びの歌(はれたるあおぞらただようくもよ)"
       , filename = "yorokobi_crop.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1rK9xSFpnZ-mVz4BFCVAe4VQUdZacoYcb"
+      , mp3Url = "https://drive.google.com/uc?id=1pbUzmGLfj5n23CEx9OanXdy4NUhZ7XCZ"
+      , title = "たこのうた(たこたこあがれ)"
+      , filename = "takotako.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1vHoatud8GL2tGaGFbuz-fc5FySfZ-uyI"
+      , mp3Url = "https://drive.google.com/uc?id=1k1a_-yvWssztDePXzVzWAm-N5Zzt_tdE"
+      , title = "チューリップ(さいたさいたちゅーりっぷのはなが)"
+      , filename = "tulip.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1Q2KNpLnyiMMWMG5QYKP7adXXGKr0URZu"
+      , mp3Url = "https://drive.google.com/uc?id=1jlRhWy7kdIhergO6-cjnb6Th-Uyt-2Fz"
+      , title = "鉄腕アトム(そらをこえてららら)"
+      , filename = "tetsuwan.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1hzFWYgZcfAnCkl4EYAOAdAsaP2lnghAS"
+      , mp3Url = "https://drive.google.com/uc?id=16WJ8vbWNWXSGHYlPXtk7aY3jYSvC2mgN"
+      , title = "手をたたきましょう"
+      , filename = "tewotata.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1j4Xq9iU_IS4o6RLZIn8EuPlEXG6D1qEW"
+      , mp3Url = "https://drive.google.com/uc?id=1XpNvTdHJxoY6kpauEdobLfrtmnhZhuP4"
+      , title = "たなばたさま"
+      , filename = "tanabatasama.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1LHP_RpWF-hSWb4IUMIXTfuiETn1gtqBo"
+      , mp3Url = "https://drive.google.com/uc?id=1X3nfZgOn2rnD-BzTDo60O-mHoPNS7L7D"
+      , title = "つき(でたでたつきが)"
+      , filename = "tanabatasama.pdf"
       }
     ]

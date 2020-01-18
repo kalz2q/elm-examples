@@ -25,7 +25,8 @@ type alias Model =
 init : () -> ( Model, Cmd Msg )
 init _ =
     ( Model []
-    , Cmd.none
+    , Random.generate NewList
+        (shuffle listString)
     )
 
 
