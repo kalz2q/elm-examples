@@ -737,11 +737,6 @@ dict =
       , title = "世界に一つだけの花(はなやのみせさきにならんだ)"
       , filename = "sekainihitotsu_crop.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1qFdcFYN-AHj-Jmxw2us-ABes5N-5jkvs"
-      , mp3Url = "https://drive.google.com/uc?id=1GW5ROHCU-UgY1VUNF6hOsNxSFIBBl5Ez"
-      , title = "故郷を離るる歌(そののさゆりなでしこかきねのちぐさ)"
-      , filename = "kokyowohanaruru_crop.pdf"
-      }
 
     , { jpgUrl = "https://drive.google.com/uc?id=14rSEr5sGqWguJVfCjOqUN3niHthbww0s"
       , mp3Url = "https://drive.google.com/uc?id=187rB_4IbKxlySnLWvOLKotNwPCLlfc_t"
@@ -1052,11 +1047,6 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1BnK43j7Izorjld6wfR_KjOKUxx2GS0I_"
       , title = "ベートーベンのトルコ行進曲"
       , filename = "turkbeethoven_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=12Z7My_DRWapZeYdtAb2bto5MLsutnW6k"
-      , mp3Url = "https://drive.google.com/uc?id=1sFTI-Rj04SqB0NHU-XYmJawAeM0JzV5m"
-      , title = "げんこつやまのたぬきさん"
-      , filename = "genkotsu_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1gmwB1G5HWfg7DgqDNz2UA_0Zi7GM_rgo"
       , mp3Url = "https://drive.google.com/uc?id=1s4xdrVVv9DIDyrts8qY85efbWuq0Yu12"
@@ -1474,7 +1464,21 @@ dict =
       , title = "あわてんぼうのサンタクロース(クリスマス)"
       , filename = "awatenbo.pdf"
       }
-
+    , { jpgUrl = "https://drive.google.com/uc?id=13MeHhukH6xGmoKamFD4S83lt_3jDQGV0"
+      , mp3Url = "https://drive.google.com/uc?id=1GW5ROHCU-UgY1VUNF6hOsNxSFIBBl5Ez"
+      , title = "故郷を離るる歌(そののさゆりなでしこかきねのちぐさ)"
+      , filename = "kokyowohanaruru_crop.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1PdO8UWaf4jVljLpuAy8aOEUwmBKQa-h5"
+      , mp3Url = "https://drive.google.com/uc?id=1hYS0PSgCJPO-v_3KQZrSCqnUYO9_6NCO"
+      , title = "高校三年生(あかいゆうひがこうしゃをそめて)"
+      , filename = "kokosannensei.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1NTRw5ZV5sabMKj3_HwIafJSg_6UbFj9a"
+      , mp3Url = "https://drive.google.com/uc?id=1sFTI-Rj04SqB0NHU-XYmJawAeM0JzV5m"
+      , title = "げんこつやまのたぬきさん"
+      , filename = "genkotsu_crop.pdf"
+      }
     ]
       --, { jpgUrl = ""
       --  , mp3Url = ""
