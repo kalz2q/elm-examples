@@ -3,7 +3,7 @@ module Dotinstall002 exposing (main)
 -- Dotinstall001でsvg画像を配置した。
 -- testing pre and code and multi-line string
 -- ellie-app.comで使うstyleをどうコメントで書くか
---
+-- pre [] [text fulltext]
 --
 
 import Browser
@@ -91,16 +91,28 @@ view model =
         """
             ]
         , pre []
-            [ code []
-                [ text
-                    """
-        this si useful for holding json or other
-        printf
-        content that has !u"uqaotation" amrks
-        """
-                ]
+            [ text fulltext
             ]
+        , pre [] [ code [] [ text fulltext ] ]
+        , pre [] [ text fulltext2 ]
         ]
+
+
+fulltext =
+    """
+this si useful for hold"ing jso&gt;n or other<p>
+content that has !u"uqaotation" amrks
+"""
+
+
+fulltext2 =
+    """
+&lt;p&gt;
+  いますぐに&lt;br&gt;
+  はじめてみよう&lt;br&gt;
+  HTML
+&lt;/p&gt;
+"""
 
 
 pinkheart =
