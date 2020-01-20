@@ -353,11 +353,6 @@ dict =
       , title = "燦めく星座(おとこじゅんじょうのあいのほしのいろ)"
       , filename = "kirameku_crop.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1Mk3bjG4Ovg71peIc8u9j9Ixf_Yxm6y_-"
-      , mp3Url = "https://drive.google.com/uc?id=1tYmZ2sVI5HI5gKl2tUCE6dpizNWjAmLr"
-      , title = "トンコ節(あなたのくれたおびどめの)"
-      , filename = "tonkobushi_crop.pdf"
-      }
     , { jpgUrl = "https://drive.google.com/uc?id=12WHCh3bSgfcROcH5vhs3-rLOEiwXFQj1"
       , mp3Url = "https://drive.google.com/uc?id=1-DNvDUoLpfrMbM4KriXxiOfzHtU7ABam"
       , title = "宵待草(まてどくらせどこぬひとを)"
@@ -1490,6 +1485,16 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=12DqY7QpcHmTPmOKR9e2qisWw3nXj3bDW"
       , title = "ないしょ話(ないしょないしょないしょのはなしはあのねのね)"
       , filename = "naishobanashi_crop.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1ZlUnwrNg5XUOAxY1nVaCJy_m7O7lUfw3"
+      , mp3Url = "https://drive.google.com/uc?id=1lvvuDcLxS-woaFsoTwnyOeAkuWuk7uMU"
+      , title = "とんび(とべとべとんびそらたかく)"
+      , filename = "tonbi.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1MsTYw8MLXZiL2SfhofjIsqdbSoA5auqr"
+      , mp3Url = "https://drive.google.com/uc?id=1tYmZ2sVI5HI5gKl2tUCE6dpizNWjAmLr"
+      , title = "トンコ節(あなたのくれたおびどめの)"
+      , filename = "tonkobushi.pdf"
       }
 
 
