@@ -1496,11 +1496,32 @@ dict =
       , title = "トンコ節(あなたのくれたおびどめの)"
       , filename = "tonkobushi.pdf"
       }
+    , { jpgUrl = "https://drive.google.com/uc?id=16LQGzN4BDgm-Txa6RGtLbRCHietXqx1y"
+      , mp3Url = "https://drive.google.com/uc?id=1XSW09EYOEjffm-PCVPSCzQznw6GqNE2B"
+      , title = "隣組(とんとんとんからりととなりぐみ)"
+      , filename = "tonarigumi.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1hT4qCwQ9Xmvb4jrjLkw61TkxjhAPTGN_"
+      , mp3Url = "https://drive.google.com/uc?id=1Jl1RsrTooii0sgx4_rTzpMmgI1UiKFrF"
+      , title = "どこかで春が"
+      , filename = "dokokadeharuga.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1UkjEGNtTjuY-U0UdsZE5W8Ac84GJfZo2"
+      , mp3Url = "https://drive.google.com/uc?id=1DusYJosZSNMid1R6RRXHXzBPHi0nGWBW"
+      , title = "通りゃんせ"
+      , filename = "toryanse.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1xrFn9jbVin6nG05-5wR8VBNoBCaQO2xp"
+      , mp3Url = "https://drive.google.com/uc?id=1seVQLSfi-ujiWpBW2_dAxNALtGRVCmr0"
+      , title = "天国に結ぶ恋(こよいなごりのみかづきも)"
+      , filename = "tengokunimusubukoi.pdf"
+      }
+
 
 
     ]
-      --, { jpgUrl = ""
-      --  , mp3Url = ""
-      --  , title = ""
-      --  , filename = ".pdf"
-      --  }
+    -- , { jpgUrl = ""
+    --   , mp3Url = ""
+    --   , title = ""
+    --   , filename = ".pdf"
+    --   }
