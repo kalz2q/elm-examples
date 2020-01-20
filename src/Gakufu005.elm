@@ -137,10 +137,12 @@ view model =
                 ]
                 (List.indexedMap
                     (\index music ->
-                        div []
+                        p []
                             [ text music.title
-                            , span [ HE.onClick (ShowMusic index) ]
-                                [ button [ HA.style "float" "right" ] [ text "Show Music" ] ]
+                            , button [ HE.onClick (ShowMusic index) 
+                                     , HA.style "float" "right"
+                                     ]
+                                     [ text "Show Music" ] 
                             ]
                     )
                     model.list
@@ -216,11 +218,6 @@ dict =
       , title = "村の鍛冶屋(しばしもやすまずつちうつひびき)"
       , filename = "muranokajiya_crop.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1LA2tJNHcDnLULcFeZlgrebxIfpBRldoc"
-      , mp3Url = "https://drive.google.com/uc?id=12DqY7QpcHmTPmOKR9e2qisWw3nXj3bDW"
-      , title = "ないしょ話(ないしょないしょないしょのはなしはあのねのね)"
-      , filename = "naishobanashi_crop.pdf"
-      }
     , { jpgUrl = "https://drive.google.com/uc?id=173YBD3K4i38Jwp86tITt8HLP6meH95EF"
       , mp3Url = "https://drive.google.com/uc?id=1I67md4E3xmihAW4NUtkpxMSBhuFFiwSj"
       , title = "啼くな小鳩よ(なくなこばとよこころのつまよ)"
@@ -255,11 +252,6 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1W3TCfx2EcpHzwAZoTjEx8-Pd_9VUg7BO"
       , title = "霞か雲か(かすみかくもか)"
       , filename = "kasumikakumoka_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1DlCptEvaC8hgi2PQ4x8WMDClzqhgQ_Ya"
-      , mp3Url = "https://drive.google.com/uc?id=1K4TQFXgt53K93O0hQARD4Ness4BKWMQL"
-      , title = "青い背広で(あおいせびろでこころもかるく)"
-      , filename = "aoisebirode_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1rjPPTolAs6n9WqmR99YH0ZRqhWxKbxD8"
       , mp3Url = "https://drive.google.com/uc?id=1htBCrCocgK3yEJUEMIcuiPw80Y0vj6NJ"
@@ -350,11 +342,6 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1ATE2aqVZfk_p9MdqjlLsmVY-g73aa-y8"
       , title = "ああモンテンルパの夜は更けて(モンテンルパの夜は更けて。Muntinlupa, フィリピン)"
       , filename = "muntinlupa_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1HCKDyKe26zXilVRcnlHUxH_-tpljznqh"
-      , mp3Url = "https://drive.google.com/uc?id=12szTF4rbz_95LXqq_MnipIe4mHH_95OI"
-      , title = "ああそれなのに(そらにゃきょうもあどばるん)"
-      , filename = "aasorenanoni_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1TyXh_lLKgQBWLw_6d1Bpj1qChC_Fmii1"
       , mp3Url = "https://drive.google.com/uc?id=1bQ9x8vhGDTvSKQlJOfMHB-fSleB6aEGa"
@@ -1479,6 +1466,33 @@ dict =
       , title = "げんこつやまのたぬきさん"
       , filename = "genkotsu_crop.pdf"
       }
+    , { jpgUrl = "https://drive.google.com/uc?id=1ZJw9F-jWm0w_JNT4FFaeCsFB75Zgzv0G"
+      , mp3Url = "https://drive.google.com/uc?id=12szTF4rbz_95LXqq_MnipIe4mHH_95OI"
+      , title = "ああそれなのに(そらにゃきょうもあどばるん)"
+      , filename = "aasorenanoni.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1JYPnxgIPN_bxlCZDiyytkP_r3880bvrD"
+      , mp3Url = "https://drive.google.com/uc?id=1K4TQFXgt53K93O0hQARD4Ness4BKWMQL"
+      , title = "青い背広で(あおいせびろでこころもかるく)"
+      , filename = "aoisebirode_crop.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1pQzWz4mfkxYAiQxflPuNCsPJ510zQp07"
+      , mp3Url = "https://drive.google.com/uc?id=1CxVD87Z8zOzDIoahhuYZgKulypMvt8yq"
+      , title = "長崎の鐘(こよなくはれたあおぞらをかなしとおもうせつなさよ)"
+      , filename = "nagasakinokane.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1U66InKL9npmROU8XUlVTYmJKhuZp3B4q"
+      , mp3Url = "https://drive.google.com/uc?id=12TdhLx5SrVq0J2tdkNvbuv6Otf67tevE"
+      , title = "長崎物語(あかいはなならまんじゅしゃげ)"
+      , filename = "nagasakimonogatari.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1awuxwfziK58bbfoZENpV0AdGs9k9WYjj"
+      , mp3Url = "https://drive.google.com/uc?id=12DqY7QpcHmTPmOKR9e2qisWw3nXj3bDW"
+      , title = "ないしょ話(ないしょないしょないしょのはなしはあのねのね)"
+      , filename = "naishobanashi_crop.pdf"
+      }
+
+
     ]
       --, { jpgUrl = ""
       --  , mp3Url = ""
