@@ -198,15 +198,10 @@ dict =
       , title = "水戸黄門(じんせいらくありゃくもあるさ)"
       , filename = "mitokomon_crop.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1yYAaH3a9SZ2FdkRWXIeCqc6G3u9_awL2"
-      , mp3Url = "https://drive.google.com/uc?id=10DniZHZ3-IPLTOgZwIpBZr5B1P78ApPY"
-      , title = "湯の町エレジー(いずのやまやまつきあわく)"
-      , filename = "yunomachieleby_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1aDQQwqhKEd7Pp119WgththIX5xCReZJA"
+    , { jpgUrl = "https://drive.google.com/uc?id=1N7v9vUBjneGOBkYCld1loJLpJm-4Tvy7"
       , mp3Url = "https://drive.google.com/uc?id=1EYX9vEimFxmheBcfSW6yYeKeWn3wr7tF"
       , title = "別れ船(なごりつきないはてしない)"
-      , filename = "wakarebune_crop.pdf"
+      , filename = "wakarebune.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1EVnM-OK2qhU9_dfhzo1duk-pkFc7xq4U"
       , mp3Url = "https://drive.google.com/uc?id=1ukG2ddTIjNxixk3wFcxuHa6LoaERkOZ9"
@@ -1355,11 +1350,6 @@ dict =
       , title = "うさぎ(うさぎうさぎなにみてはねる)"
       , filename = "usagi_crop.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1yE48RQK4u9wLTDE8CEGY0fZZntwCprYR"
-      , mp3Url = "https://drive.google.com/uc?id=1N-RXZ3mlKd-ZjijXqPTNfC6wn3ugLN_e"
-      , title = "われは海の子(われはうみのこしらなみの)"
-      , filename = "warewaumi_crop.pdf"
-      }
     , { jpgUrl = "https://drive.google.com/uc?id=1N2yp-2PXoRn4UMWb1A4spC8Te_o-nKbn"
       , mp3Url = "https://drive.google.com/uc?id=1yvuyD1w5J-wQieCt_t5T9zNVfgR0fYQJ"
       , title = "椰子の実(やしのみ。なもしらぬとおきしまより)"
@@ -1374,11 +1364,6 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=17lJ_XLyiXrrQfcEgrWm06YSuT9QCEPFt"
       , title = "勇気100パーセント(がっかりしてめそめそしてどうしたんだい)"
       , filename = "yuki100p_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1U3DMP2e99qqOFxyW6ayg04ehnXf5UjwS"
-      , mp3Url = "https://drive.google.com/uc?id=1SWixMVXncKkpZXORY3qqnu0mb0_I29Wq"
-      , title = "喜びの歌(はれたるあおぞらただようくもよ)"
-      , filename = "yorokobi_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1rK9xSFpnZ-mVz4BFCVAe4VQUdZacoYcb"
       , mp3Url = "https://drive.google.com/uc?id=1pbUzmGLfj5n23CEx9OanXdy4NUhZ7XCZ"
@@ -1516,7 +1501,31 @@ dict =
       , title = "天国に結ぶ恋(こよいなごりのみかづきも)"
       , filename = "tengokunimusubukoi.pdf"
       }
-
+    , { jpgUrl = "https://drive.google.com/uc?id=1C5BHdxtJgBx3D3rw6LQxDv6ih6Z5KcYt"
+      , mp3Url = "https://drive.google.com/uc?id=1N-RXZ3mlKd-ZjijXqPTNfC6wn3ugLN_e"
+      , title = "われは海の子(われはうみのこしらなみの)"
+      , filename = "warewaumi.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1E3Ll7wE3YQ8S_Wqj5H-fh1NoxpJV_fZ2"
+      , mp3Url = "https://drive.google.com/uc?id=1SWixMVXncKkpZXORY3qqnu0mb0_I29Wq"
+      , title = "喜びの歌(はれたるあおぞらただようくもよ)"
+      , filename = "yorokobi.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1pujCfxMZVMaYkZAz_4SlqEQLDQzNLWwY"
+      , mp3Url = "https://drive.google.com/uc?id=1Cb04QLvT3UvuhX8MhABmyNAIZ7Vp_nD2"
+      , title = "夢路より(ゆめじよりかえりてほしのひかりあおげや)"
+      , filename = "yumejiyori.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1pHUnNWGV5wjBc4jmfCQmga5hZNmdlxcr"
+      , mp3Url = "https://drive.google.com/uc?id=10DniZHZ3-IPLTOgZwIpBZr5B1P78ApPY"
+      , title = "湯の町エレジー(いずのやまやまつきあわく)"
+      , filename = "yunomachieleby.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1qVX7IPcTVTOrnNrKEf90ZeMAKq0b9MaZ"
+      , mp3Url = "https://drive.google.com/uc?id=19GeCGxKLE6evrE0z0YLyK3o0zQK1A0iC"
+      , title = "雪山讃歌(ゆきよいわよわれらがやどり)"
+      , filename = "yukiyamasanka.pdf"
+      }
 
 
     ]
