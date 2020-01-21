@@ -810,11 +810,6 @@ dict =
       , title = "同期の桜(きさまとおれとは)"
       , filename = "doukinosakura_crop.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1uSD-2V5Iing4DAIfqIcObBy9GdP91D8H"
-      , mp3Url = "https://drive.google.com/uc?id=1M8VV8Z-TiMJ7dp1vbzxH28f488ghabs1"
-      , title = "東京音頭(とうきょうおんど。はあーおどりおどるならちょいと)"
-      , filename = "tokyoondo_crop.pdf"
-      }
     , { jpgUrl = "https://drive.google.com/uc?id=1S4i8guOwAti_55LgtJ09StN8uT15G6DQ"
       , mp3Url = "https://drive.google.com/uc?id=1eH-C9NqTNGKY9coURlKNMJdCMUP9U7H1"
       , title = "ジムノペディ1番(サティ)"
@@ -1526,8 +1521,18 @@ dict =
       , title = "雪山讃歌(ゆきよいわよわれらがやどり)"
       , filename = "yukiyamasanka.pdf"
       }
+    , { jpgUrl = "https://drive.google.com/uc?id=183GpC0-bxi3hqEuITo5DvZDjzIIl4WzN"
+      , mp3Url = "https://drive.google.com/uc?id=1cYBC8QH3h_4Mg7lVlbZADiLQX374oCuU"
+      , title = "夕日(ぎんぎんぎらぎらゆうひがしずむ)"
+      , filename = "yuhi.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1WEKzSiq-UNkRsxVRxe5x7x_L9bSPZ7N5"
+      , mp3Url = "https://drive.google.com/uc?id=1M8VV8Z-TiMJ7dp1vbzxH28f488ghabs1"
+      , title = "東京音頭(とうきょうおんど。はあーおどりおどるならちょいと)"
+      , filename = "tokyoondo.pdf"
 
 
+      }
     ]
     -- , { jpgUrl = ""
     --   , mp3Url = ""
