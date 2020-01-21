@@ -1530,9 +1530,25 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1M8VV8Z-TiMJ7dp1vbzxH28f488ghabs1"
       , title = "東京音頭(とうきょうおんど。はあーおどりおどるならちょいと)"
       , filename = "tokyoondo.pdf"
-
-
       }
+    , { jpgUrl = "https://drive.google.com/uc?id=1Qa-4hVWdLYZz_2LM40ej8iLj5gQrRkc2"
+      , mp3Url = "https://drive.google.com/uc?id=18DUNRRaJNYLqn5_kiPC4S5V_25uYMcdO"
+      , title = "ローレライ(なじかはしらねどこころわびて)"
+      , filename = "lorelei.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1S_KO2NsVQnUtwykXph6T5-LBKrbUfz6Q"
+      , mp3Url = "https://drive.google.com/uc?id=1wnsrGB4hpE1lrxJgtpGve6lQVy6osVZm"
+      , title = "露営の歌(かってくるぞといさましく)"
+      , filename = "roeinouta.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1MeMTWmbSMO59jgPDmNNPzSuIYnGptIBW"
+      , mp3Url = "https://drive.google.com/uc?id=1ty_VQhVCQMT1b0EF_CenqsEPT0ZLWNXG"
+      , title = "リンゴのひとりごと(わたしはまっかなりんごです)"
+      , filename = "ringonohitorigoto.pdf"
+      }
+
+
+
     ]
     -- , { jpgUrl = ""
     --   , mp3Url = ""
