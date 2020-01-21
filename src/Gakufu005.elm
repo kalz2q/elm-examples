@@ -1546,8 +1546,16 @@ dict =
       , title = "リンゴのひとりごと(わたしはまっかなりんごです)"
       , filename = "ringonohitorigoto.pdf"
       }
-
-
+    , { jpgUrl = "https://drive.google.com/uc?id=1hfAydttdTrvhwG9hzAPtsetwWJlFzT5R"
+      , mp3Url = "https://drive.google.com/uc?id=1tJjKuEk2qGQcCdnEvanI7ZKC85SB-tc4"
+      , title = "リンゴの歌(あかいりんごにくちびるよせて)"
+      , filename = "ringonouta.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1KO1lpvy2FdbZbUDjpXlby2tAXaeLBMmt"
+      , mp3Url = "https://drive.google.com/uc?id=1BRU-xzQU5tjz41rWMpcKYF1gzFrIBv6r"
+      , title = "旅愁(ふけゆくあきのよたびのそらの)"
+      , filename = "ryoshu.pdf"
+      }
 
     ]
     -- , { jpgUrl = ""
