@@ -137,10 +137,9 @@ view model =
                 ]
                 (List.indexedMap
                     (\index music ->
-                        p []
+                        p [HE.onClick (ShowMusic index) ]
                             [ text music.title
-                            , button [ HE.onClick (ShowMusic index) 
-                                     , HA.style "float" "right"
+                            , button [ HA.style "float" "right"
                                      ]
                                      [ text "Show Music" ] 
                             ]
