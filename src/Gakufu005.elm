@@ -208,11 +208,6 @@ dict =
       , title = "水色のワルツ(きみにあううれしさの)"
       , filename = "mizuironowaltz_crop.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=13qvBdUW2hUmj8K8YQq3NYGplrIQEz1-8"
-      , mp3Url = "https://drive.google.com/uc?id=1HpWU1ALfTSgFY-j6L6q5UbK2fU7Lqs0v"
-      , title = "村の鍛冶屋(しばしもやすまずつちうつひびき)"
-      , filename = "muranokajiya_crop.pdf"
-      }
     , { jpgUrl = "https://drive.google.com/uc?id=173YBD3K4i38Jwp86tITt8HLP6meH95EF"
       , mp3Url = "https://drive.google.com/uc?id=1I67md4E3xmihAW4NUtkpxMSBhuFFiwSj"
       , title = "啼くな小鳩よ(なくなこばとよこころのつまよ)"
@@ -1555,6 +1550,26 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1BRU-xzQU5tjz41rWMpcKYF1gzFrIBv6r"
       , title = "旅愁(ふけゆくあきのよたびのそらの)"
       , filename = "ryoshu.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=16tauHVEefEK8Jqbc-g1A-lkWB1hsLyQF"
+      , mp3Url = "https://drive.google.com/uc?id=1FygfukFnx8hG7pC21c_-s7DILxSJJlkm"
+      , title = "柔(かつとおもうなおもえばまけよ)"
+      , filename = "yawara.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1UZbd4XAhTD5DWrT_LpMNasXX3iZRXYcy"
+      , mp3Url = "https://drive.google.com/uc?id=1Abq4PrC_o7O5t7s_r9npCENWXOlEEBHO"
+      , title = "森の水車(みどりのもりのかなたから)"
+      , filename = "morinosuisha.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1-WJ1AN-4PyTAt6q5mlWuSsgq1venZJwh"
+      , mp3Url = "https://drive.google.com/uc?id=1ZwAdHJKCD98e9XvLCP7LtTYCa5cfSvRq"
+      , title = "桃太郎(ももたろさんももたろさんおこしにつけたきびだんご)"
+      , filename = "momotaro.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=13QuxkMVg1gDLKGGRMHJ4z-cvBWLeVU0g"
+      , mp3Url = "https://drive.google.com/uc?id=1HpWU1ALfTSgFY-j6L6q5UbK2fU7Lqs0v"
+      , title = "村の鍛冶屋(しばしもやすまずつちうつひびき)"
+      , filename = "muranokajiya.pdf"
       }
 
     ]
