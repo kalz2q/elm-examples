@@ -623,11 +623,6 @@ dict =
       , title = "ポリリズム(Perfume とてもだいじなきみのおもいは)"
       , filename = "polyrhythm_crop.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1GKtBpaVp0cOQqDqNONUJbHu8zyw-x-LL"
-      , mp3Url = "https://drive.google.com/uc?id=1mXIa3E4212g41CWLdoveCZ7yhMc8i_UM"
-      , title = "あの町この町(あのまちこのまちひがくれる)"
-      , filename = "anomachi_crop.pdf"
-      }
     , { jpgUrl = "https://drive.google.com/uc?id=1VUL2KCXmQe8bgEXxjLDTPnT_FpX3tzPn"
       , mp3Url = "https://drive.google.com/uc?id=1GJMpEGadPsX0RXVdRRy89_kv_GGv-NDq"
       , title = "船頭さん(むらのわたしのせんどさんは)"
@@ -1204,11 +1199,6 @@ dict =
       , title = "虫の声(あれまつむしがないている)"
       , filename = "mushinokoe_crop.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1Zt--O6-Ao2NZgl-FIpBKbEbsmlAG8r5X"
-      , mp3Url = "https://drive.google.com/uc?id=1oui6DyXrqYWAMrvSL1SeHXVTEsP_s8OZ"
-      , title = "むすんでひらいて(むすんでひらいててをうってむすんで)"
-      , filename = "musunde_crop.pdf"
-      }
     , { jpgUrl = "https://drive.google.com/uc?id=1NfvPvMy2blRpQlZz2BZWS7B6411ZjgqX"
       , mp3Url = "https://drive.google.com/uc?id=1vCqmeM_3oHcPXc0TfcsbVKzGogqAPSQy"
       , title = "南国土佐を後にして(なんごくとさをあとにして)"
@@ -1293,11 +1283,6 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1ZYZMk6TYeIA1XR75jObU7ezwTVAbKh85"
       , title = "あの子はたあれ(あのこはたあれたれでしょね)"
       , filename = "anokowatare_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1LQ9xRLWzMqu47lCE6pjAaNX-2JVtOwWj"
-      , mp3Url = "https://drive.google.com/uc?id=1wXhWbAbGfd0UxSKPcZa87-bM-lt-bUga"
-      , title = "仰げば尊し(あおげばとうとしわがしのおん)"
-      , filename = "aogeba_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1tI9xdaJrcDLgwNrdtNZdZ_defitufjqW"
       , mp3Url = "https://drive.google.com/uc?id=1GsuY-qyz2LdWBYf9BCdEh0hXLefNPCmz"
@@ -1570,6 +1555,23 @@ dict =
       , title = "村の鍛冶屋(しばしもやすまずつちうつひびき)"
       , filename = "muranokajiya.pdf"
       }
+    , { jpgUrl = "https://drive.google.com/uc?id=1QD03rIqSg_7TY_NXX0GdmfLUYD7ZgwKo"
+      , mp3Url = "https://drive.google.com/uc?id=1oui6DyXrqYWAMrvSL1SeHXVTEsP_s8OZ"
+      , title = "むすんでひらいて(むすんでひらいててをうってむすんで)"
+      , filename = "musunde.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1RfceWQRNBrLtbUQ1fmRimF1Y0vz1lSiD"
+      , mp3Url = "https://drive.google.com/uc?id=1wXhWbAbGfd0UxSKPcZa87-bM-lt-bUga"
+      , title = "仰げば尊し(あおげばとうとしわがしのおん)"
+      , filename = "aogeba.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1GKtBpaVp0cOQqDqNONUJbHu8zyw-x-LL"
+      , mp3Url = "https://drive.google.com/uc?id=1mXIa3E4212g41CWLdoveCZ7yhMc8i_UM"
+      , title = "あの町この町(あのまちこのまちひがくれる)"
+      , filename = "anomachi_crop.pdf"
+      }
+
+
 
     ]
     -- , { jpgUrl = ""
