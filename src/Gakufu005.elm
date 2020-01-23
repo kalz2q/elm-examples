@@ -192,95 +192,15 @@ shuffle list =
 
 
 dict =
-    [ { jpgUrl = "https://drive.google.com/uc?id=1IRp2uhDtP0y3-Vi8mQ3lD2H1goca5FIG"
+    [ { jpgUrl = "https://drive.google.com/uc?id=1dvVCvdFKKJlVmU3WqRgMkg0YsugL3qKR"
       , mp3Url = "https://drive.google.com/uc?id=1877DcOpz7rhRQ7XhpV7I34MQf018IDYt"
       , title = "水戸黄門(じんせいらくありゃくもあるさ)"
-      , filename = "mitokomon_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=12UvRWM8rLQ-Hw6esfhAWzxbtOQjVjLi_"
-      , mp3Url = "https://drive.google.com/uc?id=1RZD7C6eRljOnZJDszAw2kNW4h6z9XjCO"
-      , title = "お富さん(いきなくろべいみこしのまつに)"
-      , filename = "otomisan_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=13KV-EiwvQKWRWorJeS1WicxqVcuhzp65"
-      , mp3Url = "https://drive.google.com/uc?id=1atDmXTGnCXFjeqIwUdFMAZoloO1icviB"
-      , title = "いい日旅立ち(ゆきどけまじかの)"
-      , filename = "iihitabidachi_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1BNWJa26phih8CrpppZGfG9UeD-otw4Vp"
-      , mp3Url = "https://drive.google.com/uc?id=1sCNJpF5SyRto08gQGy_6aW2-zpK03G_G"
-      , title = "アラビアの唄(さばくにひがおちて)"
-      , filename = "arabianouta_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1fSXhNugAfnQSHWFJWP23niQpiYHYIPnl"
-      , mp3Url = "https://drive.google.com/uc?id=1LpspAcK4dttEfSF4zNXX_uzVzK-wsFpV"
-      , title = "ハバロフスク小唄"
-      , filename = "khabarovsk_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1FMZml7mjGJNA7XF_-48Wm6HRRyQ5dK0h"
-      , mp3Url = "https://drive.google.com/uc?id=1qqpxzmEDIL_Vp1JPBpekRNIiupQvLXNl"
-      , title = "人を恋うる歌(つまをめとらばさいたけて)"
-      , filename = "hitowokouruuta_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1A1WQWvBdvtq-2HG3866E829in4feFhxB"
-      , mp3Url = "https://drive.google.com/uc?id=1yLyidhYX6dVZz-XpRvv8983bAL0dxOrZ"
-      , title = "蛍の光(ほたるのひかりまどのゆき)"
-      , filename = "hotarunohikari_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1V3PZkn6E93JZ9JJUwsq5NWiw34QczT7R"
-      , mp3Url = "https://drive.google.com/uc?id=1qQayn5QyVOgbhaKz--S9-sq0eOuDmVlb"
-      , title = "麦と兵隊(じょしゅうじょしゅうとじんばはすすむ)"
-      , filename = "mugitoheitai_crop.pdf"
+      , filename = "mitokomon.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1uCHqo0azmYAlA_uXPSbIDqONPcCCsktO"
       , mp3Url = "https://drive.google.com/uc?id=1uz6hK-iGgWwpW3o09bLO9ZRg8AQ3NVxC"
       , title = "スーダラ節(植木等、ちょいといっぱいのつもりでのんで)"
       , filename = "sudarabushi_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1tVmfz3faOwEveDWJApQG9xweRfMgwvFg"
-      , mp3Url = "https://drive.google.com/uc?id=1BGF7fh9GuirKEX7ivBBLAiVv2zN9HYZH"
-      , title = "たばこやの娘(むこうよこちょうのたばこやの)"
-      , filename = "tabakoya_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1kxOYfelkCWJWdqdzQwGLunk5b3Eyj-il"
-      , mp3Url = "https://drive.google.com/uc?id=10CmpPNP-U7Ui4UMuKpIj_SejtZolx3fz"
-      , title = "戦友(ここはおくにをなんびゃくり)"
-      , filename = "senyu_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1H9x-T6fjb_sjkHl-s52H46G1fuUyTZVl"
-      , mp3Url = "https://drive.google.com/uc?id=1CmtL7-YmNxGsdCjD__Oay9o3S01Mxu9X"
-      , title = "聖夜(きよしこのよる)"
-      , filename = "kiyoshi_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1LhI4p3-y43yjRTsunZmdrWHBaHL-12O3"
-      , mp3Url = "https://drive.google.com/uc?id=1zPpRO5xKwJdogi-ayU2PJGTi1_PmceVf"
-      , title = "水師営の会見(りょじゅんかいじょうやくなりて)"
-      , filename = "suishiei_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1yt6gggdFlWJAC7Ea1VFynNudMgexw3hD"
-      , mp3Url = "https://drive.google.com/uc?id=1ATE2aqVZfk_p9MdqjlLsmVY-g73aa-y8"
-      , title = "ああモンテンルパの夜は更けて(モンテンルパの夜は更けて。Muntinlupa, フィリピン)"
-      , filename = "muntinlupa_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1TyXh_lLKgQBWLw_6d1Bpj1qChC_Fmii1"
-      , mp3Url = "https://drive.google.com/uc?id=1bQ9x8vhGDTvSKQlJOfMHB-fSleB6aEGa"
-      , title = "君の名は(きみのなはとたずねしひとあり)"
-      , filename = "kiminonawa_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1dbuMVmgM8cXyYChsqnbCZwykPl4YWLqM"
-      , mp3Url = "https://drive.google.com/uc?id=195AS_p7wHipTgNWM39lRWm24US5uunhD"
-      , title = "燦めく星座(おとこじゅんじょうのあいのほしのいろ)"
-      , filename = "kirameku_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=12WHCh3bSgfcROcH5vhs3-rLOEiwXFQj1"
-      , mp3Url = "https://drive.google.com/uc?id=1-DNvDUoLpfrMbM4KriXxiOfzHtU7ABam"
-      , title = "宵待草(まてどくらせどこぬひとを)"
-      , filename = "yoimachigusa_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1J5oT1Lr4cFefIQxVziArMJONFHIc9YVs"
-      , mp3Url = "https://drive.google.com/uc?id=1pTCmB9DTSI296H62MVIvV0XsHJSJD-dn"
-      , title = "懐かしのブルース(ふるいにっきのぺーじには)"
-      , filename = "natsukashinoblues_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1wX8u-bRNe2-iGncvahYANZTX0bylkQvm"
       , mp3Url = "https://drive.google.com/uc?id=1Cb3BnafN8_UZQ9-TTjnCmPQquDIVRCE8"
@@ -1579,6 +1499,86 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1Ap1Ujj2e6h37hCgCMO9C32j5_xFjv2z_"
       , title = "こうま(はいしいはいしいあゆめよこうま)"
       , filename = "kouma.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1dtUw5I9-JKGwjpnLe4lYKtMpY4wneB3H"
+      , mp3Url = "https://drive.google.com/uc?id=1RZD7C6eRljOnZJDszAw2kNW4h6z9XjCO"
+      , title = "お富さん(いきなくろべいみこしのまつに)"
+      , filename = "otomisan.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1Cp87RUb0_YPHyj0peMqrJk3TWaUEQzbz"
+      , mp3Url = "https://drive.google.com/uc?id=1atDmXTGnCXFjeqIwUdFMAZoloO1icviB"
+      , title = "いい日旅立ち(ゆきどけまじかの)"
+      , filename = "iihitabidachi.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1U8KS0x8Ocura_eZkJ0d2d0s0sJZgSEVK"
+      , mp3Url = "https://drive.google.com/uc?id=1sCNJpF5SyRto08gQGy_6aW2-zpK03G_G"
+      , title = "アラビアの唄(さばくにひがおちて)"
+      , filename = "arabianouta.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1SPUkVZ6_VJgjr4q1lJEFwoFzF_p6zJj6"
+      , mp3Url = "https://drive.google.com/uc?id=1LpspAcK4dttEfSF4zNXX_uzVzK-wsFpV"
+      , title = "ハバロフスク小唄"
+      , filename = "khabarovsk.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1EAqRgKfmM0e8tS4LkMP5VqoFl5YzHFBe"
+      , mp3Url = "https://drive.google.com/uc?id=1qqpxzmEDIL_Vp1JPBpekRNIiupQvLXNl"
+      , title = "人を恋うる歌(つまをめとらばさいたけて)"
+      , filename = "hitowokouruuta.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1ClwkIMpH2qBfCwfeVIMqg-OvDI7hdDQT"
+      , mp3Url = "https://drive.google.com/uc?id=1yLyidhYX6dVZz-XpRvv8983bAL0dxOrZ"
+      , title = "蛍の光(ほたるのひかりまどのゆき)"
+      , filename = "hotarunohikari.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1plrEKN8Y5UpH2eBuUktHxC90RKtO40Wd"
+      , mp3Url = "https://drive.google.com/uc?id=1qQayn5QyVOgbhaKz--S9-sq0eOuDmVlb"
+      , title = "麦と兵隊(じょしゅうじょしゅうとじんばはすすむ)"
+      , filename = "mugitoheitai.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1dpX8iyiBkPMtU-NVfy-nR6B19kokuhE-"
+      , mp3Url = "https://drive.google.com/uc?id=1BGF7fh9GuirKEX7ivBBLAiVv2zN9HYZH"
+      , title = "たばこやの娘(むこうよこちょうのたばこやの)"
+      , filename = "tabakoya.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1iWre5qvGBvkhXLZWUfL4v-eSDcKnSWk9"
+      , mp3Url = "https://drive.google.com/uc?id=10CmpPNP-U7Ui4UMuKpIj_SejtZolx3fz"
+      , title = "戦友(ここはおくにをなんびゃくり)"
+      , filename = "senyu.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1UrQznxPpZ9kUg5vEefe3dCDizDdyDD2D"
+      , mp3Url = "https://drive.google.com/uc?id=1CmtL7-YmNxGsdCjD__Oay9o3S01Mxu9X"
+      , title = "聖夜(きよしこのよる)"
+      , filename = "kiyoshi.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1do7NA3n64U9sFnYVlUZzTfnT_LDxu6RQ"
+      , mp3Url = "https://drive.google.com/uc?id=1zPpRO5xKwJdogi-ayU2PJGTi1_PmceVf"
+      , title = "水師営の会見(りょじゅんかいじょうやくなりて)"
+      , filename = "suishiei.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1icO60KbahCHOqYgTzw8zwlK_UVp5PWm4"
+      , mp3Url = "https://drive.google.com/uc?id=1ATE2aqVZfk_p9MdqjlLsmVY-g73aa-y8"
+      , title = "ああモンテンルパの夜は更けて(モンテンルパの夜は更けて。Muntinlupa, フィリピン)"
+      , filename = "muntinlupa.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1bfgHqSUyLOA3qWtoxOVv_6yCn1_ZOfmw"
+      , mp3Url = "https://drive.google.com/uc?id=1bQ9x8vhGDTvSKQlJOfMHB-fSleB6aEGa"
+      , title = "君の名は(きみのなはとたずねしひとあり)"
+      , filename = "kiminonawa.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1qCclnMVCVXqlnisSweNSRDXRH7Rr9d7G"
+      , mp3Url = "https://drive.google.com/uc?id=195AS_p7wHipTgNWM39lRWm24US5uunhD"
+      , title = "燦めく星座(おとこじゅんじょうのあいのほしのいろ)"
+      , filename = "kirameku.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1sXkqylmP0GKWctzx8CO69GJLp8HB3oMb"
+      , mp3Url = "https://drive.google.com/uc?id=1-DNvDUoLpfrMbM4KriXxiOfzHtU7ABam"
+      , title = "宵待草(まてどくらせどこぬひとを)"
+      , filename = "yoimachigusa.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1rNqYGsaFWlP5lRNuE1Qi19Y09nxZjQBb"
+      , mp3Url = "https://drive.google.com/uc?id=1pTCmB9DTSI296H62MVIvV0XsHJSJD-dn"
+      , title = "懐かしのブルース(ふるいにっきのぺーじには)"
+      , filename = "natsukashinoblues.pdf"
       }
 
 
