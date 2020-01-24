@@ -215,7 +215,7 @@ dict =
     , { jpgUrl = "https://drive.google.com/uc?id=1ldi4WgfnPKqNFh1ZnpOh4GLHoIKNCXed"
       , mp3Url = "https://drive.google.com/uc?id=1n6FeRm8jMkCnxQqx8sGnqW1LnZMy2ZB3"
       , title = "ジョニーが凱旋するとき(When Johnny Comes Marching Home)"
-      , filename = "whenjohnny_crop.pdf"
+      , filename = "whenjohnny.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=13H_NvIKtfeFW_fRM21rU0LV5VS2K970w"
       , mp3Url = "https://drive.google.com/uc?id=1PEARIfK0ThavDeGT0KH7l0rbnKqPb4zN"
@@ -237,36 +237,6 @@ dict =
       , title = "もろびとこぞりて(クリスマス)"
       , filename = "morobito.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1Rn_NdO_TVfUzQSEz5hzfyiDWzpV0POo0"
-      , mp3Url = "https://drive.google.com/uc?id=18t43GAZWMFEtBX1zaK-Fn1e5sB1ZLrlZ"
-      , title = "仲よし小道(なかよしこみちはどこのみち)"
-      , filename = "nakayoshikomichi_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1IacrrSmODZqEb8SLBJM9oMx3HzWCn9aU"
-      , mp3Url = "https://drive.google.com/uc?id=1YXchgECNKskPYUTPNQtNopALvcSNJ5k8"
-      , title = "ドレミの歌(どはどーなつのど)"
-      , filename = "doreminouta_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1Rj5vA2sE-XqwPHlLHsnLYhLnXXqj9fiN"
-      , mp3Url = "https://drive.google.com/uc?id=1nNbubE84_wM-BO4l3C6OQgbBqbcBFY8E"
-      , title = "案山子(やまだのなかのいっぽんあしの)"
-      , filename = "kakashi_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=11bHak0tzxDlND1TNEspcwXXQuKbC4ach"
-      , mp3Url = "https://drive.google.com/uc?id=1Mhwb0IcHhUI376V8PcuqjcknaIBmB_8F"
-      , title = "影を慕いて(まぼろしのかげをしたいて)"
-      , filename = "kagewoshitaite_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1zEp_VHoJXF1bH0cthqkJiQcvbbuGGU9h"
-      , mp3Url = "https://drive.google.com/uc?id=10AAQ6JoGnOZKrO_RZhoCGmjy6VYzxd4x"
-      , title = "鞠と殿さま(てんてんてんまりてんてまり)"
-      , filename = "maritotonosama_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1yqt87jCmOvXvJcKUP7dCYDfVnKQWgDAS"
-      , mp3Url = "https://drive.google.com/uc?id=1ylKBBuGZmq1Q2XKPLB5H89KvHkByIuqM"
-      , title = "真白き富士の嶺(七里ヶ浜の哀歌。ましろきふじのね)"
-      , filename = "mashiroki_crop.pdf"
-      }
     , { jpgUrl = "https://drive.google.com/uc?id=1uhrOl8NYnOogep1FKU6BvOu67rrM_WC4"
       , mp3Url = "https://drive.google.com/uc?id=1KH0cab55b9HdFkbuz7XnLZvyhm6qgvKd"
       , title = "テネシーワルツ"
@@ -276,36 +246,6 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1xU4mcYN6vjYW-IX5793FurYzR4DGrEpc"
       , title = "津軽海峡・冬景色(うえのはつのやこうれっしゃおりたときから)"
       , filename = "tsugaru.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1v4uTA1-Jt49kVvW5vbe9sz53SwAcMhkK"
-      , mp3Url = "https://drive.google.com/uc?id=1cAUMJMb9AjAjnzEZt5k9LKM9P1IifMMv"
-      , title = "三百六十五歩のマーチ(しあわせはあるいてこない)"
-      , filename = "sanbyaku65_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1sU5bD3t5INqd-8fqEiTomKyGqmQiklmP"
-      , mp3Url = "https://drive.google.com/uc?id=1IXzWrvyJIyKLtnMID0kWmtNjY21VOVoa"
-      , title = "別れのブルース(まどをあければ)"
-      , filename = "wakarenoblues_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=10xGOm73NxgOpcuXK1qxvhPXQ1TOyrdMw"
-      , mp3Url = "https://drive.google.com/uc?id=1gx8EPfjmsskIsDBp_WCiIIlZ5gjJG6FK"
-      , title = "桑港のチャイナタウン(さんふらんしすこのちゃいなたうん)"
-      , filename = "chinatown_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1PbYS8lbD7Y13BisNcnjdvsnMY0GZVx6L"
-      , mp3Url = "https://drive.google.com/uc?id=11m0ZthymUS3WE3sdegBtjIEKETGt-AgA"
-      , title = "さんぽ(あるこうあるこうわたしはげんき)"
-      , filename = "sanpo_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1mKepNmNB2Sq5XiOqLP7dKnQzaoEWbFZH"
-      , mp3Url = "https://drive.google.com/uc?id=1xL83PTGp8RRd0OCwcRFK52iU-Bv8PVnW"
-      , title = "森の小人(もりのこかげでどんじゃらほい)"
-      , filename = "morinokobito_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1B9gDWevIcVvpd03E9cSS1Kcx_K5TyMS3"
-      , mp3Url = "https://drive.google.com/uc?id=14NVcygyC4bHevi3L6RrYghDV9z4qI-at"
-      , title = "若鷲の歌(わかいちしおのよかれんの)"
-      , filename = "wakawashinouta_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1jpv7TUhae3NcmeOMebhfLYJu4bAEj6vG"
       , mp3Url = "https://drive.google.com/uc?id=1mEObQW8HP21XyA3CQrykrbPukem2f0TM"
@@ -317,11 +257,6 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1kDi3Uj0k1AsAIW404Z6vhktke11h_kIO"
       , title = "牧人ひつじを(まきびとひつじをまもれる。クリスマス)"
       , filename = "makibito.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1O4Q1dRvw9dyqxExTNTfg7T7GN9bxkzwU"
-      , mp3Url = "https://drive.google.com/uc?id=1iHY9QxXOt0xTBjP3aIjMI_O9nSqOegKs"
-      , title = "冬景色(さぎりきゆるみなとえの)"
-      , filename = "fuyugeshiki_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1MHOF5ij89pecc636InrKXQyWd2qm8oyT"
       , mp3Url = "https://drive.google.com/uc?id=1XOLRMNqxCtGSYCMTCC_0T_3WfC60RIDv"
@@ -337,16 +272,6 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1xz7jJpUCuhgpDcZmJ9jo1pl4vUF5O_Ie"
       , title = "アメイジング・グレイス"
       , filename = "amazinggrace.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1Cvhc7m2Nk246-YQaRpFOgQYLf-CyTnDC"
-      , mp3Url = "https://drive.google.com/uc?id=1N3REHPL99O7qyBHhov3xFX8VctUWOKhi"
-      , title = "翼をください(いまわたしのねがいごとがかなうならば)"
-      , filename = "tsubasa_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1Xktk_1sZee5Un4gMiUWEHws3CL5d5uvL"
-      , mp3Url = "https://drive.google.com/uc?id=1bqQLoa4Fb4YeRTJNRH96djPd5BPP0nnC"
-      , title = "青い目の人形(あおいめをしたおにんぎょは)"
-      , filename = "aoimewoshita_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=10ARjMtUBLSMhd2YGO4hSUE4lP8o6rY4h"
       , mp3Url = "https://drive.google.com/uc?id=1XKERMhIY_LOgW8v3b5AYOJRKqd4FECsM"
@@ -878,11 +803,6 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1VQY3djnR06RpibM4R_3tZzX5LfmRvtO8"
       , title = "たき火(かきねのかきねのまがりかど)"
       , filename = "takibi_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1Of0ed1l4rQNC4PtJn2sC6iGqtIdkWILP"
-      , mp3Url = "https://drive.google.com/uc?id=1AxMqUgTfL4NyVsBdLA-FY89c8EL11NJA"
-      , title = "四季の歌(はるをあいするひとは)"
-      , filename = "shikinouta_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1HOf_4CuzXjOuZIo5kI8tcwm0Ge7tGKo6"
       , mp3Url = "https://drive.google.com/uc?id=1j7cLWnJ0BJQupkOXJhOtHGstO_ELiPOL"
@@ -1580,7 +1500,91 @@ dict =
       , title = "好きだった(すきだったうそじゃなかったすきだった)"
       , filename = "sukidatta.pdf"
       }
-
+    , { jpgUrl = "https://drive.google.com/uc?id=1zyDxoe-DpBTbVDM-EB-d6LeY13G1u4xn"
+      , mp3Url = "https://drive.google.com/uc?id=1AxMqUgTfL4NyVsBdLA-FY89c8EL11NJA"
+      , title = "四季の歌(はるをあいするひとは)"
+      , filename = "shikinouta.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1Oph1R4qvAVvvphHxlZJ4Rpob-ZBnzUpx"
+      , mp3Url = "https://drive.google.com/uc?id=18t43GAZWMFEtBX1zaK-Fn1e5sB1ZLrlZ"
+      , title = "仲よし小道(なかよしこみちはどこのみち)"
+      , filename = "nakayoshikomichi.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1DoTSkiCA5-qhehIS1_9fwwQwK2k3U1ZC"
+      , mp3Url = "https://drive.google.com/uc?id=1YXchgECNKskPYUTPNQtNopALvcSNJ5k8"
+      , title = "ドレミの歌(どはどーなつのど)"
+      , filename = "doreminouta.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1EwSgq9rXef_aPn-KNjJR8qw__mz1f2Wl"
+      , mp3Url = "https://drive.google.com/uc?id=1nNbubE84_wM-BO4l3C6OQgbBqbcBFY8E"
+      , title = "案山子(やまだのなかのいっぽんあしの)"
+      , filename = "kakashi.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1D_5y_wxLYQeVc7oq_O4nkyLK9DTGaEeR"
+      , mp3Url = "https://drive.google.com/uc?id=1Mhwb0IcHhUI376V8PcuqjcknaIBmB_8F"
+      , title = "影を慕いて(まぼろしのかげをしたいて)"
+      , filename = "kagewoshitaite.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1bf265Ya1sYMbR3Fk8WNJfKHO3Ujlm0ol"
+      , mp3Url = "https://drive.google.com/uc?id=10AAQ6JoGnOZKrO_RZhoCGmjy6VYzxd4x"
+      , title = "鞠と殿さま(てんてんてんまりてんてまり)"
+      , filename = "maritotonosama.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1-Yk5FPtggwtSJwLGOfOo66OUhIYTT4gY"
+      , mp3Url = "https://drive.google.com/uc?id=1ylKBBuGZmq1Q2XKPLB5H89KvHkByIuqM"
+      , title = "真白き富士の嶺(七里ヶ浜の哀歌。ましろきふじのね)"
+      , filename = "mashiroki.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1DsROegZvXPMpuqkr28ptuAjgpz7Mtaf_"
+      , mp3Url = "https://drive.google.com/uc?id=1Po48fBznv9MewAAc89pr01muJdAAHhco"
+      , title = "学生時代(つたのからまるちゃぺるで)"
+      , filename = "gakuseijidai.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1Luq-ywo6fVTn-PAx0P8Fbm5vW8QIlHcD"
+      , mp3Url = "https://drive.google.com/uc?id=1cAUMJMb9AjAjnzEZt5k9LKM9P1IifMMv"
+      , title = "三百六十五歩のマーチ(しあわせはあるいてこない)"
+      , filename = "sanbyaku65.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=172CKkz1-8tDByGfHyg0ZH9CM3TN0m8hi"
+      , mp3Url = "https://drive.google.com/uc?id=1IXzWrvyJIyKLtnMID0kWmtNjY21VOVoa"
+      , title = "別れのブルース(まどをあければ)"
+      , filename = "wakarenoblues.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=14C6WWx8k8OYSs6UU244wgbXCKvXxtjx2"
+      , mp3Url = "https://drive.google.com/uc?id=1gx8EPfjmsskIsDBp_WCiIIlZ5gjJG6FK"
+      , title = "桑港のチャイナタウン(さんふらんしすこのちゃいなたうん)"
+      , filename = "chinatown.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1tPI-ovIXxvbVma7dRDETM4YPRToU_qOh"
+      , mp3Url = "https://drive.google.com/uc?id=11m0ZthymUS3WE3sdegBtjIEKETGt-AgA"
+      , title = "さんぽ(あるこうあるこうわたしはげんき)"
+      , filename = "sanpo.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=13-I4Y5-EOrZ3asCKG_u-9gjqqys2RJjq"
+      , mp3Url = "https://drive.google.com/uc?id=1xL83PTGp8RRd0OCwcRFK52iU-Bv8PVnW"
+      , title = "森の小人(もりのこかげでどんじゃらほい)"
+      , filename = "morinokobito.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1t2Wv1nPtZ0r9qe1QPKGFvZStGksy-gcU"
+      , mp3Url = "https://drive.google.com/uc?id=14NVcygyC4bHevi3L6RrYghDV9z4qI-at"
+      , title = "若鷲の歌(わかいちしおのよかれんの)"
+      , filename = "wakawashinouta.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1jYMPozc7GJjBxl-Rwryy1GsH1Vld-9ES"
+      , mp3Url = "https://drive.google.com/uc?id=1iHY9QxXOt0xTBjP3aIjMI_O9nSqOegKs"
+      , title = "冬景色(さぎりきゆるみなとえの)"
+      , filename = "fuyugeshiki.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1Cvhc7m2Nk246-YQaRpFOgQYLf-CyTnDC"
+      , mp3Url = "https://drive.google.com/uc?id=1N3REHPL99O7qyBHhov3xFX8VctUWOKhi"
+      , title = "翼をください(いまわたしのねがいごとがかなうならば)"
+      , filename = "tsubasa.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1Xktk_1sZee5Un4gMiUWEHws3CL5d5uvL"
+      , mp3Url = "https://drive.google.com/uc?id=1bqQLoa4Fb4YeRTJNRH96djPd5BPP0nnC"
+      , title = "青い目の人形(あおいめをしたおにんぎょは)"
+      , filename = "aoimewoshita_crop.pdf"
+      }
 
 
     ]
