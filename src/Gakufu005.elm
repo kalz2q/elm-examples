@@ -200,27 +200,17 @@ dict =
     , { jpgUrl = "https://drive.google.com/uc?id=1uCHqo0azmYAlA_uXPSbIDqONPcCCsktO"
       , mp3Url = "https://drive.google.com/uc?id=1uz6hK-iGgWwpW3o09bLO9ZRg8AQ3NVxC"
       , title = "スーダラ節(植木等、ちょいといっぱいのつもりでのんで)"
-      , filename = "sudarabushi_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1wX8u-bRNe2-iGncvahYANZTX0bylkQvm"
-      , mp3Url = "https://drive.google.com/uc?id=1Cb3BnafN8_UZQ9-TTjnCmPQquDIVRCE8"
-      , title = "悲しき口笛(おかのほてるのあかいひも)"
-      , filename = "kanashikikuchibue_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=10SE8IKAjQPKPDmWpMk2jJpCUF0-mCEli"
-      , mp3Url = "https://drive.google.com/uc?id=14xcC1aCDj9U5iZGjjtMHfmZhiOXUVsJs"
-      , title = "ジングル・ベル(クリスマス。のをこえておかをこえ)"
-      , filename = "jinglebell_crop.pdf"
+      , filename = "sudarabushi.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1Z2Qxq8UoHBDMv6wXuRmNMJWwryg2EN0z"
       , mp3Url = "https://drive.google.com/uc?id=1Mz6hlYoD-PUHQRuGVl1DDm3128sIIIKV"
       , title = "ママがサンタにキスをした(クリスマス。I Saw Mommy Kissing Santa Claus)"
-      , filename = "mommykisssanta_crop.pdf"
+      , filename = "mommykisssanta.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1qXQbr3mQNF3S-v4DhMvkiKLo5jKEnxFk"
       , mp3Url = "https://drive.google.com/uc?id=1hA4f6JyrXacIqCoOu98Ssb_5mLvyU6iT"
       , title = "ラスト・クリスマス(ワム！)"
-      , filename = "lastchristmas_crop.pdf"
+      , filename = "lastchristmas.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1ldi4WgfnPKqNFh1ZnpOh4GLHoIKNCXed"
       , mp3Url = "https://drive.google.com/uc?id=1n6FeRm8jMkCnxQqx8sGnqW1LnZMy2ZB3"
@@ -230,27 +220,22 @@ dict =
     , { jpgUrl = "https://drive.google.com/uc?id=13H_NvIKtfeFW_fRM21rU0LV5VS2K970w"
       , mp3Url = "https://drive.google.com/uc?id=1PEARIfK0ThavDeGT0KH7l0rbnKqPb4zN"
       , title = "ホワイト・クリスマス"
-      , filename = "whitechristmas_crop.pdf"
+      , filename = "whitechristmas.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=10ZhxQ5_NiHQT9tAn7PHhqiNQ7AtzWxq8"
       , mp3Url = "https://drive.google.com/uc?id=17tul0wr1yBhuvCUdJjBuaLA1gpjMAJhP"
       , title = "おめでとうクリスマス(We Wish You a Merry Christmas)"
-      , filename = "omedetouchristmas_crop.pdf"
+      , filename = "omedetouchristmas.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1ouKwNK7a8O1SbxiNA6754Mekw4wqbq9r"
       , mp3Url = "https://drive.google.com/uc?id=1kSlQD5D8cV1oXBpKtjMzmGzN2-hUuC_N"
       , title = "そりすべり(リロイ・アンダーソン。クリスマス)"
-      , filename = "sorisuberi_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1h0xYFiUwo3frFS1nyEaJc6pjrOFZjMc4"
-      , mp3Url = "https://drive.google.com/uc?id=1BZXK0i7BXIIiHaobvKnSNmTz6WFilB5i"
-      , title = "好きだった(すきだったうそじゃなかったすきだった)"
-      , filename = "sukidatta_crop.pdf"
+      , filename = "sorisuberi.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1w1LhB8aOftp1A3zOmlSQGjMye7GsowJI"
       , mp3Url = "https://drive.google.com/uc?id=1jvYKa16U5WI-Yo1sWxKkVgFXlxRWWupv"
       , title = "もろびとこぞりて(クリスマス)"
-      , filename = "morobito_crop.pdf"
+      , filename = "morobito.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1Rn_NdO_TVfUzQSEz5hzfyiDWzpV0POo0"
       , mp3Url = "https://drive.google.com/uc?id=18t43GAZWMFEtBX1zaK-Fn1e5sB1ZLrlZ"
@@ -285,12 +270,12 @@ dict =
     , { jpgUrl = "https://drive.google.com/uc?id=1uhrOl8NYnOogep1FKU6BvOu67rrM_WC4"
       , mp3Url = "https://drive.google.com/uc?id=1KH0cab55b9HdFkbuz7XnLZvyhm6qgvKd"
       , title = "テネシーワルツ"
-      , filename = "tennessee_crop.pdf"
+      , filename = "tennessee.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1cs8EtDp7rspgab-wc2SRypaDA_BtrLsW"
       , mp3Url = "https://drive.google.com/uc?id=1xU4mcYN6vjYW-IX5793FurYzR4DGrEpc"
       , title = "津軽海峡・冬景色(うえのはつのやこうれっしゃおりたときから)"
-      , filename = "tsugaru_crop.pdf"
+      , filename = "tsugaru.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1v4uTA1-Jt49kVvW5vbe9sz53SwAcMhkK"
       , mp3Url = "https://drive.google.com/uc?id=1cAUMJMb9AjAjnzEZt5k9LKM9P1IifMMv"
@@ -325,13 +310,13 @@ dict =
     , { jpgUrl = "https://drive.google.com/uc?id=1jpv7TUhae3NcmeOMebhfLYJu4bAEj6vG"
       , mp3Url = "https://drive.google.com/uc?id=1mEObQW8HP21XyA3CQrykrbPukem2f0TM"
       , title = "あら野のはてに(あらののはてにゆうひはおちて。クリスマス)"
-      , filename = "aranonohateni_crop.pdf"
+      , filename = "aranonohateni.pdf"
       }
 
     , { jpgUrl = "https://drive.google.com/uc?id=1bRvWIAaz5jkCp2cF1dWILxHdF9roI3jq"
       , mp3Url = "https://drive.google.com/uc?id=1kDi3Uj0k1AsAIW404Z6vhktke11h_kIO"
       , title = "牧人ひつじを(まきびとひつじをまもれる。クリスマス)"
-      , filename = "makibito_crop.pdf"
+      , filename = "makibito.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1O4Q1dRvw9dyqxExTNTfg7T7GN9bxkzwU"
       , mp3Url = "https://drive.google.com/uc?id=1iHY9QxXOt0xTBjP3aIjMI_O9nSqOegKs"
@@ -341,17 +326,17 @@ dict =
     , { jpgUrl = "https://drive.google.com/uc?id=1MHOF5ij89pecc636InrKXQyWd2qm8oyT"
       , mp3Url = "https://drive.google.com/uc?id=1XOLRMNqxCtGSYCMTCC_0T_3WfC60RIDv"
       , title = "ひいらぎかざろう(クリスマス)"
-      , filename = "hiiragi_crop.pdf"
+      , filename = "hiiragi.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1QDMCoj8CYbQ-rd-S2hPiafauRykr4w7R"
       , mp3Url = "https://drive.google.com/uc?id=1KR7Wd9MjJoUyvLvSsfvECZO2EpadaidE"
       , title = "涙そうそう(ふるいあるばむめくりありがとうってつぶやいた)"
-      , filename = "nadasoso_crop.pdf"
+      , filename = "nadasoso.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1cONlZ-VAnHRjaG-A6_nJviwRQt6q47Eb"
       , mp3Url = "https://drive.google.com/uc?id=1xz7jJpUCuhgpDcZmJ9jo1pl4vUF5O_Ie"
       , title = "アメイジング・グレイス"
-      , filename = "amazinggrace_crop.pdf"
+      , filename = "amazinggrace.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1Cvhc7m2Nk246-YQaRpFOgQYLf-CyTnDC"
       , mp3Url = "https://drive.google.com/uc?id=1N3REHPL99O7qyBHhov3xFX8VctUWOKhi"
@@ -1174,11 +1159,6 @@ dict =
       , title = "イエスタデイ・ワンス・モア(カーペンターズ)"
       , filename = "yesterdayonce_crop.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1umpVJaRj0k6ponp-oLNACkPBq7-Eivr-"
-      , mp3Url = "https://drive.google.com/uc?id=17lJ_XLyiXrrQfcEgrWm06YSuT9QCEPFt"
-      , title = "勇気100パーセント(がっかりしてめそめそしてどうしたんだい)"
-      , filename = "yuki100p_crop.pdf"
-      }
     , { jpgUrl = "https://drive.google.com/uc?id=1rK9xSFpnZ-mVz4BFCVAe4VQUdZacoYcb"
       , mp3Url = "https://drive.google.com/uc?id=1pbUzmGLfj5n23CEx9OanXdy4NUhZ7XCZ"
       , title = "たこのうた(たこたこあがれ)"
@@ -1248,7 +1228,7 @@ dict =
     , { jpgUrl = "https://drive.google.com/uc?id=13MeHhukH6xGmoKamFD4S83lt_3jDQGV0"
       , mp3Url = "https://drive.google.com/uc?id=1GW5ROHCU-UgY1VUNF6hOsNxSFIBBl5Ez"
       , title = "故郷を離るる歌(そののさゆりなでしこかきねのちぐさ)"
-      , filename = "kokyowohanaruru_crop.pdf"
+      , filename = "kokyowohanaruru.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1PdO8UWaf4jVljLpuAy8aOEUwmBKQa-h5"
       , mp3Url = "https://drive.google.com/uc?id=1hYS0PSgCJPO-v_3KQZrSCqnUYO9_6NCO"
@@ -1258,7 +1238,7 @@ dict =
     , { jpgUrl = "https://drive.google.com/uc?id=1NTRw5ZV5sabMKj3_HwIafJSg_6UbFj9a"
       , mp3Url = "https://drive.google.com/uc?id=1sFTI-Rj04SqB0NHU-XYmJawAeM0JzV5m"
       , title = "げんこつやまのたぬきさん"
-      , filename = "genkotsu_crop.pdf"
+      , filename = "genkotsu.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1ZJw9F-jWm0w_JNT4FFaeCsFB75Zgzv0G"
       , mp3Url = "https://drive.google.com/uc?id=12szTF4rbz_95LXqq_MnipIe4mHH_95OI"
@@ -1268,7 +1248,7 @@ dict =
     , { jpgUrl = "https://drive.google.com/uc?id=1JYPnxgIPN_bxlCZDiyytkP_r3880bvrD"
       , mp3Url = "https://drive.google.com/uc?id=1K4TQFXgt53K93O0hQARD4Ness4BKWMQL"
       , title = "青い背広で(あおいせびろでこころもかるく)"
-      , filename = "aoisebirode_crop.pdf"
+      , filename = "aoisebirode.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1pQzWz4mfkxYAiQxflPuNCsPJ510zQp07"
       , mp3Url = "https://drive.google.com/uc?id=1CxVD87Z8zOzDIoahhuYZgKulypMvt8yq"
@@ -1283,7 +1263,7 @@ dict =
     , { jpgUrl = "https://drive.google.com/uc?id=1awuxwfziK58bbfoZENpV0AdGs9k9WYjj"
       , mp3Url = "https://drive.google.com/uc?id=12DqY7QpcHmTPmOKR9e2qisWw3nXj3bDW"
       , title = "ないしょ話(ないしょないしょないしょのはなしはあのねのね)"
-      , filename = "naishobanashi_crop.pdf"
+      , filename = "naishobanashi.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1ZlUnwrNg5XUOAxY1nVaCJy_m7O7lUfw3"
       , mp3Url = "https://drive.google.com/uc?id=1lvvuDcLxS-woaFsoTwnyOeAkuWuk7uMU"
@@ -1579,6 +1559,26 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1pTCmB9DTSI296H62MVIvV0XsHJSJD-dn"
       , title = "懐かしのブルース(ふるいにっきのぺーじには)"
       , filename = "natsukashinoblues.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1wvU2JWhVd6tLlPT48dE-HFLLh1CnV3GV"
+      , mp3Url = "https://drive.google.com/uc?id=1Cb3BnafN8_UZQ9-TTjnCmPQquDIVRCE8"
+      , title = "悲しき口笛(おかのほてるのあかいひも)"
+      , filename = "kanashikikuchibue.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1TtXPS75SZqz3dkCIHobOD4bLR3SsdXCy"
+      , mp3Url = "https://drive.google.com/uc?id=14xcC1aCDj9U5iZGjjtMHfmZhiOXUVsJs"
+      , title = "ジングル・ベル(クリスマス。のをこえておかをこえ)"
+      , filename = "jinglebell.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1HlhevszRm1pJl8UH-IlIvgFKxBDDXuQB"
+      , mp3Url = "https://drive.google.com/uc?id=17lJ_XLyiXrrQfcEgrWm06YSuT9QCEPFt"
+      , title = "勇気100パーセント(がっかりしてめそめそしてどうしたんだい)"
+      , filename = "yuki100p.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1sfJUZjg2MESyNLjq7PLbO6dicXMJK-kw"
+      , mp3Url = "https://drive.google.com/uc?id=1BZXK0i7BXIIiHaobvKnSNmTz6WFilB5i"
+      , title = "好きだった(すきだったうそじゃなかったすきだった)"
+      , filename = "sukidatta.pdf"
       }
 
 
