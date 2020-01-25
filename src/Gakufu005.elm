@@ -273,40 +273,20 @@ dict =
       , title = "アメイジング・グレイス"
       , filename = "amazinggrace.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=10ARjMtUBLSMhd2YGO4hSUE4lP8o6rY4h"
-      , mp3Url = "https://drive.google.com/uc?id=1XKERMhIY_LOgW8v3b5AYOJRKqd4FECsM"
-      , title = "青い山脈(わかくあかるいうたごえに)"
-      , filename = "aoisanmyaku_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1MjFVhOocznkTuu-MXxWWDl5c4FtyEtYK"
-      , mp3Url = "https://drive.google.com/uc?id=1ty_eWfUlyCkYe0OEAngxtI-Fl49ab9Bv"
-      , title = "上を向いて歩こう"
-      , filename = "uewomuite_crop.pdf"
-      }
     , { jpgUrl = "https://drive.google.com/uc?id=17y4yFh6UfyjTlQhjPH7fgdgWwj20oP1S"
       , mp3Url = "https://drive.google.com/uc?id=1jlDhEgmfEGUZSIA7StuHTz_esjN3Rb8e"
       , title = "夢はひそかに(ディズニー「シンデレラ」)"
-      , filename = "dreamisawish_crop.pdf"
+      , filename = "dreamisawish.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=11nnSYaiShFBVFjnm-C-wXVuVr8zTVe7e"
       , mp3Url = "https://drive.google.com/uc?id=1XaG3H7bv9ftKFAzvnVvLsT2KWMqGLuP0"
       , title = "右から2番目の星(ディズニー「ピーター・パン」)"
-      , filename = "migikara2banme_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1R4FQspyf8LjEueYap_8WJnndT4bjz5d4"
-      , mp3Url = "https://drive.google.com/uc?id=1zcm6wqdWmkp2Rpuun61ZE4SOJPCbn6wf"
-      , title = "ふるさと(うさぎおいしかのやま)"
-      , filename = "furusato_crop.pdf"
+      , filename = "migikara2banme.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1rHwKYFxld4fdO0tfBcfJRSjQgznWBxil"
       , mp3Url = "https://drive.google.com/uc?id=1lW7x2No_cMDxZgZz8eoh03SZ7NvBF2Au"
       , title = "花は咲く(まっしろなゆきみちにはるかぜかおる)"
-      , filename = "hanawasaku_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=19VCt9lpjb7R253XMqdg22SnIjVPyR8Ma"
-      , mp3Url = "https://drive.google.com/uc?id=1x1oZX26krFxvopVrc85HV_9i3RQdmYvD"
-      , title = "浜辺の歌(あしたはまべをさまよえば)"
-      , filename = "hamabe_crop.pdf"
+      , filename = "hanawasaku.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1ysc2Bm8hSWUmqLmJRDn0mI8JRkSuZO7S"
       , mp3Url = "https://drive.google.com/uc?id=1VQG2ljNW7rGlG50O8nvoGvYweeIo5M5P"
@@ -493,11 +473,6 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1JKMKdaea6SO5odqucNZhiTd4uKaxQVG1"
       , title = "トロイカ(ゆきのしらかばなみき)"
       , filename = "troika_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1eL7fTOZIYWv-U0yp4z5tMTqzjiIbWxjq"
-      , mp3Url = "https://drive.google.com/uc?id=1ug0ZDK46eVCn6qi0T8lJoGdZjokAS73Z"
-      , title = "美しき天然(そらにさえずるとりのこえ)"
-      , filename = "utsukushiki_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1XcrL82FKCba7bM487s7PNMmsNUI4REFE"
       , mp3Url = "https://drive.google.com/uc?id=1RQlxrWBJVr70okBGvml5Z6nkb1bLBGeF"
@@ -938,11 +913,6 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1RbdbOoBqc0KBPtph1k1qnE7zG4RCC1OT"
       , title = "みかんの花咲く丘(みかんのはながさいている)"
       , filename = "mikan_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1u4I3ci6ftG-O4EWGUGgzrAtXZwA37W_3"
-      , mp3Url = "https://drive.google.com/uc?id=14oMTiUp9Rga9OG-pNB9UogM4wpNHq1L6"
-      , title = "もみじ(あきのゆうひにてるやま)"
-      , filename = "momiji_crop.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1tpGhYrxnEuVbluuK5rtj0e5RSHatBjPW"
       , mp3Url = "https://drive.google.com/uc?id=1KfcECeAU9dim-g8cb-dB391QiqvZl5b_"
@@ -1580,12 +1550,46 @@ dict =
       , title = "翼をください(いまわたしのねがいごとがかなうならば)"
       , filename = "tsubasa.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1Xktk_1sZee5Un4gMiUWEHws3CL5d5uvL"
+    , { jpgUrl = "https://drive.google.com/uc?id=1zEpwec3XOmAqdqneKfnWAHXWmeDrDa-1"
       , mp3Url = "https://drive.google.com/uc?id=1bqQLoa4Fb4YeRTJNRH96djPd5BPP0nnC"
       , title = "青い目の人形(あおいめをしたおにんぎょは)"
       , filename = "aoimewoshita_crop.pdf"
       }
-
+    , { jpgUrl = "https://drive.google.com/uc?id=16LMZSt3VBo-Q1czxD4Tg16Qpj2ew2_7b"
+      , mp3Url = "https://drive.google.com/uc?id=14oMTiUp9Rga9OG-pNB9UogM4wpNHq1L6"
+      , title = "もみじ(あきのゆうひにてるやま)"
+      , filename = "momiji.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1mP8wdlTbXjXzwyY4zH2IQYUkJDw-CnUI"
+      , mp3Url = "https://drive.google.com/uc?id=1X00S4Op49l2S3WozFl2-t9LqZ_gwCV_G"
+      , title = "美しき天然(そらにさえずるとりのこえ)"
+      , filename = "utsukushikitennen.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1DxCjI9fGPli_2U6MnAz1Fgh4v3fKAthC"
+      , mp3Url = "https://drive.google.com/uc?id=1XKERMhIY_LOgW8v3b5AYOJRKqd4FECsM"
+      , title = "青い山脈(わかくあかるいうたごえに)"
+      , filename = "aoisanmyaku.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1srLJLOFrmkGWqDebdaICn5Efjjw-G5BT"
+      , mp3Url = "https://drive.google.com/uc?id=1ty_eWfUlyCkYe0OEAngxtI-Fl49ab9Bv"
+      , title = "上を向いて歩こう(うえをむいてあるこう)"
+      , filename = "uewomuite.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1kcL4DhyqlYQfS7eM1KbUmyZIaQQfZ4nw"
+      , mp3Url = "https://drive.google.com/uc?id=1zcm6wqdWmkp2Rpuun61ZE4SOJPCbn6wf"
+      , title = "ふるさと(うさぎおいしかのやま)"
+      , filename = "furusato.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1543rLp3RFm3Ih3UpO83UpgaIZe1QC1R4"
+      , mp3Url = "https://drive.google.com/uc?id=1tdgfvcYJbYfPD1HmcnK4DIKxfZ1N-6Js"
+      , title = "うつくしき(うつくしきわがこやいずこ)"
+      , filename = "utsukushikiwagako.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=19VCt9lpjb7R253XMqdg22SnIjVPyR8Ma"
+      , mp3Url = "https://drive.google.com/uc?id=1x1oZX26krFxvopVrc85HV_9i3RQdmYvD"
+      , title = "浜辺の歌(あしたはまべをさまよえば)"
+      , filename = "hamabe.pdf"
+      }
 
     ]
     -- , { jpgUrl = ""
