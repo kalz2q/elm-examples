@@ -291,42 +291,22 @@ dict =
     , { jpgUrl = "https://drive.google.com/uc?id=1ysc2Bm8hSWUmqLmJRDn0mI8JRkSuZO7S"
       , mp3Url = "https://drive.google.com/uc?id=1VQG2ljNW7rGlG50O8nvoGvYweeIo5M5P"
       , title = "ライオンは寝ている(トークンズ)"
-      , filename = "lionsleeps_crop.pdf"
+      , filename = "lionsleeps.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1YW3ASSfbO8RFLdkGWwF83mC2RJHQlKTm"
       , mp3Url = "https://drive.google.com/uc?id=17h58N9AFOuyCC6Mns-sVjwPoIMBqV5ag"
       , title = "ラ・ラ・ルー(ディズニー「わんわん物語」)"
-      , filename = "lalalu_crop.pdf"
+      , filename = "lalalu.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1VxPJtDXF08Q-QCnRz73_jqQ9BDNeivRL"
       , mp3Url = "https://drive.google.com/uc?id=1ygAkAE49i1yYSlRqiqiB4In_b-xT5POo"
       , title = "ドラゴンクエスト序曲"
-      , filename = "dragonquest_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1lcqVHPlaLhmsmBeVQH0xIO1sYzpUHKDT"
-      , mp3Url = "https://drive.google.com/uc?id=1YJWJN3qfo-M8oAg3kGEzJlm2XR4Kgzep"
-      , title = "歌の町（よい子がすんでるよいまちは）"
-      , filename = "utanomachi_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1OV3swGyLyXDKJKwL8_mRu9syxCnb5z15"
-      , mp3Url = "https://drive.google.com/uc?id=1j-w1g6Uthw3el-2xvI3PPjf2Q7UAa-nU"
-      , title = "叱られて(しかられてあのこはまちまでおつかいに)"
-      , filename = "shikararete_crop.pdf"
+      , filename = "dragonquest.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1ZLNMXjLhbtx1E6G2yen5I0O7xFDpAMWO"
       , mp3Url = "https://drive.google.com/uc?id=1cgdOkILV2stvb2TqTau0Z0-OOCdKyX_M"
       , title = "春の唄(らららあかいはなたば)"
-      , filename = "harunouta_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1t89QUPghnGLz3aKf-ca-qhcspMMTU94x"
-      , mp3Url = "https://drive.google.com/uc?id=1xiSAG-qNSQ57Uf5LGZ5FpaUXT24nbu8i"
-      , title = "少年時代(なつがすぎかぜあざみ)"
-      , filename = "shonenjidai_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=16hWhVGDqBz8cdvg9RTvEhgTAclQ0XO7E"
-      , mp3Url = "https://drive.google.com/uc?id=1Zk-mEbKwkAkS1Mv3739Fp39BkyjNNWW8"
-      , title = "ハイ・ホー(くちぶえをげんきにふきならし、ディズニー「白雪姫」)"
-      , filename = "heighho_crop.pdf"
+      , filename = "harunouta.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1qxvdZrrnWJBsuIJcH6XSZrXtvMyI6z8y"
       , mp3Url = "https://drive.google.com/uc?id=1v-hAoSoiuNoZNaFmJLCqJ67IcoOsBqdd"
@@ -1585,11 +1565,33 @@ dict =
       , title = "うつくしき(うつくしきわがこやいずこ)"
       , filename = "utsukushikiwagako.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=19VCt9lpjb7R253XMqdg22SnIjVPyR8Ma"
+    , { jpgUrl = "https://drive.google.com/uc?id=1x5bSOD6ImLfX9AeUfw_RQQiY0JJP2S0L"
       , mp3Url = "https://drive.google.com/uc?id=1x1oZX26krFxvopVrc85HV_9i3RQdmYvD"
       , title = "浜辺の歌(あしたはまべをさまよえば)"
       , filename = "hamabe.pdf"
       }
+    , { jpgUrl = "https://drive.google.com/uc?id=1EWvGQAdTt7qi2iQGIqrIqDRgO-6HGbUP"
+      , mp3Url = "https://drive.google.com/uc?id=1YJWJN3qfo-M8oAg3kGEzJlm2XR4Kgzep"
+      , title = "歌の町（よい子がすんでるよいまちは）"
+      , filename = "utanomachi.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=16mJlcIdAOTn856x2VNCp5LkWybzjeeFf"
+      , mp3Url = "https://drive.google.com/uc?id=1j-w1g6Uthw3el-2xvI3PPjf2Q7UAa-nU"
+      , title = "叱られて(しかられてあのこはまちまでおつかいに)"
+      , filename = "shikararete.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1kbATpiDtifPkyCLV_of33XCT1IrJF0ZV"
+      , mp3Url = "https://drive.google.com/uc?id=1xiSAG-qNSQ57Uf5LGZ5FpaUXT24nbu8i"
+      , title = "少年時代(なつがすぎかぜあざみ)"
+      , filename = "shonenjidai.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=16hWhVGDqBz8cdvg9RTvEhgTAclQ0XO7E"
+      , mp3Url = "https://drive.google.com/uc?id=1Zk-mEbKwkAkS1Mv3739Fp39BkyjNNWW8"
+      , title = "ハイ・ホー(くちぶえをげんきにふきならし、ディズニー「白雪姫」)"
+      , filename = "heighho.pdf"
+      }
+
+
 
     ]
     -- , { jpgUrl = ""
