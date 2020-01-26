@@ -1585,12 +1585,16 @@ dict =
       , title = "少年時代(なつがすぎかぜあざみ)"
       , filename = "shonenjidai.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=16hWhVGDqBz8cdvg9RTvEhgTAclQ0XO7E"
+    , { jpgUrl = "https://drive.google.com/uc?id=1Etn8jnoBUBysLuQL3JjrPeqOi8A-oz3L"
+      , mp3Url = "https://drive.google.com/uc?id=1DPaewK8L4fUTAgO27LSZU74LdCVVy0SE"
+      , title = "ペチカ(ゆきのふるよはたのしいぺちか)"
+      , filename = "pechka.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=15GFgLIcsMuXpvrXFeke_-5n_sGuhgyj3"
       , mp3Url = "https://drive.google.com/uc?id=1Zk-mEbKwkAkS1Mv3739Fp39BkyjNNWW8"
       , title = "ハイ・ホー(くちぶえをげんきにふきならし、ディズニー「白雪姫」)"
       , filename = "heighho.pdf"
       }
-
 
 
     ]
