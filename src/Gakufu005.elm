@@ -311,82 +311,57 @@ dict =
     , { jpgUrl = "https://drive.google.com/uc?id=1qxvdZrrnWJBsuIJcH6XSZrXtvMyI6z8y"
       , mp3Url = "https://drive.google.com/uc?id=1v-hAoSoiuNoZNaFmJLCqJ67IcoOsBqdd"
       , title = "シンコペーテッド・クロック(ルロイ・アンダーソン)"
-      , filename = "syncopatedclock_crop.pdf"
+      , filename = "syncopatedclock.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1qLVBGoVXIivoP98uAvn3yxF1tK6hoF56"
       , mp3Url = "https://drive.google.com/uc?id=11TFnETlYYEEhpcf_X7ClfuRW3xnDQ7w0"
       , title = "オネスティ(ビリー・ジョエル)"
-      , filename = "honesty_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=188wrXyXOQdT8Lh45BcsnGgXHDwJauZcc"
-      , mp3Url = "https://drive.google.com/uc?id=1SKoTRAQEq_AJIMifawTAkLjsuNW3qODE"
-      , title = "日の丸の旗（しろじにあかくひのまるそめて）"
-      , filename = "hinomaru_crop.pdf"
+      , filename = "honesty.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=15ETizs6k2i0-DOzVrGVL7stHTNZKNrWV"
       , mp3Url = "https://drive.google.com/uc?id=1DCKvW0_W3slyIBUyYw1Y902gLCAD-nAZ"
       , title = "ビッグ・ベンの鐘(ウェストミンスター宮殿の時計)"
-      , filename = "bigben_crop.pdf"
+      , filename = "bigben.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1lNT8N9TuQEgJH840sp4j19LbILyv-D2C"
       , mp3Url = "https://drive.google.com/uc?id=1BhHv9LrNPP72BjieWt6VHUSji9vkWGTG"
       , title = "恋は水色(ポール・モーリア)"
-      , filename = "lamourestbleu_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=12uS1zpcbylGeIip1yI2k-YSooI7db1iq"
-      , mp3Url = "https://drive.google.com/uc?id=1ZQfodN3gM6BZuzSPBgK6kaZj_GJVTRa7"
-      , title = "ここに幸あり(あらしもふけばあめもふる)"
-      , filename = "kokonisachi_crop.pdf"
+      , filename = "lamourestbleu.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1-wOeFLfqnVM96CJ5nz6Bav4mC00QfB0K"
       , mp3Url = "https://drive.google.com/uc?id=1vyTgp3Pe3vJL7f2NeY77_uNmcXG0TCQ9"
       , title = "ポリリズム(Perfume とてもだいじなきみのおもいは)"
-      , filename = "polyrhythm_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1VUL2KCXmQe8bgEXxjLDTPnT_FpX3tzPn"
-      , mp3Url = "https://drive.google.com/uc?id=1GJMpEGadPsX0RXVdRRy89_kv_GGv-NDq"
-      , title = "船頭さん(むらのわたしのせんどさんは)"
-      , filename = "sendo_crop.pdf"
+      , filename = "polyrhythm.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1Q-qvIUB4vJhojte5Gl4TcebEfnP2XoXs"
       , mp3Url = "https://drive.google.com/uc?id=1ULAQpP62VcW3oGR4LcZzgS-7-yutIsVk"
       , title = "春よ、来い(松任谷由美。あわきひたりたつにわかあめ)"
-      , filename = "haruyokoimatsutoya_crop.pdf"
+      , filename = "haruyokoimatsutoya.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=167ShNKUA5n2FmUB5k5IhMu02XRZvmuJY"
       , mp3Url = "https://drive.google.com/uc?id=1_XRfq3pQyshxhjGk4jnxGEGp3XNzj-tz"
       , title = "浪花節だよ人生は(のめといわれてすなおにのんだ)"
-      , filename = "naniwabushi_crop.pdf"
+      , filename = "naniwabushi.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1LMibWxQMAnQQzel6SMeQJzNMeaCab2Fs"
       , mp3Url = "https://drive.google.com/uc?id=1xvUEHUkyZ566gXRaSgNhxQ8QeT-nmWe1"
       , title = "マルエツの歌(どくたーげんきどくたーげんき)"
-      , filename = "maruetsu_crop.pdf"
+      , filename = "maruetsu.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1SOgvT204wgKf8ZOm0L1sVl85sjI8druw"
       , mp3Url = "https://drive.google.com/uc?id=13EUkyyxzgmZvdSIkxhhG-kce5rsL0Gh-"
       , title = "ローソンストア100(ひゃくひゃくひゃくえん)"
-      , filename = "lawsonhyaku_crop.pdf"
+      , filename = "lawsonhyaku.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1J24Drfi9KqQ8r52P_qnXdfDHdufXcS1F"
       , mp3Url = "https://drive.google.com/uc?id=1s4yIJlA9llHSjFhEWB4-0zNDO0VguDHt"
       , title = "ケーズデンキの歌(ゆめゆめはっぴーいつでもやすい)"
-      , filename = "ksdenki_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1_CSUWA7UdHIi-XkZyTox6XvlyZIuIDS3"
-      , mp3Url = "https://drive.google.com/uc?id=1pBWatBDUqpYCTsYn1QZYN3x8kfaCE7So"
-      , title = "すみだ川(いちょうがえしにくろじゅすかけて)"
-      , filename = "sumidagawa_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1BESFYnIdiVzFxrWJyQ4L6FTY8P2cqi65"
-      , mp3Url = "https://drive.google.com/uc?id=1oX8_axx6ICXtSqQANokK8Q9ZUKhtU8u-"
-      , title = "誰か故郷を想わざる(はなつむのべにひはおちて)"
-      , filename = "darekakokyowo_crop.pdf"
+      , filename = "ksdenki.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1n4j-GgKcCdbJh6N65PEA_objdUznXmVo"
       , mp3Url = "https://drive.google.com/uc?id=10kEgfV2KGjM9oWWaB10wnz1W8asNyPuP"
       , title = "セサミストリートのテーマ(さーにーでい)"
-      , filename = "sesamistreet_crop.pdf"
+      , filename = "sesamistreet.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1W3zQLhVYpuP3T5wBGCUp6btNHdbDlgSf"
       , mp3Url = "https://drive.google.com/uc?id=1hVZr4Wy-Lu-D37R7NlW0-2lDPORKqCt-"
@@ -1594,6 +1569,31 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1Zk-mEbKwkAkS1Mv3739Fp39BkyjNNWW8"
       , title = "ハイ・ホー(くちぶえをげんきにふきならし、ディズニー「白雪姫」)"
       , filename = "heighho.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1yNb_hgcUcS2yhL6y-C0IR3RkP14gw5zH"
+      , mp3Url = "https://drive.google.com/uc?id=1SKoTRAQEq_AJIMifawTAkLjsuNW3qODE"
+      , title = "日の丸の旗（しろじにあかくひのまるそめて）"
+      , filename = "hinomaru.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=12r_phKOpMKpuuONT-yKQ-sUF7ga8wE9g"
+      , mp3Url = "https://drive.google.com/uc?id=1ZQfodN3gM6BZuzSPBgK6kaZj_GJVTRa7"
+      , title = "ここに幸あり(あらしもふけばあめもふる)"
+      , filename = "kokonisachi.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1IHQftIQnW50VznxYsMYMFjFhIalkkufu"
+      , mp3Url = "https://drive.google.com/uc?id=1GJMpEGadPsX0RXVdRRy89_kv_GGv-NDq"
+      , title = "船頭さん(むらのわたしのせんどさんは)"
+      , filename = "sendo.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=11P1bRPGgRe2jpHfyp8hf9YyzDFOhG_Uq"
+      , mp3Url = "https://drive.google.com/uc?id=1pBWatBDUqpYCTsYn1QZYN3x8kfaCE7So"
+      , title = "すみだ川(いちょうがえしにくろじゅすかけて)"
+      , filename = "sumidagawa.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1BESFYnIdiVzFxrWJyQ4L6FTY8P2cqi65"
+      , mp3Url = "https://drive.google.com/uc?id=1oX8_axx6ICXtSqQANokK8Q9ZUKhtU8u-"
+      , title = "誰か故郷を想わざる(はなつむのべにひはおちて)"
+      , filename = "darekakokyowo.pdf"
       }
 
 
