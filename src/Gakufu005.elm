@@ -363,51 +363,21 @@ dict =
       , title = "セサミストリートのテーマ(さーにーでい)"
       , filename = "sesamistreet.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1W3zQLhVYpuP3T5wBGCUp6btNHdbDlgSf"
-      , mp3Url = "https://drive.google.com/uc?id=1hVZr4Wy-Lu-D37R7NlW0-2lDPORKqCt-"
-      , title = "人生劇場(やるとおもえばどこまでやるさ)"
-      , filename = "jinseigekijo_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=11ctXsjEY9rBb_hrcVuNOH-qMev8tfQXo"
-      , mp3Url = "https://drive.google.com/uc?id=1liG2KJmpcKPVtNZmsQ2Ad-ItMq9JgQZK"
-      , title = "若いお巡りさん(もしもしべんちでささやくおふたりさん)"
-      , filename = "wakaiomawari_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1FifM8JOuZ21xBEHoaghtip8JIGjeHZAf"
-      , mp3Url = "https://drive.google.com/uc?id=1LM1PubosJqRlZ-pfOmGQDlf4JQU5n0X3"
-      , title = "冬の夜(ともしびちかくきぬぬうははは)"
-      , filename = "fuyunoyoru_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=10BcCa0dQCM96bgoqdmG7EONVg5X3-4sL"
-      , mp3Url = "https://drive.google.com/uc?id=1KS4aY0fLc-zgijI_uiXUyJZXbEJ_oiT4"
-      , title = "カチューシャ(りんごのはなほころび)"
-      , filename = "katyusha_crop.pdf"
-      }
     , { jpgUrl = "https://drive.google.com/uc?id=14vFMATcmJ9XV6h_TAEPmVcvdcNfsIWO8"
       , mp3Url = "https://drive.google.com/uc?id=1IZYVIRAMdYTxTl4buyZpEgU8MlBohZz8"
       , title = "ハート・アンド・ソウル(Heart and Soul)"
-      , filename = "heartandsoul_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1CkKIovxNSw81c9UETMw-LfoWXXhFpqqT"
-      , mp3Url = "https://drive.google.com/uc?id=1qgAEpjx8F1EmmWmIoItpt0jNK0bRgR7l"
-      , title = "世界に一つだけの花(はなやのみせさきにならんだ)"
-      , filename = "sekainihitotsu_crop.pdf"
+      , filename = "heartandsoul.pdf"
       }
 
     , { jpgUrl = "https://drive.google.com/uc?id=14rSEr5sGqWguJVfCjOqUN3niHthbww0s"
       , mp3Url = "https://drive.google.com/uc?id=187rB_4IbKxlySnLWvOLKotNwPCLlfc_t"
       , title = "東京節(パイノパイノパイ)"
-      , filename = "tokyobushi_crop.pdf"
+      , filename = "tokyobushi.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1Q-upRUVCBtjYMzn_Cv19aya7U7-QgbLi"
       , mp3Url = "https://drive.google.com/uc?id=14sJKZB5sU_97W98x9DQr4IaeE2iNICQ8"
       , title = "行商人(コロブチカ、korobeiniki, korobushka)"
-      , filename = "korobeiniki_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1J5VCpeUwtwgmArZ8l2sa-OJEPHfCHyMF"
-      , mp3Url = "https://drive.google.com/uc?id=1RaXRO1Wm15RgDb4-SzFcqV_SfzpkI9Ys"
-      , title = "春よ来い(はるよこいはやくこいあるきはじめた)"
-      , filename = "haruyokoishoka_crop.pdf"
+      , filename = "korobeiniki.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1a1mn2DXPQaJxrBudJhZw7iWVqU_AgOaE"
       , mp3Url = "https://drive.google.com/uc?id=1fkBoUIZ_yISrn-4qcnICromLiYbqTG44"
@@ -432,47 +402,42 @@ dict =
     , { jpgUrl = "https://drive.google.com/uc?id=1XcrL82FKCba7bM487s7PNMmsNUI4REFE"
       , mp3Url = "https://drive.google.com/uc?id=1RQlxrWBJVr70okBGvml5Z6nkb1bLBGeF"
       , title = "冬のソナタ(最初から今まで )"
-      , filename = "fuyunosonata_crop.pdf"
+      , filename = "fuyunosonata.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1jE0-N9KOGFq8Wok-CzplCIyvhI_jXvfA"
       , mp3Url = "https://drive.google.com/uc?id=1e5SNtOTP_PV5xyPiU0zJyxSUJTqKm3Y0"
       , title = "いつも何度でも(千と千尋の神隠し。よんでいるどこかむねのおくで)"
-      , filename = "itsumonando_crop.pdf"
+      , filename = "itsumonando.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1Z2kMe0ghb6jC5Uxuv65KCq_ygY3LttPG"
       , mp3Url = "https://drive.google.com/uc?id=1UBsVhZHAFJZp0TXFAFin46CKQ8hrgL8Q"
       , title = "主よ人の望みの喜びよ(J.S.バッハ)"
-      , filename = "shuyohitononozomino_crop.pdf"
+      , filename = "shuyohitononozomino.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1jm6PhloLJV6GrcLYsZ6CsvyzHz2hBQbj"
       , mp3Url = "https://drive.google.com/uc?id=1kkHN0Mira_KfuGNOR-0dNJNuAAdyQVyT"
       , title = "ありのままで(アナと雪の女王イントロ。let It Go)"
-      , filename = "letitgointro_crop.pdf"
+      , filename = "letitgointro.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1zYnzkMg3wuTLmr7LjskscLGsO1EQou3l"
       , mp3Url = "https://drive.google.com/uc?id=1Zj84PnbjxCJ6stycApbUUpRVexGJKl_U"
       , title = "ます(シューベルト)"
-      , filename = "masu_crop.pdf"
+      , filename = "masu.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1ib49mMTNbJqrPOStCxNWqwaIFT758XTb"
       , mp3Url = "https://drive.google.com/uc?id=1w7yAe4dKezP1tZn7GssP-YcaO1MN6-Vh"
       , title = "華麗なる大円舞曲(ショパン)"
-      , filename = "kareinaru_crop.pdf"
+      , filename = "kareinaru.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1zgnlJbF9fyF6uXkx_jEG0PX3d2DhM2bV"
       , mp3Url = "https://drive.google.com/uc?id=111giGLdFiDE8pvVnfwP31gq04M5vPXH7"
       , title = "天国と地獄(オッフェンバック)"
-      , filename = "tengokujigoku_crop.pdf"
+      , filename = "tengokujigoku.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=17x2M9193-I44D2yJrZ6PZkMpSyQLOJOj"
       , mp3Url = "https://drive.google.com/uc?id=17pYZnZMuBo4CCh_gCeWdCBmyZ2z0U86h"
       , title = "クシコス・ポスト(ネッケ)"
-      , filename = "csikospost_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1Tv53HBc0A8qT_aisska_AT1DLGYiGZui"
-      , mp3Url = "https://drive.google.com/uc?id=18AaVTO-KhW8IZz1egNzu1JoWOijt3liQ"
-      , title = "軍艦マーチ(まもるもせむるも)"
-      , filename = "gunkan_crop.pdf"
+      , filename = "csikospost.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1i5vt1PIXpPTxyurhwlr-3KZGRzTmYH74"
       , mp3Url = "https://drive.google.com/uc?id=16OlB-FsTnY-8R1mE5SX_j6-KxzRdFglw"
@@ -1590,10 +1555,45 @@ dict =
       , title = "すみだ川(いちょうがえしにくろじゅすかけて)"
       , filename = "sumidagawa.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1BESFYnIdiVzFxrWJyQ4L6FTY8P2cqi65"
+    , { jpgUrl = "https://drive.google.com/uc?id=1xkwyezJS-y8bPioL7ETN1QKcxD56h_sK"
       , mp3Url = "https://drive.google.com/uc?id=1oX8_axx6ICXtSqQANokK8Q9ZUKhtU8u-"
       , title = "誰か故郷を想わざる(はなつむのべにひはおちて)"
       , filename = "darekakokyowo.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1EpLVJ7bzYqjPltVv6onWcPOSWS4qkXXs"
+      , mp3Url = "https://drive.google.com/uc?id=1hVZr4Wy-Lu-D37R7NlW0-2lDPORKqCt-"
+      , title = "人生劇場(やるとおもえばどこまでやるさ)"
+      , filename = "jinseigekijo.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1iz8929aoeRwTZvK5krR8BXqwmiPRXB69"
+      , mp3Url = "https://drive.google.com/uc?id=1liG2KJmpcKPVtNZmsQ2Ad-ItMq9JgQZK"
+      , title = "若いお巡りさん(もしもしべんちでささやくおふたりさん)"
+      , filename = "wakaiomawari.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1_Nrw6fjI7kzGwfu_kWvlYdn8kETyvc0B"
+      , mp3Url = "https://drive.google.com/uc?id=1LM1PubosJqRlZ-pfOmGQDlf4JQU5n0X3"
+      , title = "冬の夜(ともしびちかくきぬぬうははは)"
+      , filename = "fuyunoyoru.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1g6G2B8XsqxI08M9tPC05paFEz4G7s-J1"
+      , mp3Url = "https://drive.google.com/uc?id=18AaVTO-KhW8IZz1egNzu1JoWOijt3liQ"
+      , title = "軍艦マーチ(まもるもせむるも)"
+      , filename = "gunkan.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1uQUJJn-PM0HgyRuhoLylhQ927uIZA6A6"
+      , mp3Url = "https://drive.google.com/uc?id=1KS4aY0fLc-zgijI_uiXUyJZXbEJ_oiT4"
+      , title = "カチューシャ(りんごのはなほころび)"
+      , filename = "katyusha.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1MsEND9XGBH660ijEQ9r5A6l7Bw_GWqOu"
+      , mp3Url = "https://drive.google.com/uc?id=1qgAEpjx8F1EmmWmIoItpt0jNK0bRgR7l"
+      , title = "世界に一つだけの花(はなやのみせさきにならんだ)"
+      , filename = "sekainihitotsu.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1J5VCpeUwtwgmArZ8l2sa-OJEPHfCHyMF"
+      , mp3Url = "https://drive.google.com/uc?id=1RaXRO1Wm15RgDb4-SzFcqV_SfzpkI9Ys"
+      , title = "春よ来い(はるよこいはやくこいあるきはじめた)"
+      , filename = "haruyokoishoka.pdf"
       }
 
 
