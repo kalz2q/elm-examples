@@ -572,27 +572,12 @@ dict =
     , { jpgUrl = "https://drive.google.com/uc?id=12Dnp3TcPlVFK-tIK_t6xeAEclhlO9tmy"
       , mp3Url = "https://drive.google.com/uc?id=1shHTsftfJiv-HEmA0ebWQ-z2KWdL69SK"
       , title = "森のくまさん(あるひもりのなかくまさんにであった)"
-      , filename = "morinokuma_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1kC8jA8CIcLBSzmHbcKd9QepljctJwAX0"
-      , mp3Url = "https://drive.google.com/uc?id=1tU1Pwv5ZNx9HMF05se3s5q706FIUqosa"
-      , title = "夏の思い出(なつがくればおもいだす)"
-      , filename = "natsunoomoide_crop.pdf"
+      , filename = "morinokuma.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1-7sowp8_dvpF0fJ50zyEw7qsnDjPeJGB"
       , mp3Url = "https://drive.google.com/uc?id=1ZjV1gdDA2MCxg13_oiBeZP9Aqfwr111l"
       , title = "ブラームスのワルツ(円舞曲)"
-      , filename = "waltzbrahms_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1Qi4x1NbTtfIIm2CKoz9VgKfMxYbN_oFz"
-      , mp3Url = "https://drive.google.com/uc?id=104FL3RcK0qNFSuB47sc0Gy27UHjm9hIP"
-      , title = "線路は続くよどこまでも(せんろはつづくよどこまでも)"
-      , filename = "senrowa_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1rZpgU-oY9YENvOM0EIgBiPPetB637lIC"
-      , mp3Url = "https://drive.google.com/uc?id=1-pa2-bO4FXGjr1XtN5vkeN044LGZPf4t"
-      , title = "幸せなら手をたたこう(しあわせならてをたたこう)"
-      , filename = "shiawasenara_crop.pdf"
+      , filename = "waltzbrahms.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1noFwx_rdZJO9iJZRAg610GqjsGUZMYBh"
       , mp3Url = "https://drive.google.com/uc?id=1T3NVl2cE1-2wIr4RcZ0wzmexnsnW-4ny"
@@ -1590,10 +1575,25 @@ dict =
       , title = "一週間(にちようびにいちばにでかけ)"
       , filename = "isshukan.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1oPwlEJBED8QcCZfjyMaaK45rFn7ua8ZR"
+    , { jpgUrl = "https://drive.google.com/uc?id=1elUHV6YB0WZBuUFpzztZHYqAoCr4lLdL"
       , mp3Url = "https://drive.google.com/uc?id=1sb3nxFRAx9PyEHg1ZmGgtu6Ylna3gX4D"
       , title = "川の流れのように(しらずしらずあるいてきた)"
       , filename = "kawanonagare.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1Y562qGRvd-9EtzTxCln2lJ3JibHBvtSo"
+      , mp3Url = "https://drive.google.com/uc?id=1tU1Pwv5ZNx9HMF05se3s5q706FIUqosa"
+      , title = "夏の思い出(なつがくればおもいだす)"
+      , filename = "natsunoomoide.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1X6rWwnDJeB0XnPa7uIELgfJuYMpOAJEP"
+      , mp3Url = "https://drive.google.com/uc?id=104FL3RcK0qNFSuB47sc0Gy27UHjm9hIP"
+      , title = "線路は続くよどこまでも(せんろはつづくよどこまでも)"
+      , filename = "senrowa.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1rZpgU-oY9YENvOM0EIgBiPPetB637lIC"
+      , mp3Url = "https://drive.google.com/uc?id=1-pa2-bO4FXGjr1XtN5vkeN044LGZPf4t"
+      , title = "幸せなら手をたたこう(しあわせならてをたたこう)"
+      , filename = "shiawasenara.pdf"
       }
 
 
