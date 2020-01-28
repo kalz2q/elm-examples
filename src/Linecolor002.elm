@@ -1,9 +1,6 @@
-module Gakufu005 exposing (main)
+module Linecolor002 exposing (main)
 
--- Achieved random list of music => Gakufu004.elm
--- next project is attach a button to show music sheet
--- Todo002.elm will work as reference
---
+-- Next idea is make use of indexedMap
 
 import Browser
 import Html exposing (..)
