@@ -920,8 +920,8 @@ dict =
       , title = "チューリップ(さいたさいたちゅーりっぷのはなが)"
       , filename = "tulip.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1Q2KNpLnyiMMWMG5QYKP7adXXGKr0URZu"
-      , mp3Url = "https://drive.google.com/uc?id=1jlRhWy7kdIhergO6-cjnb6Th-Uyt-2Fz"
+    , { jpgUrl = "https://drive.google.com/uc?id=1jlRhWy7kdIhergO6-cjnb6Th-Uyt-2Fz"
+      , mp3Url = "https://drive.google.com/uc?id=1Q2KNpLnyiMMWMG5QYKP7adXXGKr0URZu"
       , title = "鉄腕アトム(そらをこえてららら)"
       , filename = "tetsuwan.pdf"
       }
@@ -1603,7 +1603,7 @@ dict =
     , { jpgUrl = "https://drive.google.com/uc?id=1giwkfoVHW0oIwz2aK-hFHZu02_7adB8S"
       , mp3Url = "https://drive.google.com/uc?id=1VQY3djnR06RpibM4R_3tZzX5LfmRvtO8"
       , title = "たき火(かきねのかきねのまがりかど)"
-      , filename = "takibi_crop.pdf"
+      , filename = "takibi.pdf"
       }
 
 
