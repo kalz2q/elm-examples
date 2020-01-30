@@ -640,90 +640,50 @@ dict =
       , title = "大きな古時計(おおきなのっぽのふるどけい)"
       , filename = "okinafurudokei.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1HOf_4CuzXjOuZIo5kI8tcwm0Ge7tGKo6"
-      , mp3Url = "https://drive.google.com/uc?id=1j7cLWnJ0BJQupkOXJhOtHGstO_ELiPOL"
-      , title = "かたつむり(でんでんむしむし)"
-      , filename = "katatsumuri_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1aWOgRQhdWADXpPLH9PBvcWrrwebNgkFh"
-      , mp3Url = "https://drive.google.com/uc?id=1cm0S5tGC-yUK7sYuFP_knB9lAXB8IWfh"
-      , title = "ほたるこい"
-      , filename = "hotarukoi_crop.pdf"
-      }
     , { jpgUrl = "https://drive.google.com/uc?id=1qTEnCelZoycCd69i4OlKD_fZdXlVtBGP"
       , mp3Url = "https://drive.google.com/uc?id=19OjobdnGuYn96yuNmvcOlvqVEofBrW3n"
       , title = "かごめかごめ(かごのなかのとりは)"
-      , filename = "kagome_crop.pdf"
+      , filename = "kagome.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1flKwKu9EzJs2AxP2Uw_zqvJ3AtaRtBnf"
       , mp3Url = "https://drive.google.com/uc?id=1e4LEm4DXUaqEyMCqLdHcgXKrE6M7vZyS"
       , title = "かえるの合唱(かえるのうたがきこえてくるよ)"
-      , filename = "kaerunogassho_crop.pdf"
+      , filename = "kaerunogassho.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1bWr6oICBWPLPzW2dUFYWUGW5mC29Si24"
       , mp3Url = "https://drive.google.com/uc?id=1dOb0Zd-bV1yfwKkVvANDZmy-wDGW1M1A"
       , title = "ゆかいな牧場(いちろうさんのまきばでいーあいいーあいおー)"
-      , filename = "yukainamakiba_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1V9xOfDwD6yGGGcAUWSb_udnlDiuGgvkC"
-      , mp3Url = "https://drive.google.com/uc?id=1u5VNeym1x_1TSo8LRKhcN5F4aUX4NMJ0"
-      , title = "ぶんぶんぶん(ぶんぶんぶんはちがとぶ)"
-      , filename = "bunbunbun_crop.pdf"
+      , filename = "yukainamakiba.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1Ez4BeywMtfrBTlAR6GtfHY7FClCaijj0"
       , mp3Url = "https://drive.google.com/uc?id=1Cd05l-iihpVT_a5zeXFNtggvTa7UZVyd"
       , title = "大きな栗の木の下で(おおきなくりのきのしたで)"
-      , filename = "okinakuri_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1KzatRA02xsN9LsrBbPFSPm7Kg9b4S7kt"
-      , mp3Url = "https://drive.google.com/uc?id=1n4vPS1PVcR09hIeEnngs4YzLw6yMxfEb"
-      , title = "とんぼのめがね"
-      , filename = "tonbono_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1Qe4tiRgEtZv-XVrUf9C9PuucAEM4MsuJ"
-      , mp3Url = "https://drive.google.com/uc?id=186fahMimqSAbgc-24_R_ogjsrerNVfXw"
-      , title = "お正月(もういくつねるとおしょうがつ)"
-      , filename = "oshogatsu_crop.pdf"
+      , filename = "okinakuri.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1dtrqgTM1a_FuGcRS7pCQ45m6tpK2XG4j"
       , mp3Url = "https://drive.google.com/uc?id=1C-FH8z0sjNk34NK_CwG5YmtJ50ngkAfg"
       , title = "凱旋行進曲(ヴェルディ。アイーダ)"
-      , filename = "gaisen_crop.pdf"
+      , filename = "gaisen.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1jsm43y2et47tEXW5XiVEgqwRynF3tmMq"
       , mp3Url = "https://drive.google.com/uc?id=1wfPPWpGdQwjB7QcWXIm1qZwt6-YN7Lno"
       , title = "Ob-La-Di, Ob-La-Da (ビートルズ)"
-      , filename = "obladi_crop.pdf"
+      , filename = "obladi.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1gi9N06Fn5X3JoKpTKPv8FGq33BqgtrfA"
       , mp3Url = "https://drive.google.com/uc?id=1iVF-9H9cuc9hkrT3y3JA6gRgTGYGROsJ"
       , title = "Carry That Weight (ビートルズ)"
-      , filename = "carrythatweight_crop.pdf"
+      , filename = "carrythatweight.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1YkNtnNZ8D2XUmc_pEVNT0-2wAbSjB45W"
       , mp3Url = "https://drive.google.com/uc?id=1dD-LpMMBPgnXhcrL7RzrUiv02ihFV_6t"
       , title = "Across the Universe (ビートルズ)"
-      , filename = "acrossuniverse_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1mP_OM3oWM1SpzrH8J9N00ZiHXZwKFHhD"
-      , mp3Url = "https://drive.google.com/uc?id=1guwbOZo8bSfw66PyXC2t4OdPViKtadRN"
-      , title = "有楽町で逢いましょう(あなたをまてばあめがふる)"
-      , filename = "yurakucho_crop.pdf"
+      , filename = "acrossuniverse.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1w758ucrQ8iOGBNe58Su4I-thIUkbk5lr"
       , mp3Url = "https://drive.google.com/uc?id=1wQvReBXq6S9yNk0qGrTqSjsERIFraU1T"
       , title = "秋桜(うすべにのこすもすがあきのひの)"
-      , filename = "cosmos_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1dKzyqi2R-BRWpB1urm1yYtRjy6KQrqia"
-      , mp3Url = "https://drive.google.com/uc?id=1W3Uj4G1xupngrcJjI773Nu7wefJXAl7U"
-      , title = "だんご３兄弟(くしにささってだんごだんご)"
-      , filename = "dango3kyodai_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1gBrFQXn7493yX1wU6KUF1KabtxsRKLby"
-      , mp3Url = "https://drive.google.com/uc?id=1jOdhUTybguaIK2O-25NrD7bxqkClKIII"
-      , title = "チム・チム・チェリー(ちむちむにーちむちむにー)"
-      , filename = "chimchimcheree_crop.pdf"
+      , filename = "cosmos.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1JYXpUnLFgTyht62TFMCq-JePJJEPSWCS"
       , mp3Url = "https://drive.google.com/uc?id=1XpVxzqAUwjglsqW_3s-_b1gn4LL_pPss"
@@ -1600,10 +1560,50 @@ dict =
       , title = "茶摘み(ちゃつみ。なつもちかづくはちじゅうはちや)"
       , filename = "chatsumi.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1giwkfoVHW0oIwz2aK-hFHZu02_7adB8S"
+    , { jpgUrl = "https://drive.google.com/uc?id=18JU_g7I6ZpdaWjVLDP52YuX35kwqrCgB"
       , mp3Url = "https://drive.google.com/uc?id=1VQY3djnR06RpibM4R_3tZzX5LfmRvtO8"
-      , title = "たき火(かきねのかきねのまがりかど)"
+      , title = "たきび(かきねのかきねのまがりかど)"
       , filename = "takibi.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1G8RoXsuV69aFQCFMo9q5edIX6E_Ytk76"
+      , mp3Url = "https://drive.google.com/uc?id=1j7cLWnJ0BJQupkOXJhOtHGstO_ELiPOL"
+      , title = "かたつむり(でんでんむしむし)"
+      , filename = "katatsumuri.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1YYrhvvTdLosl6Zr3oxFzaJKcL7jRNwOh"
+      , mp3Url = "https://drive.google.com/uc?id=1cm0S5tGC-yUK7sYuFP_knB9lAXB8IWfh"
+      , title = "ほたるこい"
+      , filename = "hotarukoi.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1dGxAqIWZJXOKKlp5lZ59Of_NHum1CPFu"
+      , mp3Url = "https://drive.google.com/uc?id=1u5VNeym1x_1TSo8LRKhcN5F4aUX4NMJ0"
+      , title = "ぶんぶんぶん(ぶんぶんぶんはちがとぶ)"
+      , filename = "bunbunbun.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=12Rj4kg7S7PKdCnXLc2_xyiApjZ82w5Ky"
+      , mp3Url = "https://drive.google.com/uc?id=1n4vPS1PVcR09hIeEnngs4YzLw6yMxfEb"
+      , title = "とんぼのめがね"
+      , filename = "tonbono.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1VQaM6zc6CrP05Vuap5cckvhpp2IXdPVc"
+      , mp3Url = "https://drive.google.com/uc?id=186fahMimqSAbgc-24_R_ogjsrerNVfXw"
+      , title = "お正月(もういくつねるとおしょうがつ)"
+      , filename = "oshogatsu.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1LoMlLfeZY6HGMABHn5rfm3ZYJn-Ekbt8"
+      , mp3Url = "https://drive.google.com/uc?id=1guwbOZo8bSfw66PyXC2t4OdPViKtadRN"
+      , title = "有楽町で逢いましょう(あなたをまてばあめがふる)"
+      , filename = "yurakucho.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1vqAe0tQMsuIuWLbG2im2O1FDHALBusYT"
+      , mp3Url = "https://drive.google.com/uc?id=1W3Uj4G1xupngrcJjI773Nu7wefJXAl7U"
+      , title = "だんご３兄弟(くしにささってだんごだんご)"
+      , filename = "dango3kyodai.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1gBrFQXn7493yX1wU6KUF1KabtxsRKLby"
+      , mp3Url = "https://drive.google.com/uc?id=1jOdhUTybguaIK2O-25NrD7bxqkClKIII"
+      , title = "チム・チム・チェリー(ちむちむにーちむちむにー)"
+      , filename = "chimchimcheree.pdf"
       }
 
 
