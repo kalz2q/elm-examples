@@ -700,16 +700,6 @@ dict =
       , title = "きらきら星(きらきらぼし)"
       , filename = "kirakira.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1NfvPvMy2blRpQlZz2BZWS7B6411ZjgqX"
-      , mp3Url = "https://drive.google.com/uc?id=1vCqmeM_3oHcPXc0TfcsbVKzGogqAPSQy"
-      , title = "南国土佐を後にして(なんごくとさをあとにして)"
-      , filename = "nangoku_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=18WLkC8bvQ8tdqTtNTu6BAkC_flrEpPOw"
-      , mp3Url = "https://drive.google.com/uc?id=138icNGZq0dw73cICR9_X3MmRyWfuWASj"
-      , title = "ワンツー・ジェンカ(おおきくくちあけて)"
-      , filename = "onetwojenkka_crop.pdf"
-      }
     , { jpgUrl = "https://drive.google.com/uc?id=14HRCzYdHtrAVcsfhM3oDCDITJswfVJ8g"
       , mp3Url = "https://drive.google.com/uc?id=17m13_3iKfJbNOWkU6urrK3lNo_5jliEb"
       , title = "再会(さいかい。あえなくなってはじめてしった)"
@@ -1600,10 +1590,20 @@ dict =
       , title = "みかんの花咲く丘(みかんのはながさいている)"
       , filename = "mikan.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1tpGhYrxnEuVbluuK5rtj0e5RSHatBjPW"
+    , { jpgUrl = "https://drive.google.com/uc?id=1TU2CQlv639ZuRI4zFYAxpLRZ5DGyAg99"
       , mp3Url = "https://drive.google.com/uc?id=1KfcECeAU9dim-g8cb-dB391QiqvZl5b_"
       , title = "虫の声(あれまつむしがないている)"
       , filename = "mushinokoe.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1UbkY__rPUnMs3DPamim-VnN9WJifAwsl"
+      , mp3Url = "https://drive.google.com/uc?id=1vCqmeM_3oHcPXc0TfcsbVKzGogqAPSQy"
+      , title = "南国土佐を後にして(なんごくとさをあとにして)"
+      , filename = "nangoku.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=18WLkC8bvQ8tdqTtNTu6BAkC_flrEpPOw"
+      , mp3Url = "https://drive.google.com/uc?id=138icNGZq0dw73cICR9_X3MmRyWfuWASj"
+      , title = "ワンツー・ジェンカ(おおきくくちあけて)"
+      , filename = "onetwojenkka.pdf"
       }
 
 
