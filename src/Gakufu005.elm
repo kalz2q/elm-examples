@@ -688,32 +688,17 @@ dict =
     , { jpgUrl = "https://drive.google.com/uc?id=1JYXpUnLFgTyht62TFMCq-JePJJEPSWCS"
       , mp3Url = "https://drive.google.com/uc?id=1XpVxzqAUwjglsqW_3s-_b1gn4LL_pPss"
       , title = "夜霧よ今夜もありがとう(しのびあうこいをつつむよぎりよ)"
-      , filename = "yogiriyo_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1dknMDQb0ovZlIKfOZvO-VGQhMTdLj7qG"
-      , mp3Url = "https://drive.google.com/uc?id=1GcyV-v2HA1z9UZoWV0dE9EHiadxIVk6r"
-      , title = "星の流れに(ほしのながれにみをうらなって)"
-      , filename = "hoshinonagareni_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1hc_X37Yq9v-h6BUruUJuVMNo4KzxmtBX"
-      , mp3Url = "https://drive.google.com/uc?id=1HvoxTFUG58F_TgvbEgCbuReF9UIwtJXO"
-      , title = "一月一日(いちがついちじつ、としのはじめのためしとて)"
-      , filename = "ichigatsuichijitsu_crop.pdf"
+      , filename = "yogiriyo.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1inlv7kc1MX-dbb8CruQOreyXcVzc5-9E"
       , mp3Url = "https://drive.google.com/uc?id=1ztUG1OikJ7JeqvHFf-UaVnNfMm07B7XQ"
       , title = "かっこう"
-      , filename = "kakkou_crop.pdf"
+      , filename = "kakkou.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1T0IJaCENt_IScNDFTPR2GhN1m5P7Djsx"
       , mp3Url = "https://drive.google.com/uc?id=15BadqA9mHDFaaqeWlOWr13BRkpgdjGRe"
       , title = "きらきら星(きらきらぼし)"
-      , filename = "kirakira_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1RrWKKGSWTQ67a-umksQptHwQ-h9zHWZQ"
-      , mp3Url = "https://drive.google.com/uc?id=1AQXeEqQyRw_IEDCC6fDz-Mo74NcdblLN"
-      , title = "こいのぼり(やねよりたかい)"
-      , filename = "koinobori_crop.pdf"
+      , filename = "kirakira.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1NyUcLay6k1sZ_vLbK-XvQYN3ceZv7CBU"
       , mp3Url = "https://drive.google.com/uc?id=11AWOtUPoD3lo9-4_sHG65dILeHb-Xonv"
@@ -1600,14 +1585,26 @@ dict =
       , title = "だんご３兄弟(くしにささってだんごだんご)"
       , filename = "dango3kyodai.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1gBrFQXn7493yX1wU6KUF1KabtxsRKLby"
+    , { jpgUrl = "https://drive.google.com/uc?id=1shul0lHD5ktjmU7T1twXO26P47duc6hi"
       , mp3Url = "https://drive.google.com/uc?id=1jOdhUTybguaIK2O-25NrD7bxqkClKIII"
       , title = "チム・チム・チェリー(ちむちむにーちむちむにー)"
       , filename = "chimchimcheree.pdf"
       }
-
-
-
+    , { jpgUrl = "https://drive.google.com/uc?id=1SmQYnELy7Qf6S-HLHitb1f7_z1hqzwPg"
+      , mp3Url = "https://drive.google.com/uc?id=1GcyV-v2HA1z9UZoWV0dE9EHiadxIVk6r"
+      , title = "星の流れに(ほしのながれにみをうらなって)"
+      , filename = "hoshinonagareni.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1AC_Inh08SIPQcfk3o0dZbCTOvWu6BPEa"
+      , mp3Url = "https://drive.google.com/uc?id=1HvoxTFUG58F_TgvbEgCbuReF9UIwtJXO"
+      , title = "一月一日(いちがついちじつ、としのはじめのためしとて)"
+      , filename = "ichigatsuichijitsu.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1RrWKKGSWTQ67a-umksQptHwQ-h9zHWZQ"
+      , mp3Url = "https://drive.google.com/uc?id=1AQXeEqQyRw_IEDCC6fDz-Mo74NcdblLN"
+      , title = "こいのぼり(やねよりたかい)"
+      , filename = "koinobori.pdf"
+      }
 
 
     ]
