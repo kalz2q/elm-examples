@@ -700,21 +700,6 @@ dict =
       , title = "きらきら星(きらきらぼし)"
       , filename = "kirakira.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1NyUcLay6k1sZ_vLbK-XvQYN3ceZv7CBU"
-      , mp3Url = "https://drive.google.com/uc?id=11AWOtUPoD3lo9-4_sHG65dILeHb-Xonv"
-      , title = "この道(このみちはいつかきたみち)"
-      , filename = "konomichi_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=18Boa9DB6ZxxJsSEb2sXDsv6eCnZ2paNa"
-      , mp3Url = "https://drive.google.com/uc?id=1dYYIxaHwSF6t4uxZuuT--0INe9A-WC7h"
-      , title = "この世の花(このよのはな。あかくさくはなあおいはな)"
-      , filename = "konoyonohana_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1ttMc_D4ZBvm2EzGV_Yh92TrM_-YnMlBY"
-      , mp3Url = "https://drive.google.com/uc?id=1vDroijqShW2tf4bzOc72Zg-XbcvpsgU2"
-      , title = "ミッキーマウス・マーチ(ぼくらのくらぶのりーだーは)"
-      , filename = "mickeymousemarch_crop.pdf"
-      }
     , { jpgUrl = "https://drive.google.com/uc?id=1AA7Jz2e8ta_d_3sxPUeCER9d_NASCXop"
       , mp3Url = "https://drive.google.com/uc?id=1RbdbOoBqc0KBPtph1k1qnE7zG4RCC1OT"
       , title = "みかんの花咲く丘(みかんのはながさいている)"
@@ -1600,10 +1585,25 @@ dict =
       , title = "一月一日(いちがついちじつ、としのはじめのためしとて)"
       , filename = "ichigatsuichijitsu.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1RrWKKGSWTQ67a-umksQptHwQ-h9zHWZQ"
+    , { jpgUrl = "https://drive.google.com/uc?id=1VHppJF6lbb08GC-90w6YACugdHqf54b-"
       , mp3Url = "https://drive.google.com/uc?id=1AQXeEqQyRw_IEDCC6fDz-Mo74NcdblLN"
       , title = "こいのぼり(やねよりたかい)"
       , filename = "koinobori.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1pbm9b53o5LXPJYBLyIydku6ZxQf1FaYK"
+      , mp3Url = "https://drive.google.com/uc?id=11AWOtUPoD3lo9-4_sHG65dILeHb-Xonv"
+      , title = "この道(このみちはいつかきたみち)"
+      , filename = "konomichi.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1plGF2BUy6A1W3q_XkJ_0a89j27Fe2LKy"
+      , mp3Url = "https://drive.google.com/uc?id=1dYYIxaHwSF6t4uxZuuT--0INe9A-WC7h"
+      , title = "この世の花(このよのはな。あかくさくはなあおいはな)"
+      , filename = "konoyonohana.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1ttMc_D4ZBvm2EzGV_Yh92TrM_-YnMlBY"
+      , mp3Url = "https://drive.google.com/uc?id=1vDroijqShW2tf4bzOc72Zg-XbcvpsgU2"
+      , title = "ミッキーマウス・マーチ(ぼくらのくらぶのりーだーは)"
+      , filename = "mickeymousemarch.pdf"
       }
 
 
