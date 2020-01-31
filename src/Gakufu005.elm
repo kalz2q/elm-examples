@@ -700,16 +700,6 @@ dict =
       , title = "きらきら星(きらきらぼし)"
       , filename = "kirakira.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1AA7Jz2e8ta_d_3sxPUeCER9d_NASCXop"
-      , mp3Url = "https://drive.google.com/uc?id=1RbdbOoBqc0KBPtph1k1qnE7zG4RCC1OT"
-      , title = "みかんの花咲く丘(みかんのはながさいている)"
-      , filename = "mikan_crop.pdf"
-      }
-    , { jpgUrl = "https://drive.google.com/uc?id=1tpGhYrxnEuVbluuK5rtj0e5RSHatBjPW"
-      , mp3Url = "https://drive.google.com/uc?id=1KfcECeAU9dim-g8cb-dB391QiqvZl5b_"
-      , title = "虫の声(あれまつむしがないている)"
-      , filename = "mushinokoe_crop.pdf"
-      }
     , { jpgUrl = "https://drive.google.com/uc?id=1NfvPvMy2blRpQlZz2BZWS7B6411ZjgqX"
       , mp3Url = "https://drive.google.com/uc?id=1vCqmeM_3oHcPXc0TfcsbVKzGogqAPSQy"
       , title = "南国土佐を後にして(なんごくとさをあとにして)"
@@ -1600,10 +1590,20 @@ dict =
       , title = "この世の花(このよのはな。あかくさくはなあおいはな)"
       , filename = "konoyonohana.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1ttMc_D4ZBvm2EzGV_Yh92TrM_-YnMlBY"
+    , { jpgUrl = "https://drive.google.com/uc?id=1d2xnCa8m97RywIk_m5CFyO4V0IluYyx6"
       , mp3Url = "https://drive.google.com/uc?id=1vDroijqShW2tf4bzOc72Zg-XbcvpsgU2"
       , title = "ミッキーマウス・マーチ(ぼくらのくらぶのりーだーは)"
       , filename = "mickeymousemarch.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1oEJxJ_m3wsvDtvSjQRcIUoxN2U4MaItv"
+      , mp3Url = "https://drive.google.com/uc?id=1RbdbOoBqc0KBPtph1k1qnE7zG4RCC1OT"
+      , title = "みかんの花咲く丘(みかんのはながさいている)"
+      , filename = "mikan.pdf"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1tpGhYrxnEuVbluuK5rtj0e5RSHatBjPW"
+      , mp3Url = "https://drive.google.com/uc?id=1KfcECeAU9dim-g8cb-dB391QiqvZl5b_"
+      , title = "虫の声(あれまつむしがないている)"
+      , filename = "mushinokoe.pdf"
       }
 
 
