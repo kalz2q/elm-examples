@@ -1750,11 +1750,22 @@ dict =
           , title = "金魚の昼寝(あかいべべきたかわいいきんぎょ)"
           , filename = "kingyonohirune.pdf"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1MnmIEQ1-arurlh6Hi2FOFRbCZ7G2wprO"
+          , mp3Url = "https://drive.google.com/uc?id=1dw88-7e8Xrtcu7MZM74yhQzluo2A6uqh"
+          , title = "北上夜曲(においやさしいしらゆりのぬれているよな)"
+          , filename = "kitakamiyakyoku.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1iCNj7IWaxV2J5R7e4zupjTQcFXJwDJmJ"
+          , mp3Url = "https://drive.google.com/uc?id=1Zkqdv8w9AJARbAqOKDksUMk0NDLKgpMk"
+          , title = "汽車(いまはやまなかいまははまいまはてっきょうわたるぞと)"
+          , filename = "kishaimawa.pdf"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "北上夜曲(においやさしいしらゆりのぬれているよな)"
---   , filename = "kitakamiyakyoku.pdf"
+--   , title = "紀元節(くもにそびゆるたかちほの)"
+--   , filename = "kigensetsu.pdf"
 --   }
+
 
 
     ]
