@@ -1745,8 +1745,16 @@ dict =
           , title = "銀座カンカン娘(あのこかわいやかんかんむすめ)"
           , filename = "ginzakankan.pdf"
           }
-
-
+        , { jpgUrl = "https://drive.google.com/uc?id=15QPZb2o4PjpGQI0ZldF4ZvOGDAaUCVac"
+          , mp3Url = "https://drive.google.com/uc?id=1aeGezSmhVHwXVmhIokMgJFYkJafCQR4x"
+          , title = "金魚の昼寝(あかいべべきたかわいいきんぎょ)"
+          , filename = "kingyonohirune.pdf"
+          }
+-- , { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "北上夜曲(においやさしいしらゆりのぬれているよな)"
+--   , filename = "kitakamiyakyoku.pdf"
+--   }
 
 
     ]
