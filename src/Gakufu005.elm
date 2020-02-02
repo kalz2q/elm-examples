@@ -1665,10 +1665,70 @@ dict =
           , title = "しゃぼん玉(しゃぼんだまとんだやねまでとんだ)"
           , filename = "shabondama.pdf"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1WYoSzsjIHR4fljRRQ2SRt4dKhiuSBR65"
+          , mp3Url = "https://drive.google.com/uc?id=1c0B3feBACg_u5xbyr6M7LRzGi8XsBwbG"
+          , title = "里の秋(しずかなしずかなさとのあき)"
+          , filename = "satonoaki.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=12kZ_kTAhLpxreM49NacoQBPhBCT2bSeO"
+          , mp3Url = "https://drive.google.com/uc?id=1sDDo1mBVgKl8CyOFKvgIidapu9d_E2gp"
+          , title = "桜井の訣別(あおばしげれるさくらいのさとのわたりのゆうまぐれ)"
+          , filename = "sakurainoketsubetsu.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1dKO5Im19uMszzsHzIpfiWnVKWaeiYUNl"
+          , mp3Url = "https://drive.google.com/uc?id=1nWNeetAQvVZ3bVmZesrfZix3v_g8JMl4"
+          , title = "ゴンドラの歌(いのちみじかしこいせよおとめ)"
+          , filename = "gondola.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Bk_zzvponlDa_mRfHpCX9_6eacfenvG7"
+          , mp3Url = "https://drive.google.com/uc?id=1eoPL359sbkVrwMp-jWnz8UF85AiDI_gm"
+          , title = "金色夜叉(あたみのかいがんさんぽする)"
+          , filename = "konjikiyasha.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1k_1d9DkfVoYul0ZkyrQfnzPy3LBO8Lry"
+          , mp3Url = "https://drive.google.com/uc?id=19LVjRAlrhKV-eMP1B7G-k6mGMjYnnq27"
+          , title = "湖畔の宿(やまのさびしいみずうみにひとりきたのもかなしいこころ)"
+          , filename = "kohannoyado.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1iey-uHyD8bAlretxjmKpRl7Cf3Wf8zrE"
+          , mp3Url = "https://drive.google.com/uc?id=1YSmZYetjNEf7WKaEhWF9ExmmmmTbde7G"
+          , title = "国境の町(そりのすずさえさびしくひびく)"
+          , filename = "kokkyonomachi.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=19U5PO_B1VaEuZ1EfdXCxXxvXJgbOF6sb"
+          , mp3Url = "https://drive.google.com/uc?id=1-myodlYd9qLioMsg0fqnVRe4o8tFjND-"
+          , title = "故郷の廃家(いくとせふるさときてみれば)"
+          , filename = "kokyonohaika.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1G0fB_NyIThB0XkNpv7qB6-H9KyW5fmtr"
+          , mp3Url = "https://drive.google.com/uc?id=1VHL9xH9MET1iD0BDlxY8DxTbiVfKKKnp"
+          , title = "故郷の空(ゆうぞらはれてあきかぜふき)"
+          , filename = "kokyonosora.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1P_rTh5VCCZ1PzFQeFJE46_U_nL9p32nL"
+          , mp3Url = "https://drive.google.com/uc?id=13S-KLGkyeQVPedGgxBor7fnQgXIQKndg"
+          , title = "黄金むし(こがねむしはかねもちだ)"
+          , filename = "koganemushi.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=18IIasSsrbViYa8Zt2vSH5KCyfRDPaNmI"
+          , mp3Url = "https://drive.google.com/uc?id=1QIKUeWHEyMmICaoTLVqAk-eERaU42oWQ"
+          , title = "荒城の月(はるこうろうのはなのえん)"
+          , filename = "kojonotsuki.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1p8jQC1GlB-Hz4fjFgtiDXPUu-w98v8FV"
+          , mp3Url = "https://drive.google.com/uc?id=1kuAe6VDmjA4byUEsx6cmEx8ZURQCV5CI"
+          , title = "高原列車(きしゃのまどからはんけちふれば)"
+          , filename = "kogenressha.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=130ai2SHtgbBkuHASXjMXadb1--pTheUX"
+          , mp3Url = "https://drive.google.com/uc?id=15ooBKi4Uh1odq4c8vUQWmLUcD_SqLRvu"
+          , title = "鯉のぼり(いらかのなみとくものなみ)"
+          , filename = "koinoboriiraka.pdf"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "里の秋(しずかなしずかなさとのあき)"
---   , filename = "satonoaki.pdf"
+--   , title = "ゲイシャ・ワルツ(あなたのりーどでしまだもゆれる)"
+--   , filename = "geishawaltz.pdf"
 --   }
 
 
