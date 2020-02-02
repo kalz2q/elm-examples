@@ -1725,11 +1725,22 @@ dict =
           , title = "鯉のぼり(いらかのなみとくものなみ)"
           , filename = "koinoboriiraka.pdf"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1iz9cEZ691V3rmYGFfJkkzMcad4dyZFK3"
+          , mp3Url = "https://drive.google.com/uc?id=1FU1d-UFnSWvON6uC88NebVddqMzuU0kG"
+          , title = "ゲイシャ・ワルツ(あなたのりーどでしまだもゆれる)"
+          , filename = "geishawaltz.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1hf7hQnIPm8Y_1zwHzGHexnMHsZX_xzuh"
+          , mp3Url = "https://drive.google.com/uc?id=1Y8eiQecwi3AYs52DSXY2wpI7AY_8Q6v4"
+          , title = "くつがなる(おててつないでのみちをゆけば)"
+          , filename = "kutsuganaru.pdf"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "ゲイシャ・ワルツ(あなたのりーどでしまだもゆれる)"
---   , filename = "geishawaltz.pdf"
+--   , title = "金太郎(まさかりかついできんたろう)"
+--   , filename = "kintaro.pdf"
 --   }
+
 
 
     ]
