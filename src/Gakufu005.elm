@@ -1735,11 +1735,17 @@ dict =
           , title = "くつがなる(おててつないでのみちをゆけば)"
           , filename = "kutsuganaru.pdf"
           }
--- , { jpgUrl = ""
---   , mp3Url = ""
---   , title = "金太郎(まさかりかついできんたろう)"
---   , filename = "kintaro.pdf"
---   }
+        , { jpgUrl = "https://drive.google.com/uc?id=1REh_S18-imgGU2UIkESzUUuxPv3WOma3"
+          , mp3Url = "https://drive.google.com/uc?id=1z1XGjfuPRkN4RbGItkbTdYBvjta0GtTm"
+          , title = "金太郎(まさかりかついできんたろう)"
+          , filename = "kintaro.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1jjZ7_MOQ6ZpwZ6IO4dQXebHoVkznoy8M"
+          , mp3Url = "https://drive.google.com/uc?id=1ChqwAiZl4P0SG3UV9fRUnLYpPWbNYa8M"
+          , title = "銀座カンカン娘(あのこかわいやかんかんむすめ)"
+          , filename = "ginzakankan.pdf"
+          }
+
 
 
 
