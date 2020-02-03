@@ -1760,11 +1760,17 @@ dict =
           , title = "汽車(いまはやまなかいまははまいまはてっきょうわたるぞと)"
           , filename = "kishaimawa.pdf"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1qCQqXNX57DtqCmwEXJCQszy22eVhHTXt"
+          , mp3Url = "https://drive.google.com/uc?id=1IShpuKRu5C8_V0GT_zplJ7io_pZNDuX_"
+          , title = "紀元節(くもにそびゆるたかちほの)"
+          , filename = "kigensetsu.pdf"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "紀元節(くもにそびゆるたかちほの)"
---   , filename = "kigensetsu.pdf"
+--   , title = "かわいい魚屋さん(かわいいかわいいさかなやさん)"
+--   , filename = "kawaiisakanayasan.pdf"
 --   }
+
 
 
 
