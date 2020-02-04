@@ -1765,11 +1765,16 @@ dict =
           , title = "紀元節(くもにそびゆるたかちほの)"
           , filename = "kigensetsu.pdf"
           }
--- , { jpgUrl = ""
---   , mp3Url = ""
---   , title = "かわいい魚屋さん(かわいいかわいいさかなやさん)"
---   , filename = "kawaiisakanayasan.pdf"
---   }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Xibay5EsE1w9Pzq8OfW7VevVD8dq_WE2"
+          , mp3Url = "https://drive.google.com/uc?id=10DbVGduOx95_hzMFrFX0-6Nx9i66NOwt"
+          , title = "かわいい魚屋さん(かわいいかわいいさかなやさん)"
+          , filename = "kawaiisakanayasan.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1SZsYiz-57tnhyIMT22vCz_CoOQitUBIS"
+          , mp3Url = "https://drive.google.com/uc?id=1IOFn66cqnH9u3dbIDBaAlQRjsKtqDD3P"
+          , title = "こんにちは赤ちゃん(こんにちはあかちゃんあなたのえがお)"
+          , filename = "konnichiwaakachan.pdf"
+          }
 
 
 
