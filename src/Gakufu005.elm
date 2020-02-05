@@ -1780,12 +1780,16 @@ dict =
           , title = "かもめの水兵さん(かもめのすいへいさんならんだすいへいさん)"
           , filename = "kamomenosuiheisan.pdf"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=11TyPAxzPY7iHALy-EVJzr-25CgUs3-8V"
+          , mp3Url = "https://drive.google.com/uc?id=1PUvg749wfLb82qr-bWO6Bj6XoQIu2zR5"
+          , title = "鐘の鳴る丘(みどりのおかのあかいやねとんがりぼうしの"
+          , filename = "kanenonaruoka.pdf"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "鐘の鳴る丘(みどりのおかのあかいやねとんがりぼうしの"
---   , filename = "kanenonaruoka.pdf"
+--   , title = "カチューシャの唄(かちゅーしゃかわいやわかれのつらさ)"
+--   , filename = "katyushanouta.pdf"
 --   }
-
 
     ]
 -- , { jpgUrl = ""
