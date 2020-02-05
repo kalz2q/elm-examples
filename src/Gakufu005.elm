@@ -1775,8 +1775,16 @@ dict =
           , title = "こんにちは赤ちゃん(こんにちはあかちゃんあなたのえがお)"
           , filename = "konnichiwaakachan.pdf"
           }
-
-
+        , { jpgUrl = "https://drive.google.com/uc?id=1FlFQF8gjFwxKuaPO2wKHxdeHdWdT4ElX"
+          , mp3Url = "https://drive.google.com/uc?id=1MgSU9ymmwtSoW8SojrUpTjRzmr7YunFH"
+          , title = "かもめの水兵さん(かもめのすいへいさんならんだすいへいさん)"
+          , filename = "kamomenosuiheisan.pdf"
+          }
+-- , { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "鐘の鳴る丘(みどりのおかのあかいやねとんがりぼうしの"
+--   , filename = "kanenonaruoka.pdf"
+--   }
 
 
     ]
