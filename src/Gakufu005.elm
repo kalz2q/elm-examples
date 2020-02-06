@@ -1805,6 +1805,51 @@ dict =
           , title = "お山の杉の子(むかしむかしそのむかししいのきばやしのすぐそばに)"
           , filename = "oyamanosuginoko.pdf"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1o38_onW0uEwFVrBgzkaeRKfuvox6JiuT"
+          , mp3Url = "https://drive.google.com/uc?id=15RKITznXD2-m8vn1CYJ0A4Hij_OmhgBZ"
+          , title = "おぼろ月夜(なのはなばたけにいりひうすれ)"
+          , filename = "oborodukiyo.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1YEJxnFIT4LwLacC93WWoDvim9E28jynw"
+          , mp3Url = "https://drive.google.com/uc?id=1F6QvGSdN6R_3NwE4XS2rE6Vo-TIbmNt7"
+          , title = "おさるのかごや(えっさえっさえっさほいさっさ)"
+          , filename = "osarunokagoya.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1ljT7FsW7XvrUc2DWtmBCT1Md9fnyoR5N"
+          , mp3Url = "https://drive.google.com/uc?id=180YFa5HUPmWq5NR2UfzgnYfq0diwUAP6"
+          , title = "うれしいひなまつり(あかりをつけましょぼんぼりに)"
+          , filename = "ureshiihinamatsuri.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1NRWlM1iH7o42xau8LoaNbycrRO0FhIYT"
+          , mp3Url = "https://drive.google.com/uc?id=1woharqIFKKeV3_9XOStdZuZQMwjm8V17"
+          , title = "浦島太郎(むかしむかしうらしまはたすけたかめに)"
+          , filename = "urashimataro.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1ho9NJwlB9kw33MKMIITI7yzwGwWUW2Cg"
+          , mp3Url = "https://drive.google.com/uc?id=17-lJUxiJ4CyOuF_ajd04yMFYWw-XmsGj"
+          , title = "海(うみはひろいなおおきいなつきがのぼるしひがしずむ)"
+          , filename = "umiwahiroina.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1zw4tPQUsDVTIbtOr0cX6e02Tc6PbPo2S"
+          , mp3Url = "https://drive.google.com/uc?id=1DZdFqhx8LQE9SDxCgYQR3RB0xp3xJnaH"
+          , title = "うさぎとかめ(もしもしかめよかめさんよせかいのうちにおまえほど)"
+          , filename = "usagitokame.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1ZiedUht1x1ujGdyyfrTnbB18LvmOcXvL"
+          , mp3Url = "https://drive.google.com/uc?id=1N52rGKrN2c7cD19Mnn-1OVF4zaNzpLF-"
+          , title = "異国の丘(きょうもくれゆくいこくのおかに)"
+          , filename = "ikokunooka.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1YmRyVBV-SmNOwe7maDsPgGK23HslVxwt"
+          , mp3Url = "https://drive.google.com/uc?id=1VM7N7bgxMDqR1WyRoR5xkLEgu8ivFBPi"
+          , title = "あめふり(あめあめふれふれかあさんがじゃのめでおむかえ)"
+          , filename = "amefuriameame.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=14O-ukSjNukQuAylNeZO_NPzkEDG-pn0Y"
+          , mp3Url = "https://drive.google.com/uc?id=1nSoXSZXaK_RnZ1I0h-H1yZSm4LPlPW6j"
+          , title = "憧れのハワイ航路(はれたそらそよぐかぜみなとでふねのどらのねたのし)"
+          , filename = "akogarenohawaii.pdf"
+          }
 
 
     ]
