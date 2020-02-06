@@ -1192,7 +1192,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1EwSgq9rXef_aPn-KNjJR8qw__mz1f2Wl"
       , mp3Url = "https://drive.google.com/uc?id=1nNbubE84_wM-BO4l3C6OQgbBqbcBFY8E"
-      , title = "案山子(やまだのなかのいっぽんあしの)"
+      , title = "案山子(やまだのなかのいっぽんあしのかかし)"
       , filename = "kakashi.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1D_5y_wxLYQeVc7oq_O4nkyLK9DTGaEeR"
@@ -1785,11 +1785,27 @@ dict =
           , title = "鐘の鳴る丘(みどりのおかのあかいやねとんがりぼうしの"
           , filename = "kanenonaruoka.pdf"
           }
--- , { jpgUrl = ""
---   , mp3Url = ""
---   , title = "カチューシャの唄(かちゅーしゃかわいやわかれのつらさ)"
---   , filename = "katyushanouta.pdf"
---   }
+        , { jpgUrl = "https://drive.google.com/uc?id=1RHX8jpc9sEYCBo1mxwJzgvIdJJcwX2Z2"
+          , mp3Url = "https://drive.google.com/uc?id=1Zv7hEm9jrZQHYzKMN1gRV1x_4d3NmvL_"
+          , title = "カチューシャの唄(かちゅーしゃかわいやわかれのつらさ)"
+          , filename = "katyushanouta.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=15R8SdRMiwcEIj9QdBYjdrLXdbCLlvlVr"
+          , mp3Url = "https://drive.google.com/uc?id=1TcMfvMTY9POVbeA09hkoytjLmEluIQzn"
+          , title = "肩たたき(かあさんおかたをたたきましょうたんとんたんとん)"
+          , filename = "katatataki.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1UUZmh5A7xe82kN8whcL1zLmng7fxvX5-"
+          , mp3Url = "https://drive.google.com/uc?id=1rPAyEXa7SzQ8ybushIt-3O2Ku20UGEWH"
+          , title = "かあさんの歌(かあさんはよなべをしててぶくろあんでくれた)"
+          , filename = "kasannouta.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1u4hEkVgI9CAPc92eGOA1O25xBwGHRYHt"
+          , mp3Url = "https://drive.google.com/uc?id=1WZ1a8G0pMqicEqozZu7LgOv-NWTfFhnv"
+          , title = "お山の杉の子(むかしむかしそのむかししいのきばやしのすぐそばに)"
+          , filename = "oyamanosuginoko.pdf"
+          }
+
 
     ]
 -- , { jpgUrl = ""
