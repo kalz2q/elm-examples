@@ -1855,6 +1855,53 @@ dict =
           , title = "銀色の道(とおいとおいはるかなみちはふゆのあらしがふいてるが)"
           , filename = "ginironomichi.pdf"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1ZYTqsNGLviA135EolnNHV08XmHrQUoPN"
+          , mp3Url = "https://drive.google.com/uc?id=1JNYF8m0U_Zp-AFs_gPA5A1Gr5v5DM4a5"
+          , title = "月の砂漠(つきのさばくをはるばるとたびのらくだがゆきました)"
+          , filename = "tsukinosabaku.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1wSGd9a4sx1HPsIfGzipnYG6ifemflGhX"
+          , mp3Url = "https://drive.google.com/uc?id=1MK4PwPBzo49oFym9nnFSdrtIrcCaCTFX"
+          , title = "てるてる坊主(てるてるぼうずてるぼうずあしたてんきにしておくれ)"
+          , filename = "teruterubozu.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1YUI4h0qkEqmUSckXJfbPJrXofz59eUAt"
+          , mp3Url = "https://drive.google.com/uc?id=15mo8ZG4zoda6VCPgpisRtY11EOdoDFdd"
+          , title = "東京行進曲(むかしこいしいぎんざのやなぎあだなとしまをだれがしろ)"
+          , filename = "tokyokoshinkyoku.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1LdysiHHFbFfNz9U94pmfHkqZ4GpNFhif"
+          , mp3Url = "https://drive.google.com/uc?id=1_biMwXxDe39zicm0cWc-8kvx93OjJLpC"
+          , title = "東京のバスガール(わかいきぼうもこいもあるびるのまちから)"
+          , filename = "tokyobusgirl.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Z9UibiGGcY8be0FswbQb5bnehK1t0DBQ"
+          , mp3Url = "https://drive.google.com/uc?id=1hBwIAt_eae5tetYR6zqK5M7Smfv5tw4R"
+          , title = "東京ラプソディー(はなさきはなちるよいもぎんざのやなぎのしたで)"
+          , filename = "tokyorhapsody.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1plvD4w-Qa6RJpCg2Wx96ukZzeH_y3UHp"
+          , mp3Url = "https://drive.google.com/uc?id=1XX1qhmx5rwq0yqMz6_zCLwcg_TVIrKZl"
+          , title = "夏は来ぬ(うのはなのにおうかきねにほととぎすはやもきなきて)"
+          , filename = "natsuwakinu.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Mpa-CXJ1wbUWHbYXnIFqvNI8luN5iYL7"
+          , mp3Url = "https://drive.google.com/uc?id=1XXDVOxOjwJx8Jlo5TfPP3VplEG9E_z2W"
+          , title = "七つの子(からすなぜなくのからすはやまに)"
+          , filename = "nanatsunoko.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1tnGNE-90-68hR9FCPo1cIoj4qtRjQhVv"
+          , mp3Url = "https://drive.google.com/uc?id=17YUEm8udxwQLszb8p6pvjjIG4CmGyl20"
+          , title = "庭の千草(にわのちぐさもむしのねもかれてさびしく)"
+          , filename = "niwanochigusa.pdf"
+          }
+-- , { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "野ばら(うぇるなー。わらべはみたりのなかのばら)"
+--   , filename = "nobarawerner.pdf"
+--   }
+
+
 
     ]
 -- , { jpgUrl = ""
