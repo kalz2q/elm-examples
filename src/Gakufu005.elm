@@ -1850,7 +1850,11 @@ dict =
           , title = "憧れのハワイ航路(はれたそらそよぐかぜみなとでふねのどらのねたのし)"
           , filename = "akogarenohawaii.pdf"
           }
-
+        , { jpgUrl = "https://drive.google.com/uc?id=1beirmZmXh_9rjT_O4GyfyzzCGlGj--wO"
+          , mp3Url = "https://drive.google.com/uc?id=1fMYne82dyHOo6BJDPE4qmpII5YzmrVeQ"
+          , title = "銀色の道(とおいとおいはるかなみちはふゆのあらしがふいてるが)"
+          , filename = "ginironomichi.pdf"
+          }
 
     ]
 -- , { jpgUrl = ""
