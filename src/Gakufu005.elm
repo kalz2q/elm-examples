@@ -1002,7 +1002,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1hPec2PBNt7JOfUQeC-2D4oj7xalvbMX-"
       , mp3Url = "https://drive.google.com/uc?id=1W0FziUExLRv5uZAQx0mkSyCQNS4j8Chf"
-      , title = "兎のダンス(タラッタラッタラッタ)"
+      , title = "兎のダンス(そそらそらそらうさぎのだんす)"
       , filename = "usaginodance.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1N7v9vUBjneGOBkYCld1loJLpJm-4Tvy7"
@@ -2005,12 +2005,51 @@ dict =
         , title = "青葉の笛(敦盛と忠度。いちのたにのいくさやぶれうたれしへいけの)"
         , filename = "aobanofue.pdf"
         }
+      , { jpgUrl = "https://drive.google.com/uc?id=1pEXPbO-ihBf_QmK9N2G35Md5KL4e0OD9"
+        , mp3Url = "https://drive.google.com/uc?id=17hwUFloRepzaes3iogqzU5_oIHqrkd99"
+        , title = "赤い鳥小鳥(あかいとりことりなぜなぜあかい)"
+        , filename = "akaotorikotori.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1OqGk8Ye8sta4_R07ZqiNRX6UZ1UV324t"
+        , mp3Url = "https://drive.google.com/uc?id=1tmGJ6tb2sw7GXlgN1EkAecLTnWVk_ZpJ"
+        , title = "赤い帽子白い帽子(あかいぼうししろいぼうしなかよしさん)"
+        , filename = "akaiboshishiroiboshi.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1d3L0beie7s6LLI7n1iCMOMmyJkGJ0C1J"
+        , mp3Url = "https://drive.google.com/uc?id=1wu89LYgDGnwRe_jVPkNEPMlpP2bKhY-U"
+        , title = "あざみの歌(やまにはやまのうれいありうみにはうみのかなしみや)"
+        , filename = "azaminouta.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1fGvN3eJwQ3lMYmOUkmLe_IrpLowJKdpP"
+        , mp3Url = "https://drive.google.com/uc?id=110JhI0POZgzJsuLcSddC9m3CDluFeDDD"
+        , title = "雨に咲く花(およばぬこととあきらめました)"
+        , filename = "amenisakuhana.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1etmxwVpFIE9gr2i3TyNq6tyRS7eaFlkB"
+        , mp3Url = "https://drive.google.com/uc?id=1cXXO-4T_xVXj85i7h-JjxJRp0IYAZkGC"
+        , title = "雨降りお月(あめふりおつきさんくものかげおよめにゆくときゃ)"
+        , filename = "amefuriotsuki.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1hUxNgMgd8z2b604QDeIAbHcj4_dYj6pY"
+        , mp3Url = "https://drive.google.com/uc?id=1fCAPY2GF4_9gdkt9mdv7NxhE0vmT4caB"
+        , title = "池の鯉(でてこいでてこいいけのこい)"
+        , filename = "ikenokoi.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1xeGS1NSybMBDWxZ7JCPmqCTD9dQeqiQb"
+        , mp3Url = "https://drive.google.com/uc?id=1b8TPaShHj4PTY2ZvCbfX1RzVs5zo0FKE"
+        , title = "うぐいす(うめのこえだでうぐいすは)"
+        , filename = "uguisu.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1fmkYjX_hwVW72PyyekESvcOpCInNGMX-"
+        , mp3Url = "https://drive.google.com/uc?id=1Sl9l6Dxp8-asGFfYI6c-C8wwcG2TJZJA"
+        , title = "牛若丸(きょうのごじょうのはしのうえだいのおとこのべんけいは)"
+        , filename = "ushiwakamaru.pdf"
+        }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "赤い鳥小鳥(あかいとりことり)"
---   , filename = "akaotorikotori.pdf"
+--   , title = "うちの女房にゃ髭がある(なにかいおうとおもっても)"
+--   , filename = "uchinonyobonya.pdf"
 --   }
-
 
     ]
 -- , { jpgUrl = ""
