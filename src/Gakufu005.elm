@@ -1895,10 +1895,45 @@ dict =
           , title = "庭の千草(にわのちぐさもむしのねもかれてさびしく)"
           , filename = "niwanochigusa.pdf"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1ZS92cko3tOkc7aD8VUG8XXtwr72oWpCQ"
+          , mp3Url = "https://drive.google.com/uc?id=1aFlknVbWI-TR02LJdsvji9WNSHhq5vTD"
+          , title = "野ばら(うぇるなー。わらべはみたりのなかのばら)"
+          , filename = "nobarawerner.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1vBAxw0B8SPhouT1BNV3YoGokEXUIPXGq"
+          , mp3Url = "https://drive.google.com/uc?id=1aZP5GPf_Vc4IC-yBdGw6LmbQzyqcyJig"
+          , title = "箱根八里(はこねんのやまはてんかのけんかんこうかんもものならず)"
+          , filename = "hakonehachiri.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1QmJxO8qcYL7IXBaEwnl91UJ98pRlUUcP"
+          , mp3Url = "https://drive.google.com/uc?id=1A2AjeYIqGHwL8EecgcH9aBH0K0Ubt8OD"
+          , title = "鳩(ぽっぽっぽはとぽっぽまめがほしいかそらやるぞ)"
+          , filename = "hatopoppo.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=11ONvwRy2sJGYT9VET9VQ0ASv_oyCt8_b"
+          , mp3Url = "https://drive.google.com/uc?id=1ncCzmSJ-eAuxSAitQb3fy31pS9kJdKid"
+          , title = "花火(どんとなったはなびだきれいだな)"
+          , filename = "hanabidonto.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1veCPFkXoIWAVYXIUNe6K7RoJZhF_ZgvW"
+          , mp3Url = "https://drive.google.com/uc?id=186III6EFbYBnGkqJfd5UTcmrCPPpyZQI"
+          , title = "花嫁人形(きんらんどんすのおびしめながらはなよめごりょうは)"
+          , filename = "hanayomeningyo.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1kENhXP8eR-juPn_sJxPWgHBiBq67Lk_8"
+          , mp3Url = "https://drive.google.com/uc?id=1nNQO_nNOiwidknr1Byw_KIoJO5zXGmYV"
+          , title = "埴生の宿(はにゅうのやどもわがやどたまのよそいうらやまじ)"
+          , filename = "hanyunoyado.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1sivsVLpwLZvtRfz716XVxLljCrQ2UGMB"
+          , mp3Url = "https://drive.google.com/uc?id=1lpVO-NjFe0k82tPfuPQe7_1bvRd_qGW0"
+          , title = "浜千鳥(あおいつきよのはまべにはおやをさがしてなくとりが)"
+          , filename = "hamachidori.pdf"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "野ばら(うぇるなー。わらべはみたりのなかのばら)"
---   , filename = "nobarawerner.pdf"
+--   , title = "バラが咲いた(ばらがさいたばらがさいたまっかなばらが)"
+--   , filename = "baragasaita.pdf"
 --   }
 
 
