@@ -1930,13 +1930,21 @@ dict =
           , title = "浜千鳥(あおいつきよのはまべにはおやをさがしてなくとりが)"
           , filename = "hamachidori.pdf"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1HR5GouLe2kQtyki7kP9RZ1U608UKeNNU"
+          , mp3Url = "https://drive.google.com/uc?id=1VCSiD_-2s1yMyn1C9vdB6U6sViuzOzs5"
+          , title = "バラが咲いた(ばらがさいたばらがさいたまっかなばらが)"
+          , filename = "baragasaita.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1_EjumZCFj7QoeSOq5kIUEl74xg218yvR"
+          , mp3Url = "https://drive.google.com/uc?id=10VNaKvpqSiSuJm79dxnwrTTddRXM7bvC"
+          , title = "星影のワルツ(わかれることはつらいけどしかたがないんだ)"
+          , filename = "hoshikagenowaltz.pdf"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "バラが咲いた(ばらがさいたばらがさいたまっかなばらが)"
---   , filename = "baragasaita.pdf"
+--   , title = "星の界(ほしのよ。いつくしみふかき。つきなきみそらに)"
+--   , filename = "hoshinoyo.pdf"
 --   }
-
-
 
     ]
 -- , { jpgUrl = ""
