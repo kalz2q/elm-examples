@@ -1457,7 +1457,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1YYrhvvTdLosl6Zr3oxFzaJKcL7jRNwOh"
       , mp3Url = "https://drive.google.com/uc?id=1cm0S5tGC-yUK7sYuFP_knB9lAXB8IWfh"
-      , title = "ほたるこい"
+      , title = "ほたるこい(ほうほうほたるこい)"
       , filename = "hotarukoi.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1dGxAqIWZJXOKKlp5lZ59Of_NHum1CPFu"
@@ -1940,11 +1940,77 @@ dict =
           , title = "星影のワルツ(わかれることはつらいけどしかたがないんだ)"
           , filename = "hoshikagenowaltz.pdf"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1q3SLIhD8MKbHLiLEIzU-o_LHozaHbyNb"
+          , mp3Url = "https://drive.google.com/uc?id=1JlNsl9rZYly1njOtn8EdjTHuQs8Z9TRr"
+          , title = "星の界(ほしのよ。いつくしみふかき。つきなきみそらに)"
+          , filename = "hoshinoyo.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=13IIPqSRgeEx1pIUqEv3U0hGjfaL0LZD1"
+          , mp3Url = "https://drive.google.com/uc?id=119hDBEA3s3KN8WTD8G_j1QJTNxrIvzPK"
+          , title = "蛍(ほたるのやどはかわばたやなぎ)"
+          , filename = "hotarunoyadowa.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1DMliARW6wZ8oT-flB_QEyqWT385yZVpx"
+          , mp3Url = "https://drive.google.com/uc?id=10-SA6WssKxAYtdczzBZZvH6225Efq6iG"
+          , title = "牧場の朝(ただいちめんにたちこめた)"
+          , filename = "makibanoasa.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1N9t8nrtAQWDxBomfDvpov7TmU3PKXqfq"
+          , mp3Url = "https://drive.google.com/uc?id=1DhQ1SDECCzFSKxccAdYdebEGuQGH-0vQ"
+          , title = "港(そらもみなともよははれてつきにかずますふねのかげ)"
+          , filename = "minato.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1vMtHG1K0RFf4RF4Xm3IDNHhmlW5W4CDw"
+          , mp3Url = "https://drive.google.com/uc?id=1WH2YwKJNyWUAuVEgsBBJlx4nQWYaYAJV"
+          , title = "港が見える丘(あなたとふたりできたおかは)"
+          , filename = "minatogamieruoka.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Bbn46bb3ot9ab_d-6cKtuHmo3NryZj2i"
+          , mp3Url = "https://drive.google.com/uc?id=1ajr7on_vMVZxx6_7OmLE4KmVxPGQGhHh"
+          , title = "村まつり(むらのちんじゅのかみさまのきょうはめでたいおまつりび)"
+          , filename = "muramatsuri.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1LH-l6ssopa-e-aJFctxjnfhB_YDsINQc"
+          , mp3Url = "https://drive.google.com/uc?id=1B7TLH1Pay6oaEXh2_aNJpR0NOpTEpxJ-"
+          , title = "山小舎の灯(やまごやのともしび。たそがれのともしびはほのかにともりて)"
+          , filename = "yamagoyanotomoshibi.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1kre1odVBMZE36Twc54JMsdp7kZmQrH0i"
+          , mp3Url = "https://drive.google.com/uc?id=1lVaKZ7oT1Ui_9CBbzl7iegTEZxdLlANK"
+          , title = "夕焼小焼(ゆうやけこやけでひがくれてやまのおてらのかねがなる)"
+          , filename = "yuyakekoyake.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=104vaPRKGqTJdvuboxXvmaneToJZ2PT_w"
+          , mp3Url = "https://drive.google.com/uc?id=197HPT5qLTXQPE5HXVyupT2UpC_uBISyQ"
+          , title = "湯島の白梅(ゆしまとおればおもいだすおつたちからのこころいき)"
+          , filename = "yushimanoshiraume.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=17wYfeU0y_SwrkRWY4TQ3tx0T1nP65DgX"
+          , mp3Url = "https://drive.google.com/uc?id=189ZzWnxspFAEj7XrR42cSK-S4C4Db4WC"
+          , title = "揺籃のうた(ゆりかごのうたをかなりやがうたうよねんねこ)"
+          , filename = "yurikagonouta.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1nJd9kHxHLLbhOhdtdnh-BO_81jUdqGUZ"
+          , mp3Url = "https://drive.google.com/uc?id=1dE9ce3ZJ27L7wHhOdg-xAt8una8_8q1m"
+          , title = "喜びも悲しみも幾歳月(いくとしつき。おいらみさきのとうだいもりは)"
+          , filename = "yorokobimokanashimimo.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1cQogqvWVPWrRcs4J0pcFwCXu3RuzY7RE"
+          , mp3Url = "https://drive.google.com/uc?id=11_6yNO6XU4TldolPlTE_1Ho5eBuOrflt"
+          , title = "ラバウル小唄(さらばらばうるよまたくるまでは)"
+          , filename = "rabaul.pdf"
+          }
+      , { jpgUrl = "https://drive.google.com/uc?id=1HhOB5vingHhvlq8ZZsoUr41DTKcCzBCc"
+        , mp3Url = "https://drive.google.com/uc?id=1M_UZe1NdXQf5dR5ynEIsEksEnDtXDJgc"
+        , title = "青葉の笛(敦盛と忠度。いちのたにのいくさやぶれうたれしへいけの)"
+        , filename = "aobanofue.pdf"
+        }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "星の界(ほしのよ。いつくしみふかき。つきなきみそらに)"
---   , filename = "hoshinoyo.pdf"
+--   , title = "赤い鳥小鳥(あかいとりことり)"
+--   , filename = "akaotorikotori.pdf"
 --   }
+
 
     ]
 -- , { jpgUrl = ""
