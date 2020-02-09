@@ -2045,11 +2045,27 @@ dict =
         , title = "牛若丸(きょうのごじょうのはしのうえだいのおとこのべんけいは)"
         , filename = "ushiwakamaru.pdf"
         }
+      , { jpgUrl = "https://drive.google.com/uc?id=1zCbEzEy3Nuhh0ukOLwA_YEldffBS2ebI"
+        , mp3Url = "https://drive.google.com/uc?id=1ftMt-m4yLEdydkZ6hRwCjIyPjFL_TA7T"
+        , title = "うちの女房にゃ髭がある(なにかいおうとおもっても)"
+        , filename = "uchinonyobonya.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1k3s6hMhlI-xk8HxV8FdA4diz7h8ANnkl"
+        , mp3Url = "https://drive.google.com/uc?id=1KPnkqHkvQXz89jvXP4jAnbM2rBCaAv-V"
+        , title = "海(まつばらとおくみゆるところしらほのかげはうかぶ)"
+        , filename = "umimatsubara.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=19d7me2PkE_fzWny0LPm5U8_8LnwJkm9n"
+        , mp3Url = "https://drive.google.com/uc?id=19Rq9mNURvGuhMx7-5XMgXgxd200PMUkW"
+        , title = "大江戸出世小唄(どてのやなぎはかぜまかせ)"
+        , filename = "ooedoshussekouta.pdf"
+        }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "うちの女房にゃ髭がある(なにかいおうとおもっても)"
---   , filename = "uchinonyobonya.pdf"
+--   , title = "大利根月夜(あれをごらんとゆびさすかたに)"
+--   , filename = "ootonedukiyo.pdf"
 --   }
+
 
     ]
 -- , { jpgUrl = ""
