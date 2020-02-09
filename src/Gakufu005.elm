@@ -2060,11 +2060,27 @@ dict =
         , title = "大江戸出世小唄(どてのやなぎはかぜまかせ)"
         , filename = "ooedoshussekouta.pdf"
         }
--- , { jpgUrl = ""
---   , mp3Url = ""
---   , title = "大利根月夜(あれをごらんとゆびさすかたに)"
---   , filename = "ootonedukiyo.pdf"
---   }
+      , { jpgUrl = "https://drive.google.com/uc?id=1vDo9ltig-Rrc0Cb2RDG1v9ph0-TuhU8J"
+        , mp3Url = "https://drive.google.com/uc?id=1TsNsTCxoC4Ms3pdcYhqQRS882bPzXSh2"
+        , title = "大利根月夜(あれをごらんとゆびさすかたに)"
+        , filename = "ootonedukiyo.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1a3CFkgamdx5Z-aF7RDoH02TD5XqNpa-o"
+        , mp3Url = "https://drive.google.com/uc?id=1V-jef6Eby3dg9h2GKSi0iMiIjWqDUw6t"
+        , title = "丘は花ざかり(わかいいのちのかれんだーを)"
+        , filename = "okawahanazakari.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1h_djXXPo-XDT5dWXc4_ENraSVkFjtalJ"
+        , mp3Url = "https://drive.google.com/uc?id=1muHb_6uhUpGuUdyvFckuQCy-CwiIxFEa"
+        , title = "丘を越えて(おかをこえていこうよますみのそらはほがらかに)"
+        , filename = "okawokoete.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=16x_5frvqxmXBaw42URLjhlQOubmr_q1f"
+        , mp3Url = "https://drive.google.com/uc?id=1QGXcHjxzrCqROGyJn6tzZX1srN0d026B"
+        , title = "落葉しぐれ(たびのおちばがしぐれにぬれて)"
+        , filename = "ochibashigure.pdf"
+        }
+
 
 
     ]
