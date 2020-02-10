@@ -2080,6 +2080,54 @@ dict =
         , title = "落葉しぐれ(たびのおちばがしぐれにぬれて)"
         , filename = "ochibashigure.pdf"
         }
+      , { jpgUrl = "https://drive.google.com/uc?id=1vOrp7dTGZY7p_MJuGZPabChRMVqYz67b"
+        , mp3Url = "https://drive.google.com/uc?id=18rcOisREFKSI4VRPTiVDqB6CPHXjC3d3"
+        , title = "かえり船(なみのせのせにゆられてゆれて)"
+        , filename = "kaeribune.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1eoW684ZpGCNdyFKcJ1JUCwoOz6vH0OOi"
+        , mp3Url = "https://drive.google.com/uc?id=13iZQebg642ql_UxdSCZBsW2notfdCuxU"
+        , title = "勘太郎月夜唄(かげかやなぎかかんたろうさんが)"
+        , filename = "kantarotsukiyouta.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1e4oXWHP3bHDasdx3sXvIBSlpr5vYSP-t"
+        , mp3Url = "https://drive.google.com/uc?id=1mrKCMbF4VANuVCNKVtp2hV-bW-mwxNfF"
+        , title = "菊の花(きれいなはなよきくのはな)"
+        , filename = "kikunohana.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1H30-Q6dTi0FbqX8_EQbFOaCqlggu59Zg"
+        , mp3Url = "https://drive.google.com/uc?id=1mlwLrZM9TibPxR-7WXWdpNpFROrEG13b"
+        , title = "紀元二千六百年(きんしかがやくにっぽんのはえあるひかり)"
+        , filename = "kigen2600.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1IRNq4Kox5HQGBK_ccR-ShpI3b5W00L77"
+        , mp3Url = "https://drive.google.com/uc?id=1cyEwfcynNYdmSe9_c0_c3jvHwPF-d8rj"
+        , title = "汽車ポッポ(きしゃきしゃぽっぽぽっぽしゅっぽしゅっぽ)"
+        , filename = "kishapoppo.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1ZKjzar11-a4s0Sk_F3_h_yoHefzVjsS5"
+        , mp3Url = "https://drive.google.com/uc?id=17rqRo68j_Ph7VKpeBUKPEOLwJ-A0mjhK"
+        , title = "ギッチョンチョン(たかいやまからたにそこみれば)"
+        , filename = "gicchonchon.pdf"
+        }
+    , { jpgUrl = "https://drive.google.com/uc?id=1k1J851GndcsYgt5MvmUz-bbgL4HXkZ48"
+      , mp3Url = "https://drive.google.com/uc?id=1bKow4_2EpJGg2bzoGEdTwv0fmxwraGaU"
+      , title = "君恋し(よいやみせまればなやみははてなし)"
+      , filename = "kimikoishi.pdf"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1xz6E_h25OkTpjPkKE_SuqwP0NyXfuezo"
+        , mp3Url = "https://drive.google.com/uc?id=1IfMRrnSwQvFoIevOcRyWLZfDF9XuNIiE"
+        , title = "黒百合の唄(くろゆりはこいのはなあいするひとにささげれば)"
+        , filename = "kuroyurinouta.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1wU6OjsRzIWJGDytkCjyKjKf660fMehUs"
+        , mp3Url = "https://drive.google.com/uc?id=1r1Ah707-j4D_k4bmi6aAyc-mEeMIuxXn"
+        , title = "月月火水木金金(あさだよあけだうしおのいぶき)"
+        , filename = "getsugetsukasui.pdf"
+        }
+
+
+
 
 
 
