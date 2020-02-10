@@ -2125,14 +2125,21 @@ dict =
         , title = "月月火水木金金(あさだよあけだうしおのいぶき)"
         , filename = "getsugetsukasui.pdf"
         }
+      , { jpgUrl = "https://drive.google.com/uc?id=1WuKBsJ64GovAiv7P7kXBccoh4Middkne"
+        , mp3Url = "https://drive.google.com/uc?id=1C9frzQGX7VqYikx49NjYFLuKH1ZnjQn-"
+        , title = "高原の駅よさようなら(しばしわかれのよぎしゃのまどよ)"
+        , filename = "kogennoeki.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1qrSIaIgBTzrI7H9Xb3bHfd-bnKFp0ys1"
+        , mp3Url = "https://drive.google.com/uc?id=1wlB13a-Nyhxnm-9-79GDgPdSq3hds_HT"
+        , title = "子鹿のバンビ(こじかのばんびはかわいいなおはながにおうはるのあさ)"
+        , filename = "kojikanobambi.pdf"
+        }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "高原の駅よさようなら(しばしわかれのよぎしゃのまどよ)"
---   , filename = "kogennoeki.pdf"
+--   , title = "サーカスの唄(たびのつばくろさみしかないか)"
+--   , filename = "circusnouta.pdf"
 --   }
-
-
-
 
 
     ]
