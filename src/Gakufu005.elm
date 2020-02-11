@@ -2150,13 +2150,21 @@ dict =
         , title = "サンタ・ルチア(さんたるちあ。ほしかげしろくうみをてらし)"
         , filename = "santalucia.pdf"
         }
+      , { jpgUrl = "https://drive.google.com/uc?id=1epcFU7bB4aYlnaDZvSPi8bsrZdxRu80s"
+        , mp3Url = "https://drive.google.com/uc?id=1zvJNTSViESt5kSMRqPbwfWg6P1HC3yqD"
+        , title = "四季の雨(ふるともみえじはるのあめ)"
+        , filename = "shikinoame.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1521sMAm3TH7VczT640Yihu-h6Kawy3vn"
+        , mp3Url = "https://drive.google.com/uc?id=1ehT4OLPMVYBBYL-YRandAA2JVe2vNgWP"
+        , title = "出征兵士を送る歌(わがおおきみにめされたる)"
+        , filename = "shusseiheishi.pdf"
+        }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "四季の雨(ふるともみえじはるのあめ)"
---   , filename = "shikinoame.pdf"
+--   , title = "純情二重奏(もりのあおばのかげにきて)"
+--   , filename = "junjo2juso.pdf"
 --   }
-
-
 
     ]
 -- , { jpgUrl = ""
@@ -2164,3 +2172,4 @@ dict =
 --   , title = ""
 --   , filename = ".pdf"
 --   }
+
