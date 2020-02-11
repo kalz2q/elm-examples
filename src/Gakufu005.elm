@@ -2135,12 +2135,21 @@ dict =
         , title = "子鹿のバンビ(こじかのばんびはかわいいなおはながにおうはるのあさ)"
         , filename = "kojikanobambi.pdf"
         }
+      , { jpgUrl = "https://drive.google.com/uc?id=1JNhCCyseH5IUWectD_Q5FTzIp8yFWr8N"
+        , mp3Url = "https://drive.google.com/uc?id=1vs5wkoiw8h0x8NSjc5lCn2BnEsHmHKMc"
+        , title = "サーカスの唄(たびのつばくろさみしかないか)"
+        , filename = "circusnouta.pdf"
+        }
+      , { jpgUrl = "https://drive.google.com/uc?id=1IY8MHtySltelELHTlQL5dy4ydg0AkHSG"
+        , mp3Url = "https://drive.google.com/uc?id=1qxoRLpHasQrOlSn4iJkllExIjjQ4OAYO"
+        , title = "さくら貝のうた(うるわしきさくらいがいひとつ)"
+        , filename = ".pdf"
+        }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "サーカスの唄(たびのつばくろさみしかないか)"
---   , filename = "circusnouta.pdf"
+--   , title = "サンタ・ルチア(さんたるちあ。ほしかげしろくうみをてらし)"
+--   , filename = "santalucia.pdf"
 --   }
-
 
     ]
 -- , { jpgUrl = ""
