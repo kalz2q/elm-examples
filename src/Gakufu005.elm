@@ -2160,11 +2160,18 @@ dict =
         , title = "出征兵士を送る歌(わがおおきみにめされたる)"
         , filename = "shusseiheishi.pdf"
         }
+      , { jpgUrl = "https://drive.google.com/uc?id=1ExNGm8z4RN0cAUooHvOl-G1pCtIYwBX5"
+        , mp3Url = "https://drive.google.com/uc?id=1ZAfJQY3X4C1hhznYy3Y8Tno0d5dkci17"
+        , title = "純情二重奏(もりのあおばのかげにきて)"
+        , filename = "junjo2juso.pdf"
+        }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "純情二重奏(もりのあおばのかげにきて)"
---   , filename = "junjo2juso.pdf"
+--   , title = "新雪(むらさきけむるしんせつの)"
+--   , filename = "shinsetsu.pdf"
 --   }
+
+
 
     ]
 -- , { jpgUrl = ""
