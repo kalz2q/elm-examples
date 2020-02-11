@@ -500,9 +500,9 @@ dict =
       , title = "ヴィヴァルディ四季より春"
       , filename = "vivaldishiki.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1Z-XRzaWNiZlAYFfAqgdTM-OoDPWBqyWi"
+    , { jpgUrl = "https://drive.google.com/uc?id=1qFNBBqt_E4PsHjsx6fVIwpDO_T9Qnqpj"
       , mp3Url = "https://drive.google.com/uc?id=1EUWUhemlvRwYKC1cHi0XCaZPpg7-l7AL"
-      , title = "威風堂々(エルガー)"
+      , title = "威風堂々(エルガー。いふうどうどう)"
       , filename = "ifudodo.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1A7n3h7KqnGfL_7R2qsXFTFkgEicu46AF"
@@ -1410,7 +1410,7 @@ dict =
       , title = "線路は続くよどこまでも(せんろはつづくよどこまでも)"
       , filename = "senrowa.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1rZpgU-oY9YENvOM0EIgBiPPetB637lIC"
+    , { jpgUrl = "https://drive.google.com/uc?id=1RyCBQT1tLE85K105wqjsUwKrmVEbczVW"
       , mp3Url = "https://drive.google.com/uc?id=1-pa2-bO4FXGjr1XtN5vkeN044LGZPf4t"
       , title = "幸せなら手をたたこう(しあわせならてをたたこう)"
       , filename = "shiawasenara.pdf"
@@ -2145,11 +2145,18 @@ dict =
         , title = "さくら貝のうた(うるわしきさくらいがいひとつ)"
         , filename = ".pdf"
         }
+      , { jpgUrl = "https://drive.google.com/uc?id=1APYF-04_YGuGHuUXqOhy3hnP6bop51QZ"
+        , mp3Url = "https://drive.google.com/uc?id=1aCW20SLwvOJnKBtVaHlrCEooD5X5VSJv"
+        , title = "サンタ・ルチア(さんたるちあ。ほしかげしろくうみをてらし)"
+        , filename = "santalucia.pdf"
+        }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "サンタ・ルチア(さんたるちあ。ほしかげしろくうみをてらし)"
---   , filename = "santalucia.pdf"
+--   , title = "四季の雨(ふるともみえじはるのあめ)"
+--   , filename = "shikinoame.pdf"
 --   }
+
+
 
     ]
 -- , { jpgUrl = ""
