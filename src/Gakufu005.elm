@@ -280,7 +280,7 @@ dict =
       , title = "涙そうそう(ふるいあるばむめくりありがとうってつぶやいた)"
       , filename = "nadasoso.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1cONlZ-VAnHRjaG-A6_nJviwRQt6q47Eb"
+    , { jpgUrl = "https://drive.google.com/uc?id=1hG4WU868zBD3NwIRFLj4r6FujKpUdIHg"
       , mp3Url = "https://drive.google.com/uc?id=1xz7jJpUCuhgpDcZmJ9jo1pl4vUF5O_Ie"
       , title = "アメイジング・グレイス"
       , filename = "amazinggrace.pdf"
@@ -465,7 +465,7 @@ dict =
       , title = "美しき青きドナウ(ヨハン・シュトラウス2世)"
       , filename = "donau.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=16az8ORiv3_Gkn1i27gWGGiWcAmA8xfqs"
+    , { jpgUrl = "https://drive.google.com/uc?id=1nmRM0PvD0tyiqoy7Rt1lk_oXCAvpMH-h"
       , mp3Url = "https://drive.google.com/uc?id=1BbI5uYSih3ZN9-1_9pzkzc9QF6eofXeQ"
       , title = "ジュ・トゥ・ヴ(エリック・サティ)"
       , filename = "jeteveux.pdf"
@@ -700,7 +700,7 @@ dict =
       , title = "きらきら星(きらきらぼし)"
       , filename = "kirakira.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=14HRCzYdHtrAVcsfhM3oDCDITJswfVJ8g"
+    , { jpgUrl = "https://drive.google.com/uc?id=1Bw9opTMSr1CWGnJxvqx8n5_eiYGkKTqg"
       , mp3Url = "https://drive.google.com/uc?id=17m13_3iKfJbNOWkU6urrK3lNo_5jliEb"
       , title = "再会(さいかい。あえなくなってはじめてしった)"
       , filename = "saikai.pdf"
@@ -715,7 +715,7 @@ dict =
       , title = "竹田の子もりうた(もりもいやがるぼんから)"
       , filename = "takedanokomori.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1C7hQD5HJtt6KJL2CwSS1oYXzR5FArrRf"
+    , { jpgUrl = "https://drive.google.com/uc?id=1m7g1nF7ojYNMItd9_q-0ey9MlCHD-aY8"
       , mp3Url = "https://drive.google.com/uc?id=1S8_3hTk-Ua7GS72oYqTfxEA5DmYxa8UP"
       , title = "赤鼻のトナカイ(Rudolph the Red-Nosed Reindeer、まっかなおはなの。クリスマス)"
       , filename = "tonakai.pdf"
