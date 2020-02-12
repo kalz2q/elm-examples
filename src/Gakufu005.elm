@@ -575,7 +575,7 @@ dict =
       , title = "江戸の子守唄(ねんねんころりよおころりよ)"
       , filename = "edokomori.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1UKe-y0iaTrz68KKbPA-xFXxqgqpmbWRB"
+    , { jpgUrl = "https://drive.google.com/uc?id=1yp765_JrH_Y2RcopTKYjBVHcSJApYawQ"
       , mp3Url = "https://drive.google.com/uc?id=1t2rvtaHQjn6v9RhOcFINbMAa2Jsr--31"
       , title = "あんたがたどこさ(ひごさひごどこさくまもとさ)"
       , filename = "antagata.pdf"
@@ -2110,67 +2110,106 @@ dict =
         , title = "ギッチョンチョン(たかいやまからたにそこみれば)"
         , filename = "gicchonchon.pdf"
         }
-    , { jpgUrl = "https://drive.google.com/uc?id=1k1J851GndcsYgt5MvmUz-bbgL4HXkZ48"
-      , mp3Url = "https://drive.google.com/uc?id=1bKow4_2EpJGg2bzoGEdTwv0fmxwraGaU"
-      , title = "君恋し(よいやみせまればなやみははてなし)"
-      , filename = "kimikoishi.pdf"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1xz6E_h25OkTpjPkKE_SuqwP0NyXfuezo"
-        , mp3Url = "https://drive.google.com/uc?id=1IfMRrnSwQvFoIevOcRyWLZfDF9XuNIiE"
-        , title = "黒百合の唄(くろゆりはこいのはなあいするひとにささげれば)"
-        , filename = "kuroyurinouta.pdf"
+      , { jpgUrl = "https://drive.google.com/uc?id=1k1J851GndcsYgt5MvmUz-bbgL4HXkZ48"
+        , mp3Url = "https://drive.google.com/uc?id=1bKow4_2EpJGg2bzoGEdTwv0fmxwraGaU"
+        , title = "君恋し(よいやみせまればなやみははてなし)"
+        , filename = "kimikoishi.pdf"
         }
-      , { jpgUrl = "https://drive.google.com/uc?id=1wU6OjsRzIWJGDytkCjyKjKf660fMehUs"
-        , mp3Url = "https://drive.google.com/uc?id=1r1Ah707-j4D_k4bmi6aAyc-mEeMIuxXn"
-        , title = "月月火水木金金(あさだよあけだうしおのいぶき)"
-        , filename = "getsugetsukasui.pdf"
-        }
-      , { jpgUrl = "https://drive.google.com/uc?id=1WuKBsJ64GovAiv7P7kXBccoh4Middkne"
-        , mp3Url = "https://drive.google.com/uc?id=1C9frzQGX7VqYikx49NjYFLuKH1ZnjQn-"
-        , title = "高原の駅よさようなら(しばしわかれのよぎしゃのまどよ)"
-        , filename = "kogennoeki.pdf"
-        }
-      , { jpgUrl = "https://drive.google.com/uc?id=1qrSIaIgBTzrI7H9Xb3bHfd-bnKFp0ys1"
-        , mp3Url = "https://drive.google.com/uc?id=1wlB13a-Nyhxnm-9-79GDgPdSq3hds_HT"
-        , title = "子鹿のバンビ(こじかのばんびはかわいいなおはながにおうはるのあさ)"
-        , filename = "kojikanobambi.pdf"
-        }
-      , { jpgUrl = "https://drive.google.com/uc?id=1JNhCCyseH5IUWectD_Q5FTzIp8yFWr8N"
-        , mp3Url = "https://drive.google.com/uc?id=1vs5wkoiw8h0x8NSjc5lCn2BnEsHmHKMc"
-        , title = "サーカスの唄(たびのつばくろさみしかないか)"
-        , filename = "circusnouta.pdf"
-        }
-      , { jpgUrl = "https://drive.google.com/uc?id=1IY8MHtySltelELHTlQL5dy4ydg0AkHSG"
-        , mp3Url = "https://drive.google.com/uc?id=1qxoRLpHasQrOlSn4iJkllExIjjQ4OAYO"
-        , title = "さくら貝のうた(うるわしきさくらいがいひとつ)"
-        , filename = ".pdf"
-        }
-      , { jpgUrl = "https://drive.google.com/uc?id=1APYF-04_YGuGHuUXqOhy3hnP6bop51QZ"
-        , mp3Url = "https://drive.google.com/uc?id=1aCW20SLwvOJnKBtVaHlrCEooD5X5VSJv"
-        , title = "サンタ・ルチア(さんたるちあ。ほしかげしろくうみをてらし)"
-        , filename = "santalucia.pdf"
-        }
-      , { jpgUrl = "https://drive.google.com/uc?id=1epcFU7bB4aYlnaDZvSPi8bsrZdxRu80s"
-        , mp3Url = "https://drive.google.com/uc?id=1zvJNTSViESt5kSMRqPbwfWg6P1HC3yqD"
-        , title = "四季の雨(ふるともみえじはるのあめ)"
-        , filename = "shikinoame.pdf"
-        }
-      , { jpgUrl = "https://drive.google.com/uc?id=1521sMAm3TH7VczT640Yihu-h6Kawy3vn"
-        , mp3Url = "https://drive.google.com/uc?id=1ehT4OLPMVYBBYL-YRandAA2JVe2vNgWP"
-        , title = "出征兵士を送る歌(わがおおきみにめされたる)"
-        , filename = "shusseiheishi.pdf"
-        }
-      , { jpgUrl = "https://drive.google.com/uc?id=1ExNGm8z4RN0cAUooHvOl-G1pCtIYwBX5"
-        , mp3Url = "https://drive.google.com/uc?id=1ZAfJQY3X4C1hhznYy3Y8Tno0d5dkci17"
-        , title = "純情二重奏(もりのあおばのかげにきて)"
-        , filename = "junjo2juso.pdf"
-        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1xz6E_h25OkTpjPkKE_SuqwP0NyXfuezo"
+          , mp3Url = "https://drive.google.com/uc?id=1IfMRrnSwQvFoIevOcRyWLZfDF9XuNIiE"
+          , title = "黒百合の唄(くろゆりはこいのはなあいするひとにささげれば)"
+          , filename = "kuroyurinouta.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1wU6OjsRzIWJGDytkCjyKjKf660fMehUs"
+          , mp3Url = "https://drive.google.com/uc?id=1r1Ah707-j4D_k4bmi6aAyc-mEeMIuxXn"
+          , title = "月月火水木金金(あさだよあけだうしおのいぶき)"
+          , filename = "getsugetsukasui.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1WuKBsJ64GovAiv7P7kXBccoh4Middkne"
+          , mp3Url = "https://drive.google.com/uc?id=1C9frzQGX7VqYikx49NjYFLuKH1ZnjQn-"
+          , title = "高原の駅よさようなら(しばしわかれのよぎしゃのまどよ)"
+          , filename = "kogennoeki.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1qrSIaIgBTzrI7H9Xb3bHfd-bnKFp0ys1"
+          , mp3Url = "https://drive.google.com/uc?id=1wlB13a-Nyhxnm-9-79GDgPdSq3hds_HT"
+          , title = "子鹿のバンビ(こじかのばんびはかわいいなおはながにおうはるのあさ)"
+          , filename = "kojikanobambi.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1JNhCCyseH5IUWectD_Q5FTzIp8yFWr8N"
+          , mp3Url = "https://drive.google.com/uc?id=1vs5wkoiw8h0x8NSjc5lCn2BnEsHmHKMc"
+          , title = "サーカスの唄(たびのつばくろさみしかないか)"
+          , filename = "circusnouta.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1IY8MHtySltelELHTlQL5dy4ydg0AkHSG"
+          , mp3Url = "https://drive.google.com/uc?id=1qxoRLpHasQrOlSn4iJkllExIjjQ4OAYO"
+          , title = "さくら貝のうた(うるわしきさくらいがいひとつ)"
+          , filename = ".pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1APYF-04_YGuGHuUXqOhy3hnP6bop51QZ"
+          , mp3Url = "https://drive.google.com/uc?id=1aCW20SLwvOJnKBtVaHlrCEooD5X5VSJv"
+          , title = "サンタ・ルチア(さんたるちあ。ほしかげしろくうみをてらし)"
+          , filename = "santalucia.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1epcFU7bB4aYlnaDZvSPi8bsrZdxRu80s"
+          , mp3Url = "https://drive.google.com/uc?id=1zvJNTSViESt5kSMRqPbwfWg6P1HC3yqD"
+          , title = "四季の雨(ふるともみえじはるのあめ)"
+          , filename = "shikinoame.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1521sMAm3TH7VczT640Yihu-h6Kawy3vn"
+          , mp3Url = "https://drive.google.com/uc?id=1ehT4OLPMVYBBYL-YRandAA2JVe2vNgWP"
+          , title = "出征兵士を送る歌(わがおおきみにめされたる)"
+          , filename = "shusseiheishi.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1ExNGm8z4RN0cAUooHvOl-G1pCtIYwBX5"
+          , mp3Url = "https://drive.google.com/uc?id=1ZAfJQY3X4C1hhznYy3Y8Tno0d5dkci17"
+          , title = "純情二重奏(もりのあおばのかげにきて)"
+          , filename = "junjo2juso.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1o1yyExT3Q9FqveAZS4jr-J4Ql31suBOB"
+          , mp3Url = "https://drive.google.com/uc?id=1uNJ1DfN7I22LOvbnYWlwl4nAEn4NKizd"
+          , title = "新雪(むらさきけむるしんせつの)"
+          , filename = "shinsetsu.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1E-PdXCCvcFRdpwfNQJPa_qssz4xYLGR9"
+          , mp3Url = "https://drive.google.com/uc?id=1cUfjozjgYEJ7z6DLfC_6YrcZlpGNvCpz"
+          , title = "スキー(やまはしろがねあさひをあびて)"
+          , filename = "skiingyama.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1JGamPaR99tD7OsGznD2M8GGXLVVXbnm4"
+          , mp3Url = "https://drive.google.com/uc?id=1NrslmuLPQxcFp79R-CstcwYNPoXgQuCh"
+          , title = "ひこうき雲(しろいさかみちがそらまでつづいている)"
+          , filename = "hikokigumo.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=11YNpS3wV32U4GGOdcF0xIwGcZtrk5vdH"
+          , mp3Url = "https://drive.google.com/uc?id=1yrcbI0IalXWrpwj-ZC4_xk_51-8pEqF9"
+          , title = "スキーの歌(かがやくひのかげはゆるのやま)"
+          , filename = "skiinouta.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1VXOjG6I_YQ6bZil73O9sQvbp1PplAZbq"
+          , mp3Url = "https://drive.google.com/uc?id=1Pal6rnAQYp7bSwO4b_tmY2bAHMNTclhI"
+          , title = "雀の学校(ちいちいぱっぱちいぱっぱすずめのがっこうのせんせいは)"
+          , filename = "suzumenogakko.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1vaTJnJuZ2VV4C2CWYbN1p1LOHdFKAqEY"
+          , mp3Url = "https://drive.google.com/uc?id=1g-Weyxs5lPPJzgp3nJsl0e5QOW5PSXcA"
+          , title = "ストトン節(すととんすととんとかよわせていまさらいやとは)"
+          , filename = "sutotonbushi.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=18R8hxAFsrxI2n6c5WsNHskX-N34fEOyo"
+          , mp3Url = "https://drive.google.com/uc?id=1F1cSJN9qR4XzfsBnj_ezK09JpckhCeIc"
+          , title = "砂山(うみはあらうみむこうはさどよ)"
+          , filename = "sunayama.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1aZ0Pbs3bUu9IykV0sLZVTXevMUjUEShx"
+          , mp3Url = "https://drive.google.com/uc?id=194UDAlNOFfHn17cNdpA1hHGFrU2Ultxc"
+          , title = "田植(そろたでそろたさなえがそろた)"
+          , filename = "taue.pdf"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "新雪(むらさきけむるしんせつの)"
---   , filename = "shinsetsu.pdf"
+--   , title = "旅姿三人男(しみずみなとのめいぶつはおちゃのかおりと)"
+--   , filename = "tabisugata.pdf"
 --   }
-
 
 
     ]
