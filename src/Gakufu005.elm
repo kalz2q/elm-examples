@@ -2205,12 +2205,16 @@ dict =
           , title = "田植(そろたでそろたさなえがそろた)"
           , filename = "taue.pdf"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=13J6VqznA82c8BQ4isSTet-AxkhFcmj3M"
+          , mp3Url = "https://drive.google.com/uc?id=1SIT6xjxmpPp2TZxU2CYy4S0MA3k9pCYM"
+          , title = "旅姿三人男(しみずみなとのめいぶつはおちゃのかおりと)"
+          , filename = "tabisugata.pdf"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "旅姿三人男(しみずみなとのめいぶつはおちゃのかおりと)"
---   , filename = "tabisugata.pdf"
+--   , title = "ちんから峠(ちんからほいちんからほいちんからとうげの)"
+--   , filename = "chinkaratoge.pdf"
 --   }
-
 
     ]
 -- , { jpgUrl = ""
