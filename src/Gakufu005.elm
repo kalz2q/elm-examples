@@ -275,7 +275,7 @@ dict =
       , title = "ひいらぎかざろう(クリスマス)"
       , filename = "hiiragi.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1QDMCoj8CYbQ-rd-S2hPiafauRykr4w7R"
+    , { jpgUrl = "https://drive.google.com/uc?id=1ahV1jpiP5VTq98FbtWZLXR2mL1YxbPlv"
       , mp3Url = "https://drive.google.com/uc?id=1KR7Wd9MjJoUyvLvSsfvECZO2EpadaidE"
       , title = "涙そうそう(ふるいあるばむめくりありがとうってつぶやいた)"
       , filename = "nadasoso.pdf"
@@ -580,7 +580,7 @@ dict =
       , title = "あんたがたどこさ(ひごさひごどこさくまもとさ)"
       , filename = "antagata.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=12Dnp3TcPlVFK-tIK_t6xeAEclhlO9tmy"
+    , { jpgUrl = "https://drive.google.com/uc?id=1ssnGS0GdXloDZlpF4Epjk6gICWE_WWiu"
       , mp3Url = "https://drive.google.com/uc?id=1shHTsftfJiv-HEmA0ebWQ-z2KWdL69SK"
       , title = "森のくまさん(あるひもりのなかくまさんにであった)"
       , filename = "morinokuma.pdf"
@@ -745,9 +745,9 @@ dict =
       , title = "亜麻色の髪の乙女(ヴィレッジ・シンガーズ。あまいろのながいかみをかぜが)"
       , filename = "amaironokami.pdf"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1MkJlOO2hWU4f1_jQsCVibgXOw8eo8dUf"
+    , { jpgUrl = "https://drive.google.com/uc?id=1853bZ3RLa_-A16Zqd18m_dsbBshMujkb"
       , mp3Url = "https://drive.google.com/uc?id=18h4bIBi_UYOSOwH0dH1puReyCZFYWKj5"
-      , title = "カントリー・ロード(かんとりーろーど、このみち)"
+      , title = "カントリー・ロード(かんとりーろーどこのみち)"
       , filename = "countryroad.pdf"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1EW8U886L9jqdG-DmnlFXweQLgxPDQm61"
@@ -2210,11 +2210,32 @@ dict =
           , title = "旅姿三人男(しみずみなとのめいぶつはおちゃのかおりと)"
           , filename = "tabisugata.pdf"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=16zecnkFxb-u_yQLySUOs9ElYWmgalFed"
+          , mp3Url = "https://drive.google.com/uc?id=1M4YmkqI5A4ocpPQ0Kxi-pwCl7ao9EpHJ"
+          , title = "ちんから峠(ちんからほいちんからほいちんからとうげの)"
+          , filename = "chinkaratoge.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1qsF-6FzK5BZPLxVDX09Gn0ibC2sVN_oT"
+          , mp3Url = "https://drive.google.com/uc?id=1cFF9XlKxOkCEhwCVfSytwDf0U3zae1EI"
+          , title = "並木の雨(なみきのみちにあめがふるどこのひとやら)"
+          , filename = "namikinoame.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Ki5bFdVJSLwDMB_hYFv7KqswXZELUZbh"
+          , mp3Url = "https://drive.google.com/uc?id=1m8I6r1nR3I4vYiCbG0soVo1xw6ByETlJ"
+          , title = "二宮金次郎(しばかりなわないわらじをつくりおやのてをすけ)"
+          , filename = "ninomiyakinjiro.pdf"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1buwF-mjDDVG4g_YO62eudHvgj2eCJLc6"
+          , mp3Url = "https://drive.google.com/uc?id=1wrxMZ8SiF8F1SJaJrJ7iOhyrG75fFeeC"
+          , title = "野菊(とおいやまからふいてくるこさむいかぜに)"
+          , filename = "nogiku.pdf"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "ちんから峠(ちんからほいちんからほいちんからとうげの)"
---   , filename = "chinkaratoge.pdf"
+--   , title = "野崎小唄(のざきまいりはやかたぶねでまいろどこをむいても)"
+--   , filename = "nozakikouta.pdf"
 --   }
+
 
     ]
 -- , { jpgUrl = ""
