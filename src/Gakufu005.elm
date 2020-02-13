@@ -315,10 +315,10 @@ dict =
       , title = "ドラゴンクエスト序曲"
       , filename = "dragonquest.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1ZLNMXjLhbtx1E6G2yen5I0O7xFDpAMWO"
+    , { jpgUrl = "https://drive.google.com/uc?id=1wgH3vF3Ai7C1fTLVJk-s02x9B1s7Ysva"
       , mp3Url = "https://drive.google.com/uc?id=1cgdOkILV2stvb2TqTau0Z0-OOCdKyX_M"
       , title = "春の唄(らららあかいはなたば)"
-      , filename = "harunouta.ly"
+      , filename = "harunoutararara.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1qxvdZrrnWJBsuIJcH6XSZrXtvMyI6z8y"
       , mp3Url = "https://drive.google.com/uc?id=1v-hAoSoiuNoZNaFmJLCqJ67IcoOsBqdd"
@@ -2255,10 +2255,40 @@ dict =
           , title = "花かげ(じゅうごやおつきさまひとりぼちさくらふぶきのはなかげに)"
           , filename = "hanakage.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1nuwLX9xO_dml3JPCWz87xaGY4mLJR696"
+          , mp3Url = "https://drive.google.com/uc?id=1M4L-86VjaHmq08lx4ckSQGcJApdXuA0E"
+          , title = "はなさかじじい(うらのはたけでぽちがなくしょうじきじいさんほったれば)"
+          , filename = "hanasakajijii.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Q8yZ1RnhquwoA6PN4jVouSvgKPfnIp4e"
+          , mp3Url = "https://drive.google.com/uc?id=1fcNftuccgCoFKySzlcHCaNOOct2mZauX"
+          , title = "春の唄(さくらのはなのさくころはうららうららとひはうらら)"
+          , filename = "harunoutasakura.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1xn56YSrra6_IC63byninnVvwxZTCGb7T"
+          , mp3Url = "https://drive.google.com/uc?id=1PZThrpI2MQFK_oUyoAJmV6uSVUs0PYBS"
+          , title = "広瀬中佐(とどろくつつおととびくるだんがん)"
+          , filename = "hirosechusa.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1yGy9rfEKnDv9HBs2QSp_snt3OjFbquZ1"
+          , mp3Url = "https://drive.google.com/uc?id=1KQCnlm9eTly_MzW8mI2PA_BXFzOEpDX9"
+          , title = "二人は若い(あなたとよべばあなたとこたえるやまのこだまのうれしさよ)"
+          , filename = "futariwawakai.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1P8d1R6Yum6eV68ah-TcDhBnaBGY3f9ue"
+          , mp3Url = "https://drive.google.com/uc?id=1YtamT6pp9GSt3Iu2HCYwLbmRXJ9vzzWB"
+          , title = "冬の星座(こがらしとだえてさゆるそらより)"
+          , filename = "fuyunoseiza.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1E4wzhudr63Xl55m_D63RPy7gxnfwIvZ9"
+          , mp3Url = "https://drive.google.com/uc?id=1epeWXrDJQEzZrWuwj9mCe6NULNEBH_Yb"
+          , title = "冬の野(つゆじものおきわつふゆののべぞさびしき)"
+          , filename = "fuyunono.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "はなさかじじい(うらのはたけでぽちがなくしょうじきじいさんほったれば)"
---   , filename = "hanasakajijii.ly"
+--   , title = "紅屋の娘(べにやのむすめのいうことにゃさのいうことにゃ)"
+--   , filename = "beniyanomusume.ly"
 --   }
 
 
