@@ -2285,13 +2285,46 @@ dict =
           , title = "冬の野(つゆじものおきわつふゆののべぞさびしき)"
           , filename = "fuyunono.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1LmDj4JpvszPDy6qOgfNDrNAcaurw40ot"
+          , mp3Url = "https://drive.google.com/uc?id=1HNjuYk1TwJxxSDvZ8rhfhQHrTjliarY3"
+          , title = "紅屋の娘(べにやのむすめのいうことにゃさのいうことにゃ)"
+          , filename = "beniyanomusume.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1BshkVW3Zyuco-7i6VOoQnmsQ4Uwlq_vT"
+          , mp3Url = "https://drive.google.com/uc?id=1bx_MZOE4C9B7S0ItpYE6fCVIL5o69y1u"
+          , title = "満州娘(わたしじゅうろくまんしゅうむすめはるよさんがつゆきどけに)"
+          , filename = "manshumusume.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1NOnRe3wux9O6bfoDvsOwAt8dhHGsGrPl"
+          , mp3Url = "https://drive.google.com/uc?id=1P-TyLwx26LFoRJGau_twz2pbOkewRaOU"
+          , title = "南から南から(みなみからみなみからとんできたきたわたりどり)"
+          , filename = "minamikara.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1C6pwVNYPaiIA0mHH5WKSvYbviXIspwP6"
+          , mp3Url = "https://drive.google.com/uc?id=1XDbsIhW0p2E2-fwcJLh3NYix3pioGJvo"
+          , title = "南の花嫁さん(ねむのなみきをおうまのせなにゆらゆらゆらと)"
+          , filename = "minaminohanayomesan.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1DfzQhyLpJFCV_9QgnWXFkcApkIM246i8"
+          , mp3Url = "https://drive.google.com/uc?id=1gQlf0NTFvqGCKTRLNLqK9HNUkxhocz8n"
+          , title = "名月赤城山(おとこごころにおとこがほれて)"
+          , filename = "meigetsuakagiyama.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=11Y16Qe2dBALGvvLp55auX5sDJeqSgLx7"
+          , mp3Url = "https://drive.google.com/uc?id=1YAy4ZqU5nZb_idmKp8ixyv1NO0KBNR2o"
+          , title = "めだかの学校(めだかのがっこうはかわのなかそっとのぞいてみてごらん)"
+          , filename = "medakanogakko.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1rqeoX0jtDBItVwYGgZGNfSF8DjZ8GmDq"
+          , mp3Url = "https://drive.google.com/uc?id=1-7GKTN2GEvTCmLvyZuT5dISgvTERoIzB"
+          , title = "めんこい仔馬(ぬれたこうまのたてがみをなでりゃりょうてにあさのつゆ)"
+          , filename = "menkoikouma.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "紅屋の娘(べにやのむすめのいうことにゃさのいうことにゃ)"
---   , filename = "beniyanomusume.ly"
+--   , title = "もしも月給が上がったら(もしもげっきゅうがあがったら)"
+--   , filename = "moshimogekkyuga.ly"
 --   }
-
-
 
     ]
 -- , { jpgUrl = ""
