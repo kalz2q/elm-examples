@@ -2320,11 +2320,48 @@ dict =
           , title = "めんこい仔馬(ぬれたこうまのたてがみをなでりゃりょうてにあさのつゆ)"
           , filename = "menkoikouma.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1xIQXsYHI29teWlQMpwjIkQ2M-ApojW32"
+          , mp3Url = "https://drive.google.com/uc?id=1WA-UT-iyUgkodZUB_CK-BNxrTeqMSys1"
+          , title = "もしも月給が上がったら(もしもげっきゅうがあがったら)"
+          , filename = "moshimogekkyu.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Il-iaEBb3PUcaJ051-Mcjy3sVfenb9WI"
+          , mp3Url = "https://drive.google.com/uc?id=19PadJFpwyrIGrdvF6VrkeRH7PW5sRUM6"
+          , title = "ヤットン節(おさけのむなさけのむなのごいけんなれどよいよい)"
+          , filename = "yattonbushi.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1MHVjWA4uUpDM09SJuVv5IFCXvo4mzXDA"
+          , mp3Url = "https://drive.google.com/uc?id=1a2Wzdn_tKRXXf_Fx6vMHmoR3xIIk5yS9"
+          , title = "朝だ元気で(あさだあさだよあさひがのぼる)"
+          , filename = "asadagenkide.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1-GWUevcCLstjy500ypKC-DqIPLWcry8W"
+          , mp3Url = "https://drive.google.com/uc?id=1vZWYt2wWePO_XZDLmNQXgqrcvTPHCKvS"
+          , title = "朝はどこから(あさはどこからくるかしらあのそらこえてくもこえて)"
+          , filename = "asawadokokara.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1hVC3GPmExEyk1FqCIflNL0Grs5qGl_DX"
+          , mp3Url = "https://drive.google.com/uc?id=1v_CR8XOeJf3EwPmh5xMLnLbX3VYsx3KH"
+          , title = "明日があるさ(いつものえきでいつもあうせーらーふくのおさげがみ)"
+          , filename = "ashitagaarusa.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1A-JjFub_fZnhm_kmRpHSh16SrS2ngKtL"
+          , mp3Url = "https://drive.google.com/uc?id=1YMI84p-Bsdfz39PLD9XGp-X2azC_ZvAP"
+          , title = "あなたと共に(あなたとともにゆきましょうこいのあまさとせつなさを)"
+          , filename = "anatatotomoni.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Pwx4J5PcqXMDNKnbW3bMyAeF4A43B_ww"
+          , mp3Url = "https://drive.google.com/uc?id=1N4xWta0guFcT6YnSouHM94y-OAw61loy"
+          , title = "あの丘越えて(やまのまきばのゆうぐれにかりがとんでるただいちわ)"
+          , filename = "anookakoete.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "もしも月給が上がったら(もしもげっきゅうがあがったら)"
---   , filename = "moshimogekkyuga.ly"
+--   , title = "アンパンマンのマーチ(そうだうれしいんだいきるよろこびたとえむねのきずがいたんでも)"
+--   , filename = "anpanmannomarch.ly"
 --   }
+
+
 
     ]
 -- , { jpgUrl = ""
