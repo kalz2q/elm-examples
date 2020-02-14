@@ -2365,11 +2365,32 @@ dict =
           , title = "急げ幌馬車(ひぐれかなしやあれのははるかいそげほろばしゃすずのねだより)"
           , filename = "isogehorobasha.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1fl93mWG8JV2peZUL50hALBkdcQxmh-jh"
+          , mp3Url = "https://drive.google.com/uc?id=169_LPOMfYRxqvVgQpdc8_ADvXgJTZB92"
+          , title = "潮来笠(いたこのいたろうちょっとみなればはくじょうそうなわたりどり)"
+          , filename = "itakogasa.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1amYTWIaVCEKZwVJyysXFA2qZxXtXRME3"
+          , mp3Url = "https://drive.google.com/uc?id=1qcMXjUH3DnBhyNCdzLmJakgNYdI1TbWs"
+          , title = "いつでも夢を(ゆめよりひそかにあめよりやさしく)"
+          , filename = "itsudemoyumewo.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1ERyZrxG6L1M_HGi5HXzItITo4sjnERBV"
+          , mp3Url = "https://drive.google.com/uc?id=1Eizx51QLS-iwL_w2CD9tm4GOu41mWckT"
+          , title = "一杯のコーヒーから(いっぱいのこーひーからゆめのはなさくこともある)"
+          , filename = "ippainocoffee.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1xHbI3Bilbl6pY3ui35rhE9EswNZML4hf"
+          , mp3Url = "https://drive.google.com/uc?id=1VDHv5taWemQjXok1-HkCHoqOc_ZjUhM4"
+          , title = "いぬのおまわりさｎ(まいごのまいごのこねこちゃんあなたのおうちはどこですか)"
+          , filename = "inunoomawarisan.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "潮来笠(いたこのいたろうちょっとみなればはくじょうそうなわたりどり)"
---   , filename = "itakogasa.ly"
+--   , title = "王将(ふけばとぶようなしょうぎのこまに)"
+--   , filename = "ousho.ly"
 --   }
+
 
 
 
