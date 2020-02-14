@@ -2385,12 +2385,46 @@ dict =
           , title = "いぬのおまわりさｎ(まいごのまいごのこねこちゃんあなたのおうちはどこですか)"
           , filename = "inunoomawarisan.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1vlCfa8zW_VfX5bWtj6ig4H1K1Pt7QR2B"
+          , mp3Url = "https://drive.google.com/uc?id=1xSxdCheLKWN9EK-JAGiUkfC76VYD_CNB"
+          , title = "王将(ふけばとぶようなしょうぎのこまに)"
+          , filename = "ousho.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1zM6STuAyc3-dua1REeJK7b6CE2Y6hG9B"
+          , mp3Url = "https://drive.google.com/uc?id=1d-J4IR9ec3nsCqtegC5HF74k7KsbX5M5"
+          , title = "お座敷小唄(ふじのたかねにふるゆきもきょうとぽんとちょうにふるゆきも)"
+          , filename = "ozashikikouta.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1ugUNS5b8WkyVjWTGNi5J7OFQUxwrhSEf"
+          , mp3Url = "https://drive.google.com/uc?id=16Cq48x6K5NbJhJVgMxbiTaBLQHLT6rwA"
+          , title = "おつかいありさん(あんまりいそいでごっつんこ)"
+          , filename = "otsukaiarisan.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1MWj-haou11rWMLCU8KkS8NegV6hv23D9"
+          , mp3Url = "https://drive.google.com/uc?id=1DNmMX2LsaxBnA7nDQ1CC8fX4ivqNcx1U"
+          , title = "踊子(さよならもいぜずないているわたしのおどりこよああふねがでる)"
+          , filename = "odoriko.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1VdKP6dhtBT9qKAdsHnS9PYPDz_5FF3-n"
+          , mp3Url = "https://drive.google.com/uc?id=16-qzOzoJ708YEioXDFDsLTPcY3xMjBv-"
+          , title = "おどるポンポコリン(なんでもかんでもみんなおどりをおどっているよ)"
+          , filename = "odoruponpokolin.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1R-2MfI9rlfUK8tcOeSNj1wUI_XEMIkB_"
+          , mp3Url = "https://drive.google.com/uc?id=13kOsfS1xhiXqXOVfGnJB4gN_PENNWev2"
+          , title = "おなかのへるうた(どうしておなかがへるのかなけんかをするとへるのかな)"
+          , filename = "onakanoheruuta.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1k8F6O53M-Fc1rOdVuc67FazlT6znhu5X"
+          , mp3Url = "https://drive.google.com/uc?id=1gTew-4rDwIOqfs2bMEkmym41GRJOrJvw"
+          , title = "思い出(久しき昔。かきにあかいはなさくいつかのあのいえ)"
+          , filename = "omoidehisashikimukashi.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "王将(ふけばとぶようなしょうぎのこまに)"
---   , filename = "ousho.ly"
+--   , title = "おもちゃのマーチ(やっとこやっとこくりだしたおもちゃのまーちがらったった)"
+--   , filename = "omochanomarch.ly"
 --   }
-
 
 
 
