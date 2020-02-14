@@ -2355,10 +2355,20 @@ dict =
           , title = "あの丘越えて(やまのまきばのゆうぐれにかりがとんでるただいちわ)"
           , filename = "anookakoete.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Vk0CnglxPOdmRx4JuR7YJ7MoFueLOhC5"
+          , mp3Url = "https://drive.google.com/uc?id=1FKlC813qr12dZZgnsRHs7j_mdql4V_q9"
+          , title = "アンパンマンのマーチ(そうだうれしいんだいきるよろこびたとえむねのきずがいたんでも)"
+          , filename = "anpanmannomarch.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=14vqGkjpvCzbwzXkqCZEFy7q6iqZg34ca"
+          , mp3Url = "https://drive.google.com/uc?id=1FNQRBd7sh3l5tlmf8phC5Z3lB0NXsNbj"
+          , title = "急げ幌馬車(ひぐれかなしやあれのははるかいそげほろばしゃすずのねだより)"
+          , filename = "isogehorobasha.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "アンパンマンのマーチ(そうだうれしいんだいきるよろこびたとえむねのきずがいたんでも)"
---   , filename = "anpanmannomarch.ly"
+--   , title = "潮来笠(いたこのいたろうちょっとみなればはくじょうそうなわたりどり)"
+--   , filename = "itakogasa.ly"
 --   }
 
 
