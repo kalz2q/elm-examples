@@ -730,7 +730,7 @@ dict =
       , title = "君が代(きみがよはちよにやちよに)"
       , filename = "kimigayo.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1eS-Wjq7M7YO0M6YnFHp_YLkFHtl_WkkE"
+    , { jpgUrl = "https://drive.google.com/uc?id=1I_3DOLlaNiN6eJ-z7rb2v0pV9dwTmFBp"
       , mp3Url = "https://drive.google.com/uc?id=1PObnTX-60xqaB6zEg1FKFrwiy33JEE75"
       , title = "シューベルトの子守歌(ねむれねむらははのむねに)"
       , filename = "schubertkomori.ly"
@@ -2460,6 +2460,72 @@ dict =
           , title = "銀座の恋の物語(こころのそこまでしびれるような)"
           , filename = "ginzanokoi.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1YD1WrrHXcweF6N9ga_r2KpsArb3R0CG5"
+          , mp3Url = "https://drive.google.com/uc?id=1AaazqCUyWRwGJdsMWmz5yJnSdz60X3W6"
+          , title = "銀座の柳(うえてうれしいぎんざのやなぎえどのなごりのうすみどり)"
+          , filename = "ginzanoyanagi.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1gtmtZW3T8zF7ed03Rjhzp1TxmQHveBDE"
+          , mp3Url = "https://drive.google.com/uc?id=1-Zq8l5meNVc4tB2XL1uUTAwvmaTryS76"
+          , title = "古城(まつかぜさわぐおかのうえこじょうよひとりなにしのぶ)"
+          , filename = "kojomatsukaze.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1NvTghRz9ZG3UAVsdzxtX0Ip3rxRihlCJ"
+          , mp3Url = "https://drive.google.com/uc?id=1W-AbkVU63n1ljFHDIqglp1Ay7zYy1C-X"
+          , title = "金剛石(こんごうせきもみがかずばたまのひかりはそわざらん)"
+          , filename = "kongoseki.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1likk46ULJFq7wwgf_EU200B0LmPYWRrK"
+          , mp3Url = "https://drive.google.com/uc?id=1otq8zxqht0nHisCbb9TJeGVUTsr1LsoA"
+          , title = "こんなベッピン見たことない(とかなんとかおっしゃって)"
+          , filename = "konnabeppin.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=10PjNsDKRJM9yKxFtXLZ9e3C9PC9ghuYm"
+          , mp3Url = "https://drive.google.com/uc?id=1Cb1Qkw0z1nbIUKh4bc2GEnt-pPwITUMm"
+          , title = "酒は涙か溜息か(さけはなみだかためいきかこころのうさのすてどころ)"
+          , filename = "sakewanamidaka.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1B1qy-Fx3As7rBStil6UedkOWeHmSBjos"
+          , mp3Url = "https://drive.google.com/uc?id=15_gEz9U8KJVVlSvwWxXfvk_ZbfTzaqme"
+          , title = "サザエさん(おさかなくわえたどらねこおっかけて)"
+          , filename = "sazaesan.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1YU5UzOsy4btPB2IE125JWDMXZj9zkTYR"
+          , mp3Url = "https://drive.google.com/uc?id=1vWZKIGzUjpWHUEj6H5R0LG_-523zeH_M"
+          , title = "支那の夜(しなのよるしなのよるよみなとのあかりむらさきのよに)"
+          , filename = "shinanoyoru.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1oH59TUvsT3knxtCqfiYXw74IJ5vPa7CS"
+          , mp3Url = "https://drive.google.com/uc?id=1atS4IL6klemsIDrBTYnzHKGy32aq_kPX"
+          , title = "島育ち(あかいそてつのみもうれるころかなもとしごろ)"
+          , filename = "shimasodachi.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Osoi7iji9KpNwEfHzOtRe_UvLSuGSgf2"
+          , mp3Url = "https://drive.google.com/uc?id=1ZyJMHNfNWxs1lVjQc1gWm_FLFwWzgloT"
+          , title = "十人のインディアン(ひとりふたりさんにんいるよ)"
+          , filename = "juninnoindian.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1zhlTQYwkeYRaqANA5mh4vS0D5saPePvw"
+          , mp3Url = "https://drive.google.com/uc?id=1UfywMJBtHMymfThVohUfv0y7GvuotD1_"
+          , title = "鈴懸の径(ともとかたらんすずかけのみち)"
+          , filename = "suzukakenomichi.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Q0qH_0p1MR6UUW1QBvdYz6642lhH75P0"
+          , mp3Url = "https://drive.google.com/uc?id=1zoeWt3vNzE8i7PjOoNrZKbBS1xOtE8Qi"
+          , title = "すずめのおやど(すずめすずめおやどはどこだ)"
+          , filename = "suzumenooyado.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1kQPf5zZfvnux8K_t4Kmsu9CQqJb5ocC-"
+          , mp3Url = "https://drive.google.com/uc?id=16BqXu8U5B6fI1lWqU07N7KS5ZW7h6C1f"
+          , title = "スワニー河(はるかなるすわにーがわきしべに)"
+          , filename = "swaneeeriver.ly"
+          }
+-- , { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "ズンドコ節(きしゃのまどからてをにぎりおくってくれたひとよりも)"
+--   , filename = "zundokobushi.ly"
+--   }
+
 
 
     ]
