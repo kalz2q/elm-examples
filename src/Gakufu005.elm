@@ -705,7 +705,7 @@ dict =
       , title = "再会(さいかい。あえなくなってはじめてしった)"
       , filename = "saikai.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=18RwmTsJvYcsyfmNdLjrZbYaQQZ4DYuJ8"
+    , { jpgUrl = "https://drive.google.com/uc?id=1w64ryY-NyXIhQza4gWD9ST83rVd6bkEU"
       , mp3Url = "https://drive.google.com/uc?id=1jxeYCnXQ7CZMpEIrn_OJ-hm9dGtPiND9"
       , title = "小さな世界(ちいさなせかい、It's a small world、せかいじゅうどこだって)"
       , filename = "smallworld.ly"
@@ -2420,12 +2420,46 @@ dict =
           , title = "思い出(久しき昔。かきにあかいはなさくいつかのあのいえ)"
           , filename = "omoidehisashikimukashi.ly"
           }
--- , { jpgUrl = ""
---   , mp3Url = ""
---   , title = "おもちゃのマーチ(やっとこやっとこくりだしたおもちゃのまーちがらったった)"
---   , filename = "omochanomarch.ly"
---   }
-
+        , { jpgUrl = "https://drive.google.com/uc?id=1LUp20EYnPxO5V9Nn2hyt2MpF3fmIP5Uv"
+          , mp3Url = "https://drive.google.com/uc?id=1rXNSh_mdYsLCqyuwrFOVzVXxUd4x1Z-O"
+          , title = "おもちゃのマーチ(やっとこやっとこくりだしたおもちゃのまーちがらったった)"
+          , filename = "omochanomarch.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1FRyVq8OlvVEviROKsuNh0lr-0FFfQsE2"
+          , mp3Url = "https://drive.google.com/uc?id=1IfPVJ7RLaWHH6Wt3jatqjZt-se-3bErI"
+          , title = "およげ！たいやきくん(まいにちまいにちぼくらはてっぱんのうえでやかれて)"
+          , filename = "oyogetaiyaki.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=11x1ZcVCjEyN6_spbaxBz20u92xiyEica"
+          , mp3Url = "https://drive.google.com/uc?id=1tORun5QbN5CTRtC59N9mE1LXOcwSpc2T"
+          , title = "蛙の笛(つきよのたんぼでころろころろころろころころなるふえは)"
+          , filename = "kaerunofue.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1H4H5rUpatgt1bVOkIPL7smqTQ74CD9Ha"
+          , mp3Url = "https://drive.google.com/uc?id=1GZhzJ98hF5qoC8qP1g4yQnL3KVngW0EA"
+          , title = "からすの赤ちゃん(からすのあかちゃんなぜなくのこけこっこのおばさんに)"
+          , filename = "karasunoakachan.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1vT88WA2hXC3fNPotIvF8Tj_h8gnd57nC"
+          , mp3Url = "https://drive.google.com/uc?id=1LOGGXDXXDOTPavjjQ5bArflBHs9PsjYp"
+          , title = "岸壁の母(はははきましたきょうもきた)"
+          , filename = "ganpekinohaha.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1HsptCaVyFdz12fDMJ6xFat-q4XfrTyZ2"
+          , mp3Url = "https://drive.google.com/uc?id=1XH0X3-kdKtBLBpZYpSjtUJnD_63OSc2U"
+          , title = "菊の花(みごとにさいたかきねのこぎく)"
+          , filename = "kikunohanamigoto.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1dvWukpJ9bg8h5yr7j1wTrTChebvMdU6b"
+          , mp3Url = "https://drive.google.com/uc?id=1BvfSF7flIwnCUpJvKBiwk5IonDE_3dNH"
+          , title = "北風小僧の寒太郎(きたかぜこぞうのかんたろうことしもまちまでやってきた)"
+          , filename = "kitakazekozo.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1VsvxpIEq69PMI0xzrjpFZjhO8_oN_JZp"
+          , mp3Url = "https://drive.google.com/uc?id=10OM60Au2tCwajRVD6VwLg9oJfry-SOBd"
+          , title = "銀座の恋の物語(こころのそこまでしびれるような)"
+          , filename = "ginzanokoi.ly"
+          }
 
 
     ]
