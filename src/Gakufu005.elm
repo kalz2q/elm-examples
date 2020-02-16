@@ -1250,7 +1250,7 @@ dict =
       , title = "冬景色(さぎりきゆるみなとえの)"
       , filename = "fuyugeshiki.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1Cvhc7m2Nk246-YQaRpFOgQYLf-CyTnDC"
+    , { jpgUrl = "https://drive.google.com/uc?id=1T032yPDEzKObjlSbGFGOXuwTxwZq8YcH"
       , mp3Url = "https://drive.google.com/uc?id=1N3REHPL99O7qyBHhov3xFX8VctUWOKhi"
       , title = "翼をください(いまわたしのねがいごとがかなうならば)"
       , filename = "tsubasa.ly"
@@ -2550,12 +2550,26 @@ dict =
           , title = "チャンチキおけさ(つきがわびしいろじうらのやたいのさけのほろにがさ)"
           , filename = "chanchikiokesa.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=12k0hRcfHaNGw_QRrgjRbcC4I274g5-Kb"
+          , mp3Url = "https://drive.google.com/uc?id=1T2llU8_4nUKfAEAq3A4ZW_WxJ-_lYR4r"
+          , title = "ちんちん千鳥(ちんちんちどりのなくよさは)"
+          , filename = "chinchinchidori.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1t2z-Vcp0py1WseAXOhWGZlJPawhUBAoR"
+          , mp3Url = "https://drive.google.com/uc?id=15jUCVSC1yfT0N8ZsbQJVDV21dgM8DdeB"
+          , title = "月がとっても青いから(つきがとってもあおいからとおまわりしてかえろう)"
+          , filename = "tsukigatottemoaoikara.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1NxCJFZ_3fOpJ9hsdOVpNauk6jeCIa93B"
+          , mp3Url = "https://drive.google.com/uc?id=1vNh-4kTyubzJhrKk7neD9FXT1hWVvNpW"
+          , title = "手のひらを太陽に(ぼくらはみんないきているいきているからうたうんだ)"
+          , filename = "tenohirawotaiyoni.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "ちんちん千鳥(ちんちんちどりのなくよさは)"
---   , filename = "chinchinchidori.ly"
+--   , title = "出船(こよいでふねかおなごりおしや)"
+--   , filename = ".ly"
 --   }
-
 
     ]
 -- , { jpgUrl = ""
