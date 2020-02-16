@@ -2520,12 +2520,41 @@ dict =
           , title = "スワニー河(はるかなるすわにーがわきしべに)"
           , filename = "swaneeeriver.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1ZUv2tOtgWXdsAuiqjsUqZeItumJmCBpE"
+          , mp3Url = "https://drive.google.com/uc?id=15Qk-sIBGBKQWyWJfeudHHM6RLaBDyoUB"
+          , title = "ズンドコ節(きしゃのまどからてをにぎりおくってくれたひとよりも)"
+          , filename = "zundokobushi.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1EG2nfViJHp1AtKfQzmtf8D6x12VXhKcB"
+          , mp3Url = "https://drive.google.com/uc?id=1-M21VTcmF33yFbyaBWw_kqgF6s7ZP7-f"
+          , title = "世界の国からこんにちは(日本万国博覧会テーマソング)"
+          , filename = "sekainokunikara.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1fsbkrj60p7YmP1bOpLGwZx0Ji54TW0_w"
+          , mp3Url = "https://drive.google.com/uc?id=1-FVDpRyUsuYNUOrHflIyEupMlYokKYO1"
+          , title = "早春賦(はるはなのみのかぜのさむさやたにのうぐいすうたはおもえど)"
+          , filename = "soshunfu.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1SytM-xPldwAyAwNqVzU9xw2X-gjsoFMJ"
+          , mp3Url = "https://drive.google.com/uc?id=1Ib1GyXhDHrtXzo2w8nC9kxfZooIqTDzF"
+          , title = "旅笠道中(よるがつめたいこころがさむい)"
+          , filename = "tabigasadochu.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1dKDWiLxyszzCNp1rJ2iHPIfzJvZGTOpa"
+          , mp3Url = "https://drive.google.com/uc?id=1NOg3BTkpvvHlgVJwqzrpHhrhve0BO0fO"
+          , title = "ちいさい秋みつけた(だれかさんがだれかさんがみつけたちいさいあき)"
+          , filename = "chiisaiaki.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1zIb5hbeyywQ9JkxF4zRfamDYw9-ns1SN"
+          , mp3Url = "https://drive.google.com/uc?id=1yYGOUVkXXFmgsX1OEUqiMHKIULC1NgOz"
+          , title = "チャンチキおけさ(つきがわびしいろじうらのやたいのさけのほろにがさ)"
+          , filename = "chanchikiokesa.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "ズンドコ節(きしゃのまどからてをにぎりおくってくれたひとよりも)"
---   , filename = "zundokobushi.ly"
+--   , title = "ちんちん千鳥(ちんちんちどりのなくよさは)"
+--   , filename = "chinchinchidori.ly"
 --   }
-
 
 
     ]
