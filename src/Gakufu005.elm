@@ -2565,10 +2565,45 @@ dict =
           , title = "手のひらを太陽に(ぼくらはみんないきているいきているからうたうんだ)"
           , filename = "tenohirawotaiyoni.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=11BHZJGzaBzOdzWywRczeDqIg1LLI1X_q"
+          , mp3Url = "https://drive.google.com/uc?id=1sIvUq3e91GNFMCViPVrJijl0W4f81xfX"
+          , title = "出船(こよいでふねかおなごりおしや)"
+          , filename = "defune.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1I7GFqRf8IfMnKL0CEbldbTi4oXodLsFw"
+          , mp3Url = "https://drive.google.com/uc?id=1q99n_0QBUYdPNTdyHQ9gJwyUM34Pajlx"
+          , title = "電車ごっこ(うんてんしゅはきみだしゃしょうはぼくだ)"
+          , filename = "denshagokko.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1QpimiLb5O2YB-1EnyOuYL8VFbNRcw2XK"
+          , mp3Url = "https://drive.google.com/uc?id=1rIO-H89u5uUL1QiSpubw0c6w9fGSqfgd"
+          , title = "電車唱歌(たまのみやいはまるのうちちかきひびやにあつまれる)"
+          , filename = "denshashoka.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1UY2f3o0mdMUABi5IGJAlZeG0HIqhIYHY"
+          , mp3Url = "https://drive.google.com/uc?id=1GW17ibcgrE-BmWLzqyFxM67UR6NhMjWd"
+          , title = "東京五輪音頭(はあーあのひろーまでながめたつきが)"
+          , filename = "tokyogorinondo.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1YfkxKSBOMqwKz0xYSQ9ErJtMy6zGjHWa"
+          , mp3Url = "https://drive.google.com/uc?id=1c01TkCmYlaxyhh44rYVkyn13ehX-kGNi"
+          , title = "東京ドドンパ娘(すきになったらはなれられない)"
+          , filename = "tokyododonpamusume.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=149Lgkk-WlqgUw9tjCyq71dLYtiVCkXV5"
+          , mp3Url = "https://drive.google.com/uc?id=13QxLFqAoz3ON6QPb7UQHBkyTK9_B-UIA"
+          , title = "東京ナイト・クラブ(なぜなくのまつげがぬれてる)"
+          , filename = "tokyonightclub.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1DP-029YRN1nPvWbfhPHH6Exw-Iy9s0Mn"
+          , mp3Url = "https://drive.google.com/uc?id=1Sfe-rbmE8bI9ODkAj7FeP9GEdY833keE"
+          , title = "東京の花売り娘(あおいめをふくやなぎのつじにはなをめしませ)"
+          , filename = "tokyonohanaurimusume.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "出船(こよいでふねかおなごりおしや)"
---   , filename = ".ly"
+--   , title = "東京ブギウギ(とうきょうぶぎうぎりずむうきうきこころずきずきわくわく)"
+--   , filename = "tokyouboogie.ly"
 --   }
 
     ]
