@@ -2600,11 +2600,27 @@ dict =
           , title = "東京の花売り娘(あおいめをふくやなぎのつじにはなをめしませ)"
           , filename = "tokyonohanaurimusume.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1t9w4qH69fSxo2nwgxTsbNScGC6ko1laE"
+          , mp3Url = "https://drive.google.com/uc?id=1QZEYwPq04AOaAwK0uYcbBRcCCRYZD4hS"
+          , title = "東京ブギウギ(とうきょうぶぎうぎりずむうきうきこころずきずきわくわく)"
+          , filename = "tokyouboogie.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1kuOIChq2d3mHiKEXr8gCQl8HvdaKppJV"
+          , mp3Url = "https://drive.google.com/uc?id=1UQKXazVk_YrgdC201b25xAHZtpFas4Kz"
+          , title = "鉄道唱歌(きてきいっせいしんばしをはやわがきしゃははなれたり)"
+          , filename = "tetsudoshoka.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1V8uaqsZwfnPKvZKPOElf7htbSYzOKY7r"
+          , mp3Url = "https://drive.google.com/uc?id=1G3kfBDQApHjHd5SWsUb0FhHjOYqXVJXn"
+          , title = "灯台守(とうだいもり。こおれるつきかげそらにさえて)"
+          , filename = "todaimori.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "東京ブギウギ(とうきょうぶぎうぎりずむうきうきこころずきずきわくわく)"
---   , filename = "tokyouboogie.ly"
+--   , title = "どじょっこふなっこ(はるになればすがこもとけて)"
+--   , filename = "dojokkofunakko.ly"
 --   }
+
 
     ]
 -- , { jpgUrl = ""
