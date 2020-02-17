@@ -2635,11 +2635,11 @@ dict =
           , title = "とんでったバナナ(ばなながいっぽんありましたあおいみなみのそらのした)"
           , filename = "tondettabanana.ly"
           }
--- , { jpgUrl = ""
---   , mp3Url = ""
---   , title = "長崎の女(こいのなみだかそてつのはながかぜにこぼれるいしだたみ)"
---   , filename = "nagasakinohito.ly"
---   }
+        , { jpgUrl = "https://drive.google.com/uc?id=17xwtKTv8r9J-DgZiyMr7ryvjTzA_hIF7"
+          , mp3Url = "https://drive.google.com/uc?id=1_TR8IzwLmpJUDFpib7Y-yoGQfQZYGSiv"
+          , title = "長崎の女(こいのなみだかそてつのはながかぜにこぼれるいしだたみ)"
+          , filename = "nagasakinohito.ly"
+          }
 
 
     ]
@@ -2650,3 +2650,4 @@ dict =
 --   }
 
 -- メモ: 銀座のカンカン娘
+-- 箱根八里を云々
