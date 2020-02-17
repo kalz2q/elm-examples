@@ -2615,10 +2615,30 @@ dict =
           , title = "灯台守(とうだいもり。こおれるつきかげそらにさえて)"
           , filename = "todaimori.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1psLWnJ6aIpN6TfGt-hw2FWWpYiFLYGMx"
+          , mp3Url = "https://drive.google.com/uc?id=1uOkBK2FjkTPORzRRboiI_6nJg7aFViTd"
+          , title = "どじょっこふなっこ(はるになればすがこもとけて)"
+          , filename = "dojokkofunakko.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1d8DwVJn3lPRUTfp7fRpfN9NMjP4Hqi3O"
+          , mp3Url = "https://drive.google.com/uc?id=1quQ562FctloYK-8DlaKVwQ3qjOhEaAYN"
+          , title = "ともしび(よぎりのかなたへわかれをつげおおしきますらおいでてゆく)"
+          , filename = "tomoshibi.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=18aeQgO1Xh5yickWCOmEZYDUot_SuOtXW"
+          , mp3Url = "https://drive.google.com/uc?id=1sdUEUfge7sFda4nLMNuumlSrql7RHZ4Q"
+          , title = "ドラえもんのうた(こんなこといいなできたらいいなあんなゆめこんなゆめ)"
+          , filename = "doraemonnouta.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1RataNI2M6tBzyMMhAoZRAuHyDaNjg-VU"
+          , mp3Url = "https://drive.google.com/uc?id=18CBPhCOg-WC1bC7_WhUb-GichrGmZ0z0"
+          , title = "とんでったバナナ(ばなながいっぽんありましたあおいみなみのそらのした)"
+          , filename = "tondettabanana.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "どじょっこふなっこ(はるになればすがこもとけて)"
---   , filename = "dojokkofunakko.ly"
+--   , title = "長崎の女(こいのなみだかそてつのはながかぜにこぼれるいしだたみ)"
+--   , filename = "nagasakinohito.ly"
 --   }
 
 
