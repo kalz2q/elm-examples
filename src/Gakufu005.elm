@@ -2665,12 +2665,46 @@ dict =
           , title = "琵琶湖周航の歌(われはうみのこさすらいのたびにしあればしみじみと)"
           , filename = "biwakoshukonouta.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=18laaM8twLWg4tX_ED3cuU1H0LZNpLsJo"
+          , mp3Url = "https://drive.google.com/uc?id=1Aza1bIhIsb-a8tPLu536Yr4eMfgRdM1N"
+          , title = "婦人従軍歌(ほづつのひびことおざかるあとにはむしもこえたてず)"
+          , filename = "fujinjugunka.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1zzlEqMW8mSKV88GXV7WX8PX0DK62H6Jy"
+          , mp3Url = "https://drive.google.com/uc?id=1Q_6c0sojHQBvXjHXye5vu_yXc-TG-GcP"
+          , title = "星に願いを(ほしにねがいを。ディズニー。かがやくほしにこころのゆめを)"
+          , filename = "hoshininegaiwo.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1_2JhApHIZTvo9l8SGm9R7jVxsOk0_hnl"
+          , mp3Url = "https://drive.google.com/uc?id=1PN0XWNwyz-orvg5l7IjpYoF0saCexAni"
+          , title = "北帰行(まどはよつゆにぬれてみやこすでにとおのく)"
+          , filename = "hokkikou.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1jaXTRwCDY3p9j4bWiAlmGu3IN8fRSbek"
+          , mp3Url = "https://drive.google.com/uc?id=1EE4Y_oeYhdtIquMp78qMOA6GObJKD6tX"
+          , title = "街のサンドイッチマン(ろいどめがねにえんびふく)"
+          , filename = "machinosandwichman.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=14z3L_4MQitDF4cQxxS2_eBXTWefGvF3A"
+          , mp3Url = "https://drive.google.com/uc?id=1sqp1rQCdMiuhWqKEdAxp01z6aFJ4fhhI"
+          , title = "まつの木小唄(まつのきばかりがまつじゃない)"
+          , filename = "matsunokikouta.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1qiT3eRO0g02Vf3GbGKMydkX4k5Q81_Nj"
+          , mp3Url = "https://drive.google.com/uc?id=1Up6WfNHxj4ByH8Adqd-UQS8xt8rKGyPT"
+          , title = "見上げてごらん夜の星を(みあげてごらんよるのほしを)"
+          , filename = "miagetegoranyorunohoshiwo.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=13-c9arClb6QFamTLvcCAYSJw2DZHpl4C"
+          , mp3Url = "https://drive.google.com/uc?id=1u4G4R-Bi4FqPS2Z44ht2V8TpaNiqUZ8S"
+          , title = "緑のラララ(部分。やわらかいみどりのすずしそうなこかげ)"
+          , filename = "midorinolalala.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "婦人従軍歌(ほづつのひびことおざかるあとにはむしもこえたてず)"
---   , filename = "fujinjugunka.ly"
+--   , title = "皆の衆(みなのしゅうみなのしゅううれしかったらはらからわらえ)"
+--   , filename = "minanoshu.ly"
 --   }
-
 
 
     ]
