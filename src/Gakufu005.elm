@@ -2640,6 +2640,37 @@ dict =
           , title = "長崎の女(こいのなみだかそてつのはながかぜにこぼれるいしだたみ)"
           , filename = "nagasakinohito.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Yz5GrFUIXuHCN6vihtQLf9mR2EzGGHYr"
+          , mp3Url = "https://drive.google.com/uc?id=1mNAraXiEhauX8srJ9OrWhBSAkGpc7ok2"
+          , title = "箱根八里の半次郎(まわしがっぱもさんねんがらす)"
+          , filename = "hakonehanjiro.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=13dJTLAO8F8z7YPy75AOT2JDlkYCjxYKb"
+          , mp3Url = "https://drive.google.com/uc?id=1P6AB-LfyhKfpqcelnAbrx4oswcVl15-4"
+          , title = "波浮の港(はぶのみなと。いそのうのとりゃひぐれにゃかえる)"
+          , filename = "habunominato.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1mBQp_MaMFHhgM1drzi2MBqrunNprJPgj"
+          , mp3Url = "https://drive.google.com/uc?id=1Yz38_eSeTYvGSXirRp5TgRwpiPo7VI1V"
+          , title = "春の風(るるるるーるる、ルルルルールル)"
+          , filename = "harunokaze.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1ykPexfa15ZePlt9QzyZeQibOUdod9tJA"
+          , mp3Url = "https://drive.google.com/uc?id=1Ettr4jhF6g3YfgmF-e0DB4N9TP6hS9yJ"
+          , title = "瓢箪ブギ(のめやうたえやよのなかはさけださけだよひょうたんぶぎ)"
+          , filename = "hyotanboogie.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1X2x5KBHwxeobEQAVGB-KG9mg-M68sLvH"
+          , mp3Url = "https://drive.google.com/uc?id=1XyCX5aTPYk907EzmoelseT1eGyQfI-WU"
+          , title = "琵琶湖周航の歌(われはうみのこさすらいのたびにしあればしみじみと)"
+          , filename = "biwakoshukonouta.ly"
+          }
+-- , { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "婦人従軍歌(ほづつのひびことおざかるあとにはむしもこえたてず)"
+--   , filename = "fujinjugunka.ly"
+--   }
+
 
 
     ]
@@ -2651,3 +2682,4 @@ dict =
 
 -- メモ: 銀座のカンカン娘
 -- 箱根八里を云々
+-- かっこう、がおそすぎます
