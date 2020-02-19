@@ -2750,12 +2750,16 @@ dict =
           , title = "夜汽車(いつもいつもとおるよぎしゃしずかなひびききけば)"
           , filename = "yogisha.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1PjcFkuTLhtk1BnjdtHwL56Dlh2gT6n7h"
+          , mp3Url = "https://drive.google.com/uc?id=1Pp3P6h765Me0xrpapuhBCa47eHJXFh3h"
+          , title = "与作(よさくはきをきるへいへいほーへいへいほーこだまはかえるよ)"
+          , filename = "yosaku.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "与作(よさくはきをきるへいへいほーへいへいほーこだまはかえるよ)"
---   , filename = "yosaku.ly"
+--   , title = "若葉(あざやかなみどりよあかるいみどりよ)"
+--   , filename = "wakaba.ly"
 --   }
-
 
     ]
 -- , { jpgUrl = ""
