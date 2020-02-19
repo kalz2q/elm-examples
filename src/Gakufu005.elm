@@ -2700,10 +2700,60 @@ dict =
           , title = "緑のラララ(部分。やわらかいみどりのすずしそうなこかげ)"
           , filename = "midorinolalala.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1p-QAlRuuB4MRxnihbv5GY02Ar1a4lgqO"
+          , mp3Url = "https://drive.google.com/uc?id=1wWhh3k91vGC9H2fP7Z0tnZXY3odUT8w6"
+          , title = "皆の衆(みなのしゅうみなのしゅううれしかったらはらからわらえ)"
+          , filename = "minanoshu.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1FLeafv0rojMnZIaaUeZmzuGtBoeFh8JZ"
+          , mp3Url = "https://drive.google.com/uc?id=1fYtlPit_MfyeDLa2Nh36JY26RWsroZiz"
+          , title = "南の島のハメハメハ大王(みなみのしまのだいおうはそのなもいだいな)"
+          , filename = "minaminoshimanohamehameha.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Z65dM8KfBmELaptoUQAKA8OP1f3mwbKO"
+          , mp3Url = "https://drive.google.com/uc?id=1K-05i9GtdnX0EXuiPy9VXNt0myLD2ynI"
+          , title = "めざせポケモンマスター(たとえひのなかみずのなかくさのなかもりのなか)"
+          , filename = "mezasepokemonmaster.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1EDociRsT8FfPt2Tr4-oVxRM3cldWjmwK"
+          , mp3Url = "https://drive.google.com/uc?id=1SAwr7wkV7BAQJcWhxA6XXok3rA5JPtIm"
+          , title = "山男の歌(むすめさんよくきけよやまおとこにゃほれるなよ)"
+          , filename = "yamaotoko.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1x1Y5v8MQyJMrAXbIWigRdSwwVJoJaQ5Y"
+          , mp3Url = "https://drive.google.com/uc?id=1hcWpHdbxPCzVIEDyvDTg7MBmMHcG8jfy"
+          , title = "山のかなたに(やまのかなたにあこがれて)"
+          , filename = "yamanokanatani.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1nCZ7HvP9h_OIAzIS4_4eCVlyYS-qCI0S"
+          , mp3Url = "https://drive.google.com/uc?id=1yCOzw40_9dRSAJ_TxNP5naYm-QpmWXRw"
+          , title = "山の煙(やまのけむりのほのぼのとたゆとうもりよあのみちよ)"
+          , filename = "yamanokemuri.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1MrrQdT__ZnMn8MtuMOuiM0mQAyCG1TZB"
+          , mp3Url = "https://drive.google.com/uc?id=1jMJCj2EyYfn27aeIHKL5Pw3lZHj1FWv5"
+          , title = "夕焼けとんび(ゆうやけぞらがまっかっかとんびがぐるりとわをかいた)"
+          , filename = "yuyaketonbi.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1-BOmLZ1EacwXes2Ypa5xsGPG_jwnWO38"
+          , mp3Url = "https://drive.google.com/uc?id=1ZJJAgQmBs90hzbftoka_7aOsc7M3TbEE"
+          , title = "雪の降るまちを(ゆきのふるまちをおもいでだけがとおりすぎてゆく)"
+          , filename = "yukinofurumachiwo.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1RExYyz0efwWl53w6UjTC0iUCekp6BZLz"
+          , mp3Url = "https://drive.google.com/uc?id=1fCIJqWWSOQYIIsRc0oRNiLN4mlVnZ2Fn"
+          , title = "夢のお馬車(きんのおくらにぎんのすず)"
+          , filename = "yumenoobasha.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=140dwbYUx-5qGlPsZOGrHbfg6EkiFdLFd"
+          , mp3Url = "https://drive.google.com/uc?id=1qdBqMmRvsXIgue9bo8u-4REXpfkn3mRK"
+          , title = "夜汽車(いつもいつもとおるよぎしゃしずかなひびききけば)"
+          , filename = "yogisha.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "皆の衆(みなのしゅうみなのしゅううれしかったらはらからわらえ)"
---   , filename = "minanoshu.ly"
+--   , title = "与作(よさくはきをきるへいへいほーへいへいほーこだまはかえるよ)"
+--   , filename = "yosaku.ly"
 --   }
 
 
@@ -2714,6 +2764,12 @@ dict =
 --   , filename = ".ly"
 --   }
 
--- メモ: 銀座のカンカン娘
--- 箱根八里を云々
+-- 銀座のカンカン娘を三連符にする
+-- 箱根八里を三連符にする
 -- かっこう、がおそすぎます
+-- イヨマンテの夜伊藤久男
+-- 柳ケ瀬ブルース美川憲一
+-- 愛の讃歌美輪明宏
+-- 山のロザリア
+-- コーヒールンバ
+-- 黒ネコのタンゴ
