@@ -510,9 +510,9 @@ dict =
       , title = "春の歌(メンデルスゾーン)"
       , filename = "mendelsharunouta.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1R-_oBgN-uo9Umt58dj_bDt98TJZuIi4I"
+    , { jpgUrl = "https://drive.google.com/uc?id=1Mo7XmprxhLBTkRffQoo-hBGKrC_CC2lP"
       , mp3Url = "https://drive.google.com/uc?id=1HkbtqUxqnNhFHY7rCznAyJHiC2jxvfjp"
-      , title = "乾杯の歌(ヴェルディ)"
+      , title = "乾杯の歌(ヴェルディ。椿姫より)"
       , filename = "kanpai.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1u2eLbZdoFMFo6OT9R9k_sHXq5OoLXJTc"
@@ -690,9 +690,9 @@ dict =
       , title = "夜霧よ今夜もありがとう(しのびあうこいをつつむよぎりよ)"
       , filename = "yogiriyo.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1inlv7kc1MX-dbb8CruQOreyXcVzc5-9E"
+    , { jpgUrl = "https://drive.google.com/uc?id=1GzjTn5C2o2nO3Re6fFNjZnLt4wRgrm14"
       , mp3Url = "https://drive.google.com/uc?id=1ztUG1OikJ7JeqvHFf-UaVnNfMm07B7XQ"
-      , title = "かっこう"
+      , title = "かっこう(かっこうかっこうどこかでなつをよぶもりのこえ)"
       , filename = "kakkou.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1T0IJaCENt_IScNDFTPR2GhN1m5P7Djsx"
@@ -777,7 +777,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1j4Xq9iU_IS4o6RLZIn8EuPlEXG6D1qEW"
       , mp3Url = "https://drive.google.com/uc?id=1XpNvTdHJxoY6kpauEdobLfrtmnhZhuP4"
-      , title = "たなばたさま"
+      , title = "たなばたさま(ささのはさらさらのきばにゆれる)"
       , filename = "tanabatasama.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1LHP_RpWF-hSWb4IUMIXTfuiETn1gtqBo"
@@ -1902,7 +1902,7 @@ dict =
           }
         , { jpgUrl = "https://drive.google.com/uc?id=1vBAxw0B8SPhouT1BNV3YoGokEXUIPXGq"
           , mp3Url = "https://drive.google.com/uc?id=1aZP5GPf_Vc4IC-yBdGw6LmbQzyqcyJig"
-          , title = "箱根八里(はこねんのやまはてんかのけんかんこうかんもものならず)"
+          , title = "箱根八里(はこねのやまはてんかのけんかんこくかんもものならず)"
           , filename = "hakonehachiri.ly"
           }
         , { jpgUrl = "https://drive.google.com/uc?id=1QmJxO8qcYL7IXBaEwnl91UJ98pRlUUcP"
@@ -2755,12 +2755,56 @@ dict =
           , title = "与作(よさくはきをきるへいへいほーへいへいほーこだまはかえるよ)"
           , filename = "yosaku.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1ovtSeVpM7RzZjDC7oOXAYh7RwTAUZtqm"
+          , mp3Url = "https://drive.google.com/uc?id=1T9D3p5uDV-8CaOGwfOkbfQGWJLP9FRMp"
+          , title = "若葉(あざやかなみどりよあかるいみどりよ)"
+          , filename = "wakaba.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1FIqVVQ0FReNVxwJhkK4u7EisH_ax-NRU"
+          , mp3Url = "https://drive.google.com/uc?id=1HBhrTDZ1D0a4knowd5we0yUvpIcJaYUl"
+          , title = "若者たち(きみのゆくみちははてしなくとおい)"
+          , filename = "wakamonotachi.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1d9-P8324JXfDDBJjrEAsGSIM6rSrMyA0"
+          , mp3Url = "https://drive.google.com/uc?id=1DT9yyJ1tViQJmxT__xi5Hl03V3w6LA3o"
+          , title = "別れの一本杉(わかれのいっぽんすぎ。なけたなけたこれえきれずになけたっけ)"
+          , filename = "wakarenoipponsugi.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1n2kt6Ude-KAuYz5xmfn-bLxRJFmhZJn_"
+          , mp3Url = "https://drive.google.com/uc?id=1KYZsyIGh5xvLZIIfAHJsvVkBCb76e9xv"
+          , title = "クラリネットをこわしちゃった(ぼくのだいすきなくらりねっとぱぱからもらった)"
+          , filename = "clarinet.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1F9NG31NL3lDR4vncZoKmT-r1uoSgtSam"
+          , mp3Url = "https://drive.google.com/uc?id=1J-HpZ5iLAhbofQ2MsdF8Qnh8ysLYkDqE"
+          , title = "サッちゃん(さっちゃんはねさちこってゆうんだほんとはね)"
+          , filename = "sacchan.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1F5hGANBZOuobWLrsuWU507raox_nnbCv"
+          , mp3Url = "https://drive.google.com/uc?id=1TiJqLkoIl-GP1CnICH_Cz6QTo1wBCKh8"
+          , title = "ねこふんじゃった(ねこふんじゃったねこふんづけちゃったらひっかいた)"
+          , filename = "nekofunjatta.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Mbu9aHQzy7pFgF77tinmxkjRrNdfWVCU"
+          , mp3Url = "https://drive.google.com/uc?id=1J3lbVsYnqIqu1DcUBb3gYqGeHM1jhD6W"
+          , title = "酸模の咲く頃(すかんぽのさくころ。どてのすかんぽじゃわさらさ)"
+          , filename ="sukanpo.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1kpmALsspWi00RoVFfsjC_zuscrisivtl"
+          , mp3Url = "https://drive.google.com/uc?id=1uTI82AJsTqL_hB9hgSq4dU_T_11Ijir4"
+          , title = "からたちの花(からたちのはながさいたよしろいしろいはながさいたよ)"
+          , filename = "karatachi.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1QClrbNzb2JwQ_oe_PwH_ku_F6GwaXMHA"
+          , mp3Url = "https://drive.google.com/uc?id=1N5VHD9jjx5xLBBdsXAGXvmwJiisnZRDj"
+          , title = "あわて床屋(はるははようからかわべのあしにかにがみせだしとこやでござる)"
+          , filename = "awatedokoya.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "若葉(あざやかなみどりよあかるいみどりよ)"
---   , filename = "wakaba.ly"
+--   , title = "待ちぼうけ(まちぼうけあるひせっせとのらかせぎそこへうさぎがとんででて)"
+--   , filename = "machiboke.ly"
 --   }
-
     ]
 -- , { jpgUrl = ""
 --   , mp3Url = ""
@@ -2768,9 +2812,6 @@ dict =
 --   , filename = ".ly"
 --   }
 
--- 銀座のカンカン娘を三連符にする
--- 箱根八里を三連符にする
--- かっこう、がおそすぎます
 -- イヨマンテの夜伊藤久男
 -- 柳ケ瀬ブルース美川憲一
 -- 愛の讃歌美輪明宏
