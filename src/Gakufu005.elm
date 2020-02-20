@@ -2800,11 +2800,23 @@ dict =
           , title = "あわて床屋(はるははようからかわべのあしにかにがみせだしとこやでござる)"
           , filename = "awatedokoya.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1DZzek4Bzxawaslnh_inmlqvgxMmys85z"
+          , mp3Url = "https://drive.google.com/uc?id=1haMTc2hfXORPordu43P9np36igcbjNTb"
+          , title = "待ちぼうけ(まちぼうけあるひせっせとのらかせぎそこへうさぎがとんででて)"
+          , filename = "machiboke.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1WYGGeJlFYvp4mBmLhNhQITf4y8HktJkJ"
+          , mp3Url = "https://drive.google.com/uc?id=1VoI1_ZLkNbD4QerbJCMuQj89TBAf1Ebx"
+          , title = "平城山(ならやま。ひとこうはかなしきものとならやまに)"
+          , filename = "narayama.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "待ちぼうけ(まちぼうけあるひせっせとのらかせぎそこへうさぎがとんででて)"
---   , filename = "machiboke.ly"
+--   , title = "もずが枯木で(もずがかれきにないている)"
+--   , filename = "mozugakarekide.ly"
 --   }
+
+
     ]
 -- , { jpgUrl = ""
 --   , mp3Url = ""
