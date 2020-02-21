@@ -590,7 +590,7 @@ dict =
       , title = "ブラームスのワルツ(円舞曲)"
       , filename = "waltzbrahms.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1qpcJisVQ030gQ29Oh0kozDhj78P7ZYm4"
+    , { jpgUrl = "https://drive.google.com/uc?id=1yRv0yF58qrFPkxdwSzff1Se4wXsDs-8M"
       , mp3Url = "https://drive.google.com/uc?id=1-n_O43SDQVsCL1TfIrMnKBB0t9-Ap8B8"
       , title = "女のみち(わたしがささげたそのひとに)"
       , filename = "onnanomichi.ly"
@@ -2810,12 +2810,36 @@ dict =
           , title = "平城山(ならやま。ひとこうはかなしきものとならやまに)"
           , filename = "narayama.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=13-pP6mK_PG0qeH_QQzaYnDuxs2_XXq-X"
+          , mp3Url = "https://drive.google.com/uc?id=1Xo12Aq8VE8Mmk8DjtNED8ReGcO5qz2QA"
+          , title = "いい湯だな(いいゆだなゆげがてんじょうからぽたりとせなかに)"
+          , filename = "iiyudana.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=15ZLUZJJfHr7n_QYexKlGzIel3URbH5-e"
+          , mp3Url = "https://drive.google.com/uc?id=1EC9giv_loKt9I4FdVTh0E8eATj6Mg-HA"
+          , title = "女ひとり(きょうとおおはらさんぜんいんこいにつかれたおんながひとり)"
+          , filename = "onnahitori.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1ZWqRJNkJ4wbiNNiQ6o22FVaFUXtTPHjs"
+          , mp3Url = "https://drive.google.com/uc?id=1_zDbhALoG79Dcwd6N4g-rT896I8Z_t4k"
+          , title = "ああ上野駅(どこかにこきょうのかおりをのせてはいるれっしゃのなつかしさ)"
+          , filename = "aauenoeki.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1ktg-vuPnOLwsXmJ17IyAJ4cOiesm9HwT"
+          , mp3Url = "https://drive.google.com/uc?id=1n5f1dXa6ww-y9kYEmzpeF_HGtZ5AFt_u"
+          , title = "おーい中村くん(おーいなかむらくんちょいとまちたまえ)"
+          , filename = "ooinakamurakun.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=168G6DSHnkm5OuBEOLEoQ44tvZDNwfPiX"
+          , mp3Url = "https://drive.google.com/uc?id=1b_4-3s-e5tFVGVtPB0e_dNuZsQNtUorn"
+          , title = "さざんかの宿(くもりがらすをてでふいてあなたあしたがみえますか)"
+          , filename = "sazankanoyado.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "もずが枯木で(もずがかれきにないている)"
 --   , filename = "mozugakarekide.ly"
 --   }
-
 
     ]
 -- , { jpgUrl = ""
