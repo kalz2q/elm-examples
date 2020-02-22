@@ -2835,21 +2835,31 @@ dict =
           , title = "さざんかの宿(くもりがらすをてでふいてあなたあしたがみえますか)"
           , filename = "sazankanoyado.ly"
           }
--- , { jpgUrl = ""
---   , mp3Url = ""
---   , title = "もずが枯木で(もずがかれきにないている)"
---   , filename = "mozugakarekide.ly"
---   }
         , { jpgUrl = "https://drive.google.com/uc?id=1eDaAs_rEDb2Djp2je7ZtQawjhHXfF4qf"
           , mp3Url = "https://drive.google.com/uc?id=1ZlSA2lqbu-EW0dUklOc1y7iXgN8tf6tA"
           , title = "月の法善寺横丁(ほうちょういっぽんさらしにまいて)"
           , filename = "tsukinohozenjiyokocho.ly"
           }
--- , { jpgUrl = ""
---   , mp3Url = ""
---   , title = ""
---   , filename = ".ly"
---   }
+        , { jpgUrl = "https://drive.google.com/uc?id=1kBjHydGIevVt-5kFh6xSihxzoIQPmj64"
+          , mp3Url = "https://drive.google.com/uc?id=1pmxadKCT3OA4QIuHpNmZJD9LnG4sbquF"
+          , title = "もずが枯木で(もずがかれきにないている)"
+          , filename = "mozugakarekide.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1oXkCVtUekuBQuYIEFearLA8sriKVX_dG"
+          , mp3Url = "https://drive.google.com/uc?id=1N60WpURXqFvH2QYejt-4BwFYdSkyhVtt"
+          , title = "花の街(なないろのたにをこえてながれていくかぜのりぼん)"
+          , filename = "hananomachi.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Le6bvwyQhohlfkIybTCQzsSRHJ1s_bxz"
+          , mp3Url = "https://drive.google.com/uc?id=1qRqhI9N3i1HzVN09KCMWyl0CrnUeYZkm"
+          , title = "さとうきび畑(ざわわざわわざわわひろいさとうきびばたけは)"
+          , filename = "satokibibatake.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1gqJyYzLQyGSQidIz3-p78Vr4uCFSKqrm"
+          , mp3Url = "https://drive.google.com/uc?id=1ukvRO7AYKbWgcI6DaFlVhiJXzgIaMg2i"
+          , title = "未来へ(Kiroro。ほらあしもとをみてごらんこれがあなたのあゆむみち)"
+          , filename = "miraie.ly"
+          }
 
     ]
 -- , { jpgUrl = ""
