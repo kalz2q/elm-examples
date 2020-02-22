@@ -250,12 +250,12 @@ dict =
       , title = "もろびとこぞりて(クリスマス)"
       , filename = "morobito.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1uhrOl8NYnOogep1FKU6BvOu67rrM_WC4"
+    , { jpgUrl = "https://drive.google.com/uc?id=1ggnDyoqTZbuDH03k4LZ-MkSf-aAOhtiP"
       , mp3Url = "https://drive.google.com/uc?id=1KH0cab55b9HdFkbuz7XnLZvyhm6qgvKd"
       , title = "テネシーワルツ"
       , filename = "tennessee.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1cs8EtDp7rspgab-wc2SRypaDA_BtrLsW"
+    , { jpgUrl = "https://drive.google.com/uc?id=1RQuGnQA-VVVLll_LQ2Zrg-TOHTuQZ0ea"
       , mp3Url = "https://drive.google.com/uc?id=1xU4mcYN6vjYW-IX5793FurYzR4DGrEpc"
       , title = "津軽海峡・冬景色(うえのはつのやこうれっしゃおりたときから)"
       , filename = "tsugaru.ly"
@@ -2839,6 +2839,16 @@ dict =
 --   , mp3Url = ""
 --   , title = "もずが枯木で(もずがかれきにないている)"
 --   , filename = "mozugakarekide.ly"
+--   }
+        , { jpgUrl = "https://drive.google.com/uc?id=1eDaAs_rEDb2Djp2je7ZtQawjhHXfF4qf"
+          , mp3Url = "https://drive.google.com/uc?id=1ZlSA2lqbu-EW0dUklOc1y7iXgN8tf6tA"
+          , title = "月の法善寺横丁(ほうちょういっぽんさらしにまいて)"
+          , filename = "tsukinohozenjiyokocho.ly"
+          }
+-- , { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = ""
+--   , filename = ".ly"
 --   }
 
     ]
