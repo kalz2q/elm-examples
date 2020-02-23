@@ -350,7 +350,7 @@ dict =
       , title = "春よ、来い(松任谷由美。あわきひたりたつにわかあめ)"
       , filename = "haruyokoimatsutoya.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=167ShNKUA5n2FmUB5k5IhMu02XRZvmuJY"
+    , { jpgUrl = "https://drive.google.com/uc?id=1wrrUDfRCEN5rOpWcOf3YDbfrLgXXXwyz"
       , mp3Url = "https://drive.google.com/uc?id=1_XRfq3pQyshxhjGk4jnxGEGp3XNzj-tz"
       , title = "浪花節だよ人生は(のめといわれてすなおにのんだ)"
       , filename = "naniwabushi.ly"
@@ -2915,11 +2915,11 @@ dict =
           , title = "時の流れに身をまかせ(もしもあなたとあえずにいたらわたしはなにをしてたでしょうか)"
           , filename = "tokinonagareni.ly"
           }
--- , { jpgUrl = ""
---   , mp3Url = ""
---   , title = "せんせい(あわいはつこいきえたひはあめがしとしとふっていた)"
---   , filename = "sensei.ly"
---   }
+        , { jpgUrl = "https://drive.google.com/uc?id=1im4pT5CvLGCRrvzX-3viEtZrhfhusbgI"
+          , mp3Url = "https://drive.google.com/uc?id=12v75APPGDkwgvKVN-c97bus2RH0tALOj"
+          , title = "せんせい(あわいはつこいきえたひはあめがしとしとふっていた)"
+          , filename = "sensei.ly"
+          }
         , { jpgUrl = "https://drive.google.com/uc?id=1qIj01WNFpUczZ3LiapqbNoicdurZj5pW"
           , mp3Url = "https://drive.google.com/uc?id=157cYs-AaQqYss2WRLJXAhULds6gbHbPq"
           , title = "水あそび(みずをたくさんくんできてみずでっぽうであそびましょ)"
@@ -2939,6 +2939,41 @@ dict =
           , mp3Url = "https://drive.google.com/uc?id=11ApI-0Uv5E28MAb9J4KqleslS6cn62_T"
           , title = "かわいいかくれんぼ(ひよこがねひよこがおにわでぴょこぴょこかくれんぼ)"
           , filename = "kawaiikakurenbo.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1p4ItKHsJGoJCuBB7YQRqOFh23-Ejn7Uo"
+          , mp3Url = "https://drive.google.com/uc?id=17_DE1Fm9kW3mqqM5lK_bS-TUvOydZXOR"
+          , title = "なごり雪(きしゃをまつきみのよこでぼくはとけいをきにしてる)"
+          , filename = "nagoriyuki.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=19bZSEYQopL-r9bSNuaIsJ1Q9twz2qtFj"
+          , mp3Url = "https://drive.google.com/uc?id=1b98QO-szIJJ1ucU3JIcg0p5d025fC7dz"
+          , title = "新妻に捧げる歌(しあわせをもとめてふたりのこころはよりそいむすびあう)"
+          , filename = "niidumanisasageru.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1H0fp-TJi_yJbSGz-5ujVz7UFGeeEEuRE"
+          , mp3Url = "https://drive.google.com/uc?id=1y5Fpxl86VPqVYwb2hZj9Ak7i2g0m1AuL"
+          , title = "忘れな草をあなたに(わかれてもわかれてもこころのおくに)"
+          , filename = "wasurenagusa.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1q7LR9NRym_hLjBUp0myujgtIEeCdVbiY"
+          , mp3Url = "https://drive.google.com/uc?id=1TKoeSDUjgbh7OjbH7tt0NUAghG1HfhKG"
+          , title = "長崎は今日も雨だった(あなたひとりにかけたこいあいのことばをしんじたの)"
+          , filename = "nagasakiwakyomoame.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=14hK9n81-N7rtXR3ycga8XydzY8roIHnf"
+          , mp3Url = "https://drive.google.com/uc?id=12ZgK8kQukUTCyKFZsTIs8uP3ZMuRVCy6"
+          , title = "なみだの操(あなたのためにまもりとおしたおんなのみさお)"
+          , filename = "namidanomisao.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1HXLzObOGG7MZ4jiBBgu3ONkuMUiqzv1F"
+          , mp3Url = "https://drive.google.com/uc?id=1KQDAUieMkLmRfUoWbA90iUh2lS0p2noz"
+          , title = "釜山港に帰れ(つばきさくはるなのにあなたはかえらない)"
+          , filename = "fuzankoekaere.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Mj8H_z34-fvo-CuzMIsxcS2vAi6obONC"
+          , mp3Url = "https://drive.google.com/uc?id=1YHjW0Dxt_JklI9B8rQ7G9tkBByZ5TyzV"
+          , title = "雪国(すきよあなたいまでもいまでもこよみはもうすこしでことしもおわりですね)"
+          , filename = "yukiguni.ly"
           }
 
 
