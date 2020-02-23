@@ -2860,6 +2860,68 @@ dict =
           , title = "未来へ(Kiroro。ほらあしもとをみてごらんこれがあなたのあゆむみち)"
           , filename = "miraie.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1d9cWCGVRCRPwYFTL3ml4gXkH-tSjE-xG"
+          , mp3Url = "https://drive.google.com/uc?id=1Qb38xN5cHuvtCQy9_67U4dYI9RMA20Vw"
+          , title = "武田節(かいのやまやまひにはえてわれしゅつじんにうれいなし)"
+          , filename = "takedabushi.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1qmSiomS4zJV96WVclKHeoNlGEwpAyfs8"
+          , mp3Url = "https://drive.google.com/uc?id=1qWnszRLv1TKXtBWz-e0AI1D51oGw3Vkl"
+          , title = "昔の名前で出ています(きょうとにいるときゃしのぶとよばれたの)"
+          , filename = "mukashinonamae.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1xsPLMzmCyNHtJJmUh1M6I_ZLXuhxhHAg"
+          , mp3Url = "https://drive.google.com/uc?id=1_Gtb5Mrz5gcaZO5M_yLeVjM4rhE2b2M7"
+          , title = "矢切の渡し(つれてにげてよついておいでよゆうぐれのあめががふる)"
+          , filename = "yagirinowatashi.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1H20aFW6GcKuqqBbEXxnf29lkOWGuQYM0"
+          , mp3Url = "https://drive.google.com/uc?id=1bZyq6SdmCGeTKWXex0b3Pr2duDkUfr4o"
+          , title = "夢淡き東京(やなぎあおめるひつばめがぎんざにとぶひ)"
+          , filename = "yumeawakitokyo.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1FOoTgOuA9Po9hTUxjbPEubo7obVsXiAV"
+          , mp3Url = "https://drive.google.com/uc?id=1TYmf50LclTnG0N8RbsPYMs4ep5yH_b_3"
+          , title = "愛燦燦(あめさんさんとこのみにおちてわずかばかりのうんのわるさを)"
+          , filename = "aisansan.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Np71eqZtxEvomnTJeYPo4JP2YiWb2xxs"
+          , mp3Url = "https://drive.google.com/uc?id=1QRjMQhU1UoGkWallA1TSxOOnLLbgyMm1"
+          , title = "北の宿から(あなたかわりはないですかひごとさむさがつのります)"
+          , filename = "kitanoyadokara.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1P8ntyZP7-CN3VOswaX3Jscu37boEOUMg"
+          , mp3Url = "https://drive.google.com/uc?id=1a4DVQucEaMYo8PuFZoCgdUUkySwItnfa"
+          , title = "九段の母(うえのえきからくだんまでかってしらないじれったさ)"
+          , filename = "kudannohaha.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1j8JHmclvwTlK6V00CoNTP09OLrCs76KJ"
+          , mp3Url = "https://drive.google.com/uc?id=1TD7P6IPDsfHtgMbuNNZ-aq0-ea9cdYzG"
+          , title = "心の窓に灯火を(いじわるこがらしふきつけるふるいせーたーあぼろしゅーず)"
+          , filename = "kokoronomado.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1SVn8suS5uc0J5k4cyuRB0_8hOdG0czZd"
+          , mp3Url = "https://drive.google.com/uc?id=1HEz0Bmkl9ZwhlD55uIsJ__0QX0f0PhZv"
+          , title = "寒い朝(きたかぜふきぬくさむいあさもこころひとつであたたかくなる)"
+          , filename = "samuiasa.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1_KzOwnhccCne-WkYWrbxAXvknpHTYx7l"
+          , mp3Url = "https://drive.google.com/uc?id=1wZW1_QzVAPi1xF5tDF8c1WLcH-7VJPab"
+          , title = "誰よりも君を愛す(だれにもいわれずたがいにちかったかりそめのこいなら)"
+          , filename = "dareyorimokimiwoaisu.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1-Q2rixbBx-EujgLu8r1nC-LIj2MKbZkI"
+          , mp3Url = "https://drive.google.com/uc?id=1hfiXIk1Sz1qfLSUrsR2Df-AR6VOhcHlh"
+          , title = "時の流れに身をまかせ(もしもあなたとあえずにいたらわたしはなにをしてたでしょうか)"
+          , filename = "tokinonagareni.ly"
+          }
+-- , { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "せんせい(あわいはつこいきえたひはあめがしとしとふっていた)"
+--   , filename = "sensei.ly"
+--   }
+
+
 
     ]
 -- , { jpgUrl = ""
@@ -2874,3 +2936,4 @@ dict =
 -- 山のロザリア
 -- コーヒールンバ
 -- 黒ネコのタンゴ
+-- 海ゆかば
