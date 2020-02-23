@@ -640,7 +640,7 @@ dict =
       , title = "大きな古時計(おおきなのっぽのふるどけい)"
       , filename = "okinafurudokei.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1qTEnCelZoycCd69i4OlKD_fZdXlVtBGP"
+    , { jpgUrl = "https://drive.google.com/uc?id=1p33p6AcEBgKQqrfByQWCLBxmyCFmtS2m"
       , mp3Url = "https://drive.google.com/uc?id=19OjobdnGuYn96yuNmvcOlvqVEofBrW3n"
       , title = "かごめかごめ(かごのなかのとりは)"
       , filename = "kagome.ly"
@@ -2920,7 +2920,26 @@ dict =
 --   , title = "せんせい(あわいはつこいきえたひはあめがしとしとふっていた)"
 --   , filename = "sensei.ly"
 --   }
-
+        , { jpgUrl = "https://drive.google.com/uc?id=1qIj01WNFpUczZ3LiapqbNoicdurZj5pW"
+          , mp3Url = "https://drive.google.com/uc?id=157cYs-AaQqYss2WRLJXAhULds6gbHbPq"
+          , title = "水あそび(みずをたくさんくんできてみずでっぽうであそびましょ)"
+          , filename = "mizuasobi.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1dWy2LToNLjSYRSpKW7GxEVUGqEQxkSK9"
+          , mp3Url = "https://drive.google.com/uc?id=1OWNLPlejNxCNZf6rP5xYnk0xOGBwSuod"
+          , title = "めえめえ児山羊(めえめえもりのこやぎこやぎはしればこいしにあたる)"
+          , filename = "memekoyagi.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=17OFTQ-qnlxePM8ezby0GY1-5wVBbmXiq"
+          , mp3Url = "https://drive.google.com/uc?id=1w7YyZMyUhu89Pn6K-2BrFzdXUyOMKBj1"
+          , title = "ぞうさん(ぞうさんおはながながいのねそうよかあさんもながいのよ)"
+          , filename = "zosan.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1fRKpKFf1Hz4b5fVFAJSuFP8HX283u-Mu"
+          , mp3Url = "https://drive.google.com/uc?id=11ApI-0Uv5E28MAb9J4KqleslS6cn62_T"
+          , title = "かわいいかくれんぼ(ひよこがねひよこがおにわでぴょこぴょこかくれんぼ)"
+          , filename = "kawaiikakurenbo.ly"
+          }
 
 
     ]
