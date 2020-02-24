@@ -620,7 +620,7 @@ dict =
       , title = "聖者が街にやってくる(聖者の行進)"
       , filename = "seija.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1J4V9tUKuVL6Q3y_a7hHL0CXldoyrv5q3"
+    , { jpgUrl = "https://drive.google.com/uc?id=1h35HYHAMZamRGVF5FbpgtZ3ChEnUsxNW"
       , mp3Url = "https://drive.google.com/uc?id=1MYR7yWYunHmSkH6m7W46XnWnVjgRMUPd"
       , title = "ロンドン橋(ろんどんばしおちた)"
       , filename = "londonbashi.ly"
@@ -2990,8 +2990,16 @@ dict =
           , title = "島のブルース(あまみなちかしゃそてつのかげで)"
           , filename = "shimanoblues.ly"
           }
-
-
+        , { jpgUrl = "https://drive.google.com/uc?id=1CFiF6u39QHxgH2Ss68JTj1d5BKXP1jeC"
+          , mp3Url = "https://drive.google.com/uc?id=1Cpmq9e6APinfOUwdLzx_CMrmsPbkjHrO"
+          , title = "かぞえうた(ひとつとやーひとよあければにぎやかで)"
+          , filename = "kazoeuta.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1GEvdC4OKFgjIGxW1ueVvHjGQ_fPu5xVI"
+          , mp3Url = "https://drive.google.com/uc?id=1gpsrhhgdfkGBo495Pyz6X6t0LVnNBNwb"
+          , title = "青葉城恋唄(ひろせがわながれるきしべおもいではかえらず)"
+          , filename = "aobajokoiuta.ly"
+          }
 
     ]
 -- , { jpgUrl = ""
