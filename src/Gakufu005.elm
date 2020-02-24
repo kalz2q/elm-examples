@@ -3020,11 +3020,17 @@ dict =
           , title = "赤いハンカチ(あかしやのはなのしたであのこがそっとまぶたをふいた)"
           , filename = "akaihankachi.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1X4yvoXw-7skGPKdHx6SxWOBWZ8i-Bkgp"
+          , mp3Url = "https://drive.google.com/uc?id=1U1xnLMGbVpqqMs52Fncf9KwJuvM_8kAH"
+          , title = "小樽のひとよ(あいたいきもちがままならぬきたぐにのまちはつめたくとおい)"
+          , filename = "otarunohitoyo.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "小樽のひとよ(あいたいきもちがままならぬきたぐにのまちはつめたくとおい)"
---   , filename = "otarunohitoyo.ly"
+--   , title = "昴(すばる。めをとじてなにもみえずかなしくてめをあければ)"
+--   , filename = "subaru.ly"
 --   }
+
 
     ]
 -- , { jpgUrl = ""
