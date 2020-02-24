@@ -520,9 +520,9 @@ dict =
       , title = "ラデツキー行進曲(ヨハン・シュトラウス1世)"
       , filename = "radetzky.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1tMfPasJu9scYLlyg7QE0wajJESRX0bXv"
+    , { jpgUrl = "https://drive.google.com/uc?id=10p7NcuKPY3lIL55tvv712xIksWoyC3mp"
       , mp3Url = "https://drive.google.com/uc?id=1GpNrRtmi-y9lzmGYTl36PkP2Oy-_1nXT"
-      , title = "ずいずいずっころばし"
+      , title = "ずいずいずっころばし(ごまみそずいちゃつぼにおわれてとっぴんしゃん)"
       , filename = "zuizui.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1DW8gcnWRffG6ZE2adEEq7wF0Q-8INVWv"
@@ -882,7 +882,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1UkjEGNtTjuY-U0UdsZE5W8Ac84GJfZo2"
       , mp3Url = "https://drive.google.com/uc?id=1DusYJosZSNMid1R6RRXHXzBPHi0nGWBW"
-      , title = "通りゃんせ"
+      , title = "通りゃんせ(とおりゃんせとおりゃんせここはどこのほそみちじゃ)"
       , filename = "toryanse.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1xrFn9jbVin6nG05-5wR8VBNoBCaQO2xp"
@@ -2975,7 +2975,21 @@ dict =
           , title = "雪国(すきよあなたいまでもいまでもこよみはもうすこしでことしもおわりですね)"
           , filename = "yukiguni.ly"
           }
-
+        , { jpgUrl = "https://drive.google.com/uc?id=1KcoYf679XJphD2HhiiWJPylPY0zinLWm"
+          , mp3Url = "https://drive.google.com/uc?id=19NoxePXCt668HeGXBbmlVhxQYRReCH1L"
+          , title = "たわらはごろごろ(おくらにどっさりこおこめはざっくりこでちゅちゅねずみは)"
+          , filename = "tawarawagorogoro.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=14TjNClzIuXLbzG6vGHxaZ7-ueAKhDTA_"
+          , mp3Url = "https://drive.google.com/uc?id=1xK76vPJCZV8qFNv6cdNjC4uFuazgZcKJ"
+          , title = "ひらいたひらいた(なんのはながひらいたれんげのはながひらいたとおもったら)"
+          , filename = "hiraitahiraita.ly"
+          }
+-- , { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = ""
+--   , filename = ".ly"
+--   }
 
     ]
 -- , { jpgUrl = ""
@@ -2991,3 +3005,6 @@ dict =
 -- コーヒールンバ
 -- 黒ネコのタンゴ
 -- 海ゆかば
+-- アカシアの雨の止む時
+-- 島のブルース(あまみなちかしゃそてつのかげで)
+-- すうじのうた
