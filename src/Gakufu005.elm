@@ -2985,11 +2985,13 @@ dict =
           , title = "ひらいたひらいた(なんのはながひらいたれんげのはながひらいたとおもったら)"
           , filename = "hiraitahiraita.ly"
           }
--- , { jpgUrl = ""
---   , mp3Url = ""
---   , title = ""
---   , filename = ".ly"
---   }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Txchs-BO_nzG-fbv_2fs9LwZ5JvsBBEx"
+          , mp3Url = "https://drive.google.com/uc?id=1yhaMMO09V51gz6QhYncIBjxEEHvkcCOF"
+          , title = "島のブルース(あまみなちかしゃそてつのかげで)"
+          , filename = "shimanoblues.ly"
+          }
+
+
 
     ]
 -- , { jpgUrl = ""
@@ -3006,5 +3008,4 @@ dict =
 -- 黒ネコのタンゴ
 -- 海ゆかば
 -- アカシアの雨の止む時
--- 島のブルース(あまみなちかしゃそてつのかげで)
 -- すうじのうた
