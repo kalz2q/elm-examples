@@ -3000,6 +3000,31 @@ dict =
           , title = "青葉城恋唄(ひろせがわながれるきしべおもいではかえらず)"
           , filename = "aobajokoiuta.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1U1wFHyb0OsxyR7pfJ5CehM2YClqYrsUa"
+          , mp3Url = "https://drive.google.com/uc?id=1doelHvAKw9uBDPvnGmXX9RXVfG_t2_5O"
+          , title = "雪椿(やさしさとかいしょのなさがうらとおもてについている)"
+          , filename = "yukitsubaki.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1e6GNpOaKdL2vfUASm82z_a9GijUPsQ6-"
+          , mp3Url = "https://drive.google.com/uc?id=1FTNJRcHMExh9SNTiawD_KC_Ko8aR0iln"
+          , title = "岬めぐり(あなたがいつかはなしてくれたみさきをぼくはたずねてきた)"
+          , filename = "misakimeguri.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1dV87sr49V6CBNBUxQ9xapvCnOM8Bb5Dh"
+          , mp3Url = "https://drive.google.com/uc?id=1_buYtFUHvua23mPqpAU6lv5weEM1WYfZ"
+          , title = "わたしの城下町(こうしどをくぐりぬけみあげるゆうやけのそらに)"
+          , filename = "watashinojokamachi.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1slaAbuDC5FDpPA4uPt3eiAGpP89cjF8q"
+          , mp3Url = "https://drive.google.com/uc?id=1WpQnEA8JI4BGBGz2GYSMDrRCxTx14AEY"
+          , title = "赤いハンカチ(あかしやのはなのしたであのこがそっとまぶたをふいた)"
+          , filename = "akaihankachi.ly"
+          }
+-- , { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "小樽のひとよ(あいたいきもちがままならぬきたぐにのまちはつめたくとおい)"
+--   , filename = "otarunohitoyo.ly"
+--   }
 
     ]
 -- , { jpgUrl = ""
