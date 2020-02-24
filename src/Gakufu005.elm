@@ -3030,6 +3030,11 @@ dict =
 --   , title = "昴(すばる。めをとじてなにもみえずかなしくてめをあければ)"
 --   , filename = "subaru.ly"
 --   }
+-- , { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "遠くへ行きたい(しらないまちをあるいてみたいどこかとおくへいきたい)"
+--   , filename = "tokueikitai.ly"
+--   }
 
 
     ]
