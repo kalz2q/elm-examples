@@ -3030,10 +3030,15 @@ dict =
 --   , title = "昴(すばる。めをとじてなにもみえずかなしくてめをあければ)"
 --   , filename = "subaru.ly"
 --   }
+        , { jpgUrl = "https://drive.google.com/uc?id=1ykFFz_CuhNbuqYzmtAFLpqOLqY_J95bO"
+          , mp3Url = "https://drive.google.com/uc?id=1VNYKtNG3GxZqHLps3fM-tSKDcpAfxmoi"
+          , title = "遠くへ行きたい(しらないまちをあるいてみたいどこかとおくへいきたい)"
+          , filename = "tokueikitai.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "遠くへ行きたい(しらないまちをあるいてみたいどこかとおくへいきたい)"
---   , filename = "tokueikitai.ly"
+--   , title = "若き血(慶応大学応援歌。わかきちにもゆるものこうきみてるわれら)"
+--   , filename = "wakakichi.ly"
 --   }
 
 
