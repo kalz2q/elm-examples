@@ -3025,22 +3025,81 @@ dict =
           , title = "小樽のひとよ(あいたいきもちがままならぬきたぐにのまちはつめたくとおい)"
           , filename = "otarunohitoyo.ly"
           }
--- , { jpgUrl = ""
---   , mp3Url = ""
---   , title = "昴(すばる。めをとじてなにもみえずかなしくてめをあければ)"
---   , filename = "subaru.ly"
---   }
         , { jpgUrl = "https://drive.google.com/uc?id=1ykFFz_CuhNbuqYzmtAFLpqOLqY_J95bO"
           , mp3Url = "https://drive.google.com/uc?id=1VNYKtNG3GxZqHLps3fM-tSKDcpAfxmoi"
           , title = "遠くへ行きたい(しらないまちをあるいてみたいどこかとおくへいきたい)"
           , filename = "tokueikitai.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1o7DocZFn6wquf-8yKPzdQ6sbsOS4JstO"
+          , mp3Url = "https://drive.google.com/uc?id=1FI3zYpS2_o5vy35QDK2ig18_MzeurGZL"
+          , title = "昴(すばる。めをとじてなにもみえずかなしくてめをあければ)"
+          , filename = "subaru.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1PfPJsYDuhLFBELj41qsnPz-vgmfTLoYL"
+          , mp3Url = "https://drive.google.com/uc?id=1Bv9XJuv2u6q4bMiaaqlnqx1Mf-nhh3gK"
+          , title = "ラブユー東京(なないろのにじがきえてしまったのしゃぼんだまのようなわたしのなみだ)"
+          , filename = "loveyoutokyo.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=10Xo_WwZrgee2a1HYoXoD6PbOEZaiJKhF"
+          , mp3Url = "https://drive.google.com/uc?id=1sf_fnMm0MqM4DAVQhUXFNCpCYtI_Gn9N"
+          , title = "贈る言葉(くれなずむまちのひかりとかげのなかさりゆくあなたへ)"
+          , filename = "okurukotoba.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1p2Vjqf57-P-2OgNeuhIUSX42YYSAAwEi"
+          , mp3Url = "https://drive.google.com/uc?id=1D5XMEIYVaOZIoRhu4eg5h9nrH4-rWwA7"
+          , title = "おさななじみ(おさななじみのおもいではあおいれもんのあじがする)"
+          , filename = "osananajimi.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1DNDBoOuB2F9B_KonRGpcznA9wNg1p80o"
+          , mp3Url = "https://drive.google.com/uc?id=1B8bXoVj4RKyEVMKWbOJwgo-qlMcla6cf"
+          , title = "山のロザリア(やまのむすめろざりあいつもひとりうたうよ)"
+          , filename = "yamanorosalia.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1OMF0rz5jRqUbVaL9BYzNIzRaef2o-dKq"
+          , mp3Url = "https://drive.google.com/uc?id=1QbbfQG25edePvuzzDHrJERiZcFA9FBBV"
+          , title = "好きになったひと(さようならさようならげんきでいてね)"
+          , filename = "sukininattahito.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1WkHQems7RXMcN5LdRAfqgyzJ9yQDMFUs"
+          , mp3Url = "https://drive.google.com/uc?id=1NAdFW_xN7yIiVbJwzFO_bBAsz5K4g8b5"
+          , title = "明治チョコレート(ちょっこれーとちょっこれーとちょこれーとはめいじ)"
+          , filename = "meijichocolate.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Zuzerf-roX1yARGVTZafgnHMc1tDMBZ1"
+          , mp3Url = "https://drive.google.com/uc?id=1j0IeIu-nDKDqGhkDto3fhhfMytB-edBd"
+          , title = "この木なんの木(日立。このきなんのききになるきなまえもしらないきですから)"
+          , filename = "hitachikonokinannoki.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1p4oUKju2keeua6UAgWG6hjhZgR9KS6NF"
+          , mp3Url = "https://drive.google.com/uc?id=1tC4KDvRYFTuWVdWTRr0j9bJfPnACA927"
+          , title = "武田薬品(たけだたけだたけだたけだたけだ)"
+          , filename = "takedayakuhin.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1AXyLHnKZLj0Oiy5MToc2bjUWfwXnl1LR"
+          , mp3Url = "https://drive.google.com/uc?id=1txDEp-P6yt3ylS62d-HkQ67drVEeU4dr"
+          , title = "ファミリーマート(あなたとこんびにふぁみりーまーと)"
+          , filename = "familymart.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1VYBO6zDMVvwvuhRzlGBd-O6HV36f-fdh"
+          , mp3Url = "https://drive.google.com/uc?id=1PBW3AakfTL7TG4x-DCQsDMoT_BtVnluN"
+          , title = "セブン・イレブン(せぶんいれぶんいいきぶん)"
+          , filename = "seveneleven.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=18G4bG19G59G_W0H5IeZC8Yvpumemgro3"
+          , mp3Url = "https://drive.google.com/uc?id=1bwnpYzVo41-aab3D0D_hsaugVLfHVndJ"
+          , title = "お正月を写そう(フジカラー。おしょうがつをうつそう)"
+          , filename = "fujicolor.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Hos1fcqtW3MuYdg47yuuebWuWjqt0yzH"
+          , mp3Url = "https://drive.google.com/uc?id=1z8enMQJR4TeQcE09iixTaYiDcvqkcOwj"
+          , title = "サッポロ一番(さっぽろいちばんしおらーめん)"
+          , filename = "sapporoichiban.ly"
           }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "若き血(慶応大学応援歌。わかきちにもゆるものこうきみてるわれら)"
 --   , filename = "wakakichi.ly"
 --   }
-
 
     ]
 -- , { jpgUrl = ""
@@ -3052,7 +3111,6 @@ dict =
 -- イヨマンテの夜伊藤久男
 -- 柳ケ瀬ブルース美川憲一
 -- 愛の讃歌美輪明宏
--- 山のロザリア
 -- コーヒールンバ
 -- 黒ネコのタンゴ
 -- 海ゆかば
