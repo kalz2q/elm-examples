@@ -3095,6 +3095,36 @@ dict =
           , title = "サッポロ一番(さっぽろいちばんしおらーめん)"
           , filename = "sapporoichiban.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1waOQMmLj4AxgIybxWePC5IgrLnFM7u4G"
+          , mp3Url = "https://drive.google.com/uc?id=1_gnWqobd9JSidPJWqd2VNMZUCCdWAxeP"
+          , title = "山寺の和尚さん(やまでらのおしょうさんがまりはけりたしまりはなし)"
+          , filename = "yamaderanooshosan.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1NgBI3ipFIdkJdb6DQGkQB85Flsuvi4ty"
+          , mp3Url = "https://drive.google.com/uc?id=1KLGWsVi-apx-_lHd_Kf9uopgtfGFqCYd"
+          , title = "文明堂(天国と地獄。かすてらいちばんでんわはにばん)"
+          , filename = "bunmeido.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1bBpdaZ8QZr4t6ntMmJJNBgvgrDMxBtoM"
+          , mp3Url = "https://drive.google.com/uc?id=1X8UOtrBxI0-TdxIbUBLT0y_7Pt16m3-A"
+          , title = "新日本ハウス(すみなれたわがやにはなのかおりをそえて)"
+          , filename = "shinnihonhouse.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1J9ZscFQXgwWVz6p3fiZKxHUD_wap7Vz8"
+          , mp3Url = "https://drive.google.com/uc?id=1qJMqKg_PpswCjmYS-JN-SzM-bSnBvEuR"
+          , title = "呼び込みくん(スーパーでよく聞く曲)"
+          , filename = "yobikomikun.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1AOvM4oLZfSfXhLKOPhFWhFZJZOxLtMZ-"
+          , mp3Url = "https://drive.google.com/uc?id=1f57eBYLrZvJOu2xrkLwgHk2Z563gdP2Z"
+          , title = "ノーベルのどあめ(なめたらあかんなめたらあかんじんせいなめずに)"
+          , filename = "nobelnodoame.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1aW14ta_VZ7kZw7oUrFfiOof0q5PJPgld"
+          , mp3Url = "https://drive.google.com/uc?id=1astV97WAe0PbD1GYFGdTUsUNRqNde_CJ"
+          , title = "サントリーオールド(ざらんらんりらんじゅびだでぃーがおーでぃええーおー)"
+          , filename = "suntoryold.ly"
+          }
 -- , { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "若き血(慶応大学応援歌。わかきちにもゆるものこうきみてるわれら)"
