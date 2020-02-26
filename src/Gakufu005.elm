@@ -3125,11 +3125,11 @@ dict =
           , title = "サントリーオールド(ざらんらんりらんじゅびだでぃーがおーでぃええーおー)"
           , filename = "suntoryold.ly"
           }
--- , { jpgUrl = ""
---   , mp3Url = ""
---   , title = "若き血(慶応大学応援歌。わかきちにもゆるものこうきみてるわれら)"
---   , filename = "wakakichi.ly"
---   }
+        , { jpgUrl = "https://drive.google.com/uc?id=1qIjfzc3afuM3Y-9LG31G1_hol9fQioFq"
+          , mp3Url = "https://drive.google.com/uc?id=1QK7igIjNGoQ1pdcF9CIE6t1HZZqDYcoh"
+          , title = "若き血(慶応大学応援歌。わかきちにもゆるものこうきみてるわれら)"
+          , filename = "wakakichi.ly"
+          }
 
     ]
 -- , { jpgUrl = ""
