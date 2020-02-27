@@ -3130,14 +3130,35 @@ dict =
           , title = "若き血(慶応大学応援歌。わかきちにもゆるものこうきみてるわれら)"
           , filename = "wakakichi.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=12M2t70GgfRTF6JxdAufntREyuwyPJM9N"
+          , mp3Url = "https://drive.google.com/uc?id=1wqZUH5Y4hUsz_jvC5FLBNNmFbobtsSSM"
+          , title = "都の西北(早稲田大学校歌。みやこのせいほくわせだのもりにそびゆるいらかは)"
+          , filename = "miyakonoseihoku.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Yrwb5n5Q5iJjsm1c-noAX_eZtFUFQUuh"
+          , mp3Url = "https://drive.google.com/uc?id=1OfwLDeH979lFY4qkoM4lLYh63leP4tnb"
+          , title = "中国地方の子守歌(ねんねこさっしゃりませねたこのかわいさ)"
+          , filename = "nennekosassharimase.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1L9YBj8Wi-bWwo4G2efYqcMMG02bjB3qf"
+          , mp3Url = "https://drive.google.com/uc?id=1529iDwwme_MjzKjpuF7pvYFSdpJGGLhe"
+          , title = "風(ひとはだれもただひとりたびにでてひとはだれもふるさとをふりかえる)"
+          , filename = "kazehitowadaremo.ly"
+          }
+        , { jpgUrl = "https://drive.google.com/uc?id=1QS9cj4-K63TnkPA7uxXlvrWaKzStRrm8"
+        , mp3Url = "https://drive.google.com/uc?id=1pYUJQl28GhjTws_Q6x2OcjQUbWH9snXI"
+        , title = "夜明けのうた(よあけのうたよわたしのこころのきのうのかなしみを)"
+        , filename = "yoakenouta.ly"
+        }
+        --, { jpgUrl = ""
+        --  , mp3Url = ""
+        --  , title = "この広い野原いっぱい(このひろいのはらいっぱいさくはなをひとつのこらず)"
+        --  , filename = "konohiroinoharaippai.ly"
+        --  }
+
+
 
     ]
--- , { jpgUrl = ""
---   , mp3Url = ""
---   , title = ""
---   , filename = ".ly"
---   }
-
 -- イヨマンテの夜伊藤久男
 -- 柳ケ瀬ブルース美川憲一
 -- 愛の讃歌美輪明宏
