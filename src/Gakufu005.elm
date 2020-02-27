@@ -3170,11 +3170,13 @@ dict =
           , title = "世界は二人のために(あいあなたとふたりはなあなたとふたり)"
           , filename = "sekaiwafutarinotameni.ly"
           }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "あの素晴らしい愛をもう一度()"
---   , filename = "anosubarashiiai.ly"
---   }
+        , { jpgUrl = "https://drive.google.com/uc?id=1ROF-KKJFPHkAdwA8aXqnXxrU7wB9NPtd"
+          , mp3Url = "https://drive.google.com/uc?id=1IxLpcjewm3H3y59gn-pSnfZ6ZWRomKrY"
+          , title = "あの素晴らしい愛をもう一度(いのちかけてとちかったひから)"
+          , filename = "anosubarashiiai.ly"
+          }
+
+
     ]
 -- イヨマンテの夜伊藤久男
 -- 柳ケ瀬ブルース美川憲一
@@ -3185,3 +3187,5 @@ dict =
 -- アカシアの雨の止む時
 -- すうじのうた
 -- ロシア国歌
+-- 愛唱名歌112
+-- 世界の歌102
