@@ -3155,9 +3155,26 @@ dict =
         --  , title = "この広い野原いっぱい(このひろいのはらいっぱいさくはなをひとつのこらず)"
         --  , filename = "konohiroinoharaippai.ly"
         --  }
-
-
-
+        , { jpgUrl = "https://drive.google.com/uc?id=1sSVINT3VuWszWpCjjnaHNF1at9vAh_f1"
+          , mp3Url = "https://drive.google.com/uc?id=1G1bHc6cOsL8MpjaO30q7HFaJLUKDiJDM"
+          , title = "お嫁においで(もしもこのふねできみのしあわせみつけたらすぐにかえるから)"
+          , filename = "oyomenioide.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Cbv2wlcX9E5VncaOskaoao4xiv3QBz-m"
+          , mp3Url = "https://drive.google.com/uc?id=1VZid1yCbG4mjLfpArADQfLi31oICW6Ne"
+          , title = "花嫁(はなよめはよぎしゃにのってとついでゆくの)"
+          , filename = "hanayomewayogisha.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=15iw6Kc2StXcsPiXX7sQkZx6G9OCgK2cy"
+          , mp3Url = "https://drive.google.com/uc?id=1xabfgRmjGkfdTjkfajzL41-GEVCrU-gs"
+          , title = "世界は二人のために(あいあなたとふたりはなあなたとふたり)"
+          , filename = "sekaiwafutarinotameni.ly"
+          }
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "あの素晴らしい愛をもう一度()"
+--   , filename = "anosubarashiiai.ly"
+--   }
     ]
 -- イヨマンテの夜伊藤久男
 -- 柳ケ瀬ブルース美川憲一
@@ -3167,3 +3184,4 @@ dict =
 -- 海ゆかば
 -- アカシアの雨の止む時
 -- すうじのうた
+-- ロシア国歌
