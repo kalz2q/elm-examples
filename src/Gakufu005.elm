@@ -3205,10 +3205,36 @@ dict =
         --   , title = "柳ケ瀬ブルース(あめのふるよるはこころもぬれるましてひとりじゃなおさみし)"
         --   , filename = "yanagaseblues.ly"
         -- }
-
-
-
-
+        , { jpgUrl = "https://drive.google.com/uc?id=1lHrzbxyLwCgzNNvqQZEw7Ff0TaLSET2d"
+          , mp3Url = "https://drive.google.com/uc?id=1JK2Eu02HGj5VReW4KO3aARhSYu2wyzO-"
+          , title = "さらばナポリ(Addio a Napoli わかれのときよいざいざさらば)"
+          , filename = "sarabanapoli.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1B5SUF50EQOVKXFT-H-6037JklfF2-fU_"
+          , mp3Url = "https://drive.google.com/uc?id=1XNrd_2cKZWoo5Umyz3crHUfj_5W2VgMU"
+          , title = "フニクリフニクラ(あかいひをふくあのやまへのぼろうのぼろう)"
+          , filename = "funiculifunicula.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1r0YQIUQQdwrWlU-4TatWrDEeTAJ6k8Yv"
+          , mp3Url = "https://drive.google.com/uc?id=1Kqs1lg2EvYyUK5TcKA30ziyFLlR2JbtL"
+          , title = "インターナショナル(たてうえたるものよいまぞひはちかし)"
+          , filename = "international.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1fFVGr5oLZV_UVSmRvdJgqri9WrlpF4uE"
+          , mp3Url = "https://drive.google.com/uc?id=1y28eQXnLDf6PPvSO1VnSNaB0RXsv5yBV"
+          , title = "海行かば(うみゆかばみづくかばねやまゆかばくさむすかばね)"
+          , filename = "umiyukaba.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1np5Q3TKAzEJxT1hXpi2xPpcxzocioKH7"
+          , mp3Url = "https://drive.google.com/uc?id=1JPbmkcvns7zXoy5yy8IBdcFsYYUROMWl"
+          , title = "乙女の願い(ショパン)"
+          , filename = "otomechopin.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1jO51Xr3SoOc8zzEeQ-Y4yBrBDtfTOuq7"
+          , mp3Url = "https://drive.google.com/uc?id=1TgZYGgqyg3SbVB-v2iSoLdoaZxIQwLbu"
+          , title = "秋の夜半(ウェーバー。あきのよわのみそらすみて)"
+          , filename = "akinoyowa.ly"
+        }
     ]
 -- 柳ケ瀬ブルース美川憲一
 -- 愛の讃歌美輪明宏
