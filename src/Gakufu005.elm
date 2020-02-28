@@ -3175,10 +3175,41 @@ dict =
           , title = "あの素晴らしい愛をもう一度(いのちかけてとちかったひから)"
           , filename = "anosubarashiiai.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1cPCMiFi6abOyjBiBBP1-XKth9VUNstDI"
+          , mp3Url = "https://drive.google.com/uc?id=19vGxrCgsGjS7dptdGlicZdJsOUn1BlDc"
+          , title = "白いブランコ(きみはおぼえているかしらあのしろいぶらんこ)"
+          , filename = "shiroiburanko.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1JvLLZHmijsRemlDpyQYKHB3a03LUTToi"
+          , mp3Url = "https://drive.google.com/uc?id=1WDmwy6oN6BBKCu0-8fjPEg7qi7mJqWCD"
+          , title = "誰もいない海(いまはもうあきだれもいないうみ)"
+          , filename = "daremoinaiumi.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1-uLCTFeps04I36K_i0YhKyCQqWWBw7nR"
+          , mp3Url = "https://drive.google.com/uc?id=1U5yK5tV4MvuAQt5dBDrls52MmMdmtL4Q"
+          , title = "今日の日はさようなら(いつまでもたえることなくともだちでいよう)"
+          , filename = "kyonohiwasayonara.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=17gajYXsa7Sr_usEEoJ5YSwJt7-ZHP2st"
+          , mp3Url = "https://drive.google.com/uc?id=1LSQRBZJ5PZ2bMX2Ni3KcB7_ufRKNeniK"
+          , title = "ロンドンデリーの歌(オーダニーボーイ)"
+          , filename = "londonderryair.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1eaR7Vq36bXlAlm1muX16EkBCHGmo7WWU"
+          , mp3Url = "https://drive.google.com/uc?id=1YyaEQo22p5H_PAeKGzvD2IZVuQSwq9_W"
+          , title = "イヨマンテの夜(熊祭りの夜。いよまんてもえろかがりびああまんげつよ)"
+          , filename = "iyomante.ly"
+        }
+        --, { jpgUrl = ""
+        --   , mp3Url = ""
+        --   , title = "柳ケ瀬ブルース(あめのふるよるはこころもぬれるましてひとりじゃなおさみし)"
+        --   , filename = "yanagaseblues.ly"
+        -- }
+
+
 
 
     ]
--- イヨマンテの夜伊藤久男
 -- 柳ケ瀬ブルース美川憲一
 -- 愛の讃歌美輪明宏
 -- コーヒールンバ
