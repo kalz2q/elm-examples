@@ -3265,6 +3265,42 @@ dict =
           , title = "コーヒールンバ(むかしあらぶのえらいおぼうさんがこいをわすれたあわれなおとこに)"
           , filename = "moliendocafe.ly"
         }
+        , { jpgUrl = "https://drive.google.com/uc?id=1cC9K1o2dKejNjglwaWzuR0hqtCW6y-QC"
+          , mp3Url = "https://drive.google.com/uc?id=1_-jM0-IX_FBYY5eDhHeFghLF1j82ImHr"
+          , title = "暗路(やみじ。おぐらきよわをひとりゆけばくもよりしばしつくはもれて)"
+          , filename = "yamiji.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1xEiSYgUoyshoByt5EeKanQx5MFz2PtfW"
+          , mp3Url = "https://drive.google.com/uc?id=1JpzKHUhLn3A-1qyvTXkqDtKJ9tE7B_ab"
+          , title = "たゆとう小舟(たゆとうおぶねにみちからたよりてなみのえうらうら)"
+          , filename = "tayutouobune.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Ypda2vkWpyxypcp9LCHq793D5sEmXIKt"
+          , mp3Url = "https://drive.google.com/uc?id=1VFJ23Fs--xRDr2QFzZO3fQAm8tUjQBx8"
+          , title = "バイカル湖のほとり(ゆたかなるざばいかるのはてしなきのやまを)"
+          , filename = "baikal.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=19ggxypl3wxYDJ8WqLrJ0Qar_UkZsuOED"
+          , mp3Url = "https://drive.google.com/uc?id=18Sg6sJW0FGknraAgWs6Kww6GBPIGW3at"
+          , title = "黒い瞳の(くろいひとみのわかものがわたしのこころをとりこにした)"
+          , filename = "kuroihitomino.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=11ozB77q4b_QQ3BM_ei4K19O8261poK19"
+          , mp3Url = "https://drive.google.com/uc?id=1opNIueNZUu6pOfLMkFxJilCCauGhwD7Z"
+          , title = "モスクワ郊外の夕べ(ざわめきもいまははなくものみなまどろむ)"
+          , filename = "moskvakogai.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1k2cTLrgKBy6TIlyhaNlr4zhL_t9k0tvK"
+          , mp3Url = "https://drive.google.com/uc?id=1RzlU_1s6EZ5T74IWD-gAMK1aqP-Mn7T5"
+          , title = "バルカンの星の下に(くろきひとみいずこわがふるさといずこ)"
+          , filename = "balkannohoshinomotoni.ly"
+        }
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "禁じられた遊び(愛のロマンス)"
+--   , filename = "kinjiraretaasobi.ly"
+-- }
+
 
 
     ]
