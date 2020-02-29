@@ -3200,11 +3200,6 @@ dict =
           , title = "イヨマンテの夜(熊祭りの夜。いよまんてもえろかがりびああまんげつよ)"
           , filename = "iyomante.ly"
         }
-        --, { jpgUrl = ""
-        --   , mp3Url = ""
-        --   , title = "柳ケ瀬ブルース(あめのふるよるはこころもぬれるましてひとりじゃなおさみし)"
-        --   , filename = "yanagaseblues.ly"
-        -- }
         , { jpgUrl = "https://drive.google.com/uc?id=1lHrzbxyLwCgzNNvqQZEw7Ff0TaLSET2d"
           , mp3Url = "https://drive.google.com/uc?id=1JK2Eu02HGj5VReW4KO3aARhSYu2wyzO-"
           , title = "さらばナポリ(Addio a Napoli わかれのときよいざいざさらば)"
@@ -3235,14 +3230,41 @@ dict =
           , title = "秋の夜半(ウェーバー。あきのよわのみそらすみて)"
           , filename = "akinoyowa.ly"
         }
+        , { jpgUrl = "https://drive.google.com/uc?id=1ryydE7wmUYzV1H7OFevrp6shVi-cTc6W"
+          , mp3Url = "https://drive.google.com/uc?id=1QEKVcwGT-aztsv32Lmr6NbeV3mv0AIBr"
+          , title = "柳ケ瀬ブルース(あめのふるよるはこころもぬれるましてひとりじゃなおさみし)"
+          , filename = "yanagaseblues.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1un172Ji39mpXakoUbgGa8KBGS9ISG4ZN"
+          , mp3Url = "https://drive.google.com/uc?id=1HLFkzn0x7TG2Wvf3Edtj2ewC2V71o2ZK"
+          , title = "アカシアの雨が止む時(あかしあのあめにうたれてこのまましんでしまいたい)"
+          , filename = "acacianoame.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1D3EVIidwoOXwwd3Ib9TIAlGBRaTbB4bA"
+          , mp3Url = "https://drive.google.com/uc?id=1oFqwmRg3ti5YjttCp_W_IegkcncphkHs"
+          , title = "アイルランドの子守歌(トゥラルーラルラー)"
+          , filename = "irishlullaby.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=10CjRrcs_tK7gGMlnrAI_st134LjFDWWo"
+          , mp3Url = "https://drive.google.com/uc?id=1Bey9iq999smFh7FR8yyWC_Lmm45TH63z"
+          , title = "愛の讃歌(あなたのもえるてであたしをだきしめてただふたりだけで)"
+          , filename = "ainosanka.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1y7jFUqsUTHRcQNdyY3VoIFKU05osi8jH"
+          , mp3Url = "https://drive.google.com/uc?id=107AGR5Jh0bIdvp3KsbqyUwl3PgbRVA9v"
+          , title = "黒ねこのタンゴ(きみはかわいいぼくのくろねこあかいりぼんがよくにあうよ)"
+          , filename = "kuronekonotango.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1uymt124kVmwH9USl1FQMs5El_ZpVQA6H"
+          , mp3Url = "https://drive.google.com/uc?id=1lBUsJvIESVPmVJHVrjSrggjEWmSeAK4h"
+          , title = "すうじのうた(すうじのいちはなあにこうばのえんとつ)"
+          , filename = "sujinouta.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1-gSSylgqrGNds7SBgGbghwUTMuXxSrau"
+          , mp3Url = "https://drive.google.com/uc?id=13p1Ou717Y8IMk9l1cIN3xWca2blLTx7X"
+          , title = "コーヒールンバ(むかしあらぶのえらいおぼうさんがこいをわすれたあわれなおとこに)"
+          , filename = "moliendocafe.ly"
+        }
+
+
     ]
--- 柳ケ瀬ブルース美川憲一
--- 愛の讃歌美輪明宏
--- コーヒールンバ
--- 黒ネコのタンゴ
--- 海ゆかば
--- アカシアの雨の止む時
--- すうじのうた
--- ロシア国歌
--- 愛唱名歌112
--- 世界の歌102
