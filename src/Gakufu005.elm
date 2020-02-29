@@ -3295,12 +3295,16 @@ dict =
           , title = "バルカンの星の下に(くろきひとみいずこわがふるさといずこ)"
           , filename = "balkannohoshinomotoni.ly"
         }
+        , { jpgUrl = "https://drive.google.com/uc?id=1xweATaymqblsKlPjIh6mUUaoHfL5PUuF"
+          , mp3Url = "https://drive.google.com/uc?id=1x9scIH4CD1bBlilUBmNR9-_wt_PNbD2h"
+          , title = "禁じられた遊び(愛のロマンス)"
+          , filename = "kinjiraretaasobi.ly"
+        }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "禁じられた遊び(愛のロマンス)"
---   , filename = "kinjiraretaasobi.ly"
+--   , title = "追憶(ほしかげやさしくまたたくみそらをあおぎてさまよい)"
+--   , filename = "tsuioku.ly"
 -- }
-
 
 
     ]
