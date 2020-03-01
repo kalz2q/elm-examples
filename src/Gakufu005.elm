@@ -3315,11 +3315,37 @@ dict =
           , title = "ラ・パロマ(らぱろま。わがふねはばなたつときさびしきなみだあふれぬ)"
           , filename = "lapaloma.ly"
         }
+        , { jpgUrl = "https://drive.google.com/uc?id=1X1XjjmLlpDcIa9j-P_I38rjh4wqgTNBQ"
+          , mp3Url = "https://drive.google.com/uc?id=12vSdRkkzlXCfvLhAxBYNe4RyPcpDIJ-a"
+          , title = "海に来たれ(めざめとくこよつきはなみまにかがやく)"
+          , filename = "uminikitare.ly"
+        }        
+        , { jpgUrl = "https://drive.google.com/uc?id=1HvGV8mo7qmtKNVMFeA2Ud0P5sx7PuU50"
+          , mp3Url = "https://drive.google.com/uc?id=1zBrkFVq8NnHS2ledadcq1-pENxWCK0Ps"
+          , title = "オー・ソレ・ミオ(おーそれみお。ひるのひのかがやくようなはれたひとみ)"
+          , filename = "osolemio.ly"
+        }        
+        , { jpgUrl = "https://drive.google.com/uc?id=14zyiUvygJTx5ZzKJgnfzS0XD5VCYeB1L"
+          , mp3Url = "https://drive.google.com/uc?id=16yUaGudJl2QfGk-d1NsemK-Y_36EN0AJ"
+          , title = "麦打ち歌(サデロ。ちょいとねえさんどこへいくわたしゃゆうげのみずくみに)"
+          , filename = "mugiuchiuta.ly"
+        }        
+        , { jpgUrl = "https://drive.google.com/uc?id=1gARrAI75p3aEp6PM-u8dQUkmJWHMw0DM"
+          , mp3Url = "https://drive.google.com/uc?id=13O4t_vUFE_UqsjGqpwRv0hwaDBExnwed"
+          , title = "村の娘(あけゆくやまやまをこがねいろにそめ)"
+          , filename = "muranomusume.ly"
+        }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "気のいいあひる(むかしあひるはからだがおおきくてうみもわたればさかなもたべたよ)"
 --   , filename = "kinoiiahiru.ly"
 -- }        
-        
+        , { jpgUrl = "https://drive.google.com/uc?id=1luseppApOTAGqf2HHC8xiTH88An8Z0vn"
+          , mp3Url = "https://drive.google.com/uc?id=1Rcpj3Rd_JUB6OjbV2XjzM0_PSM5XvGQT"
+          , title = "山の人気者(やまのにんきものそれはみるくやあさからよるまでうたをふりまく)"
+          , filename = "yamanoninkimono.ly"
+        }
+
+
         
     ]
