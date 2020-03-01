@@ -3300,11 +3300,26 @@ dict =
           , title = "禁じられた遊び(愛のロマンス)"
           , filename = "kinjiraretaasobi.ly"
         }
+        , { jpgUrl = "https://drive.google.com/uc?id=1jEI7POa16b3ydWpEakR7-q4JFKA9g7Ok"
+          , mp3Url = "https://drive.google.com/uc?id=1bntUwHc5vNiCLg6Nnrorx5agr6UvGD6l"
+          , title = "追憶(ほしかげやさしくまたたくみそらをあおぎてさまよい)"
+          , filename = "tsuioku.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1eGk4xSKbPRN8GYl-rTKOyxa53j-ZCfWq"
+          , mp3Url = "https://drive.google.com/uc?id=1CJuDUT0tiUbuZ5_z0p1eBiv2YG7Ttfn7"
+          , title = "おお牧場はみどり(おおまきばはみどりくさのうみかぜがふく)"
+          , filename = "omakibawamidori.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=184Hoc1OgrIO44Cz6An2U2HFXkYaMTNRh"
+          , mp3Url = "https://drive.google.com/uc?id=1ReZJImrbxUVLkbxoGy8VBh9D72xozu6y"
+          , title = "ラ・パロマ(らぱろま。わがふねはばなたつときさびしきなみだあふれぬ)"
+          , filename = "lapaloma.ly"
+        }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "追憶(ほしかげやさしくまたたくみそらをあおぎてさまよい)"
---   , filename = "tsuioku.ly"
--- }
-
-
+--   , title = "気のいいあひる(むかしあひるはからだがおおきくてうみもわたればさかなもたべたよ)"
+--   , filename = "kinoiiahiru.ly"
+-- }        
+        
+        
     ]
