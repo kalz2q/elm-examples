@@ -3380,12 +3380,20 @@ dict =
           , title = "神の御子は(クリスマス。かみのみこはこよいしもべつれへむに)"
           , filename = "kaminomikowa.ly"
         }
+        , { jpgUrl = "https://drive.google.com/uc?id=1nJ8_c1YiwPtOjdZaLtkNSAYGvCBdr6hC"
+          , mp3Url = "https://drive.google.com/uc?id=1lcrBwq9xN1uR78PfSakTYbI-QiD1gM5k"
+          , title = "TOMORROW(トゥモロー。なみだのかずだけつよくなれるよ)"
+          , filename = "tomorrow.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=14E4R0Xv43MMma3OAESiSxeSQU4OAz5mC"
+          , mp3Url = "https://drive.google.com/uc?id=1IAg6JgGIUcmuT2S2uMC4dHCnAT1YPdfE"
+          , title = "千の風になって(わたしのおはかのまえでなかないでください)"
+          , filename = "sennokazeninatte.ly"
+        }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "TOMORROW(トゥモロー。なみだのかずだけつよくなれるよ)"
---   , filename = "tomorrow.ly"
+--   , title = "崖の上のポニョ(ぽーにょぽにょぽにょぽにょさかなのこ)"
+--   , filename = "gakenouenoponyo.ly"
 -- }
-
-
 
     ]
