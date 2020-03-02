@@ -3335,17 +3335,31 @@ dict =
           , title = "村の娘(あけゆくやまやまをこがねいろにそめ)"
           , filename = "muranomusume.ly"
         }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "気のいいあひる(むかしあひるはからだがおおきくてうみもわたればさかなもたべたよ)"
---   , filename = "kinoiiahiru.ly"
--- }        
         , { jpgUrl = "https://drive.google.com/uc?id=1luseppApOTAGqf2HHC8xiTH88An8Z0vn"
           , mp3Url = "https://drive.google.com/uc?id=1Rcpj3Rd_JUB6OjbV2XjzM0_PSM5XvGQT"
           , title = "山の人気者(やまのにんきものそれはみるくやあさからよるまでうたをふりまく)"
           , filename = "yamanoninkimono.ly"
         }
-
+        , { jpgUrl = "https://drive.google.com/uc?id=19OQCufvHJCm6OYA4x4LnwIDktuzrENEG"
+          , mp3Url = "https://drive.google.com/uc?id=1xrnmD2nwFjW3vILTkJFHja4blDakguFp"
+          , title = "気のいいあひる(むかしあひるはからだがおおきくてうみもわたればさかなもたべたよ)"
+          , filename = "kinoiiahiru.ly"
+        }        
+        , { jpgUrl = "https://drive.google.com/uc?id=1dVcMPoEwN_m0rb-AtrX-ry1vTUqjsz0V"
+          , mp3Url = "https://drive.google.com/uc?id=1UcoxjT_owQ5L8u4WGomlxdJAJgV3xWKR"
+          , title = "花まつり(ぬるんだみずにはるのひはうかびこぶねははなたばをつんではしる)"
+          , filename = "hanamatsuri.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1ReBCpLmqYZnBfac_eg8gz3Aj4VGFjl-k"
+          , mp3Url = "https://drive.google.com/uc?id=1rQyBnbFhyL8MTjMFG2nQ1PAgUWVKjZoO"
+          , title = "ラ・クカラチャ(らくからちゃ。ラクカラーチャ。くるまにゆられて)"
+          , filename = "lacucaracha.ly"
+        }
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "シェリト・リンド(しぇりとりんど。うつくしいそら)"
+--   , filename = "cielitolindo.ly"
+-- }
 
         
     ]
