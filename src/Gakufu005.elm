@@ -3355,11 +3355,15 @@ dict =
           , title = "ラ・クカラチャ(らくからちゃ。ラクカラーチャ。くるまにゆられて)"
           , filename = "lacucaracha.ly"
         }
+        , { jpgUrl = "https://drive.google.com/uc?id=15HRF6sciCl2kdSNlX2NdE5UEYMGJU-IO"
+          , mp3Url = "https://drive.google.com/uc?id=1NCf4KCdpCJ0Nl3aLau2VsYn-aZcLrhel"
+          , title = "シェリト・リンド(しえりとりんど。うつくしいそら)"
+          , filename = "cielitolindo.ly"
+        }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "シェリト・リンド(しぇりとりんど。うつくしいそら)"
---   , filename = "cielitolindo.ly"
+--   , title = "アイ・アイ・アイ(あいあいあい。ちりゆくはなにayayay)"
+--   , filename = "ayayay.ly"
 -- }
-
         
     ]
