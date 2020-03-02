@@ -680,9 +680,9 @@ dict =
       , title = "Across the Universe (ビートルズ)"
       , filename = "acrossuniverse.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1w758ucrQ8iOGBNe58Su4I-thIUkbk5lr"
+    , { jpgUrl = "https://drive.google.com/uc?id=1QDsBcxf-0ETuoFSCA6r2bEbvk2zA0L5F"
       , mp3Url = "https://drive.google.com/uc?id=1wQvReBXq6S9yNk0qGrTqSjsERIFraU1T"
-      , title = "秋桜(うすべにのこすもすがあきのひの)"
+      , title = "秋桜(うすべにのこすもすがあきのひのなにげないひだまりにゆれている)"
       , filename = "cosmos.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1JYXpUnLFgTyht62TFMCq-JePJJEPSWCS"
@@ -3380,7 +3380,11 @@ dict =
           , title = "神の御子は(クリスマス。かみのみこはこよいしもべつれへむに)"
           , filename = "kaminomikowa.ly"
         }
-
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "TOMORROW(トゥモロー。なみだのかずだけつよくなれるよ)"
+--   , filename = "tomorrow.ly"
+-- }
 
 
 
