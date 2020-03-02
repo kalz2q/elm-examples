@@ -245,7 +245,7 @@ dict =
       , title = "そりすべり(リロイ・アンダーソン。クリスマス)"
       , filename = "sorisuberi.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1w1LhB8aOftp1A3zOmlSQGjMye7GsowJI"
+    , { jpgUrl = "https://drive.google.com/uc?id=1hM2sYbWnLcylOKAdMtxQnQz7yrFNsNpK"
       , mp3Url = "https://drive.google.com/uc?id=1jvYKa16U5WI-Yo1sWxKkVgFXlxRWWupv"
       , title = "もろびとこぞりて(クリスマス)"
       , filename = "morobito.ly"
@@ -635,9 +635,9 @@ dict =
       , title = "アブラハムの子(あぶらはむにはしちにんのこ)"
       , filename = "abrahamunoko.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1RtMAoXrtO4K09fjrzaKucixS-KzNVZ_k"
+    , { jpgUrl = "https://drive.google.com/uc?id=1_anB7_50Icnqnw72XzwSaGPbG0FGQFeL"
       , mp3Url = "https://drive.google.com/uc?id=17lUw9X8oWnMtrOV9iP_NcFOCjT2JEpzL"
-      , title = "大きな古時計(おおきなのっぽのふるどけい)"
+      , title = "大きな古時計(おおきなのっぽのふるどけいおじいさんのとけい)"
       , filename = "okinafurudokei.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1p33p6AcEBgKQqrfByQWCLBxmyCFmtS2m"
@@ -3360,10 +3360,28 @@ dict =
           , title = "シェリト・リンド(しえりとりんど。うつくしいそら)"
           , filename = "cielitolindo.ly"
         }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "アイ・アイ・アイ(あいあいあい。ちりゆくはなにayayay)"
---   , filename = "ayayay.ly"
--- }
-        
+        , { jpgUrl = "https://drive.google.com/uc?id=1d48lkwTqNfNRsNmq8vw7ca4yj6EhBj8u"
+          , mp3Url = "https://drive.google.com/uc?id=1UaWWSrw-9Jxk0anw0uVAGZ0hlwU9uwID"
+          , title = "アイ・アイ・アイ(あいあいあい。ちりゆくはなにayayay)"
+          , filename = "ayayay.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1nLA27hZWWiUL4Va9MyYAxGNq8yF_EhuS"
+          , mp3Url = "https://drive.google.com/uc?id=15fpfNmEnWYIoaWghwWN6pcrc3GmyGh6t"
+          , title = "樅の木(たんねんばうむ。もみのきもみのきおいやしげれる)"
+          , filename = "mominoki.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1wCDk7d-VadedV5pXzKRbmmECI3VOQBpd"
+          , mp3Url = "https://drive.google.com/uc?id=1h5RpWEOKkKiVHpnQ03dYPvHHP7yJHbcO"
+          , title = "グノーのアヴェ・マリア(クリスマス。あべまりあ。Gounod Ave Maria)"
+          , filename = "gounodavemaria.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1WxXMG8WlKQdc7Gk0YJJxMWC_90AfndZF"
+          , mp3Url = "https://drive.google.com/uc?id=1mXEhJfvEPSTQvHiWQra9EfF-vZJa9lFk"
+          , title = "神の御子は(クリスマス。かみのみこはこよいしもべつれへむに)"
+          , filename = "kaminomikowa.ly"
+        }
+
+
+
+
     ]
