@@ -470,9 +470,9 @@ dict =
       , title = "ジュ・トゥ・ヴ(エリック・サティ)"
       , filename = "jeteveux.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1VIRoFEuz4isusxWFeA7VzdVwNFbs25sV"
+    , { jpgUrl = "https://drive.google.com/uc?id=1C1bHJX1coLxu-p8AeKy-06F1JIuOEC-Q"
       , mp3Url = "https://drive.google.com/uc?id=1oFARTSCKkwL-DXduZ6C25IgH5bunpmeR"
-      , title = "モーツァルトの子守歌"
+      , title = "モーツァルトの子守歌(ねむれよいこよにわやまきばに)"
       , filename = "mozartkomori.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=17eVjT4HOC8w1QRs7X86JzHLCzA7Zwp1v"
@@ -570,7 +570,7 @@ dict =
       , title = "愛の喜び(マルティーニ)"
       , filename = "ainoyorokobi.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1mH5GBbbKVGVN0hLOLzg-94ultqiN8a50"
+    , { jpgUrl = "https://drive.google.com/uc?id=1cZ-YLAQkhh9Z39z4B1sXJA2xuevzpVG3"
       , mp3Url = "https://drive.google.com/uc?id=1qGfklxN1OMgfl6Oe2hOv9guJtv9gzpVa"
       , title = "江戸の子守唄(ねんねんころりよおころりよ)"
       , filename = "edokomori.ly"
@@ -710,9 +710,9 @@ dict =
       , title = "小さな世界(ちいさなせかい、It's a small world、せかいじゅうどこだって)"
       , filename = "smallworld.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1QRcYDpmk4Q5tF6K6RdeRef3AMOBQ_ynn"
+    , { jpgUrl = "https://drive.google.com/uc?id=1xCXyoEw5-9zctBrnz640d3WUDeMYR8U0"
       , mp3Url = "https://drive.google.com/uc?id=10uRPITMWRgop4qzQS_E5EHuc6Y7-GD0D"
-      , title = "竹田の子もりうた(もりもいやがるぼんから)"
+      , title = "竹田の子もりうた(もりもいやがるぼんからさきにゃ)"
       , filename = "takedanokomori.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1m7g1nF7ojYNMItd9_q-0ey9MlCHD-aY8"
@@ -1425,7 +1425,7 @@ dict =
       , title = "北国の春(しらかばあおぞらみなみかぜ)"
       , filename = "kitaguninoharu.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1wuYPF84MpyFmL5Mrd5DMbjPu8k6qma4s"
+    , { jpgUrl = "https://drive.google.com/uc?id=1mwJeR5_H0KobIRGDVxx4QQfCDSuf6Eap"
       , mp3Url = "https://drive.google.com/uc?id=1842fGkGa84TPaTIv0wY3BJ-B_g0bW725"
       , title = "静かな湖畔(しずかなこはんのもりのかげから)"
       , filename = "shizukanakohan.ly"
@@ -3410,8 +3410,36 @@ dict =
           , title = "ヴォルガの舟歌(ゔぉるがのふなうた。ええこーらええこーらもひとつええこーら)"
           , filename = "volganofunauta.ly"
         }
-
-
+        , { jpgUrl = "https://drive.google.com/uc?id=14JiPlH7lX3x8HPowqJZm6l4f3OHIDBhd"
+          , mp3Url = "https://drive.google.com/uc?id=163ycpP68MDt1VzCXQG-97WIIaiOkppoW"
+          , title = "眠りの精(つきのひかりにはなもくさも)"
+          , filename = "nemurinosei.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1OrJZlzsqoPs_Z6xveREmnLL6YssEeWjm"
+          , mp3Url = "https://drive.google.com/uc?id=1Vj3e3DDaFzg7VLq2RLvJG0EMAO0WnV1L"
+          , title = "ジョスランの子守歌(Berceuse de Jocelyn)"
+          , filename = "berceusedejocelyn.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1lwl76rTbOA6bd6W-MRKbwXVisO0pZ10Y"
+          , mp3Url = "https://drive.google.com/uc?id=1UzbHPakxBC4tc_fMHV15G3SgAEWEfqs2"
+          , title = "コサックの子守歌(ねむれやこさっくのいとしごよ)"
+          , filename = "cossackkomori.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1_MqhIKDXzsuZtvZdeRUDgWEZwHTErig_"
+          , mp3Url = "https://drive.google.com/uc?id=11nwMXklcRnogtuRFHKrTNedehJCr-IN8"
+          , title = "チロルの子守歌(すずのひびことおくやまのまきばくれて)"
+          , filename = "tirolkomori.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1aBHl8GZWvIRVEFqoz7y0CcxaS8SqfQxk"
+          , mp3Url = "https://drive.google.com/uc?id=1K6vWruAS6OYCDe3hiOL3WskzW5bgHaR6"
+          , title = "五木の子守歌(おどまぼんぎりぼんぎりぼんからさきゃおらんど)"
+          , filename = "itsukinokomori.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1DrcaHPsvdzv3sg6JV_u5kynxpQMk17TL"
+          , mp3Url = "https://drive.google.com/uc?id=1BpX3ylp5haqA42uGMEPzeIQAi-qB12j2"
+          , title = "島原の子守歌(おどみゃしまばらのおどみゃしまばらのなしのきそだちよ)"
+          , filename = "shimabarakomori.ly"
+        }
 
 
     ]
