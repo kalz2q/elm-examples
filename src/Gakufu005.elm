@@ -3390,10 +3390,28 @@ dict =
           , title = "千の風になって(わたしのおはかのまえでなかないでください)"
           , filename = "sennokazeninatte.ly"
         }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "崖の上のポニョ(ぽーにょぽにょぽにょぽにょさかなのこ)"
---   , filename = "gakenouenoponyo.ly"
--- }
+        , { jpgUrl = "https://drive.google.com/uc?id=1rpfywnMzfqdgDMGo1m3rE5tWRjS7gaGQ"
+          , mp3Url = "https://drive.google.com/uc?id=1xCXb_kjKZkJqv_ZjmoDBy4SrWN3pq3R8"
+          , title = "崖の上のポニョ(ぽーにょぽにょぽにょぽにょさかなのこ)"
+          , filename = "gakenouenoponyo.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1s_6lVTr0d078pdd1uuEMnY4U8M2RWpsJ"
+          , mp3Url = "https://drive.google.com/uc?id=1zXMl3xW8aUp6FP2CFrkcpnPpTenhwlLV"
+          , title = "赤いサラファン(あかいさらふぁんぬうてみても)"
+          , filename = "akaisarafan.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1c1bbnWvAru3z2ydq0Dt_TDgyOSjrCwIV"
+          , mp3Url = "https://drive.google.com/uc?id=18ZMNM5Z9LuPCj6RTeYXHFMGlhRh7Xv1B"
+          , title = "ドナウ川の漣(どなうがわのさざなみ)"
+          , filename = "donaugawanosazanami.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1UwthoPXRuj-kUnEjMBzmAOeKiRCRBeXt"
+          , mp3Url = "https://drive.google.com/uc?id=1uHIiwMQ1nZAPHPJlxSjn901VoSKgru05"
+          , title = "ヴォルガの舟歌(ゔぉるがのふなうた。ええこーらええこーらもひとつええこーら)"
+          , filename = "volganofunauta.ly"
+        }
+
+
+
 
     ]
