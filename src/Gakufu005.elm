@@ -475,9 +475,9 @@ dict =
       , title = "モーツァルトの子守歌"
       , filename = "mozartkomori.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1KabE7PO1-SUgXNgCP8GOL2xPaDXC8kPh"
+    , { jpgUrl = "https://drive.google.com/uc?id=17eVjT4HOC8w1QRs7X86JzHLCzA7Zwp1v"
       , mp3Url = "https://drive.google.com/uc?id=1xoFNN2tJ1cd-OXrbqIoWJuT2CnJdT9eP"
-      , title = "ブラームスの子守歌"
+      , title = "ブラームスの子守歌(ねんねんころり)"
       , filename = "brahmskomori.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1VVdq0KrKjYxbkgycYhm02cKjism8HHIh"
