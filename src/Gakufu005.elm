@@ -3486,21 +3486,35 @@ dict =
       , title = "森へ行きましょう(もりへゆきましょうむすめさんあはは)"
       , filename = "morieyukimasho.ly"
     }
-    --, { jpgUrl = ""
-    --   , mp3Url = ""
-    --   , title = "やさしき愛の歌(モロイ。Love's Old Sweet Song)"
-    --   , filename = "yasashikiainouta.ly"
-    -- }
-    --, { jpgUrl = ""
-    --   , mp3Url = ""
-    --   , title = "この広い野原いっぱい(このひろいのはらいっぱいさくはなをひとつのこらず)"
-    --   , filename = "konohiroinoharaippai.ly"
-    -- }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "峠のわが家(Home on the Range つのぶえはこだまするやまのおかなたに)"
---   , filename = "togenowagaya.ly"
--- }
-
+    , { jpgUrl = "https://drive.google.com/uc?id=1IWOW200LXTT-WyRIqlT3XPO58WwvUZhw"
+      , mp3Url = "https://drive.google.com/uc?id=1f_onz6tyBFzMnd_3qsEZB2Y4PKURSPGZ"
+      , title = "この広い野原いっぱい(このひろいのはらいっぱいさくはなをひとつのこらず)"
+      , filename = "konohiroinoharaippai.ly"
+    }
+      , { jpgUrl = "https://drive.google.com/uc?id=1oNXyV3LKHyWRbWP27LetScaOwDZ28ele"
+        , mp3Url = "https://drive.google.com/uc?id=1VBrJl-goRUiC8q0zvVNOVLxpo1981Xm2"
+        , title = "やさしき愛の歌(モロイ。Love's Old Sweet Song)"
+        , filename = "yasashikiainouta.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1Cfh91cGp6sMQy3FQSZ_hzm57__a7rlrj"
+        , mp3Url = "https://drive.google.com/uc?id=1UlR4THwWKheJOI_tMMsFDZPKhyMQvJ2_"
+        , title = "峠のわが家(Home on the Range つのぶえはこだまするやまのおかなたに)"
+        , filename = "togenowagaya.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1bDAXPwrsyv6uTZaqUhGOOU0bprjyhbao"
+        , mp3Url = "https://drive.google.com/uc?id=1XwWiKdPQMvWXAJFouJQ4N1YkiXk2YOhG"
+        , title = "家路(Going home。とおきやまにひはおちてほしはそらをちりばめぬ)"
+        , filename = "goinghome.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1iSN_nhD59jSV1fDss-g_MlqmvmBj0wPf"
+        , mp3Url = "https://drive.google.com/uc?id=1huDMk_Jv3FmoayuXSuPXhih_l-L1abY8"
+        , title = "漕げよマイケル(Michael Row the Boat Ashore Hallelujah)"
+        , filename = "michaelrow.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1IcbwZXmPk28RA6FXKL4BysVx7CFNk--l"
+        , mp3Url = "https://drive.google.com/uc?id=1Kyy3zreFL79O08ioCaf1H6na0K7siYrA"
+        , title = "わが悩み知り給う(Nobody Know de Trouble I See。わがなやみしりたもう)"
+        , filename = "waganayami.ly"
+      }
 
     ]
