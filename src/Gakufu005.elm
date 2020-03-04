@@ -545,7 +545,7 @@ dict =
       , title = "権兵衛さんの赤ちゃん(ごんべえさんのあかちゃんが)"
       , filename = "gonbe.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1-n4psZwGJAq-Sxx58WwoRISq3quJALOL"
+    , { jpgUrl = "https://drive.google.com/uc?id=1-tbVeYFSzVYzJUsmpDF33kSoD1ZUTsBj"
       , mp3Url = "https://drive.google.com/uc?id=1v01I0ZC09yK7SrBto1wJnab-ipDmUUmb"
       , title = "山の音楽家(わたしゃおんがくかやまのこりす)"
       , filename = "yamanoongakuka.ly"
@@ -1287,7 +1287,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1543rLp3RFm3Ih3UpO83UpgaIZe1QC1R4"
       , mp3Url = "https://drive.google.com/uc?id=1tdgfvcYJbYfPD1HmcnK4DIKxfZ1N-6Js"
-      , title = "うつくしき(うつくしきわがこやいずこ)"
+      , title = "美しき(うつくしきわがこやいずこ)"
       , filename = "utsukushikiwagako.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1x5bSOD6ImLfX9AeUfw_RQQiY0JJP2S0L"
@@ -3440,6 +3440,44 @@ dict =
           , title = "島原の子守歌(おどみゃしまばらのおどみゃしまばらのなしのきそだちよ)"
           , filename = "shimabarakomori.ly"
         }
+        , { jpgUrl = "https://drive.google.com/uc?id=1hgrEoRWFgHgrytifY1rmE5x5VgpIe_oD"
+          , mp3Url = "https://drive.google.com/uc?id=125_MzEaLP4_3dXA77cKDBBHGgsJapAuV"
+          , title = "春の日の花と輝く(はるのひのはなとかがやく)"
+          , filename = "harunohino.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1MSvGy3vXEOHGwZM-Wr_l5SoSJ8XKpRcg"
+          , mp3Url = "https://drive.google.com/uc?id=1Q4Q9HHspm94seD4WFvd1XLlrVkrfnYcu"
+          , title = "ロッホ・ローモンド(スコットランドの湖)"
+          , filename = "lochlomond.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1Jt-kfPLASlxVxQmwli_proW2xz9ra0LZ"
+          , mp3Url = "https://drive.google.com/uc?id=1yuj6KsFvi8NkBuCfUvKZ--ZMgWM5XGqx"
+          , title = "アニー・ローリー(あにーろーりー。あしたつゆおくののしじまに)"
+          , filename = "annielaurie.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=19CFWPW4qs4htw1cobHtzko0V_3Gpqgpz"
+          , mp3Url = "https://drive.google.com/uc?id=1MNqWREfWjGUl-q_xnTPWs_Er9snK2pw8"
+          , title = "グリーン・スリーブス(ぐりーんすりーぶす。Greensleeves)"
+          , filename = "greensleeves.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1lmKrFM_XnobJrdLlYZTZxNGh2RnWZZF2"
+          , mp3Url = "https://drive.google.com/uc?id=1ZEhTjL8HBiD08-QB_WgnriUXMG5SkRMZ"
+          , title = "ピクニック(おかをこえゆこうよくちぶえふきつつ)"
+          , filename = "picnic.ly"
+        }
+          , { jpgUrl = "https://drive.google.com/uc?id=1WQBubeu0cjGmYapSzlX0GBu-riFTrzhZ"
+            , mp3Url = "https://drive.google.com/uc?id=1glTZnJqW_Pfsh64Q826oCyUkURe_Rr9C"
+            , title = "アフトン川の流れ(Flow Gently, Sweet Afton)"
+            , filename = "afton.ly"
+          }
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "やさしき愛の歌(モロイ。Love's Old Sweet Song)"
+--   , filename = "yasashikiainouta.ly"
+-- }
+
+
+
 
 
     ]
