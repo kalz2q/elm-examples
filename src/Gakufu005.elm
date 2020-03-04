@@ -812,7 +812,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1OMEmVbQmVeBBnNWB606QmkvR0hdT-r70"
       , mp3Url = "https://drive.google.com/uc?id=1Ickl_2Sh7BefCKRaC8HeKkPixioGiL5O"
-      , title = "アルプス一万尺"
+      , title = "アルプス一万尺(あるぷすいちまんじゃくこやりのうえであるぺんおどりを)"
       , filename = "alpsichiman.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1PP7CFxRwKtwUhEsDN4HhUB5zHJBNQJ0L"
@@ -3150,11 +3150,6 @@ dict =
         , title = "夜明けのうた(よあけのうたよわたしのこころのきのうのかなしみを)"
         , filename = "yoakenouta.ly"
         }
-        --, { jpgUrl = ""
-        --  , mp3Url = ""
-        --  , title = "この広い野原いっぱい(このひろいのはらいっぱいさくはなをひとつのこらず)"
-        --  , filename = "konohiroinoharaippai.ly"
-        --  }
         , { jpgUrl = "https://drive.google.com/uc?id=1sSVINT3VuWszWpCjjnaHNF1at9vAh_f1"
           , mp3Url = "https://drive.google.com/uc?id=1G1bHc6cOsL8MpjaO30q7HFaJLUKDiJDM"
           , title = "お嫁においで(もしもこのふねできみのしあわせみつけたらすぐにかえるから)"
@@ -3470,14 +3465,31 @@ dict =
             , title = "アフトン川の流れ(Flow Gently, Sweet Afton)"
             , filename = "afton.ly"
           }
+        , { jpgUrl = "https://drive.google.com/uc?id=1HyGn9dsLSzQ4-ntLVvcynMuY1UZsIyRm"
+          , mp3Url = "https://drive.google.com/uc?id=1oPcFIFx6zRYEp_3_ByslA9jr8NG7VRvS"
+          , title = "山の一日(あかるくたのしいやまのいちにちあさひといっしょにあるきだし)"
+          , filename = "yamanoichinichi.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1So_JF5Du1zoYDi7yXGY1GHJDIufRx7ow"
+          , mp3Url = "https://drive.google.com/uc?id=1B5Yh0RqjooTSz8i--p1Nn1Z45KtL3-Yf"
+          , title = "おおブレネリ(おおぶれねりあなたのおうちはどこわたしのおうちはすいっつらんどよ)"
+          , filename = "ohvreneli.ly"
+        }
+        , { jpgUrl = "https://drive.google.com/uc?id=1vI2vbrxffvCoDepHs_8tKXH4rcqVFhoH"
+          , mp3Url = "https://drive.google.com/uc?id=1q6XDcc1HjJDsyNqb0myPqxb3A7IZxkKL"
+          , title = "いつかある日(いつかあるひやまでしんだらふるいやまのともよつたえてくれ)"
+          , filename = "itsukaaruhi.ly"
+        }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "やさしき愛の歌(モロイ。Love's Old Sweet Song)"
 --   , filename = "yasashikiainouta.ly"
 -- }
-
-
-
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "この広い野原いっぱい(このひろいのはらいっぱいさくはなをひとつのこらず)"
+--   , filename = "konohiroinoharaippai.ly"
+-- }
 
 
     ]
