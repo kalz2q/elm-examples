@@ -3516,5 +3516,10 @@ dict =
         , title = "わが悩み知り給う(Nobody Know de Trouble I See。わがなやみしりたもう)"
         , filename = "waganayami.ly"
       }
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "マギー若き日の歌を(When you and I were young, Maggie)"
+--   , filename = "maggie.ly"
+-- }
 
     ]
