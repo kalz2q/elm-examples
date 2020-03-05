@@ -3546,6 +3546,16 @@ dict =
         , title = "シューベルトのセレナーデ(Schubert Serenade(Staendchen))"
         , filename = "schubertseranade.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1vNCwtRoNS4_t1x7mjpE_RwGkA7EwTK_A"
+        , mp3Url = "https://drive.google.com/uc?id=13edzce2LS0FWYNWWP1uGRhOQfjbFIdDc"
+        , title = "別れの曲(ショパン。はるのひそよかざはなちるみどりのおか)"
+        , filename = "chopinwakarenokyoku.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1WOZTy3KDhXRQPxElgo2uApt6zyd1UCYh"
+        , mp3Url = "https://drive.google.com/uc?id=1iAPYygJQpmExOzQqUp9Agz1_lT958rEN"
+        , title = "真実の愛(Treue Liebe。ドイツ民謡)"
+        , filename = "treueliebe.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "マギー若き日の歌を(When you and I were young, Maggie)"
@@ -3553,10 +3563,8 @@ dict =
 -- }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "別れの曲(ショパン。はるのひそよかざはなちるみどりのおか)"
---   , filename = "chopinwakarenokyoku.ly"
+--   , title = "帰れソレントへ(うるわしのうみはうつつにもゆめむ)"
+--   , filename = "sorrento.ly"
 -- }
-
-
     ]
 
