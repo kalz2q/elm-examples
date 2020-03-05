@@ -3521,15 +3521,38 @@ dict =
         , title = "藁の中の七面鳥(わらのなかのしちめんちょう。さあたいへんださあたいへんだ)"
         , filename = "turkeyinthestraw.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1iKgsb66xBwDl8p9JQFh-U2IM3IC6HQ81"
+        , mp3Url = "https://drive.google.com/uc?id=1n7RlzZtlg79GUMKhF01NnLALncOL2cJJ"
+        , title = "アロハ・オエ(あろはおえ。やさしくかなずるはゆかしうくれれよ)"
+        , filename = "alohaoe.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1kLUxtpX1uOwGcikToMVKctp9Rp07HU7r"
+        , mp3Url = "https://drive.google.com/uc?id=1uccvX6G8UJ8XYWZ2uGYMVNW2jCgSz8Pm"
+        , title = "ステンカ・ラージン(すてんからーじん。くおんにとどろくゔぉるがのながれ)"
+        , filename = "stenkarazin.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1azkvO16mykHktNaGONsSScCDbbm39akU"
+        , mp3Url = "https://drive.google.com/uc?id=1BOQn85juVF9IKNv_HfYE-N4KhGfJdgQM"
+        , title = "ブンガワン・ソロ(ぶんがわんそろはてしなききよきながれに)"
+        , filename = "bengawnasolo.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=17Tdaj04ab5uGT4sf15yaYh0ILPFqPqWn"
+        , mp3Url = "https://drive.google.com/uc?id=1Q-omJiecO1J5t5AQW92UJ4zepI9aN_7q"
+        , title = "トラン・ブーラン(とらんぶーらんやしのはかげあかるくてりかがやき)"
+        , filename = "terangbulan.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=15BZWyw62j3LwNMIgBj6Q4JKo-mXRz7bq"
+        , mp3Url = "https://drive.google.com/uc?id=1t4xq5dGrOIMuQmC82mkLLpTUQ7ZTn4YZ"
+        , title = "シューベルトのセレナーデ(Schubert Serenade(Staendchen))"
+        , filename = "schubertseranade.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "マギー若き日の歌を(When you and I were young, Maggie)"
 --   , filename = "maggie.ly"
 -- }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "アロハ・オエ(あろはおえ。やさしくかなずるはゆかしうくれれよ)"
---   , filename = "alohaoe.ly"
--- }
+
+
+
     ]
 
