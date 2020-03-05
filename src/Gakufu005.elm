@@ -531,9 +531,9 @@ dict =
       , title = "燃えろよ燃えろよ"
       , filename = "moeroyo.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1lbz-a988jDc9GXe0SVgdOJnT0D4T-its"
+    , { jpgUrl = "https://drive.google.com/uc?id=1yoHCu6mhLCn1HMlFgg51OTrdySVbd69X"
       , mp3Url = "https://drive.google.com/uc?id=1GHAmUg3ZsKvC8O5mAip9wqeZAB9-d3G9"
-      , title = "マイボニー(My Bonnie Lies Over the Ocean)"
+      , title = "マイ・ボニー(My Bonnie Lies Over the Ocean。まいぼにー)"
       , filename = "mybonnie.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1v3SCofTxg2gYNP13iIp9TkcHAemOGBX-"
@@ -3516,11 +3516,20 @@ dict =
         , title = "わが悩み知り給う(Nobody Know de Trouble I See。わがなやみしりたもう)"
         , filename = "waganayami.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1ZGJs2WxykkMeSjbrEGvhbx7A7ZrQ4MPt"
+        , mp3Url = "https://drive.google.com/uc?id=1fxrhFFNwF_aM7J_nldVb8sbHDx8fLvGE"
+        , title = "藁の中の七面鳥(わらのなかのしちめんちょう。さあたいへんださあたいへんだ)"
+        , filename = "turkeyinthestraw.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "マギー若き日の歌を(When you and I were young, Maggie)"
 --   , filename = "maggie.ly"
 -- }
-
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "アロハ・オエ(あろはおえ。やさしくかなずるはゆかしうくれれよ)"
+--   , filename = "alohaoe.ly"
+-- }
     ]
--- マイ・ボニー
+
