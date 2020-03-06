@@ -566,7 +566,7 @@ dict =
       , title = "雨だれの前奏曲(ショパン)"
       , filename = "amadare.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1JqZYLTvd1346IF69lemTFe1I6HCtHhcg"
+    , { jpgUrl = "https://drive.google.com/uc?id=1c6kEhVnDgkPyQ64SfhYpU-lYffBDi_90"
       , mp3Url = "https://drive.google.com/uc?id=1NWEYaFtt2Imu-JxfwxwtO4bVamtJLJOc"
       , title = "愛の喜び(マルティーニ)"
       , filename = "ainoyorokobi.ly"
@@ -3556,15 +3556,24 @@ dict =
         , title = "真実の愛(Treue Liebe。ドイツ民謡)"
         , filename = "treueliebe.ly"
       }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "マギー若き日の歌を(When you and I were young, Maggie)"
---   , filename = "maggie.ly"
--- }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "帰れソレントへ(うるわしのうみはうつつにもゆめむ)"
---   , filename = "sorrento.ly"
--- }
-    ]
+      , { jpgUrl = "https://drive.google.com/uc?id=1uUSlCFOsbQ2j7maCqiBTzxBDKz7LS4TU"
+        , mp3Url = "https://drive.google.com/uc?id=1Tm1XVHzz3U5ojdX2ZKVbSCxxRsRmQGAX"
+        , title = "帰れソレントへ(うるわしのうみはうつつにもゆめむ)"
+        , filename = "sorrento.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1FILDwAvJ_AItxqXXIxJ4uAhUephafkCh"
+        , mp3Url = "https://drive.google.com/uc?id=1f578olVVBGbEbv6IGQ1XrvfkwwhxullT"
+        , title = "マギー若き日の歌を(When you and I were young, Maggie)"
+        , filename = "maggie.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1Sb8UEccL--D-HfpjlYPf0xaFzGbOl5LR"
+        , mp3Url = "https://drive.google.com/uc?id=1OGX_brVDae0VkH9yZjm-Mur0E3H5VZnp"
+        , title = "カロ・ミオ・ベン(Caro Mio Ben。ジョルダーニ)"
+        , filename = "caromioben.ly"
+      }
 
+
+
+    ]
+-- カロ・ミオ・ベン
+-- 東京ブギウギにコードを入れる
