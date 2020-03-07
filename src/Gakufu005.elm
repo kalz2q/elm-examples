@@ -3571,8 +3571,16 @@ dict =
         , title = "カロ・ミオ・ベン(Caro Mio Ben。ジョルダーニ)"
         , filename = "caromioben.ly"
       }
-
-
+      , { jpgUrl = "https://drive.google.com/uc?id=1dZSKtdEGwtMq044-Zc7axPXDl398f3Iy"
+        , mp3Url = "https://drive.google.com/uc?id=1-p8GCqxvVNvzvgORdhvgY_8F6huwjsiw"
+        , title = "マリア・マリ(カプア。まどをひらきてわがうたききてよ)"
+        , filename = "mariamari.ly"
+      }
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "ニーナ(Tre giorni son che Nina by Ciampi/Pergolesi。ふつかふれどもにーなはめざめず)"
+--   , filename = "ninatregiorni.ly"
+-- }
 
     ]
 -- エレジー(マスネー「悲歌」)
