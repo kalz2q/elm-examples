@@ -426,10 +426,10 @@ dict =
       , title = "ありのままで(アナと雪の女王イントロ。let It Go)"
       , filename = "letitgointro.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1zYnzkMg3wuTLmr7LjskscLGsO1EQou3l"
-      , mp3Url = "https://drive.google.com/uc?id=1Zj84PnbjxCJ6stycApbUUpRVexGJKl_U"
-      , title = "ます(シューベルト)"
-      , filename = "masu.ly"
+    , { jpgUrl = "https://drive.google.com/uc?id=1OM0vxy4FAJPl9r3ViH_2I7fFXgxLAvfl"
+      , mp3Url = "https://drive.google.com/uc?id=12VjafmXELv5HJjJYUrAV0FsK3koM8xxY"
+      , title = "ます(シューベルト。きよきながれをひかりはえてますははしれり)"
+      , filename = "schubertmasu.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1ib49mMTNbJqrPOStCxNWqwaIFT758XTb"
       , mp3Url = "https://drive.google.com/uc?id=1w7yAe4dKezP1tZn7GssP-YcaO1MN6-Vh"
@@ -3576,13 +3576,42 @@ dict =
         , title = "マリア・マリ(カプア。まどをひらきてわがうたききてよ)"
         , filename = "mariamari.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1_QwyQyA0gYrMdTbDEqiukmAoPQ5cg17C"
+        , mp3Url = "https://drive.google.com/uc?id=1IUfKEMKDtKc9mx-MoAd5pbEPSPxZHz0d"
+        , title = "女心の歌(おんなごころのうた。ヴェルディ「リゴレット」より)"
+        , filename = "onnagokoronouta.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=13FQOrbRDie0sEQlJZIV6dPprsGsznyl_"
+        , mp3Url = "https://drive.google.com/uc?id=1l1Q6dbrbho2u7f6CbhHwZt1kgm0jWvjO"
+        , title = "エレジー(マスネー「悲歌」)"
+        , filename = "masenetelegie.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1jWPsJQF26wszI_hX7fK7QsgypmOVi6_8"
+        , mp3Url = "https://drive.google.com/uc?id=1qfjShcHECLQkwOxYt1617KFV-UTCQw4Z"
+        , title = "楽しき農夫(シューマン)"
+        , filename = "schumantanoshikinofu.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1PtwETXAdtZtwEmkKEoP013lRPNhX5ijT"
+        , mp3Url = "https://drive.google.com/uc?id=1iclF4WjcDQikMnSId2Do7iKI3TiJihF4"
+        , title = "歌声ひびく(うるわしはるよみどりにはえてうたごえひびくのにやまに)"
+        , filename = "utagoehibiku.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1G5RVD315sVlJ4nYWwAlsk-UAWRK2GVmJ"
+        , mp3Url = "https://drive.google.com/uc?id=1Cht48MpzossmjEZUfPPC3pG4Rgm8xdSA"
+        , title = "希望のささやき(あまつみつかいのこえもかくやと)"
+        , filename = "kibonosasayaki.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "ニーナ(Tre giorni son che Nina by Ciampi/Pergolesi。ふつかふれどもにーなはめざめず)"
 --   , filename = "ninatregiorni.ly"
 -- }
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "シューベルトのアヴェ・マリア(クリスマス。あべまりあ)"
+--   , filename = "schubertavemaria.ly"
+-- }
+
 
     ]
--- エレジー(マスネー「悲歌」)
--- 女心の歌(おんなごころのうた。ヴェルディ「リゴレット」より)
--- シューベルトのます
+-- ソルベーグの歌(グリーグ「ペールギュント」より)
