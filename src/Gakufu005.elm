@@ -3601,17 +3601,32 @@ dict =
         , title = "希望のささやき(あまつみつかいのこえもかくやと)"
         , filename = "kibonosasayaki.ly"
       }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "ニーナ(Tre giorni son che Nina by Ciampi/Pergolesi。ふつかふれどもにーなはめざめず)"
---   , filename = "ninatregiorni.ly"
--- }
+      , { jpgUrl = "https://drive.google.com/uc?id=1y5vI_s6QVBRN5hBpseEaeaWXAOXv-gQt"
+        , mp3Url = "https://drive.google.com/uc?id=1pOKdEu7mH9b24iC6Msf6ZK0w1x-Gfaq4"
+        , title = "ニーナ(Tre giorni son che Nina by Ciampi/Pergolesi。ふつかふれどもにーなはめざめず)"
+        , filename = "ninatregiorni.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1myW3q-rRIRH0pAeh7Y-c4PryGHH2-3yw"
+        , mp3Url = "https://drive.google.com/uc?id=19m1Jb-r4_E03DXqs9v0OgKTbgSwND0XS"
+        , title = "ソルベーグの歌(グリーグ。ふゆはゆきてはるすぎてはるすぎて)"
+        , filename = "solvejg.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "シューベルトのアヴェ・マリア(クリスマス。あべまりあ)"
 --   , filename = "schubertavemaria.ly"
 -- }
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "嘆きのセレナータ(トセリ。こころもゆるあつきこいきみをばしのびてうれしさになく)"
+--   , filename = "nagekinoserenata.ly"
+-- }
+
+
 
 
     ]
--- ソルベーグの歌(グリーグ「ペールギュント」より)
+-- 嘆きのセレナータ(トセリ。こころもゆるあつきこいきみをばしのびてうれしさになく)
+-- アマポーラ(ワンス・アポン・ア・タイム・イン・アメリカ)
+-- ひょっこりひょうたん島
+
