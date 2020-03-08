@@ -3611,11 +3611,11 @@ dict =
         , title = "ソルベーグの歌(グリーグ。ふゆはゆきてはるすぎてはるすぎて)"
         , filename = "solvejg.ly"
       }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "シューベルトのアヴェ・マリア(クリスマス。あべまりあ)"
---   , filename = "schubertavemaria.ly"
--- }
+      , { jpgUrl = "https://drive.google.com/uc?id=1vmdBA1vuSPkNVbyAeoU8ylnTZ9dsesHJ"
+        , mp3Url = "https://drive.google.com/uc?id=1VttViOmKGVWp8PEdQ-OmYg0RmkxzEfSl"
+        , title = "シューベルトのアヴェ・マリア(クリスマス。あべまりあ)"
+        , filename = "schubertavemaria.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "嘆きのセレナータ(トセリ。こころもゆるあつきこいきみをばしのびてうれしさになく)"
@@ -3629,4 +3629,5 @@ dict =
 -- 嘆きのセレナータ(トセリ。こころもゆるあつきこいきみをばしのびてうれしさになく)
 -- アマポーラ(ワンス・アポン・ア・タイム・イン・アメリカ)
 -- ひょっこりひょうたん島
+-- なつかしのヴァージニア(いざゆかんなつかしのゆめにあこがるゔぁーじにあ) 112.344
 
