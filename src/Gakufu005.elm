@@ -616,9 +616,9 @@ dict =
       , title = "ベートーベンのトルコ行進曲"
       , filename = "turkbeethoven.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1gmwB1G5HWfg7DgqDNz2UA_0Zi7GM_rgo"
+    , { jpgUrl = "https://drive.google.com/uc?id=1CYj56mIb_rg2asZorne6SOQYi6BRQHzO"
       , mp3Url = "https://drive.google.com/uc?id=1s4xdrVVv9DIDyrts8qY85efbWuq0Yu12"
-      , title = "聖者が街にやってくる(聖者の行進)"
+      , title = "聖者が街にやってくる(聖者の行進。Oh, when the saints go marchin' in)"
       , filename = "seija.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1h35HYHAMZamRGVF5FbpgtZ3ChEnUsxNW"
@@ -913,7 +913,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1qVX7IPcTVTOrnNrKEf90ZeMAKq0b9MaZ"
       , mp3Url = "https://drive.google.com/uc?id=19GeCGxKLE6evrE0z0YLyK3o0zQK1A0iC"
-      , title = "雪山讃歌(ゆきよいわよわれらがやどり)"
+      , title = "雪山讃歌(愛しのクレメンタイン。ゆきよいわよわれらがやどり)"
       , filename = "yukiyamasanka.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=183GpC0-bxi3hqEuITo5DvZDjzIIl4WzN"
@@ -3483,7 +3483,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1KY-Qi1R32bwlURxNTvE7_-DTktTTQRZB"
       , mp3Url = "https://drive.google.com/uc?id=1u-JzLd2cTRw4XKgbEO_ZTlcknwRA2wlA"
-      , title = "森へ行きましょう(もりへゆきましょうむすめさんあはは)"
+      , title = "森へ行きましょう(ポーランド。もりへゆきましょうむすめさんあはは)"
       , filename = "morieyukimasho.ly"
     }
     , { jpgUrl = "https://drive.google.com/uc?id=1IWOW200LXTT-WyRIqlT3XPO58WwvUZhw"
@@ -3616,18 +3616,55 @@ dict =
         , title = "シューベルトのアヴェ・マリア(クリスマス。あべまりあ)"
         , filename = "schubertavemaria.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1VaaGY6iPG_jqXcKcrn_WHA6Mzogv_c78"
+        , mp3Url = "https://drive.google.com/uc?id=1E7e15yxlmDKEemQK6AsYiYN2AHKFrIP5"
+        , title = "嘆きのセレナータ(トセリ。こころもゆるあつきこいきみをばしのびてうれしさになく)"
+        , filename = "nagekinoserenata.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=19e1V5jPwStBEdUXURxhr8NcOFJFHkp7F"
+        , mp3Url = "https://drive.google.com/uc?id=1Y33FbQSfO4wVPizriK85XMT3OlpY1EYi"
+        , title = "春が呼んでるよ(ヘイ・ムイ・ヤシネック。ひばりのこすずめのことびながらなにをみた)"
+        , filename = "harugayonderuyo.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1B3voooI_UC6vk--8wSPRhYETC32Znz8N"
+        , mp3Url = "https://drive.google.com/uc?id=134NB9aBWPVINjP_lKChOsqMlNpWh7Jrz"
+        , title = "汝が友(ながとも。ハンガリージプシーの歌。ゆめになずみてねむるいとしご)"
+        , filename = "nagatomo.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1n5GCez_QGAeV0q7KnULcO-PpHJ0RM8m7"
+        , mp3Url = "https://drive.google.com/uc?id=1zI_sEvIBteYZGDlnvQRe49GufQfaj5lm"
+        , title = "ラサ・サヤン・ゲ(インドネシア。らささやんげ。あいするうた。かわでうたおう)"
+        , filename = "rasasajange.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1z6Rl3pg2JGlY287FIhU54et3601psYzl"
+        , mp3Url = "https://drive.google.com/uc?id=1LFCvdFm404OFi4PCnYlgpOiGc1_j5xwI"
+        , title = "太湖船(たいこせん。サントリーウーロン茶)"
+        , filename = "taikosen.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1Q9NEKkuQ-tjuYzx-jDeWZEJ2BZCqU-xq"
+        , mp3Url = "https://drive.google.com/uc?id=1s16YYoGXzKxVK2-04ebCCG1sYD4gr5e3"
+        , title = "草原情歌(そうげんじょうか。はるかはなれたそのまたむこう)"
+        , filename = "sogenjoka.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1uZ_Bh_4LfbFaZhu8MSZ409Pa40r0nQdF"
+        , mp3Url = "https://drive.google.com/uc?id=1ZfsSC8zfdufb9ce6xPepfK71xHkMl0k1"
+        , title = "アリラン(ありらんありらんあらりよーありらんとうげをこえゆく)"
+        , filename = "arirang.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=15WRxn8k1LWY0YXjIN0CjFuX8iLp1oeET"
+        , mp3Url = "https://drive.google.com/uc?id=1nGQTkGsVMqYUlHdlq5UCunVQrWhmGgar"
+        , title = "トラジ(とらじとらじとらじかわいいとらじのはなさいてる)"
+        , filename = "torachitarung.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "嘆きのセレナータ(トセリ。こころもゆるあつきこいきみをばしのびてうれしさになく)"
---   , filename = "nagekinoserenata.ly"
+--   , title = "谷間のともしび(たそがれにわがやのひまどにうつりしとき)"
+--   , filename = "tanimanotomoshibi.ly"
 -- }
 
 
-
-
     ]
--- 嘆きのセレナータ(トセリ。こころもゆるあつきこいきみをばしのびてうれしさになく)
 -- アマポーラ(ワンス・アポン・ア・タイム・イン・アメリカ)
 -- ひょっこりひょうたん島
 -- なつかしのヴァージニア(いざゆかんなつかしのゆめにあこがるゔぁーじにあ) 112.344
-
+-- ラサ・サヤン・ゲ(インドネシア。らささやんげ。あいするうた。かわでうたおう)
