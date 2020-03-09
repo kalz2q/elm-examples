@@ -446,9 +446,9 @@ dict =
       , title = "クシコス・ポスト(ネッケ)"
       , filename = "csikospost.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1i5vt1PIXpPTxyurhwlr-3KZGRzTmYH74"
+    , { jpgUrl = "https://drive.google.com/uc?id=1tMFoRk6sKzwbisFYJyh945DzTgG3qQiz"
       , mp3Url = "https://drive.google.com/uc?id=16OlB-FsTnY-8R1mE5SX_j6-KxzRdFglw"
-      , title = "恋とはどんなものかしら(モーツアルト。フィガロの結婚より)"
+      , title = "恋とはどんなものかしら(モーツァルト。フィガロの結婚より)"
       , filename = "koitowadonna.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1S4i8guOwAti_55LgtJ09StN8uT15G6DQ"
@@ -3656,10 +3656,61 @@ dict =
         , title = "トラジ(とらじとらじとらじかわいいとらじのはなさいてる)"
         , filename = "torachitarung.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1cgOaaqmsIs9nNZu538E4ofQK9QBWhKb5"
+        , mp3Url = "https://drive.google.com/uc?id=1_G2GsnsKautN301ZGB5ya2fl20D-G1fC"
+        , title = "なつかしのバージニア(Carry Me Back to Old Virginny)"
+        , filename = "virginny.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1EGOkCCbdxPkzfxVbxJO4vSUjt40AzzDt"
+        , mp3Url = "https://drive.google.com/uc?id=1J6R2N46R8VT_HFr14w7QNM6vHCN6GcSc"
+        , title = "白バラの匂う夕べは(Freud euch des Lebens)"
+        , filename = "shirobaranoniouyubewa.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1cZL5ND71bfq-dXcv2wgC6cnFZ-DSj6r-"
+        , mp3Url = "https://drive.google.com/uc?id=1FkzDDhAE6JzSfcmZ0ijuGjCZF9sAnGRI"
+        , title = "オーラ・リー(Aura Lee)"
+        , filename = "auralee.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1DHCY5HIX0TfsgVVmzqjjfcsiAJHRgktd"
+        , mp3Url = "https://drive.google.com/uc?id=1jxtVY8YL-Yf1ezrZRS7dWUPAVyDMxF7I"
+        , title = "五月の歌(モーツァルト。たのしやごがつくさきはもえ)"
+        , filename = "gogatsunouta.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=10RcwJqE-fnEsKm87f-TCAzB17-52UtA-"
+        , mp3Url = "https://drive.google.com/uc?id=16R5hwE_LsrmB6U2qHjAoR0yXlthNM5Ux"
+        , title = "赤い花白い花(あかいはなつんであのひとにあげよ)"
+        , filename = "akaihanashiroihana.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1CiGTnQQ--1nkmQ5bCgzaqUKZTK5ddQuQ"
+        , mp3Url = "https://drive.google.com/uc?id=1GBDZnEQaRyUZkThbNd7FxLBBDfkHLXTf"
+        , title = "山賊の歌(あめがふればおがわができかぜがふけばやまができる)"
+        , filename = "sanzokunouta.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1p5oJe1unTZ3AJDbqckc1znxvQkqDdMK3"
+        , mp3Url = "https://drive.google.com/uc?id=1giPg5DWraOw9T724WAjBp1r_wyhJ0tLE"
+        , title = "坊がつる讃歌(ひとみなはなにようときもざんせつこいしやまにいり)"
+        , filename = "bogatsurusanka.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1AzwfTYN6ke-75jT6J8HIj9Bq-PHNp66y"
+        , mp3Url = "https://drive.google.com/uc?id=1y88X_3b4Sw0SxGtZW12PkhQjOMbIe4XV"
+        , title = "シーハイル(いわきのおろしがふくならふけよやまからやまへとわれらははしる)"
+        , filename = "schiheil.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1EAXecAfZrceUmv5TsSe2LuSm82NkJ41w"
+        , mp3Url = "https://drive.google.com/uc?id=1nHrcmS4VuKkamzLOgEvX4zstYWd4noBG"
+        , title = "菩提樹(シューベルト。いずみにそいてしげるぼだいじゅ)"
+        , filename = "bodaiju.ly"
+      }
+
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "谷間のともしび(たそがれにわがやのひまどにうつりしとき)"
 --   , filename = "tanimanotomoshibi.ly"
+-- }
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "歌の翼に(メンデルスゾーン。うたのつばさをかりてゆかなさちにあふるるゆめのくにへ)"
+--   , filename = "utanotsubasa.ly"
 -- }
 
 
