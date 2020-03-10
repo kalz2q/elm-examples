@@ -3736,6 +3736,16 @@ dict =
         , title = "オールド・ブラック・ジョー(フォスター。わかきひはやゆめとすぎ)"
         , filename = "oldblackjoe.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1ZwFmuRhfT0DA_uDmv3cddozWREsTWTIh"
+        , mp3Url = "https://drive.google.com/uc?id=1kRTCPEEJpvtoOikVoGOE3HaoMIBatDal"
+        , title = "草競馬(フォスター。くさけいば) "
+        , filename = "camptownraces.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1kTcFGyHa56uHaoQ_AO0em6P5T2OUNa0D"
+        , mp3Url = "https://drive.google.com/uc?id=1e3H7RLz_tJgCTI1oI0WpcmYUx4hDE2ML"
+        , title = "金髪のジェニー(フォスター。Jeanie With the Light Brown Hair)"
+        , filename = "jeanie.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "谷間のともしび(たそがれにわがやのひまどにうつりしとき)"
@@ -3746,8 +3756,7 @@ dict =
 --   , title = "ホフマンの舟歌(オッフェンバッハ。Barcarolle D'Hoffmann)"
 --   , filename = "hoffmannbarcarolle.ly"
 -- }
-
     ]
 -- アマポーラ(ワンス・アポン・ア・タイム・イン・アメリカ)
 -- ひょっこりひょうたん島
--- 草競馬(フォスター。) camptownraces.ly
+-- 白銀の糸(しろがねのいと)
