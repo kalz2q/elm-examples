@@ -903,7 +903,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1pujCfxMZVMaYkZAz_4SlqEQLDQzNLWwY"
       , mp3Url = "https://drive.google.com/uc?id=1Cb04QLvT3UvuhX8MhABmyNAIZ7Vp_nD2"
-      , title = "夢路より(ゆめじよりかえりてほしのひかりあおげや)"
+      , title = "夢路より(フォスター。ゆめじよりかえりてほしのひかりあおげや)"
       , filename = "yumejiyori.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1pHUnNWGV5wjBc4jmfCQmga5hZNmdlxcr"
@@ -1593,7 +1593,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1CMC7aFBRwhJfHYLBxjyaKpyQA9P0r8t6"
       , mp3Url = "https://drive.google.com/uc?id=1xo-mDkeCIKViX5anj8hd-c79M_z6Lu5A"
-      , title = "春風(ふけそよそよふけはるかぜよ)"
+      , title = "春風(フォスター。主人は冷たい土の中に。ふけそよそよふけはるかぜよ)"
       , filename = "harukaze.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1-lZiAZVjjlgqCAUhS5rk591Dw3Y3j0Kd"
@@ -2518,7 +2518,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1kQPf5zZfvnux8K_t4Kmsu9CQqJb5ocC-"
       , mp3Url = "https://drive.google.com/uc?id=16BqXu8U5B6fI1lWqU07N7KS5ZW7h6C1f"
-      , title = "スワニー河(はるかなるすわにーがわきしべに)"
+      , title = "スワニー河(フォスター。故郷の人々。はるかなるすわにーがわきしべに)"
       , filename = "swaneeeriver.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1ZUv2tOtgWXdsAuiqjsUqZeItumJmCBpE"
@@ -3313,7 +3313,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1X1XjjmLlpDcIa9j-P_I38rjh4wqgTNBQ"
       , mp3Url = "https://drive.google.com/uc?id=12vSdRkkzlXCfvLhAxBYNe4RyPcpDIJ-a"
-      , title = "海に来たれ(めざめとくこよつきはなみまにかがやく)"
+      , title = "海に来たれ(ヴェネチア。めざめとくこよつきはなみまにかがやく)"
       , filename = "uminikitare.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1HvGV8mo7qmtKNVMFeA2Ud0P5sx7PuU50"
@@ -3721,6 +3721,21 @@ dict =
         , title = "夜の調べ(グノーのセレナーデ。あわれゆかしきうたのしらべ)"
         , filename = "gounodserenade.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1iWwWyvvmMwIUFDX3q1u1SHG51jN3CXVj"
+        , mp3Url = "https://drive.google.com/uc?id=1bGhwqxCDT9NQdm34MVIknAfFwyZrDOTI"
+        , title = "おおスザンナ(フォスター。わたしゃあらばまからるいじあなへばんじょーもって)"
+        , filename = "ohsusannna.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1lBn5vspGI08MqOoL4e8fQ2t5rvd7PSTn"
+        , mp3Url = "https://drive.google.com/uc?id=1MC4c3jC5A0XLgTesjaObEIiER_8-jpiX"
+        , title = "ケンタッキーの我が家(フォスター。My Old Kentucky Home)"
+        , filename = "kentucky.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=17xO8EsKElaL8iLu8AsHE-gudynfEv2iQ"
+        , mp3Url = "https://drive.google.com/uc?id=1fFdOkjQqNNy8jjB2nXHtvpHOcNr9dlZy"
+        , title = "オールド・ブラック・ジョー(フォスター。わかきひはやゆめとすぎ)"
+        , filename = "oldblackjoe.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "谷間のともしび(たそがれにわがやのひまどにうつりしとき)"
@@ -3732,8 +3747,7 @@ dict =
 --   , filename = "hoffmannbarcarolle.ly"
 -- }
 
-
-
     ]
 -- アマポーラ(ワンス・アポン・ア・タイム・イン・アメリカ)
 -- ひょっこりひょうたん島
+-- 草競馬(フォスター。) camptownraces.ly
