@@ -3658,7 +3658,7 @@ dict =
       }
       , { jpgUrl = "https://drive.google.com/uc?id=1cgOaaqmsIs9nNZu538E4ofQK9QBWhKb5"
         , mp3Url = "https://drive.google.com/uc?id=1_G2GsnsKautN301ZGB5ya2fl20D-G1fC"
-        , title = "なつかしのバージニア(Carry Me Back to Old Virginny)"
+        , title = "なつかしのバージニア(Carry Me Back to Old Virginny。いざゆかんなつかしのゆめにあこがる)"
         , filename = "virginny.ly"
       }
       , { jpgUrl = "https://drive.google.com/uc?id=1EGOkCCbdxPkzfxVbxJO4vSUjt40AzzDt"
@@ -3701,7 +3701,26 @@ dict =
         , title = "菩提樹(シューベルト。いずみにそいてしげるぼだいじゅ)"
         , filename = "bodaiju.ly"
       }
-
+      , { jpgUrl = "https://drive.google.com/uc?id=1J5HzzprlxdRF9q3kNZdH7-4MXP1q1M-R"
+        , mp3Url = "https://drive.google.com/uc?id=1XR7sh7sgU2J0tVcxZldTrrp5Lqjj0cVX"
+        , title = "歌の翼に(メンデルスゾーン。うたのつばさをかりてゆかなさちにあふるるゆめのくにへ)"
+        , filename = "utanotsubasa.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1Jd-V4BBdsrfZPgqfu1DGpIrC8r-fLtXC"
+        , mp3Url = "https://drive.google.com/uc?id=1qjDsB_ieu4N3NF3OlcZPD4Zps3rZeghY"
+        , title = "星かげさやかに(もえろよもえろよ。ほしかげさやかにしずかにふけぬ)"
+        , filename = "hoshikaegsayakani.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=14vtgtfA-8l5_W8ptPtinzRHYfWzVhXuk"
+        , mp3Url = "https://drive.google.com/uc?id=14ZsSZkNJhfPU6PqmmYsPu_QEIzX5Tu2i"
+        , title = "王の行進(ファランドール。あさひうけてすすむおうのぎょうれつうるわし)"
+        , filename = "lamarchederois.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1OWifGrQaTgSfsUnmA8HNcIyADXwSnsH3"
+        , mp3Url = "https://drive.google.com/uc?id=1Q9UR0F3GRqNfeIUjOHnSoIdWMHeuxB-Q"
+        , title = "夜の調べ(グノーのセレナーデ。あわれゆかしきうたのしらべ)"
+        , filename = "gounodserenade.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "谷間のともしび(たそがれにわがやのひまどにうつりしとき)"
@@ -3709,13 +3728,12 @@ dict =
 -- }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "歌の翼に(メンデルスゾーン。うたのつばさをかりてゆかなさちにあふるるゆめのくにへ)"
---   , filename = "utanotsubasa.ly"
+--   , title = "ホフマンの舟歌(オッフェンバッハ。Barcarolle D'Hoffmann)"
+--   , filename = "hoffmannbarcarolle.ly"
 -- }
+
 
 
     ]
 -- アマポーラ(ワンス・アポン・ア・タイム・イン・アメリカ)
 -- ひょっこりひょうたん島
--- なつかしのヴァージニア(いざゆかんなつかしのゆめにあこがるゔぁーじにあ) 112.344
--- ラサ・サヤン・ゲ(インドネシア。らささやんげ。あいするうた。かわでうたおう)
