@@ -3756,12 +3756,16 @@ dict =
 --   , title = "谷間のともしび(たそがれにわがやのひまどにうつりしとき)"
 --   , filename = "tanimanotomoshibi.ly"
 -- }
-
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "ひょっこりひょうたん島(なみをじゃぶじゃぶじゃぶじゃぶかきわけて)"
+--   , filename = "hyotanjia.ly"
+-- }
 
 
 
 
     ]
 -- アマポーラ(ワンス・アポン・ア・タイム・イン・アメリカ)
--- ひょっこりひょうたん島
+-- ひょっこりひょうたん島 http://bunbun.boo.jp/okera/haho/hyokkori_hyoutan.htm
 -- 白銀の糸(しろがねのいと)
