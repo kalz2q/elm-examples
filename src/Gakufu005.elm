@@ -3751,21 +3751,24 @@ dict =
         , title = "ホフマンの舟歌(オッフェンバッハ。Barcarolle D'Hoffmann)"
         , filename = "hoffmannbarcarolle.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1mEtges7HpAxUesGAw1yhaulDfa0fVUer"
+        , mp3Url = "https://drive.google.com/uc?id=17BCHdvFY_p45OWFO1f5weYI-txXvTAjw"
+        , title = "ひょっこりひょうたん島(なみをじゃぶじゃぶじゃぶじゃぶかきわけて)"
+        , filename = "hyotanjia.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1p6ecMgvdNc-9ptxNuMvEIj7PtMNE1ZwR"
+        , mp3Url = "https://drive.google.com/uc?id=1cZwMNzVAK3_vykh8UHqZkFzATcZMODxh"
+        , title = "白銀の糸(しろがねのいとこがねにまじり)"
+        , filename = "shiroganenoito.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "谷間のともしび(たそがれにわがやのひまどにうつりしとき)"
 --   , filename = "tanimanotomoshibi.ly"
 -- }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "ひょっこりひょうたん島(なみをじゃぶじゃぶじゃぶじゃぶかきわけて)"
---   , filename = "hyotanjia.ly"
--- }
-
 
 
 
     ]
 -- アマポーラ(ワンス・アポン・ア・タイム・イン・アメリカ)
--- ひょっこりひょうたん島 http://bunbun.boo.jp/okera/haho/hyokkori_hyoutan.htm
 -- 白銀の糸(しろがねのいと)
