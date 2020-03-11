@@ -3746,16 +3746,21 @@ dict =
         , title = "金髪のジェニー(フォスター。Jeanie With the Light Brown Hair)"
         , filename = "jeanie.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1NYAIwmpfbN9k4kMcxx6qwHVnjzNSdsRT"
+        , mp3Url = "https://drive.google.com/uc?id=1Hd232dXtPm_n1Mm184hndks6Za3RMbgD"
+        , title = "ホフマンの舟歌(オッフェンバッハ。Barcarolle D'Hoffmann)"
+        , filename = "hoffmannbarcarolle.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "谷間のともしび(たそがれにわがやのひまどにうつりしとき)"
 --   , filename = "tanimanotomoshibi.ly"
 -- }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "ホフマンの舟歌(オッフェンバッハ。Barcarolle D'Hoffmann)"
---   , filename = "hoffmannbarcarolle.ly"
--- }
+
+
+
+
+
     ]
 -- アマポーラ(ワンス・アポン・ア・タイム・イン・アメリカ)
 -- ひょっこりひょうたん島
