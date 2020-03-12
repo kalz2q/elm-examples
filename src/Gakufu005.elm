@@ -461,7 +461,7 @@ dict =
       , title = "亜麻色の髪の乙女(ドビュッシー)"
       , filename = "amairodebussy.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1tcxz356pIlhJGuxq8GYv8Sx8ESmNLCt_"
+    , { jpgUrl = "https://drive.google.com/uc?id=1PnPFarTUZnpNuCKOtPMUAXYBbpKbWboC"
       , mp3Url = "https://drive.google.com/uc?id=11cXjM6Vhh89c0G4AZFR1R940gb7cM8js"
       , title = "美しき青きドナウ(ヨハン・シュトラウス2世)"
       , filename = "donau.ly"
@@ -3761,14 +3761,38 @@ dict =
         , title = "白銀の糸(しろがねのいとこがねにまじり)"
         , filename = "shiroganenoito.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1g7GfNIYDQMExK2jPqYuu9GoV4rd2FoVx"
+        , mp3Url = "https://drive.google.com/uc?id=1q75vHd-H2-WZN7mimWjUV6MBW_l0NyLm"
+        , title = "谷間のともしび(たそがれにわがやのひまどにうつりしとき)"
+        , filename = "tanimanotomoshibi.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1Er2EXtFLqxgKY3RexDJtBBZGOFCHLzyn"
+        , mp3Url = "https://drive.google.com/uc?id=1B7lLwRHfn0erpEsjvtTWbkTgv9qrvKKe"
+        , title = "想い出まくら(こんなひはあのひとのまねをしてけむたそうなかおしてたばこをすうわ)"
+        , filename = "omoidemakura.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1qjMbz8NNFgm12DG5QkUyJPSEupiYFdZs"
+        , mp3Url = "https://drive.google.com/uc?id=1jVgy4v0XsIRilJwiKkJqBXkx_GZBnPPE"
+        , title = "カスバの女(なみだじゃないのようわきなあめに。ここはちのはてあるじぇりあ)"
+        , filename = "casbah.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1kYvrYJuqBTI3cFUK9mtQXb_-gYjfFevt"
+        , mp3Url = "https://drive.google.com/uc?id=1npc3j4A6HLSZqDH9XxCK9UH6YGjhXKzE"
+        , title = "港町ブルース(せのびしてみるかいきょうをきょうもきてきがとおざかる)"
+        , filename = "minatomachiblues.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "谷間のともしび(たそがれにわがやのひまどにうつりしとき)"
---   , filename = "tanimanotomoshibi.ly"
+--   , title = "エアー(ヘンデル「水上の音楽」より)"
+--   , filename = "handelair.ly"
 -- }
-
 
 
     ]
 -- アマポーラ(ワンス・アポン・ア・タイム・イン・アメリカ)
--- 白銀の糸(しろがねのいと)
+-- ああ玉杯に花うけて(一高寮歌。ああぎょくはいにはなうけてりょくしゅにつきのかげやどし)
+-- 恋するフォーチュンクッキー()
+-- マルマルモリモリ()
+-- また君に恋している
+-- 波濤を越えて(Over the Waves。ワルツ)
+-- エアー(ヘンデル「水上の音楽」より)
