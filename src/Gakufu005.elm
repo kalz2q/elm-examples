@@ -271,7 +271,7 @@ dict =
       , title = "牧人ひつじを(まきびとひつじをまもれる。クリスマス)"
       , filename = "makibito.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1MHOF5ij89pecc636InrKXQyWd2qm8oyT"
+    , { jpgUrl = "https://drive.google.com/uc?id=1pbXPtsPfPIfW4eX3Ufh8pbPfNyM1_T33"
       , mp3Url = "https://drive.google.com/uc?id=1XOLRMNqxCtGSYCMTCC_0T_3WfC60RIDv"
       , title = "ひいらぎかざろう(クリスマス)"
       , filename = "hiiragi.ly"
@@ -3783,12 +3783,12 @@ dict =
       }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "ワーグナー結婚行進曲"
+--   , title = "ワーグナー結婚行進曲" classic
 --   , filename = "wagnerbridalchorus.ly"
 -- }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "夢をかなえてドラえもん(こころのなかいつもいつもえがいてる)"
+--   , title = "夢をかなえてドラえもん(こころのなかいつもいつもえがいてる)" casio
 --   , filename = "yumewokanaetedoraemon.ly"
 -- }
 
