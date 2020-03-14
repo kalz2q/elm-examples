@@ -536,9 +536,9 @@ dict =
       , title = "マイ・ボニー(My Bonnie Lies Over the Ocean。まいぼにー)"
       , filename = "mybonnie.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1v3SCofTxg2gYNP13iIp9TkcHAemOGBX-"
+    , { jpgUrl = "https://drive.google.com/uc?id=1Q1lFGJgiSFdGrIGYRGmdz_c1Nuenqxgu"
       , mp3Url = "https://drive.google.com/uc?id=1s5yw81tNyUCM_Qz3IP_gisKD9r8AkSTT"
-      , title = "茶色の小瓶"
+      , title = "茶色の小瓶(Little Brown Jug)"
       , filename = "chairo.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1y0CN0x6t0uBKWbR5Yp18jGixdpRXoNRE"
@@ -696,9 +696,9 @@ dict =
       , title = "かっこう(かっこうかっこうどこかでなつをよぶもりのこえ)"
       , filename = "kakkou.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1T0IJaCENt_IScNDFTPR2GhN1m5P7Djsx"
+    , { jpgUrl = "https://drive.google.com/uc?id=1FMy2JJnzpW15TUB20xoLq-cvVNQZha0t"
       , mp3Url = "https://drive.google.com/uc?id=15BadqA9mHDFaaqeWlOWr13BRkpgdjGRe"
-      , title = "きらきら星(きらきらぼし)"
+      , title = "きらきら星(きらきらぼし。Twinkle Twinkle Little Star)"
       , filename = "kirakira.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1Bw9opTMSr1CWGnJxvqx8n5_eiYGkKTqg"
@@ -3781,6 +3781,11 @@ dict =
         , title = "港町ブルース(せのびしてみるかいきょうをきょうもきてきがとおざかる)"
         , filename = "minatomachiblues.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1TMBlOWFWEdh0zO9q9pzAA4TOCMbjaw_z"
+        , mp3Url = "https://drive.google.com/uc?id=1bEdifh58hlWEreRhE6tmjHvngWe1BjU_"
+        , title = "オン・トップ・オブ・オールド・スモーキー(On Top Of Old Smokey)"
+        , filename = "smokey.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "ワーグナー結婚行進曲" classic
@@ -3792,6 +3797,7 @@ dict =
 --   , filename = "yumewokanaetedoraemon.ly"
 -- }
 
+
     ]
 -- アマポーラ(ワンス・アポン・ア・タイム・イン・アメリカ)
 -- ああ玉杯に花うけて(一高寮歌。ああぎょくはいにはなうけてりょくしゅにつきのかげやどし)
@@ -3800,3 +3806,4 @@ dict =
 -- また君に恋している
 -- 波濤を越えて(Over the Waves。ワルツ)
 -- 夢をかなえてドラえもん(こころのなかいつもいつもえがいてる)
+-- 
