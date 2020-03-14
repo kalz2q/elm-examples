@@ -3786,6 +3786,11 @@ dict =
         , title = "オン・トップ・オブ・オールド・スモーキー(On Top Of Old Smokey)"
         , filename = "smokey.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=18AVeFULeNCLbwmPNR8BBs4okumC1by9Q"
+        , mp3Url = "https://drive.google.com/uc?id=11RU08cy-DypcYVo17VOXj7CKpFS5sHqS"
+        , title = "TAKUMI/匠(大改造！！劇的ビフォーアフターより)"
+        , filename = "takumi.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "ワーグナー結婚行進曲" classic
@@ -3797,13 +3802,12 @@ dict =
 --   , filename = "yumewokanaetedoraemon.ly"
 -- }
 
-
     ]
 -- アマポーラ(ワンス・アポン・ア・タイム・イン・アメリカ)
 -- ああ玉杯に花うけて(一高寮歌。ああぎょくはいにはなうけてりょくしゅにつきのかげやどし)
 -- 恋するフォーチュンクッキー()
 -- マルマルモリモリ()
 -- また君に恋している
--- 波濤を越えて(Over the Waves。ワルツ)
--- 夢をかなえてドラえもん(こころのなかいつもいつもえがいてる)
--- 
+-- 波濤を越えて(Over the Waves。ワルツ) hal
+-- 夢をかなえてドラえもん(こころのなかいつもいつもえがいてる) casio
+-- キューピー c#
