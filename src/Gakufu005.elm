@@ -3801,6 +3801,18 @@ dict =
         , title = "おもちゃの兵隊のマーチ(キューピー3分クッキングより)"
         , filename = "kewpie.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1zzKFnm2_c_xAC_r3Cfon_9eFR9UNaEkO"
+        , mp3Url = "https://drive.google.com/uc?id=1dnrTmYyCxdY8-s5riYjblcbvIxKBdcwI"
+        , title = "エトピリカ(情熱大陸より)"
+        , filename = "etupirka.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=18Jl3c6_5Nne9KfilhTq316WqiT1LEl8M"
+        , mp3Url = "https://drive.google.com/uc?id=1ncw3s4SB59T46S9Yie2IEOmW5BFfOprX"
+        , title = "渡る世間は鬼ばかり"
+        , filename = "watarusekenwa.ly"
+      }
+
+
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "ワーグナー結婚行進曲" classic
@@ -3811,6 +3823,10 @@ dict =
 --   , title = "夢をかなえてドラえもん(こころのなかいつもいつもえがいてる)" casio
 --   , filename = "yumewokanaetedoraemon.ly"
 -- }
+
+
+
+
     ]
 -- アマポーラ(ワンス・アポン・ア・タイム・イン・アメリカ)
 -- ああ玉杯に花うけて(一高寮歌。ああぎょくはいにはなうけてりょくしゅにつきのかげやどし)
@@ -3819,4 +3835,4 @@ dict =
 -- また君に恋している
 -- 波濤を越えて(Over the Waves。ワルツ) hal
 -- 夢をかなえてドラえもん(こころのなかいつもいつもえがいてる) casio
--- エトピリカ(情熱大陸より) C#
+-- 
