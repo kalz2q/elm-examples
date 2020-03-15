@@ -3796,6 +3796,11 @@ dict =
         , title = "月光仮面は誰でしょう(げっこうかめんはだれでしょう。どこのだれだかしらないけれど)"
         , filename = "gekkokamen.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1vigO1E1qR7ThNhpwzFIgwX1MLCkXDamU"
+        , mp3Url = "https://drive.google.com/uc?id=1-j4DUs2o6jdw13x7lNePqO3_TTAwf6XI"
+        , title = "おもちゃの兵隊のマーチ(キューピー3分クッキングより)"
+        , filename = "kewpie.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "ワーグナー結婚行進曲" classic
@@ -3814,4 +3819,4 @@ dict =
 -- また君に恋している
 -- 波濤を越えて(Over the Waves。ワルツ) hal
 -- 夢をかなえてドラえもん(こころのなかいつもいつもえがいてる) casio
--- キューピー c#
+-- エトピリカ(情熱大陸より) C#
