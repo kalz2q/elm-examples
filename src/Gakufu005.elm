@@ -3791,6 +3791,11 @@ dict =
         , title = "TAKUMI/匠(大改造！！劇的ビフォーアフターより)"
         , filename = "takumi.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=12BgwbkHQ8DC0jBhfMLSjGq_3ssEe_vLg"
+        , mp3Url = "https://drive.google.com/uc?id=1FtU2V4YR-ly2FMOjdINTby0PRGvH_5vz"
+        , title = "月光仮面は誰でしょう(げっこうかめんはだれでしょう。どこのだれだかしらないけれど)"
+        , filename = "gekkokamen.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "ワーグナー結婚行進曲" classic
@@ -3801,7 +3806,6 @@ dict =
 --   , title = "夢をかなえてドラえもん(こころのなかいつもいつもえがいてる)" casio
 --   , filename = "yumewokanaetedoraemon.ly"
 -- }
-
     ]
 -- アマポーラ(ワンス・アポン・ア・タイム・イン・アメリカ)
 -- ああ玉杯に花うけて(一高寮歌。ああぎょくはいにはなうけてりょくしゅにつきのかげやどし)
