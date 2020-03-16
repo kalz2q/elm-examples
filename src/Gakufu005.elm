@@ -3821,6 +3821,11 @@ dict =
         , title = "怪傑ハリマオ(かいけつはりまお。まっかなたいようもえているはてないみなみのおおぞらに)"
         , filename = "kaiketsuharimau.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1xKzgg2-dMtUg-wMcpjAfQjkn65UA7f3c"
+        , mp3Url = "https://drive.google.com/uc?id=19oDTFz-ea8aZWM_c1DFxSQLtYQ43qwvf"
+        , title = "鉄人28号(てつじんにじゅうはちごう。びるのまちにがおーよるのはいうぇいにがおー)"
+        , filename = "tetsujin28go.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "ワーグナー結婚行進曲" classic
@@ -3830,11 +3835,6 @@ dict =
 --   , mp3Url = ""
 --   , title = "夢をかなえてドラえもん(こころのなかいつもいつもえがいてる)" casio
 --   , filename = "yumewokanaetedoraemon.ly"
--- }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "鉄人28号(てつじんにじゅうはちごう。びるのまちにがおーよるのはいうぇいにがおー)"
---   , filename = "tetsujin28go.ly"
 -- }
 
 
