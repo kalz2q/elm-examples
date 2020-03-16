@@ -3826,6 +3826,16 @@ dict =
         , title = "鉄人28号(てつじんにじゅうはちごう。びるのまちにがおーよるのはいうぇいにがおー)"
         , filename = "tetsujin28go.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1tCIC3KpBrP0rJlJKHjeeK-zskQJrINHm"
+        , mp3Url = "https://drive.google.com/uc?id=1fgsSBgT26ZxfpcFJyHiw4BnK0RDegmA-"
+        , title = "少年探偵団の歌(ぼぼぼくらはしょうねんたんていだんゆうきりんりんるりのいろ)"
+        , filename = "shonentanteidan.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1V9qro0oNP8YeL9xX7YKNI_XPPuUJLJ4i"
+        , mp3Url = "https://drive.google.com/uc?id=1K5GSkOW97Ea4w1nWMaR1Lo8_pMGxKhOM"
+        , title = "巨人の星(ゆけゆけひゅうま。おもいこんだらしれんのみちをゆくがおとこのどこんじょう)"
+        , filename = "kyojinnohoshi.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "ワーグナー結婚行進曲" classic
@@ -3836,8 +3846,6 @@ dict =
 --   , title = "夢をかなえてドラえもん(こころのなかいつもいつもえがいてる)" casio
 --   , filename = "yumewokanaetedoraemon.ly"
 -- }
-
-
     ]
 -- アマポーラ(ワンス・アポン・ア・タイム・イン・アメリカ)
 -- ああ玉杯に花うけて(一高寮歌。ああぎょくはいにはなうけてりょくしゅにつきのかげやどし)
