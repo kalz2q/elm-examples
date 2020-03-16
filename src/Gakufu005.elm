@@ -3811,8 +3811,16 @@ dict =
         , title = "渡る世間は鬼ばかり"
         , filename = "watarusekenwa.ly"
       }
-
-
+      , { jpgUrl = "https://drive.google.com/uc?id=10d7_mIS7n2maPWENnBHwoDchoE7OoQTH"
+        , mp3Url = "https://drive.google.com/uc?id=1OhpAkJc1Ow10LYIRAzpcTV6lslTeGlDs"
+        , title = "赤胴鈴之助(あかどうすずのすけ。けんをとってはにっぽんいちにゆめはおおきなしょうねんけんし)"
+        , filename = "akadosuzunosuke.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1C3sSPM0BSdRZJ18Pu6wFoLF2yLWaIaOx"
+        , mp3Url = "https://drive.google.com/uc?id=1ESipZC_uNvwUB2lWOspsyhnEEoh56j-7"
+        , title = "怪傑ハリマオ(かいけつはりまお。まっかなたいようもえているはてないみなみのおおぞらに)"
+        , filename = "kaiketsuharimau.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "ワーグナー結婚行進曲" classic
@@ -3823,8 +3831,11 @@ dict =
 --   , title = "夢をかなえてドラえもん(こころのなかいつもいつもえがいてる)" casio
 --   , filename = "yumewokanaetedoraemon.ly"
 -- }
-
-
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "鉄人28号(てつじんにじゅうはちごう。びるのまちにがおーよるのはいうぇいにがおー)"
+--   , filename = "tetsujin28go.ly"
+-- }
 
 
     ]
@@ -3835,4 +3846,3 @@ dict =
 -- また君に恋している
 -- 波濤を越えて(Over the Waves。ワルツ) hal
 -- 夢をかなえてドラえもん(こころのなかいつもいつもえがいてる) casio
--- 
