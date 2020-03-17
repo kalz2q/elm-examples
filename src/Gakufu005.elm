@@ -336,7 +336,7 @@ dict =
       , title = "ビッグ・ベンの鐘(ウェストミンスター宮殿の時計)"
       , filename = "bigben.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1lNT8N9TuQEgJH840sp4j19LbILyv-D2C"
+    , { jpgUrl = "https://drive.google.com/uc?id=15vegd0sb8iIwbCTVsWxFfzL1Q2zRYrrC"
       , mp3Url = "https://drive.google.com/uc?id=1BhHv9LrNPP72BjieWt6VHUSji9vkWGTG"
       , title = "恋は水色(ポール・モーリア)"
       , filename = "lamourestbleu.ly"
@@ -2383,7 +2383,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1xHbI3Bilbl6pY3ui35rhE9EswNZML4hf"
       , mp3Url = "https://drive.google.com/uc?id=1VDHv5taWemQjXok1-HkCHoqOc_ZjUhM4"
-      , title = "いぬのおまわりさｎ(まいごのまいごのこねこちゃんあなたのおうちはどこですか)"
+      , title = "いぬのおまわりさん(まいごのまいごのこねこちゃんあなたのおうちはどこですか)"
       , filename = "inunoomawarisan.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1vlCfa8zW_VfX5bWtj6ig4H1K1Pt7QR2B"
@@ -2403,7 +2403,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1MWj-haou11rWMLCU8KkS8NegV6hv23D9"
       , mp3Url = "https://drive.google.com/uc?id=1DNmMX2LsaxBnA7nDQ1CC8fX4ivqNcx1U"
-      , title = "踊子(さよならもいぜずないているわたしのおどりこよああふねがでる)"
+      , title = "踊子(さよならもいえずないているわたしのおどりこよああふねがでる)"
       , filename = "odoriko.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1VdKP6dhtBT9qKAdsHnS9PYPDz_5FF3-n"
@@ -3840,6 +3840,30 @@ dict =
         , mp3Url = "https://drive.google.com/uc?id=1PBVdsKU3A1iTC1pIJ4BsatECoqvkrtjT"
         , title = "にっぽん昔ばなし(ぼうやよいこだねんねしないまもむかしもかわりなく)"
         , filename = "nipponmukashibanashi.ly"
+      , { jpgUrl = "https://drive.google.com/uc?id=1Ck0389pQybkOLKNkIAYQeki23-LUwpv2"
+        , mp3Url = "https://drive.google.com/uc?id=1fNl-95SQM6l-vjjRnQwLmTCYLmaBlkUk"
+        , title = "シャボン玉ホリデー(しゃぼんだまるるるるるるるしゃぼんだまららららららら)"
+        , filename = "shabondamaholiday.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1jRJmqXmGnqRD0mhsRQ1QJJxmEMplpj8M"
+        , mp3Url = "https://drive.google.com/uc?id=1xQYlPIbHdploS9pzgiLNPiT293fBbiNH"
+        , title = "戦場のメリークリスマス(坂本龍一。せんじょうのめりーくりすます)"
+        , filename = "senjonomerrychristmas.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1B6z8yEe6IWUN8sVZ2S-4Q6JhisfSxQ1b"
+        , mp3Url = "https://drive.google.com/uc?id=1HNIyYvje0SW8wriUTxm6g4OO8wsAHpcp"
+        , title = "ムーン・リバー(むーんりばー。Moon River, wider than a mile)"
+        , filename = "moonriver.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1P3kgl303jBxRD9ACTDlUJRuydvvkNW1Z"
+        , mp3Url = "https://drive.google.com/uc?id=19adK6AX82JVtLUOtYbUtldQcDA445D1R"
+        , title = "フライ・ミー・トゥ・ザ・ムーン(ふらいみーとぅざむーん。Fly Me To the Moon)"
+        , filename = "flymetothemoon.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1iQ4TD6nAkdjLTdFwhn7dQzg5kSXrXdWZ"
+        , mp3Url = "https://drive.google.com/uc?id=1M95ghsGiOGnWpAhjdctyDx0hw7AfbylV"
+        , title = "青春の輝き(カーペンターズ。せいしゅんのかがやき。I Need To Be In Love)"
+        , filename = "seishunnokagayaki.ly"
       }
 --, { jpgUrl = ""
 --   , mp3Url = ""
