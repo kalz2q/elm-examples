@@ -3836,6 +3836,11 @@ dict =
         , title = "巨人の星(ゆけゆけひゅうま。おもいこんだらしれんのみちをゆくがおとこのどこんじょう)"
         , filename = "kyojinnohoshi.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1m3xS2ZAREtHvPpLU5vByxC9nIZqdEcHK"
+        , mp3Url = "https://drive.google.com/uc?id=1PBVdsKU3A1iTC1pIJ4BsatECoqvkrtjT"
+        , title = "にっぽん昔ばなし(ぼうやよいこだねんねしないまもむかしもかわりなく)"
+        , filename = "nipponmukashibanashi.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "ワーグナー結婚行進曲" classic
