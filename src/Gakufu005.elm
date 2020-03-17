@@ -3881,7 +3881,11 @@ dict =
         , title = "ルパン三世(まっかなばらはあいつのくちびる)"
         , filename = "lupinthe3rd.ly"
       }
-
+      , { jpgUrl = "https://drive.google.com/uc?id=1LnWcp6Mwgkv8I30Uqb1Pt7oUatgvLWa-"
+        , mp3Url = "https://drive.google.com/uc?id=1qAHP-aiZhpyhRuIEIwzumLdU0T_Dg1FD"
+        , title = "残酷な天使のテーゼ(ざんこくなてんしのようにしょうねんよしんわになれ)"
+        , filename = "zankokunatenshi.ly"
+      }
 
     ]
 --, { jpgUrl = ""
