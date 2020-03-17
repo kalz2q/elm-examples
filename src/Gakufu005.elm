@@ -3866,6 +3866,24 @@ dict =
         , title = "青春の輝き(カーペンターズ。せいしゅんのかがやき。I Need To Be In Love)"
         , filename = "seishunnokagayaki.ly"
       }
+    , { jpgUrl = "https://drive.google.com/uc?id=1S_MVim2_DNJNfvHVrBGXIf_iZbNQkH1x"
+      , mp3Url = "https://drive.google.com/uc?id=1B3E5WOAsMPqZgX90Ymjjvyz2-MF6SBqs"
+      , title = "嗚呼玉杯に花うけて(一高寮歌。ああぎょくはいにはなうけてりょくしゅにつきのかげやどし)"
+      , filename = "aagyokuhaini.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1FUJXGdnuB0cGwZegEfJQAnkNf3zeo_5h"
+        , mp3Url = "https://drive.google.com/uc?id=1xac5aCKIei0o7RVWyjzkRTppyTn24Eqm"
+        , title = "宇宙戦艦ヤマト(さらばちきゅうよたびだつふねはうちゅうせんかんやまと)"
+        , filename = "uchusenkanyamato.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1Z9ivkF886kqQyNwalr1h1hPs5VB2dPnl"
+        , mp3Url = "https://drive.google.com/uc?id=1UQgyl6bLaSNNW91SPKQTH2RBY1s60UdZ"
+        , title = "ルパン三世(まっかなばらはあいつのくちびる)"
+        , filename = "lupinthe3rd.ly"
+      }
+
+
+    ]
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "ワーグナー結婚行進曲" classic
@@ -3876,9 +3894,7 @@ dict =
 --   , title = "夢をかなえてドラえもん(こころのなかいつもいつもえがいてる)" casio
 --   , filename = "yumewokanaetedoraemon.ly"
 -- }
-    ]
 -- アマポーラ(ワンス・アポン・ア・タイム・イン・アメリカ)
--- ああ玉杯に花うけて(一高寮歌。ああぎょくはいにはなうけてりょくしゅにつきのかげやどし)
 -- 恋するフォーチュンクッキー()
 -- マルマルモリモリ()
 -- また君に恋している
