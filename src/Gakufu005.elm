@@ -3840,6 +3840,7 @@ dict =
         , mp3Url = "https://drive.google.com/uc?id=1PBVdsKU3A1iTC1pIJ4BsatECoqvkrtjT"
         , title = "にっぽん昔ばなし(ぼうやよいこだねんねしないまもむかしもかわりなく)"
         , filename = "nipponmukashibanashi.ly"
+      }
       , { jpgUrl = "https://drive.google.com/uc?id=1Ck0389pQybkOLKNkIAYQeki23-LUwpv2"
         , mp3Url = "https://drive.google.com/uc?id=1fNl-95SQM6l-vjjRnQwLmTCYLmaBlkUk"
         , title = "シャボン玉ホリデー(しゃぼんだまるるるるるるるしゃぼんだまららららららら)"
