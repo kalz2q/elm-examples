@@ -3886,6 +3886,14 @@ dict =
         , title = "残酷な天使のテーゼ(ざんこくなてんしのようにしょうねんよしんわになれ)"
         , filename = "zankokunatenshi.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1DulfeacuW2KWHCtCCebt4Y6bfUv81jnu"
+        , mp3Url = "https://drive.google.com/uc?id=1fo7XwG349ZNqhzxeTol0uYmTnBmiQaMp"
+        , title = "ラ・バンバ(La Bamba)"
+        , filename = "labamba.ly"
+      }
+
+
+
 
     ]
 --, { jpgUrl = ""
