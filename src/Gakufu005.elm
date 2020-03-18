@@ -241,7 +241,7 @@ dict =
       , title = "おめでとうクリスマス(We Wish You a Merry Christmas)"
       , filename = "omedetouchristmas.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1ouKwNK7a8O1SbxiNA6754Mekw4wqbq9r"
+    , { jpgUrl = "https://drive.google.com/uc?id=1H88QaIPIcI9FV1IPN9nKI2LdSh_byXIM"
       , mp3Url = "https://drive.google.com/uc?id=1kSlQD5D8cV1oXBpKtjMzmGzN2-hUuC_N"
       , title = "そりすべり(リロイ・アンダーソン。クリスマス)"
       , filename = "sorisuberi.ly"
@@ -551,10 +551,10 @@ dict =
       , title = "山の音楽家(わたしゃおんがくかやまのこりす)"
       , filename = "yamanoongakuka.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1CId-_uO92l_R1ciCHKHOlALk4Q4Zojk0"
-      , mp3Url = "https://drive.google.com/uc?id=10S5zMSbW1bxHbcQYn0QR66D77-ytaR7c"
-      , title = "木星(ホルスト「惑星」よりジュピター)"
-      , filename = "mokusei.ly"
+    , { jpgUrl = ""
+      , mp3Url = ""
+      , title = "Jupiter(ホルスト「惑星」よりジュピター「木星」)"
+      , filename = "jupiter.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=16AsfJ_6Y2w6fpo969gSa9Rfd_tLYO-XK"
       , mp3Url = "https://drive.google.com/uc?id=1USdA-PXDzPd-Gnbw0nkZigIk8ixt415d"
@@ -3906,11 +3906,22 @@ dict =
         , title = "タッチ(こきゅうをとめていちびょうあなたしんけんなめをしたから)"
         , filename = "touch.ly"
       }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "ラムのラブソング(あんまりそわそわしないであなたはいつでもきょろきょろ)"
---   , filename = "lumslovesong.ly"
--- }
+      , { jpgUrl = "https://drive.google.com/uc?id=1b2_iVp0KBu_yFfcKG_somSzmO4MWl-T4"
+        , mp3Url = "https://drive.google.com/uc?id=1MB_g6s1L7nVe0UfZDqWlzZHlJUvD1oQB"
+        , title = "ラムのラブソング(あんまりそわそわしないであなたはいつでもきょろきょろ)"
+        , filename = "lumslovesong.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1ENQIexPShGtgLk1w_c54ryuT7xu2Zchi"
+        , mp3Url = "https://drive.google.com/uc?id=1rIx7TPqZFin7LNAq7Bb-1Mp8R-00sCU4"
+        , title = "この素晴らしき世界(ルイ・アームストロング。What a Wonderful World)"
+        , filename = "wonderfulworld.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1o-e46rkNYiSNUqMtVZhYaoRc0RAm6HcV"
+        , mp3Url = "https://drive.google.com/uc?id=1XD_n4E1sBf3h_x_w6hhspVXryqaizV2B"
+        , title = "赤いスイートピー(はるいろのきしゃにのってうみにつれていってよ)"
+        , filename = "akaisweetpea.ly"
+      }
+
     ]
 --, { jpgUrl = ""
 --   , mp3Url = ""
@@ -3928,6 +3939,4 @@ dict =
 -- また君に恋している
 -- 波濤を越えて(Over the Waves。ワルツ) hal
 -- 夢をかなえてドラえもん(こころのなかいつもいつもえがいてる) casio
--- デビルマンの歌()
 -- はじめてのチュウ()
--- ラムのラブソング
