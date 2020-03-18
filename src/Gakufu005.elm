@@ -3891,9 +3891,21 @@ dict =
         , title = "ラ・バンバ(La Bamba)"
         , filename = "labamba.ly"
       }
-
-
-
+      , { jpgUrl = "https://drive.google.com/uc?id=1c-TIv3osKIT1vFrAJ6ar3qAOk6E21NzL"
+        , mp3Url = "https://drive.google.com/uc?id=1x7joXp7ttw8vYz7Lp19i0nBeEyBhX-eO"
+        , title = "ガッチャマンの歌(だれだーだれだーだれだーそらのかなたにおどるかげ)"
+        , filename = "gatchaman.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1IQrrqGsiOHDdvze6VFDHg45g9efuZJDv"
+        , mp3Url = "https://drive.google.com/uc?id=1uXXe785Oj1fVEgT30A7aoDBmLA_QWtN1"
+        , title = "翔べ！ガンダム(もえあがれもえあがれもえあがれがんだむ)"
+        , filename = "tobegundam.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1J-wqX8voYLMGUPA3V_m7us6FbPraz9ne"
+        , mp3Url = "https://drive.google.com/uc?id=1cWXzQqkRqqBcltkI-xk4M8_ek7WzHmYc"
+        , title = "タッチ(こきゅうをとめていちびょうあなたしんけんなめをしたから)"
+        , filename = "touch.ly"
+      }
 
     ]
 --, { jpgUrl = ""
@@ -3912,3 +3924,6 @@ dict =
 -- また君に恋している
 -- 波濤を越えて(Over the Waves。ワルツ) hal
 -- 夢をかなえてドラえもん(こころのなかいつもいつもえがいてる) casio
+-- デビルマンの歌()
+-- はじめてのチュウ()
+-- ラムのラブソング
