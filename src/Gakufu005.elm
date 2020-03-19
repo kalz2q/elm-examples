@@ -278,7 +278,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1ahV1jpiP5VTq98FbtWZLXR2mL1YxbPlv"
       , mp3Url = "https://drive.google.com/uc?id=1KR7Wd9MjJoUyvLvSsfvECZO2EpadaidE"
-      , title = "涙そうそう(ふるいあるばむめくりありがとうってつぶやいた)"
+      , title = "涙そうそう(なだそうそう。ふるいあるばむめくりありがとうってつぶやいた)"
       , filename = "nadasoso.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1hG4WU868zBD3NwIRFLj4r6FujKpUdIHg"
@@ -551,8 +551,8 @@ dict =
       , title = "山の音楽家(わたしゃおんがくかやまのこりす)"
       , filename = "yamanoongakuka.ly"
       }
-    , { jpgUrl = ""
-      , mp3Url = ""
+    , { jpgUrl = "https://drive.google.com/uc?id=1gDaa7-R2YsQi6y56_9nfC0yyDvX64fmL"
+      , mp3Url = "https://drive.google.com/uc?id=1yGkptw3T1Mb1FsZ2ZkDf_3wwhFP3OAWY"
       , title = "Jupiter(ホルスト「惑星」よりジュピター「木星」)"
       , filename = "jupiter.ly"
       }
@@ -3921,6 +3921,29 @@ dict =
         , title = "赤いスイートピー(はるいろのきしゃにのってうみにつれていってよ)"
         , filename = "akaisweetpea.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=15C7Dl3-If0nP1xkuK0ZFNTnUm2agUga8"
+        , mp3Url = "https://drive.google.com/uc?id=1Bx0V8OlxVlOZbq_EmBnTVNOeskauhntD"
+        , title = "愛の挨拶(エルガー。あいのあいさつ)"
+        , filename = "elgarainoaisatsu.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1DSS7KG_IRw_GgQ6u2-U2XPU17v8mvg6l"
+        , mp3Url = "https://drive.google.com/uc?id=1Q3kU1TjuzGCSxCv4jNAhujKt2dF2kWIF"
+        , title = "いつか王子様が(ディズニー白雪姫。Someday My Prince Will Come)"
+        , filename = "somedaymyprince.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1F7ed7DcQbFc9eVlbldpdkHiqum2iIU28"
+        , mp3Url = "https://drive.google.com/uc?id=13saCO5oSZd3yVXlmpcFN7SaADUCcEWlz"
+        , title = "君をのせて(ジブリ天空の城ラピュタ。あのちへいせんかがやくのは)"
+        , filename = "kimiwonosete.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1kiNCvjSdWVYFBwiyrdFN_ZqP2YBkEtO4"
+        , mp3Url = "https://drive.google.com/uc?id=16VLz5fG82GRdoku8Vn1MitiM_BACT8Ll"
+        , title = "ピアノソナタ第8番悲壮第2楽章より(ベートーベン)"
+        , filename = "beethovenhisou2.ly"
+      }
+
+
+
 
     ]
 --, { jpgUrl = ""
