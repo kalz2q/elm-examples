@@ -3986,11 +3986,11 @@ dict =
         , title = "リベルタンゴ(ピアソラ)"
         , filename = "libertango.ly"
       }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "愛の夢第3番(リスト)"
---   , filename = "lisztainoyume3.ly"
--- }
+      , { jpgUrl = "https://drive.google.com/uc?id=1NJIX65lfHcbxXk-MaUhUx9d8i0ANOoz9"
+        , mp3Url = "https://drive.google.com/uc?id=1RHhXZp2W7fcidKGsBZYdqZP68QAhZTzA"
+        , title = "愛の夢第3番(リスト)"
+        , filename = "lisztainoyume3.ly"
+      }
 
 
 
