@@ -3791,6 +3791,11 @@ dict =
         , title = "TAKUMI/匠(大改造！！劇的ビフォーアフターより)"
         , filename = "takumi.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1HAzxr7mQWHO4Zqj4YA432Jh0oOF1C3h6"
+        , mp3Url = "https://drive.google.com/uc?id=1QPdaXnpuctd8a7sXtwWkZM1ntPviIp7q"
+        , title = "TAKUMI/匠(三連符バージョン)"
+        , filename = "test_takumi.ly"
+      }
       , { jpgUrl = "https://drive.google.com/uc?id=12BgwbkHQ8DC0jBhfMLSjGq_3ssEe_vLg"
         , mp3Url = "https://drive.google.com/uc?id=1FtU2V4YR-ly2FMOjdINTby0PRGvH_5vz"
         , title = "月光仮面は誰でしょう(げっこうかめんはだれでしょう。どこのだれだかしらないけれど)"
@@ -3966,11 +3971,27 @@ dict =
         , title = "シルクロードのテーマ(喜多郎)"
         , filename = "silkroad.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1pGlxmd83R1WtY21KKLYLb1Nmp4pLgAli"
+        , mp3Url = "https://drive.google.com/uc?id=18V4vvJMPNos1zgnWJncyiWKjChe_G3nd"
+        , title = "デスペラード(イーグルス。Desperado)"
+        , filename = "desperado.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1L0dchoYDZxt-uYiuyURButkDf5VD4Xq2"
+        , mp3Url = "https://drive.google.com/uc?id=1PO4wi8ahpH0Ju9yzTUyOfJYfe5OHjkgd"
+        , title = "Summer(菊次郎の夏)"
+        , filename = "summer.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=13xAAH9FLdf0OLlfe_izZrPZ0lyW89uqt"
+        , mp3Url = "https://drive.google.com/uc?id=1NQ5jG4pGkLvzYOjx2CfQ0gD3YeaFul8V"
+        , title = "リベルタンゴ(ピアソラ)"
+        , filename = "libertango.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "デスペラード(イーグルス。Desperado)"
---   , filename = "desperado.ly"
+--   , title = "愛の夢第3番(リスト)"
+--   , filename = "lisztainoyume3.ly"
 -- }
+
 
 
     ]
