@@ -661,7 +661,7 @@ dict =
       , title = "大きな栗の木の下で(おおきなくりのきのしたで)"
       , filename = "okinakuri.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1dtrqgTM1a_FuGcRS7pCQ45m6tpK2XG4j"
+    , { jpgUrl = "https://drive.google.com/uc?id=1edtmUyhUixSEryIf0OcLBiIO7-UxqzW8"
       , mp3Url = "https://drive.google.com/uc?id=1C-FH8z0sjNk34NK_CwG5YmtJ50ngkAfg"
       , title = "凱旋行進曲(ヴェルディ。アイーダ)"
       , filename = "gaisen.ly"
@@ -751,9 +751,9 @@ dict =
       , title = "カントリー・ロード(かんとりーろーどこのみち)"
       , filename = "countryroad.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1EW8U886L9jqdG-DmnlFXweQLgxPDQm61"
+    , { jpgUrl = "https://drive.google.com/uc?id=1Il_Wot-VX8pE5eIcKKye5Wr9SsYQZmGL"
       , mp3Url = "https://drive.google.com/uc?id=1NvxcOW3XfsGmbw4ASpKZTxPljlo98wSl"
-      , title = "イエスタデイ・ワンス・モア(カーペンターズ)"
+      , title = "イエスタデイ・ワンス・モア(カーペンターズ。Yesterday Once More)"
       , filename = "yesterdayonce.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1rK9xSFpnZ-mVz4BFCVAe4VQUdZacoYcb"
@@ -3941,8 +3941,36 @@ dict =
         , title = "ピアノソナタ第8番悲壮第2楽章より(ベートーベン)"
         , filename = "beethovenhisou2.ly"
       }
-
-
+      , { jpgUrl = "https://drive.google.com/uc?id=1ZC5P7b_4RDxHTF-F86vBG7tOOB-HRsDw"
+        , mp3Url = "https://drive.google.com/uc?id=1NJOkVG1L4k0uZv_F7YGfY60eqR5qORq2"
+        , title = "タイム・トゥ・セイ・グッバイ(Time To Say Goodbye。サラ・ブライトマン)"
+        , filename = "timetosaygoodby.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1CZ5kBZs2EP8aR4wwPmZsUKULDtQp8dOp"
+        , mp3Url = "https://drive.google.com/uc?id=1HEm4awFDY5pIK9sR_MiTetTg-Ao4ovAC"
+        , title = "エリーゼのために(ベートーベン)"
+        , filename = "beethovefurelise.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1WHFpV80yd9tdz3T8lpXBcuIRfGO8E5Fh"
+        , mp3Url = "https://drive.google.com/uc?id=19XLcFDc6tbOZGyfZm0iv2eWa9ugA_OHe"
+        , title = "煙が目にしみる(Smoke Gets In Your Eyes)"
+        , filename = "smokegetsinyoureyes.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1sZuK53EXUoYhObqR18fe0_5_6hXiTLyv"
+        , mp3Url = "https://drive.google.com/uc?id=1YQWvVeykTCi-ISESvvFZAQvQahR3Qk8x"
+        , title = "スカボロー・フェア(サイモンとガーファンクル。すかぼろーふぇあ。Scarborough Fair)"
+        , filename = "scarboroughfair.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=10DuhwRcpcD2wfbzftbMV7cSF1TYW-BDA"
+        , mp3Url = "https://drive.google.com/uc?id=1-HcST0iOSO-OZagJyG3M0PYjXgbuKO-S"
+        , title = "シルクロードのテーマ(喜多郎)"
+        , filename = "silkroad.ly"
+      }
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "デスペラード(イーグルス。Desperado)"
+--   , filename = "desperado.ly"
+-- }
 
 
     ]
