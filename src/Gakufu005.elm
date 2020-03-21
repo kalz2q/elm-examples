@@ -3991,6 +3991,23 @@ dict =
         , title = "愛の夢第3番(リスト)"
         , filename = "lisztainoyume3.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=11xJp16KU7g8s4ZT6PqF-M7qrNOvHeYvy"
+        , mp3Url = "https://drive.google.com/uc?id=1h-tcFtPAiOLzDZNjdycMakiwlj4nPxm5"
+        , title = "花(すべての人の心に花を。かわはながれてどこいくのひともながれてどこいくの)"
+        , filename = "hanasubete.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1Xm2t-HZOL7dEIlzsC-WjiH2qmE12X_Dy"
+        , mp3Url = "https://drive.google.com/uc?id=1CIKDPxpUSmqdCAogAfm1t6QT4iE22zAp"
+        , title = "Close to You(セナのピアノⅡ)"
+        , filename = "senanopiano.ly"
+      }
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "言葉にできない(小田和正。おわるはずのないあいあいがとだえた)"
+--   , filename = "kotobanidekinai.ly"
+-- }
+
+
 
 
 
