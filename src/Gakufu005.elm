@@ -4001,12 +4001,16 @@ dict =
         , title = "Close to You(セナのピアノⅡ)"
         , filename = "senanopiano.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=10EoJ2-PxbDuDwCWPt1gnG9GV1B_gELuB"
+        , mp3Url = "https://drive.google.com/uc?id=1i3kL5Kw9wifJ-hx1Dw8hchoeGKxAXffM"
+        , title = "言葉にできない(小田和正。おわるはずのないあいあいがとだえた)"
+        , filename = "kotobanidekinai.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "言葉にできない(小田和正。おわるはずのないあいあいがとだえた)"
---   , filename = "kotobanidekinai.ly"
+--   , title = "美女と野獣(ディズニー。Beauty and the Beast)"
+--   , filename = "bijotoyaju.ly"
 -- }
-
 
 
 
