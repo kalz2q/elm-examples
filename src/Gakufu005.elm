@@ -4006,12 +4006,16 @@ dict =
         , title = "言葉にできない(小田和正。おわるはずのないあいあいがとだえた)"
         , filename = "kotobanidekinai.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1L1atNUqsCYO5kgwWeFrgD3Ebm7Uh6Fig"
+        , mp3Url = "https://drive.google.com/uc?id=1hjb3pD8JCYpjpuLjvUWiK70-cLGpZdH_"
+        , title = "美女と野獣(ディズニー。Beauty and the Beast)"
+        , filename = "bijotoyaju.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "美女と野獣(ディズニー。Beauty and the Beast)"
---   , filename = "bijotoyaju.ly"
+--   , title = "ハナミズキ(一青窈。そらをおしあえててをのばすきみ)"
+--   , filename = "hanamizuki.ly"
 -- }
-
 
 
 
