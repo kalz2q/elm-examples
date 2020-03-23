@@ -253,7 +253,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1ggnDyoqTZbuDH03k4LZ-MkSf-aAOhtiP"
       , mp3Url = "https://drive.google.com/uc?id=1KH0cab55b9HdFkbuz7XnLZvyhm6qgvKd"
-      , title = "テネシーワルツ"
+      , title = "テネシーワルツ(おもいでなつかしあのてねしーわるつ)"
       , filename = "tennessee.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1RQuGnQA-VVVLll_LQ2Zrg-TOHTuQZ0ea"
@@ -4021,11 +4021,23 @@ dict =
         , title = "世界の車窓から"
         , filename = "sekainoshasokara.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1jvDMvvbFupn0h-1630M9yjiUNq7IvNw_"
+        , mp3Url = "https://drive.google.com/uc?id=1JMeYMz25kgnWGXA6o7wDk6I4srYprFPB"
+        , title = "リンゴ追分(りんごのはなびらがかぜにちったよね)"
+        , filename = "ringooiwake.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1X7oR4ckspp5R1Q2lMjoljUP76oRIVR8M"
+        , mp3Url = "https://drive.google.com/uc?id=1VVF-8ckWp476mI7mRL01Sx_nd2SGdAJG"
+        , title = "知りたくないの(あなたのかこなどしりたくないの)"
+        , filename = "shiritakunaino.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "リンゴ追分(りんごのはなびらがかぜにちったよね)"
---   , filename = "ringooiwake.ly"
+--   , title = "ブルーライト・ヨコハマ(まちのあかりがとてもきれいねよこはま)"
+--   , filename = "bluelightyokoham.ly"
 -- }
+
+
 
     ]
 --, { jpgUrl = ""
