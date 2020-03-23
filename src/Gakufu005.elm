@@ -4011,13 +4011,21 @@ dict =
         , title = "美女と野獣(ディズニー。Beauty and the Beast)"
         , filename = "bijotoyaju.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1l8zFpDIPldl1-yuWwplWI8HN61t8Kd-1"
+        , mp3Url = "https://drive.google.com/uc?id=1Y4npDOfLalItv_v25Eo7oOcCRt6Eme3n"
+        , title = "ハナミズキ(一青窈。そらをおしあげててをのばすきみ)"
+        , filename = "hanamizuki.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1uqKnznHUe4v_91xR1tV2Za5NfiYuDd2W"
+        , mp3Url = "https://drive.google.com/uc?id=1tMxIucrN3AagDCicUzdj2FSoOagY1J63"
+        , title = "世界の車窓から"
+        , filename = "sekainoshasokara.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "ハナミズキ(一青窈。そらをおしあえててをのばすきみ)"
---   , filename = "hanamizuki.ly"
+--   , title = "リンゴ追分(りんごのはなびらがかぜにちったよね)"
+--   , filename = "ringooiwake.ly"
 -- }
-
-
 
     ]
 --, { jpgUrl = ""
