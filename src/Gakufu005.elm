@@ -4031,12 +4031,16 @@ dict =
         , title = "知りたくないの(あなたのかこなどしりたくないの)"
         , filename = "shiritakunaino.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1eqHO_cRvWPR-2cchhCfkGrD2KJ5G9UgC"
+        , mp3Url = "https://drive.google.com/uc?id=10SrqZrsl7dhAu3AdE1QXHTcHngW_pWWc"
+        , title = "ブルーライト・ヨコハマ(まちのあかりがとてもきれいねよこはま)"
+        , filename = "bluelightyokoham.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "ブルーライト・ヨコハマ(まちのあかりがとてもきれいねよこはま)"
---   , filename = "bluelightyokoham.ly"
+--   , title = "真っ赤な太陽(まっかにもえたたいようだからまなつのうみはこいのきせつなの)"
+--   , filename = "makkanataiyo.ly"
 -- }
-
 
 
     ]
