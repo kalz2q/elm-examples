@@ -4036,12 +4036,16 @@ dict =
         , title = "ブルーライト・ヨコハマ(まちのあかりがとてもきれいねよこはま)"
         , filename = "bluelightyokoham.ly"
       }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "真っ赤な太陽(まっかにもえたたいようだからまなつのうみはこいのきせつなの)"
---   , filename = "makkanataiyo.ly"
--- }
-
+      , { jpgUrl = "https://drive.google.com/uc?id=1835M5VKZ0b3iHC5sYKiPIEwsPM-Nbex0"
+        , mp3Url = "https://drive.google.com/uc?id=1I-usP6qNYuhLSaqaHL8WFpZUR2AlpKwR"
+        , title = "真っ赤な太陽(まっかにもえたたいようだからまなつのうみはこいのきせつなの)"
+        , filename = "makkanataiyo.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=15J5nRBnka4pz1SQ2bVEFUlKq8mFx48xY"
+        , mp3Url = "https://drive.google.com/uc?id=1_7PjsEaQ0ovAipsLT9XujBkbfY3cS7o6"
+        , title = "君といつまでも(ふたりをゆうやみがつつむこのまどべに)"
+        , filename = "kimitoitsumademo.ly"
+      }
 
     ]
 --, { jpgUrl = ""
