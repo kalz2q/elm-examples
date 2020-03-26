@@ -4051,6 +4051,41 @@ dict =
         , title = "恋のバカンス(ためいきのでるようなあなたのくちづけに)"
         , filename = "koinovacance.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1TTPzAyFEDL5x1yRmnDi5B9xswxM04j44"
+        , mp3Url = "https://drive.google.com/uc?id=11amTt-pPAiCYYfSmcYI4R69vgzgjaraG"
+        , title = "夜明けのスキャット(由紀さおり)"
+        , filename = "yoakenoscat.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1uR_3ZLgB8vjVXMZUJBVK54SmZajcz32x"
+        , mp3Url = "https://drive.google.com/uc?id=19iai2dENIZmfHb6V8o9Xa_H1tze63TWh"
+        , title = "また逢う日まで(またあうひまであえるときまでわかれのそのわけははなしたくない)"
+        , filename = "mataauhimade.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1SlLrP0hhCICOcYG125OTUjImLpBkAdRK"
+        , mp3Url = "https://drive.google.com/uc?id=1sE2QH1MzBsly6AUAjMR9i7vcCW3gWsrB"
+        , title = "さらば涙と言おう(さよならはだれにいうさよならはかなしみに)"
+        , filename = "sarabanamidatoiou.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=18wklfen-74EBhH11KaN4WKKpeYgGQSQQ"
+        , mp3Url = "https://drive.google.com/uc?id=1p6P6qQGA1gcJKmMvNHjcrqp_Nj5Eik6l"
+        , title = "マック・ザ・ナイフ(まっくざないふ。Mack the Knife)"
+        , filename = "macktheknife.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1YppFo7MGHR5FnBwfY4y_0_Vj4Qj4F3ki"
+        , mp3Url = "https://drive.google.com/uc?id=1tOLeufiuT535auHKhLf4SlzBrCq4t3Z_"
+        , title = "枯葉(かれは。Autumn Leaves)"
+        , filename = "autumnleaves.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=167B2zvcn-RM43iDUOnAnYMjoKkjVEVPt"
+        , mp3Url = "https://drive.google.com/uc?id=1oWecljmH_t49KsTKVP9pET-JR__aIeI6"
+        , title = "ホエン・アイ・フォール・イン・ラブ(When I Fall in Love)"
+        , filename = "whenifallinlove.ly"
+      }
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "我が心のジョージア(Georgia on My Mind)"
+--   , filename = "georgiaonmymind.ly"
+-- }
 
 
 
