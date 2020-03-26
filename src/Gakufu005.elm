@@ -4046,6 +4046,14 @@ dict =
         , title = "君といつまでも(ふたりをゆうやみがつつむこのまどべに)"
         , filename = "kimitoitsumademo.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1zHZectStWQj3_OmjFup01lBNSW0xvlof"
+        , mp3Url = "https://drive.google.com/uc?id=1IB6b4IM19HbYVypfGP9lx747dzubuoA7"
+        , title = "恋のバカンス(ためいきのでるようなあなたのくちづけに)"
+        , filename = "koinovacance.ly"
+      }
+
+
+
 
     ]
 --, { jpgUrl = ""
