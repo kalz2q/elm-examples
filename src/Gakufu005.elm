@@ -4086,7 +4086,11 @@ dict =
 --   , title = "我が心のジョージア(Georgia on My Mind)"
 --   , filename = "georgiaonmymind.ly"
 -- }
-
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "サライ(とおいゆめすてきれずにふるさとをすてた)"
+--   , filename = "sarai.ly"
+-- }
 
 
 
