@@ -541,9 +541,9 @@ dict =
       , title = "茶色の小瓶(Little Brown Jug)"
       , filename = "chairo.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1y0CN0x6t0uBKWbR5Yp18jGixdpRXoNRE"
+    , { jpgUrl = "https://drive.google.com/uc?id=1LhLWuWrYLSlhm0bvbjpZkZVkc5IXnMgk"
       , mp3Url = "https://drive.google.com/uc?id=1Z0Chk-3kM4GclVhMjTPhpo7JhruPFwr8"
-      , title = "権兵衛さんの赤ちゃん(ごんべえさんのあかちゃんが)"
+      , title = "権兵衛さんの赤ちゃん(ごんべえさんのあかちゃん。リパブリック讃歌。ヨドバシカメラ)"
       , filename = "gonbe.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1-tbVeYFSzVYzJUsmpDF33kSoD1ZUTsBj"
@@ -4116,12 +4116,16 @@ dict =
         , title = "イッツ・オンリー・ア・ペーパー・ムーン(It's Only a Paper Moon)"
         , filename = "itsonlyapapermoon.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=140X-KYraFWbcGd508QSkcpE_PFJ05SZc"
+        , mp3Url = "https://drive.google.com/uc?id=1o_ZBBXthGRFCYschaO5vO2wAhs9nZbMa"
+        , title = "イパネマの娘(The Girl from Ipanema)"
+        , filename = "ipanema.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "イパネマの娘(The Girl from Ipanema)"
---   , filename = "ipanema.ly"
+--   , title = "バードランドの子守唄(Lullaby of Birdland)"
+--   , filename = "birdland.ly"
 -- }
-
 
 
     ]
