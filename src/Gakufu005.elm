@@ -4106,17 +4106,21 @@ dict =
         , title = "朝日のごとくさわやかに(Softly as in a Morning Sunshine)"
         , filename = "softlyasinamorningsunshine.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1tw_yDmhjVKI-nHqnVZDpRAnbK4g_t6As"
+        , mp3Url = "https://drive.google.com/uc?id=1LHbYu5xOadDi5myZvIfUI5VmPd7NO0sw"
+        , title = "サライ(とおいゆめすてきれずにふるさとをすてた)"
+        , filename = "sarai.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1kb3qJWSZHLRESMFyp5yAmC9K9x0ovmwv"
+        , mp3Url = "https://drive.google.com/uc?id=1TLcU9G9o-Ig3vgPjs_KZUEhIlvPlg3B_"
+        , title = "イッツ・オンリー・ア・ペーパー・ムーン(It's Only a Paper Moon)"
+        , filename = "itsonlyapapermoon.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "サライ(とおいゆめすてきれずにふるさとをすてた)"
---   , filename = "sarai.ly"
+--   , title = "イパネマの娘(The Girl from Ipanema)"
+--   , filename = "ipanema.ly"
 -- }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "イッツ・オンリー・ア・ペーパー・ムーン(It's Only a Paper Moon)"
---   , filename = "itsonlyapapermoon.ly"
--- }
-
 
 
 
