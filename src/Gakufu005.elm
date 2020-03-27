@@ -4081,16 +4081,42 @@ dict =
         , title = "ホエン・アイ・フォール・イン・ラブ(When I Fall in Love)"
         , filename = "whenifallinlove.ly"
       }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "我が心のジョージア(Georgia on My Mind)"
---   , filename = "georgiaonmymind.ly"
--- }
+      , { jpgUrl = "https://drive.google.com/uc?id=1u2wPydkGzsupb8tWUgP8IPrYr2L6gIaL"
+        , mp3Url = "https://drive.google.com/uc?id=1-1vxTtjg0o-1DumNIxw5fJKmawjzCv4-"
+        , title = "我が心のジョージア(Georgia on My Mind)"
+        , filename = "georgiaonmymind.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1zKbMxxqBuqN7PnnSNAO5uoklwSXMRKpy"
+        , mp3Url = "https://drive.google.com/uc?id=1sMNAw2wi0ZeItqOlcwStmQhOaW9C4bHF"
+        , title = "サテン・ドール(Satin Doll)"
+        , filename = "satindoll.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1_l4OMJT_cwpbdYnP96JGLPitXFzpW5lA"
+        , mp3Url = "https://drive.google.com/uc?id=1Uba1pGoJuxyGdL-i5YnmC1p757w9IR4n"
+        , title = "私のお気に入り(サウンド・オブ・ミュージックより My Favorite Things)"
+        , filename = "myfavoritethings.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1UXWd4iI_LSq-Wuhaw3I-QNpZLUrL6qBZ"
+        , mp3Url = "https://drive.google.com/uc?id=1roXzJVrgT9gHciXVJgoppt8zg5ROPFyr"
+        , title = "バット・ノット・フォー・ミー(ガーシュウィン。 But Not for Me)"
+        , filename = "butnotforme.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1LUvix6FEy3-iV-gpqPr5k_rJHxUmQzWh"
+        , mp3Url = "https://drive.google.com/uc?id=1PBPvOVzua9YytQ1kfA1uyTyTtrJEB7PA"
+        , title = "朝日のごとくさわやかに(Softly as in a Morning Sunshine)"
+        , filename = "softlyasinamorningsunshine.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "サライ(とおいゆめすてきれずにふるさとをすてた)"
 --   , filename = "sarai.ly"
 -- }
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "イッツ・オンリー・ア・ペーパー・ムーン(It's Only a Paper Moon)"
+--   , filename = "itsonlyapapermoon.ly"
+-- }
+
 
 
 
