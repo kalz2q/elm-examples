@@ -306,7 +306,7 @@ dict =
       , title = "ライオンは寝ている(トークンズ)"
       , filename = "lionsleeps.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1YW3ASSfbO8RFLdkGWwF83mC2RJHQlKTm"
+    , { jpgUrl = "https://drive.google.com/uc?id=1H1LXrkL3nazPNJkppQBASNMPeoL19mKk"
       , mp3Url = "https://drive.google.com/uc?id=17h58N9AFOuyCC6Mns-sVjwPoIMBqV5ag"
       , title = "ララルー(ディズニー「わんわん物語」)"
       , filename = "lalalu.ly"
@@ -1488,7 +1488,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1shul0lHD5ktjmU7T1twXO26P47duc6hi"
       , mp3Url = "https://drive.google.com/uc?id=1jOdhUTybguaIK2O-25NrD7bxqkClKIII"
-      , title = "チム・チム・チェリー(ちむちむにーちむちむにー)"
+      , title = "チム・チム・チェリー(ディズニー。メリー・ポピンズ。ちむちむにーちむちむにー)"
       , filename = "chimchimcheree.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1SmQYnELy7Qf6S-HLHitb1f7_z1hqzwPg"
@@ -2673,7 +2673,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1zzlEqMW8mSKV88GXV7WX8PX0DK62H6Jy"
       , mp3Url = "https://drive.google.com/uc?id=1Q_6c0sojHQBvXjHXye5vu_yXc-TG-GcP"
-      , title = "星に願いを(ほしにねがいを。ディズニー。かがやくほしにこころのゆめを)"
+      , title = "星に願いを(ディズニー。ピノキオ。かがやくほしにこころのゆめを)"
       , filename = "hoshininegaiwo.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1_2JhApHIZTvo9l8SGm9R7jVxsOk0_hnl"
@@ -4126,9 +4126,31 @@ dict =
         , title = "バードランドの子守唄(Lullaby of Birdland)"
         , filename = "birdland.ly"
       }
-
-
-
+      , { jpgUrl = "https://drive.google.com/uc?id=1SHxp4TuSkbSx2ypfHt2Q0Abp0B3jbt0o"
+        , mp3Url = "https://drive.google.com/uc?id=1SUS2QHFDFmvejwEoI6E5WOVEO8sqUdkw"
+        , title = "スーパーカリフラジリスティックエクスピアリドーシャス(ディズニー メリー・ポピンズ)"
+        , filename = "supercalifragilisti.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1nSN7fPftpqRysfD-KzNdaGE7souGhWxJ"
+        , mp3Url = "https://drive.google.com/uc?id=10grEDuz1ftD1rDTioygw3PuoRRNBAXoP"
+        , title = "狼なんかこわくない(ディズニー。Who's Afraid of the Big Bad Wolf)"
+        , filename = "whosafraidof.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1i9cJMGu8Q8WcDbkUYWE-WRMOI_oS7PsA"
+        , mp3Url = "https://drive.google.com/uc?id=1VyhiClEyNUbkL50H1jwBghvN0DHYPI7I"
+        , title = "ヨーホー(ディズニー。カリブの海賊)"
+        , filename = "yohoyoho.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1ll0_aLfB77bW3c7HhUp-8C02gBej3j_D"
+        , mp3Url = "https://drive.google.com/uc?id=1YtjLCRfMj-t3f_356eW2Awj5Qjh4l9kM"
+        , title = "愛のうたごえ(ディズニー。バンビ)"
+        , filename = "bambi.ly"
+      }
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "ふしぎの国のアリス(ディズニー。Alice in Wonderland)"
+--   , filename = "aliceinwonerland.ly"
+-- }
 
 
     ]
