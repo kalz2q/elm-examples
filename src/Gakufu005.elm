@@ -308,7 +308,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1YW3ASSfbO8RFLdkGWwF83mC2RJHQlKTm"
       , mp3Url = "https://drive.google.com/uc?id=17h58N9AFOuyCC6Mns-sVjwPoIMBqV5ag"
-      , title = "ラ・ラ・ルー(ディズニー「わんわん物語」)"
+      , title = "ララルー(ディズニー「わんわん物語」)"
       , filename = "lalalu.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1VxPJtDXF08Q-QCnRz73_jqQ9BDNeivRL"
@@ -708,7 +708,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1w64ryY-NyXIhQza4gWD9ST83rVd6bkEU"
       , mp3Url = "https://drive.google.com/uc?id=1jxeYCnXQ7CZMpEIrn_OJ-hm9dGtPiND9"
-      , title = "小さな世界(ちいさなせかい、It's a small world、せかいじゅうどこだって)"
+      , title = "小さな世界(ディズニー。It's a small world。 せかいじゅうどこだって)"
       , filename = "smallworld.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1xCXyoEw5-9zctBrnz640d3WUDeMYR8U0"
@@ -1318,7 +1318,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=15GFgLIcsMuXpvrXFeke_-5n_sGuhgyj3"
       , mp3Url = "https://drive.google.com/uc?id=1Zk-mEbKwkAkS1Mv3739Fp39BkyjNNWW8"
-      , title = "ハイ・ホー(くちぶえをげんきにふきならし、ディズニー「白雪姫」)"
+      , title = "ハイ・ホー(くちぶえをげんきにふきならし、ディズニー「白雪姫」より)"
       , filename = "heighho.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1yNb_hgcUcS2yhL6y-C0IR3RkP14gw5zH"
@@ -1518,7 +1518,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1d2xnCa8m97RywIk_m5CFyO4V0IluYyx6"
       , mp3Url = "https://drive.google.com/uc?id=1vDroijqShW2tf4bzOc72Zg-XbcvpsgU2"
-      , title = "ミッキーマウス・マーチ(ぼくらのくらぶのりーだーは)"
+      , title = "ミッキーマウス・マーチ(ディズニー。ぼくらのくらぶのりーだーは)"
       , filename = "mickeymousemarch.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1oEJxJ_m3wsvDtvSjQRcIUoxN2U4MaItv"
@@ -4121,11 +4121,14 @@ dict =
         , title = "イパネマの娘(The Girl from Ipanema)"
         , filename = "ipanema.ly"
       }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "バードランドの子守唄(Lullaby of Birdland)"
---   , filename = "birdland.ly"
--- }
+      , { jpgUrl = "https://drive.google.com/uc?id=102YzYVUqyKA5CKEe5sWaeMrdiLKNs6ow"
+        , mp3Url = "https://drive.google.com/uc?id=1AXH2xZNgwY8SsikSehYZejpnqNBshN0T"
+        , title = "バードランドの子守唄(Lullaby of Birdland)"
+        , filename = "birdland.ly"
+      }
+
+
+
 
 
     ]
