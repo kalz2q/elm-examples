@@ -4128,7 +4128,7 @@ dict =
       }
       , { jpgUrl = "https://drive.google.com/uc?id=1SHxp4TuSkbSx2ypfHt2Q0Abp0B3jbt0o"
         , mp3Url = "https://drive.google.com/uc?id=1SUS2QHFDFmvejwEoI6E5WOVEO8sqUdkw"
-        , title = "スーパーカリフラジリスティックエクスピアリドーシャス(ディズニー メリー・ポピンズ)"
+        , title = "スーパーカリフラジリスティックエクスピアリドーシャス(ディズニー「メリー・ポピンズ」より)"
         , filename = "supercalifragilisti.ly"
       }
       , { jpgUrl = "https://drive.google.com/uc?id=1nSN7fPftpqRysfD-KzNdaGE7souGhWxJ"
@@ -4138,19 +4138,46 @@ dict =
       }
       , { jpgUrl = "https://drive.google.com/uc?id=1i9cJMGu8Q8WcDbkUYWE-WRMOI_oS7PsA"
         , mp3Url = "https://drive.google.com/uc?id=1VyhiClEyNUbkL50H1jwBghvN0DHYPI7I"
-        , title = "ヨーホー(ディズニー。カリブの海賊)"
+        , title = "ヨーホー(ディズニー「カリブの海賊」より Yo Ho)"
         , filename = "yohoyoho.ly"
       }
       , { jpgUrl = "https://drive.google.com/uc?id=1ll0_aLfB77bW3c7HhUp-8C02gBej3j_D"
         , mp3Url = "https://drive.google.com/uc?id=1YtjLCRfMj-t3f_356eW2Awj5Qjh4l9kM"
-        , title = "愛のうたごえ(ディズニー。バンビ)"
+        , title = "愛のうたごえ(ディズニー「バンビ」より Bambi)"
         , filename = "bambi.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1L5LJVilXBhi00Hzrv-kWxvLKpmEleN0D"
+        , mp3Url = "https://drive.google.com/uc?id=1B-H-bJzAEM9YD_MHef7T06HJdgXfFWtp"
+        , title = "ふしぎの国のアリス(ディズニー。Alice in Wonderland)"
+        , filename = "aliceinwonerland.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1DrVK8wJxys4fRBbQa782vJwrjfpbVfag"
+        , mp3Url = "https://drive.google.com/uc?id=1jZePx7v6k1ET3gucfj_qkTRT5gVwI2Hd"
+        , title = "これが恋かしら(ディズニー「シンデレラ」より So This is Love)"
+        , filename = "sothisislove.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1LvwPQt1_DYyxJiEZFMSFTyZmA4PZ3dJn"
+        , mp3Url = "https://drive.google.com/uc?id=1ESiHrmp8vm-JrAX1ktnraUFY5PfkAG2b"
+        , title = "ホール・ニュー・ワールド(ディズニー「アラジン」より A Whole New World)"
+        , filename = "wholenewworld.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1EYYEuim6pSCgxReAFFERnMSLAETyTZAn"
+        , mp3Url = "https://drive.google.com/uc?id=1VdzJ_Z5bpDg1pWuPtD4HPhxBDrAwevOh"
+        , title = "いつか夢で(ディズニー「眠れる森の美女」より。Once Upon a Dream)"
+        , filename = "onceuponadream.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1xFKjKSkHsJxS8jOzU5clkFgis8w-BKQV"
+        , mp3Url = "https://drive.google.com/uc?id=1gXXlUeKynFjr2OF86wIfuudrmK5eEVUq"
+        , title = "愛を感じて(ディズニー「ライオン・キング」より Can you feel the love tonight)"
+        , filename = "canyoufeelthelovetonight.ly"
       }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "ふしぎの国のアリス(ディズニー。Alice in Wonderland)"
---   , filename = "aliceinwonerland.ly"
+--   , title = "パート・オブ・ユア・ワールド(ディズニー「リトル・マーメイド」より Part of your World)"
+--   , filename = "partofyourworld.ly"
 -- }
+
+
 
 
     ]
