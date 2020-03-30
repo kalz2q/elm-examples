@@ -286,14 +286,14 @@ dict =
       , title = "アメイジング・グレイス"
       , filename = "amazinggrace.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=17y4yFh6UfyjTlQhjPH7fgdgWwj20oP1S"
+    , { jpgUrl = "https://drive.google.com/uc?id=1YFooIrkOo7jR71RSAgRPuajZSDnO1iB2"
       , mp3Url = "https://drive.google.com/uc?id=1jlDhEgmfEGUZSIA7StuHTz_esjN3Rb8e"
-      , title = "夢はひそかに(ディズニー「シンデレラ」)"
+      , title = "夢はひそかに(ディズニー「シンデレラ」より Dream Is a Wish Your Heart Makes)"
       , filename = "dreamisawish.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=11nnSYaiShFBVFjnm-C-wXVuVr8zTVe7e"
+    , { jpgUrl = "https://drive.google.com/uc?id=1sLAN3y2CLDXqg73ZazocpbqXWrAuqekO"
       , mp3Url = "https://drive.google.com/uc?id=1XaG3H7bv9ftKFAzvnVvLsT2KWMqGLuP0"
-      , title = "右から2番目の星(ディズニー「ピーター・パン」)"
+      , title = "右から2番目の星(ディズニー「ピーター・パン」より The Second Star to the Right)"
       , filename = "migikara2banme.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1rHwKYFxld4fdO0tfBcfJRSjQgznWBxil"
@@ -4171,13 +4171,21 @@ dict =
         , title = "愛を感じて(ディズニー「ライオン・キング」より Can you feel the love tonight)"
         , filename = "canyoufeelthelovetonight.ly"
       }
+      , { jpgUrl = "https://drive.google.com/uc?id=1mSJrVPmqCjBxqx2tPGJpqZ00KAyBxP6N"
+        , mp3Url = "https://drive.google.com/uc?id=1q_vFkCVH2hAYkhdCXKdCPQKYjgkEuyr2"
+        , title = "パート・オブ・ユア・ワールド(ディズニー「リトル・マーメイド」より Part of your World)"
+        , filename = "partofyourworld.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1rjMh7CKE_-2SH9CJ6UhMA09qVDYpeKLx"
+        , mp3Url = "https://drive.google.com/uc?id=1dphNt663eFejNnuE0PjFZsW34OvtFXzi"
+        , title = "ヘイ・ジュード(ビートルズ。Hey Jude)"
+        , filename = "heyjude.ly"
+      }
 --, { jpgUrl = ""
 --   , mp3Url = ""
---   , title = "パート・オブ・ユア・ワールド(ディズニー「リトル・マーメイド」より Part of your World)"
---   , filename = "partofyourworld.ly"
+--   , title = "デイドリーム・ビリーバー(モンキーズ。Daydream Believer)"
+--   , filename = "daydreambeliever.ly"
 -- }
-
-
 
 
     ]
