@@ -346,7 +346,7 @@ dict =
       , title = "ポリリズム(Perfume とてもだいじなきみのおもいは)"
       , filename = "polyrhythm.ly"
       }
-    , { jpgUrl = "https://drive.google.com/uc?id=1Q-qvIUB4vJhojte5Gl4TcebEfnP2XoXs"
+    , { jpgUrl = "https://drive.google.com/uc?id=1UEqlyOQSvlYp_25YTefAnLClXg83rBLM"
       , mp3Url = "https://drive.google.com/uc?id=1ULAQpP62VcW3oGR4LcZzgS-7-yutIsVk"
       , title = "春よ、来い(松任谷由美。あわきひたりたつにわかあめ)"
       , filename = "haruyokoimatsutoya.ly"
@@ -4180,6 +4180,21 @@ dict =
         , mp3Url = "https://drive.google.com/uc?id=1dphNt663eFejNnuE0PjFZsW34OvtFXzi"
         , title = "ヘイ・ジュード(ビートルズ。Hey Jude)"
         , filename = "heyjude.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1HgrKIwQJZJMITKH_4oMDNV3LSzGVo2UZ"
+        , mp3Url = "https://drive.google.com/uc?id=1yXHR98815c5KAWe_rsmWTgKRbM9p_O_t"
+        , title = "また君に恋してる(坂本冬美。あさつゆがまねくひかりをあびて)"
+        , filename = "matakiminikoishiteru.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1SYDzB-HPpxQePzeD3EKBgny5aw8ib0A_"
+        , mp3Url = "https://drive.google.com/uc?id=13C_Xa_rq7guORc5WrszmOltnWAG7-GwK"
+        , title = "愛のままで(秋元順子。ことりたちはなにをさわぐのあまいかじつが)"
+        , filename = "ainomamade.ly"
+      }
+      , { jpgUrl = "https://drive.google.com/uc?id=1-uW3B2dYWcG7sxCbP-kPN6GgXF80hz_T"
+        , mp3Url = "https://drive.google.com/uc?id=1sdeA6Co1Ix5fgJ1NFgD9D12399Lwqa_E"
+        , title = "人生いろいろ(島倉千代子。しんでしまおうなんてなやんだりしたわ)"
+        , filename = "jinseiiroiro.ly"
       }
 --, { jpgUrl = ""
 --   , mp3Url = ""
