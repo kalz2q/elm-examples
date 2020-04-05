@@ -56,7 +56,13 @@ subscriptions model =
 
 view : Model -> Html Msg
 view model =
-    div [] []
+    div []
+        [ text "Convert latin to arabic"
+        , p [] [ text "SabaaH" ]
+        , button [] [ text "Show Answer" ]
+        , button [] [ text "Delete" ]
+        , button [] [ text "Next" ]
+        ]
 
 
 dict =

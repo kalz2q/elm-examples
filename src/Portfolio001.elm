@@ -103,11 +103,12 @@ greeting =
                 , Html.a [ attribute "href" "https://dotinstall.com", attribute "target" "_blank" ]
                     [ Html.li [ style "display" "inline-block" ] [ Html.img [ src "photos.png", width 40, alt "写真サイトへ" ] [] ] ]
                 ]
-            , Html.p [ 
-                style "color" "gray"
+            , Html.p
+                [ style "color" "gray"
                 , style "font-size" "20px"
                 , style "text-align" "right"
-            ] [ text ("©" ++ "TaroCatty") ]
+                ]
+                [ text ("©" ++ "TaroCatty") ]
             ]
         ]
 
