@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>utfquiz</title>
+    <style>
+*{
+  font-family: 'Not Serif CJK JP', serif;
+  background: mistyrose;
+  font-weight: 500;
+}
+.container {
+  width: 400px;
+  margin: 10px auto;
+}
+.clearfix:after {
+  content:'';
+  display:block;
+  clear:both;
+}
+#question {
+  background: lavender;
+  color: midnightblue;
+  font-size: 300%;
+  height: 100px;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.button {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+}
+#answerbutton {
+  background: dodgerblue;
+  color: white;
+  box-shadow: 0 4px 0 steelblue;
+  margin-bottom: 10px;
+}
+#answer {
+  background: lavender;
+  color: midnightblue;
+  height: 100px;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.leftright {
+  width: 150;
+  cursor: pointer;
+  background: dodgerblue;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 0 steelblue;
+  margin: 0 10px 10px;
+  float:left;
+}
+#nextbutton {
+  background: dodgerblue;
+  color: white;
+  box-shadow: 0 4px 0 steelblue;
+  margin-bottom: 10px;
+  float:right;
+}
+.selected {
+  opacity: 0.5;
+}
+#result {
+  border: 3px solid #ccc;
+  position: absolute;
+  top: -500px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #fff;
+  width: 300px;
+  border-radius: 3px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  transition: 0.9s ease-out;
+  font-weight: 700;
+}
+
+#result.show {
+  top: 50px;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="question">カンザス州の北の州は</div>
+      <div id="answerbutton" class="button">答えを見る</div>
+      <div id="answer">ネブラスカ州</div>
+
+      <div class="buttons clearfix">
+        <div id="leftbutton" class="button leftright  ">知ってた</div>
+        <div id="rightbutton" class="button leftright  ">残す</div>
+        <div id="nextbutton" class="button  ">次の問題へ</div>
+      </div>
+      <div id="score" style="float:right">
+        <p>Score: 8/2</p>
+      </div>
+      <div id="result" class="button">もう一度はじめから</div>
+    </div>
+    <script src="utf.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+      $(()=>{
+        let questions = Object.keys(utf);
+        let currentNum = 0;
+        let quizNum = 0;
+
+        function setQuiz(){
+          if (questions.length === 0) {
+            $('#result').addClass('show');
+          }
+          $('#answer, #leftbutton, #rightbutton').hide().removeClass('selected');
+          quizNum = Math.floor(Math.random()*questions.length);
+
+          $('#question').text(questions[quizNum]);
+          $('#answer').text(utf[questions[quizNum]]);
+          $('#score > p').text('問題数 ' + questions.length + ' / ' +Object.keys(utf).length);
+        }
+        $('#answerbutton').click(function(){
+          $('#answer, #leftbutton, #rightbutton').show();
+        });
+        $('#nextbutton').click(function(){
+          if ($('#leftbutton').hasClass('selected')) {
+            questions.splice(quizNum, 1);
+          }
+          setQuiz();
+        });
+        $('#leftbutton').click(function(){
+          $('#leftbutton').addClass('selected');
+          $('#rightbutton').removeClass('selected');
+        })
+        $('#rightbutton').click(function(){
+          $('#rightbutton').addClass('selected');
+          $('#leftbutton').removeClass('selected');
+        });
+        $('#result').click(function(){
+          location.reload();
+        });
+        setQuiz();
+
+      })
+    </script>
+  </body>
+</html>
+
