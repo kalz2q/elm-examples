@@ -1,4 +1,4 @@
-module CounterReset exposing (Model, Msg(..), init, main, update, view)
+module Counterreset exposing (Model, Msg(..), init, main, update, view)
 
 -- counter program with addtional reset buttun
 
