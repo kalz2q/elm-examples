@@ -246,8 +246,44 @@ dict =
       , arabic = "بُنِّيّ"
       , meaning = "brown"
       }
+    , { latin = "alquraan"
+      , arabic = "اَلْقُرْآن"
+      , meaning = "Koran"
+      }
+    , { latin = "bikhayrin"
+      , arabic = "بِخَيْرٍ"
+      , meaning = "be fine"
+      }
+    , { latin = "haadhaa zaujii muHammad"
+      , arabic = "هٰذا زَوْجي مُحَمَّد"
+      , meaning = "This is my husband Mohamed."
+      }
+    , { latin = "madiinah"
+      , arabic = "مَدينة"
+      , meaning = "city"
+      }
+    , { latin = "haadhihi"
+      , arabic = "هاذِهِ"
+      , meaning = "this one"
+      }
+    , { latin = "qadiimah"
+      , arabic = "قَديمة"
+      , meaning = "old"
+      }
+    , { latin = "haadhaa"
+      , arabic = "هذا"
+      , meaning = "this is"
+      }
+    , { latin = "Saaluun"
+      , arabic = "صالون"
+      , meaning = "saloon, living room"
+      }
 
-    -- , { latin  = ""
+    -- , { latin = ""
+    --   , arabic = ""
+    --   , meaning = ""
+    --   }
+    -- , { latin = ""
     --   , arabic = ""
     --   , meaning = ""
     --   }
