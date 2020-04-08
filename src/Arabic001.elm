@@ -319,14 +319,66 @@ dict =
       }
 
 
-    -- , { latin  = ""
-    --   , arabic = ""
-    --   , meaning = ""
-    --   }
-    -- , { latin  = ""
-    --   , arabic = ""
-    --   , meaning = ""
-    --   }
+    , { latin  = "alHa2iT"
+      , arabic = "الْحائط"
+      , meaning = "the wall"
+      }
+    , { latin  = "Ha2iT"
+      , arabic = "حائِط"
+      , meaning = "wall"
+      }
+
+    , { latin  = "hadhaa alHaa2iT kabiir"
+      , arabic = "هَذا الْحائِط كَبير "
+      , meaning = "this wall is big"
+      }
+
+    , { latin = "alkalb"
+      , arabic = "الْكَلْب"
+      , meaning = "the dog"
+      }
+
+    , { latin  = "hadhihi albinaayA"
+      , arabic = "هذِهِ الْبِناية "
+      , meaning = "this building"
+      }
+
+    , { latin  = "alghurfA"
+      , arabic = "اَلْغُرفة"
+      , meaning = "the room"
+      }
+    , { latin  = "alghurfA kaBiirA"
+      , arabic = "اَلْغرْفة كَبيرة"
+      , meaning = "the room is big"
+      }
+
+    , { latin  = "hadhihi alghurfA kabiirA"
+      , arabic = "هَذِهِ الْغُرْفة كَبيرة"
+      , meaning = "this room is big"
+      }
+    , { latin  = "hadhaa alkalb kalbii"
+      , arabic = "هَذا  الْكَلْب كَْلبي"
+      , meaning = "this dog is my dog"
+      }
+
+    , { latin  = "hadhaa alkalb jaw3aan"
+      , arabic = "هَذا الْكَلْب جَوْعان"
+      , meaning = "this dog is hungry"
+      }
+    , { latin  = "hadhihi albinaayA waas3A"
+      , arabic = "هَذِهِ الْبناية واسِعة"
+      , meaning = "this building is spacious"
+      }
+    , { latin  = "alkalb ghariib"
+      , arabic = "اَلْكَلْب غَريب"
+      , meaning = "the dog is weird"
+      }
+    , { latin  = "alkalb kalbii"
+      , arabic = "اَلْكَلْب كَلْبي"
+      , meaning = "the dog is my dog"
+      }
+
+
 
     -- , { latin  = ""
     --   , arabic = ""
@@ -338,6 +390,13 @@ dict =
     --   }
 
 
-
+    -- , { latin  = ""
+    --   , arabic = ""
+    --   , meaning = ""
+    --   }
+    -- , { latin  = ""
+    --   , arabic = ""
+    --   , meaning = ""
+    --   }
 
     ]
