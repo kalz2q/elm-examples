@@ -174,6 +174,13 @@ dict =
       , arabic = "كَبير"
       , meaning = "large, big"
       }
+    , { latin = "kabirah"
+      , arabic = "كبيرة"
+      , meaning = "large, big"
+      }
+
+
+      كبيرة
     , { latin = "bayt"
       , arabic = "بَيْت"
       , meaning = "a house"
@@ -247,8 +254,90 @@ dict =
       , meaning = "brown"
       }
 
+    , { latin  = "mruu2a"
+      , arabic = "مْروءة"
+      , meaning = "chivalry"
+      }
+
+    , { latin  = "kitaab"
+      , arabic = "كِتاب"
+      , meaning = "a book"
+      }
+
+
+
+    , { latin  = "Taawilah"
+      , arabic = "طاوِلة"
+      , meaning = "a table"
+      }
+
+    , { latin  = "haadhihi"
+      , arabic = "هاذِهِ"
+      , meaning = "this is"
+      }
+    , { latin  = "hadhihi madiinA qadiinA"
+      , arabic = "هَذِهِ مَدينة قَديمة"
+      , meaning = "This is an ancient city"
+      }
+
+
+    , { latin  = "HadiiqA"
+      , arabic = "حَديقة"
+      , meaning = "garden"
+      }
+
+
+    , { latin  = "hadhihi HadiiqA 2arabyyA"
+      , arabic = "هَذِهِ حَديقة عَرَبيّة"
+      , meaning = "this is an Arab garden"
+      }
+
+    , { latin  = "hadhihi binaayA jamiilA"
+      , arabic = "هَذِهِ بِناية جَميلة"
+      , meaning = "this is a beautiful building"
+      }
+
+    , { latin  = "hadhaa muhammad"
+      , arabic = "هَذا مُحَمَّد"
+      , meaning = "this is mohamed"
+      }
+
+    , { latin  = "hadhaa Saaluun ghaalii"
+      , arabic = "هَذا صالون غالي"
+      , meaning = "this is an expensive living room"
+      }
+
+    , { latin  = "hadhihi HadiiqA jamiilA"
+      , arabic = "هَذِهِ حَديقة جَميلة"
+      , meaning = "this is a pretty garden"
+      }
+
+
+        , { latin  = "hadhihi HadiiqA qadiima"
+      , arabic = "هَذِهِ حَديقة قَديمة"
+      , meaning = "this is an old garden"
+      }
+
+
     -- , { latin  = ""
     --   , arabic = ""
     --   , meaning = ""
     --   }
+    -- , { latin  = ""
+    --   , arabic = ""
+    --   , meaning = ""
+    --   }
+
+    -- , { latin  = ""
+    --   , arabic = ""
+    --   , meaning = ""
+    --   }
+    -- , { latin  = ""
+    --   , arabic = ""
+    --   , meaning = ""
+    --   }
+
+
+
+
     ]
