@@ -7,6 +7,7 @@ import Html.Events as HE
 import Random
 
 
+
 main : Program () Model Msg
 main =
     Browser.element
@@ -565,6 +566,21 @@ dict =
       , arabic = "اَلْحَمْدُ لِله"
       , meaning = "Praise be to God"
       }
-
+    , { latin  = "SaHiifA"
+      , arabic = "صَحيفة"
+      , meaning = "newspaper"
+      }
+    , { latin  = "raqam"
+      , arabic = "رَقَم"
+      , meaning = "number"
+      }
+    , { latin  = "haatif"
+      , arabic = "هاتِف"
+      , meaning = "phone"
+      }
+    , { latin  = "2amriikiyy"
+      , arabic = "أمْريكِي"
+      , meaning = "American"
+      }
 
     ]
