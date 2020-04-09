@@ -241,7 +241,7 @@ dict =
       , arabic = "أَزْرَق"
       , meaning = "blue"
       }
-    , { latin = "2abyad"
+    , { latin = "2abyaD"
       , arabic = "أَبْيَض "
       , meaning = "white"
       }
@@ -289,33 +289,33 @@ dict =
 
     , { latin  = "hadhihi HadiiqA 2arabyyA"
       , arabic = "هَذِهِ حَديقة عَرَبيّة"
-      , meaning = "this is an Arab garden"
+      , meaning = "This is an Arab garden"
       }
 
     , { latin  = "hadhihi binaayA jamiilA"
       , arabic = "هَذِهِ بِناية جَميلة"
-      , meaning = "this is a beautiful building"
+      , meaning = "This is a beautiful building"
       }
 
     , { latin  = "hadhaa muhammad"
       , arabic = "هَذا مُحَمَّد"
-      , meaning = "this is mohamed"
+      , meaning = "This is mohamed"
       }
 
     , { latin  = "hadhaa Saaluun ghaalii"
       , arabic = "هَذا صالون غالي"
-      , meaning = "this is an expensive living room"
+      , meaning = "This is an expensive living room"
       }
 
     , { latin  = "hadhihi HadiiqA jamiilA"
       , arabic = "هَذِهِ حَديقة جَميلة"
-      , meaning = "this is a pretty garden"
+      , meaning = "This is a pretty garden"
       }
 
 
         , { latin  = "hadhihi HadiiqA qadiima"
       , arabic = "هَذِهِ حَديقة قَديمة"
-      , meaning = "this is an old garden"
+      , meaning = "This is an old garden"
       }
 
 
@@ -349,7 +349,7 @@ dict =
       }
     , { latin  = "alghurfA kaBiirA"
       , arabic = "اَلْغرْفة كَبيرة"
-      , meaning = "the room is big"
+      , meaning = "Theroom is big"
       }
 
     , { latin  = "hadhihi alghurfA kabiirA"
@@ -371,32 +371,155 @@ dict =
       }
     , { latin  = "alkalb ghariib"
       , arabic = "اَلْكَلْب غَريب"
-      , meaning = "the dog is weird"
+      , meaning = "The dog is weird"
       }
     , { latin  = "alkalb kalbii"
       , arabic = "اَلْكَلْب كَلْبي"
-      , meaning = "the dog is my dog"
+      , meaning = "The dog is my dog"
       }
-
-
-
-    -- , { latin  = ""
-    --   , arabic = ""
-    --   , meaning = ""
-    --   }
-    -- , { latin  = ""
-    --   , arabic = ""
-    --   , meaning = ""
-    --   }
-
-
-    -- , { latin  = ""
-    --   , arabic = ""
-    --   , meaning = ""
-    --   }
-    -- , { latin  = ""
-    --   , arabic = ""
-    --   , meaning = ""
-    --   }
+    , { latin  = "hunaak"
+      , arabic = "هُناك"
+      , meaning = "there"
+      }
+    , { latin  = "hunaak bayt"
+      , arabic = "هُناك بَيْت"
+      , meaning = "There is a house"
+      }
+    , { latin  = "albayt hunaak"
+      , arabic = "اَلْبَيْت هُناك"
+      , meaning = "The house is there"
+      }
+    , { latin  = "hunaak wishaaH 2abyaD"
+      , arabic = "هُناك وِشاح أبْيَض"
+      , meaning = "There is a white scarf"
+      }
+    , { latin  = "alkalb munaak"
+      , arabic = "اَلْكَلْب مُناك"
+      , meaning = "The dog is there"
+      }
+    , { latin  = "fii shanTatii"
+      , arabic = "في شَنْطَتي"
+      , meaning = "in my bag"
+      }
+    , { latin  = "hal 3indak maHfaDHA yaa juurj"
+      , arabic = "هَل عِنْدَك مَحْفَظة يا جورْج"
+      , meaning = "do you have a wallet , george"
+      }
+    , { latin  = "3indii shanTA ghaalyA"
+      , arabic = "عِنْدي شَنْطة غالْية"
+      , meaning = "I have an expensive bag"
+      }
+    , { latin  = "shanTatii fii shanTatik ya raanya"
+      , arabic = "شِنْطَتي في شَنْطتِك يا رانْيا"
+      , meaning = "my bag is in your bag rania"
+      }
+    , { latin  = "huunak maHfaDhA SaghiirA"
+      , arabic = "هُناك مَحْفَظة صَغيرة"
+      , meaning = "There is a small wallet"
+      }
+    , { latin  = "hunaak kitab jadiid"
+      , arabic = "هَناك كِتاب جَديد"
+      , meaning = "There is a new book"
+      }
+    , { latin  = "hunaak kitaab Saghiir"
+      , arabic = "هُناك كِتاب صَغير"
+      , meaning = "There is a small book"
+      }
+    , { latin  = "hunaak qubba3A fii shanTatak yaa bob"
+      , arabic = "هُناك قُبَّعة في شَنْطَتَك يا بوب"
+      , meaning = "There is a hat in your bag bob"
+      }
+    , { latin  = "hunaak shanTA SaghiirA"
+      , arabic = "هُناك شَنْطة صَغيرة"
+      , meaning = "There is a small bag"
+      }
+    , { latin  = "shanTatii hunaak"
+      , arabic = "شَنْطَتي هُناك"
+      , meaning = "my bag is over there"
+      }
+    , { latin  = "hunaak kitaab Saghiir wawishaaH Kabiir fii ShanTatii"
+      , arabic = "هُناك كِتاب صَغير وَوِشاح كَبير في شَنْطَتي"
+      , meaning = "There is a small book and a big scarf in my bag"
+      }
+    , { latin  = "hunaak maHfaTA Saghiir fii ShanTatii"
+      , arabic = "هُناك مَحْفَظة صَغيرة في شَنْطَتي"
+      , meaning = "There is a small wallet in my bag"
+      }
+    , { latin  = "aljaami3a hunaak"
+      , arabic = "اَلْجامِعة هُناك"
+      , meaning = "The university is there"
+      }
+    , { latin  = "hunaak kitaab"
+      , arabic = "هُناك كِتاب"
+      , meaning = "There is a book"
+      }
+    , { latin  = "almadiina hunaak"
+      , arabic = "اَلْمَدينة هُناك"
+      , meaning = "Thecity is there"
+      }
+    , { latin  = "hal 3indik shanTA ghaalyA ya Riim"
+      , arabic = "هَل عِندِك شَنْطة غالْية يا ريم"
+      , meaning = "do you have an expensive bag Reem"
+      }
+    , { latin  = "hal 3indik mashruub ya saamyA"
+      , arabic = "هَل عِنْدِك مَشْروب يا سامْية"
+      , meaning = "do you have a drink samia"
+      }
+    , { latin  = "hunaak daftar rakhiiS"
+      , arabic = "هُناك دَفْتَر رَخيص"
+      , meaning = "There is a cheep notebook"
+      }
+    , { latin  = "laysa 3indii daftar"
+      , arabic = "لَيْسَ عِنْدي دَفْتَر"
+      , meaning = "I do not have a notebook"
+      }
+    , { latin  = "laysa hunaak masharuub fii shanTatii"
+      , arabic = "لَيْسَ هُناك مَشْروب في شَنْطَتي"
+      , meaning = "There is no drink in my bag"
+      }
+    , { latin  = "laysa hunaak kitaab qaSiir fii baytii"
+      , arabic = "لَيْسَ هُناك كِتاب قَصير في بَيْتي"
+      , meaning = "There is no short book in my house"
+      }
+    , { latin  = "laysa hunaak daftar rakhiiS"
+      , arabic = "لَيْسَ هُناك دَفْتَر رَخيص"
+      , meaning = "There is no cheap notebook"
+      }
+    , { latin  = "laysa 3indii sii dii"
+      , arabic = "لَيْسَ عَنْدي سي دي"
+      , meaning = "I do not have a CD"
+      }
+    , { latin  = "laysa hunaak qalam fii shanTatii"
+      , arabic = "لَيْسَ هُناك قَلَم في شَنْطَتي"
+      , meaning = "There is no pen in my bag"
+      }
+    , { latin  = "laysa hunaak kitaab qaSiir fii shanTatii"
+      , arabic = "لَيْسَ هُناك كِتاب قَصير في شَنْطَتي"
+      , meaning = "There is no short book in my bag"
+      }
+    , { latin  = "laysa hunaak daftar 2abyaD"
+      , arabic = "لَيْسَ هُناك دَفْتَر أَبْيَض"
+      , meaning = "There is no white notebook."
+      }
+    , { latin  = "maTbakh"
+      , arabic = "مَطْبَخ"
+      , meaning = "a kitchen"
+      }
+    , { latin  = "3ilkA"
+      , arabic = "عِلْكة"
+      , meaning = "gum"
+      }
+    , { latin  = "miftaaH"
+      , arabic = "مفْتاح"
+      , meaning = "a key"
+      }
+    , { latin  = "tuub"
+      , arabic = "توب"
+      , meaning = "top"
+      }
+    , { latin  = "nuquud"
+      , arabic = "نُقود"
+      , meaning = "money"
+      }
 
     ]
