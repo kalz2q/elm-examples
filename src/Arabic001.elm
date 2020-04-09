@@ -213,7 +213,7 @@ dict =
       , arabic = "ريم"
       , meaning = "Reem(name)"
       }
-    , { latin = "tannuurah"
+    , { latin = "tannuurA"
       , arabic = "تَنّورة"
       , meaning = "a skirt"
       }
@@ -245,7 +245,7 @@ dict =
       , arabic = "أَبْيَض "
       , meaning = "white"
       }
-    , { latin = "qubb3ah"
+    , { latin = "qubb3A"
       , arabic = "قُبَّعة"
       , meaning = "a hat"
       }
@@ -521,5 +521,50 @@ dict =
       , arabic = "نُقود"
       , meaning = "money"
       }
+    , { latin  = "aljazeerA"
+      , arabic = "الجزيرة"
+      , meaning = "Al Jazeera"
+      }
+    , { latin  = "kayfa"
+      , arabic = "كَيْفَ"
+      , meaning = "how"
+      }
+    , { latin  = "kursii"
+      , arabic = "كَرْسي"
+      , meaning = "a chair"
+      }
+    , { latin  = "sari3"
+      , arabic = "سَريع"
+      , meaning = "fast"
+      }
+    , { latin  = "Haasuub"
+      , arabic = "حاسوب"
+      , meaning = "a computer"
+      }
+    , { latin  = "maktab"
+      , arabic = "مَكْتَب"
+      , meaning = "office"
+      }
+    , { latin  = "hadhaa maktab kabiir"
+      , arabic = "هَذا مَِكْتَب كَبير"
+      , meaning = "This is a big office"
+      }
+    , { latin  = "kursii alqiTTA"
+      , arabic = "كُرْسي الْقِطّة"
+      , meaning = "the cat's chair"
+      }
+    , { latin  = "Haasuub al2ustaadhA"
+      , arabic = "حاسوب اَلْأُسْتاذة"
+      , meaning = "professor's computer"
+      }
+    , { latin  = "kursii jadiid"
+      , arabic = "كُرْسي جَديد"
+      , meaning = "a new chair"
+      }
+    , { latin  = "alHamdu lilh"
+      , arabic = "اَلْحَمْدُ لِله"
+      , meaning = "Praise be to God"
+      }
+
 
     ]
