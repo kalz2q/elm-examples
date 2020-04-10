@@ -262,10 +262,6 @@ dict =
       , arabic = "طاوِلة"
       , meaning = "a table"
       }
-    , { latin = "haadhihi"
-      , arabic = "هاذِهِ"
-      , meaning = "this is"
-      }
     , { latin = "hadhihi madiinA qadiinA"
       , arabic = "هَذِهِ مَدينة قَديمة"
       , meaning = "This is an ancient city"
@@ -554,4 +550,27 @@ dict =
       , arabic = "أمْريكِي"
       , meaning = "American"
       }
+    , { latin  = "qahwA"
+      , arabic = "قَهْوة"
+      , meaning = "coffee"
+      }
+    , { latin  = "Haliib"
+      , arabic = "حَليب"
+      , meaning = "milk"
+      }
+    , { latin  = "muuzA"
+      , arabic = "موزة"
+      , meaning = "a banana"
+      }
+    , { latin  = "2akl"
+      , arabic = "أَكْل"
+      , meaning = "food"
+      }
+    , { latin  = "2akl 3arabyy waqahwA 3arabyy"
+      , arabic = "أَكْل عَرَبيّ وَقَهْوة عَرَبيّة"
+      , meaning = "Arabic food and Arabic coffee"
+      }
+
+
+
     ]
