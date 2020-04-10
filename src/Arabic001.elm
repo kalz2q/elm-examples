@@ -570,7 +570,22 @@ dict =
       , arabic = "أَكْل عَرَبيّ وَقَهْوة عَرَبيّة"
       , meaning = "Arabic food and Arabic coffee"
       }
-
+    , { latin  = "ruzz"
+      , arabic = "رُزّ"
+      , meaning = "rice"
+      }
+    , { latin  = "ruzzii waqahwatii"
+      , arabic = "رُزّي وَقَهْوَتي"
+      , meaning = "my rice and my coffee"
+      }
+     , { latin  = "qahwatii fii shanTatii"
+       , arabic = "قَهْوَتي في  شَنْطَتي"
+       , meaning = "My coffee is in my bag"
+       }
+     , { latin  = "qahwaA siith"
+       , arabic = "قَهْوَة  سيث"
+       , meaning = "Seth's coffee"
+       }
 
 
     ]
