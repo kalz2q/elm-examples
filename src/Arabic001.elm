@@ -614,6 +614,88 @@ dict =
       , arabic = "أَنا أَعْرِفه"
       , meaning = "I know him"
       }
+    , { latin  = "Taaawila Tawiila"
+      , arabic = "طاوِلة طَويلة"
+      , meaning = "long table"
+      }
+    , { latin  = "baytik wabaythaa"
+      , arabic = "بَيْتِك وَبَيْتها"
+      , meaning = "your house and her house"
+      }
+    , { latin  = "ism Tawiil"
+      , arabic = "اِسْم طَويل"
+      , meaning = "long name"
+      }
+    , { latin  = "baytii wabaythaa"
+      , arabic = "بَيْتي وَبَيْتها"
+      , meaning = "my house and her house"
+      }
+    , { latin  = "laysa hunaak lugha Sa3ba"
+      , arabic = "لَيْسَ هُناك لُغة صَعْبة"
+      , meaning = "There is no diffcult language."
+      }
+    , { latin  = "hadhaa shay2 sa3b"
+      , arabic = "هَذا شَيْء صَعْب"
+      , meaning = "This is a difficult thing."
+      }
+    , { latin  = "ismhu taamir"
+      , arabic = "اِسْمهُ تامِر"
+      , meaning = "His name is Tamer."
+      }
+    , { latin  = "laa 2a3rif 2ayn baythu"
+      , arabic = "لا أَعْرِف أَيْن بَيْته"
+      , meaning = "I don't know where his house is"
+      }
+    , { latin  = "laa 2a3rif 2ayn 2anaa"
+      , arabic = "لا أعرف أين أنا."
+      , meaning = "I don't know where I am."
+      }
+    , { latin  = "baythu qariib min aljaami3at"
+      , arabic = "بيته قريب من الجامعة"
+      , meaning = "His house is close to the university"
+      }
+    , { latin  = "ismhaa arabyy"
+      , arabic = "إسمها عربي"
+      , meaning = "Her name is arabic."
+      }
+    , { latin  = "Sadiiqathu ruuzaa qariibhu min baythu"
+      , arabic = "صديقته روزا قريبه من بيته"
+      , meaning = "His friend Rosa is close to his house."
+      }
+    , { latin  = "ismhu Tawiil"
+      , arabic = "إسمه طويل"
+      , meaning = "HIs name is long."
+      }
+    , { latin  = "riim Sadiiqat Sa3bat"
+      , arabic = "ريم صديقة صعبة"
+      , meaning = "Reem is a difficult friend."
+      }      
+    , { latin  = "ismhu bashiir"
+      , arabic = "إسمه بشير"
+      , meaning = "HIs name is Bashir."
+      }      
+    , { latin  = "ismhaa Tawiil"
+      , arabic = "إسمها طويل"
+      , meaning = "Her name is long."
+      }      
+    , { latin  = "Sadiiqhaa buub qariib min baythaa"
+      , arabic = "صديقها بوب قريب من بيتها"
+      , meaning = "Her friend Bob is close to her house."
+      } 
+    , { latin  = "ismhu bob"
+      , arabic = "إسمه بوب"
+      , meaning = "His name is Bob."
+      }
+    , { latin  = "baythu qariib min baythaa"
+      , arabic = "بيته قريب من بيتها"
+      , meaning = "His house is close to her house."
+      }
+    , { latin  = "hadhaa shay2 Sa3b"
+      , arabic = "هذا شيء صعب"
+      , meaning = "This is a difficult thing."
+      }
+
+
 
 
 
