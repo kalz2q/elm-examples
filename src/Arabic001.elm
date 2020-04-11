@@ -586,6 +586,35 @@ dict =
        , arabic = "قَهْوَة  سيث"
        , meaning = "Seth's coffee"
        }
+    , { latin  = "Sadiiqathaa"
+      , arabic = "صَديقَتها"
+      , meaning = "her friend"
+      }
+    , { latin  = "jaarat-haa"
+      , arabic = "جارَتها"
+      , meaning = "her neighbor"
+      }
+    , { latin  = "2a3rif"
+      , arabic = "أَعْرِف"
+      , meaning = "I know ..."
+      }
+    , { latin  = "2ukhtii"
+      , arabic = "أُخْتي"
+      , meaning = "my sister"
+      }
+    , { latin  = "Sadiiqa Jayyida"
+      , arabic = "صَديقة  جَيِّدة"
+      , meaning = "a good friend"
+      }أ
+     , { latin  = "2a3rif"
+       , arabic = "أَعْرِف"
+       , meaning = "I know"
+       }
+    , { latin  = "2anaa 2a3rifhu"
+      , arabic = "أَنا أَعْرِفه"
+      , meaning = "I know him"
+      }
+
 
 
     ]
