@@ -694,9 +694,50 @@ dict =
       , arabic = "هذا شيء صعب"
       , meaning = "This is a difficult thing."
       }
-
-
-
+    , { latin  = "3alaaqa"
+      , arabic = "عَلاقَة"
+      , meaning = "relationship"
+      }
+    , { latin  = "alqiTTa"
+      , arabic = "اَلْقِطّة"
+      , meaning = "the cat"
+      }
+    , { latin  = "la 2uhib"
+      , arabic = "لا أُحِب"
+      , meaning = "I do not like"
+      }
+    , { latin  = "al2akl mumt3"
+      , arabic = "اَلْأَكْل مُمْتع"
+      , meaning = "Eating is fun."
+      }
+    , { latin  = "alqiraa2a"
+      , arabic = "اَلْقِراءة"
+      , meaning = "reading"
+      }
+    , { latin  = "alkitaaba"
+      , arabic = "الْكِتابة"
+      , meaning = "writing"
+      }
+    , { latin  = "alkiraa2a wa-alkitaaba"
+      , arabic = "اَلْقِراءة وَالْكِتابة"
+      , meaning = "reading and writing"
+      }
+    , { latin  = "muhimm"
+      , arabic = "مُهِمّ"
+      , meaning = "important"
+      }
+    , { latin  = "alkiaaba shay2 muhimm"
+      , arabic = "اَلْكِتابة شَيْء مُهِمّ"
+      , meaning = "Writing is an important thing."
+      }
+    , { latin  = "aljara wa-alqiTTa"
+      , arabic = "اَلْجارة وَالْقِطّة"
+      , meaning = "the neighbor and the cat"
+      }
+    , { latin  = "qiTTa wa-alqiTTa"
+      , arabic = "قِطّة وَالْقِطّة"
+      , meaning = "a cat and the cat"
+      }
 
 
     ]
