@@ -738,6 +738,50 @@ dict =
       , arabic = "قِطّة وَالْقِطّة"
       , meaning = "a cat and the cat"
       }
+    , { latin  = "2ayDaan"
+      , arabic = "أَيْضاً"
+      , meaning = "also"
+      }
+    , { latin  = "almaT3m"
+      , arabic = "الْمَطْعْم"
+      , meaning = "the restaurant"
+      }
+    , { latin  = "aljarii"
+      , arabic = "اَلْجَري"
+      , meaning = "the running"
+      }
+    , { latin  = "maa2"
+      , arabic = "ماء"
+      , meaning = "water"
+      }
+    , { latin  = "maT3am"
+      , arabic = "مَطْعَم"
+      , meaning = "a restaurant"
+      }
+    , { latin  = "alttaSwiir"
+      , arabic = "اَلْتَّصْوير"
+      , meaning = "photography"
+      }
+    , { latin  = "alnnawm"
+      , arabic = "اَلْنَّوْم"
+      , meaning = "sleeping"
+      }
+    , { latin  = "alssibaaha"
+      , arabic = "اَلْسِّباحة"
+      , meaning = "swimming"
+      }
+    , { latin  = "Sabaahaan 2uhibb al2akl hunaa"
+      , arabic = "صَباحاً أُحِبّ اَلْأَكْل هُنا"
+      , meaning = "Inn the morning, I like eating here."
+      }
+    , { latin  = "Kathiiraan"
+      , arabic = "كَثيراً"
+      , meaning = "much"
+      }
+    , { latin  = "hunaa"
+      , arabic = "هُنا"
+      , meaning = "here"
+      }
 
 
     ]
