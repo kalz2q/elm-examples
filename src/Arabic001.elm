@@ -774,7 +774,7 @@ dict =
       , arabic = "صَباحاً أُحِبّ اَلْأَكْل هُنا"
       , meaning = "Inn the morning, I like eating here."
       }
-    , { latin  = "Kathiiraan"
+    , { latin  = "kathiiraan"
       , arabic = "كَثيراً"
       , meaning = "much"
       }
@@ -782,6 +782,84 @@ dict =
       , arabic = "هُنا"
       , meaning = "here"
       }
+    , { latin  = "jiddan"
+      , arabic = "جِدَّاً"
+      , meaning = "very"
+      }
+    , { latin  = "3an"
+      , arabic = "عَن"
+      , meaning = "about"
+      }      
+    , { latin  = "2uhibb alssafar 2ilaa 2iiiTaaliiaa"
+      , arabic = "أُحِبّ اَلْسَّفَر إِلى إيطالْيا"
+      , meaning = "I like traveling to Italy."
+      }      
+    , { latin  = "alkalaam ma3a 2abii"
+      , arabic = "اَلْكَلام مَعَ أَبي"
+      , meaning = "talking with my father"
+      }      
+    , { latin  = "alkalaam ma3a 2abii ba3d alDHDHahr"
+      , arabic = "اَلْكَلام معَ أَبي بَعْد اَلْظَّهْر"
+      , meaning = "talking with my father in the afternoon"
+      }
+    , { latin  = "2uhibb alssafar 2ilaa 2almaaniiaa"
+      , arabic = "أُحِب اَلْسَّفَر إِلى أَلْمانيا"
+      , meaning = "I like travelling to Germany"
+      }
+    , { latin  = "2uHibb aljarii bialllyl"
+      , arabic = "أُحِبّ اَلْجَري بِالْلَّيْل"
+      , meaning = "I like running at night."
+      }
+    , { latin  = "2uriidu"
+      , arabic = "أُريدُ"
+      , meaning = "I want"
+      }
+    , { latin  = "2uHibb 2iiiTaaliiaa 2ayDan"
+      , arabic = "أُحِبّ إيطاليا أَيْضاً"
+      , meaning = "I like Italy also."
+      }
+    , { latin  = "2uHibb alnnawm ba3d alDHDHhr"
+      , arabic = "أحِبّ اَلْنَّوْم بَعْد اَلْظَّهْر"
+      , meaning = "I like sleeping in the afternoon."
+      }
+    , { latin  = "2uHibb alqiraa2a 3an kuubaa biaalllayl"
+      , arabic = "أُحِبّ اَلْقِراءة عَن كوبا بِالْلَّيْل"
+      , meaning = "I like to read about Cuba at night."
+      }
+    , { latin  = "2uHibb alkalaam 3an alkitaaba"
+      , arabic = "أحِبّ اَلْكَلام عَن اَلْكِتابة"
+      , meaning = "I like talking about writing."
+      }
+    , { latin  = "alqur2aan"
+      , arabic = "اَلْقُرْآن"
+      , meaning = "Koran"
+      }
+    , { latin  = "bayt jamiil"
+      , arabic = "بَيْت جَميل"
+      , meaning = "a pretty house"
+      }
+    , { latin  = "bint suuriyya"
+      , arabic = "بِنْت سورِيّة"
+      , meaning = "a Syrian girl"
+      }
+    , { latin  = "mutarjim mumtaaz"
+      , arabic = "مُتَرْجِم مُمْتاز"
+      , meaning = "an amazing translator"
+    }
+    , { latin  = "jaami3a mashhuura"
+      , arabic = "جامِعة مَشْهورة"
+      , meaning = "a famous university"
+      }
+    , { latin  = "al-bayt al-jamiil"
+      , arabic = "اَلْبَيْت اَلْجَميل"
+      , meaning = "the pretty house"
+      }
+
+
+
+
+
+
 
 
     ]
