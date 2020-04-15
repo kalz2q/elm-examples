@@ -854,12 +854,86 @@ dict =
       , arabic = "اَلْبَيْت اَلْجَميل"
       , meaning = "the pretty house"
       }
-
-
-
-
-
-
+    , { latin  = "al-bint al-ssuuriyya"
+      , arabic = "اَلْبِنْت اَلْسّورِيّة"
+      , meaning = "a Syrian girl"
+      }
+    , { latin  = "al-mutarjim al-mumtaaz"
+      , arabic = "اَلْمُتَرْجِم اَلْمُمْتاز"
+      , meaning = "the amazing translator"
+      }
+    , { latin  = "al-jaami3a al-mashhuura"
+      , arabic = "اَلْجامِعة اَلْمَشْهورة"
+      , meaning = "the famous university"
+      }
+    , { latin  = "al-bayt jamiil"
+      , arabic = "اَلْبَيْت جَميل"
+      , meaning = "The house is pretty."
+      }
+    , { latin  = "al-bint suuriyya"
+      , arabic = "البنت سورِيّة"
+      , meaning = "The girl is Syrian."
+      }
+    , { latin  = "al-mutarjim mumtaaz"
+      , arabic = "اَلْمُتَرْجِم مُمْتاز"
+      , meaning = "The translator is amazing."
+      }
+    , { latin  = "al-jaami3a mashhuura"
+      , arabic = "اَلْجامِعة مَشْهورة"
+      , meaning = ""
+      }
+    , { latin  = "Haarr"
+      , arabic = "حارّ"
+      , meaning = "hot"
+      }
+    , { latin  = "maTar"
+      , arabic = "مَطَر"
+      , meaning = "rain"
+      }
+    , { latin  = "yawm Tawiil"
+      , arabic = "يَوْم طَويل"
+      , meaning = "a long day"
+      }
+    , { latin  = "Taqs baarid"
+      , arabic = "طَقْس بارِد"
+      , meaning = "cold weather"
+      }
+    , { latin  = "haathaa yawm Tawiil"
+      , arabic = "هَذا يَوْم طَويل"
+      , meaning = "This is a long day."
+      }
+    , { latin  = "shanTa fafiifa"
+      , arabic = "شَنْطة خَفيفة"
+      , meaning = "a light bag"
+      }
+    , { latin  = "mi3Taf khafiif"
+      , arabic = "مِعْطَف خَفيف"
+      , meaning = "a light coat"
+      }
+    , { latin  = "al-maTar al-ththaqiil mumtaaz"
+      , arabic = "اَلْمَطَر اَلْثَّقيل مُمْتاز"
+      , meaning = "The heavy rain is amazing."
+      }
+    , { latin  = "Taqs ghariib"
+      , arabic = "طَقْس غَريب"
+      , meaning = "a weird weather"
+      }
+    , { latin  = "yawm Haarr"
+      , arabic = "يَوْم حارّ"
+      , meaning = "a hot day"
+      }
+    , { latin  = "maTar khafiif"
+      , arabic = "مَطَر خفيف"
+      , meaning = "a light rain"
+      }
+    , { latin  = "Taawila khafiifa"
+      , arabic = "طاوِلة خَفيفة"
+      , meaning = "a light table"
+      }
+    , { latin  = "Taqs jamiil"
+      , arabic = "طَقْس جَميل"
+      , meaning = "a pretty weather"
+      }
 
 
     ]
