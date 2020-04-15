@@ -934,6 +934,21 @@ dict =
       , arabic = "طَقْس جَميل"
       , meaning = "a pretty weather"
       }
-
+    , { latin  = "al-maTar al-ththaqiil mumtaaz"
+      , arabic = "اَلْمَطَر اَلْثَّقيل مُمْتاز"
+      , meaning = "The heavy rain is amazing."
+      }
+    , { latin  = "haathaa yawm Haarr"
+      , arabic = "هَذا يَوْم حارّ"
+      , meaning = "This is a hot day."
+      }
+    , { latin  = "shanTa khafiifa"
+      , arabic = "شَنْطة خَفيفة"
+      , meaning = "a light bag"
+      }
+    , { latin  = "hunaak maTar baarid jiddan"
+      , arabic = "هُناك مَطَر بارِد جِدّاً"
+      , meaning = "There is a very cold rain."
+      }
 
     ]
