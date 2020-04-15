@@ -228,7 +228,7 @@ dict =
       }
     , { latin = "jamiil"
       , arabic = "جَميل"
-      , meaning = "good, nice"
+      , meaning = "good, nice, pretty, beautiful"
       }
     , { latin = "kalb"
       , arabic = "كَلْب"
@@ -950,5 +950,118 @@ dict =
       , arabic = "هُناك مَطَر بارِد جِدّاً"
       , meaning = "There is a very cold rain."
       }
+    , { latin  = "Sayf"
+      , arabic = "صّيْف"
+      , meaning = "summer"
+      }
+    , { latin  = "shitaa2"
+      , arabic = "شِتاء"
+      , meaning = "winter"
+      }
+    , { latin  = "thitaa2 baarid"
+      , arabic = "شِتاء بارِد"
+      , meaning = "cold winter"
+      }
+    , { latin  = "binaaya 3aalya"
+      , arabic = "بِناية عالْية"
+      , meaning = "a high building"
+      }
+    , { latin  = "yawm baarid"
+      , arabic = "يَوْم بارِد"
+      , meaning = "a cold day"
+      }
+    , { latin  = "alyawm yawm baarid"
+      , arabic = "اَلْيَوْم  يَوْم بارِد"
+      , meaning = "Today is a cold day."
+      }
+    , { latin  = "ruTwwba 3aalya"
+      , arabic = "رُطوبة عالْية"
+      , meaning = "high humidity"
+      }
+    , { latin  = "al-rruTuuba al-3aalya"
+      , arabic = "اَلْرَّطوبة الْعالْية"
+      , meaning = "the high humidity"
+      }
+    , { latin  = "Sayf mumTir"
+      , arabic = "صَيْف مُمْطِر"
+      , meaning = "a rainy summer"
+      }
+    , { latin  = "al-rruTuuba al3aalya"
+      , arabic = "اَلْرُّطوبة الْعالْية"
+      , meaning = "the high humidity"
+      }
+    , { latin  = "al-TTaqs al-mushmis"
+      , arabic = "اّلْطَّقْس الّْمُشْمِس"
+      , meaning = "the sunny weather"
+      }
+    , { latin  = "shitaa2 mumTir"
+      , arabic = "شِتاء مُمْطِر"
+      , meaning = "a rainy winter"
+      }      
+    , { latin  = "Sayf Haarr"
+      , arabic = "صَيْف حارّ"
+      , meaning = "a hot summer"
+      }      
+    , { latin  = "al-yawm yawm Tawiil"
+      , arabic = "اَلْيَوْم يَوْم طَويل"
+      , meaning = "Today is a long day."
+      }      
+    , { latin  = "laa 2uhibb al-Taqs al-mushmis"
+      , arabic = "لا أُحِبّ اَلْطَقْس اَلْمُشْمِس"
+      , meaning = "I do not like sunny weather."
+      }      
+    , { latin  = "al-Taqs mumTir jiddan al-yawm"
+      , arabic = "اَلْطَقْس مُمْطِر جِدّاً اَلْيَوْم"
+      , meaning = "The weather is very rainy today."
+      }
+    , { latin  = "laa 2uhibb al-TTaqs al-mumTir"
+      , arabic = "لا أحِبّ اَلْطَّقْس اَلْمُمْطِر"
+      , meaning = "I do not like the rainy weather."
+      }
+    , { latin  = "al-TTaqs mushmis al-yawm"
+      , arabic = "اَلْطَّقْس مُشْمِس اَلْيَوْم"
+      , meaning = "The weather is sunny today."
+      }
+    , { latin  = "khariif"
+      , arabic = "خَريف"
+      , meaning = "fall, autumn"
+      }
+    , { latin  = "qamar"
+      , arabic = "قَمَر"
+      , meaning = "moon"
+      }
+    , { latin  = "rabiir"
+      , arabic = "رَبيع"
+      , meaning = "spring"
+      }
+    , { latin  = "al-shishitaa2 mumTir"
+      , arabic = "اَلْشِّتاء مُمْطِر"
+      , meaning = "The winter is rainy."
+      }
+    , { latin  = "al-SSayf al-baarid"
+      , arabic = "اَلْصَّيْف اَلْبارِد"
+      , meaning = "the cold summer"
+      }
+    , { latin  = "al-qamar al-2abyab"
+      , arabic = "اَلْقَمَر اَلْأَبْيَض"
+      , meaning = "the white moon"
+      }
+    , { latin  = "al-shishitaa2 Tawiil wa-baarid"
+      , arabic = "اَلْشِّتاء طَويل وَبارِد"
+      , meaning = "The winter is long and cold."
+      }
+    , { latin  = "al-rrabii3 mumTir al-aan"
+      , arabic = "اَلْرَّبيع مُمْطِر اَلآن"
+      , meaning = "The winter is rainy now"
+      }
+    , { latin  = "Saghiir"
+      , arabic = "صَغير"
+      , meaning = "small"
+      }
+    , { latin  = "kashiiran"
+      , arabic = "كَثيراً"
+      , meaning = "a lot, much"
+      }
+
 
     ]
