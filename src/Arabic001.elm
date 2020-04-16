@@ -550,6 +550,10 @@ dict =
       , arabic = "أمْريكِي"
       , meaning = "American"
       }
+    , { latin  = "2amriikaa wa-al-SSiin"
+      , arabic = "أَمْريكا وَالْصّين"
+      , meaning = "America and China"
+      }
     , { latin  = "qahwA"
       , arabic = "قَهْوة"
       , meaning = "coffee"
@@ -790,7 +794,7 @@ dict =
       , arabic = "عَن"
       , meaning = "about"
       }      
-    , { latin  = "2uhibb alssafar 2ilaa 2iiiTaaliiaa"
+    , { latin  = "2uhibb al-ssafar 2ilaa 2iiiTaaliiaa"
       , arabic = "أُحِبّ اَلْسَّفَر إِلى إيطالْيا"
       , meaning = "I like traveling to Italy."
       }      
@@ -1062,6 +1066,79 @@ dict =
       , arabic = "كَثيراً"
       , meaning = "a lot, much"
       }
+    , { latin  = "al-ssuudaan"
+      , arabic = "اَلْسّودان"
+      , meaning = "Sudan"
+      }
+    , { latin  = "al-SSiin"
+      , arabic = "اَلْصّين"
+      , meaning = "China"
+      }
+    , { latin  = "al-qaahira"
+      , arabic = "اَلْقاهِرة"
+      , meaning = "Cairo"
+      }
+    , { latin  = "al-bunduqiyya"
+      , arabic = "اَلْبُنْدُقِية"
+      , meaning = "Venice"
+      }
+    , { latin  = "filasTiin"
+      , arabic = "فِلَسْطين"
+      , meaning = "Palestine"
+      }
+    , { latin  = "huulandaa"
+      , arabic = "هولَنْدا"
+      , meaning = "Netherlands"
+      }
+    , { latin  = "baghdaad"
+      , arabic = "بَغْداد"
+      , meaning = "Bagdad"
+      }
+    , { latin  = "Tuukyuu"
+      , arabic = "طوكْيو"
+      , meaning = "Tokyo"
+      }
+    , { latin  = "al-yaman"
+      , arabic = "اَلْيَمَن"
+      , meaning = "Yemen"
+      }
+    , { latin  = "SaaHil Tawiil"
+      , arabic = "ساحَل طَويل"
+      , meaning = "a long coast"
+      }
+    , { latin  = "al-2urdun"
+      , arabic = "اَلْأُرْدُن"
+      , meaning = "Jordan"
+      }      
+    , { latin  = "haathaa al-balad"
+      , arabic = "هَذا الْبَلَد"
+      , meaning = "this country"
+      }      
+    , { latin  = "2ayn baladik yaa riim"
+      , arabic = "أَيْن بَلَدِك يا ريم"
+      , meaning = "Where is your country, Reem?"
+      }      
+    , { latin  = "baldii mumtaaz"
+      , arabic = "بَلَدي مُمْتاز"
+      , meaning = "My country is amazing."
+      }      
+    , { latin  = "haathaa balad-haa"
+      , arabic = "هَذا بَلَدها"
+      , meaning = "This is her country."
+      }      
+    , { latin  = "hal baladak jamiil yaa juurj?"
+      , arabic = "هَل بَلَدَك جَميل يا جورْج"
+      , meaning = "Is your country pretty, George"
+      }
+    , { latin  = "al-yaman balad Saghiir"
+      , arabic = "اَلْيَمَن بَلَد صَغير"
+      , meaning = "Yemen is a small country."
+      }
+
+
+
+
+
 
 
     ]
