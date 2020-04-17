@@ -1220,7 +1220,10 @@ dict =
       }
     , { latin  = "Sadiiqatu"
       , arabic = "صَديقَتهُ سامْية غَنِيّة"
-      , meaning = ""
+      , meaning = "His friend Samia is rich."
       }
-
+    , { latin  = "taariikhiyya"
+      , arabic = "تاريخِيّة"
+      , meaning = "historical"
+      }
     ]
