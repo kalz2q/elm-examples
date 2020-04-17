@@ -1162,4 +1162,65 @@ dict =
       , arabic = "لَدي كِتاب"
       , meaning = "I have a book."
       }
+    , { latin  = "3indhaa"
+      , arabic = "عِنْدها"
+      , meaning = "she has"
+      }      
+    , { latin  = "3indhu"
+      , arabic = "عِنْدهُ"
+      , meaning = "he has"
+      }      
+    , { latin  = "laysa 3indhu"
+      , arabic = "لَيْسَ عِنْدهُ"
+      , meaning = "he does not have"
+      }      
+    , { latin  = "laysa 3indhaa"
+      , arabic = "لَيْسَ عِنْدها"
+      , meaning = "she does not have"
+      }      
+    , { latin  = "hunaak maTar thaqiil"
+      , arabic = "هُناك مَطَر ثَقيل"
+      , meaning = "There is a heavy rain."
+      }
+    , { latin  = "hunaak wishaaH fii shanTatii"
+      , arabic = "هُناك وِشاح في شَنْطتي"
+      , meaning = "There is a scarf in my bag."
+      }
+    , { latin  = "laysa hunaak lugha Sa3ba"
+      , arabic = "لَيْسَ هُناك لُغة صَعْبة"
+      , meaning = "There is no difficult language."
+      }
+    , { latin  = "2amaamii rajul ghariib"
+      , arabic = "أَمامي رَجُل غَريب"
+      , meaning = "There is a weird man in front of me."
+      }
+    , { latin  = "fii al-khalfiyya bayt"
+      , arabic = "في الْخَلفِيْة بَيْت"
+      , meaning = "There is a house in the background."
+      }      
+    , { latin  = "fii shanTatii wishaaH"
+      , arabic = "في شَنْطَتي وِشاح"
+      , meaning = "There is a scarf in my bag."
+      }
+    , { latin  = "asad"
+      , arabic = "أَسَد"
+      , meaning = "a lion"
+      }
+    , { latin  = "2uHibb 2asadii laakibb la 2uHibb 2usadhaa"
+      , arabic = "أحِبَ أَسَدي لَكِنّ لا أُحِبّ أَسَدها"
+      , meaning = "I like my lion but I do not like her lion."
+      }
+    , { latin  = "laysa 3indhu"
+      , arabic = "لَيْسَ عِنْدهُ"
+      , meaning = "he does not have"
+      }
+    , { latin  = "3indhaa kalb wa-qiTTa"
+      , arabic = "عِنْدها كَلْب وَقِطّة"
+      , meaning = "She has a doc and a cat."
+      }
+    , { latin  = "Sadiiqatu"
+      , arabic = "صَديقَتهُ سامْية غَنِيّة"
+      , meaning = ""
+      }
+
     ]
