@@ -1134,11 +1134,32 @@ dict =
       , arabic = "اَلْيَمَن بَلَد صَغير"
       , meaning = "Yemen is a small country."
       }
-
-
-
-
-
-
-
+    , { latin  = "qaari2"
+      , arabic = "قارِئ"
+      , meaning = "reader"
+      }
+    , { latin  = "ghaa2ib"
+      , arabic = "غائِب"
+      , meaning = "absent"
+      }
+    , { latin  = "mas2uul"
+      , arabic = "مَسْؤول"
+      , meaning = "responsoble, administrator"
+      }
+    , { latin  = "jaa2at"
+      , arabic = "جاءَت"
+      , meaning = "she came"
+      }
+    , { latin  = "3indii"
+      , arabic = "عِنْدي"
+      , meaning = "I have"
+      }
+    , { latin  = "3indik"
+      , arabic = "عِنْدِك"
+      , meaning = "you have"
+      }
+    , { latin  = "ladii kitaab"
+      , arabic = "لَدي كِتاب"
+      , meaning = "I have a book."
+      }
     ]
