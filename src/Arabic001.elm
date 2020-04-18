@@ -1226,4 +1226,60 @@ dict =
       , arabic = "تاريخِيّة"
       , meaning = "historical"
       }
+    , { latin  = "juurj 3indhu 3amal mumtaaz"
+      , arabic = "جورْج عِنْدهُ عَمَل مُمْتاز"
+      , meaning = "George has an amazing work."
+      }
+    , { latin  = "Sadiiqii taamir ghaniyy jiddan"
+      , arabic = "صَديقي تامِر غَنِيّ جِدّاً"
+      , meaning = "My friend Tamer is very rich"
+      }
+    , { latin  = "laa 2a3rif haadhaa l-2asad"
+      , arabic = "لا أَعْرِف هَذا الْأَسّد"
+      , meaning = "I do not know this lion."
+      }
+    , { latin  = "laysa 3indhu mi3Taf"
+      , arabic = "لَيْسَ عِنْدهُ مِعْطَف"
+      , meaning = "He does not have a coat."
+      }
+    , { latin  = "fii l-khalfiyya zawjatak ya siith"
+      , arabic = "في الْخَلْفِيّة زَوْجَتَك يا سيث"
+      , meaning = "There is your wife in background, Seth"
+      }
+    , { latin  = "su2uaal"
+      , arabic = "سُؤال"
+      , meaning = "a question"
+      }
+    , { latin  = "Sadiiqat-hu saamya laabisa tannuura"
+      , arabic = "صدَيقَتهُ سامْية لابِسة تّنّورة"
+      , meaning = "His friend Samia is wering a skirt."
+      }
+    , { latin  = "wa-hunaa fii l-khalfitta rajul muDHik"
+      , arabic = "وَهُنا في الْخَلْفِتّة رَجُل مُضْحِك"
+      , meaning = "And here in the background there is a funny man."
+      }
+    , { latin  = "man haadhaa"
+      , arabic = "مَن هَذا"
+      , meaning = "Who is this?"
+      }
+    , { latin  = "hal 2anti labisa wishaaH ya lamaa"
+      , arabic = "هَل أَنْتِ لابِسة وِشاح يا لَمى"
+      , meaning = "Are you wering a scarf, Lama?"
+      }
+    , { latin  = "2akhii bashiir mashghuul"
+      , arabic = "أَخي بَشير مَشْغول"
+      , meaning = "My brother Bashir is busy."
+      }
+    , { latin  = "fii hathihi lssuura aimraa muDHika"
+      , arabic = "في هَذِهِ الْصّورة اِمْرأة مُضْحِكة"
+      , meaning = "Thre is a funny woman in this picture."
+      }
+    , { latin  = "hal 2anta laabis qubb3a ya siith"
+      , arabic = "هَل أَنْتَ لابِس قُبَّعة يا سيث"
+      , meaning = "Are you wearing a hat, Seth?"
+      }
+    , { latin  = "fii l-khalfiyya rajul muDHik"
+      , arabic = "في الْخَلْفِيّة رَجُل مُضْحِك"
+      , meaning = "There is a funny man in the background."
+      }
     ]
