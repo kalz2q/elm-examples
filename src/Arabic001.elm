@@ -550,7 +550,7 @@ dict =
       , arabic = "أمْريكِي"
       , meaning = "American"
       }
-    , { latin  = "2amriikaa wa-al-SSiin"
+    , { latin  = "2amriikaa wa-as-siin"
       , arabic = "أَمْريكا وَالْصّين"
       , meaning = "America and China"
       }
@@ -1070,7 +1070,7 @@ dict =
       , arabic = "اَلْسّودان"
       , meaning = "Sudan"
       }
-    , { latin  = "al-SSiin"
+    , { latin  = "as-siin"
       , arabic = "اَلْصّين"
       , meaning = "China"
       }
@@ -1282,6 +1282,7 @@ dict =
       , arabic = "في الْخَلْفِيّة رَجُل مُضْحِك"
       , meaning = "There is a funny man in the background."
       }
+<<<<<<< HEAD
     , { latin  = "shubbaak"
       , arabic = "شُبّاك"
       , meaning = "a window"
@@ -1334,6 +1335,51 @@ dict =
       , arabic = "أَنام في الْغُرْفة"
       , meaning = "I sleep in the room."
       }
+=======
+    , { latin  = "tilfaaz Saghiir fii Saaluun kabiir"
+      , arabic = "تِلْفاز صَغير في صالون كَبير"
+      , meaning = "a small television in a big living room"
+      }
+    , { latin  = "2anaam fii sariir maksuur"
+      , arabic = "أَنام في سَرير مَكْسور"
+      , meaning = "I sleep in a broken bed."
+      }
+    , { latin  = "as-sariir al-kabiir"
+      , arabic = "اَلْسَّرير اَلْكَبير"
+      , meaning = "the big bed"
+      }
+    , { latin  = "maa haadhaa aSSwut"
+      , arabic = "ما هَذا الصّوُت"
+      , meaning = "What is this noise?"
+      }
+    , { latin  = "sariirii mumtaaz al-Hamdu lila"
+      , arabic = "سَريري مُمتاز اَلْحَمْدُ لِله"
+      , meaning = "My bed is amazing, praise be to God"
+      }
+    , { latin  = "2anaam kathiiran"
+      , arabic = "أَنام كَشيراً"
+      , meaning = "I sleep a lot"
+      }
+    , { latin  = "hunaak Sawt ghariib"
+      , arabic = "هُناك صَوْت غَريب"
+      , meaning = "There is a weird noise."
+      }
+    , { latin  = "shubbaak"
+      , arabic = "شُبّاك"
+      , meaning = "a window"
+      }
+    , { latin  = "2anaam fii sariir Saghiir"
+      , arabic = "أَنام في سَرير صَغير"
+      , meaning = "I sleep in a small bed."
+      }
+    , { latin  = "muHmmad 2astaadhii"
+      , arabic = "مُحَمَّد أُسْتاذي"
+      , meaning = "Muhammad is my teacher."
+      }
+شادي أُسْتاذي
+لِز أُمّهُ
+مَها أُمّهُ
+>>>>>>> 8cad4de2ad96b7c6938d2999dc7c38ec16c0b20e
 
 
 
