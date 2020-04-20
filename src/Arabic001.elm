@@ -1378,9 +1378,40 @@ dict =
       , arabic = "مَها أُمّهُ"
       , meaning = "Maha is his mother."
       }
+    , { latin  = "fii haadhaa lsh-shaari3 Sawt ghariib"
+      , arabic = "في هٰذا ٱلْشّارِع صَوْت غَريب"
+      , meaning = "There is a weird nose on this street"
+      }
+    , { latin  = "2askun fii ls-saaluun"
+      , arabic = "أَسْكُن في الْصّالون"
+      , meaning = "I live in the living room."
+      }
+    , { latin  = "haadhaa lsh-shaar3"
+      , arabic = "هَذا الْشّارِع"
+      , meaning = "this street"
+      }
+    , { latin  = "fii lT-Taabiq al-2awwal"
+      , arabic = "في الْطّابِق اَلْأَوَّل"
+      , meaning = "on the first floor"
+      }
+    , { latin  = "Hammaam"
+      , arabic = "حَمّام"
+      , meaning = "bathroom"
+      }
+    , { latin  = "alsh-shaanii"
+      , arabic = "اَلْثّاني"
+      , meaning = "the second"
+      }
+    , { latin  = "3and-hu ghurfa nawm Saghiira"
+      , arabic = "عِندهُ غُرْفة نَوْم صَغيرة"
+      , meaning = "He has a small bedroom."
+      }
+    , { latin  = "laa 2aftaH albaab bisabab lT-Taqs"
+      , arabic = "لا أَفْتَح اَلْباب بِسَبَب اّلْطَّقْس"
+      , meaning = "I do not open the door because of the weather."
+      }
 
-
-
+الطقس بارد اليوم
 
 
 
