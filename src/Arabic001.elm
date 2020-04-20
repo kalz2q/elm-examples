@@ -1282,4 +1282,37 @@ dict =
       , arabic = "في الْخَلْفِيّة رَجُل مُضْحِك"
       , meaning = "There is a funny man in the background."
       }
+    , { latin  = "tilfaaz Saghiir fii Saaluun kabiir"
+      , arabic = "تِلْفاز صَغير في صالون كَبير"
+      , meaning = "a small television in a big living room"
+      }
+    , { latin  = "2anaam fii sariir maksuur"
+      , arabic = "أَنام في سَرير مَكْسور"
+      , meaning = "I sleep in a broken bed."
+      }
+    , { latin  = "as-sariir al-kabiir"
+      , arabic = "اَلْسَّرير اَلْكَبير"
+      , meaning = "the big bed"
+      }
+    , { latin  = "maa haadhaa aSSwut"
+      , arabic = "ما هَذا الصّوُت"
+      , meaning = "What is this noise?"
+      }
+    , { latin  = "sariirii mumtaaz al-Hamdu lila"
+      , arabic = "سَريري مُمتاز اَلْحَمْدُ لِله"
+      , meaning = "My bed is amazing, praise be to God"
+      }
+    , { latin  = "2anaam kathiiran"
+      , arabic = "أَنام كَشيراً"
+      , meaning = "I sleep a lot"
+      }
+    , { latin  = "hunaak Sawt ghariib"
+      , arabic = "هُناك صَوْت غَريب"
+      , meaning = "There is a weird noise."
+      }
+
+
+
+
+
     ]
