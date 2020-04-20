@@ -550,7 +550,7 @@ dict =
       , arabic = "أمْريكِي"
       , meaning = "American"
       }
-    , { latin  = "2amriikaa wa-al-SSiin"
+    , { latin  = "2amriikaa wa-as-siin"
       , arabic = "أَمْريكا وَالْصّين"
       , meaning = "America and China"
       }
@@ -1070,7 +1070,7 @@ dict =
       , arabic = "اَلْسّودان"
       , meaning = "Sudan"
       }
-    , { latin  = "al-SSiin"
+    , { latin  = "as-siin"
       , arabic = "اَلْصّين"
       , meaning = "China"
       }
@@ -1314,9 +1314,14 @@ dict =
       , arabic = "شُبّاك"
       , meaning = "a window"
       }
-
-
-مُحَمَّد أُسْتاذي
+    , { latin  = "2anaam fii sariir Saghiir"
+      , arabic = "أَنام في سَرير صَغير"
+      , meaning = "I sleep in a small bed."
+      }
+    , { latin  = "muHmmad 2astaadhii"
+      , arabic = "مُحَمَّد أُسْتاذي"
+      , meaning = "Muhammad is my teacher."
+      }
 شادي أُسْتاذي
 لِز أُمّهُ
 مَها أُمّهُ
