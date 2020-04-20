@@ -1290,11 +1290,11 @@ dict =
       , arabic = "سَرير"
       , meaning = "a bed"
       }
-    , { latin  = "muHammad 2astaadhii"
+    , { latin  = "muHammad 2ustaadhii"
       , arabic = "مُحَمَّد أُسْتاذي"
       , meaning = "Muhammed is my teacher."
       }
-    , { latin  = "saadii 2astaadhii"
+    , { latin  = "saadii 2ustaadhii"
       , arabic = "شادي أُسْتاذي"
       , meaning = "Sadie is my teacher."
       }
@@ -1370,13 +1370,17 @@ dict =
       , arabic = "أَنام في سَرير صَغير"
       , meaning = "I sleep in a small bed."
       }
-    , { latin  = "muHmmad 2astaadhii"
+    , { latin  = "muHammad 2ustaadhii"
       , arabic = "مُحَمَّد أُسْتاذي"
       , meaning = "Muhammad is my teacher."
       }
-شادي أُسْتاذي
-لِز أُمّهُ
-مَها أُمّهُ
+    , { latin  = "mahaa 2ummhu"
+      , arabic = "مَها أُمّهُ"
+      , meaning = "Maha is his mother."
+      }
+
+
+
 
 
 
