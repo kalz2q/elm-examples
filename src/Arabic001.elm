@@ -1282,7 +1282,6 @@ dict =
       , arabic = "في الْخَلْفِيّة رَجُل مُضْحِك"
       , meaning = "There is a funny man in the background."
       }
-<<<<<<< HEAD
     , { latin  = "shubbaak"
       , arabic = "شُبّاك"
       , meaning = "a window"
@@ -1335,7 +1334,6 @@ dict =
       , arabic = "أَنام في الْغُرْفة"
       , meaning = "I sleep in the room."
       }
-=======
     , { latin  = "tilfaaz Saghiir fii Saaluun kabiir"
       , arabic = "تِلْفاز صَغير في صالون كَبير"
       , meaning = "a small television in a big living room"
@@ -1379,7 +1377,6 @@ dict =
 شادي أُسْتاذي
 لِز أُمّهُ
 مَها أُمّهُ
->>>>>>> 8cad4de2ad96b7c6938d2999dc7c38ec16c0b20e
 
 
 
