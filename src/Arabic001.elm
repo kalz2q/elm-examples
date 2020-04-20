@@ -210,7 +210,7 @@ dict =
       , arabic = "ريم"
       , meaning = "Reem(name)"
       }
-    , { latin = "tannuurA"
+    , { latin = "tannuura"
       , arabic = "تَنّورة"
       , meaning = "a skirt"
       }
@@ -242,7 +242,7 @@ dict =
       , arabic = "أَبْيَض "
       , meaning = "white"
       }
-    , { latin = "qubb3A"
+    , { latin = "qubb3a"
       , arabic = "قُبَّعة"
       , meaning = "a hat"
       }
@@ -262,19 +262,19 @@ dict =
       , arabic = "طاوِلة"
       , meaning = "a table"
       }
-    , { latin = "hadhihi madiinA qadiinA"
+    , { latin = "hadhihi madiinA qadiima"
       , arabic = "هَذِهِ مَدينة قَديمة"
       , meaning = "This is an ancient city"
       }
-    , { latin = "HadiiqA"
+    , { latin = "Hadiiqa"
       , arabic = "حَديقة"
       , meaning = "garden"
       }
-    , { latin = "hadhihi HadiiqA 2arabyyA"
+    , { latin = "hadhihi HadiiqA 3arabyya"
       , arabic = "هَذِهِ حَديقة عَرَبيّة"
       , meaning = "This is an Arab garden"
       }
-    , { latin = "hadhihi binaayA jamiilA"
+    , { latin = "hadhihi binaaya jamiila"
       , arabic = "هَذِهِ بِناية جَميلة"
       , meaning = "This is a beautiful building"
       }
@@ -286,7 +286,7 @@ dict =
       , arabic = "هَذا صالون غالي"
       , meaning = "This is an expensive living room"
       }
-    , { latin = "hadhihi HadiiqA jamiilA"
+    , { latin = "hadhihi HadiiqA jamiila"
       , arabic = "هَذِهِ حَديقة جَميلة"
       , meaning = "This is a pretty garden"
       }
@@ -310,19 +310,19 @@ dict =
       , arabic = "الْكَلْب"
       , meaning = "the dog"
       }
-    , { latin = "hadhihi albinaayA"
+    , { latin = "hadhihi albinaaya"
       , arabic = "هذِهِ الْبِناية "
       , meaning = "this building"
       }
-    , { latin = "alghurfA"
+    , { latin = "al-ghurfa"
       , arabic = "اَلْغُرفة"
       , meaning = "the room"
       }
-    , { latin = "alghurfA kaBiirA"
+    , { latin = "alghurfA kaBiira"
       , arabic = "اَلْغرْفة كَبيرة"
       , meaning = "Theroom is big"
       }
-    , { latin = "hadhihi alghurfA kabiirA"
+    , { latin = "hadhihi alghurfa kabiira"
       , arabic = "هَذِهِ الْغُرْفة كَبيرة"
       , meaning = "this room is big"
       }
@@ -334,7 +334,7 @@ dict =
       , arabic = "هَذا الْكَلْب جَوْعان"
       , meaning = "this dog is hungry"
       }
-    , { latin = "hadhihi albinaayA waas3A"
+    , { latin = "hadhihi albinaaya waas3a"
       , arabic = "هَذِهِ الْبناية واسِعة"
       , meaning = "this building is spacious"
       }
@@ -374,7 +374,7 @@ dict =
       , arabic = "هَل عِنْدَك مَحْفَظة يا جورْج"
       , meaning = "do you have a wallet , george"
       }
-    , { latin = "3indii shanTA ghaalyA"
+    , { latin = "3indii shanTa ghaalya"
       , arabic = "عِنْدي شَنْطة غالْية"
       , meaning = "I have an expensive bag"
       }
@@ -382,7 +382,7 @@ dict =
       , arabic = "شِنْطَتي في شَنْطتِك يا رانْيا"
       , meaning = "my bag is in your bag rania"
       }
-    , { latin = "huunak maHfaDhA SaghiirA"
+    , { latin = "huunak maHfaDhA Saghiira"
       , arabic = "هُناك مَحْفَظة صَغيرة"
       , meaning = "There is a small wallet"
       }
@@ -398,7 +398,7 @@ dict =
       , arabic = "هُناك قُبَّعة في شَنْطَتَك يا بوب"
       , meaning = "There is a hat in your bag bob"
       }
-    , { latin = "hunaak shanTA SaghiirA"
+    , { latin = "hunaak shanTa Saghiira"
       , arabic = "هُناك شَنْطة صَغيرة"
       , meaning = "There is a small bag"
       }
@@ -410,7 +410,7 @@ dict =
       , arabic = "هُناك كِتاب صَغير وَوِشاح كَبير في شَنْطَتي"
       , meaning = "There is a small book and a big scarf in my bag"
       }
-    , { latin = "hunaak maHfaTA Saghiir fii ShanTatii"
+    , { latin = "hunaak maHfaTa Saghiir fii ShanTatii"
       , arabic = "هُناك مَحْفَظة صَغيرة في شَنْطَتي"
       , meaning = "There is a small wallet in my bag"
       }
@@ -426,11 +426,11 @@ dict =
       , arabic = "اَلْمَدينة هُناك"
       , meaning = "Thecity is there"
       }
-    , { latin = "hal 3indik shanTA ghaalyA ya Riim"
+    , { latin = "hal 3indik shanTa ghaalya ya Riim"
       , arabic = "هَل عِندِك شَنْطة غالْية يا ريم"
       , meaning = "do you have an expensive bag Reem"
       }
-    , { latin = "hal 3indik mashruub ya saamyA"
+    , { latin = "hal 3indik mashruub ya saamya"
       , arabic = "هَل عِنْدِك مَشْروب يا سامْية"
       , meaning = "do you have a drink samia"
       }
@@ -474,7 +474,7 @@ dict =
       , arabic = "مَطْبَخ"
       , meaning = "a kitchen"
       }
-    , { latin = "3ilkA"
+    , { latin = "3ilka"
       , arabic = "عِلْكة"
       , meaning = "gum"
       }
@@ -490,7 +490,7 @@ dict =
       , arabic = "نُقود"
       , meaning = "money"
       }
-    , { latin = "aljazeerA"
+    , { latin = "aljazeera"
       , arabic = "الجزيرة"
       , meaning = "Al Jazeera"
       }
@@ -518,11 +518,11 @@ dict =
       , arabic = "هَذا مَِكْتَب كَبير"
       , meaning = "This is a big office"
       }
-    , { latin = "kursii alqiTTA"
+    , { latin = "kursii alqiTTa"
       , arabic = "كُرْسي الْقِطّة"
       , meaning = "the cat's chair"
       }
-    , { latin = "Haasuub al2ustaadhA"
+    , { latin = "Haasuub al2ustaadha"
       , arabic = "حاسوب اَلْأُسْتاذة"
       , meaning = "professor's computer"
       }
@@ -534,7 +534,7 @@ dict =
       , arabic = "اَلْحَمْدُ لِله"
       , meaning = "Praise be to God"
       }
-    , { latin = "SaHiifA"
+    , { latin = "SaHiifa"
       , arabic = "صَحيفة"
       , meaning = "newspaper"
       }
@@ -554,7 +554,7 @@ dict =
       , arabic = "أَمْريكا وَالْصّين"
       , meaning = "America and China"
       }
-    , { latin  = "qahwA"
+    , { latin  = "qahwa"
       , arabic = "قَهْوة"
       , meaning = "coffee"
       }
@@ -562,7 +562,7 @@ dict =
       , arabic = "حَليب"
       , meaning = "milk"
       }
-    , { latin  = "muuzA"
+    , { latin  = "muuza"
       , arabic = "موزة"
       , meaning = "a banana"
       }
@@ -1282,12 +1282,59 @@ dict =
       , arabic = "في الْخَلْفِيّة رَجُل مُضْحِك"
       , meaning = "There is a funny man in the background."
       }
-مُحَمَّد أُسْتاذي
-شادي أُسْتاذي
-لِز أُمّهُ
-مَها أُمّهُ
+    , { latin  = "shubbaak"
+      , arabic = "شُبّاك"
+      , meaning = "a window"
+      }
+    , { latin  = "sariir"
+      , arabic = "سَرير"
+      , meaning = "a bed"
+      }
+    , { latin  = "muHammad 2astaadhii"
+      , arabic = "مُحَمَّد أُسْتاذي"
+      , meaning = "Muhammed is my teacher."
+      }
+    , { latin  = "saadii 2astaadhii"
+      , arabic = "شادي أُسْتاذي"
+      , meaning = "Sadie is my teacher."
+      }
+    , { latin  = "2ummhu"
+      , arabic = "أُمّهُ"
+      , meaning = "his mother"
+      }
+    , { latin  = "tilfaaz"
+      , arabic = "تِلْفاز"
+      , meaning = "a television"
+      }
+    , { latin  = "ma haadhaa as-sawt"
+      , arabic = "ما هَذا الْصَّوْت"
+      , meaning = "What is this noise"
+      }
+    , { latin  = "2adkhul al-Hammaam"
+      , arabic = "أَدْخُل اَلْحَمّام"
+      , meaning = "I enter the bathroom."
+      }
+    , { latin  = "2uHibb al-ssariir al-kabiir"
+      , arabic = "أُحِبّ اَلْسَّرير اَلْكَبير"
+      , meaning = "I love the big bed."
+      }
+    , { latin  = "hunaak mushkila ma3 lt-tilfaaz"
+      , arabic = "هُناك مُشْكِلة مَعَ الْتِّلْفاز"
+      , meaning = "There is a problem with the television."
+      }
+    , { latin  = "al-haatif mu3aTTal wa-lt-tilfaaz 2ayDan"
+      , arabic = "اَلْهاتِف مُعَطَّل وَالْتَّلْفاز أَيضاً"
+      , meaning = "The telephone is out of order and the television also."
+      }
+    , { latin  = "hunaak Sawt ghariib fii l-maTbakh"
+      , arabic = "هُناك صَوْت غَريب في الْمَطْبَخ"
+      , meaning = "There is a weird nose in the kitchen."
+      }
+    , { latin  = "2anaam fii l-ghurfa"
+      , arabic = "أَنام في الْغُرْفة"
+      , meaning = "I sleep in the room."
+      }
 
-شُبّاك
 
 
     ]
