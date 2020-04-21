@@ -1410,8 +1410,92 @@ dict =
       , arabic = "لا أَفْتَح اَلْباب بِسَبَب اّلْطَّقْس"
       , meaning = "I do not open the door because of the weather."
       }
+    , { latin  = "Sifr"
+      , arabic = "صِفْر"
+      , meaning = "zero"
+      }
+    , { latin  = "3ashara"
+      , arabic = "عَشَرَة"
+      , meaning = "ten"
+      }
+    , { latin  = "waaHid"
+      , arabic = "وَاحِد"
+      , meaning = "one"
+      }
+    , { latin  = "2ithnaan"
+      , arabic = "اِثْنان"
+      , meaning = "two"
+      }
+    , { latin  = "kayf ta3uddiin min waaHid 2ilaa sitta"
+      , arabic = "كَيْف تَعُدّين مِن ١ إِلى ٦"
+      , meaning = "How do you count from one to six?"
+      }
+    , { latin  = "bil-lugha"
+      , arabic = "بِالْلُّغة"
+      , meaning = "in language"
+      }
+    , { latin  = "bil-lugha l-3arabyya"
+      , arabic = "بِالْلُّغة الْعَرَبِيّة"
+      , meaning = "in the arabic language"
+      }
+    , { latin  = "ta3rifiin"
+      , arabic = "تَعْرِفين"
+      , meaning = "you know"
+      }    
+    , { latin  = "hal ta3rifiin kull shay2 yaa mahaa"
+      , arabic = "هَل تَعْرِفين كُلّ شَيء يا مَها"
+      , meaning = "Do you know everything Maha?"
+      }    
+    , { latin  = "kayf ta3udd yaa 3umar"
+      , arabic = "كَيْف تَعُدّ يا عُمَر"
+      , meaning = "How do you count Omar?"
+      }
+    , { latin  = "Kayf ta3udd min Sifr 2ilaa 2ashara yaa muHammad"
+      , arabic = "كَيْف تَعُدّ مِن٠ إِلى ١٠ يا مُحَمَّد"
+      , meaning = "How do you count from 0 to 10 , Mohammed?"
+      }
+    , { latin  = "hal ta3rif yaa siith"
+      , arabic = "هَل تَعْرِف يا سيث"
+      , meaning = "Do you know Seth?"
+      }
+    , { latin  = "bayt buub"
+      , arabic = "بَيْت بوب"
+      , meaning = "Bob's house"
+      }
+    , { latin  = "maT3am muHammad"
+      , arabic = "مَطْعَم مُحَمَّد"
+      , meaning = "Mohammed's restaurant"
+      }
+    , { latin  = "SaHiifat al-muhandis"
+      , arabic = "صَحيفة اَلْمُهَنْدِس"
+      , meaning = "the enginner's newspaper"
+      }
+    , { latin  = "madiinat diitruuyt"
+      , arabic = "مَدينة ديتْرويْت"
+      , meaning = "the city of Detroit"
+      }
+    , { latin  = "wilaayat taksaas"
+      , arabic = "وِلاية تَكْساس"
+      , meaning = "the state of Texas"
+      }
+    , { latin  = "jaami3at juurj waashinTun"
+      , arabic = "جامِعة جورْج واشِنْطُن"
+      , meaning = "George Washinton University"
+      }
+    , { latin  = "shukuran"
+      , arabic = "شُكْراً"
+      , meaning = "thank you"
+      }
+    , { latin  = "SabaaHan"
+      , arabic = "صَباحاً"
+      , meaning = "in the morning"
+      }
+    , { latin  = "masaa-an"
+      , arabic = "مَساءً"
+      , meaning = "in the evening"
+      }
 
-الطقس بارد اليوم
+
 
 
 
