@@ -793,7 +793,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1x04LCyD7W7PGX-CfFc7nHJQrcz52vKub"
       , mp3Url = "https://drive.google.com/uc?id=1iQ1fIS_kb-gO76rEvZYRzpnHfIvV0JUI"
-      , title = "愛国の花(ましろきふじのけだかさを)"
+      , title = "愛国の花(古関裕而。ましろきふじのけだかさを)"
       , filename = "aikokunohana.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1sZLBoet1rQY2KpaEY-oiOTnuDUujnXho"
@@ -803,7 +803,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1zOwlo4l0G0j4_7iLBEURm7BxwE2FCWGT"
       , mp3Url = "https://drive.google.com/uc?id=1SQfGOXhNEMp6SgZqQ6kBFgIjXrK6vOhn"
-      , title = "暁に祈る(あああのかおであのこえで)"
+      , title = "暁に祈る(古関裕而。あああのかおであのこえで)"
       , filename = "akatsukiniinoru.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1v9Alp-27jquhozHihi0BWjtnRPU3Pae0"
@@ -848,7 +848,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1pQzWz4mfkxYAiQxflPuNCsPJ510zQp07"
       , mp3Url = "https://drive.google.com/uc?id=1CxVD87Z8zOzDIoahhuYZgKulypMvt8yq"
-      , title = "長崎の鐘(こよなくはれたあおぞらをかなしとおもうせつなさよ)"
+      , title = "長崎の鐘(古関裕而。こよなくはれたあおぞらをかなしとおもうせつなさよ)"
       , filename = "nagasakinokane.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1U66InKL9npmROU8XUlVTYmJKhuZp3B4q"
@@ -933,7 +933,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1S_KO2NsVQnUtwykXph6T5-LBKrbUfz6Q"
       , mp3Url = "https://drive.google.com/uc?id=1wnsrGB4hpE1lrxJgtpGve6lQVy6osVZm"
-      , title = "露営の歌(かってくるぞといさましく)"
+      , title = "露営の歌(古関裕而。かってくるぞといさましく)"
       , filename = "roeinouta.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1MeMTWmbSMO59jgPDmNNPzSuIYnGptIBW"
@@ -1138,7 +1138,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1bfgHqSUyLOA3qWtoxOVv_6yCn1_ZOfmw"
       , mp3Url = "https://drive.google.com/uc?id=1bQ9x8vhGDTvSKQlJOfMHB-fSleB6aEGa"
-      , title = "君の名は(きみのなはとたずねしひとあり)"
+      , title = "君の名は(古関裕而。きみのなはとたずねしひとあり)"
       , filename = "kiminonawa.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1qCclnMVCVXqlnisSweNSRDXRH7Rr9d7G"
@@ -1243,7 +1243,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1t2Wv1nPtZ0r9qe1QPKGFvZStGksy-gcU"
       , mp3Url = "https://drive.google.com/uc?id=14NVcygyC4bHevi3L6RrYghDV9z4qI-at"
-      , title = "若鷲の歌(わかいちしおのよかれんの)"
+      , title = "若鷲の歌(古関裕而。わかいちしおのよかれんの)"
       , filename = "wakawashinouta.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1jYMPozc7GJjBxl-Rwryy1GsH1Vld-9ES"
@@ -1718,7 +1718,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1p8jQC1GlB-Hz4fjFgtiDXPUu-w98v8FV"
       , mp3Url = "https://drive.google.com/uc?id=1kuAe6VDmjA4byUEsx6cmEx8ZURQCV5CI"
-      , title = "高原列車(きしゃのまどからはんけちふれば)"
+      , title = "高原列車は行く(古関裕而。きしゃのまどからはんけちふれば)"
       , filename = "kogenressha.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=130ai2SHtgbBkuHASXjMXadb1--pTheUX"
@@ -1783,7 +1783,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=11TyPAxzPY7iHALy-EVJzr-25CgUs3-8V"
       , mp3Url = "https://drive.google.com/uc?id=1PUvg749wfLb82qr-bWO6Bj6XoQIu2zR5"
-      , title = "鐘の鳴る丘(みどりのおかのあかいやねとんがりぼうしの"
+      , title = "鐘の鳴る丘(古関裕而。みどりのおかのあかいやねとんがりぼうしの"
       , filename = "kanenonaruoka.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1RHX8jpc9sEYCBo1mxwJzgvIdJJcwX2Z2"
@@ -2118,7 +2118,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1xz6E_h25OkTpjPkKE_SuqwP0NyXfuezo"
       , mp3Url = "https://drive.google.com/uc?id=1IfMRrnSwQvFoIevOcRyWLZfDF9XuNIiE"
-      , title = "黒百合の唄(くろゆりはこいのはなあいするひとにささげれば)"
+      , title = "黒百合の歌(古関裕而。くろゆりはこいのはなあいするひとにささげれば)"
       , filename = "kuroyurinouta.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1wU6OjsRzIWJGDytkCjyKjKf660fMehUs"
@@ -3193,7 +3193,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1eaR7Vq36bXlAlm1muX16EkBCHGmo7WWU"
       , mp3Url = "https://drive.google.com/uc?id=1YyaEQo22p5H_PAeKGzvD2IZVuQSwq9_W"
-      , title = "イヨマンテの夜(熊祭りの夜。いよまんてもえろかがりびああまんげつよ)"
+      , title = "イヨマンテの夜(古関裕而。熊祭りの夜。いよまんてもえろかがりびああまんげつよ)"
       , filename = "iyomante.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1lHrzbxyLwCgzNNvqQZEw7Ff0TaLSET2d"
@@ -3485,725 +3485,727 @@ dict =
       , mp3Url = "https://drive.google.com/uc?id=1u-JzLd2cTRw4XKgbEO_ZTlcknwRA2wlA"
       , title = "森へ行きましょう(ポーランド。もりへゆきましょうむすめさんあはは)"
       , filename = "morieyukimasho.ly"
-    }
+      }
     , { jpgUrl = "https://drive.google.com/uc?id=1IWOW200LXTT-WyRIqlT3XPO58WwvUZhw"
       , mp3Url = "https://drive.google.com/uc?id=1f_onz6tyBFzMnd_3qsEZB2Y4PKURSPGZ"
       , title = "この広い野原いっぱい(このひろいのはらいっぱいさくはなをひとつのこらず)"
       , filename = "konohiroinoharaippai.ly"
-    }
-      , { jpgUrl = "https://drive.google.com/uc?id=1oNXyV3LKHyWRbWP27LetScaOwDZ28ele"
-        , mp3Url = "https://drive.google.com/uc?id=1VBrJl-goRUiC8q0zvVNOVLxpo1981Xm2"
-        , title = "やさしき愛の歌(モロイ。Love's Old Sweet Song)"
-        , filename = "yasashikiainouta.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1Cfh91cGp6sMQy3FQSZ_hzm57__a7rlrj"
-        , mp3Url = "https://drive.google.com/uc?id=1UlR4THwWKheJOI_tMMsFDZPKhyMQvJ2_"
-        , title = "峠のわが家(Home on the Range つのぶえはこだまするやまのおかなたに)"
-        , filename = "togenowagaya.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1bDAXPwrsyv6uTZaqUhGOOU0bprjyhbao"
-        , mp3Url = "https://drive.google.com/uc?id=1XwWiKdPQMvWXAJFouJQ4N1YkiXk2YOhG"
-        , title = "家路(Going home。とおきやまにひはおちてほしはそらをちりばめぬ)"
-        , filename = "goinghome.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1iSN_nhD59jSV1fDss-g_MlqmvmBj0wPf"
-        , mp3Url = "https://drive.google.com/uc?id=1huDMk_Jv3FmoayuXSuPXhih_l-L1abY8"
-        , title = "漕げよマイケル(Michael Row the Boat Ashore Hallelujah)"
-        , filename = "michaelrow.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1IcbwZXmPk28RA6FXKL4BysVx7CFNk--l"
-        , mp3Url = "https://drive.google.com/uc?id=1Kyy3zreFL79O08ioCaf1H6na0K7siYrA"
-        , title = "わが悩み知り給う(Nobody Know de Trouble I See。わがなやみしりたもう)"
-        , filename = "waganayami.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1ZGJs2WxykkMeSjbrEGvhbx7A7ZrQ4MPt"
-        , mp3Url = "https://drive.google.com/uc?id=1fxrhFFNwF_aM7J_nldVb8sbHDx8fLvGE"
-        , title = "藁の中の七面鳥(わらのなかのしちめんちょう。さあたいへんださあたいへんだ)"
-        , filename = "turkeyinthestraw.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1iKgsb66xBwDl8p9JQFh-U2IM3IC6HQ81"
-        , mp3Url = "https://drive.google.com/uc?id=1n7RlzZtlg79GUMKhF01NnLALncOL2cJJ"
-        , title = "アロハ・オエ(あろはおえ。やさしくかなずるはゆかしうくれれよ)"
-        , filename = "alohaoe.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1kLUxtpX1uOwGcikToMVKctp9Rp07HU7r"
-        , mp3Url = "https://drive.google.com/uc?id=1uccvX6G8UJ8XYWZ2uGYMVNW2jCgSz8Pm"
-        , title = "ステンカ・ラージン(すてんからーじん。くおんにとどろくゔぉるがのながれ)"
-        , filename = "stenkarazin.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1azkvO16mykHktNaGONsSScCDbbm39akU"
-        , mp3Url = "https://drive.google.com/uc?id=1BOQn85juVF9IKNv_HfYE-N4KhGfJdgQM"
-        , title = "ブンガワン・ソロ(ぶんがわんそろはてしなききよきながれに)"
-        , filename = "bengawnasolo.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=17Tdaj04ab5uGT4sf15yaYh0ILPFqPqWn"
-        , mp3Url = "https://drive.google.com/uc?id=1Q-omJiecO1J5t5AQW92UJ4zepI9aN_7q"
-        , title = "トラン・ブーラン(とらんぶーらんやしのはかげあかるくてりかがやき)"
-        , filename = "terangbulan.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=15BZWyw62j3LwNMIgBj6Q4JKo-mXRz7bq"
-        , mp3Url = "https://drive.google.com/uc?id=1t4xq5dGrOIMuQmC82mkLLpTUQ7ZTn4YZ"
-        , title = "シューベルトのセレナーデ(Schubert Serenade(Staendchen))"
-        , filename = "schubertseranade.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1vNCwtRoNS4_t1x7mjpE_RwGkA7EwTK_A"
-        , mp3Url = "https://drive.google.com/uc?id=13edzce2LS0FWYNWWP1uGRhOQfjbFIdDc"
-        , title = "別れの曲(ショパン。はるのひそよかざはなちるみどりのおか)"
-        , filename = "chopinwakarenokyoku.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1WOZTy3KDhXRQPxElgo2uApt6zyd1UCYh"
-        , mp3Url = "https://drive.google.com/uc?id=1iAPYygJQpmExOzQqUp9Agz1_lT958rEN"
-        , title = "真実の愛(Treue Liebe。ドイツ民謡)"
-        , filename = "treueliebe.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1uUSlCFOsbQ2j7maCqiBTzxBDKz7LS4TU"
-        , mp3Url = "https://drive.google.com/uc?id=1Tm1XVHzz3U5ojdX2ZKVbSCxxRsRmQGAX"
-        , title = "帰れソレントへ(うるわしのうみはうつつにもゆめむ)"
-        , filename = "sorrento.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1FILDwAvJ_AItxqXXIxJ4uAhUephafkCh"
-        , mp3Url = "https://drive.google.com/uc?id=1f578olVVBGbEbv6IGQ1XrvfkwwhxullT"
-        , title = "マギー若き日の歌を(When you and I were young, Maggie)"
-        , filename = "maggie.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1Sb8UEccL--D-HfpjlYPf0xaFzGbOl5LR"
-        , mp3Url = "https://drive.google.com/uc?id=1OGX_brVDae0VkH9yZjm-Mur0E3H5VZnp"
-        , title = "カロ・ミオ・ベン(Caro Mio Ben。ジョルダーニ)"
-        , filename = "caromioben.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1dZSKtdEGwtMq044-Zc7axPXDl398f3Iy"
-        , mp3Url = "https://drive.google.com/uc?id=1-p8GCqxvVNvzvgORdhvgY_8F6huwjsiw"
-        , title = "マリア・マリ(カプア。まどをひらきてわがうたききてよ)"
-        , filename = "mariamari.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1_QwyQyA0gYrMdTbDEqiukmAoPQ5cg17C"
-        , mp3Url = "https://drive.google.com/uc?id=1IUfKEMKDtKc9mx-MoAd5pbEPSPxZHz0d"
-        , title = "女心の歌(おんなごころのうた。ヴェルディ「リゴレット」より)"
-        , filename = "onnagokoronouta.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=13FQOrbRDie0sEQlJZIV6dPprsGsznyl_"
-        , mp3Url = "https://drive.google.com/uc?id=1l1Q6dbrbho2u7f6CbhHwZt1kgm0jWvjO"
-        , title = "エレジー(マスネー「悲歌」)"
-        , filename = "masenetelegie.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1jWPsJQF26wszI_hX7fK7QsgypmOVi6_8"
-        , mp3Url = "https://drive.google.com/uc?id=1qfjShcHECLQkwOxYt1617KFV-UTCQw4Z"
-        , title = "楽しき農夫(シューマン)"
-        , filename = "schumantanoshikinofu.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1PtwETXAdtZtwEmkKEoP013lRPNhX5ijT"
-        , mp3Url = "https://drive.google.com/uc?id=1iclF4WjcDQikMnSId2Do7iKI3TiJihF4"
-        , title = "歌声ひびく(うるわしはるよみどりにはえてうたごえひびくのにやまに)"
-        , filename = "utagoehibiku.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1G5RVD315sVlJ4nYWwAlsk-UAWRK2GVmJ"
-        , mp3Url = "https://drive.google.com/uc?id=1Cht48MpzossmjEZUfPPC3pG4Rgm8xdSA"
-        , title = "希望のささやき(あまつみつかいのこえもかくやと)"
-        , filename = "kibonosasayaki.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1y5vI_s6QVBRN5hBpseEaeaWXAOXv-gQt"
-        , mp3Url = "https://drive.google.com/uc?id=1pOKdEu7mH9b24iC6Msf6ZK0w1x-Gfaq4"
-        , title = "ニーナ(Tre giorni son che Nina by Ciampi/Pergolesi。ふつかふれどもにーなはめざめず)"
-        , filename = "ninatregiorni.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1myW3q-rRIRH0pAeh7Y-c4PryGHH2-3yw"
-        , mp3Url = "https://drive.google.com/uc?id=19m1Jb-r4_E03DXqs9v0OgKTbgSwND0XS"
-        , title = "ソルベーグの歌(グリーグ。ふゆはゆきてはるすぎてはるすぎて)"
-        , filename = "solvejg.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1vmdBA1vuSPkNVbyAeoU8ylnTZ9dsesHJ"
-        , mp3Url = "https://drive.google.com/uc?id=1VttViOmKGVWp8PEdQ-OmYg0RmkxzEfSl"
-        , title = "シューベルトのアヴェ・マリア(クリスマス。あべまりあ)"
-        , filename = "schubertavemaria.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1VaaGY6iPG_jqXcKcrn_WHA6Mzogv_c78"
-        , mp3Url = "https://drive.google.com/uc?id=1E7e15yxlmDKEemQK6AsYiYN2AHKFrIP5"
-        , title = "嘆きのセレナータ(トセリ。こころもゆるあつきこいきみをばしのびてうれしさになく)"
-        , filename = "nagekinoserenata.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=19e1V5jPwStBEdUXURxhr8NcOFJFHkp7F"
-        , mp3Url = "https://drive.google.com/uc?id=1Y33FbQSfO4wVPizriK85XMT3OlpY1EYi"
-        , title = "春が呼んでるよ(ヘイ・ムイ・ヤシネック。ひばりのこすずめのことびながらなにをみた)"
-        , filename = "harugayonderuyo.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1B3voooI_UC6vk--8wSPRhYETC32Znz8N"
-        , mp3Url = "https://drive.google.com/uc?id=134NB9aBWPVINjP_lKChOsqMlNpWh7Jrz"
-        , title = "汝が友(ながとも。ハンガリージプシーの歌。ゆめになずみてねむるいとしご)"
-        , filename = "nagatomo.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1n5GCez_QGAeV0q7KnULcO-PpHJ0RM8m7"
-        , mp3Url = "https://drive.google.com/uc?id=1zI_sEvIBteYZGDlnvQRe49GufQfaj5lm"
-        , title = "ラサ・サヤン・ゲ(インドネシア。らささやんげ。あいするうた。かわでうたおう)"
-        , filename = "rasasajange.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1z6Rl3pg2JGlY287FIhU54et3601psYzl"
-        , mp3Url = "https://drive.google.com/uc?id=1LFCvdFm404OFi4PCnYlgpOiGc1_j5xwI"
-        , title = "太湖船(たいこせん。サントリーウーロン茶)"
-        , filename = "taikosen.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1Q9NEKkuQ-tjuYzx-jDeWZEJ2BZCqU-xq"
-        , mp3Url = "https://drive.google.com/uc?id=1s16YYoGXzKxVK2-04ebCCG1sYD4gr5e3"
-        , title = "草原情歌(そうげんじょうか。はるかはなれたそのまたむこう)"
-        , filename = "sogenjoka.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1uZ_Bh_4LfbFaZhu8MSZ409Pa40r0nQdF"
-        , mp3Url = "https://drive.google.com/uc?id=1ZfsSC8zfdufb9ce6xPepfK71xHkMl0k1"
-        , title = "アリラン(ありらんありらんあらりよーありらんとうげをこえゆく)"
-        , filename = "arirang.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=15WRxn8k1LWY0YXjIN0CjFuX8iLp1oeET"
-        , mp3Url = "https://drive.google.com/uc?id=1nGQTkGsVMqYUlHdlq5UCunVQrWhmGgar"
-        , title = "トラジ(とらじとらじとらじかわいいとらじのはなさいてる)"
-        , filename = "torachitarung.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1cgOaaqmsIs9nNZu538E4ofQK9QBWhKb5"
-        , mp3Url = "https://drive.google.com/uc?id=1_G2GsnsKautN301ZGB5ya2fl20D-G1fC"
-        , title = "なつかしのバージニア(Carry Me Back to Old Virginny。いざゆかんなつかしのゆめにあこがる)"
-        , filename = "virginny.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1EGOkCCbdxPkzfxVbxJO4vSUjt40AzzDt"
-        , mp3Url = "https://drive.google.com/uc?id=1J6R2N46R8VT_HFr14w7QNM6vHCN6GcSc"
-        , title = "白バラの匂う夕べは(Freud euch des Lebens)"
-        , filename = "shirobaranoniouyubewa.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1cZL5ND71bfq-dXcv2wgC6cnFZ-DSj6r-"
-        , mp3Url = "https://drive.google.com/uc?id=1FkzDDhAE6JzSfcmZ0ijuGjCZF9sAnGRI"
-        , title = "オーラ・リー(Aura Lee)"
-        , filename = "auralee.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1DHCY5HIX0TfsgVVmzqjjfcsiAJHRgktd"
-        , mp3Url = "https://drive.google.com/uc?id=1jxtVY8YL-Yf1ezrZRS7dWUPAVyDMxF7I"
-        , title = "五月の歌(モーツァルト。たのしやごがつくさきはもえ)"
-        , filename = "gogatsunouta.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=10RcwJqE-fnEsKm87f-TCAzB17-52UtA-"
-        , mp3Url = "https://drive.google.com/uc?id=16R5hwE_LsrmB6U2qHjAoR0yXlthNM5Ux"
-        , title = "赤い花白い花(あかいはなつんであのひとにあげよ)"
-        , filename = "akaihanashiroihana.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1CiGTnQQ--1nkmQ5bCgzaqUKZTK5ddQuQ"
-        , mp3Url = "https://drive.google.com/uc?id=1GBDZnEQaRyUZkThbNd7FxLBBDfkHLXTf"
-        , title = "山賊の歌(あめがふればおがわができかぜがふけばやまができる)"
-        , filename = "sanzokunouta.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1p5oJe1unTZ3AJDbqckc1znxvQkqDdMK3"
-        , mp3Url = "https://drive.google.com/uc?id=1giPg5DWraOw9T724WAjBp1r_wyhJ0tLE"
-        , title = "坊がつる讃歌(ひとみなはなにようときもざんせつこいしやまにいり)"
-        , filename = "bogatsurusanka.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1AzwfTYN6ke-75jT6J8HIj9Bq-PHNp66y"
-        , mp3Url = "https://drive.google.com/uc?id=1y88X_3b4Sw0SxGtZW12PkhQjOMbIe4XV"
-        , title = "シーハイル(いわきのおろしがふくならふけよやまからやまへとわれらははしる)"
-        , filename = "schiheil.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1EAXecAfZrceUmv5TsSe2LuSm82NkJ41w"
-        , mp3Url = "https://drive.google.com/uc?id=1nHrcmS4VuKkamzLOgEvX4zstYWd4noBG"
-        , title = "菩提樹(シューベルト。いずみにそいてしげるぼだいじゅ)"
-        , filename = "bodaiju.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1J5HzzprlxdRF9q3kNZdH7-4MXP1q1M-R"
-        , mp3Url = "https://drive.google.com/uc?id=1XR7sh7sgU2J0tVcxZldTrrp5Lqjj0cVX"
-        , title = "歌の翼に(メンデルスゾーン。うたのつばさをかりてゆかなさちにあふるるゆめのくにへ)"
-        , filename = "utanotsubasa.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1Jd-V4BBdsrfZPgqfu1DGpIrC8r-fLtXC"
-        , mp3Url = "https://drive.google.com/uc?id=1qjDsB_ieu4N3NF3OlcZPD4Zps3rZeghY"
-        , title = "星かげさやかに(もえろよもえろよ。ほしかげさやかにしずかにふけぬ)"
-        , filename = "hoshikaegsayakani.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=14vtgtfA-8l5_W8ptPtinzRHYfWzVhXuk"
-        , mp3Url = "https://drive.google.com/uc?id=14ZsSZkNJhfPU6PqmmYsPu_QEIzX5Tu2i"
-        , title = "王の行進(ファランドール。あさひうけてすすむおうのぎょうれつうるわし)"
-        , filename = "lamarchederois.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1OWifGrQaTgSfsUnmA8HNcIyADXwSnsH3"
-        , mp3Url = "https://drive.google.com/uc?id=1Q9UR0F3GRqNfeIUjOHnSoIdWMHeuxB-Q"
-        , title = "夜の調べ(グノーのセレナーデ。あわれゆかしきうたのしらべ)"
-        , filename = "gounodserenade.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1iWwWyvvmMwIUFDX3q1u1SHG51jN3CXVj"
-        , mp3Url = "https://drive.google.com/uc?id=1bGhwqxCDT9NQdm34MVIknAfFwyZrDOTI"
-        , title = "おおスザンナ(フォスター。わたしゃあらばまからるいじあなへばんじょーもって)"
-        , filename = "ohsusannna.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1lBn5vspGI08MqOoL4e8fQ2t5rvd7PSTn"
-        , mp3Url = "https://drive.google.com/uc?id=1MC4c3jC5A0XLgTesjaObEIiER_8-jpiX"
-        , title = "ケンタッキーの我が家(フォスター。My Old Kentucky Home)"
-        , filename = "kentucky.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=17xO8EsKElaL8iLu8AsHE-gudynfEv2iQ"
-        , mp3Url = "https://drive.google.com/uc?id=1fFdOkjQqNNy8jjB2nXHtvpHOcNr9dlZy"
-        , title = "オールド・ブラック・ジョー(フォスター。わかきひはやゆめとすぎ)"
-        , filename = "oldblackjoe.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1ZwFmuRhfT0DA_uDmv3cddozWREsTWTIh"
-        , mp3Url = "https://drive.google.com/uc?id=1kRTCPEEJpvtoOikVoGOE3HaoMIBatDal"
-        , title = "草競馬(フォスター。くさけいば) "
-        , filename = "camptownraces.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1kTcFGyHa56uHaoQ_AO0em6P5T2OUNa0D"
-        , mp3Url = "https://drive.google.com/uc?id=1e3H7RLz_tJgCTI1oI0WpcmYUx4hDE2ML"
-        , title = "金髪のジェニー(フォスター。Jeanie With the Light Brown Hair)"
-        , filename = "jeanie.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1NYAIwmpfbN9k4kMcxx6qwHVnjzNSdsRT"
-        , mp3Url = "https://drive.google.com/uc?id=1Hd232dXtPm_n1Mm184hndks6Za3RMbgD"
-        , title = "ホフマンの舟歌(オッフェンバッハ。Barcarolle D'Hoffmann)"
-        , filename = "hoffmannbarcarolle.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1mEtges7HpAxUesGAw1yhaulDfa0fVUer"
-        , mp3Url = "https://drive.google.com/uc?id=17BCHdvFY_p45OWFO1f5weYI-txXvTAjw"
-        , title = "ひょっこりひょうたん島(なみをじゃぶじゃぶじゃぶじゃぶかきわけて)"
-        , filename = "hyotanjia.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1p6ecMgvdNc-9ptxNuMvEIj7PtMNE1ZwR"
-        , mp3Url = "https://drive.google.com/uc?id=1cZwMNzVAK3_vykh8UHqZkFzATcZMODxh"
-        , title = "白銀の糸(しろがねのいとこがねにまじり)"
-        , filename = "shiroganenoito.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1g7GfNIYDQMExK2jPqYuu9GoV4rd2FoVx"
-        , mp3Url = "https://drive.google.com/uc?id=1q75vHd-H2-WZN7mimWjUV6MBW_l0NyLm"
-        , title = "谷間のともしび(たそがれにわがやのひまどにうつりしとき)"
-        , filename = "tanimanotomoshibi.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1Er2EXtFLqxgKY3RexDJtBBZGOFCHLzyn"
-        , mp3Url = "https://drive.google.com/uc?id=1B7lLwRHfn0erpEsjvtTWbkTgv9qrvKKe"
-        , title = "想い出まくら(こんなひはあのひとのまねをしてけむたそうなかおしてたばこをすうわ)"
-        , filename = "omoidemakura.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1qjMbz8NNFgm12DG5QkUyJPSEupiYFdZs"
-        , mp3Url = "https://drive.google.com/uc?id=1jVgy4v0XsIRilJwiKkJqBXkx_GZBnPPE"
-        , title = "カスバの女(なみだじゃないのようわきなあめに。ここはちのはてあるじぇりあ)"
-        , filename = "casbah.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1kYvrYJuqBTI3cFUK9mtQXb_-gYjfFevt"
-        , mp3Url = "https://drive.google.com/uc?id=1npc3j4A6HLSZqDH9XxCK9UH6YGjhXKzE"
-        , title = "港町ブルース(せのびしてみるかいきょうをきょうもきてきがとおざかる)"
-        , filename = "minatomachiblues.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1TMBlOWFWEdh0zO9q9pzAA4TOCMbjaw_z"
-        , mp3Url = "https://drive.google.com/uc?id=1bEdifh58hlWEreRhE6tmjHvngWe1BjU_"
-        , title = "オン・トップ・オブ・オールド・スモーキー(On Top Of Old Smokey)"
-        , filename = "smokey.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=18AVeFULeNCLbwmPNR8BBs4okumC1by9Q"
-        , mp3Url = "https://drive.google.com/uc?id=11RU08cy-DypcYVo17VOXj7CKpFS5sHqS"
-        , title = "TAKUMI/匠(大改造！！劇的ビフォーアフターより)"
-        , filename = "takumi.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1HAzxr7mQWHO4Zqj4YA432Jh0oOF1C3h6"
-        , mp3Url = "https://drive.google.com/uc?id=1QPdaXnpuctd8a7sXtwWkZM1ntPviIp7q"
-        , title = "TAKUMI/匠(三連符バージョン)"
-        , filename = "test_takumi.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=12BgwbkHQ8DC0jBhfMLSjGq_3ssEe_vLg"
-        , mp3Url = "https://drive.google.com/uc?id=1FtU2V4YR-ly2FMOjdINTby0PRGvH_5vz"
-        , title = "月光仮面は誰でしょう(げっこうかめんはだれでしょう。どこのだれだかしらないけれど)"
-        , filename = "gekkokamen.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1vigO1E1qR7ThNhpwzFIgwX1MLCkXDamU"
-        , mp3Url = "https://drive.google.com/uc?id=1-j4DUs2o6jdw13x7lNePqO3_TTAwf6XI"
-        , title = "おもちゃの兵隊のマーチ(キューピー3分クッキングより)"
-        , filename = "kewpie.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1zzKFnm2_c_xAC_r3Cfon_9eFR9UNaEkO"
-        , mp3Url = "https://drive.google.com/uc?id=1dnrTmYyCxdY8-s5riYjblcbvIxKBdcwI"
-        , title = "エトピリカ(情熱大陸より)"
-        , filename = "etupirka.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=18Jl3c6_5Nne9KfilhTq316WqiT1LEl8M"
-        , mp3Url = "https://drive.google.com/uc?id=1ncw3s4SB59T46S9Yie2IEOmW5BFfOprX"
-        , title = "渡る世間は鬼ばかり"
-        , filename = "watarusekenwa.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=10d7_mIS7n2maPWENnBHwoDchoE7OoQTH"
-        , mp3Url = "https://drive.google.com/uc?id=1OhpAkJc1Ow10LYIRAzpcTV6lslTeGlDs"
-        , title = "赤胴鈴之助(あかどうすずのすけ。けんをとってはにっぽんいちにゆめはおおきなしょうねんけんし)"
-        , filename = "akadosuzunosuke.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1C3sSPM0BSdRZJ18Pu6wFoLF2yLWaIaOx"
-        , mp3Url = "https://drive.google.com/uc?id=1ESipZC_uNvwUB2lWOspsyhnEEoh56j-7"
-        , title = "怪傑ハリマオ(かいけつはりまお。まっかなたいようもえているはてないみなみのおおぞらに)"
-        , filename = "kaiketsuharimau.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1xKzgg2-dMtUg-wMcpjAfQjkn65UA7f3c"
-        , mp3Url = "https://drive.google.com/uc?id=19oDTFz-ea8aZWM_c1DFxSQLtYQ43qwvf"
-        , title = "鉄人28号(てつじんにじゅうはちごう。びるのまちにがおーよるのはいうぇいにがおー)"
-        , filename = "tetsujin28go.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1tCIC3KpBrP0rJlJKHjeeK-zskQJrINHm"
-        , mp3Url = "https://drive.google.com/uc?id=1fgsSBgT26ZxfpcFJyHiw4BnK0RDegmA-"
-        , title = "少年探偵団の歌(ぼぼぼくらはしょうねんたんていだんゆうきりんりんるりのいろ)"
-        , filename = "shonentanteidan.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1V9qro0oNP8YeL9xX7YKNI_XPPuUJLJ4i"
-        , mp3Url = "https://drive.google.com/uc?id=1K5GSkOW97Ea4w1nWMaR1Lo8_pMGxKhOM"
-        , title = "巨人の星(ゆけゆけひゅうま。おもいこんだらしれんのみちをゆくがおとこのどこんじょう)"
-        , filename = "kyojinnohoshi.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1m3xS2ZAREtHvPpLU5vByxC9nIZqdEcHK"
-        , mp3Url = "https://drive.google.com/uc?id=1PBVdsKU3A1iTC1pIJ4BsatECoqvkrtjT"
-        , title = "にっぽん昔ばなし(ぼうやよいこだねんねしないまもむかしもかわりなく)"
-        , filename = "nipponmukashibanashi.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1Ck0389pQybkOLKNkIAYQeki23-LUwpv2"
-        , mp3Url = "https://drive.google.com/uc?id=1fNl-95SQM6l-vjjRnQwLmTCYLmaBlkUk"
-        , title = "シャボン玉ホリデー(しゃぼんだまるるるるるるるしゃぼんだまららららららら)"
-        , filename = "shabondamaholiday.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1jRJmqXmGnqRD0mhsRQ1QJJxmEMplpj8M"
-        , mp3Url = "https://drive.google.com/uc?id=1xQYlPIbHdploS9pzgiLNPiT293fBbiNH"
-        , title = "戦場のメリークリスマス(坂本龍一。せんじょうのめりーくりすます)"
-        , filename = "senjonomerrychristmas.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1B6z8yEe6IWUN8sVZ2S-4Q6JhisfSxQ1b"
-        , mp3Url = "https://drive.google.com/uc?id=1HNIyYvje0SW8wriUTxm6g4OO8wsAHpcp"
-        , title = "ムーン・リバー(むーんりばー。Moon River, wider than a mile)"
-        , filename = "moonriver.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1P3kgl303jBxRD9ACTDlUJRuydvvkNW1Z"
-        , mp3Url = "https://drive.google.com/uc?id=19adK6AX82JVtLUOtYbUtldQcDA445D1R"
-        , title = "フライ・ミー・トゥ・ザ・ムーン(ふらいみーとぅざむーん。Fly Me To the Moon)"
-        , filename = "flymetothemoon.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1iQ4TD6nAkdjLTdFwhn7dQzg5kSXrXdWZ"
-        , mp3Url = "https://drive.google.com/uc?id=1M95ghsGiOGnWpAhjdctyDx0hw7AfbylV"
-        , title = "青春の輝き(カーペンターズ。せいしゅんのかがやき。I Need To Be In Love)"
-        , filename = "seishunnokagayaki.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1oNXyV3LKHyWRbWP27LetScaOwDZ28ele"
+      , mp3Url = "https://drive.google.com/uc?id=1VBrJl-goRUiC8q0zvVNOVLxpo1981Xm2"
+      , title = "やさしき愛の歌(モロイ。Love's Old Sweet Song)"
+      , filename = "yasashikiainouta.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1Cfh91cGp6sMQy3FQSZ_hzm57__a7rlrj"
+      , mp3Url = "https://drive.google.com/uc?id=1UlR4THwWKheJOI_tMMsFDZPKhyMQvJ2_"
+      , title = "峠のわが家(Home on the Range つのぶえはこだまするやまのおかなたに)"
+      , filename = "togenowagaya.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1bDAXPwrsyv6uTZaqUhGOOU0bprjyhbao"
+      , mp3Url = "https://drive.google.com/uc?id=1XwWiKdPQMvWXAJFouJQ4N1YkiXk2YOhG"
+      , title = "家路(Going home。とおきやまにひはおちてほしはそらをちりばめぬ)"
+      , filename = "goinghome.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1iSN_nhD59jSV1fDss-g_MlqmvmBj0wPf"
+      , mp3Url = "https://drive.google.com/uc?id=1huDMk_Jv3FmoayuXSuPXhih_l-L1abY8"
+      , title = "漕げよマイケル(Michael Row the Boat Ashore Hallelujah)"
+      , filename = "michaelrow.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1IcbwZXmPk28RA6FXKL4BysVx7CFNk--l"
+      , mp3Url = "https://drive.google.com/uc?id=1Kyy3zreFL79O08ioCaf1H6na0K7siYrA"
+      , title = "わが悩み知り給う(Nobody Know de Trouble I See。わがなやみしりたもう)"
+      , filename = "waganayami.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1ZGJs2WxykkMeSjbrEGvhbx7A7ZrQ4MPt"
+      , mp3Url = "https://drive.google.com/uc?id=1fxrhFFNwF_aM7J_nldVb8sbHDx8fLvGE"
+      , title = "藁の中の七面鳥(わらのなかのしちめんちょう。さあたいへんださあたいへんだ)"
+      , filename = "turkeyinthestraw.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1iKgsb66xBwDl8p9JQFh-U2IM3IC6HQ81"
+      , mp3Url = "https://drive.google.com/uc?id=1n7RlzZtlg79GUMKhF01NnLALncOL2cJJ"
+      , title = "アロハ・オエ(あろはおえ。やさしくかなずるはゆかしうくれれよ)"
+      , filename = "alohaoe.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1kLUxtpX1uOwGcikToMVKctp9Rp07HU7r"
+      , mp3Url = "https://drive.google.com/uc?id=1uccvX6G8UJ8XYWZ2uGYMVNW2jCgSz8Pm"
+      , title = "ステンカ・ラージン(すてんからーじん。くおんにとどろくゔぉるがのながれ)"
+      , filename = "stenkarazin.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1azkvO16mykHktNaGONsSScCDbbm39akU"
+      , mp3Url = "https://drive.google.com/uc?id=1BOQn85juVF9IKNv_HfYE-N4KhGfJdgQM"
+      , title = "ブンガワン・ソロ(ぶんがわんそろはてしなききよきながれに)"
+      , filename = "bengawnasolo.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=17Tdaj04ab5uGT4sf15yaYh0ILPFqPqWn"
+      , mp3Url = "https://drive.google.com/uc?id=1Q-omJiecO1J5t5AQW92UJ4zepI9aN_7q"
+      , title = "トラン・ブーラン(とらんぶーらんやしのはかげあかるくてりかがやき)"
+      , filename = "terangbulan.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=15BZWyw62j3LwNMIgBj6Q4JKo-mXRz7bq"
+      , mp3Url = "https://drive.google.com/uc?id=1t4xq5dGrOIMuQmC82mkLLpTUQ7ZTn4YZ"
+      , title = "シューベルトのセレナーデ(Schubert Serenade(Staendchen))"
+      , filename = "schubertseranade.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1vNCwtRoNS4_t1x7mjpE_RwGkA7EwTK_A"
+      , mp3Url = "https://drive.google.com/uc?id=13edzce2LS0FWYNWWP1uGRhOQfjbFIdDc"
+      , title = "別れの曲(ショパン。はるのひそよかざはなちるみどりのおか)"
+      , filename = "chopinwakarenokyoku.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1WOZTy3KDhXRQPxElgo2uApt6zyd1UCYh"
+      , mp3Url = "https://drive.google.com/uc?id=1iAPYygJQpmExOzQqUp9Agz1_lT958rEN"
+      , title = "真実の愛(Treue Liebe。ドイツ民謡)"
+      , filename = "treueliebe.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1uUSlCFOsbQ2j7maCqiBTzxBDKz7LS4TU"
+      , mp3Url = "https://drive.google.com/uc?id=1Tm1XVHzz3U5ojdX2ZKVbSCxxRsRmQGAX"
+      , title = "帰れソレントへ(うるわしのうみはうつつにもゆめむ)"
+      , filename = "sorrento.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1FILDwAvJ_AItxqXXIxJ4uAhUephafkCh"
+      , mp3Url = "https://drive.google.com/uc?id=1f578olVVBGbEbv6IGQ1XrvfkwwhxullT"
+      , title = "マギー若き日の歌を(When you and I were young, Maggie)"
+      , filename = "maggie.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1Sb8UEccL--D-HfpjlYPf0xaFzGbOl5LR"
+      , mp3Url = "https://drive.google.com/uc?id=1OGX_brVDae0VkH9yZjm-Mur0E3H5VZnp"
+      , title = "カロ・ミオ・ベン(Caro Mio Ben。ジョルダーニ)"
+      , filename = "caromioben.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1dZSKtdEGwtMq044-Zc7axPXDl398f3Iy"
+      , mp3Url = "https://drive.google.com/uc?id=1-p8GCqxvVNvzvgORdhvgY_8F6huwjsiw"
+      , title = "マリア・マリ(カプア。まどをひらきてわがうたききてよ)"
+      , filename = "mariamari.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1_QwyQyA0gYrMdTbDEqiukmAoPQ5cg17C"
+      , mp3Url = "https://drive.google.com/uc?id=1IUfKEMKDtKc9mx-MoAd5pbEPSPxZHz0d"
+      , title = "女心の歌(おんなごころのうた。ヴェルディ「リゴレット」より)"
+      , filename = "onnagokoronouta.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=13FQOrbRDie0sEQlJZIV6dPprsGsznyl_"
+      , mp3Url = "https://drive.google.com/uc?id=1l1Q6dbrbho2u7f6CbhHwZt1kgm0jWvjO"
+      , title = "エレジー(マスネー「悲歌」)"
+      , filename = "masenetelegie.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1jWPsJQF26wszI_hX7fK7QsgypmOVi6_8"
+      , mp3Url = "https://drive.google.com/uc?id=1qfjShcHECLQkwOxYt1617KFV-UTCQw4Z"
+      , title = "楽しき農夫(シューマン)"
+      , filename = "schumantanoshikinofu.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1PtwETXAdtZtwEmkKEoP013lRPNhX5ijT"
+      , mp3Url = "https://drive.google.com/uc?id=1iclF4WjcDQikMnSId2Do7iKI3TiJihF4"
+      , title = "歌声ひびく(うるわしはるよみどりにはえてうたごえひびくのにやまに)"
+      , filename = "utagoehibiku.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1G5RVD315sVlJ4nYWwAlsk-UAWRK2GVmJ"
+      , mp3Url = "https://drive.google.com/uc?id=1Cht48MpzossmjEZUfPPC3pG4Rgm8xdSA"
+      , title = "希望のささやき(あまつみつかいのこえもかくやと)"
+      , filename = "kibonosasayaki.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1y5vI_s6QVBRN5hBpseEaeaWXAOXv-gQt"
+      , mp3Url = "https://drive.google.com/uc?id=1pOKdEu7mH9b24iC6Msf6ZK0w1x-Gfaq4"
+      , title = "ニーナ(Tre giorni son che Nina by Ciampi/Pergolesi。ふつかふれどもにーなはめざめず)"
+      , filename = "ninatregiorni.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1myW3q-rRIRH0pAeh7Y-c4PryGHH2-3yw"
+      , mp3Url = "https://drive.google.com/uc?id=19m1Jb-r4_E03DXqs9v0OgKTbgSwND0XS"
+      , title = "ソルベーグの歌(グリーグ。ふゆはゆきてはるすぎてはるすぎて)"
+      , filename = "solvejg.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1vmdBA1vuSPkNVbyAeoU8ylnTZ9dsesHJ"
+      , mp3Url = "https://drive.google.com/uc?id=1VttViOmKGVWp8PEdQ-OmYg0RmkxzEfSl"
+      , title = "シューベルトのアヴェ・マリア(クリスマス。あべまりあ)"
+      , filename = "schubertavemaria.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1VaaGY6iPG_jqXcKcrn_WHA6Mzogv_c78"
+      , mp3Url = "https://drive.google.com/uc?id=1E7e15yxlmDKEemQK6AsYiYN2AHKFrIP5"
+      , title = "嘆きのセレナータ(トセリ。こころもゆるあつきこいきみをばしのびてうれしさになく)"
+      , filename = "nagekinoserenata.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=19e1V5jPwStBEdUXURxhr8NcOFJFHkp7F"
+      , mp3Url = "https://drive.google.com/uc?id=1Y33FbQSfO4wVPizriK85XMT3OlpY1EYi"
+      , title = "春が呼んでるよ(ヘイ・ムイ・ヤシネック。ひばりのこすずめのことびながらなにをみた)"
+      , filename = "harugayonderuyo.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1B3voooI_UC6vk--8wSPRhYETC32Znz8N"
+      , mp3Url = "https://drive.google.com/uc?id=134NB9aBWPVINjP_lKChOsqMlNpWh7Jrz"
+      , title = "汝が友(ながとも。ハンガリージプシーの歌。ゆめになずみてねむるいとしご)"
+      , filename = "nagatomo.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1n5GCez_QGAeV0q7KnULcO-PpHJ0RM8m7"
+      , mp3Url = "https://drive.google.com/uc?id=1zI_sEvIBteYZGDlnvQRe49GufQfaj5lm"
+      , title = "ラサ・サヤン・ゲ(インドネシア。らささやんげ。あいするうた。かわでうたおう)"
+      , filename = "rasasajange.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1z6Rl3pg2JGlY287FIhU54et3601psYzl"
+      , mp3Url = "https://drive.google.com/uc?id=1LFCvdFm404OFi4PCnYlgpOiGc1_j5xwI"
+      , title = "太湖船(たいこせん。サントリーウーロン茶)"
+      , filename = "taikosen.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1Q9NEKkuQ-tjuYzx-jDeWZEJ2BZCqU-xq"
+      , mp3Url = "https://drive.google.com/uc?id=1s16YYoGXzKxVK2-04ebCCG1sYD4gr5e3"
+      , title = "草原情歌(そうげんじょうか。はるかはなれたそのまたむこう)"
+      , filename = "sogenjoka.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1uZ_Bh_4LfbFaZhu8MSZ409Pa40r0nQdF"
+      , mp3Url = "https://drive.google.com/uc?id=1ZfsSC8zfdufb9ce6xPepfK71xHkMl0k1"
+      , title = "アリラン(ありらんありらんあらりよーありらんとうげをこえゆく)"
+      , filename = "arirang.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=15WRxn8k1LWY0YXjIN0CjFuX8iLp1oeET"
+      , mp3Url = "https://drive.google.com/uc?id=1nGQTkGsVMqYUlHdlq5UCunVQrWhmGgar"
+      , title = "トラジ(とらじとらじとらじかわいいとらじのはなさいてる)"
+      , filename = "torachitarung.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1cgOaaqmsIs9nNZu538E4ofQK9QBWhKb5"
+      , mp3Url = "https://drive.google.com/uc?id=1_G2GsnsKautN301ZGB5ya2fl20D-G1fC"
+      , title = "なつかしのバージニア(Carry Me Back to Old Virginny。いざゆかんなつかしのゆめにあこがる)"
+      , filename = "virginny.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1EGOkCCbdxPkzfxVbxJO4vSUjt40AzzDt"
+      , mp3Url = "https://drive.google.com/uc?id=1J6R2N46R8VT_HFr14w7QNM6vHCN6GcSc"
+      , title = "白バラの匂う夕べは(Freud euch des Lebens)"
+      , filename = "shirobaranoniouyubewa.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1cZL5ND71bfq-dXcv2wgC6cnFZ-DSj6r-"
+      , mp3Url = "https://drive.google.com/uc?id=1FkzDDhAE6JzSfcmZ0ijuGjCZF9sAnGRI"
+      , title = "オーラ・リー(Aura Lee)"
+      , filename = "auralee.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1DHCY5HIX0TfsgVVmzqjjfcsiAJHRgktd"
+      , mp3Url = "https://drive.google.com/uc?id=1jxtVY8YL-Yf1ezrZRS7dWUPAVyDMxF7I"
+      , title = "五月の歌(モーツァルト。たのしやごがつくさきはもえ)"
+      , filename = "gogatsunouta.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=10RcwJqE-fnEsKm87f-TCAzB17-52UtA-"
+      , mp3Url = "https://drive.google.com/uc?id=16R5hwE_LsrmB6U2qHjAoR0yXlthNM5Ux"
+      , title = "赤い花白い花(あかいはなつんであのひとにあげよ)"
+      , filename = "akaihanashiroihana.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1CiGTnQQ--1nkmQ5bCgzaqUKZTK5ddQuQ"
+      , mp3Url = "https://drive.google.com/uc?id=1GBDZnEQaRyUZkThbNd7FxLBBDfkHLXTf"
+      , title = "山賊の歌(あめがふればおがわができかぜがふけばやまができる)"
+      , filename = "sanzokunouta.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1p5oJe1unTZ3AJDbqckc1znxvQkqDdMK3"
+      , mp3Url = "https://drive.google.com/uc?id=1giPg5DWraOw9T724WAjBp1r_wyhJ0tLE"
+      , title = "坊がつる讃歌(ひとみなはなにようときもざんせつこいしやまにいり)"
+      , filename = "bogatsurusanka.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1AzwfTYN6ke-75jT6J8HIj9Bq-PHNp66y"
+      , mp3Url = "https://drive.google.com/uc?id=1y88X_3b4Sw0SxGtZW12PkhQjOMbIe4XV"
+      , title = "シーハイル(いわきのおろしがふくならふけよやまからやまへとわれらははしる)"
+      , filename = "schiheil.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1EAXecAfZrceUmv5TsSe2LuSm82NkJ41w"
+      , mp3Url = "https://drive.google.com/uc?id=1nHrcmS4VuKkamzLOgEvX4zstYWd4noBG"
+      , title = "菩提樹(シューベルト。いずみにそいてしげるぼだいじゅ)"
+      , filename = "bodaiju.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1J5HzzprlxdRF9q3kNZdH7-4MXP1q1M-R"
+      , mp3Url = "https://drive.google.com/uc?id=1XR7sh7sgU2J0tVcxZldTrrp5Lqjj0cVX"
+      , title = "歌の翼に(メンデルスゾーン。うたのつばさをかりてゆかなさちにあふるるゆめのくにへ)"
+      , filename = "utanotsubasa.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1Jd-V4BBdsrfZPgqfu1DGpIrC8r-fLtXC"
+      , mp3Url = "https://drive.google.com/uc?id=1qjDsB_ieu4N3NF3OlcZPD4Zps3rZeghY"
+      , title = "星かげさやかに(もえろよもえろよ。ほしかげさやかにしずかにふけぬ)"
+      , filename = "hoshikaegsayakani.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=14vtgtfA-8l5_W8ptPtinzRHYfWzVhXuk"
+      , mp3Url = "https://drive.google.com/uc?id=14ZsSZkNJhfPU6PqmmYsPu_QEIzX5Tu2i"
+      , title = "王の行進(ファランドール。あさひうけてすすむおうのぎょうれつうるわし)"
+      , filename = "lamarchederois.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1OWifGrQaTgSfsUnmA8HNcIyADXwSnsH3"
+      , mp3Url = "https://drive.google.com/uc?id=1Q9UR0F3GRqNfeIUjOHnSoIdWMHeuxB-Q"
+      , title = "夜の調べ(グノーのセレナーデ。あわれゆかしきうたのしらべ)"
+      , filename = "gounodserenade.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1iWwWyvvmMwIUFDX3q1u1SHG51jN3CXVj"
+      , mp3Url = "https://drive.google.com/uc?id=1bGhwqxCDT9NQdm34MVIknAfFwyZrDOTI"
+      , title = "おおスザンナ(フォスター。わたしゃあらばまからるいじあなへばんじょーもって)"
+      , filename = "ohsusannna.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1lBn5vspGI08MqOoL4e8fQ2t5rvd7PSTn"
+      , mp3Url = "https://drive.google.com/uc?id=1MC4c3jC5A0XLgTesjaObEIiER_8-jpiX"
+      , title = "ケンタッキーの我が家(フォスター。My Old Kentucky Home)"
+      , filename = "kentucky.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=17xO8EsKElaL8iLu8AsHE-gudynfEv2iQ"
+      , mp3Url = "https://drive.google.com/uc?id=1fFdOkjQqNNy8jjB2nXHtvpHOcNr9dlZy"
+      , title = "オールド・ブラック・ジョー(フォスター。わかきひはやゆめとすぎ)"
+      , filename = "oldblackjoe.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1ZwFmuRhfT0DA_uDmv3cddozWREsTWTIh"
+      , mp3Url = "https://drive.google.com/uc?id=1kRTCPEEJpvtoOikVoGOE3HaoMIBatDal"
+      , title = "草競馬(フォスター。くさけいば) "
+      , filename = "camptownraces.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1kTcFGyHa56uHaoQ_AO0em6P5T2OUNa0D"
+      , mp3Url = "https://drive.google.com/uc?id=1e3H7RLz_tJgCTI1oI0WpcmYUx4hDE2ML"
+      , title = "金髪のジェニー(フォスター。Jeanie With the Light Brown Hair)"
+      , filename = "jeanie.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1NYAIwmpfbN9k4kMcxx6qwHVnjzNSdsRT"
+      , mp3Url = "https://drive.google.com/uc?id=1Hd232dXtPm_n1Mm184hndks6Za3RMbgD"
+      , title = "ホフマンの舟歌(オッフェンバッハ。Barcarolle D'Hoffmann)"
+      , filename = "hoffmannbarcarolle.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1mEtges7HpAxUesGAw1yhaulDfa0fVUer"
+      , mp3Url = "https://drive.google.com/uc?id=17BCHdvFY_p45OWFO1f5weYI-txXvTAjw"
+      , title = "ひょっこりひょうたん島(なみをじゃぶじゃぶじゃぶじゃぶかきわけて)"
+      , filename = "hyotanjia.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1p6ecMgvdNc-9ptxNuMvEIj7PtMNE1ZwR"
+      , mp3Url = "https://drive.google.com/uc?id=1cZwMNzVAK3_vykh8UHqZkFzATcZMODxh"
+      , title = "白銀の糸(しろがねのいとこがねにまじり)"
+      , filename = "shiroganenoito.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1g7GfNIYDQMExK2jPqYuu9GoV4rd2FoVx"
+      , mp3Url = "https://drive.google.com/uc?id=1q75vHd-H2-WZN7mimWjUV6MBW_l0NyLm"
+      , title = "谷間のともしび(たそがれにわがやのひまどにうつりしとき)"
+      , filename = "tanimanotomoshibi.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1Er2EXtFLqxgKY3RexDJtBBZGOFCHLzyn"
+      , mp3Url = "https://drive.google.com/uc?id=1B7lLwRHfn0erpEsjvtTWbkTgv9qrvKKe"
+      , title = "想い出まくら(こんなひはあのひとのまねをしてけむたそうなかおしてたばこをすうわ)"
+      , filename = "omoidemakura.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1qjMbz8NNFgm12DG5QkUyJPSEupiYFdZs"
+      , mp3Url = "https://drive.google.com/uc?id=1jVgy4v0XsIRilJwiKkJqBXkx_GZBnPPE"
+      , title = "カスバの女(なみだじゃないのようわきなあめに。ここはちのはてあるじぇりあ)"
+      , filename = "casbah.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1kYvrYJuqBTI3cFUK9mtQXb_-gYjfFevt"
+      , mp3Url = "https://drive.google.com/uc?id=1npc3j4A6HLSZqDH9XxCK9UH6YGjhXKzE"
+      , title = "港町ブルース(せのびしてみるかいきょうをきょうもきてきがとおざかる)"
+      , filename = "minatomachiblues.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1TMBlOWFWEdh0zO9q9pzAA4TOCMbjaw_z"
+      , mp3Url = "https://drive.google.com/uc?id=1bEdifh58hlWEreRhE6tmjHvngWe1BjU_"
+      , title = "オン・トップ・オブ・オールド・スモーキー(On Top Of Old Smokey)"
+      , filename = "smokey.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=18AVeFULeNCLbwmPNR8BBs4okumC1by9Q"
+      , mp3Url = "https://drive.google.com/uc?id=11RU08cy-DypcYVo17VOXj7CKpFS5sHqS"
+      , title = "TAKUMI/匠(大改造！！劇的ビフォーアフターより)"
+      , filename = "takumi.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1HAzxr7mQWHO4Zqj4YA432Jh0oOF1C3h6"
+      , mp3Url = "https://drive.google.com/uc?id=1QPdaXnpuctd8a7sXtwWkZM1ntPviIp7q"
+      , title = "TAKUMI/匠(三連符バージョン)"
+      , filename = "test_takumi.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=12BgwbkHQ8DC0jBhfMLSjGq_3ssEe_vLg"
+      , mp3Url = "https://drive.google.com/uc?id=1FtU2V4YR-ly2FMOjdINTby0PRGvH_5vz"
+      , title = "月光仮面は誰でしょう(げっこうかめんはだれでしょう。どこのだれだかしらないけれど)"
+      , filename = "gekkokamen.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1vigO1E1qR7ThNhpwzFIgwX1MLCkXDamU"
+      , mp3Url = "https://drive.google.com/uc?id=1-j4DUs2o6jdw13x7lNePqO3_TTAwf6XI"
+      , title = "おもちゃの兵隊のマーチ(キューピー3分クッキングより)"
+      , filename = "kewpie.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1zzKFnm2_c_xAC_r3Cfon_9eFR9UNaEkO"
+      , mp3Url = "https://drive.google.com/uc?id=1dnrTmYyCxdY8-s5riYjblcbvIxKBdcwI"
+      , title = "エトピリカ(情熱大陸より)"
+      , filename = "etupirka.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=18Jl3c6_5Nne9KfilhTq316WqiT1LEl8M"
+      , mp3Url = "https://drive.google.com/uc?id=1ncw3s4SB59T46S9Yie2IEOmW5BFfOprX"
+      , title = "渡る世間は鬼ばかり"
+      , filename = "watarusekenwa.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=10d7_mIS7n2maPWENnBHwoDchoE7OoQTH"
+      , mp3Url = "https://drive.google.com/uc?id=1OhpAkJc1Ow10LYIRAzpcTV6lslTeGlDs"
+      , title = "赤胴鈴之助(あかどうすずのすけ。けんをとってはにっぽんいちにゆめはおおきなしょうねんけんし)"
+      , filename = "akadosuzunosuke.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1C3sSPM0BSdRZJ18Pu6wFoLF2yLWaIaOx"
+      , mp3Url = "https://drive.google.com/uc?id=1ESipZC_uNvwUB2lWOspsyhnEEoh56j-7"
+      , title = "怪傑ハリマオ(かいけつはりまお。まっかなたいようもえているはてないみなみのおおぞらに)"
+      , filename = "kaiketsuharimau.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1xKzgg2-dMtUg-wMcpjAfQjkn65UA7f3c"
+      , mp3Url = "https://drive.google.com/uc?id=19oDTFz-ea8aZWM_c1DFxSQLtYQ43qwvf"
+      , title = "鉄人28号(てつじんにじゅうはちごう。びるのまちにがおーよるのはいうぇいにがおー)"
+      , filename = "tetsujin28go.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1tCIC3KpBrP0rJlJKHjeeK-zskQJrINHm"
+      , mp3Url = "https://drive.google.com/uc?id=1fgsSBgT26ZxfpcFJyHiw4BnK0RDegmA-"
+      , title = "少年探偵団の歌(ぼぼぼくらはしょうねんたんていだんゆうきりんりんるりのいろ)"
+      , filename = "shonentanteidan.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1V9qro0oNP8YeL9xX7YKNI_XPPuUJLJ4i"
+      , mp3Url = "https://drive.google.com/uc?id=1K5GSkOW97Ea4w1nWMaR1Lo8_pMGxKhOM"
+      , title = "巨人の星(ゆけゆけひゅうま。おもいこんだらしれんのみちをゆくがおとこのどこんじょう)"
+      , filename = "kyojinnohoshi.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1m3xS2ZAREtHvPpLU5vByxC9nIZqdEcHK"
+      , mp3Url = "https://drive.google.com/uc?id=1PBVdsKU3A1iTC1pIJ4BsatECoqvkrtjT"
+      , title = "にっぽん昔ばなし(ぼうやよいこだねんねしないまもむかしもかわりなく)"
+      , filename = "nipponmukashibanashi.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1Ck0389pQybkOLKNkIAYQeki23-LUwpv2"
+      , mp3Url = "https://drive.google.com/uc?id=1fNl-95SQM6l-vjjRnQwLmTCYLmaBlkUk"
+      , title = "シャボン玉ホリデー(しゃぼんだまるるるるるるるしゃぼんだまららららららら)"
+      , filename = "shabondamaholiday.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1jRJmqXmGnqRD0mhsRQ1QJJxmEMplpj8M"
+      , mp3Url = "https://drive.google.com/uc?id=1xQYlPIbHdploS9pzgiLNPiT293fBbiNH"
+      , title = "戦場のメリークリスマス(坂本龍一。せんじょうのめりーくりすます)"
+      , filename = "senjonomerrychristmas.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1B6z8yEe6IWUN8sVZ2S-4Q6JhisfSxQ1b"
+      , mp3Url = "https://drive.google.com/uc?id=1HNIyYvje0SW8wriUTxm6g4OO8wsAHpcp"
+      , title = "ムーン・リバー(むーんりばー。Moon River, wider than a mile)"
+      , filename = "moonriver.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1P3kgl303jBxRD9ACTDlUJRuydvvkNW1Z"
+      , mp3Url = "https://drive.google.com/uc?id=19adK6AX82JVtLUOtYbUtldQcDA445D1R"
+      , title = "フライ・ミー・トゥ・ザ・ムーン(ふらいみーとぅざむーん。Fly Me To the Moon)"
+      , filename = "flymetothemoon.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1iQ4TD6nAkdjLTdFwhn7dQzg5kSXrXdWZ"
+      , mp3Url = "https://drive.google.com/uc?id=1M95ghsGiOGnWpAhjdctyDx0hw7AfbylV"
+      , title = "青春の輝き(カーペンターズ。せいしゅんのかがやき。I Need To Be In Love)"
+      , filename = "seishunnokagayaki.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1S_MVim2_DNJNfvHVrBGXIf_iZbNQkH1x"
       , mp3Url = "https://drive.google.com/uc?id=1B3E5WOAsMPqZgX90Ymjjvyz2-MF6SBqs"
       , title = "嗚呼玉杯に花うけて(一高寮歌。ああぎょくはいにはなうけてりょくしゅにつきのかげやどし)"
       , filename = "aagyokuhaini.ly"
       }
-      , { jpgUrl = "https://drive.google.com/uc?id=1FUJXGdnuB0cGwZegEfJQAnkNf3zeo_5h"
-        , mp3Url = "https://drive.google.com/uc?id=1xac5aCKIei0o7RVWyjzkRTppyTn24Eqm"
-        , title = "宇宙戦艦ヤマト(さらばちきゅうよたびだつふねはうちゅうせんかんやまと)"
-        , filename = "uchusenkanyamato.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1Z9ivkF886kqQyNwalr1h1hPs5VB2dPnl"
-        , mp3Url = "https://drive.google.com/uc?id=1UQgyl6bLaSNNW91SPKQTH2RBY1s60UdZ"
-        , title = "ルパン三世(まっかなばらはあいつのくちびる)"
-        , filename = "lupinthe3rd.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1LnWcp6Mwgkv8I30Uqb1Pt7oUatgvLWa-"
-        , mp3Url = "https://drive.google.com/uc?id=1qAHP-aiZhpyhRuIEIwzumLdU0T_Dg1FD"
-        , title = "残酷な天使のテーゼ(ざんこくなてんしのようにしょうねんよしんわになれ)"
-        , filename = "zankokunatenshi.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1DulfeacuW2KWHCtCCebt4Y6bfUv81jnu"
-        , mp3Url = "https://drive.google.com/uc?id=1fo7XwG349ZNqhzxeTol0uYmTnBmiQaMp"
-        , title = "ラ・バンバ(La Bamba)"
-        , filename = "labamba.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1c-TIv3osKIT1vFrAJ6ar3qAOk6E21NzL"
-        , mp3Url = "https://drive.google.com/uc?id=1x7joXp7ttw8vYz7Lp19i0nBeEyBhX-eO"
-        , title = "ガッチャマンの歌(だれだーだれだーだれだーそらのかなたにおどるかげ)"
-        , filename = "gatchaman.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1IQrrqGsiOHDdvze6VFDHg45g9efuZJDv"
-        , mp3Url = "https://drive.google.com/uc?id=1uXXe785Oj1fVEgT30A7aoDBmLA_QWtN1"
-        , title = "翔べ！ガンダム(もえあがれもえあがれもえあがれがんだむ)"
-        , filename = "tobegundam.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1J-wqX8voYLMGUPA3V_m7us6FbPraz9ne"
-        , mp3Url = "https://drive.google.com/uc?id=1cWXzQqkRqqBcltkI-xk4M8_ek7WzHmYc"
-        , title = "タッチ(こきゅうをとめていちびょうあなたしんけんなめをしたから)"
-        , filename = "touch.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1b2_iVp0KBu_yFfcKG_somSzmO4MWl-T4"
-        , mp3Url = "https://drive.google.com/uc?id=1MB_g6s1L7nVe0UfZDqWlzZHlJUvD1oQB"
-        , title = "ラムのラブソング(あんまりそわそわしないであなたはいつでもきょろきょろ)"
-        , filename = "lumslovesong.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1ENQIexPShGtgLk1w_c54ryuT7xu2Zchi"
-        , mp3Url = "https://drive.google.com/uc?id=1rIx7TPqZFin7LNAq7Bb-1Mp8R-00sCU4"
-        , title = "この素晴らしき世界(ルイ・アームストロング。What a Wonderful World)"
-        , filename = "wonderfulworld.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1o-e46rkNYiSNUqMtVZhYaoRc0RAm6HcV"
-        , mp3Url = "https://drive.google.com/uc?id=1XD_n4E1sBf3h_x_w6hhspVXryqaizV2B"
-        , title = "赤いスイートピー(はるいろのきしゃにのってうみにつれていってよ)"
-        , filename = "akaisweetpea.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=15C7Dl3-If0nP1xkuK0ZFNTnUm2agUga8"
-        , mp3Url = "https://drive.google.com/uc?id=1Bx0V8OlxVlOZbq_EmBnTVNOeskauhntD"
-        , title = "愛の挨拶(エルガー。あいのあいさつ)"
-        , filename = "elgarainoaisatsu.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1DSS7KG_IRw_GgQ6u2-U2XPU17v8mvg6l"
-        , mp3Url = "https://drive.google.com/uc?id=1Q3kU1TjuzGCSxCv4jNAhujKt2dF2kWIF"
-        , title = "いつか王子様が(ディズニー白雪姫。Someday My Prince Will Come)"
-        , filename = "somedaymyprince.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1F7ed7DcQbFc9eVlbldpdkHiqum2iIU28"
-        , mp3Url = "https://drive.google.com/uc?id=13saCO5oSZd3yVXlmpcFN7SaADUCcEWlz"
-        , title = "君をのせて(ジブリ天空の城ラピュタ。あのちへいせんかがやくのは)"
-        , filename = "kimiwonosete.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1kiNCvjSdWVYFBwiyrdFN_ZqP2YBkEtO4"
-        , mp3Url = "https://drive.google.com/uc?id=16VLz5fG82GRdoku8Vn1MitiM_BACT8Ll"
-        , title = "ピアノソナタ第8番悲壮第2楽章より(ベートーベン)"
-        , filename = "beethovenhisou2.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1ZC5P7b_4RDxHTF-F86vBG7tOOB-HRsDw"
-        , mp3Url = "https://drive.google.com/uc?id=1NJOkVG1L4k0uZv_F7YGfY60eqR5qORq2"
-        , title = "タイム・トゥ・セイ・グッバイ(Time To Say Goodbye。サラ・ブライトマン)"
-        , filename = "timetosaygoodby.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1CZ5kBZs2EP8aR4wwPmZsUKULDtQp8dOp"
-        , mp3Url = "https://drive.google.com/uc?id=1HEm4awFDY5pIK9sR_MiTetTg-Ao4ovAC"
-        , title = "エリーゼのために(ベートーベン)"
-        , filename = "beethovefurelise.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1WHFpV80yd9tdz3T8lpXBcuIRfGO8E5Fh"
-        , mp3Url = "https://drive.google.com/uc?id=19XLcFDc6tbOZGyfZm0iv2eWa9ugA_OHe"
-        , title = "煙が目にしみる(Smoke Gets In Your Eyes)"
-        , filename = "smokegetsinyoureyes.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1sZuK53EXUoYhObqR18fe0_5_6hXiTLyv"
-        , mp3Url = "https://drive.google.com/uc?id=1YQWvVeykTCi-ISESvvFZAQvQahR3Qk8x"
-        , title = "スカボロー・フェア(サイモンとガーファンクル。すかぼろーふぇあ。Scarborough Fair)"
-        , filename = "scarboroughfair.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=10DuhwRcpcD2wfbzftbMV7cSF1TYW-BDA"
-        , mp3Url = "https://drive.google.com/uc?id=1-HcST0iOSO-OZagJyG3M0PYjXgbuKO-S"
-        , title = "シルクロードのテーマ(喜多郎)"
-        , filename = "silkroad.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1pGlxmd83R1WtY21KKLYLb1Nmp4pLgAli"
-        , mp3Url = "https://drive.google.com/uc?id=18V4vvJMPNos1zgnWJncyiWKjChe_G3nd"
-        , title = "デスペラード(イーグルス。Desperado)"
-        , filename = "desperado.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1L0dchoYDZxt-uYiuyURButkDf5VD4Xq2"
-        , mp3Url = "https://drive.google.com/uc?id=1PO4wi8ahpH0Ju9yzTUyOfJYfe5OHjkgd"
-        , title = "Summer(菊次郎の夏)"
-        , filename = "summer.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=13xAAH9FLdf0OLlfe_izZrPZ0lyW89uqt"
-        , mp3Url = "https://drive.google.com/uc?id=1NQ5jG4pGkLvzYOjx2CfQ0gD3YeaFul8V"
-        , title = "リベルタンゴ(ピアソラ)"
-        , filename = "libertango.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1NJIX65lfHcbxXk-MaUhUx9d8i0ANOoz9"
-        , mp3Url = "https://drive.google.com/uc?id=1RHhXZp2W7fcidKGsBZYdqZP68QAhZTzA"
-        , title = "愛の夢第3番(リスト)"
-        , filename = "lisztainoyume3.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=11xJp16KU7g8s4ZT6PqF-M7qrNOvHeYvy"
-        , mp3Url = "https://drive.google.com/uc?id=1h-tcFtPAiOLzDZNjdycMakiwlj4nPxm5"
-        , title = "花(すべての人の心に花を。かわはながれてどこいくのひともながれてどこいくの)"
-        , filename = "hanasubete.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1Xm2t-HZOL7dEIlzsC-WjiH2qmE12X_Dy"
-        , mp3Url = "https://drive.google.com/uc?id=1CIKDPxpUSmqdCAogAfm1t6QT4iE22zAp"
-        , title = "Close to You(セナのピアノⅡ)"
-        , filename = "senanopiano.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=10EoJ2-PxbDuDwCWPt1gnG9GV1B_gELuB"
-        , mp3Url = "https://drive.google.com/uc?id=1i3kL5Kw9wifJ-hx1Dw8hchoeGKxAXffM"
-        , title = "言葉にできない(小田和正。おわるはずのないあいあいがとだえた)"
-        , filename = "kotobanidekinai.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1L1atNUqsCYO5kgwWeFrgD3Ebm7Uh6Fig"
-        , mp3Url = "https://drive.google.com/uc?id=1hjb3pD8JCYpjpuLjvUWiK70-cLGpZdH_"
-        , title = "美女と野獣(ディズニー。Beauty and the Beast)"
-        , filename = "bijotoyaju.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1l8zFpDIPldl1-yuWwplWI8HN61t8Kd-1"
-        , mp3Url = "https://drive.google.com/uc?id=1Y4npDOfLalItv_v25Eo7oOcCRt6Eme3n"
-        , title = "ハナミズキ(一青窈。そらをおしあげててをのばすきみ)"
-        , filename = "hanamizuki.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1uqKnznHUe4v_91xR1tV2Za5NfiYuDd2W"
-        , mp3Url = "https://drive.google.com/uc?id=1tMxIucrN3AagDCicUzdj2FSoOagY1J63"
-        , title = "世界の車窓から"
-        , filename = "sekainoshasokara.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1jvDMvvbFupn0h-1630M9yjiUNq7IvNw_"
-        , mp3Url = "https://drive.google.com/uc?id=1JMeYMz25kgnWGXA6o7wDk6I4srYprFPB"
-        , title = "リンゴ追分(りんごのはなびらがかぜにちったよね)"
-        , filename = "ringooiwake.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1X7oR4ckspp5R1Q2lMjoljUP76oRIVR8M"
-        , mp3Url = "https://drive.google.com/uc?id=1VVF-8ckWp476mI7mRL01Sx_nd2SGdAJG"
-        , title = "知りたくないの(あなたのかこなどしりたくないの)"
-        , filename = "shiritakunaino.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1eqHO_cRvWPR-2cchhCfkGrD2KJ5G9UgC"
-        , mp3Url = "https://drive.google.com/uc?id=10SrqZrsl7dhAu3AdE1QXHTcHngW_pWWc"
-        , title = "ブルーライト・ヨコハマ(まちのあかりがとてもきれいねよこはま)"
-        , filename = "bluelightyokoham.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1835M5VKZ0b3iHC5sYKiPIEwsPM-Nbex0"
-        , mp3Url = "https://drive.google.com/uc?id=1I-usP6qNYuhLSaqaHL8WFpZUR2AlpKwR"
-        , title = "真っ赤な太陽(まっかにもえたたいようだからまなつのうみはこいのきせつなの)"
-        , filename = "makkanataiyo.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=15J5nRBnka4pz1SQ2bVEFUlKq8mFx48xY"
-        , mp3Url = "https://drive.google.com/uc?id=1_7PjsEaQ0ovAipsLT9XujBkbfY3cS7o6"
-        , title = "君といつまでも(ふたりをゆうやみがつつむこのまどべに)"
-        , filename = "kimitoitsumademo.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1zHZectStWQj3_OmjFup01lBNSW0xvlof"
-        , mp3Url = "https://drive.google.com/uc?id=1IB6b4IM19HbYVypfGP9lx747dzubuoA7"
-        , title = "恋のバカンス(ためいきのでるようなあなたのくちづけに)"
-        , filename = "koinovacance.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1TTPzAyFEDL5x1yRmnDi5B9xswxM04j44"
-        , mp3Url = "https://drive.google.com/uc?id=11amTt-pPAiCYYfSmcYI4R69vgzgjaraG"
-        , title = "夜明けのスキャット(由紀さおり)"
-        , filename = "yoakenoscat.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1uR_3ZLgB8vjVXMZUJBVK54SmZajcz32x"
-        , mp3Url = "https://drive.google.com/uc?id=19iai2dENIZmfHb6V8o9Xa_H1tze63TWh"
-        , title = "また逢う日まで(またあうひまであえるときまでわかれのそのわけははなしたくない)"
-        , filename = "mataauhimade.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1SlLrP0hhCICOcYG125OTUjImLpBkAdRK"
-        , mp3Url = "https://drive.google.com/uc?id=1sE2QH1MzBsly6AUAjMR9i7vcCW3gWsrB"
-        , title = "さらば涙と言おう(さよならはだれにいうさよならはかなしみに)"
-        , filename = "sarabanamidatoiou.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=18wklfen-74EBhH11KaN4WKKpeYgGQSQQ"
-        , mp3Url = "https://drive.google.com/uc?id=1p6P6qQGA1gcJKmMvNHjcrqp_Nj5Eik6l"
-        , title = "マック・ザ・ナイフ(まっくざないふ。Mack the Knife)"
-        , filename = "macktheknife.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1YppFo7MGHR5FnBwfY4y_0_Vj4Qj4F3ki"
-        , mp3Url = "https://drive.google.com/uc?id=1tOLeufiuT535auHKhLf4SlzBrCq4t3Z_"
-        , title = "枯葉(かれは。Autumn Leaves)"
-        , filename = "autumnleaves.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=167B2zvcn-RM43iDUOnAnYMjoKkjVEVPt"
-        , mp3Url = "https://drive.google.com/uc?id=1oWecljmH_t49KsTKVP9pET-JR__aIeI6"
-        , title = "ホエン・アイ・フォール・イン・ラブ(When I Fall in Love)"
-        , filename = "whenifallinlove.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1u2wPydkGzsupb8tWUgP8IPrYr2L6gIaL"
-        , mp3Url = "https://drive.google.com/uc?id=1-1vxTtjg0o-1DumNIxw5fJKmawjzCv4-"
-        , title = "我が心のジョージア(Georgia on My Mind)"
-        , filename = "georgiaonmymind.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1zKbMxxqBuqN7PnnSNAO5uoklwSXMRKpy"
-        , mp3Url = "https://drive.google.com/uc?id=1sMNAw2wi0ZeItqOlcwStmQhOaW9C4bHF"
-        , title = "サテン・ドール(Satin Doll)"
-        , filename = "satindoll.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1_l4OMJT_cwpbdYnP96JGLPitXFzpW5lA"
-        , mp3Url = "https://drive.google.com/uc?id=1Uba1pGoJuxyGdL-i5YnmC1p757w9IR4n"
-        , title = "私のお気に入り(サウンド・オブ・ミュージックより My Favorite Things)"
-        , filename = "myfavoritethings.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1UXWd4iI_LSq-Wuhaw3I-QNpZLUrL6qBZ"
-        , mp3Url = "https://drive.google.com/uc?id=1roXzJVrgT9gHciXVJgoppt8zg5ROPFyr"
-        , title = "バット・ノット・フォー・ミー(ガーシュウィン。 But Not for Me)"
-        , filename = "butnotforme.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1LUvix6FEy3-iV-gpqPr5k_rJHxUmQzWh"
-        , mp3Url = "https://drive.google.com/uc?id=1PBPvOVzua9YytQ1kfA1uyTyTtrJEB7PA"
-        , title = "朝日のごとくさわやかに(Softly as in a Morning Sunshine)"
-        , filename = "softlyasinamorningsunshine.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1tw_yDmhjVKI-nHqnVZDpRAnbK4g_t6As"
-        , mp3Url = "https://drive.google.com/uc?id=1LHbYu5xOadDi5myZvIfUI5VmPd7NO0sw"
-        , title = "サライ(とおいゆめすてきれずにふるさとをすてた)"
-        , filename = "sarai.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1kb3qJWSZHLRESMFyp5yAmC9K9x0ovmwv"
-        , mp3Url = "https://drive.google.com/uc?id=1TLcU9G9o-Ig3vgPjs_KZUEhIlvPlg3B_"
-        , title = "イッツ・オンリー・ア・ペーパー・ムーン(It's Only a Paper Moon)"
-        , filename = "itsonlyapapermoon.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=140X-KYraFWbcGd508QSkcpE_PFJ05SZc"
-        , mp3Url = "https://drive.google.com/uc?id=1o_ZBBXthGRFCYschaO5vO2wAhs9nZbMa"
-        , title = "イパネマの娘(The Girl from Ipanema)"
-        , filename = "ipanema.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=102YzYVUqyKA5CKEe5sWaeMrdiLKNs6ow"
-        , mp3Url = "https://drive.google.com/uc?id=1AXH2xZNgwY8SsikSehYZejpnqNBshN0T"
-        , title = "バードランドの子守唄(Lullaby of Birdland)"
-        , filename = "birdland.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1SHxp4TuSkbSx2ypfHt2Q0Abp0B3jbt0o"
-        , mp3Url = "https://drive.google.com/uc?id=1SUS2QHFDFmvejwEoI6E5WOVEO8sqUdkw"
-        , title = "スーパーカリフラジリスティックエクスピアリドーシャス(ディズニー「メリー・ポピンズ」より)"
-        , filename = "supercalifragilisti.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1nSN7fPftpqRysfD-KzNdaGE7souGhWxJ"
-        , mp3Url = "https://drive.google.com/uc?id=10grEDuz1ftD1rDTioygw3PuoRRNBAXoP"
-        , title = "狼なんかこわくない(ディズニー。Who's Afraid of the Big Bad Wolf)"
-        , filename = "whosafraidof.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1i9cJMGu8Q8WcDbkUYWE-WRMOI_oS7PsA"
-        , mp3Url = "https://drive.google.com/uc?id=1VyhiClEyNUbkL50H1jwBghvN0DHYPI7I"
-        , title = "ヨーホー(ディズニー「カリブの海賊」より Yo Ho)"
-        , filename = "yohoyoho.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1ll0_aLfB77bW3c7HhUp-8C02gBej3j_D"
-        , mp3Url = "https://drive.google.com/uc?id=1YtjLCRfMj-t3f_356eW2Awj5Qjh4l9kM"
-        , title = "愛のうたごえ(ディズニー「バンビ」より Bambi)"
-        , filename = "bambi.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1L5LJVilXBhi00Hzrv-kWxvLKpmEleN0D"
-        , mp3Url = "https://drive.google.com/uc?id=1B-H-bJzAEM9YD_MHef7T06HJdgXfFWtp"
-        , title = "ふしぎの国のアリス(ディズニー。Alice in Wonderland)"
-        , filename = "aliceinwonerland.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1DrVK8wJxys4fRBbQa782vJwrjfpbVfag"
-        , mp3Url = "https://drive.google.com/uc?id=1jZePx7v6k1ET3gucfj_qkTRT5gVwI2Hd"
-        , title = "これが恋かしら(ディズニー「シンデレラ」より So This is Love)"
-        , filename = "sothisislove.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1LvwPQt1_DYyxJiEZFMSFTyZmA4PZ3dJn"
-        , mp3Url = "https://drive.google.com/uc?id=1ESiHrmp8vm-JrAX1ktnraUFY5PfkAG2b"
-        , title = "ホール・ニュー・ワールド(ディズニー「アラジン」より A Whole New World)"
-        , filename = "wholenewworld.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1EYYEuim6pSCgxReAFFERnMSLAETyTZAn"
-        , mp3Url = "https://drive.google.com/uc?id=1VdzJ_Z5bpDg1pWuPtD4HPhxBDrAwevOh"
-        , title = "いつか夢で(ディズニー「眠れる森の美女」より。Once Upon a Dream)"
-        , filename = "onceuponadream.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1xFKjKSkHsJxS8jOzU5clkFgis8w-BKQV"
-        , mp3Url = "https://drive.google.com/uc?id=1gXXlUeKynFjr2OF86wIfuudrmK5eEVUq"
-        , title = "愛を感じて(ディズニー「ライオン・キング」より Can you feel the love tonight)"
-        , filename = "canyoufeelthelovetonight.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1mSJrVPmqCjBxqx2tPGJpqZ00KAyBxP6N"
-        , mp3Url = "https://drive.google.com/uc?id=1q_vFkCVH2hAYkhdCXKdCPQKYjgkEuyr2"
-        , title = "パート・オブ・ユア・ワールド(ディズニー「リトル・マーメイド」より Part of your World)"
-        , filename = "partofyourworld.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1rjMh7CKE_-2SH9CJ6UhMA09qVDYpeKLx"
-        , mp3Url = "https://drive.google.com/uc?id=1dphNt663eFejNnuE0PjFZsW34OvtFXzi"
-        , title = "ヘイ・ジュード(ビートルズ。Hey Jude)"
-        , filename = "heyjude.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1HgrKIwQJZJMITKH_4oMDNV3LSzGVo2UZ"
-        , mp3Url = "https://drive.google.com/uc?id=1yXHR98815c5KAWe_rsmWTgKRbM9p_O_t"
-        , title = "また君に恋してる(坂本冬美。あさつゆがまねくひかりをあびて)"
-        , filename = "matakiminikoishiteru.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1SYDzB-HPpxQePzeD3EKBgny5aw8ib0A_"
-        , mp3Url = "https://drive.google.com/uc?id=13C_Xa_rq7guORc5WrszmOltnWAG7-GwK"
-        , title = "愛のままで(秋元順子。ことりたちはなにをさわぐのあまいかじつが)"
-        , filename = "ainomamade.ly"
-      }
-      , { jpgUrl = "https://drive.google.com/uc?id=1-uW3B2dYWcG7sxCbP-kPN6GgXF80hz_T"
-        , mp3Url = "https://drive.google.com/uc?id=1sdeA6Co1Ix5fgJ1NFgD9D12399Lwqa_E"
-        , title = "人生いろいろ(島倉千代子。しんでしまおうなんてなやんだりしたわ)"
-        , filename = "jinseiiroiro.ly"
-      }
---, { jpgUrl = ""
---   , mp3Url = ""
---   , title = "デイドリーム・ビリーバー(モンキーズ。Daydream Believer)"
---   , filename = "daydreambeliever.ly"
--- }
+    , { jpgUrl = "https://drive.google.com/uc?id=1FUJXGdnuB0cGwZegEfJQAnkNf3zeo_5h"
+      , mp3Url = "https://drive.google.com/uc?id=1xac5aCKIei0o7RVWyjzkRTppyTn24Eqm"
+      , title = "宇宙戦艦ヤマト(さらばちきゅうよたびだつふねはうちゅうせんかんやまと)"
+      , filename = "uchusenkanyamato.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1Z9ivkF886kqQyNwalr1h1hPs5VB2dPnl"
+      , mp3Url = "https://drive.google.com/uc?id=1UQgyl6bLaSNNW91SPKQTH2RBY1s60UdZ"
+      , title = "ルパン三世(まっかなばらはあいつのくちびる)"
+      , filename = "lupinthe3rd.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1LnWcp6Mwgkv8I30Uqb1Pt7oUatgvLWa-"
+      , mp3Url = "https://drive.google.com/uc?id=1qAHP-aiZhpyhRuIEIwzumLdU0T_Dg1FD"
+      , title = "残酷な天使のテーゼ(ざんこくなてんしのようにしょうねんよしんわになれ)"
+      , filename = "zankokunatenshi.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1DulfeacuW2KWHCtCCebt4Y6bfUv81jnu"
+      , mp3Url = "https://drive.google.com/uc?id=1fo7XwG349ZNqhzxeTol0uYmTnBmiQaMp"
+      , title = "ラ・バンバ(La Bamba)"
+      , filename = "labamba.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1c-TIv3osKIT1vFrAJ6ar3qAOk6E21NzL"
+      , mp3Url = "https://drive.google.com/uc?id=1x7joXp7ttw8vYz7Lp19i0nBeEyBhX-eO"
+      , title = "ガッチャマンの歌(だれだーだれだーだれだーそらのかなたにおどるかげ)"
+      , filename = "gatchaman.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1IQrrqGsiOHDdvze6VFDHg45g9efuZJDv"
+      , mp3Url = "https://drive.google.com/uc?id=1uXXe785Oj1fVEgT30A7aoDBmLA_QWtN1"
+      , title = "翔べ！ガンダム(もえあがれもえあがれもえあがれがんだむ)"
+      , filename = "tobegundam.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1J-wqX8voYLMGUPA3V_m7us6FbPraz9ne"
+      , mp3Url = "https://drive.google.com/uc?id=1cWXzQqkRqqBcltkI-xk4M8_ek7WzHmYc"
+      , title = "タッチ(こきゅうをとめていちびょうあなたしんけんなめをしたから)"
+      , filename = "touch.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1b2_iVp0KBu_yFfcKG_somSzmO4MWl-T4"
+      , mp3Url = "https://drive.google.com/uc?id=1MB_g6s1L7nVe0UfZDqWlzZHlJUvD1oQB"
+      , title = "ラムのラブソング(あんまりそわそわしないであなたはいつでもきょろきょろ)"
+      , filename = "lumslovesong.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1ENQIexPShGtgLk1w_c54ryuT7xu2Zchi"
+      , mp3Url = "https://drive.google.com/uc?id=1rIx7TPqZFin7LNAq7Bb-1Mp8R-00sCU4"
+      , title = "この素晴らしき世界(ルイ・アームストロング。What a Wonderful World)"
+      , filename = "wonderfulworld.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1o-e46rkNYiSNUqMtVZhYaoRc0RAm6HcV"
+      , mp3Url = "https://drive.google.com/uc?id=1XD_n4E1sBf3h_x_w6hhspVXryqaizV2B"
+      , title = "赤いスイートピー(はるいろのきしゃにのってうみにつれていってよ)"
+      , filename = "akaisweetpea.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=15C7Dl3-If0nP1xkuK0ZFNTnUm2agUga8"
+      , mp3Url = "https://drive.google.com/uc?id=1Bx0V8OlxVlOZbq_EmBnTVNOeskauhntD"
+      , title = "愛の挨拶(エルガー。あいのあいさつ)"
+      , filename = "elgarainoaisatsu.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1DSS7KG_IRw_GgQ6u2-U2XPU17v8mvg6l"
+      , mp3Url = "https://drive.google.com/uc?id=1Q3kU1TjuzGCSxCv4jNAhujKt2dF2kWIF"
+      , title = "いつか王子様が(ディズニー白雪姫。Someday My Prince Will Come)"
+      , filename = "somedaymyprince.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1F7ed7DcQbFc9eVlbldpdkHiqum2iIU28"
+      , mp3Url = "https://drive.google.com/uc?id=13saCO5oSZd3yVXlmpcFN7SaADUCcEWlz"
+      , title = "君をのせて(ジブリ天空の城ラピュタ。あのちへいせんかがやくのは)"
+      , filename = "kimiwonosete.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1kiNCvjSdWVYFBwiyrdFN_ZqP2YBkEtO4"
+      , mp3Url = "https://drive.google.com/uc?id=16VLz5fG82GRdoku8Vn1MitiM_BACT8Ll"
+      , title = "ピアノソナタ第8番悲壮第2楽章より(ベートーベン)"
+      , filename = "beethovenhisou2.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1ZC5P7b_4RDxHTF-F86vBG7tOOB-HRsDw"
+      , mp3Url = "https://drive.google.com/uc?id=1NJOkVG1L4k0uZv_F7YGfY60eqR5qORq2"
+      , title = "タイム・トゥ・セイ・グッバイ(Time To Say Goodbye。サラ・ブライトマン)"
+      , filename = "timetosaygoodby.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1CZ5kBZs2EP8aR4wwPmZsUKULDtQp8dOp"
+      , mp3Url = "https://drive.google.com/uc?id=1HEm4awFDY5pIK9sR_MiTetTg-Ao4ovAC"
+      , title = "エリーゼのために(ベートーベン)"
+      , filename = "beethovefurelise.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1WHFpV80yd9tdz3T8lpXBcuIRfGO8E5Fh"
+      , mp3Url = "https://drive.google.com/uc?id=19XLcFDc6tbOZGyfZm0iv2eWa9ugA_OHe"
+      , title = "煙が目にしみる(Smoke Gets In Your Eyes)"
+      , filename = "smokegetsinyoureyes.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1sZuK53EXUoYhObqR18fe0_5_6hXiTLyv"
+      , mp3Url = "https://drive.google.com/uc?id=1YQWvVeykTCi-ISESvvFZAQvQahR3Qk8x"
+      , title = "スカボロー・フェア(サイモンとガーファンクル。すかぼろーふぇあ。Scarborough Fair)"
+      , filename = "scarboroughfair.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=10DuhwRcpcD2wfbzftbMV7cSF1TYW-BDA"
+      , mp3Url = "https://drive.google.com/uc?id=1-HcST0iOSO-OZagJyG3M0PYjXgbuKO-S"
+      , title = "シルクロードのテーマ(喜多郎)"
+      , filename = "silkroad.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1pGlxmd83R1WtY21KKLYLb1Nmp4pLgAli"
+      , mp3Url = "https://drive.google.com/uc?id=18V4vvJMPNos1zgnWJncyiWKjChe_G3nd"
+      , title = "デスペラード(イーグルス。Desperado)"
+      , filename = "desperado.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1L0dchoYDZxt-uYiuyURButkDf5VD4Xq2"
+      , mp3Url = "https://drive.google.com/uc?id=1PO4wi8ahpH0Ju9yzTUyOfJYfe5OHjkgd"
+      , title = "Summer(菊次郎の夏)"
+      , filename = "summer.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=13xAAH9FLdf0OLlfe_izZrPZ0lyW89uqt"
+      , mp3Url = "https://drive.google.com/uc?id=1NQ5jG4pGkLvzYOjx2CfQ0gD3YeaFul8V"
+      , title = "リベルタンゴ(ピアソラ)"
+      , filename = "libertango.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1NJIX65lfHcbxXk-MaUhUx9d8i0ANOoz9"
+      , mp3Url = "https://drive.google.com/uc?id=1RHhXZp2W7fcidKGsBZYdqZP68QAhZTzA"
+      , title = "愛の夢第3番(リスト)"
+      , filename = "lisztainoyume3.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=11xJp16KU7g8s4ZT6PqF-M7qrNOvHeYvy"
+      , mp3Url = "https://drive.google.com/uc?id=1h-tcFtPAiOLzDZNjdycMakiwlj4nPxm5"
+      , title = "花(すべての人の心に花を。かわはながれてどこいくのひともながれてどこいくの)"
+      , filename = "hanasubete.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1Xm2t-HZOL7dEIlzsC-WjiH2qmE12X_Dy"
+      , mp3Url = "https://drive.google.com/uc?id=1CIKDPxpUSmqdCAogAfm1t6QT4iE22zAp"
+      , title = "Close to You(セナのピアノⅡ)"
+      , filename = "senanopiano.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=10EoJ2-PxbDuDwCWPt1gnG9GV1B_gELuB"
+      , mp3Url = "https://drive.google.com/uc?id=1i3kL5Kw9wifJ-hx1Dw8hchoeGKxAXffM"
+      , title = "言葉にできない(小田和正。おわるはずのないあいあいがとだえた)"
+      , filename = "kotobanidekinai.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1L1atNUqsCYO5kgwWeFrgD3Ebm7Uh6Fig"
+      , mp3Url = "https://drive.google.com/uc?id=1hjb3pD8JCYpjpuLjvUWiK70-cLGpZdH_"
+      , title = "美女と野獣(ディズニー。Beauty and the Beast)"
+      , filename = "bijotoyaju.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1l8zFpDIPldl1-yuWwplWI8HN61t8Kd-1"
+      , mp3Url = "https://drive.google.com/uc?id=1Y4npDOfLalItv_v25Eo7oOcCRt6Eme3n"
+      , title = "ハナミズキ(一青窈。そらをおしあげててをのばすきみ)"
+      , filename = "hanamizuki.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1uqKnznHUe4v_91xR1tV2Za5NfiYuDd2W"
+      , mp3Url = "https://drive.google.com/uc?id=1tMxIucrN3AagDCicUzdj2FSoOagY1J63"
+      , title = "世界の車窓から"
+      , filename = "sekainoshasokara.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1jvDMvvbFupn0h-1630M9yjiUNq7IvNw_"
+      , mp3Url = "https://drive.google.com/uc?id=1JMeYMz25kgnWGXA6o7wDk6I4srYprFPB"
+      , title = "リンゴ追分(りんごのはなびらがかぜにちったよね)"
+      , filename = "ringooiwake.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1X7oR4ckspp5R1Q2lMjoljUP76oRIVR8M"
+      , mp3Url = "https://drive.google.com/uc?id=1VVF-8ckWp476mI7mRL01Sx_nd2SGdAJG"
+      , title = "知りたくないの(あなたのかこなどしりたくないの)"
+      , filename = "shiritakunaino.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1eqHO_cRvWPR-2cchhCfkGrD2KJ5G9UgC"
+      , mp3Url = "https://drive.google.com/uc?id=10SrqZrsl7dhAu3AdE1QXHTcHngW_pWWc"
+      , title = "ブルーライト・ヨコハマ(まちのあかりがとてもきれいねよこはま)"
+      , filename = "bluelightyokoham.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1835M5VKZ0b3iHC5sYKiPIEwsPM-Nbex0"
+      , mp3Url = "https://drive.google.com/uc?id=1I-usP6qNYuhLSaqaHL8WFpZUR2AlpKwR"
+      , title = "真っ赤な太陽(まっかにもえたたいようだからまなつのうみはこいのきせつなの)"
+      , filename = "makkanataiyo.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=15J5nRBnka4pz1SQ2bVEFUlKq8mFx48xY"
+      , mp3Url = "https://drive.google.com/uc?id=1_7PjsEaQ0ovAipsLT9XujBkbfY3cS7o6"
+      , title = "君といつまでも(ふたりをゆうやみがつつむこのまどべに)"
+      , filename = "kimitoitsumademo.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1zHZectStWQj3_OmjFup01lBNSW0xvlof"
+      , mp3Url = "https://drive.google.com/uc?id=1IB6b4IM19HbYVypfGP9lx747dzubuoA7"
+      , title = "恋のバカンス(ためいきのでるようなあなたのくちづけに)"
+      , filename = "koinovacance.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1TTPzAyFEDL5x1yRmnDi5B9xswxM04j44"
+      , mp3Url = "https://drive.google.com/uc?id=11amTt-pPAiCYYfSmcYI4R69vgzgjaraG"
+      , title = "夜明けのスキャット(由紀さおり)"
+      , filename = "yoakenoscat.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1uR_3ZLgB8vjVXMZUJBVK54SmZajcz32x"
+      , mp3Url = "https://drive.google.com/uc?id=19iai2dENIZmfHb6V8o9Xa_H1tze63TWh"
+      , title = "また逢う日まで(またあうひまであえるときまでわかれのそのわけははなしたくない)"
+      , filename = "mataauhimade.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1SlLrP0hhCICOcYG125OTUjImLpBkAdRK"
+      , mp3Url = "https://drive.google.com/uc?id=1sE2QH1MzBsly6AUAjMR9i7vcCW3gWsrB"
+      , title = "さらば涙と言おう(さよならはだれにいうさよならはかなしみに)"
+      , filename = "sarabanamidatoiou.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=18wklfen-74EBhH11KaN4WKKpeYgGQSQQ"
+      , mp3Url = "https://drive.google.com/uc?id=1p6P6qQGA1gcJKmMvNHjcrqp_Nj5Eik6l"
+      , title = "マック・ザ・ナイフ(まっくざないふ。Mack the Knife)"
+      , filename = "macktheknife.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1YppFo7MGHR5FnBwfY4y_0_Vj4Qj4F3ki"
+      , mp3Url = "https://drive.google.com/uc?id=1tOLeufiuT535auHKhLf4SlzBrCq4t3Z_"
+      , title = "枯葉(かれは。Autumn Leaves)"
+      , filename = "autumnleaves.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=167B2zvcn-RM43iDUOnAnYMjoKkjVEVPt"
+      , mp3Url = "https://drive.google.com/uc?id=1oWecljmH_t49KsTKVP9pET-JR__aIeI6"
+      , title = "ホエン・アイ・フォール・イン・ラブ(When I Fall in Love)"
+      , filename = "whenifallinlove.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1u2wPydkGzsupb8tWUgP8IPrYr2L6gIaL"
+      , mp3Url = "https://drive.google.com/uc?id=1-1vxTtjg0o-1DumNIxw5fJKmawjzCv4-"
+      , title = "我が心のジョージア(Georgia on My Mind)"
+      , filename = "georgiaonmymind.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1zKbMxxqBuqN7PnnSNAO5uoklwSXMRKpy"
+      , mp3Url = "https://drive.google.com/uc?id=1sMNAw2wi0ZeItqOlcwStmQhOaW9C4bHF"
+      , title = "サテン・ドール(Satin Doll)"
+      , filename = "satindoll.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1_l4OMJT_cwpbdYnP96JGLPitXFzpW5lA"
+      , mp3Url = "https://drive.google.com/uc?id=1Uba1pGoJuxyGdL-i5YnmC1p757w9IR4n"
+      , title = "私のお気に入り(サウンド・オブ・ミュージックより My Favorite Things)"
+      , filename = "myfavoritethings.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1UXWd4iI_LSq-Wuhaw3I-QNpZLUrL6qBZ"
+      , mp3Url = "https://drive.google.com/uc?id=1roXzJVrgT9gHciXVJgoppt8zg5ROPFyr"
+      , title = "バット・ノット・フォー・ミー(ガーシュウィン。 But Not for Me)"
+      , filename = "butnotforme.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1LUvix6FEy3-iV-gpqPr5k_rJHxUmQzWh"
+      , mp3Url = "https://drive.google.com/uc?id=1PBPvOVzua9YytQ1kfA1uyTyTtrJEB7PA"
+      , title = "朝日のごとくさわやかに(Softly as in a Morning Sunshine)"
+      , filename = "softlyasinamorningsunshine.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1tw_yDmhjVKI-nHqnVZDpRAnbK4g_t6As"
+      , mp3Url = "https://drive.google.com/uc?id=1LHbYu5xOadDi5myZvIfUI5VmPd7NO0sw"
+      , title = "サライ(とおいゆめすてきれずにふるさとをすてた)"
+      , filename = "sarai.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1kb3qJWSZHLRESMFyp5yAmC9K9x0ovmwv"
+      , mp3Url = "https://drive.google.com/uc?id=1TLcU9G9o-Ig3vgPjs_KZUEhIlvPlg3B_"
+      , title = "イッツ・オンリー・ア・ペーパー・ムーン(It's Only a Paper Moon)"
+      , filename = "itsonlyapapermoon.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=140X-KYraFWbcGd508QSkcpE_PFJ05SZc"
+      , mp3Url = "https://drive.google.com/uc?id=1o_ZBBXthGRFCYschaO5vO2wAhs9nZbMa"
+      , title = "イパネマの娘(The Girl from Ipanema)"
+      , filename = "ipanema.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=102YzYVUqyKA5CKEe5sWaeMrdiLKNs6ow"
+      , mp3Url = "https://drive.google.com/uc?id=1AXH2xZNgwY8SsikSehYZejpnqNBshN0T"
+      , title = "バードランドの子守唄(Lullaby of Birdland)"
+      , filename = "birdland.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1SHxp4TuSkbSx2ypfHt2Q0Abp0B3jbt0o"
+      , mp3Url = "https://drive.google.com/uc?id=1SUS2QHFDFmvejwEoI6E5WOVEO8sqUdkw"
+      , title = "スーパーカリフラジリスティックエクスピアリドーシャス(ディズニー「メリー・ポピンズ」より)"
+      , filename = "supercalifragilisti.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1nSN7fPftpqRysfD-KzNdaGE7souGhWxJ"
+      , mp3Url = "https://drive.google.com/uc?id=10grEDuz1ftD1rDTioygw3PuoRRNBAXoP"
+      , title = "狼なんかこわくない(ディズニー。Who's Afraid of the Big Bad Wolf)"
+      , filename = "whosafraidof.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1i9cJMGu8Q8WcDbkUYWE-WRMOI_oS7PsA"
+      , mp3Url = "https://drive.google.com/uc?id=1VyhiClEyNUbkL50H1jwBghvN0DHYPI7I"
+      , title = "ヨーホー(ディズニー「カリブの海賊」より Yo Ho)"
+      , filename = "yohoyoho.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1ll0_aLfB77bW3c7HhUp-8C02gBej3j_D"
+      , mp3Url = "https://drive.google.com/uc?id=1YtjLCRfMj-t3f_356eW2Awj5Qjh4l9kM"
+      , title = "愛のうたごえ(ディズニー「バンビ」より Bambi)"
+      , filename = "bambi.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1L5LJVilXBhi00Hzrv-kWxvLKpmEleN0D"
+      , mp3Url = "https://drive.google.com/uc?id=1B-H-bJzAEM9YD_MHef7T06HJdgXfFWtp"
+      , title = "ふしぎの国のアリス(ディズニー。Alice in Wonderland)"
+      , filename = "aliceinwonerland.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1DrVK8wJxys4fRBbQa782vJwrjfpbVfag"
+      , mp3Url = "https://drive.google.com/uc?id=1jZePx7v6k1ET3gucfj_qkTRT5gVwI2Hd"
+      , title = "これが恋かしら(ディズニー「シンデレラ」より So This is Love)"
+      , filename = "sothisislove.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1LvwPQt1_DYyxJiEZFMSFTyZmA4PZ3dJn"
+      , mp3Url = "https://drive.google.com/uc?id=1ESiHrmp8vm-JrAX1ktnraUFY5PfkAG2b"
+      , title = "ホール・ニュー・ワールド(ディズニー「アラジン」より A Whole New World)"
+      , filename = "wholenewworld.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1EYYEuim6pSCgxReAFFERnMSLAETyTZAn"
+      , mp3Url = "https://drive.google.com/uc?id=1VdzJ_Z5bpDg1pWuPtD4HPhxBDrAwevOh"
+      , title = "いつか夢で(ディズニー「眠れる森の美女」より。Once Upon a Dream)"
+      , filename = "onceuponadream.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1xFKjKSkHsJxS8jOzU5clkFgis8w-BKQV"
+      , mp3Url = "https://drive.google.com/uc?id=1gXXlUeKynFjr2OF86wIfuudrmK5eEVUq"
+      , title = "愛を感じて(ディズニー「ライオン・キング」より Can you feel the love tonight)"
+      , filename = "canyoufeelthelovetonight.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1mSJrVPmqCjBxqx2tPGJpqZ00KAyBxP6N"
+      , mp3Url = "https://drive.google.com/uc?id=1q_vFkCVH2hAYkhdCXKdCPQKYjgkEuyr2"
+      , title = "パート・オブ・ユア・ワールド(ディズニー「リトル・マーメイド」より Part of your World)"
+      , filename = "partofyourworld.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1rjMh7CKE_-2SH9CJ6UhMA09qVDYpeKLx"
+      , mp3Url = "https://drive.google.com/uc?id=1dphNt663eFejNnuE0PjFZsW34OvtFXzi"
+      , title = "ヘイ・ジュード(ビートルズ。Hey Jude)"
+      , filename = "heyjude.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1HgrKIwQJZJMITKH_4oMDNV3LSzGVo2UZ"
+      , mp3Url = "https://drive.google.com/uc?id=1yXHR98815c5KAWe_rsmWTgKRbM9p_O_t"
+      , title = "また君に恋してる(坂本冬美。あさつゆがまねくひかりをあびて)"
+      , filename = "matakiminikoishiteru.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1SYDzB-HPpxQePzeD3EKBgny5aw8ib0A_"
+      , mp3Url = "https://drive.google.com/uc?id=13C_Xa_rq7guORc5WrszmOltnWAG7-GwK"
+      , title = "愛のままで(秋元順子。ことりたちはなにをさわぐのあまいかじつが)"
+      , filename = "ainomamade.ly"
+      }
+    , { jpgUrl = "https://drive.google.com/uc?id=1-uW3B2dYWcG7sxCbP-kPN6GgXF80hz_T"
+      , mp3Url = "https://drive.google.com/uc?id=1sdeA6Co1Ix5fgJ1NFgD9D12399Lwqa_E"
+      , title = "人生いろいろ(島倉千代子。しんでしまおうなんてなやんだりしたわ)"
+      , filename = "jinseiiroiro.ly"
+      }
 
-
+    --, { jpgUrl = ""
+    --   , mp3Url = ""
+    --   , title = "デイドリーム・ビリーバー(モンキーズ。Daydream Believer)"
+    --   , filename = "daydreambeliever.ly"
+    -- }
     ]
+
+
+
 --, { jpgUrl = ""
 --   , mp3Url = ""
 --   , title = "ワーグナー結婚行進曲" classic
