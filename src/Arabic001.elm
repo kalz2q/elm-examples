@@ -646,7 +646,7 @@ dict =
       , arabic = "اِسْمهُ تامِر"
       , meaning = "His name is Tamer."
       }
-    , { latin  = "laa 2a3rif 2ayn baythu"
+    , { latin  = "laa 2a3rif 2ayn bayt-hu"
       , arabic = "لا أَعْرِف أَيْن بَيْته"
       , meaning = "I don't know where his house is"
       }
@@ -770,7 +770,7 @@ dict =
       , arabic = "اَلْنَّوْم"
       , meaning = "sleeping"
       }
-    , { latin  = "alssibaaha"
+    , { latin  = "as-sibaaha"
       , arabic = "اَلْسِّباحة"
       , meaning = "swimming"
       }
@@ -1494,7 +1494,54 @@ dict =
       , arabic = "مَساءً"
       , meaning = "in the evening"
       }
-
+    , { latin  = "wayaatak"
+      , arabic = "وِلايَتَك"
+      , meaning = "your state"
+      }
+    , { latin  = "madiina saaHiliyya"
+      , arabic = "مَدينة ساحِلِيّة"
+      , meaning = "a coastal city"
+      }
+    , { latin  = "muzdaHima"
+      , arabic = "مُزْدَحِمة"
+      , meaning = "crowded"
+      }
+    , { latin  = "wilaaya kaaliifuurniyaa"
+      , arabic = "وِلاية كاليفورْنْيا"
+      , meaning = "the state of California"
+      }
+    , { latin  = "luus 2anjiaalis"
+      , arabic = "لوس أَنْجِلِس"
+      , meaning = "Los Angeles"
+      }
+    , { latin  = "baHr"
+      , arabic = "بَحْر"
+      , meaning = "sea"
+      }
+    , { latin  = "al-baHr al-2abyaD al-mutawassaT"
+      , arabic = "اَاْبَحْر اَلْأَبْيَض اَلْمُتَوَسِّط"
+      , meaning = "the Meditteranean Sea"
+      }
+    , { latin  = "lil2asaf"
+      , arabic = "لٍلْأَسَف"
+      , meaning = "unfortunately"
+      }
+    , { latin  = "DawaaHii"
+      , arabic = "ضَواحي"
+      , meaning = "suburbs"
+      }
+    , { latin  = "taskuniin"
+      , arabic = "تَسْكُنين"
+      , meaning = "you live"
+      }
+    , { latin  = "nyuuyuurk"
+      , arabic = "نْيويورْك"
+      , meaning = "New York"
+      }
+    , { latin  = "qaryatik"
+      , arabic = "قَرْيَتِك"
+      , meaning = "your village"
+      }
 
 
 
