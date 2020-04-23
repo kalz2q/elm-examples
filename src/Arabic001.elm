@@ -1566,6 +1566,54 @@ dict =
       , arabic = "نَعَم"
       , meaning = "yes"
       }
+    , { latin  = "SabaaH l-khayr"
+      , arabic = "صَباح اَلْخَيْر"
+      , meaning = "Good morning."
+      }
+    , { latin  = "SabaaH an-nuur"
+      , arabic = "صَباح اَلْنّور"
+      , meaning = "Good morning."
+      }
+    , { latin  = "masaa2 al-khayr"
+      , arabic = "مَساء اَلْخَيْر"
+      , meaning = "Good evening"
+      }
+    , { latin  = "masaa2 an-nuur"
+      , arabic = "مَساء اَلْنّور"
+      , meaning = "Good evening."
+      }
+    , { latin  = "as-salaamu 3alaykum"
+      , arabic = "اَلْسَّلامُ عَلَيْكُم"
+      , meaning = "Peace be upon you."
+      }
+    , { latin  = "wa-3alaykumu as-salaam"
+      , arabic = "وَعَلَيْكُمُ ٲلْسَّلام"
+      , meaning = ""
+      }
+    , { latin  = "tasharrafnaa"
+      , arabic = "تَشَرَّفْنا"
+      , meaning = "It's a pleasure to meet you."
+      }
+    , { latin  = "hal 2anta bikhyr"
+      , arabic = "هَل أَنْتَ بِخَيْر"
+      , meaning = "Are you well?"
+      }
+    , { latin  = "kayfak"
+      , arabic = "كَيْفَك"
+      , meaning = "How are you?"
+      }
+    , { latin  = "al-yawm"
+      , arabic = "اَلْيَوْم"
+      , meaning = "today"
+      }
+    , { latin  = "kayfik al-yawm"
+      , arabic = "كَيْفِك اَلْيَوْم"
+      , meaning = "How are you today?"
+      }
+    , { latin  = "marHaban 2ismii buub"
+      , arabic = "مَرْحَباً اِسْمي بوب"
+      , meaning = "Hello, my name is Bob."
+      }
 
 
     ]
