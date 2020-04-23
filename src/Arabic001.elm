@@ -1614,6 +1614,75 @@ dict =
       , arabic = "مَرْحَباً اِسْمي بوب"
       , meaning = "Hello, my name is Bob."
       }
+    , { latin  = "Haziin"
+      , arabic = "حَزين"
+      , meaning = "sad"
+      }
+    , { latin  = "mariiD"
+      , arabic = "مَريض"
+      , meaning = "sick"
+      }
+    , { latin  = "yawm sa3iid"
+      , arabic = "يَوْم سَعيد"
+      , meaning = "Have a nice day."
+      }
+    , { latin  = "sa3iid"
+      , arabic = "سَعيد"
+      , meaning = "happy"
+      }
+    , { latin  = "2anaa Haziinat l-yawm"
+      , arabic = "أَنا حَزينة الْيَوْم"
+      , meaning = "I am sad today."
+      }
+    , { latin  = "2anaa Haziin jiddan"
+      , arabic = "أَنا حَزين جِدّاً"
+      , meaning = "I am very sad."
+      }
+    , { latin  = "2anaa mariiDa lil2asaf"
+      , arabic = "أَنا مَريضة لِلْأَسَف"
+      , meaning = "I am sick unfortunately."
+      }
+    , { latin  = "2ilaa l-laqaa2 yaa Sadiiqii"
+      , arabic = "إِلى الْلِّقاء يا صَديقي"
+      , meaning = "Until next time, my friend."
+      }
+    , { latin  = "na3saana"
+      , arabic = "نَعْسانة"
+      , meaning = "sleepy"
+      }
+    , { latin  = "mutaHammis"
+      , arabic = "مُتَحَمِّس"
+      , meaning = "excited"
+      }
+    , { latin  = "maa 2ismak"
+      , arabic = "ما إِسْمَك"
+      , meaning = "What is your name?"
+      }
+    , { latin  = "2ana na3saan"
+      , arabic = "أَنا نَعْسان"
+      , meaning = "I am sleepy."
+      }
+    , { latin  = "yallaa 2ilaa l-liqaa2"
+      , arabic = "يَلّإِ إِلى الْلَّقاء"
+      , meaning = "Alriht, until next time."
+      }
+    , { latin  = "ma3a as-alaama"
+      , arabic = "مَعَ الْسَّلامة"
+      , meaning = "Goodbye."
+      }
+    , { latin  = "tamaam"
+      , arabic = "تَمام"
+      , meaning = "OK"
+      }
+    , { latin  = "2ana tamaam al-Hamdu lillah"
+      , arabic = "أَنا تَمام اَلْحَمْدُ لِله"
+      , meaning = "I am OK , praise be to God."
+      }
+     , { latin  = "maa al2akhbaar"
+       , arabic = "ما الْأَخْبار"
+       , meaning = "What is new?"
+       }
+
 
 
     ]
