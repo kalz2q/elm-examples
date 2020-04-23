@@ -1542,8 +1542,30 @@ dict =
       , arabic = "قَرْيَتِك"
       , meaning = "your village"
       }
-
-
+    , { latin  = "shubbaak"
+      , arabic = "شُبّاك"
+      , meaning = "a window"
+      }
+    , { latin  = "jaziira"
+      , arabic = "جَزيرة"
+      , meaning = "an island"
+      }
+    , { latin  = "Tabii3a"
+      , arabic = "طَبيعة"
+      , meaning = "nature"
+      }
+    , { latin  = "al-2iskandariyya"
+      , arabic = "اَلْإِسْكَندَرِيّة"
+      , meaning = "Alexandria"
+      }
+    , { latin  = "miSr"
+      , arabic = "مِصْر"
+      , meaning = "Egypt"
+      }
+    , { latin  = "na3am"
+      , arabic = "نَعَم"
+      , meaning = "yes"
+      }
 
 
     ]
