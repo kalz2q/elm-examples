@@ -4196,6 +4196,29 @@ dict =
       , title = "人生いろいろ(島倉千代子。しんでしまおうなんてなやんだりしたわ)"
       , filename = "jinseiiroiro.ly"
       }
+    , { jpgUrl = "https://drive.google.com/uc?id=1woo1DSYEDljPARplUNKedOJAh3TQukYM"
+      , mp3Url = "https://drive.google.com/uc?id=1Eg1U5m2heuAfhIjkSVg9_4p_eJFOEvRg"
+      , title = "Get Back(ビートルズ)"
+      , filename = "getback.ly"
+    }
+    , { jpgUrl = "https://drive.google.com/uc?id=1qsZhpNjro3MLgkEuStneeplrmVmFDGuy"
+      , mp3Url = "https://drive.google.com/uc?id=1joYsSiaOU2PsKrMjKEVkurqyyuotmmRZ"
+      , title = "From Me to You (ビートルズ)"
+      , filename = "frommetoyou.ly"
+    }
+    , { jpgUrl = "https://drive.google.com/uc?id=1liHU7Rcap9HYkS-36f3m9r1rWsDT6dH7"
+      , mp3Url = "https://drive.google.com/uc?id=1ytg2UkGjhilBD_kWyO34fV_ZkSw_J36g"
+      , title = "The Fool on the Hill (ビートルズ)"
+      , filename = "foolonthehill.ly"
+    }
+    , { jpgUrl = "https://drive.google.com/uc?id=1RFY68glZ9t835OIGwctlh-t6nCK0QJi_"
+      , mp3Url = "https://drive.google.com/uc?id=1azTx42culjKxbqAOKVHOib6Ax8cz8MMt"
+      , title = "Eleanor Rigby (ビートルズ)"
+      , filename = "eleanorrigby.ly"
+    }
+
+
+
 
     --, { jpgUrl = ""
     --   , mp3Url = ""
