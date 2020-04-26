@@ -1682,6 +1682,16 @@ dict =
        , arabic = "ما الْأَخْبار"
        , meaning = "What is new?"
        }
+    , { latin  = "al-bathu alhii"
+      , arabic = "اَلْبَثُ اَلْحي"
+      , meaning = "live broadcast"
+      }
+    , { latin  = "2ikhtar"
+      , arabic = "إِخْتَر"
+      , meaning = "choose"
+      }
+
+
 
 
 
