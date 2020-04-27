@@ -4178,7 +4178,7 @@ dict =
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1rjMh7CKE_-2SH9CJ6UhMA09qVDYpeKLx"
       , mp3Url = "https://drive.google.com/uc?id=1dphNt663eFejNnuE0PjFZsW34OvtFXzi"
-      , title = "ヘイ・ジュード(ビートルズ。Hey Jude)"
+      , title = "Hey Jude (ビートルズ。Hey Jude)"
       , filename = "heyjude.ly"
       }
     , { jpgUrl = "https://drive.google.com/uc?id=1HgrKIwQJZJMITKH_4oMDNV3LSzGVo2UZ"
@@ -4216,8 +4216,16 @@ dict =
       , title = "Eleanor Rigby (ビートルズ)"
       , filename = "eleanorrigby.ly"
     }
-
-
+    , { jpgUrl = "https://drive.google.com/uc?id=1Gz_DEJGb-2fYcaFA7BubrHg-XfjfgkWL"
+      , mp3Url = "https://drive.google.com/uc?id=1F8VnY5qvR2kpCumzxXvVtLagB-zedMUS"
+      , title = "Revolution (ビートルズ)"
+      , filename = "revolution.ly"
+    }
+--, { jpgUrl = ""
+--   , mp3Url = ""
+--   , title = "You've Got to Hide Your Love Away (ビートルズ)"
+--   , filename = "youvegottohideyourloveaway.ly"
+-- }
 
 
     --, { jpgUrl = ""
