@@ -1694,8 +1694,25 @@ dict =
       , arabic = "سَيّارة"
       , meaning = "a car"
       }
-
-
-
+    , { latin  = "2ahlan wa-sahlan"
+      , arabic = "أَهْلاً وَسَهْلاً"
+      , meaning = "welcom"
+      }
+    , { latin  = "2akh ghariib"
+      , arabic = "أَخ غَريب"
+      , meaning = "a weird brother"
+      }
+    , { latin  = "2ukht muhimma"
+      , arabic = "أُخْت مُهِمّة"
+      , meaning = "an important sister"
+      }
+    , { latin  = "ibn kariim wa-mumtaaz"
+      , arabic = "اِبْن كَريم وَمُمْتاز"
+      , meaning = "a generous and amazing son"
+      }
+    , { latin  = "2ab"
+      , arabic = "أَب"
+      , meaning = "a father"
+      }      
 
     ]
