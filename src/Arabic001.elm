@@ -1690,11 +1690,11 @@ dict =
       , arabic = "إِخْتَر"
       , meaning = "choose"
       }
+    , { latin  = "sayyaara"
+      , arabic = "سَيّارة"
+      , meaning = "a car"
+      }
 
-    -- , { latin  = ""
-    --   , arabic = ""
-    --   , meaning = ""
-    --   }
 
 
 
