@@ -1691,7 +1691,10 @@ dict =
       , meaning = "choose"
       }
 
-
+    -- , { latin  = ""
+    --   , arabic = ""
+    --   , meaning = ""
+    --   }
 
 
 
