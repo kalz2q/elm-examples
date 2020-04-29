@@ -710,7 +710,7 @@ dict =
       , arabic = "لا أُحِب"
       , meaning = "I do not like"
       }
-    , { latin  = "al2akl mumt3"
+    , { latin  = "al2akl mumti3"
       , arabic = "اَلْأَكْل مُمْتع"
       , meaning = "Eating is fun."
       }
@@ -1714,5 +1714,22 @@ dict =
       , arabic = "أَب"
       , meaning = "a father"
       }      
+    , { latin  = "2umm"
+      , arabic = "أُمّ"
+      , meaning = "a mother"
+      }
+    , { latin  = "abn"
+      , arabic = "اِبْن"
+      , meaning = "a son"
+      }
+    , { latin  = "mumti3"
+      , arabic = "مُمْتِع"
+      , meaning = "fun"
+      }
+    , { latin  = "muHaasib"
+      , arabic = "مُحاسِب"
+      , meaning = "an accountant"
+      }
+
 
     ]
