@@ -668,7 +668,7 @@ dict =
       }
     , { latin  = "ismhu Tawiil"
       , arabic = "إسمه طويل"
-      , meaning = "HIs name is long."
+      , meaning = "His name is long."
       }
     , { latin  = "riim Sadiiqat Sa3bat"
       , arabic = "ريم صديقة صعبة"
@@ -1610,7 +1610,7 @@ dict =
       , arabic = "كَيْفِك اَلْيَوْم"
       , meaning = "How are you today?"
       }
-    , { latin  = "marHaban 2ismii buub"
+    , { latin  = "marHaban ismii buub"
       , arabic = "مَرْحَباً اِسْمي بوب"
       , meaning = "Hello, my name is Bob."
       }
@@ -1730,6 +1730,9 @@ dict =
       , arabic = "مُحاسِب"
       , meaning = "an accountant"
       }
-
+    , { latin  = "ma-smika ya 2ustaadha"
+      , arabic = "ما اسْمِك يا أُسْتاذة"
+      , meaning = "Whatis your name ma'am?"
+      }
 
     ]
