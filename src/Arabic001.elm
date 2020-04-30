@@ -1734,5 +1734,42 @@ dict =
       , arabic = "ما اسْمِك يا أُسْتاذة"
       , meaning = "Whatis your name ma'am?"
       }
+    , { latin  = "qiTTatak malika"
+      , arabic = "قِطَّتَك مَلِكة"
+      , meaning = "Your cat is a queen."
+      }
+    , { latin  = "jadda laTiifa wa-jadd laTiif"
+      , arabic = "جَدّة لَطيفة وَجَدّ لَطيف"
+      , meaning = "a kind grandmother and a kind grandfather"
+      }
+    , { latin  = "qiTTa jadiida"
+      , arabic = "قِطّة جَديدة"
+      , meaning = "a new cat"
+      }
+    , { latin  = "hal jaddatak 2ustaadha"
+      , arabic = "هَل جَدَّتَك أُسْتاذة"
+      , meaning = "Is your grandmother a professor?"
+      }
+     , { latin  = "hal zawjatak 2urduniyya"
+       , arabic = "هَل زَوْجَتَك أُرْدُنِتّة"
+       , meaning = "Is your wife a Jordanian?"
+       }
+    , { latin  = "mu3allim"
+      , arabic = "مُعَلِّم"
+      , meaning = "a teacher"
+      }
+    , { latin  = "dhakiyya"
+      , arabic = "ذَكِيّة"
+      , meaning = "smart"
+      }
+    , { latin  = "jaaratii"
+      , arabic = "جارَتي"
+      , meaning = "my neighbor"
+      }
+    , { latin  = "ma3Taf"
+      , arabic = "مَعْطَف"
+      , meaning = "a coat"
+      }
+
 
     ]
