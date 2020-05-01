@@ -1770,6 +1770,12 @@ dict =
       , arabic = "مَعْطَف"
       , meaning = "a coat"
       }
-
-
+    , { latin  = "qubba3a zarqaa2 wa-bunniyya"
+      , arabic = "قُبَّعة زَرْقاء وَبُنّية"
+      , meaning = "a blue ad brown hat"
+      }
+    , { latin  = "bayDaa2"
+      , arabic = "بَيْضاء"
+      , meaning = "white"
+      }
     ]
