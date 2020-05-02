@@ -400,7 +400,7 @@ dict =
       }
     , { latin = "hunaak shanTa Saghiira"
       , arabic = "هُناك شَنْطة صَغيرة"
-      , meaning = "There is a small bag"
+      , meaning = "There is a small bag"f
       }
     , { latin = "shanTatii hunaak"
       , arabic = "شَنْطَتي هُناك"
@@ -1798,8 +1798,14 @@ dict =
       , arabic = "اَلْحائِط"
       , meaning = "the wall"
       }
-
-
+    , { latin  = "hunaak shanTa Saghiira"
+      , arabic = "هُناك شَنطة صَغيرة"
+      , meaning = "There is a small bag."
+      }
+    , { latin  = "2abii hunaak"
+      , arabic = "أَبي هُناك"
+      , meaning = "My father is there."
+      }
 
 
 
