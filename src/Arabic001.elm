@@ -1778,4 +1778,13 @@ dict =
       , arabic = "بَيْضاء"
       , meaning = "white"
       }
+    , { latin  = "al-2iijaar jayyd al-Hamdu lila"
+      , arabic = "اَلْإِيجار جَيِّد اَلْحَمْدُ لِله"
+      , meaning = "The rent is good, praise be to God."
+      }
+    , { latin  = "jaami3a ghaalya"
+      , arabic = "جامِعة غالْية"
+      , meaning = "an expensive university"
+      }
+
     ]
