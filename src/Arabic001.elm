@@ -1786,5 +1786,23 @@ dict =
       , arabic = "جامِعة غالْية"
       , meaning = "an expensive university"
       }
+    , { latin  = "haadhaa Saaluun qadiim"
+      , arabic = "هَذا صالون قَديم"
+      , meaning = "This is an old living room."
+      }
+    , { latin  = "haadhihi Hadiiqa 3arabiyya"
+      , arabic = "هَذِهِ حَديقة عَرَبِيّة"
+      , meaning = ""
+      }
+    , { latin  = "al-HaaiT"
+      , arabic = "اَلْحائِط"
+      , meaning = "the wall"
+      }
+
+
+
+
+
+
 
     ]
