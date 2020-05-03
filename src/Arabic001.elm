@@ -1806,9 +1806,24 @@ dict =
       , arabic = "أَبي هُناك"
       , meaning = "My father is there."
       }
-
-
-
-
-
+    , { latin  = "haatifak hunaak yaa buub"
+      , arabic = "هاتِفَك هُناك يا بوب"
+      , meaning = "Your telephone is there, Bob."
+      }
+    , { latin  = "haatifii hunaak"
+      , arabic = "هاتِفي هُناك"
+      , meaning = "My telephone is there."
+      }
+    , { latin  = "hunaak 3ilka wa-laab tuub fii shanTatik"
+      , arabic = "هُناك عِلكة وَلاب توب في شَنطَتِك"
+      , meaning = "There is a chewing gum and a laptop in your bag."
+      }
+    , { latin  = "raSaaS"
+      , arabic = "رَصاص"
+      , meaning = "lead"
+      }
+    , { latin  = "qalam raSaaS"
+      , arabic = "قَلَم رَصاص"
+      , meaning = "a pencil"
+      }
     ]
