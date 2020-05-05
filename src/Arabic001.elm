@@ -1834,6 +1834,9 @@ dict =
       , arabic = "شاهد البث الحي"
       , meaning = "Watch the live braodcast"
       }
-
+    , { latin  = "Tayyib"
+      , arabic = "طَيِّب"
+      , meaning = "Ok, good"
+      }
 
     ]
