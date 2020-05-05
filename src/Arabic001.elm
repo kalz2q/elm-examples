@@ -1826,4 +1826,10 @@ dict =
       , arabic = "قَلَم رَصاص"
       , meaning = "a pencil"
       }
+    , { latin  = "mu2al-lif"
+      , arabic = "مُؤَلِّف"
+      , meaning = "an author"
+      }
+
+
     ]
