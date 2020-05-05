@@ -1830,6 +1830,10 @@ dict =
       , arabic = "مُؤَلِّف"
       , meaning = "an author"
       }
+    , { latin  = "shaahid al-bath il-Hayy"
+      , arabic = "شاهد البث الحي"
+      , meaning = "Watch the live braodcast"
+      }
 
 
     ]
