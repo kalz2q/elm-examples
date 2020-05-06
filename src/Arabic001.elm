@@ -1862,6 +1862,19 @@ dict =
       , arabic = "العمر"
       , meaning = "age"
       }
+    , { latin  = "2ukhtii wa-Sadiiqhaa juurj"
+      , arabic = "أُخْتي وَصَديقهل جورْج"
+      , meaning = "my sister and her friend George"
+      }
+    , { latin  = "3amalii wa-eamala"
+      , arabic = "عَمَلي وَعَمَله"
+      , meaning = "my work and his work"
+      }
+    , { latin  = "haadhihi Sadiiqat-hu saamiya"
+      , arabic = "هَذِهِ صَديقَتهُ سامية"
+      , meaning = "This is his girlfriend Samia."
+      }
+
 
 
     ]
