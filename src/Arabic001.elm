@@ -1434,7 +1434,7 @@ dict =
       , arabic = "بِالْلُّغة"
       , meaning = "in language"
       }
-    , { latin  = "bil-lugha l-3arabyya"
+    , { latin  = "bil-lugha l-3arabiya"
       , arabic = "بِالْلُّغة الْعَرَبِيّة"
       , meaning = "in the arabic language"
       }
@@ -1838,5 +1838,30 @@ dict =
       , arabic = "طَيِّب"
       , meaning = "Ok, good"
       }
+    , { latin  = "2ahlan wa-sahlan"
+      , arabic = "أَهْلاً وَسَهْلاً"
+      , meaning = "Welcome."
+      }
+    , { latin  = "2a3iish"
+      , arabic = "أَعيش"
+      , meaning = "I live"
+      }
+    , { latin  = "2a3iish fi l-yaabaan"
+      , arabic = "أَعيش في لايابان"
+      , meaning = "I live in Japan."
+      }
+    , { latin  = "2ana 2ismii faaTima"
+      , arabic = "أَنا إِسمي فاطِمة"
+      , meaning = "My name is Fatima."
+      }
+     , { latin  = "2a3iish fii miSr"
+       , arabic = "أَعيش في مِصر"
+       , meaning = "I live in Egypt."
+       }
+    , { latin  = "al3mr"
+      , arabic = "العمر"
+      , meaning = "age"
+      }
+
 
     ]
