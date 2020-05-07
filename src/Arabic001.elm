@@ -1270,7 +1270,7 @@ dict =
       , arabic = "أَخي بَشير مَشْغول"
       , meaning = "My brother Bashir is busy."
       }
-    , { latin  = "fii hathihi lssuura aimraa muDHika"
+    , { latin  = "fii haadhihi l-s-Suura imraa muDHika"
       , arabic = "في هَذِهِ الْصّورة اِمْرأة مُضْحِكة"
       , meaning = "Thre is a funny woman in this picture."
       }
