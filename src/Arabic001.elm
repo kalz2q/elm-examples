@@ -638,7 +638,7 @@ dict =
       , arabic = "لَيْسَ هُناك لُغة صَعْبة"
       , meaning = "There is no diffcult language."
       }
-    , { latin  = "hadhaa shay2 sa3b"
+    , { latin  = "hadhaa shay2 Sa3b"
       , arabic = "هَذا شَيْء صَعْب"
       , meaning = "This is a difficult thing."
       }
