@@ -1,5 +1,7 @@
 module Arabic001 exposing (main)
 
+-- this is a backup of Arabic001.elm at some point
+
 import Browser
 import Html exposing (..)
 import Html.Attributes as HA
