@@ -585,11 +585,6 @@ dict =
       , arabic = "الجزيرة"
       , meaning = "Al Jazeera"
       }
-    , { latin = "kayfa"
-      , kana = ""
-      , arabic = "كَيْفَ"
-      , meaning = "how"
-      }
     , { latin = "kursii"
       , kana = ""
       , arabic = "كَرْسي"
@@ -655,7 +650,7 @@ dict =
       , arabic = "أمْريكِي"
       , meaning = "American"
       }
-    , { latin  = "2amriikaa wa-as-siin"
+    , { latin  = "2amriikaa wa-a-S-Siin"
       , kana = ""
       , arabic = "أَمْريكا وَالْصّين"
       , meaning = "America and China"
@@ -1702,11 +1697,6 @@ dict =
       , arabic = "في الْطّابِق اَلْأَوَّل"
       , meaning = "on the first floor"
       }
-    , { latin  = "Hammaam"
-      , kana = ""
-      , arabic = "حَمّام"
-      , meaning = "bathroom"
-      }
     , { latin  = "alsh-shaanii"
       , kana = ""
       , arabic = "اَلْثّاني"
@@ -2378,6 +2368,36 @@ dict =
       , kana = "アル アーン"
       , arabic = "اَلآن"
       , meaning = "right now"
+      }
+    , { latin = "kayfa"
+      , kana = ""
+      , arabic = "كَيْفَ"
+      , meaning = "how"
+      }
+    , { latin  = "kaifa Haaluka"
+      , kana = "カイファ ハールカ"
+      , arabic = "كَيْفَ حالُكَ"
+      , meaning = "How are you?"
+      }
+    , { latin  = "Hammaam"
+      , kana = "ハムマーム"
+      , arabic = "حَمّام"
+      , meaning = "bathroom"
+      }
+    , { latin  = "haadhaa balad-haa"
+      , kana = "ハーザー バラドハー"
+      , arabic = "هَذا بَلَدها"
+      , meaning = "This is her country."
+      }
+    , { latin  = "al-2urdun"
+      , kana = "アル ウルドゥン"
+      , arabic = "اَلْأُرْدُن"
+      , meaning = "Jordan"
+      }
+    , { latin  = "a-s-saaHil"
+      , kana = "アッサーヒル"
+      , arabic = "اَلْسّاحِل"
+      , meaning = "the coast"
       }
 
 
