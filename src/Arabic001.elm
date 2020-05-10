@@ -2343,6 +2343,13 @@ dict =
       , kana = "アルヤウム ヤウム バーリド"
       , arabic = "اَلْيَوْم  يَوْم بارِد"
       , meaning = "Today is a cold day."
+
+
+
+
+
+
+
       }
 
 
