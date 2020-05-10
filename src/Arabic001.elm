@@ -1182,11 +1182,6 @@ dict =
       , arabic = "يَوْم بارِد"
       , meaning = "a cold day"
       }
-    , { latin  = "alyawm yawm baarid"
-      , kana = ""
-      , arabic = "اَلْيَوْم  يَوْم بارِد"
-      , meaning = "Today is a cold day."
-      }
     , { latin  = "ruTwwba 3aalya"
       , kana = ""
       , arabic = "رُطوبة عالْية"
@@ -2304,13 +2299,8 @@ dict =
       , arabic = "هَذِهِ صَديقَتهُ سامية"
       , meaning = "This is his girlfriend Samia."
       }
-    , { latin  = "ruTuuba 3aalya"
-      , kana = "ルトゥーバ アーリヤ"
-      , arabic = "رُطوبة عالية"
-      , meaning = "high humidity"
-      }
-    , { latin  = "sitaa2"
-      , kana = "スィター"
+    , { latin  = "shitaa2"
+      , kana = "シター"
       , arabic = "شِتاء"
       , meaning = "winter"
       }
@@ -2328,6 +2318,31 @@ dict =
       , kana = "ラー ウヒッブ アッタクス アル ムムティル"
       , arabic = "لا أُحِبّ اَلْطَّقْس اَلْمُمْطِر"
       , meaning = "I do not like rainy weather."
+      }
+    , { latin  = "Sayf Haarr Tawiil"
+      , kana = "サイフ ハール タウィール"
+      , arabic = "صَيْف حارّ طَويل"
+      , meaning = "a long hot summer"
+      }
+    , { latin  = "ruTuuba 3aalya"
+      , kana = "ルトゥーバ アーリヤ"
+      , arabic = "رُطوبة عالية"
+      , meaning = "high humidity"
+      }      
+    , { latin  = "a-r-rTuubat l-3aalya"
+      , kana = "アルトゥーバト ルアーリヤ"
+      , arabic = "اَلْرُّطوبة الْعالْية"
+      , meaning = "the high humidity"
+      }
+    , { latin  = "al-yawm"
+      , kana = "アルヤウム"
+      , arabic = "اَلْيَوْم"
+      , meaning = "today"
+      }
+    , { latin  = "alyawm yawm baarid"
+      , kana = "アルヤウム ヤウム バーリド"
+      , arabic = "اَلْيَوْم  يَوْم بارِد"
+      , meaning = "Today is a cold day."
       }
 
 
