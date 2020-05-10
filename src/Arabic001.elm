@@ -1243,7 +1243,7 @@ dict =
       , meaning = "The weather is sunny today."
       }
     , { latin  = "khariif"
-      , kana = ""
+      , kana = "ハリーフ"
       , arabic = "خَريف"
       , meaning = "fall, autumn"
       }
@@ -2343,13 +2343,41 @@ dict =
       , kana = "アルヤウム ヤウム バーリド"
       , arabic = "اَلْيَوْم  يَوْم بارِد"
       , meaning = "Today is a cold day."
-
-
-
-
-
-
-
+      }
+    , { latin  = "tashar-rfnaa"
+      , kana = "タシャッラフナー"
+      , arabic = "تشرفنا"
+      , meaning = "Pleased to meet you."
+      }
+    , { latin  = "a-S-Sayf l-baarid"
+      , kana = "アッサイフ ル バーリド"
+      , arabic = "اَلْصَّيْف اَلْبارِد"
+      , meaning = "the cold summer"
+      }
+    , { latin  = "a-r-rabii3"
+      , kana = "アッラビーア"
+      , arabic = "اَلْرَّبيع"
+      , meaning = "the spring"
+      }
+    , { latin  = "al-khariif mushmis"
+      , kana = "アル ハリーフ ムシュミス"
+      , arabic = "اَلْخَريف مُشْمِس"
+      , meaning = "The fall is sunny."
+      }
+    , { latin  = "rabii3 jamiil"
+      , kana = "ラビーア ジャミール"
+      , arabic = "رَبيع جَميل"
+      , meaning = "a pretty spring"
+      }
+    , { latin  = "rabii3 baarid fii 2iskutlandan"
+      , kana = "ラビーア バアリド フィー スクトランダン"
+      , arabic = "رَبيع بارِد في إِسْكُتْلَنْدا"
+      , meaning = "a cold spring in Scotland"
+      }
+    , { latin  = "al-2aan"
+      , kana = "アル アーン"
+      , arabic = "اَلآن"
+      , meaning = "right now"
       }
 
 
