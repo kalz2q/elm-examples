@@ -320,11 +320,6 @@ dict =
       , arabic = "هَذا مُحَمَّد"
       , meaning = "This is mohamed"
       }
-    , { latin = "hadhaa Saaluun ghaalii"
-      , kana = ""
-      , arabic = "هَذا صالون غالي"
-      , meaning = "This is an expensive living room"
-      }
     , { latin = "hadhihi HadiiqA jamiila"
       , kana = ""
       , arabic = "هَذِهِ حَديقة جَميلة"
@@ -526,7 +521,7 @@ dict =
       , meaning = "There is no drink in my bag"
       }
     , { latin = "laysa hunaak kitaab qaSiir fii baytii"
-      , kana = ""
+      , kana = "ライサ フナーク キターブ カスィール フィー バイティ"
       , arabic = "لَيْسَ هُناك كِتاب قَصير في بَيْتي"
       , meaning = "There is no short book in my house"
       }
@@ -2399,5 +2394,135 @@ dict =
       , arabic = "أُحِب اَلْسَّفَر إِلى أَلْمانيا"
       , meaning = "I like travelling to Germany"
       }
+    , { latin  = "hiyya "
+      , kana = "ヒヤ"
+      , arabic = "هِيَّ"
+      , meaning = "she"
+      }
+    , { latin  = "huwwa"
+      , kana = "フワ"
+      , arabic = "هُوَّ"
+      , meaning = "he"
+      }
+    , { latin  = "2anti"
+      , kana = "アンティ"
+      , arabic = "أَنْتِ"
+      , meaning = "you (female)"
+      }
+    , { latin  = "2anta"
+      , kana = "アンタ"
+      , arabic = "أَنْتَ"
+      , meaning = "you (male)"
+      }
+    , { latin  = "mutarjim dhakiyy"
+      , kana = "ムタルジム ザキーイ"
+      , arabic = "مُتَرْجِم ذَكِيّ"
+      , meaning = "a smart translator (male)"
+      }
+    , { latin  = "mutarjima dhakiyya"
+      , kana = "ムタルジマ ザキーヤ"
+      , arabic = "مُتَرْجِمة ذَكِيّة"
+      , meaning = "a smart translator (female)"
+      }
+    , { latin  = "2ustaadh 2amriikiyy"
+      , kana = "ウスターズ アマリキーイ"
+      , arabic = "أُسْتاذ أَمْريكِيّ"
+      , meaning = "an American professor (male)"
+      }
+    , { latin  = "2ustaadha 2amriikiyya"
+      , kana = "ウスターザ アマリキーヤ"
+      , arabic = "أُسْتاذة أَمْريكِيّة"
+      , meaning = "an American professor (female)"
+      }
+    , { latin  = "3alaa"
+      , kana = "アラー"
+      , arabic = "عَلى"
+      , meaning = "on, on top of"
+      }
+    , { latin  = "al-3arabiyya l-fuSHaa"
+      , kana = "アルアラビーヤ ル フスハー"
+      , arabic = "اَلْعَرَبِيّة الْفُصْحى"
+      , meaning = "Standard Arabic "
+      }
+    , { latin  = "bariiTaanyaa l-kubraa"
+      , kana = "ブリターニヤー ル クブラー"
+      , arabic = "بَريطانْيا الْكُبْرى"
+      , meaning = "Great Britain"
+      }
+    , { latin  = "balad 3arabiyy"
+      , kana = "バラド アラビーイ"
+      , arabic = "بَلَد عَرَبِيّ"
+      , meaning = "an Arab country"
+      }
+    , { latin  = "madiina 3arabiyya"
+      , kana = "マディーナ アラビーヤ"
+      , arabic = "مَدينة عَرَبِيّة"
+      , meaning = "an Arab city"
+      }
+    , { latin  = "bint jadiid"
+      , kana = "ビント ジャディード"
+      , arabic = "بَيْت جَديد"
+      , meaning = "a new house"
+      }
+    , { latin  = "jaami3a jadiida"
+      , kana = "ジャーミア ジャディーダ"
+      , arabic = "جامِعة جَديدة"
+      , meaning = "a new university"
+      }
+    , { latin = "hadhaa Saaluun ghaalii"
+      , kana = "ハーザー サールーン ガーリー"
+      , arabic = "هَذا صالون غالي"
+      , meaning = "This is an expensive living room"
+      }      
+    , { latin  = "ghaalii"
+      , kana = "ガーリー"
+      , arabic = "غالي"
+      , meaning = "expensive, dear"
+      }
+    , { latin  = "khaalii"
+      , kana = "ハーリー"
+      , arabic = "خالي"
+      , meaning = "my mother’s brother, uncle"
+      }
+    , { latin  = "taab"
+      , kana = "ターブ"
+      , arabic = "تاب"
+      , meaning = "to repent"
+      }
+    , { latin  = "Taab"
+      , kana = "ターブ"
+      , arabic = "طاب"
+      , meaning = "to be good, pleasant"
+      }
+    , { latin  = "2umm"
+      , kana = "ウムム"
+      , arabic = "أُمّ"
+      , meaning = "mother"
+      }
+    , { latin  = "2ukht"
+      , kana = "ウフト"
+      , arabic = "أُخْت"
+      , meaning = "siter"
+      }
+    , { latin  = "bint"
+      , kana = "ビント"
+      , arabic = "بِنْت"
+      , meaning = "daughter, girl"
+      }
+    , { latin  = "2ummii"
+      , kana = "ウムミー"
+      , arabic = "أُمّي"
+      , meaning = "my mother"
+      }
+son = (ibn) اِبْن
+
+your son (to a man) = (ibnak) اِبْنَك
+
+your son (to a woman) = (ibnik) اِبْنِك
+
+
+
+
+
 
     ]
