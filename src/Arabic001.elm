@@ -967,11 +967,6 @@ dict =
       , arabic = "اَلْكَلام معَ أَبي بَعْد اَلْظَّهْر"
       , meaning = "talking with my father in the afternoon"
       }
-    , { latin  = "2uhibb alssafar 2ilaa 2almaaniiaa"
-      , kana = ""
-      , arabic = "أُحِب اَلْسَّفَر إِلى أَلْمانيا"
-      , meaning = "I like travelling to Germany"
-      }
     , { latin  = "2uHibb aljarii bialllyl"
       , kana = ""
       , arabic = "أُحِبّ اَلْجَري بِالْلَّيْل"
@@ -2399,6 +2394,10 @@ dict =
       , arabic = "اَلْسّاحِل"
       , meaning = "the coast"
       }
-
+    , { latin  = "2uhibb a-s-safar 2ilaa 2almaaniiaa"
+      , kana = "ウヒッブ アッサファル イラ アルマニア"
+      , arabic = "أُحِب اَلْسَّفَر إِلى أَلْمانيا"
+      , meaning = "I like travelling to Germany"
+      }
 
     ]
