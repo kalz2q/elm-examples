@@ -2539,10 +2539,13 @@ dict =
       , arabic = "نَظير"
       , meaning = "equal"
       }
-مَدينَتي	madiinatii	my city
-
-
-مَدينَتَك	madiinatak	your city (to a male)
+    , { latin  = "madiinatii"
+      , kana = "マディーナティ"
+      , arabic = "مَدينَتي"
+      , meaning = "my city"
+      }
+مَدينَتَك
+	madiinatak	your city (to a male)
 
 
 مَدينَتِك	madiinatik	your city (to a female)
@@ -2559,6 +2562,9 @@ The city is pretty = (al-madiina jamiila) اَلْمَدينة جَميلة
 
 Your house is pretty (to a male) = (baytak jamiil) بَيْتَك جَميل	Your city is pretty (to a male) = (madiinatak jamiila) مَدينَتَك جَميلة
 Female	Your house is pretty (to a female) = (baytik jamiil) بَيْتِك جَميل	Your city is pretty (to a female) = (madiinatik jamiila) مَدينَتِك جَميلة
+
+دَلّ	dall	to show, guide
+ضَلّ	Dall	to stray
 
 
 
