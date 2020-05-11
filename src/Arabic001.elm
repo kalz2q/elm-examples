@@ -295,7 +295,7 @@ dict =
       , arabic = "طاوِلة"
       , meaning = "a table"
       }
-    , { latin = "hadhihi madiinA qadiima"
+    , { latin = "hadhihi madiina qadiima"
       , kana = ""
       , arabic = "هَذِهِ مَدينة قَديمة"
       , meaning = "This is an ancient city"
@@ -2086,8 +2086,8 @@ dict =
       , arabic = "أُمّ"
       , meaning = "a mother"
       }
-    , { latin  = "abn"
-      , kana = ""
+    , { latin  = "ibn"
+      , kana = "イブン"
       , arabic = "اِبْن"
       , meaning = "a son"
       }
@@ -2514,14 +2514,51 @@ dict =
       , arabic = "أُمّي"
       , meaning = "my mother"
       }
-son = (ibn) اِبْن
+    , { latin  = "ibnak"
+      , kana = "イブナク"
+      , arabic = "اِبْنَك"
+      , meaning = "your son (to a man)"
+      }
+    , { latin  = "ibnik"
+      , kana = "イブニク"
+      , arabic = "اِبْنِك"
+      , meaning = "your son (to a woman)"
+      }
+    , { latin  = "al-3iraaq"
+      , kana = "アライラーク"
+      , arabic = "اَلْعِراق"
+      , meaning = "iraq"
+      }
+    , { latin  = "nadhiir"
+      , kana = "ナディール"
+      , arabic = "نَذير"
+      , meaning = "warner, herald"
+      }
+    , { latin  = "naDHiir"
+      , kana = "ナディール"
+      , arabic = "نَظير"
+      , meaning = "equal"
+      }
+مَدينَتي	madiinatii	my city
 
-your son (to a man) = (ibnak) اِبْنَك
 
-your son (to a woman) = (ibnik) اِبْنِك
-
+مَدينَتَك	madiinatak	your city (to a male)
 
 
+مَدينَتِك	madiinatik	your city (to a female)
+
+جارة	jaara	a (female) neighbor
+جارَتي	jaaratii	my (female) neighbor
+جارَتَك	jaaratak	your (female) neighbor (to a male)
+جارَتِك	jaaratik	your (female) neighbor (to a female)
+
+The house is pretty = (al-bayt jamiil) اَلْبَيْت جَميل	
+
+The city is pretty = (al-madiina jamiila) اَلْمَدينة جَميلة
+
+
+Your house is pretty (to a male) = (baytak jamiil) بَيْتَك جَميل	Your city is pretty (to a male) = (madiinatak jamiila) مَدينَتَك جَميلة
+Female	Your house is pretty (to a female) = (baytik jamiil) بَيْتِك جَميل	Your city is pretty (to a female) = (madiinatik jamiila) مَدينَتِك جَميلة
 
 
 
