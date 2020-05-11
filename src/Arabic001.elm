@@ -2544,27 +2544,99 @@ dict =
       , arabic = "مَدينَتي"
       , meaning = "my city"
       }
-مَدينَتَك
-	madiinatak	your city (to a male)
+    , { latin  = "madiinatak"
+      , kana = "マディーナタク"
+      , arabic = "مَدينَتَك"
+      , meaning = "your city (to a male)"
+      }
+    , { latin  = "madiinatik"
+      , kana = "マディーナティク"
+      , arabic = "مَدينَتِك"
+      , meaning = "your city (to a female)"
+      }
+    , { latin  = "jaara"
+      , kana = "ジャーラ"
+      , arabic = "جارة"
+      , meaning = "a (female) neighbor"
+      }
+    , { latin  = "jaaratii"
+      , kana = "ジャーラティ"
+      , arabic = "جارَتي"
+      , meaning = "my (female) neighbor"
+      }
+    , { latin  = "jaaratak"
+      , kana = "ジャラタク"
+      , arabic = "جارَتَك"
+      , meaning = "your (female) neighbor (to a male)"
+      }
+    , { latin  = "jaaratik"
+      , kana = "ジャラティク"
+      , arabic = "جارَتِك"
+      , meaning = "your (female) neighbor (to a female)"
+      }
+    , { latin  = "al-bayt jamiil"
+      , kana = "アルバイト ジャミール"
+      , arabic = "اَلْبَيْت جَميل"
+      , meaning = "The house is pretty"
+      }
+    , { latin  = "al-madiina jamiila"
+      , kana = "アルマディーナ ジャミーラ"
+      , arabic = "اَلْمَدينة جَميلة"
+      , meaning = "The city is pretty"
+      }
+    , { latin  = "baytak jamiil"
+      , kana = "バイタク ジャミール"
+      , arabic = "بَيْتَك جَميل"
+      , meaning = "Your house is pretty (to a male)"
+      }
+    , { latin  = "madiinatak jamiila"
+      , kana = "マディーナタク ジャミーラ"
+      , arabic = "مَدينَتَك جَميلة"
+      , meaning = "Your city is pretty (to a male)"
+      }
+    , { latin  = "baytik jamiil"
+      , kana = "バイティク ジャミール"
+      , arabic = "بَيْتِك جَميل"
+      , meaning = "Your house is pretty (to a female)"
+      }
+    , { latin  = "madiinatik jamiila"
+      , kana = "マディーナティク ジャミーラ"
+      , arabic = "مَدينَتِك جَميلة"
+      , meaning = "Your city is pretty (to a female)"
+      }
+    , { latin  = "dall"
+      , kana = "ダル"
+      , arabic = "دَلّ"
+      , meaning = "to show, guide"
+      }
+    , { latin  = "Dall"
+      , kana = "ダル"
+      , arabic = "ضَلّ"
+      , meaning = "to stray"
+      }
+
+.عِنْد جودي بَيْت	at Judy a house	Judy has a house.
+.عِنْدي بَيْت	at-me a house	I have a house.
+.عِنْدَك بَيْت	at-you (male) a house	You have a house. (to a man)
+.عِنْدِك بَيْت	at-you (female) a house	You have a house. (to a woman)
 
 
-مَدينَتِك	madiinatik	your city (to a female)
+.عِنْد جودي بَيْت	Judy has a house.	.لَيْسَ عِنْد جودي بَيْت	Judy does not have a house.
+.عِنْدي كَلْب	I have a dog.	.لَيْسَ عِنْدي كَلْب	I do not have a dog.
+.عِنْدِك وِشاح	You have a scarf. (to a woman)	.لَيْسَ عِنْدِك وِشاح	You do not have a scarf. (to a woman)
 
-جارة	jaara	a (female) neighbor
-جارَتي	jaaratii	my (female) neighbor
-جارَتَك	jaaratak	your (female) neighbor (to a male)
-جارَتِك	jaaratik	your (female) neighbor (to a female)
+مَدينة سورِيّة = a Syrian city اِمْرَأة ذَكِيّة = a smart woman
 
-The house is pretty = (al-bayt jamiil) اَلْبَيْت جَميل	
-
-The city is pretty = (al-madiina jamiila) اَلْمَدينة جَميلة
+بَيْت أَزْرَق	a blue house	مَدينة زَرْقاء	a blue city
+.اَلْبَيْت أَزْرَق	The house is blue.	.اَلْمَدينة زَرْقاء	The city is blue.
+It’s easiest to learn those special feminine adjectives together with the masculine: practice saying “2azraq / zarqaa2” أَزْرَق / زَرْقاء and repeat it until you’re blue in the face!
 
 
-Your house is pretty (to a male) = (baytak jamiil) بَيْتَك جَميل	Your city is pretty (to a male) = (madiinatak jamiila) مَدينَتَك جَميلة
-Female	Your house is pretty (to a female) = (baytik jamiil) بَيْتِك جَميل	Your city is pretty (to a female) = (madiinatik jamiila) مَدينَتِك جَميلة
+Sam = (saam) سام
 
-دَلّ	dall	to show, guide
-ضَلّ	Dall	to stray
+to fast = (Saam) صام
+
+
 
 
 
