@@ -2647,11 +2647,16 @@ dict =
     , { latin  = "laysa 3indika wishaaH"
       , kana = "ライサ アインディカ ウィシャーハ"
       , arabic = "لَيْسَ عِنْدِك وِشاح"
-      , meaning = ""
+      , meaning = "You do not have a scarf. (to a woman)"
       }
-You do not have a scarf. (to a woman)
+    , { latin  = "madiina suuriyya"
+      , kana = "マディーナ スリーヤ"
+      , arabic = "مَدينة سورِيّة"
+      , meaning = "a Syrian city"
+      }
 
-مَدينة سورِيّة = a Syrian city اِمْرَأة ذَكِيّة = a smart woman
+
+اِمْرَأة ذَكِيّة = a smart woman
 
 بَيْت أَزْرَق	a blue house	مَدينة زَرْقاء	a blue city
 .اَلْبَيْت أَزْرَق	The house is blue.	.اَلْمَدينة زَرْقاء	The city is blue.
