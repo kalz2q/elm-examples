@@ -2615,15 +2615,16 @@ dict =
       , meaning = "to stray"
       }
 
-.عِنْد جودي بَيْت	at Judy a house	Judy has a house.
-.عِنْدي بَيْت	at-me a house	I have a house.
-.عِنْدَك بَيْت	at-you (male) a house	You have a house. (to a man)
-.عِنْدِك بَيْت	at-you (female) a house	You have a house. (to a woman)
+عِنْد جودي بَيْت	
+Judy has a house.
+عِنْدي بَيْت	at-me a house	I have a house.
+عِنْدَك بَيْت	at-you (male) a house	You have a house. (to a man)
+عِنْدِك بَيْت	at-you (female) a house	You have a house. (to a woman)
 
 
-.عِنْد جودي بَيْت	Judy has a house.	.لَيْسَ عِنْد جودي بَيْت	Judy does not have a house.
-.عِنْدي كَلْب	I have a dog.	.لَيْسَ عِنْدي كَلْب	I do not have a dog.
-.عِنْدِك وِشاح	You have a scarf. (to a woman)	.لَيْسَ عِنْدِك وِشاح	You do not have a scarf. (to a woman)
+عِنْد جودي بَيْت	Judy has a house.	.لَيْسَ عِنْد جودي بَيْت	Judy does not have a house.
+عِنْدي كَلْب	I have a dog.	.لَيْسَ عِنْدي كَلْب	I do not have a dog.
+عِنْدِك وِشاح	You have a scarf. (to a woman)	.لَيْسَ عِنْدِك وِشاح	You do not have a scarf. (to a woman)
 
 مَدينة سورِيّة = a Syrian city اِمْرَأة ذَكِيّة = a smart woman
 
