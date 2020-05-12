@@ -2654,9 +2654,20 @@ dict =
       , arabic = "مَدينة سورِيّة"
       , meaning = "a Syrian city"
       }
+    , { latin  = "filasTiin makaan mashhuur"
+      , kana = "フィラストィーン マカーン マシュフール"
+      , arabic = "فِلَسْطين مَكان مَشْهور"
+      , meaning = "Palestine is a famous place."
+      }
+    , { latin  = "a-s-suudaan wa-l3iraaq"
+      , kana = "アッスーダーン ワライラーク"
+      , arabic = "اَلْسّودان وَالْعِراق"
+      , meaning = "Sudan and Iraq"
+      }
 
 
-اِمْرَأة ذَكِيّة = a smart woman
+
+
 
 بَيْت أَزْرَق	a blue house	مَدينة زَرْقاء	a blue city
 .اَلْبَيْت أَزْرَق	The house is blue.	.اَلْمَدينة زَرْقاء	The city is blue.
