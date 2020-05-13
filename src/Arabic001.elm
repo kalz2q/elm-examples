@@ -2664,8 +2664,21 @@ dict =
       , arabic = "اَلْسّودان وَالْعِراق"
       , meaning = "Sudan and Iraq"
       }
-
-
+    , { latin  = "al-3aaSima"
+      , kana = "アルアースィマ"
+      , arabic = "اَلْعاصِمة"
+      , meaning = "the captal"
+      }
+    , { latin  = "jabal"
+      , kana = "ジャバル"
+      , arabic = "جَبَل"
+      , meaning = "a mountain"
+      }
+    , { latin  = "a-th-thuudaan"
+      , kana = "アッスーダーン"
+      , arabic = "الشودان"
+      , meaning = "Sudan"
+      }
 
 
 
