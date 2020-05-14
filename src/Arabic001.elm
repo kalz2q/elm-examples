@@ -2679,17 +2679,41 @@ dict =
       , arabic = "الشودان"
       , meaning = "Sudan"
       }
-
-
-
-بَيْت أَزْرَق	a blue house	مَدينة زَرْقاء	a blue city
-.اَلْبَيْت أَزْرَق	The house is blue.	.اَلْمَدينة زَرْقاء	The city is blue.
-It’s easiest to learn those special feminine adjectives together with the masculine: practice saying “2azraq / zarqaa2” أَزْرَق / زَرْقاء and repeat it until you’re blue in the face!
-
-
-Sam = (saam) سام
-
-to fast = (Saam) صام
+    , { latin  = "bayt 2azraq"
+      , kana = "バイト アズラク"
+      , arabic = "بَيْت أَزْرَق"
+      , meaning = "a blue house"
+      }
+    , { latin  = "madiina zarqaa2"
+      , kana = "マディーナ ザルカー"
+      , arabic = "مَدينة زَرْقاء"
+      , meaning = "a blue city"
+      }
+    , { latin  = "al-bayt 2azraq"
+      , kana = "アルバイト アズラク"
+      , arabic = "اَلْبَيْت أَزْرَق"
+      , meaning = "The house is blue"
+      }
+    , { latin  = "al-madiina zarqaa2"
+      , kana = "アルバイト ザルカー"
+      , arabic = "اَلْمَدينة زَرْقاء"
+      , meaning = "The city is blue."
+      }
+    , { latin  = "2azraq zarqaa2"
+      , kana = "アズラク ザルカー"
+      , arabic = "أَزْرَق  زَرْقاء"
+      , meaning = "blue"
+      }
+    , { latin  = "saam"
+      , kana = "サーム"
+      , arabic = "سام"
+      , meaning = "Sam (maile name)"
+      }
+    , { latin  = "Saam"
+      , kana = "サーム"
+      , arabic = "صام"
+      , meaning = "to fast"
+      }
 
 
 
