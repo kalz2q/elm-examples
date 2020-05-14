@@ -1532,7 +1532,7 @@ dict =
       , arabic = "أَخي بَشير مَشْغول"
       , meaning = "My brother Bashir is busy."
       }
-    , { latin  = "fii haadhihi l-s-Suura imraa muDHika"
+    , { latin  = "fii haadhihi a-S-Suura imraa muDHika"
       , kana = ""
       , arabic = "في هَذِهِ الْصّورة اِمْرأة مُضْحِكة"
       , meaning = "Thre is a funny woman in this picture."
@@ -2729,6 +2729,27 @@ dict =
       , arabic = "اَمْرَأة"
       , meaning = "a woman"
       }
+    , { latin  = "2amaamaka"
+      , kana = "アマーマカ"
+      , arabic = "أَمامَك"
+      , meaning = "in front of you"
+      }
+    , { latin  = "khalfak"
+      , kana = "ハルファク"
+      , arabic = "خَلْفَك"
+      , meaning = "behind you"
+      }
+    , { latin  = "2amaam al-jaami3a"
+      , kana = "アマーム アルジャーミア"
+      , arabic = "أَمام اَلْجامِعة"
+      , meaning = "in front of the university"
+      }
+    , { latin  = "bijaanib"
+      , kana = "ビジャーニブ"
+      , arabic = "بِجانِب"
+      , meaning = "next to"
+      }
+
 
 
     ]
