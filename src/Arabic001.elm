@@ -1448,7 +1448,7 @@ dict =
       , meaning = "There is a scarf in my bag."
       }
     , { latin  = "asad"
-      , kana = ""
+      , kana = "アサド"
       , arabic = "أَسَد"
       , meaning = "a lion"
       }
@@ -2714,9 +2714,21 @@ dict =
       , arabic = "صام"
       , meaning = "to fast"
       }
-
-
-
+    , { latin  = "Sadiiqii Juurj 3ind-hu 3amal mumtaaz"
+      , kana = "サディークィー ジュールジ アインダフー アマル ムムターズ"
+      , arabic = "صَديقي جورْج عِنْدهُ عَمَل مُمْتاز"
+      , meaning = "My friend George has excellent job."
+      }
+    , { latin  = "ghaniyy"
+      , kana = "ガニィイ"
+      , arabic = "غَنِيّ"
+      , meaning = "rich"
+      }
+    , { latin  = "amra2a"
+      , kana = "アムラア"
+      , arabic = "اَمْرَأة"
+      , meaning = "a woman"
+      }
 
 
     ]
