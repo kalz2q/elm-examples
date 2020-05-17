@@ -1512,7 +1512,7 @@ dict =
       , arabic = "صدَيقَتهُ سامْية لابِسة تّنّورة"
       , meaning = "His friend Samia is wering a skirt."
       }
-    , { latin  = "wa-hunaa fii l-khalfitta rajul muDHik"
+    , { latin  = "wa-hunaa fi l-khalfitta rajul muDHik"
       , kana = ""
       , arabic = "وَهُنا في الْخَلْفِتّة رَجُل مُضْحِك"
       , meaning = "And here in the background there is a funny man."
@@ -2749,7 +2749,35 @@ dict =
       , arabic = "بِجانِب"
       , meaning = "next to"
       }
-
-
+    , { latin  = "2abii mashghuul daayman"
+      , kana = "アビー マシュグール ダーイマン"
+      , arabic = "أَبي مَشْغول دائِماً"
+      , meaning = "My father is always busy."
+      }
+    , { latin  = "su2aal"
+      , kana = "スアール"
+      , arabic = "سُؤال"
+      , meaning = "question"
+      }
+    , { latin  = "ma3ii"
+      , kana = "マアイー"
+      , arabic = "معي"
+      , meaning = "with me"
+      }
+    , { latin  = "labisa"
+      , kana = "ラビサ"
+      , arabic = "لابِسة"
+      , meaning = "dress up"
+      }
+    , { latin  = "man ma3ii"
+      , kana = "マン マアイー"
+      , arabic = "مَن مَعي؟"
+      , meaning = "Who is this?"
+      }
+    , { latin  = "Hanafiyya"
+      , kana = "ハナフィーヤ"
+      , arabic = "حَنَفِيّة"
+      , meaning = "a faucet"
+      }
 
     ]
