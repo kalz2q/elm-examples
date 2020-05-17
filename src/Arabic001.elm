@@ -772,7 +772,7 @@ dict =
       , arabic = "لا أعرف أين أنا."
       , meaning = "I don't know where I am."
       }
-    , { latin  = "baythu qariib min aljaami3at"
+    , { latin  = "bayt-hu qariib min aljaami3at"
       , kana = ""
       , arabic = "بيته قريب من الجامعة"
       , meaning = "His house is close to the university"
