@@ -1592,8 +1592,8 @@ dict =
       , arabic = "أُحِبّ اَلْسَّرير اَلْكَبير"
       , meaning = "I love the big bed."
       }
-    , { latin  = "hunaak mushkila ma3 lt-tilfaaz"
-      , kana = ""
+    , { latin  = "hunaak mushkila ma3 t-tilaaz"
+      , kana = "フナーク ムシュキラ ッティルファーズ"
       , arabic = "هُناك مُشْكِلة مَعَ الْتِّلْفاز"
       , meaning = "There is a problem with the television."
       }
