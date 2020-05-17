@@ -1597,11 +1597,6 @@ dict =
       , arabic = "هُناك مُشْكِلة مَعَ الْتِّلْفاز"
       , meaning = "There is a problem with the television."
       }
-    , { latin  = "al-haatif mu3aTTal wa-lt-tilfaaz 2ayDan"
-      , kana = ""
-      , arabic = "اَلْهاتِف مُعَطَّل وَالْتَّلْفاز أَيضاً"
-      , meaning = "The telephone is out of order and the television also."
-      }
     , { latin  = "hunaak Sawt ghariib fii l-maTbakh"
       , kana = ""
       , arabic = "هُناك صَوْت غَريب في الْمَطْبَخ"
@@ -2779,5 +2774,23 @@ dict =
       , arabic = "حَنَفِيّة"
       , meaning = "a faucet"
       }
+    , { latin  = "Sawt"
+      , kana = "サウト"
+      , arabic = "صَوْت"
+      , meaning = "voice"
+      }
+    , { latin  = "2adkhul"
+      , kana = "アドホル"
+      , arabic = "أَدْخُل"
+      , meaning = "enter"
+      }
+    , { latin  = "al-haatif mu3aTTal wa-lt-tilfaaz 2ayDan"
+      , kana = "アルハーティフ ムアッタル ワッティルファーズ アイダン"
+      , arabic = "اَلْهاتِف مُعَطَّل وَالْتَّلْفاز أَيضاً"
+      , meaning = "The telephone is out of order and the television also."
+      }
+
+
+
 
     ]
