@@ -1592,11 +1592,6 @@ dict =
       , arabic = "أُحِبّ اَلْسَّرير اَلْكَبير"
       , meaning = "I love the big bed."
       }
-    , { latin  = "hunaak mushkila ma3 t-tilaaz"
-      , kana = "フナーク ムシュキラ ッティルファーズ"
-      , arabic = "هُناك مُشْكِلة مَعَ الْتِّلْفاز"
-      , meaning = "There is a problem with the television."
-      }
     , { latin  = "hunaak Sawt ghariib fii l-maTbakh"
       , kana = ""
       , arabic = "هُناك صَوْت غَريب في الْمَطْبَخ"
@@ -1665,7 +1660,7 @@ dict =
     , { latin  = "fii haadhaa lsh-shaari3 Sawt ghariib"
       , kana = ""
       , arabic = "في هٰذا ٱلْشّارِع صَوْت غَريب"
-      , meaning = "There is a weird nose on this street"
+      , meaning = "There is a weird noise on this street"
       }
     , { latin  = "2askun fii ls-saaluun"
       , kana = ""
@@ -2784,11 +2779,18 @@ dict =
       , arabic = "أَدْخُل"
       , meaning = "enter"
       }
-    , { latin  = "al-haatif mu3aTTal wa-lt-tilfaaz 2ayDan"
+    , { latin  = "al-haatif mu3aTTal wa-t-tilfaaz 2ayDan"
       , kana = "アルハーティフ ムアッタル ワッティルファーズ アイダン"
       , arabic = "اَلْهاتِف مُعَطَّل وَالْتَّلْفاز أَيضاً"
       , meaning = "The telephone is out of order and the television also."
       }
+    , { latin  = "hunaak mushkila ma3 t-tilaaz"
+      , kana = "フナーク ムシュキラ マア ッティルファーズ"
+      , arabic = "هُناك مُشْكِلة مَعَ الْتِّلْفاز"
+      , meaning = "There is a problem with the television."
+      }
+
+
 
 
 
