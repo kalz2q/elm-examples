@@ -630,11 +630,6 @@ dict =
       , arabic = "صَحيفة"
       , meaning = "newspaper"
       }
-    , { latin = "raqam"
-      , kana = ""
-      , arabic = "رَقَم"
-      , meaning = "number"
-      }
     , { latin = "haatif"
       , kana = ""
       , arabic = "هاتِف"
@@ -702,11 +697,6 @@ dict =
       , kana = ""
       , arabic = "جارَتها"
       , meaning = "her neighbor"
-      }
-    , { latin  = "2a3rif"
-      , kana = ""
-      , arabic = "أَعْرِف"
-      , meaning = "I know ..."
       }
     , { latin  = "2ukhtii"
       , kana = ""
@@ -2789,7 +2779,26 @@ dict =
       , arabic = "هُناك مُشْكِلة مَعَ الْتِّلْفاز"
       , meaning = "There is a problem with the television."
       }
-
+    , { latin  = "2a3rif"
+      , kana = "アーリフ"
+      , arabic = "أَعْرِف"
+      , meaning = "I know ..."
+      }
+    , { latin = "raqam"
+      , kana = "ラカム"
+      , arabic = "رَقَم"
+      , meaning = "number"
+      }
+    , { latin  = "la 2a3rif kul-l al-2aedaan"
+      , kana = "ラー アーリフ クッラ ル アーダーン"
+      , arabic = "لا أَعْرِف كُلّ اَلْأَعْداد"
+      , meaning = ""
+      }
+    , { latin  = "ta3rifiin"
+      , kana = "ターリフィーン"
+      , arabic = "تَعْرِفين"
+      , meaning = "You(female) know"
+      }
 
 
 
