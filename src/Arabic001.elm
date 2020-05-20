@@ -2799,7 +2799,11 @@ dict =
       , arabic = "تَعْرِفين"
       , meaning = "You(female) know"
       }
-
+    , { latin  = "li2anna"
+      , kana = "リアンナ"
+      , arabic = "لِأَنَّ"
+      , meaning = "because"
+      }
 
 
 
