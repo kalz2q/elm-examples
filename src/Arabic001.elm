@@ -2804,6 +2804,13 @@ dict =
       , arabic = "لِأَنَّ"
       , meaning = "because"
       }
+    , { latin  = "samna"
+      , kana = "サムナ"
+      , arabic = "سَمنة"
+      , meaning = "ghee"
+      }
+
+
 
 
 
