@@ -295,8 +295,8 @@ dict =
       , arabic = "طاوِلة"
       , meaning = "a table"
       }
-    , { latin = "hadhihi madiina qadiima"
-      , kana = ""
+    , { latin = "haadhihi madiina qadiima"
+      , kana = "ハージヒ マディーナ カディーマ"
       , arabic = "هَذِهِ مَدينة قَديمة"
       , meaning = "This is an ancient city"
       }
@@ -1793,7 +1793,7 @@ dict =
       , meaning = "your state"
       }
     , { latin  = "madiina saaHiliyya"
-      , kana = ""
+      , kana = "マディーナ サーヒリーヤ"
       , arabic = "مَدينة ساحِلِيّة"
       , meaning = "a coastal city"
       }
@@ -2809,7 +2809,11 @@ dict =
       , arabic = "سَمنة"
       , meaning = "ghee"
       }
-
+    , { latin  = "wilaaya"
+      , kana = "ウィラーヤ"
+      , arabic = "وِلايَة"
+      , meaning = "a state"
+      }
 
 
 
