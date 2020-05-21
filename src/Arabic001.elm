@@ -1057,8 +1057,8 @@ dict =
       , arabic = "مِعْطَف خَفيف"
       , meaning = "a light coat"
       }
-    , { latin  = "al-maTar al-ththaqiil mumtaaz"
-      , kana = ""
+    , { latin  = "al-maTar th-thaqiil mumtaaz"
+      , kana = "アルマタル ッサキール ムムターズ"
       , arabic = "اَلْمَطَر اَلْثَّقيل مُمْتاز"
       , meaning = "The heavy rain is amazing."
       }
@@ -3254,8 +3254,76 @@ dict =
       , arabic = "بِاللَّيل"
       , meaning = "at night"
       }
-
-
+    , { latin  = "2alf"
+      , kana = "アルフ"
+      , arabic = "أَلف"
+      , meaning = "a thousand"
+      }
+    , { latin  = "mi3a"
+      , kana = "ミア"
+      , arabic = "مِئة"
+      , meaning = "a hundred"
+      }
+    , { latin  = "3ashara"
+      , kana = "アシャラ"
+      , arabic = "عَشرة"
+      , meaning = "ten"
+      }
+    , { latin  = "al-Hamdu li-l-laa"
+      , kana = "アルハムド リッラー"
+      , arabic = "الحَمدُ لِلَّه"
+      , meaning = "Praise be to God."
+      }
+    , { latin  = "Hubba"
+      , kana = "フッバ"
+      , arabic = "حُبَّ"
+      , meaning = "love"
+      }
+    , { latin  = "3ilka"
+      , kana = "アイルカ"
+      , arabic = "عِلكة"
+      , meaning = "chewing gum"
+      }
+    , { latin  = "thaqiil"
+      , kana = "サキール"
+      , arabic = "ثَقيل"
+      , meaning = "heavy"
+      }
+    , { latin  = "haatifii"
+      , kana = "ハーティフィー"
+      , arabic = "هاتِفي"
+      , meaning = "my phone"
+      }
+    , { latin  = "thamaaniya"
+      , kana = "サマーニヤ"
+      , arabic = "ثَمانية"
+      , meaning = "eight"
+      }
+    , { latin  = "sab3a"
+      , kana = "サブア"
+      , arabic = "سَبعة"
+      , meaning = "seven"
+      }
+    , { latin  = "sitta"
+      , kana = "スィッタ"
+      , arabic = "سِتَّة"
+      , meaning = "six"
+      }
+    , { latin  = "khamsa"
+      , kana = "クハムサ"
+      , arabic = "خَمسة"
+      , meaning = "five"
+      }
+    , { latin  = "2arba3a"
+      , kana = "アルバア"
+      , arabic = "أَربَعة"
+      , meaning = "four"
+      }
+    , { latin  = "thalaatha"
+      , kana = "サラーサ"
+      , arabic = "ثَلاثة"
+      , meaning = "three"
+      }
 
 
 
