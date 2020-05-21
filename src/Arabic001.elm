@@ -190,11 +190,6 @@ dict =
       , arabic = "كبيرة"
       , meaning = "large, big"
       }
-    , { latin = "bayt"
-      , kana = ""
-      , arabic = "بَيْت"
-      , meaning = "a house"
-      }
     , { latin = "laysa"
       , kana = ""
       , arabic = "لِيْسَ"
@@ -285,8 +280,8 @@ dict =
       , arabic = "كِتاب"
       , meaning = "a book"
       }
-    , { latin = "Taawilah"
-      , kana = ""
+    , { latin = "Taawila"
+      , kana = "ターウィラ"
       , arabic = "طاوِلة"
       , meaning = "a table"
       }
@@ -295,17 +290,7 @@ dict =
       , arabic = "هَذِهِ مَدينة قَديمة"
       , meaning = "This is an ancient city"
       }
-    , { latin = "Hadiiqa"
-      , kana = ""
-      , arabic = "حَديقة"
-      , meaning = "garden"
-      }
-    , { latin = "hadhihi HadiiqA 3arabyya"
-      , kana = ""
-      , arabic = "هَذِهِ حَديقة عَرَبيّة"
-      , meaning = "This is an Arab garden"
-      }
-    , { latin = "hadhihi binaaya jamiila"
+    , { latin = "haadhihi binaaya jamiila"
       , kana = ""
       , arabic = "هَذِهِ بِناية جَميلة"
       , meaning = "This is a beautiful building"
@@ -315,13 +300,13 @@ dict =
       , arabic = "هَذا مُحَمَّد"
       , meaning = "This is mohamed"
       }
-    , { latin = "hadhihi HadiiqA jamiila"
-      , kana = ""
+    , { latin = "haadhihi Hadiiqa jamiila"
+      , kana = "ハージヒ ハディーカ ジャミーラ"
       , arabic = "هَذِهِ حَديقة جَميلة"
       , meaning = "This is a pretty garden"
       }
-    , { latin = "hadhihi HadiiqA qadiima"
-      , kana = ""
+    , { latin = "haadhihi Hadiiqa qadiima"
+      , kana = "ハージヒ ハディーカ カディーマ"
       , arabic = "هَذِهِ حَديقة قَديمة"
       , meaning = "This is an old garden"
       }
@@ -345,7 +330,7 @@ dict =
       , arabic = "الْكَلْب"
       , meaning = "the dog"
       }
-    , { latin = "hadhihi albinaaya"
+    , { latin = "haadhihi albinaaya"
       , kana = ""
       , arabic = "هذِهِ الْبِناية "
       , meaning = "this building"
@@ -360,7 +345,7 @@ dict =
       , arabic = "اَلْغرْفة كَبيرة"
       , meaning = "Theroom is big"
       }
-    , { latin = "hadhihi alghurfa kabiira"
+    , { latin = "haadhihi alghurfa kabiira"
       , kana = ""
       , arabic = "هَذِهِ الْغُرْفة كَبيرة"
       , meaning = "this room is big"
@@ -375,8 +360,8 @@ dict =
       , arabic = "هَذا الْكَلْب جَوْعان"
       , meaning = "this dog is hungry"
       }
-    , { latin = "hadhihi albinaaya waas3a"
-      , kana = ""
+    , { latin = "haadhihi al-binaaya waasi3a"
+      , kana = "ハージヒ アルビナーヤ ワースィア"
       , arabic = "هَذِهِ الْبناية واسِعة"
       , meaning = "this building is spacious"
       }
@@ -615,18 +600,13 @@ dict =
       , arabic = "كُرْسي جَديد"
       , meaning = "a new chair"
       }
-    , { latin = "alHamdu lilh"
-      , kana = ""
-      , arabic = "اَلْحَمْدُ لِله"
-      , meaning = "Praise be to God"
-      }
     , { latin = "SaHiifa"
-      , kana = ""
+      , kana = "サヒーファ"
       , arabic = "صَحيفة"
       , meaning = "newspaper"
       }
     , { latin = "haatif"
-      , kana = ""
+      , kana = "ハーティフ"
       , arabic = "هاتِف"
       , meaning = "phone"
       }
@@ -712,10 +692,10 @@ dict =
       , arabic = "أَنا أَعْرِفه"
       , meaning = "I know him"
       }
-    , { latin  = "Taaawila Tawiila"
-      , kana = ""
+    , { latin  = "Taawila Tawiila"
+      , kana = "ターウィラ タウィーラ"
       , arabic = "طاوِلة طَويلة"
-      , meaning = "long table"
+      , meaning = "a long table"
       }
     , { latin  = "baytik wabaythaa"
       , kana = ""
@@ -1987,7 +1967,7 @@ dict =
       , meaning = "choose"
       }
     , { latin  = "sayyaara"
-      , kana = ""
+      , kana = "サイヤーラ"
       , arabic = "سَيّارة"
       , meaning = "a car"
       }
@@ -2289,9 +2269,9 @@ dict =
       , arabic = "كَيْفَ"
       , meaning = "how"
       }
-    , { latin  = "kaifa Haaluka"
+    , { latin  = "kaifa Haalka"
       , kana = "カイファ ハールカ"
-      , arabic = "كَيْفَ حالُكَ"
+      , arabic = "كَيْفَ حالكَ"
       , meaning = "How are you?"
       }
     , { latin  = "Hammaam"
@@ -3324,6 +3304,157 @@ dict =
       , arabic = "ثَلاثة"
       , meaning = "three"
       }
+    , { latin  = "2alif baa2 taa2 thaa2 jiim Haa2 khaa2"
+      , kana = "アリフ バー ター サー ジーム ハー クハー"
+      , arabic = "أَلِف باء تاء ثاء جيم حاء خاء"
+      , meaning = "ا ب ت ث ج ح خ"
+      }
+    , { latin  = "daal dhaal raa2 zaay siin shiin"
+      , kana = "ダール ザール ラー ザーイ スィーン シーン"
+      , arabic = "دال ذال راء زاي سين شين"
+      , meaning = "د ذ ر ز س ش"
+      }
+    , { latin  = "Saad Daad Taa2 DHaa2 3ain ghain"
+      , kana = "サード ダード ター ザー アイン ガイン"
+      , arabic = "صاد ضاد طاء ظاء عَين غَين"
+      , meaning = "ص ض ط ظ ع غ"
+      }
+    , { latin  = "faa2 qaaf kaaf laam miim nuun"
+      , kana = "ファー カーフ カーフ ラーム ミーム ヌーン"
+      , arabic = "فاء قاف كاف لام ميم نون"
+      , meaning = "ف ق ك ل م ن"
+      }
+    , { latin  = "haa2 waaw yaa2 hamza"
+      , kana = "ハー ワーウ ヤー ハムザ"
+      , arabic = "هاء واو ياء هَمزة"
+      , meaning = "ه و ي ء"
+      }
+    , { latin  = "kaifa l-Haal"
+      , kana = "カイファ ル ハール"
+      , arabic = "كَيفَ الحال"
+      , meaning = "How are you? (How is the condition?)"
+      }
+    , { latin  = "bi-khayr wa-l-Hamdu li-l-laa"
+      , kana = "ビクハイル ワルハムドゥ リッラー"
+      , arabic = "بِخَير وَالحَمدُ لِلَّه"
+      , meaning = "I am fine.  Praise be to God."
+      }
+    , { latin  = "2aHmar Hamraa2"
+      , kana = "アフマル ハムラー"
+      , arabic = "أَحمَر حَمراء"
+      , meaning = "red"
+      }
+    , { latin  = "muHaamii"
+      , kana = "ムハーミー"
+      , arabic = "مُحامي"
+      , meaning = "an attorney, a lawyer"
+      }
+    , { latin  = "haadhaa rakamii"
+      , kana = "ハーザー ラカミー"
+      , arabic = "هَذا رَقَمي"
+      , meaning = "This is my number."
+      }
+    , { latin  = "samaka 2asmaak"
+      , kana = "サマカ アスマーク"
+      , arabic = "سَمَكة أَسماك"
+      , meaning = "fish, fish (plural)"
+      }
+    , { latin  = "shajara 2ashujaar"
+      , kana = "シャジャラ アシュジャール"
+      , arabic = "شَجَرة أَشجار"
+      , meaning = "tree, trees"
+      }
+    , { latin  = "manzil"
+      , kana = "マンズィル"
+      , arabic = "مَنزِل"
+      , meaning = "a house"
+      }
+    , { latin = "bayt"
+      , kana = "バイト"
+      , arabic = "بَيْت"
+      , meaning = "a house"
+      }
+    , { latin = "Hadiiqa"
+      , kana = "ハディーカ"
+      , arabic = "حَديقة"
+      , meaning = "garden"
+      }
+    , { latin = "haadhihi Hadiiqa 3arabyya"
+      , kana = "ハージヒ ハディーカ アラビーヤ"
+      , arabic = "هَذِهِ حَديقة عَرَبيّة"
+      , meaning = "This is an Arab garden"
+      }
+    , { latin  = "tafaD-Dal ijlis"
+      , kana = "タファッダル イジュリス"
+      , arabic = "تَفَضَّل اِجْلِس"
+      , meaning = "Please sit down."
+      }
+    , { latin  = "tafaD-Dalii"
+      , kana = "タファッダリー"
+      , arabic = "تَفَضَّلي"
+      , meaning = "Please (female word)"
+      }
+    , { latin  = "shaay min faDlika"
+      , kana = "シャーイ ミン ファドリカ"
+      , arabic = "شاي مِن فَضلِكَ"
+      , meaning = "Tea please."
+      }
+    , { latin  = "ma3a s-salaama"
+      , kana = "マア ッサラーマ"
+      , arabic = "مَعَ السَّلامة"
+      , meaning = "Good bye."
+      }
+    , { latin  = "2ahlaan wa-sahlaan"
+      , kana = "アハラン ワ サハラン"
+      , arabic = "أَهلاً وَسَهلاً"
+      , meaning = "Welcome."
+      }
+    , { latin  = "ash-shams"
+      , kana = "アッシャムス"
+      , arabic = "الشَّمس"
+      , meaning = "the sun"
+      }
+    , { latin  = "haadha l-qalam"
+      , kana = "ハーザ ル カラム"
+      , arabic = "هَذا القَلَم"
+      , meaning = "this pen"
+      }
+    , { latin  = "muta2assif laa 3alayka"
+      , kana = "ムタアッシフ ラー アライカ"
+      , arabic = "مُتأَسِّف. لا عَلَيكَ."
+      , meaning = "I am sorry. Do not mind."
+      }
+    , { latin  = "al-qamar"
+      , kana = "アルカマル"
+      , arabic = "القَمَر"
+      , meaning = "the moon"
+      }
+    , { latin  = "walad al-walad"
+      , kana = "ワラド アルワラド"
+      , arabic = "وَلَد الوَلَد"
+      , meaning = "boy , the boy"
+      }
+    , { latin  = "madrasa"
+      , kana = "マドラサ"
+      , arabic = "مَدرَسة"
+      , meaning = "a school"
+      }
+    , { latin  = "saa2iq"
+      , kana = "サーイク"
+      , arabic = "سائق"
+      , meaning = "a driver"
+      }
+    , { latin  = "kitaab"
+      , kana = "キターブ"
+      , arabic = "كِتاب"
+      , meaning = "a book"
+      }
+    , { latin  = "daftar"
+      , kana = "ダフタル"
+      , arabic = "دَفتَر"
+      , meaning = "a notebook"
+      }
+
 
 
 
