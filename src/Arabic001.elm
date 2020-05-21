@@ -902,8 +902,8 @@ dict =
       , arabic = "اَلْنَّوْم"
       , meaning = "sleeping, sleep"
       }
-    , { latin  = "as-sibaaha"
-      , kana = ""
+    , { latin  = "a-s-sibaaha"
+      , kana = "アッスィバーハ"
       , arabic = "اَلْسِّباحة"
       , meaning = "swimming"
       }
@@ -942,7 +942,7 @@ dict =
       , arabic = "اَلْكَلام مَعَ أَبي"
       , meaning = "talking with my father"
       }      
-    , { latin  = "alkalaam ma3a 2abii ba3d alDHDHahr"
+    , { latin  = "alkalaam ma3a 2abii ba3d alDH-DHahr"
       , kana = ""
       , arabic = "اَلْكَلام معَ أَبي بَعْد اَلْظَّهْر"
       , meaning = "talking with my father in the afternoon"
@@ -967,7 +967,7 @@ dict =
       , arabic = "أُحِبّ اَلْقِراءة عَن كوبا بِالْلَّيْل"
       , meaning = "I like to read about Cuba at night."
       }
-    , { latin  = "2uHibb alkalaam 3an alkitaaba"
+    , { latin  = "2uHibb al-kalaam 3an al-kitaaba"
       , kana = ""
       , arabic = "أحِبّ اَلْكَلام عَن اَلْكِتابة"
       , meaning = "I like talking about writing."
@@ -1068,17 +1068,12 @@ dict =
       , meaning = "a weird weather"
       }
     , { latin  = "yawm Haarr"
-      , kana = ""
+      , kana = "ヤウム ハール"
       , arabic = "يَوْم حارّ"
       , meaning = "a hot day"
       }
-    , { latin  = "maTar khafiif"
-      , kana = ""
-      , arabic = "مَطَر خفيف"
-      , meaning = "a light rain"
-      }
     , { latin  = "Taawila khafiifa"
-      , kana = ""
+      , kana = "ターウィラ クハフィーファ"
       , arabic = "طاوِلة خَفيفة"
       , meaning = "a light table"
       }
@@ -1653,7 +1648,7 @@ dict =
       , meaning = "I do not open the door because of the weather."
       }
     , { latin  = "Sifr"
-      , kana = ""
+      , kana = "スィフル"
       , arabic = "صِفْر"
       , meaning = "zero"
       }
@@ -3229,5 +3224,41 @@ dict =
       , arabic = "أَبو شَقرة"
       , meaning = "Abu Shakra (restaurant)"
       }
+    , { latin  = "haathihi T-Taawila Haara"
+      , kana = "ハージヒ ッターウィラ ハーラ"
+      , arabic = "هَذِهِ الطاوِلة حارة"
+      , meaning = "This table is hot."
+      }
+    , { latin  = "mi3Taf khafiif"
+      , kana = "ミアタフ クハフィーフ"
+      , arabic = "مِعطَف خَفيف"
+      , meaning = "a light coat"
+      }
+    , { latin  = "maTar khafiif"
+      , kana = "マタル クハフィーフ"
+      , arabic = "مَطَر خَفيف"
+      , meaning = "a light rain"
+      }
+    , { latin  = "a-T-Taqs"
+      , kana = "アッタクス"
+      , arabic = "الطَّقس"
+      , meaning = "the weather"
+      }
+    , { latin  = "ba3d DH-DHuhr"
+      , kana = "バアド ッズフル"
+      , arabic = "بَعد الظُّهر"
+      , meaning = "afternoon"
+      }
+    , { latin  = "bi-l-layr"
+      , kana = "ビッライル"
+      , arabic = "بِاللَّيل"
+      , meaning = "at night"
+      }
+
+
+
+
+
+
 
     ]
