@@ -260,11 +260,6 @@ dict =
       , arabic = "كَلْب"
       , meaning = "a dog"
       }
-    , { latin = "2azraq"
-      , kana = ""
-      , arabic = "أَزْرَق"
-      , meaning = "blue"
-      }
     , { latin = "2abyaD"
       , kana = ""
       , arabic = "أَبْيَض "
@@ -987,11 +982,6 @@ dict =
       , arabic = "بَيْت جَميل"
       , meaning = "a pretty house"
       }
-    , { latin  = "bint suuriyya"
-      , kana = ""
-      , arabic = "بِنْت سورِيّة"
-      , meaning = "a Syrian girl"
-      }
     , { latin  = "mutarjim mumtaaz"
       , kana = ""
       , arabic = "مُتَرْجِم مُمْتاز"
@@ -1042,11 +1032,6 @@ dict =
       , arabic = "اَلْجامِعة مَشْهورة"
       , meaning = ""
       }
-    , { latin  = "Haarr"
-      , kana = ""
-      , arabic = "حارّ"
-      , meaning = "hot"
-      }
     , { latin  = "maTar"
       , kana = ""
       , arabic = "مَطَر"
@@ -1056,11 +1041,6 @@ dict =
       , kana = ""
       , arabic = "يَوْم طَويل"
       , meaning = "a long day"
-      }
-    , { latin  = "Taqs baarid"
-      , kana = ""
-      , arabic = "طَقْس بارِد"
-      , meaning = "cold weather"
       }
     , { latin  = "haathaa yawm Tawiil"
       , kana = ""
@@ -1557,11 +1537,6 @@ dict =
       , arabic = "أُمّهُ"
       , meaning = "his mother"
       }
-    , { latin  = "tilfaaz"
-      , kana = ""
-      , arabic = "تِلْفاز"
-      , meaning = "a television"
-      }
     , { latin  = "ma haadhaa as-sawt"
       , kana = ""
       , arabic = "ما هَذا الْصَّوْت"
@@ -1757,20 +1732,10 @@ dict =
       , arabic = "مَدينة ديتْرويْت"
       , meaning = "the city of Detroit"
       }
-    , { latin  = "wilaayat taksaas"
-      , kana = ""
-      , arabic = "وِلاية تَكْساس"
-      , meaning = "the state of Texas"
-      }
     , { latin  = "jaami3at juurj waashinTun"
       , kana = ""
       , arabic = "جامِعة جورْج واشِنْطُن"
       , meaning = "George Washinton University"
-      }
-    , { latin  = "shukuran"
-      , kana = ""
-      , arabic = "شُكْراً"
-      , meaning = "thank you"
       }
     , { latin  = "SabaaHan"
       , kana = ""
@@ -2205,11 +2170,6 @@ dict =
       , arabic = "شاهد البث الحي"
       , meaning = "Watch the live braodcast"
       }
-    , { latin  = "Tayyib"
-      , kana = ""
-      , arabic = "طَيِّب"
-      , meaning = "Ok, good"
-      }
     , { latin  = "2ahlan wa-sahlan"
       , kana = ""
       , arabic = "أَهْلاً وَسَهْلاً"
@@ -2328,11 +2288,6 @@ dict =
       , kana = "ラビーア バアリド フィー スクトランダン"
       , arabic = "رَبيع بارِد في إِسْكُتْلَنْدا"
       , meaning = "a cold spring in Scotland"
-      }
-    , { latin  = "al-2aan"
-      , kana = "アル アーン"
-      , arabic = "اَلآن"
-      , meaning = "right now"
       }
     , { latin = "kayfa"
       , kana = ""
@@ -2792,7 +2747,7 @@ dict =
     , { latin  = "ta3rifiin"
       , kana = "ターリフィーン"
       , arabic = "تَعْرِفين"
-      , meaning = "You(female) know"
+      , meaning = "You (female) know"
       }
     , { latin  = "li2anna"
       , kana = "リアンナ"
@@ -2909,11 +2864,6 @@ dict =
       , arabic = "حَقيبَة"
       , meaning = "a bag"
       }
-    , { latin  = "saa3at HaayT"
-      , kana = "サーアト ハーイト"
-      , arabic = "ساعة حائط"
-      , meaning = "a wall clock"
-      }
     , { latin  = "Haal"
       , kana = "ハール"
       , arabic = "حال"
@@ -3027,14 +2977,257 @@ dict =
     , { latin  = "Haliib"
       , kana = "ハリーブ"
       , arabic = "حَليب"
-      , meaning = "milk(m)"
+      , meaning = "milk (m)"
       }
     , { latin  = "2uHibb a-n-nawm ba3d a-DH-DH-hr"
       , kana = "ウヒッブ アンナウム バアド アッザハル"
       , arabic = "أحِبّ اَلْنَّوْم بَعْد اَلْظَّهْر"
       , meaning = "I like sleeping in the afternoon."
       }
-
-
+    , { latin  = "haatha l-maTar th-thaqiir Sa3b"
+      , kana = "ハーザ ル マタル ッサキール サアブ"
+      , arabic = "هَذا المَطَر الثقيل صَعب"
+      , meaning = "This heavy rain is difficult."
+      }
+    , { latin  = "al-maTar"
+      , kana = "アルマタル"
+      , arabic = "المَطَر"
+      , meaning = "the rain"
+      }
+    , { latin  = "muHaadatha"
+      , kana = "ムハーダサ"
+      , arabic = "مُحادَثة"
+      , meaning = "conversation"
+      }
+    , { latin  = "zawjatii ta3baana"
+      , kana = "ザウジャティー タアバーナ"
+      , arabic = "زَوجَتي تَعبانة"
+      , meaning = "My wife is tired."
+      }
+    , { latin  = "shukuran"
+      , kana = ""
+      , arabic = "شُكْراً"
+      , meaning = "thank you"
+      }
+    , { latin  = "shukran jaziilan"
+      , kana = "シュクラン ジャズィーラン"
+      , arabic = "ثُكْراً جَزيلاً"
+      , meaning = "Thank you very much."
+      }
+    , { latin  = "jaw3aan"
+      , kana = "ジャウアーン"
+      , arabic = "جَوعان"
+      , meaning = "hungry, starving"
+      }
+    , { latin  = "2abyaD bayDaa2"
+      , kana = "アビヤド バイダー"
+      , arabic = "أَبْيَض بَيْضاء"
+      , meaning = "white"
+      }
+    , { latin  = "jadd wa-jadda"
+      , kana = "ジャッド ワ ジャッダ"
+      , arabic = "جَدّ وَجَدّة"
+      , meaning = "grandfather and grandmother"
+      }
+    , { latin  = "2aaluu"
+      , kana = "アールー"
+      , arabic = "آلو"
+      , meaning = "Hello (on the phone)"
+      }
+    , { latin  = "SabaaH l-ckhay"
+      , kana = "サバーフ ル クハイル"
+      , arabic = "صَباح الخّير"
+      , meaning = "good morning"
+      }
+    , { latin  = "lakinn"
+      , kana = "ラキン"
+      , arabic = "لَكِنّ"
+      , meaning = "but"
+      }
+    , { latin  = "thaqaafa"
+      , kana = "サカーファ"
+      , arabic = "ثَقافة"
+      , meaning = "culture"
+      }
+    , { latin  = "Haarr"
+      , kana = "ハール"
+      , arabic = "حارّ"
+      , meaning = "hot"
+      }
+    , { latin  = "Taqs baarid"
+      , kana = "タクス バーリド"
+      , arabic = "طَقْس بارِد"
+      , meaning = "cold weather"
+      }
+    , { latin  = "tilfaaz"
+      , kana = "ティルファーズ"
+      , arabic = "تِلْفاز"
+      , meaning = "a television"
+      }
+    , { latin  = "tufaaHa"
+      , kana = "トゥファーハ"
+      , arabic = "تُفاحة"
+      , meaning = "an apple"
+      }
+    , { latin  = "sariir"
+      , kana = "サリール"
+      , arabic = "سَرير"
+      , meaning = "a bed"
+      }
+    , { latin  = "kursii"
+      , kana = "クルスィー"
+      , arabic = "كُرسي"
+      , meaning = "a chair"
+      }
+    , { latin  = "2ana fi l-maqhaa"
+      , kana = "アナ フィ ル マクハー"
+      , arabic = "أَنا في المَقهى"
+      , meaning = "I am in the cafe."
+      }
+    , { latin  = "3an"
+      , kana = "アン"
+      , arabic = "عَن"
+      , meaning = "about"
+      }
+    , { latin  = "samaa2"
+      , kana = "サマー"
+      , arabic = "سَماء"
+      , meaning = "sky (f)"
+      }
+    , { latin  = "2iiTaalyaa"
+      , kana = "イーターリヤー"
+      , arabic = "إيطاليا"
+      , meaning = "Italy"
+      }
+    , { latin  = "2arD"
+      , kana = "アルド"
+      , arabic = "أَرض"
+      , meaning = "a land (f)"
+      }
+    , { latin  = "wilaayat taksaas"
+      , kana = "ウィラーヤト タクサース"
+      , arabic = "وِلاية تَكْساس"
+      , meaning = "the state of Texas"
+      }
+    , { latin  = "Sahfii Sahfiiya"
+      , kana = "サハフィー サハフィーヤ"
+      , arabic = "صَحفي صَحفية"
+      , meaning = "a journalist"
+      }
+    , { latin  = "bint suuriyya"
+      , kana = "ビント スーリヤ"
+      , arabic = "بِنْت سورِيّة"
+      , meaning = "a Syrian girl"
+      }
+    , { latin  = "2umm"
+      , kana = "ウムム"
+      , arabic = "أُمّ"
+      , meaning = "a mother (f)"
+      }
+    , { latin  = "3ayn"
+      , kana = "アイン"
+      , arabic = "عَيْن"
+      , meaning = "an eye (f)"
+      }
+    , { latin  = "qadam"
+      , kana = "カダム"
+      , arabic = "قَدَم"
+      , meaning = "a foot (f)"
+      }
+    , { latin  = "3an al-qiraa2a"
+      , kana = "アン ナル キラーエ"
+      , arabic = "عَن القِراءة"
+      , meaning = "about reading"
+      }
+    , { latin  = "a-s-safar"
+      , kana = "アッサファル"
+      , arabic = "السفر"
+      , meaning = "travelling"
+      }
+    , { latin  = "kulla yawm"
+      , kana = "クッラ ヤウム"
+      , arabic = "كُلَّ يَوم"
+      , meaning = "every day"
+      }
+    , { latin  = "2adrs fi l-jaami3a kulla yawm"
+      , kana = "アドルス フィ ル ジャーミア クッラ ヤウム"
+      , arabic = "أَدرس في الجامِعة كُلَّ يَوم"
+      , meaning = "I study at the university every day."
+      }
+    , { latin  = "dhahaba"
+      , kana = "ザハバ"
+      , arabic = "ذَهَبَ"
+      , meaning = "He went"
+      }
+    , { latin  = "katabaa"
+      , kana = "カタバー"
+      , arabic = "كَتَبَا"
+      , meaning = "They (two male) wrote"
+      }
+    , { latin  = "katabtu"
+      , kana = "カタブトゥ"
+      , arabic = "كَتَبْتُ"
+      , meaning = "I wrote"
+      }
+    , { latin  = "katabti"
+      , kana = "カタブティ"
+      , arabic = "كَتَبْتِ"
+      , meaning = "You (female) wrote"
+      }
+    , { latin  = "katabta"
+      , kana = "カタブタ"
+      , arabic = "كَتَبْتَ"
+      , meaning = "You (male) wrote"
+      }
+    , { latin  = "katabat"
+      , kana = "カタバット"
+      , arabic = "كَتَبَت"
+      , meaning = "She wrote"
+      }
+    , { latin  = "ramaDaan"
+      , kana = "ラマダーン"
+      , arabic = "رَمَضان"
+      , meaning = "Ramadan"
+      }
+    , { latin  = "qahwa"
+      , kana = "カハワ"
+      , arabic = "قَهوة"
+      , meaning = "coffee"
+      }
+    , { latin  = "al-2aan"
+      , kana = "アル アーン"
+      , arabic = "اَلآن"
+      , meaning = "right now"
+      }
+    , { latin  = "saa3at HaayT"
+      , kana = "サーアト ハーイト"
+      , arabic = "ساعة حائط"
+      , meaning = "a wall clock"
+      }
+    , { latin  = "kami s-saa3a l-2aan"
+      , kana = "カミッサーア ルアーン"
+      , arabic = "كَمِ الساعة الآن"
+      , meaning = "What time is it now?"
+      }
+    , { latin  = "a-s-saa3a kam"
+      , kana = "アッサーア カム"
+      , arabic = "الساعة كَم"
+      , meaning = "What time is it?"
+      }
+    , { latin  = "2a3Tinii"
+      , kana = "アーティニー"
+      , arabic = "أَعْطِني"
+      , meaning = "Give me ..."
+      }
+    , { latin  = "Tayyib"
+      , kana = "タイイブ"
+      , arabic = "طَيِّب"
+      , meaning = "Ok, good"
+      }
+    , { latin  = "2abuu shaqra"
+      , kana = "アブーシャクラ"
+      , arabic = "أَبو شَقرة"
+      , meaning = "Abu Shakra (restaurant)"
+      }
 
     ]
