@@ -1743,7 +1743,7 @@ dict =
       , meaning = "Los Angeles"
       }
     , { latin  = "baHr"
-      , kana = ""
+      , kana = "バハル"
       , arabic = "بَحْر"
       , meaning = "sea"
       }
@@ -1753,7 +1753,7 @@ dict =
       , meaning = "the Meditteranean Sea"
       }
     , { latin  = "lil2asaf"
-      , kana = ""
+      , kana = "リルアサフ"
       , arabic = "لٍلْأَسَف"
       , meaning = "unfortunately"
       }
@@ -1773,9 +1773,9 @@ dict =
       , meaning = "New York"
       }
     , { latin  = "qaryatik"
-      , kana = ""
+      , kana = "カルヤティク"
       , arabic = "قَرْيَتِك"
-      , meaning = "your village"
+      , meaning = "your village (to female)"
       }
     , { latin  = "shubbaak"
       , kana = ""
@@ -1898,7 +1898,7 @@ dict =
       , meaning = "I am very sad."
       }
     , { latin  = "2anaa mariiDa lil2asaf"
-      , kana = ""
+      , kana = "アナー マリーダ リルアサフ"
       , arabic = "أَنا مَريضة لِلْأَسَف"
       , meaning = "I am sick unfortunately."
       }
@@ -3618,6 +3618,21 @@ dict =
       , kana = "ジャーリー"
       , arabic = "جاري"
       , meaning = "my (male) neighbor"
+      }
+    , { latin  = "Dawaahii"
+      , kana = "ダワーヒー"
+      , arabic = "ضَواحي"
+      , meaning = "suburbs"
+      }
+    , { latin  = "2askn fii DawaaHii baghdaad"
+      , kana = "アスクン フィー ダワーヒー バグダード"
+      , arabic = "أَسكن في ضَواحي بَغداد"
+      , meaning = "I live in the suburbs of Bagdad."
+      }
+    , { latin  = "qar-yatii qariiba min madiina bayruut"
+      , kana = "カルヤティー カリーバ ミン マディーナ バイルート"
+      , arabic = "قَريتي قَريبة مِن مَدينة بَيروت"
+      , meaning = "My village is close to the city of Beirut."
       }
 
 
