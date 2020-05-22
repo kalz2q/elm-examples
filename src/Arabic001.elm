@@ -205,9 +205,9 @@ dict =
       , arabic = "تي شيرْت"
       , meaning = "T-shirt"
       }
-    , { latin = "mi3Taf"
-      , kana = "ミアタフ"
-      , arabic = "مِعْطَف"
+    , { latin = "ma3Taf"
+      , kana = "マアタフ"
+      , arabic = "معْطَف"
       , meaning = "a coat"
       }
     , { latin = "riim"
@@ -1012,11 +1012,6 @@ dict =
       , arabic = "شَنْطة خَفيفة"
       , meaning = "a light bag"
       }
-    , { latin  = "mi3Taf khafiif"
-      , kana = ""
-      , arabic = "مِعْطَف خَفيف"
-      , meaning = "a light coat"
-      }
     , { latin  = "al-maTar th-thaqiil mumtaaz"
       , kana = "アルマタル ッサキール ムムターズ"
       , arabic = "اَلْمَطَر اَلْثَّقيل مُمْتاز"
@@ -1412,25 +1407,25 @@ dict =
       , arabic = "لا أَعْرِف هَذا الْأَسّد"
       , meaning = "I do not know this lion."
       }
-    , { latin  = "laysa 3indhu mi3Taf"
-      , kana = ""
-      , arabic = "لَيْسَ عِنْدهُ مِعْطَف"
+    , { latin  = "laysa 3indhu ma3Taf"
+      , kana = "ライサ アインドフ マアタフ"
+      , arabic = "لَيْسَ عِنْدهُ معْطَف"
       , meaning = "He does not have a coat."
       }
-    , { latin  = "fii l-khalfiyya zawjatak ya siith"
-      , kana = ""
+    , { latin  = "fi l-khalfiyya zawjatak yaa siith"
+      , kana = "フィ ル クハルフィーヤ ザウジャタク ヤー スィース"
       , arabic = "في الْخَلْفِيّة زَوْجَتَك يا سيث"
       , meaning = "There is your wife in background, Seth"
       }
     , { latin  = "su2uaal"
-      , kana = ""
+      , kana = "スウアール"
       , arabic = "سُؤال"
       , meaning = "a question"
       }
     , { latin  = "Sadiiqat-hu saamya laabisa tannuura"
-      , kana = ""
+      , kana = "サディーカトフ サーミヤ ラービサ タンヌーラ"
       , arabic = "صدَيقَتهُ سامْية لابِسة تّنّورة"
-      , meaning = "His friend Samia is wering a skirt."
+      , meaning = "His friend Samia is wearing a skirt."
       }
     , { latin  = "wa-hunaa fi l-khalfitta rajul muDHik"
       , kana = ""
@@ -1838,47 +1833,47 @@ dict =
       , meaning = "How are you?"
       }
     , { latin  = "al-yawm"
-      , kana = ""
+      , kana = "アル ヤウム"
       , arabic = "اَلْيَوْم"
       , meaning = "today"
       }
     , { latin  = "kayfik al-yawm"
-      , kana = ""
+      , kana = "カイフィク アル ヤウム"
       , arabic = "كَيْفِك اَلْيَوْم"
       , meaning = "How are you today?"
       }
     , { latin  = "marHaban ismii buub"
-      , kana = ""
+      , kana = "マルハバン イスミー ブーブ"
       , arabic = "مَرْحَباً اِسْمي بوب"
       , meaning = "Hello, my name is Bob."
       }
     , { latin  = "Haziin"
-      , kana = ""
+      , kana = "ハズィーン"
       , arabic = "حَزين"
       , meaning = "sad"
       }
     , { latin  = "mariiD"
-      , kana = ""
+      , kana = "マリード"
       , arabic = "مَريض"
       , meaning = "sick"
       }
     , { latin  = "yawm sa3iid"
-      , kana = ""
+      , kana = "ヤウム サアイード"
       , arabic = "يَوْم سَعيد"
       , meaning = "Have a nice day."
       }
     , { latin  = "sa3iid"
-      , kana = ""
+      , kana = "サアイード"
       , arabic = "سَعيد"
       , meaning = "happy"
       }
     , { latin  = "2anaa Haziinat l-yawm"
-      , kana = ""
+      , kana = "アナー ハズィーナト ル ヤウム"
       , arabic = "أَنا حَزينة الْيَوْم"
       , meaning = "I am sad today."
       }
     , { latin  = "2anaa Haziin jiddan"
-      , kana = ""
+      , kana = "アナー ハズィーン ジッダン"
       , arabic = "أَنا حَزين جِدّاً"
       , meaning = "I am very sad."
       }
@@ -1887,43 +1882,43 @@ dict =
       , arabic = "أَنا مَريضة لِلْأَسَف"
       , meaning = "I am sick unfortunately."
       }
-    , { latin  = "2ilaa l-laqaa2 yaa Sadiiqii"
-      , kana = ""
+    , { latin  = "2ilaa l-liqaa2 yaa Sadiiqii"
+      , kana = "イラー ッリカー ヤー サディーキイ"
       , arabic = "إِلى الْلِّقاء يا صَديقي"
       , meaning = "Until next time, my friend."
       }
     , { latin  = "na3saana"
-      , kana = ""
+      , kana = "ナアサーナ"
       , arabic = "نَعْسانة"
       , meaning = "sleepy"
       }
     , { latin  = "mutaHammis"
-      , kana = ""
+      , kana = "ムタハムミス"
       , arabic = "مُتَحَمِّس"
       , meaning = "excited"
       }
     , { latin  = "maa 2ismak"
-      , kana = ""
+      , kana = "マー イスマク"
       , arabic = "ما إِسْمَك"
       , meaning = "What is your name?"
       }
-    , { latin  = "2anaana3saan"
-      , kana = ""
+    , { latin  = "2anaa na3saan"
+      , kana = "アナー ナアサーン"
       , arabic = "أَنا نَعْسان"
       , meaning = "I am sleepy."
       }
-    , { latin  = "yallaa 2ilaa l-liqaa2"
-      , kana = ""
+    , { latin  = "yal-laa 2ilaa l-liqaa2"
+      , kana = "ヤッラー イラー ッリカー"
       , arabic = "يَلّإِ إِلى الْلَّقاء"
-      , meaning = "Alriht, until next time."
+      , meaning = "Alright, until next time."
       }
-    , { latin  = "ma3a as-alaama"
-      , kana = ""
+    , { latin  = "ma3a as-salaama"
+      , kana = "マア アッサラーマ"
       , arabic = "مَعَ الْسَّلامة"
       , meaning = "Goodbye."
       }
     , { latin  = "tamaam"
-      , kana = ""
+      , kana = "タマーム"
       , arabic = "تَمام"
       , meaning = "OK"
       }
@@ -1937,12 +1932,12 @@ dict =
        , meaning = "What is new?"
        }
     , { latin  = "al-bathu alhii"
-      , kana = ""
+      , kana = "アル バス アルヒー"
       , arabic = "اَلْبَثُ اَلْحي"
       , meaning = "live broadcast"
       }
     , { latin  = "2ikhtar"
-      , kana = ""
+      , kana = "イクフタル"
       , arabic = "إِخْتَر"
       , meaning = "choose"
       }
@@ -1952,27 +1947,27 @@ dict =
       , meaning = "a car"
       }
     , { latin  = "2akh ghariib"
-      , kana = ""
+      , kana = "アクフ ガリーブ"
       , arabic = "أَخ غَريب"
       , meaning = "a weird brother"
       }
     , { latin  = "2ukht muhimma"
-      , kana = ""
+      , kana = "ウクフト ムヒムマ"
       , arabic = "أُخْت مُهِمّة"
       , meaning = "an important sister"
       }
     , { latin  = "ibn kariim wa-mumtaaz"
-      , kana = ""
+      , kana = "イブン カリーム ワ ムムターズ"
       , arabic = "اِبْن كَريم وَمُمْتاز"
       , meaning = "a generous and amazing son"
       }
     , { latin  = "2ab"
-      , kana = ""
+      , kana = "アブ"
       , arabic = "أَب"
       , meaning = "a father"
       }      
     , { latin  = "2umm"
-      , kana = ""
+      , kana = "ウムム"
       , arabic = "أُمّ"
       , meaning = "a mother"
       }
@@ -1982,7 +1977,7 @@ dict =
       , meaning = "a son"
       }
     , { latin  = "mumti3"
-      , kana = ""
+      , kana = "ムムティア"
       , arabic = "مُمْتِع"
       , meaning = "fun"
       }
@@ -1992,27 +1987,27 @@ dict =
       , meaning = "an accountant"
       }
     , { latin  = "ma-smika ya 2ustaadha"
-      , kana = ""
+      , kana = "マスミカ ヤー ウスターザ"
       , arabic = "ما اسْمِك يا أُسْتاذة"
-      , meaning = "Whatis your name ma'am?"
+      , meaning = "What is your name ma'am?"
       }
     , { latin  = "qiTTatak malika"
-      , kana = ""
+      , kana = "キッタタク マリカ"
       , arabic = "قِطَّتَك مَلِكة"
       , meaning = "Your cat is a queen."
       }
     , { latin  = "jadda laTiifa wa-jadd laTiif"
-      , kana = ""
+      , kana = "ジャッダ ラティーファ ワ ジャッド ラティーフ"
       , arabic = "جَدّة لَطيفة وَجَدّ لَطيف"
       , meaning = "a kind grandmother and a kind grandfather"
       }
     , { latin  = "qiTTa jadiida"
-      , kana = ""
+      , kana = "キッタ ジャディーダ"
       , arabic = "قِطّة جَديدة"
       , meaning = "a new cat"
       }
     , { latin  = "hal jaddatak 2ustaadha"
-      , kana = ""
+      , kana = "ハル ジャーダタック ウスターザ"
       , arabic = "هَل جَدَّتَك أُسْتاذة"
       , meaning = "Is your grandmother a professor?"
       }
@@ -2021,37 +2016,37 @@ dict =
        , meaning = "Is your wife a Jordanian?"
        }
     , { latin  = "mu3allim"
-      , kana = ""
+      , kana = "ムアッリム"
       , arabic = "مُعَلِّم"
       , meaning = "a teacher"
       }
     , { latin  = "dhakiyya"
-      , kana = ""
+      , kana = "ザキーヤ"
       , arabic = "ذَكِيّة"
       , meaning = "smart"
       }
     , { latin  = "ma3Taf"
-      , kana = ""
+      , kana = "マアタフ"
       , arabic = "مَعْطَف"
       , meaning = "a coat"
       }
     , { latin  = "qubba3a zarqaa2 wa-bunniyya"
-      , kana = ""
+      , kana = "クッバ ザルカー ワ ブンニーヤ"
       , arabic = "قُبَّعة زَرْقاء وَبُنّية"
       , meaning = "a blue ad brown hat"
       }
     , { latin  = "bayDaa2"
-      , kana = ""
+      , kana = "バイダー"
       , arabic = "بَيْضاء"
       , meaning = "white"
       }
-    , { latin  = "al-2iijaar jayyd al-Hamdu lila"
-      , kana = ""
+    , { latin  = "al-2iijaar jayyd al-Hamdu li-l-laa"
+      , kana = "アル イージャール ジャイイド アル ハムドゥ リッラー"
       , arabic = "اَلْإِيجار جَيِّد اَلْحَمْدُ لِله"
       , meaning = "The rent is good, praise be to God."
       }
     , { latin  = "jaami3a ghaalya"
-      , kana = ""
+      , kana = "ジャーミア ガーリヤ"
       , arabic = "جامِعة غالْية"
       , meaning = "an expensive university"
       }
@@ -3175,9 +3170,9 @@ dict =
       , arabic = "هَذِهِ الطاوِلة حارة"
       , meaning = "This table is hot."
       }
-    , { latin  = "mi3Taf khafiif"
-      , kana = "ミアタフ クハフィーフ"
-      , arabic = "مِعطَف خَفيف"
+    , { latin  = "ma3Taf khafiif"
+      , kana = "マアタフ クハフィーフ"
+      , arabic = "معطَف خَفيف"
       , meaning = "a light coat"
       }
     , { latin  = "maTar khafiif"
