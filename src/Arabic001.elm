@@ -226,7 +226,7 @@ dict =
       , meaning = "new"
       }
     , { latin = "wishshaaH"
-      , kana = "ウィシャーフ"
+      , kana = "ウィシャーハ"
       , arabic = "وِشَاح"
       , meaning = "a scarf"
       }
@@ -371,7 +371,7 @@ dict =
       , meaning = "The house is there"
       }
     , { latin = "hunaak wishaaH 2abyaD"
-      , kana = "フナーク ウィシャーフ アビヤド"
+      , kana = "フナーク ウィシャーハ アビヤド"
       , arabic = "هُناك وِشاح أبْيَض"
       , meaning = "There is a white scarf"
       }
@@ -385,8 +385,8 @@ dict =
       , arabic = "في شَنْطَتي"
       , meaning = "in my bag"
       }
-    , { latin = "hal 3indak maHfaDHa yaa juurj"
-      , kana = "ハル アインダク マハファザ ヤー ジュールジ"
+    , { latin = "hal 3indak maHfaDha yaa juurj"
+      , kana = "ハル アインダク マハファザ ヤー ジュールジュ"
       , arabic = "هَل عِنْدَك مَحْفَظة يا جورْج"
       , meaning = "do you have a wallet , george"
       }
@@ -400,7 +400,7 @@ dict =
       , arabic = "شِنْطَتي في شَنْطتِك يا رانْيا"
       , meaning = "my bag is in your bag rania"
       }
-    , { latin = "huunak maHfaDHa Saghiira"
+    , { latin = "huunak maHfaDha Saghiira"
       , kana = "フナーク マハファザ サギーラ"
       , arabic = "هُناك مَحْفَظة صَغيرة"
       , meaning = "There is a small wallet"
@@ -431,11 +431,11 @@ dict =
       , meaning = "my bag is over there"
       }
     , { latin = "hunaak kitaab Saghiir wa-wishaaH kabiir fii ShanTatii"
-      , kana = "フナーク キターブ サギール ワ ウィシャーフ カビール フィー シャンタティー"
+      , kana = "フナーク キターブ サギール ワ ウィシャーハ カビール フィー シャンタティー"
       , arabic = "هُناك كِتاب صَغير وَوِشاح كَبير في شَنْطَتي"
       , meaning = "There is a small book and a big scarf in my bag"
       }
-    , { latin = "hunaak maHfaDHa Saghiir fii shanTatii"
+    , { latin = "hunaak maHfaDha Saghiir fii shanTatii"
       , kana = "フナーク マハファザ サギール フィー シャンタティー"
       , arabic = "هُناك مَحْفَظة صَغيرة في شَنْطَتي"
       , meaning = "There is a small wallet in my bag"
@@ -450,8 +450,8 @@ dict =
       , arabic = "هُناك كِتاب"
       , meaning = "There is a book"
       }
-    , { latin = "almadiina hunaak"
-      , kana = ""
+    , { latin = "al-madiina hunaak"
+      , kana = "アルマディーナ フナーク"
       , arabic = "اَلْمَدينة هُناك"
       , meaning = "Thecity is there"
       }
@@ -1337,13 +1337,13 @@ dict =
       , arabic = "أَمامي رَجُل غَريب"
       , meaning = "There is a weird man in front of me."
       }
-    , { latin  = "fii al-khalfiyya bayt"
-      , kana = ""
+    , { latin  = "fi l-khalfiyya bayt"
+      , kana = "フィル クハルフィーヤ バイト"
       , arabic = "في الْخَلفِيْة بَيْت"
       , meaning = "There is a house in the background."
       }      
     , { latin  = "fii shanTatii wishaaH"
-      , kana = ""
+      , kana = "フィー シャンタティー ウィシャーハ"
       , arabic = "في شَنْطَتي وِشاح"
       , meaning = "There is a scarf in my bag."
       }
@@ -1352,38 +1352,38 @@ dict =
       , arabic = "أَسَد"
       , meaning = "a lion"
       }
-    , { latin  = "2uHibb 2asadii laakibb la 2uHibb 2usadhaa"
-      , kana = ""
+    , { latin  = "2uHibb 2asadii lakinn laa 2uHibb 2asadhaa"
+      , kana = "ウヒッブ アサディ ラキン ラー ウヒッブ アサドハー"
       , arabic = "أحِبَ أَسَدي لَكِنّ لا أُحِبّ أَسَدها"
       , meaning = "I like my lion but I do not like her lion."
       }
     , { latin  = "laysa 3indhu"
-      , kana = ""
+      , kana = "ライサ アインドフ"
       , arabic = "لَيْسَ عِنْدهُ"
       , meaning = "he does not have"
       }
     , { latin  = "3indhaa kalb wa-qiTTa"
-      , kana = ""
+      , kana = "アインドハー カルブ ワ キッタ"
       , arabic = "عِنْدها كَلْب وَقِطّة"
       , meaning = "She has a doc and a cat."
       }
-    , { latin  = "Sadiiqatu"
-      , kana = ""
+    , { latin  = "Sadiiqathu saamia ghaniyya"
+      , kana = "サディーカトフ サーミヤ ガニーヤ"
       , arabic = "صَديقَتهُ سامْية غَنِيّة"
       , meaning = "His friend Samia is rich."
       }
     , { latin  = "taariikhiyya"
-      , kana = ""
+      , kana = "ターリーキーヤ"
       , arabic = "تاريخِيّة"
       , meaning = "historical"
       }
     , { latin  = "juurj 3indhu 3amal mumtaaz"
-      , kana = ""
+      , kana = "ジュールジュ アインドフ アアマル ムムターズ"
       , arabic = "جورْج عِنْدهُ عَمَل مُمْتاز"
       , meaning = "George has an amazing work."
       }
     , { latin  = "Sadiiqii taamir ghaniyy jiddan"
-      , kana = ""
+      , kana = "サディーキー ターミル ガニーイ ジッダン"
       , arabic = "صَديقي تامِر غَنِيّ جِدّاً"
       , meaning = "My friend Tamer is very rich"
       }
@@ -1412,18 +1412,18 @@ dict =
       , arabic = "صدَيقَتهُ سامْية لابِسة تّنّورة"
       , meaning = "His friend Samia is wearing a skirt."
       }
-    , { latin  = "wa-hunaa fi l-khalfitta rajul muDHik"
-      , kana = ""
+    , { latin  = "wa-hunaa fi l-khalfiyya rajul muD-Hik"
+      , kana = "ワ フナー フィル クハルフィーヤ ラジュル ムドヒク"
       , arabic = "وَهُنا في الْخَلْفِتّة رَجُل مُضْحِك"
       , meaning = "And here in the background there is a funny man."
       }
     , { latin  = "man haadhaa"
-      , kana = ""
+      , kana = "マン ハーザー"
       , arabic = "مَن هَذا"
       , meaning = "Who is this?"
       }
-    , { latin  = "hal 2anti labisa wishaaH ya lamaa"
-      , kana = ""
+    , { latin  = "hal 2anti labisa wishaaH yaa lamaa"
+      , kana = "ハル アンティ ラビサ ウィシャーハ ヤー ラマー"
       , arabic = "هَل أَنْتِ لابِسة وِشاح يا لَمى"
       , meaning = "Are you wering a scarf, Lama?"
       }
@@ -1432,108 +1432,108 @@ dict =
       , arabic = "أَخي بَشير مَشْغول"
       , meaning = "My brother Bashir is busy."
       }
-    , { latin  = "fii haadhihi a-S-Suura imraa muDHika"
-      , kana = ""
+    , { latin  = "fii haadhihi a-S-Suura imraa muD-Hika"
+      , kana = "フィー ハージヒ アッスーラ イムラア ムドヒカ"
       , arabic = "في هَذِهِ الْصّورة اِمْرأة مُضْحِكة"
       , meaning = "Thre is a funny woman in this picture."
       }
-    , { latin  = "hal 2anta laabis qubb3a ya siith"
-      , kana = ""
+    , { latin  = "hal 2anta laabis qubb3a yaa siith"
+      , kana = "ハル アンタ ラービス クッバ ヤー スィース"
       , arabic = "هَل أَنْتَ لابِس قُبَّعة يا سيث"
       , meaning = "Are you wearing a hat, Seth?"
       }
-    , { latin  = "fii l-khalfiyya rajul muDHik"
-      , kana = ""
+    , { latin  = "fi l-khalfiyya rajul muD-Hik"
+      , kana = "フィル クハルフィーヤ ラジュル ムドヒク"
       , arabic = "في الْخَلْفِيّة رَجُل مُضْحِك"
       , meaning = "There is a funny man in the background."
       }
-    , { latin  = "shubbaak"
-      , kana = ""
+    , { latin  = "shub-baak"
+      , kana = "シュッバーク"
       , arabic = "شُبّاك"
       , meaning = "a window"
       }
     , { latin  = "sariir"
-      , kana = ""
+      , kana = "サリール"
       , arabic = "سَرير"
       , meaning = "a bed"
       }
     , { latin  = "saadii 2ustaadhii"
-      , kana = ""
+      , kana = "サーディー ウスタージー"
       , arabic = "شادي أُسْتاذي"
       , meaning = "Sadie is my teacher."
       }
     , { latin  = "2ummhu"
-      , kana = ""
+      , kana = "ウンムフ"
       , arabic = "أُمّهُ"
       , meaning = "his mother"
       }
-    , { latin  = "ma haadhaa as-sawt"
-      , kana = ""
+    , { latin  = "maa haadhaa a-S-Sawt"
+      , kana = "マー ハーザー アッサウト"
       , arabic = "ما هَذا الْصَّوْت"
       , meaning = "What is this noise"
       }
     , { latin  = "2adkhul al-Hammaam"
-      , kana = ""
+      , kana = "アドクフル アルハンマーム"
       , arabic = "أَدْخُل اَلْحَمّام"
       , meaning = "I enter the bathroom."
       }
-    , { latin  = "2uHibb al-ssariir al-kabiir"
-      , kana = ""
+    , { latin  = "2uHibb a-s-sariir al-kabiir"
+      , kana = "ウヒッブ アッサリール アルカビール"
       , arabic = "أُحِبّ اَلْسَّرير اَلْكَبير"
       , meaning = "I love the big bed."
       }
-    , { latin  = "hunaak Sawt ghariib fii l-maTbakh"
-      , kana = ""
+    , { latin  = "hunaak Sawt ghariib fi l-maTbakh"
+      , kana = "フナーク サウト ガリーブ フィル マトバクフ"
       , arabic = "هُناك صَوْت غَريب في الْمَطْبَخ"
       , meaning = "There is a weird nose in the kitchen."
       }
     , { latin  = "2anaam fi l-ghurfa"
-      , kana = "アナーム フィ ルグルファ"
+      , kana = "アナーム フィル グルファ"
       , arabic = "أَنام في الْغُرْفة"
       , meaning = "I sleep in the room."
       }
     , { latin  = "tilfaaz Saghiir fii Saaluun kabiir"
-      , kana = ""
+      , kana = "ティルファーズ サギール フィー サールーン カビール"
       , arabic = "تِلْفاز صَغير في صالون كَبير"
       , meaning = "a small television in a big living room"
       }
     , { latin  = "2anaam fii sariir maksuur"
-      , kana = ""
+      , kana = "アナーム フィー サリール マクスール"
       , arabic = "أَنام في سَرير مَكْسور"
       , meaning = "I sleep in a broken bed."
       }
-    , { latin  = "as-sariir al-kabiir"
-      , kana = ""
+    , { latin  = "a-s-sariir al-kabiir"
+      , kana = "アッサリール アルカビール"
       , arabic = "اَلْسَّرير اَلْكَبير"
       , meaning = "the big bed"
       }
-    , { latin  = "maa haadhaa aSSwut"
-      , kana = ""
+    , { latin  = "maa haadhaa a-S-Swut"
+      , kana = "マー ハーザー アッスウト"
       , arabic = "ما هَذا الصّوُت"
       , meaning = "What is this noise?"
       }
-    , { latin  = "sariirii mumtaaz al-Hamdu lila"
-      , kana = ""
+    , { latin  = "sariirii mumtaaz al-Hamdu li-l-laa"
+      , kana = "サリーリー ムムターズ アルハムド リッラー"
       , arabic = "سَريري مُمتاز اَلْحَمْدُ لِله"
       , meaning = "My bed is amazing, praise be to God"
       }
     , { latin  = "2anaam kathiiran"
-      , kana = ""
+      , kana = "アナーム カシーラン"
       , arabic = "أَنام كَشيراً"
       , meaning = "I sleep a lot"
       }
     , { latin  = "hunaak Sawt ghariib"
-      , kana = ""
+      , kana = "フナーク サウト ガリーブ"
       , arabic = "هُناك صَوْت غَريب"
       , meaning = "There is a weird noise."
       }
-    , { latin  = "shubbaak"
-      , kana = ""
+    , { latin  = "shub-baak"
+      , kana = "シュッバーク"
       , arabic = "شُبّاك"
       , meaning = "a window"
       }
     , { latin  = "2anaam fii sariir Saghiir"
-      , kana = ""
+      , kana = "アナーム フィー サリール サギール"
       , arabic = "أَنام في سَرير صَغير"
       , meaning = "I sleep in a small bed."
       }
@@ -1543,7 +1543,7 @@ dict =
       , meaning = "Mohammed is my teacher."
       }
     , { latin  = "mahaa 2ummhu"
-      , kana = ""
+      , kana = "マハー ウンムフ"
       , arabic = "مَها أُمّهُ"
       , meaning = "Maha is his mother."
       }
@@ -1653,7 +1653,7 @@ dict =
       , meaning = "the city of Detroit"
       }
     , { latin  = "jaami3a juurj waashinTun"
-      , kana = "ジャーミア ジュールジ ワーシントン"
+      , kana = "ジャーミア ジュールジュ ワーシントン"
       , arabic = "جامِعة جورْج واشِنْطُن"
       , meaning = "George Washinton University"
       }
@@ -1912,7 +1912,7 @@ dict =
       , meaning = "a father"
       }      
     , { latin  = "2umm"
-      , kana = "ウムム"
+      , kana = "ウンム"
       , arabic = "أُمّ"
       , meaning = "a mother"
       }
@@ -2086,7 +2086,7 @@ dict =
       , meaning = "my sister and her friend George"
       }
     , { latin  = "3amalii"
-      , kana = "アマリー"
+      , kana = "アアマリー"
       , arabic = "عَمَلي"
       , meaning = "my work"
       }
@@ -2181,7 +2181,7 @@ dict =
       , meaning = "How are you?"
       }
     , { latin  = "Hammaam"
-      , kana = "ハムマーム"
+      , kana = "ハンマーム"
       , arabic = "حَمّام"
       , meaning = "bathroom"
       }
@@ -2306,7 +2306,7 @@ dict =
       , meaning = "to be good, pleasant"
       }
     , { latin  = "2umm"
-      , kana = "ウムム"
+      , kana = "ウンム"
       , arabic = "أُمّ"
       , meaning = "mother"
       }
@@ -2321,7 +2321,7 @@ dict =
       , meaning = "daughter, girl"
       }
     , { latin  = "2ummii"
-      , kana = "ウムミー"
+      , kana = "ウンミー"
       , arabic = "أُمّي"
       , meaning = "my mother"
       }
@@ -2345,7 +2345,7 @@ dict =
       , arabic = "نَذير"
       , meaning = "warner, herald"
       }
-    , { latin  = "naDHiir"
+    , { latin  = "naDhiir"
       , kana = "ナディール"
       , arabic = "نَظير"
       , meaning = "equal"
@@ -2526,7 +2526,7 @@ dict =
       , meaning = "to fast"
       }
     , { latin  = "Sadiiqii Juurj 3ind-hu 3amal mumtaaz"
-      , kana = "サディークィー ジュールジ アインダフー アマル ムムターズ"
+      , kana = "サディークィー ジュールジュ アインダフー アアマル ムムターズ"
       , arabic = "صَديقي جورْج عِنْدهُ عَمَل مُمْتاز"
       , meaning = "My friend George has excellent job."
       }
@@ -2715,7 +2715,7 @@ dict =
       , arabic = "تَنورة"
       , meaning = "a skirt"
       }
-    , { latin  = "laHaDHa"
+    , { latin  = "laHaDha"
       , kana = "ラハザ"
       , arabic = "لَحَظة"
       , meaning = "a moment"
@@ -2781,7 +2781,7 @@ dict =
       , meaning = "sea"
       }
     , { latin  = "2aina l-Hammaam"
-      , kana = "アイナ ル ハムマーン"
+      , kana = "アイナ ル ハンマーン"
       , arabic = "أَينَ الحَمّام"
       , meaning = "Where is the bathroom?"
       }
@@ -2986,7 +2986,7 @@ dict =
       , meaning = "a Syrian girl"
       }
     , { latin  = "2umm"
-      , kana = "ウムム"
+      , kana = "ウンム"
       , arabic = "أُمّ"
       , meaning = "a mother (f)"
       }
@@ -3195,7 +3195,7 @@ dict =
       , arabic = "دال ذال راء زاي سين شين"
       , meaning = "د ذ ر ز س ش"
       }
-    , { latin  = "Saad Daad Taa2 DHaa2 3ain ghain"
+    , { latin  = "Saad Daad Taa2 Dhaa2 3ain ghain"
       , kana = "サード ダード ター ザー アイン ガイン"
       , arabic = "صاد ضاد طاء ظاء عَين غَين"
       , meaning = "ص ض ط ظ ع غ"
@@ -3330,7 +3330,7 @@ dict =
       , arabic = "بَعدَ إِذنِكَ"
       , meaning = "After your permit. Excuse me."
       }
-    , { latin  = "muwaDH-DHaf"
+    , { latin  = "muwaDh-Dhaf"
       , kana = "ムワッザフ"
       , arabic = "مُوَظَّف"
       , meaning = "an employee"
@@ -3385,7 +3385,7 @@ dict =
       , arabic = "طائرة"
       , meaning = "an airplane"
       }
-    , { latin  = "DHabii"
+    , { latin  = "Dhabii"
       , kana = "ザビー"
       , arabic = "ظَبي"
       , meaning = "an antelope"
@@ -3570,17 +3570,17 @@ dict =
       , arabic = "قَبل الساعة الخامِسة"
       , meaning = "before the fifth hour"
       }
-    , { latin  = "ba3d a-DH-DHuhr"
+    , { latin  = "ba3d a-Dh-Dhuhr"
       , kana = "バァダ ッズホル"
       , arabic = "بَعد الظُّهر"
       , meaning = "afternoon"
       }
-    , { latin  = "2uHibb a-n-nawm ba3d a-DH-DHuhr"
+    , { latin  = "2uHibb a-n-nawm ba3d a-Dh-Dhuhr"
       , kana = "ウヒッブ アンナウム バァダ ッズホル"
       , arabic = "أحِبّ اَلْنَّوْم بَعْد اَلْظَّهْر"
       , meaning = "I like sleeping in the afternoon."
       }
-    , { latin  = "alkalaam ma3a 2abii ba3d alDH-DHuhr"
+    , { latin  = "alkalaam ma3a 2abii ba3d alDh-Dhuhr"
       , kana = "アルカラーム まあ アビー バァダ ッズホル"
       , arabic = "اَلْكَلام معَ أَبي بَعْد اَلْظَّهْر"
       , meaning = "talking with my father in the afternoon"
