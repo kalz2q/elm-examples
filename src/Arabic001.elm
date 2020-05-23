@@ -2775,11 +2775,6 @@ dict =
       , arabic = "حَسَنًا"
       , meaning = "Okay, good, fantastic!"
       }
-    , { latin  = "baHar"
-      , kana = "バハル"
-      , arabic = "بَحَر"
-      , meaning = "sea"
-      }
     , { latin  = "2aina l-Hammaam"
       , kana = "アイナ ル ハンマーン"
       , arabic = "أَينَ الحَمّام"
