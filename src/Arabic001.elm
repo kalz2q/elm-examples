@@ -3927,14 +3927,26 @@ dict =
       , arabic = "ماذا أَدْرُس؟"
       , meaning = "What do I study?"
       }
-    , { latin  = "as-saa3a ath-thaanya"
-      , kana = "アッサーア アッサーニア"
+    , { latin  = "as-saa3a th-thaanya"
+      , kana = "アッサーア ッサーニア"
       , arabic = "اَلْسّاعة الْثّانْية"
       , meaning = "the second hour"
       }
-    , { latin  = "as-saa3a ath-thaalitha	"
-      , kana = "アッサーア アッサーリサ"
+    , { latin  = "as-saa3a th-thaalitha	"
+      , kana = "アッサーア ッサーリサ"
       , arabic = "اَلْسّاعة الْثّالِثة"
       , meaning = "the third hour"
       }
+    , { latin  = "as-saa3a r-raabi3a	"
+      , kana = "アッサーア ッラービア"
+      , arabic = "اَلْسّاعة الْرّابِعة"
+      , meaning = "the fourth hour"
+      }
+    , { latin  = "as-saa3a l-khaamisa	"
+      , kana = "アッサーア ル クハーミサ"
+      , arabic = "اَلْسّاعة الْخامِسة"
+      , meaning = "the fifth hour"
+      }
+
+
     ]
