@@ -3912,5 +3912,29 @@ dict =
       , arabic = "هٰذِهِ ٲلْمَدينة لا تَنام"
       , meaning = "This city does not sleep."
       }
-
+    , { latin  = "maa ra2yik"
+      , kana = "マー ラ イイク"
+      , arabic = "ما رَأْيِك؟"
+      , meaning = "What do you think?  (Literally: What is your opinion?)"
+      }
+    , { latin  = "maadhaa tuHib-biin"
+      , kana = "マーザー トゥヒッビーン"
+      , arabic = "ماذا تُحِبّين؟"
+      , meaning = "What do you like?"
+      }
+    , { latin  = "maadhaa 2adrus"
+      , kana = "マーザー アドルス"
+      , arabic = "ماذا أَدْرُس؟"
+      , meaning = "What do I study?"
+      }
+    , { latin  = "as-saa3a ath-thaanya"
+      , kana = "アッサーア アッサーニア"
+      , arabic = "اَلْسّاعة الْثّانْية"
+      , meaning = "the second hour"
+      }
+    , { latin  = "as-saa3a ath-thaalitha	"
+      , kana = "アッサーア アッサーリサ"
+      , arabic = "اَلْسّاعة الْثّالِثة"
+      , meaning = "the third hour"
+      }
     ]
