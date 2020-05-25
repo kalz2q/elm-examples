@@ -655,7 +655,7 @@ dict =
       , arabic = "أُخْتي"
       , meaning = "my sister"
       }
-    , { latin  = "Sadiiqa jaiyida"
+    , { latin  = "Sadiiqa jayyida"
       , kana = "サディーカ ジャイイダ"
       , arabic = "صَديقة  جَيِّدة"
       , meaning = "a good friend"
@@ -1962,7 +1962,7 @@ dict =
       , arabic = "بَيْضاء"
       , meaning = "white"
       }
-    , { latin  = "al-2iijaar jayyd al-Hamdu li-l-laa"
+    , { latin  = "al-2iijaar jayyid al-Hamdu li-l-laa"
       , kana = "アル イージャール ジャイイド アル ハムドゥ リッラー"
       , arabic = "اَلْإِيجار جَيِّد اَلْحَمْدُ لِله"
       , meaning = "The rent is good, praise be to God."
@@ -3807,7 +3807,7 @@ dict =
       , arabic = "أُريد اَلْكَلام"
       , meaning = "I want to talk."
       }
-    , { latin  = "al-kalaam jaiid"
+    , { latin  = "al-kalaam jayyid"
       , kana = "アルカラーム ジャイイド"
       , arabic = "اَلْكَلام جَيِّد"
       , meaning = "The talking is good."
@@ -4203,9 +4203,9 @@ dict =
       , arabic = "عِلم الحاسوب"
       , meaning = "computer sicence"
       }
-    , { latin  = "muSawwr"
-      , kana = "ムサウル"
-      , arabic = "مُصَوّر"
+    , { latin  = "muSawwir"
+      , kana = "ムサウィル"
+      , arabic = "مُصَوِّر"
       , meaning = "photographer"
       }
     , { latin  = "laa 2uHib-b-hu"
@@ -4228,6 +4228,10 @@ dict =
       , arabic = "لَوت آخَر"
       , meaning = "another lot, color"
       }
-
+    , { latin  = "rabba bayt"
+      , kana = "ラッババイト"
+      , arabic = "رَبّة بَيت"
+      , meaning = "homemaker, housewife"
+      }
 
     ]
