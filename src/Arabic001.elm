@@ -4168,5 +4168,32 @@ dict =
       , arabic = "بِكَم هَذا"
       , meaning = "How much is this?"
       }
+    , { latin  = "dimashq"
+      , kana = "ディマシュク"
+      , arabic = "دِمَشق"
+      , meaning = "Damascus"
+      }
+    , { latin  = "2in shaa2a l-laa"
+      , kana = "インシャーアッラー"
+      , arabic = "إِن شاءَ اللَّه"
+      , meaning = "on God's will"
+      }
+    , { latin  = "yal-laa"
+      , kana = "ヤッラー"
+      , arabic = "يَلّا"
+      , meaning = "alright"
+    }
+    , { latin  = "3aailatii"
+      , kana = "アーイラティー"
+      , arabic = "عائلَتي"
+      , meaning = "my family"
+      }
+    , { latin  = "akhbaar"
+      , kana = "アクフバール"
+      , arabic = "أَخبار"
+      , meaning = "news"
+      }
+
+
 
     ]
