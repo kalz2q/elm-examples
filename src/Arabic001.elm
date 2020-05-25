@@ -4163,6 +4163,10 @@ dict =
       , arabic = "مايْك"
       , meaning = "Mike"
       }
-
+    , { latin  = "bikam haadhaa"
+      , kana = "ビカム ハーザー"
+      , arabic = "بِكَم هَذا"
+      , meaning = "How much is this?"
+      }
 
     ]
