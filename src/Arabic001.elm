@@ -185,11 +185,6 @@ dict =
       , arabic = "كبيرة"
       , meaning = "large, big"
       }
-    , { latin = "laysa"
-      , kana = "ライサ"
-      , arabic = "لِيْسَ"
-      , meaning = "do not"
-      }
     , { latin = "siith"
       , kana = "スィース"
       , arabic = "سيث"
@@ -1629,8 +1624,8 @@ dict =
       , arabic = "صَحيفة اَلْمُهَنْدِس"
       , meaning = "the enginner's newspaper"
       }
-    , { latin  = "madiina diitruuyt"
-      , kana = "マディーナ ディートルーイト"
+    , { latin  = "madiinat diitruuyt"
+      , kana = "マディーナト ディートルーイト"
       , arabic = "مَدينة ديتْرويْت"
       , meaning = "the city of Detroit"
       }
@@ -2273,7 +2268,7 @@ dict =
       , meaning = "expensive, dear"
       }
     , { latin  = "khaalii"
-      , kana = "ハーリー"
+      , kana = "クハーリー"
       , arabic = "خالي"
       , meaning = "my mother’s brother, uncle"
       }
@@ -2702,7 +2697,7 @@ dict =
       , arabic = "لَحَظة"
       , meaning = "a moment"
       }
-    , { latin  = "2aina l-qiTTa"
+    , { latin  = "2ayna l-qiTTa"
       , kana = "アイナ ルキッタ"
       , arabic = "أَينَ القِطّة"
       , meaning = "Where is the cat?"
@@ -2757,7 +2752,7 @@ dict =
       , arabic = "حَسَنًا"
       , meaning = "Okay, good, fantastic!"
       }
-    , { latin  = "2aina l-Hammaam"
+    , { latin  = "2ayna l-Hammaam"
       , kana = "アイナ ル ハンマーン"
       , arabic = "أَينَ الحَمّام"
       , meaning = "Where is the bathroom?"
@@ -3457,7 +3452,7 @@ dict =
       , arabic = "جامِعتي في طوكيو"
       , meaning = "My university is in Tokyo."
       }
-    , { latin  = "2ain jaami3tka"
+    , { latin  = "2ayn jaami3tka"
       , kana = "アイン ジャーミアトカ"
       , arabic = "أَين جامِعتكَ"
       , meaning = "Where is your university?"
@@ -3487,8 +3482,8 @@ dict =
       , arabic = "أَسكن في ضَواحي بَغداد"
       , meaning = "I live in the suburbs of Bagdad."
       }
-    , { latin  = "qar-yatii qariiba min madiina bayruut"
-      , kana = "カルヤティー カリーバ ミン マディーナ バイルート"
+    , { latin  = "qar-yatii qariiba min madiinat bayruut"
+      , kana = "カルヤティー カリーバ ミン マディーナト バイルート"
       , arabic = "قَريتي قَريبة مِن مَدينة بَيروت"
       , meaning = "My village is close to the city of Beirut."
       }
@@ -3542,7 +3537,7 @@ dict =
       , arabic = "عَن اليابان"
       , meaning = "about Japan"
       }
-    , { latin  = "qabl a-s-saa3t l-khaamisa"
+    , { latin  = "qabl a-s-saa3at l-khaamisa"
       , kana = "カブラ ッサーアト ル クハーミサ"
       , arabic = "قَبل الساعة الخامِسة"
       , meaning = "before the fifth hour"
@@ -3558,7 +3553,7 @@ dict =
       , meaning = "I like sleeping in the afternoon."
       }
     , { latin  = "alkalaam ma3a 2abii ba3d alDh-Dhuhr"
-      , kana = "アルカラーム まあ アビー バァダ ッズホル"
+      , kana = "アルカラーム マア アビー バァダ ッズホル"
       , arabic = "اَلْكَلام معَ أَبي بَعْد اَلْظَّهْر"
       , meaning = "talking with my father in the afternoon"
       }
@@ -3927,73 +3922,73 @@ dict =
       , arabic = "ماذا أَدْرُس؟"
       , meaning = "What do I study?"
       }
-    , { latin  = "as-saa3a th-thaanya"
-      , kana = "アッサーア ッサーニア"
+    , { latin  = "as-saa3at th-thaanya"
+      , kana = "アッサーアト ッサーニア"
       , arabic = "اَلْسّاعة الْثّانْية"
       , meaning = "the second hour"
       }
-    , { latin  = "as-saa3a th-thaalitha"
-      , kana = "アッサーア ッサーリサ"
+    , { latin  = "as-saa3at th-thaalitha"
+      , kana = "アッサーアト ッサーリサ"
       , arabic = "اَلْسّاعة الْثّالِثة"
       , meaning = "the third hour"
       }
-    , { latin  = "as-saa3a r-raabi3a"
-      , kana = "アッサーア ッラービア"
+    , { latin  = "as-saa3at r-raabi3a"
+      , kana = "アッサーアト ッラービア"
       , arabic = "اَلْسّاعة الْرّابِعة"
       , meaning = "the fourth hour"
       }
-    , { latin  = "as-saa3a l-khaamisa"
-      , kana = "アッサーア ル クハーミサ"
+    , { latin  = "as-saa3at l-khaamisa"
+      , kana = "アッサーアト ル クハーミサ"
       , arabic = "اَلْسّاعة الْخامِسة"
       , meaning = "the fifth hour"
       }
-    , { latin  = "as-saa3a s-saadisa"
-      , kana = "アッサーア ッサーディサ"
+    , { latin  = "as-saa3at s-saadisa"
+      , kana = "アッサーアト ッサーディサ"
       , arabic = "اَلْسّاعة الْسّادِسة"
       , meaning = "the sixth hour"
       }
-    , { latin  = "as-saa3a s-saabi3a"
-      , kana = "アッサーア ッサービア"
+    , { latin  = "as-saa3at s-saabi3a"
+      , kana = "アッサーアト ッサービア"
       , arabic = "اَلْسّاعة الْسّابِعة"
       , meaning = "the seventh hour"
       }
-    , { latin  = "as-saa3a th-thaamina"
-      , kana = "アッサーア ッサーミナ"
+    , { latin  = "as-saa3at th-thaamina"
+      , kana = "アッサーアト ッサーミナ"
       , arabic = "اَلْسّاعة الْثّامِنة"
       , meaning = "the eighth hour"
       }
-    , { latin  = "as-saa3a t-taasi3a"
-      , kana = "アッサーア ッタースィア"
+    , { latin  = "as-saa3at t-taasi3a"
+      , kana = "アッサーアト ッタースィア"
       , arabic = "اَلْسّاعة الْتّاسِعة"
       , meaning = "the ninth hour"
       }
-    , { latin  = "as-saa3a l-3aashira"
-      , kana = "アッサーア ル アーシラ"
+    , { latin  = "as-saa3at l-3aashira"
+      , kana = "アッサーアト ル アーシラ"
       , arabic = "اَلْسّاعة الْعاشِرة"
       , meaning = "the tenth hour"
       }
-    , { latin  = "as-saa3a l-Haadya 3ashara"
-      , kana = "アッサーア ル ハーディヤ アシャラ"
+    , { latin  = "as-saa3at l-Haadya 3ashara"
+      , kana = "アッサーアト ル ハーディヤ アシャラ"
       , arabic = "اَلْسّاعة الْحادْية عَشَرة"
       , meaning = "the eleventh hour"
       }
-    , { latin  = "as-saa3a th-thaanya 3ashara"
-      , kana = "アッサーア ッサーニヤ アシャラ"
+    , { latin  = "as-saa3ag th-thaanya 3ashara"
+      , kana = "アッサーアト ッサーニヤ アシャラ"
       , arabic = "اَلْسّاعة الْثّانْية عَشَرة"
       , meaning = "the twelfth hour"
       }
-    , { latin  = "as-saa3a l-waaHida"
-      , kana = "アッサーア ル ワーヒダ"
+    , { latin  = "as-saa3at l-waaHida"
+      , kana = "アッサーアト ル ワーヒダ"
       , arabic = "اَلْسّاعة الْواحِدة"
       , meaning = "the hour one"
       }
 
-    , { latin  = "as-saa3a th-thaanya ba3d a-Dh-Dhuhr"
-      , kana = "アッサーア ッサーニヤ バァダ ッズホル"
+    , { latin  = "as-saa3at th-thaanya ba3d a-Dh-Dhuhr"
+      , kana = "アッサーアト ッサーニヤ バァダ ッズホル"
       , arabic = "اَلْسّاعة الْثّانْية بَعْد اَلْظُّهْر"
       , meaning = "two o'clock in the afternon"
       }
-    , { latin  = "2ainaa min lubanaan"
+    , { latin  = "2anaa min lubanaan"
       , kana = "アナー ミン ルブナーン"
       , arabic = "أنا من لبنان"
       , meaning = "I am from Lebanon."
@@ -4033,10 +4028,141 @@ dict =
       , arabic = "الطَّبيعة"
       , meaning = "nature"
       }
-
-
-
-
+    , { latin  = "fii 2ayy saa3a"
+      , kana = "フィー アイイ サーア"
+      , arabic = "في أي ساعة"
+      , meaning = "at which hour, when"
+      }
+    , { latin  = "al-iskandariyya"
+      , kana = "アル イスカンダリーヤ"
+      , arabic = "الاِسكَندَرِيّة"
+      , meaning = "Alexandria in Egypt"
+      }
+    , { latin  = "2ayna l-maHaT-Ta"
+      , kana = "アイナ ル マハッタ"
+      , arabic = "أَينَ المَحَطّة"
+      , meaning = "Where is the station?"
+      }
+    , { latin  = "3aDhiim jiddan"
+      , kana = "アジーム ジッダン"
+      , arabic = "عَظيم جِدّاً"
+      , meaning = "Fantastic!  Great!"
+      }
+    , { latin  = "thalaatha mar-raat fi l-2usbuu3"
+      , kana = "サラーサ マッラート フィル ウスブーア"
+      , arabic = "ثَلاثَ مَرّات في الأُسبوع"
+      , meaning = "three times a week"
+      }
+    , { latin  = "2asaatidha"
+      , kana = "アサーティザ"
+      , arabic = "أَساتِذة"
+      , meaning = "masters, professors"
+      }
+    , { latin  = "2ikhwa"
+      , kana = "イクフワ"
+      , arabic = "إِخْوة"
+      , meaning = "brothers"
+      }
+    , { latin  = "Suura jamiila"
+      , kana = "スーラ ジャミーラ"
+      , arabic = "صورة جَميلة"
+      , meaning = "beautiful picture"
+      }
+    , { latin  = "al-Hkuuma l-2amriikiya"
+      , kana = "アル フクーマ ル アムリーキーヤ"
+      , arabic = "الحْكومة الأَمريكية"
+      , meaning = "the American government"
+      }
+    , { latin  = "HaDaara qadiima"
+      , kana = "ハダーラ カディーマ"
+      , arabic = "حَضارة قَديمة"
+      , meaning = "old civilization"
+      }
+    , { latin  = "Salaat"
+      , kana = "サラート"
+      , arabic = "صَلاة"
+      , meaning = "prayer, worship"
+      }
+    , { latin  = "zakaat"
+      , kana = "ザカート"
+      , arabic = "زَكاة"
+      , meaning = "alms"
+      }
+    , { latin  = "Hayaat"
+      , kana = "ハヤート"
+      , arabic = "حَياة"
+      , meaning = "life"
+      }
+    , { latin  = "ghurfat bintii"
+      , kana = "グルファト ビンティー"
+      , arabic = "غُرفة بِنتي"
+      , meaning = "my daughter's room"
+      }
+    , { latin  = "madiinat nyuuyuurk"
+      , kana = "マディーナト ニューユールク"
+      , arabic = "مَدينة نيويورك"
+      , meaning = "city of New York"
+      }
+    , { latin  = "sharika"
+      , kana = "シャリカ"
+      , arabic = "شَرِكة"
+      , meaning = "a company"
+      }
+    , { latin  = "sharikat khaalii"
+      , kana = "シャリカト クハーリー"
+      , arabic = "شَرِكة خالي"
+      , meaning = "my uncle's company"
+      }
+    , { latin  = "madrasatii"
+      , kana = "マドラサティー"
+      , arabic = "مَدرَسَتي"
+      , meaning = "my school"
+      }
+    , { latin  = "3alaaqatnaa"
+      , kana = "アラーカトナー"
+      , arabic = "عَلاقَتنا"
+      , meaning = "our relationship"
+      }
+    , { latin  = "shuhra"
+      , kana = "シュフラ"
+      , arabic = "شُهرة"
+      , meaning = "fame"
+      }
+    , { latin  = "shufrathu"
+      , kana = "シュフラトフ"
+      , arabic = "شُهرَته"
+      , meaning = "his fame"
+      }
+    , { latin  = "naz-zlnii hunaa"
+      , kana = "ナッズィルニー フナー"
+      , arabic = "نَزِّلني هنا"
+      , meaning = "Download me here."
+      }
+    , { latin  = "3alaa mahlika"
+      , kana = "アラー マハリカ"
+      , arabic = "عَلى مَهلِكَ"
+      , meaning = "Slow down. Take it easy."
+      }
+    , { latin  = "laysa kul-la yawm"
+      , kana = "ライサ クッラ ヤウム"
+      , arabic = "اَيْسَ كُلَّ يَوم"
+      , meaning = "not every day"
+      }
+    , { latin  = "kul-l l-naas"
+      , kana = "クッル ル ナース"
+      , arabic = "كُلّ الناس"
+      , meaning = "all the people"
+      }
+    , { latin  = "kul-l l-2awlaad"
+      , kana = "クッル ル アウラード"
+      , arabic = "كُلّ الأَولاد"
+      , meaning = "all the boys, children"
+      }
+    , { latin  = "mayk"
+      , kana = "マイク"
+      , arabic = "مايْك"
+      , meaning = "Mike"
+      }
 
 
     ]
