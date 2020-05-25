@@ -4193,7 +4193,41 @@ dict =
       , arabic = "أَخبار"
       , meaning = "news"
       }
-
+    , { latin  = "tadrsiin"
+      , kana = "タドルスィーン"
+      , arabic = "تَدرسين"
+      , meaning = "you study"
+      }
+    , { latin  = "3ilm al-Haasuub"
+      , kana = "アイルム アル ハースーブ"
+      , arabic = "عِلم الحاسوب"
+      , meaning = "computer sicence"
+      }
+    , { latin  = "muSawwr"
+      , kana = "ムサウル"
+      , arabic = "مُصَوّر"
+      , meaning = "photographer"
+      }
+    , { latin  = "laa 2uHib-b-hu"
+      , kana = "ラー ウヒッブフ"
+      , arabic = "لا أُحِبّهُ"
+      , meaning = "I do not love him."
+      }
+    , { latin  = "ta3mal"
+      , kana = "タアマル"
+      , arabic = "نَعمَل"
+      , meaning = "You work, we work"
+      }
+    , { latin  = "2aakhar"
+      , kana = "アークハル"
+      , arabic = "آخَر"
+      , meaning = "else, another, other than this"
+      }
+    , { latin  = "lawn 2aakhar"
+      , kana = "ラウン アークハル"
+      , arabic = "لَوت آخَر"
+      , meaning = "another lot, color"
+      }
 
 
     ]
