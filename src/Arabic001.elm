@@ -4233,5 +4233,9 @@ dict =
       , arabic = "رَبّة بَيت"
       , meaning = "homemaker, housewife"
       }
-
+    , { latin  = "baaHith"
+      , kana = "バーヒス"
+      , arabic = "باحِث"
+      , meaning = "a researcher"
+      }
     ]
