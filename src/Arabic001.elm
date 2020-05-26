@@ -3922,18 +3922,18 @@ dict =
       , arabic = "ماذا أَدْرُس؟"
       , meaning = "What do I study?"
       }
-    , { latin  = "as-saa3at th-thaanya"
-      , kana = "アッサーアト ッサーニア"
+    , { latin  = "as-saa3at ath-thaanya"
+      , kana = "アッサーアト アッサーニア"
       , arabic = "اَلْسّاعة الْثّانْية"
       , meaning = "the second hour"
       }
-    , { latin  = "as-saa3at th-thaalitha"
-      , kana = "アッサーアト ッサーリサ"
+    , { latin  = "as-saa3at ath-thaalitha"
+      , kana = "アッサーアト アッサーリサ"
       , arabic = "اَلْسّاعة الْثّالِثة"
       , meaning = "the third hour"
       }
-    , { latin  = "as-saa3at r-raabi3a"
-      , kana = "アッサーアト ッラービア"
+    , { latin  = "as-saa3at ar-raabi3a"
+      , kana = "アッサーアト アッラービア"
       , arabic = "اَلْسّاعة الْرّابِعة"
       , meaning = "the fourth hour"
       }
@@ -3942,23 +3942,23 @@ dict =
       , arabic = "اَلْسّاعة الْخامِسة"
       , meaning = "the fifth hour"
       }
-    , { latin  = "as-saa3at s-saadisa"
-      , kana = "アッサーアト ッサーディサ"
+    , { latin  = "as-saa3at as-saadisa"
+      , kana = "アッサーアト アッサーディサ"
       , arabic = "اَلْسّاعة الْسّادِسة"
       , meaning = "the sixth hour"
       }
-    , { latin  = "as-saa3at s-saabi3a"
-      , kana = "アッサーアト ッサービア"
+    , { latin  = "as-saa3at as-saabi3a"
+      , kana = "アッサーアト アッサービア"
       , arabic = "اَلْسّاعة الْسّابِعة"
       , meaning = "the seventh hour"
       }
-    , { latin  = "as-saa3at th-thaamina"
-      , kana = "アッサーアト ッサーミナ"
+    , { latin  = "as-saa3at ath-thaamina"
+      , kana = "アッサーアト アッサーミナ"
       , arabic = "اَلْسّاعة الْثّامِنة"
       , meaning = "the eighth hour"
       }
-    , { latin  = "as-saa3at t-taasi3a"
-      , kana = "アッサーアト ッタースィア"
+    , { latin  = "as-saa3at at-taasi3a"
+      , kana = "アッサーアト アッタースィア"
       , arabic = "اَلْسّاعة الْتّاسِعة"
       , meaning = "the ninth hour"
       }
@@ -3972,8 +3972,8 @@ dict =
       , arabic = "اَلْسّاعة الْحادْية عَشَرة"
       , meaning = "the eleventh hour"
       }
-    , { latin  = "as-saa3ag th-thaanya 3ashara"
-      , kana = "アッサーアト ッサーニヤ アシャラ"
+    , { latin  = "as-saa3ag ath-thaanya 3ashara"
+      , kana = "アッサーアト アッサーニヤ アシャラ"
       , arabic = "اَلْسّاعة الْثّانْية عَشَرة"
       , meaning = "the twelfth hour"
       }
@@ -3983,8 +3983,8 @@ dict =
       , meaning = "the hour one"
       }
 
-    , { latin  = "as-saa3at th-thaanya ba3d a-Dh-Dhuhr"
-      , kana = "アッサーアト ッサーニヤ バァダ ッズホル"
+    , { latin  = "as-saa3at ath-thaanya ba3d a-Dh-Dhuhr"
+      , kana = "アッサーアト アッサーニヤ バァダ ッズホル"
       , arabic = "اَلْسّاعة الْثّانْية بَعْد اَلْظُّهْر"
       , meaning = "two o'clock in the afternon"
       }
@@ -4253,6 +4253,50 @@ dict =
       , arabic = "نُّصْف"
       , meaning = "half"
       }
-
+    , { latin  = "fiilm 2aflaam"
+      , kana = "フィールム アフラーム"
+      , arabic = "فيلم ـ أَفلام"
+      , meaning = "film - films"
+      }
+    , { latin  = "dars duruus"
+      , kana = "ダルス ドゥルース"
+      , arabic = "دَرس ـ دُروس"
+      , meaning = "lesson - lessons"
+      }
+    , { latin  = "risaala - rasaa2il"
+      , kana = "リサーラ ラサーイル"
+      , arabic = "رِسالة - رَسائِل"
+      , meaning = "letter - letters"
+      }
+    , { latin  = "qariib - 2aqaarib"
+      , kana = "カリーブ アカーリブ"
+      , arabic = "قَريب - أَقارِب"
+      , meaning = "relative - relatives"
+      }
+    , { latin  = "Sadiiq - 2aSdiqaa2"
+      , kana = "サディーク アスディカー"
+      , arabic = "صَديق - أَصْذِقاء"
+      , meaning = "friend - friends"
+      }
+    , { latin  = "kitaab - kutub"
+      , kana = "キターブ クトゥブ"
+      , arabic = "كِتاب - كُتُب"
+      , meaning = "book - books"
+      }
+    , { latin  = "lugha - lughaat"
+      , kana = "ルガ ルガート"
+      , arabic = "لُغة - لُغات"
+      , meaning = "language - languages"
+      }
+    , { latin  = "tuHibb al-kitaaba"
+      , kana = "トゥヒッブ アルキターバ"
+      , arabic = "تُحِبّ اَلْكِتابة"
+      , meaning = "She likes writing."
+      }
+    , { latin  = "kitaabat ar-rasaa2il mumti3a"
+      , kana = "キターバト アッラサーイル ムムティア"
+      , arabic = "كِتابة اَلْرَّسائِل مُمْتِعة"
+      , meaning = "Writing of the letters is fun."
+      }
 
     ]
