@@ -1769,11 +1769,6 @@ dict =
       , arabic = "مَرْحَباً اِسْمي بوب"
       , meaning = "Hello, my name is Bob."
       }
-    , { latin  = "Haziin"
-      , kana = "ハズィーン"
-      , arabic = "حَزين"
-      , meaning = "sad"
-      }
     , { latin  = "mariiD"
       , kana = "マリード"
       , arabic = "مَريض"
@@ -4253,6 +4248,7 @@ dict =
       , arabic = "نُّصْف"
       , meaning = "half"
       }
+<<<<<<< HEAD
     , { latin  = "fiilm 2aflaam"
       , kana = "フィールム アフラーム"
       , arabic = "فيلم ـ أَفلام"
@@ -4297,6 +4293,37 @@ dict =
       , kana = "キターバト アッラサーイル ムムティア"
       , arabic = "كِتابة اَلْرَّسائِل مُمْتِعة"
       , meaning = "Writing of the letters is fun."
+=======
+    , { latin  = "HaaDr siidii"
+      , kana = "ハードル スィーディー"
+      , arabic = "حاضر سيدي"
+      , meaning = "Yes, sir."
+      }
+    , { latin  = "waqt"
+      , kana = "ワクト"
+      , arabic = "وَقت"
+      , meaning = "time"
+      }
+    , { latin  = "risaala"
+      , kana = "リサーラ"
+      , arabic = "رِسالة"
+      , meaning = "letter"
+      }
+    , { latin  = "fann"
+      , kana = "ファン"
+      , arabic = "فَنّ"
+      , meaning = "art"
+      }
+    , { latin  = "Haziin"
+      , kana = "ハズィーン"
+      , arabic = "حَزين"
+      , meaning = "sad"
+      }
+    , { latin  = "3aa2ila"
+      , kana = "アーイラ"
+      , arabic = "عائِلة"
+      , meaning = "family"
+>>>>>>> c9424e4a0996ad70de697e084df1454b1fa8a46f
       }
 
     ]
