@@ -4248,7 +4248,6 @@ dict =
       , arabic = "نُّصْف"
       , meaning = "half"
       }
-<<<<<<< HEAD
     , { latin  = "fiilm 2aflaam"
       , kana = "フィールム アフラーム"
       , arabic = "فيلم ـ أَفلام"
@@ -4293,7 +4292,6 @@ dict =
       , kana = "キターバト アッラサーイル ムムティア"
       , arabic = "كِتابة اَلْرَّسائِل مُمْتِعة"
       , meaning = "Writing of the letters is fun."
-=======
     , { latin  = "HaaDr siidii"
       , kana = "ハードル スィーディー"
       , arabic = "حاضر سيدي"
@@ -4323,7 +4321,6 @@ dict =
       , kana = "アーイラ"
       , arabic = "عائِلة"
       , meaning = "family"
->>>>>>> c9424e4a0996ad70de697e084df1454b1fa8a46f
       }
 
     ]
