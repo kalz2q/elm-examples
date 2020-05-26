@@ -4238,4 +4238,21 @@ dict =
       , arabic = "باحِث"
       , meaning = "a researcher"
       }
+    , { latin  = "last jaw3aana"
+      , kana = "ラスト ジャウアーナ"
+      , arabic = "لَسْت جَوعانة"
+      , meaning = "I am not hungry."
+      }
+    , { latin  = "hal juudii mutafarrigha"
+      , kana = "ハル ジューディー ムタファルリガ"
+      , arabic = "هَل جودي مُتَفَرِّغة؟"
+      , meaning = "Is Judy free?"
+      }
+    , { latin  = "nuuSf"
+      , kana = "ヌースフ"
+      , arabic = "نُّصْف"
+      , meaning = "half"
+      }
+
+
     ]
