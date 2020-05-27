@@ -4292,6 +4292,7 @@ dict =
       , kana = "キターバト アッラサーイル ムムティア"
       , arabic = "كِتابة اَلْرَّسائِل مُمْتِعة"
       , meaning = "Writing of the letters is fun."
+      }
     , { latin  = "HaaDr siidii"
       , kana = "ハードル スィーディー"
       , arabic = "حاضر سيدي"
@@ -4321,6 +4322,26 @@ dict =
       , kana = "アーイラ"
       , arabic = "عائِلة"
       , meaning = "family"
+      }
+    , { latin  = "2uHibb qiraa2at al-kutub"
+      , kana = "ウヒッブ キラーアト アルクトゥブ"
+      , arabic = "أُحِبّ قِراءة اَلْكُتُب"
+      , meaning = "I like reading of the books."
+      }
+    , { latin  = "2uHibb al-qiraa2a"
+      , kana = "ウヒッブ アルキラーエ"
+      , arabic = "أُحِبّ اَلْقِراءة"
+      , meaning = "I like the reading."
+      }
+    , { latin  = "al-kitaaba mumti3a"
+      , kana = "アルキターバ ムムティア"
+      , arabic = "اَلْكِتابة مُمْتِعة"
+      , meaning = "The writing is fun."
+      }
+    , { latin  = "kura l-qadam"
+      , kana = "クーラルカダム"
+      , arabic = "كُرة اَلْقَدَم"
+      , meaning = "soccer"
       }
 
     ]
