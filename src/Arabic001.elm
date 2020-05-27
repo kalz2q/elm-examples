@@ -4343,5 +4343,71 @@ dict =
       , arabic = "كُرة اَلْقَدَم"
       , meaning = "soccer"
       }
+    , { latin  = "2uHibb ad-dajaaj min 2ams"
+      , kana = "ウヒッブ アッダジャージ ミン アムス"
+      , arabic = "أُحِبّ اَلْدَّجاج مِن أَمْس"
+      , meaning = "I like the chicken from yesterday."
+      }
+    , { latin  = "2uHibb ad-dajaaj"
+      , kana = "ウヒッブ アッダジャージ"
+      , arabic = "أُحِبّ اَلْدَّجاج"
+      , meaning = "I like chicken."
+      }
+    , { latin  = "2uHibb al-qawha"
+      , kana = "ウヒッブ アルカハワ"
+      , arabic = "أُحِبّ اَلْقَهْوة"
+      , meaning = "I like coffee."
+      }
+    , { latin  = "2uriid dajaajan"
+      , kana = "ウリード ダジャージャン"
+      , arabic = "أُريد دَجاجاً"
+      , meaning = "I want chicken."
+      }
+    , { latin  = "2uriid qahwa"
+      , kana = "ウリード カハワ"
+      , arabic = "أُريد قَهْوة"
+      , meaning = "I want coffee."
+      }
+    , { latin  = "2aakul dajaajan"
+      , kana = "アークル ダジャージャン"
+      , arabic = "آكُل دَجاجاً"
+      , meaning = "I eat chicken."
+      }
+    , { latin  = "2ashrab qahwa kul-l SabaaH"
+      , kana = "アシュラブ カハワ クッル サバーハ"
+      , arabic = "أَشْرَب قَهْوة كُلّ صَباح"
+      , meaning = "I drink coffee every morning."
+      }
+    , { latin  = "2uriid Sadiiqan"
+      , kana = "ウリード サディーカン"
+      , arabic = "أُريد صَديقاً"
+      , meaning = "I want a friend."
+      }
+    , { latin  = "2aakul khubzan"
+      , kana = "アークル クフブザン"
+      , arabic = "آكُل خُبْزاً"
+      , meaning = "I eat bread."
+      }
+    , { latin  = "2uriid baytan jadiidan"
+      , kana = "ウリード バイタン ジャディーダン"
+      , arabic = "أُريد بَيْتاً جَديداً"
+      , meaning = "I want a new house."
+      }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     ]
