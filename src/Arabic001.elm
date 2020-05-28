@@ -4393,16 +4393,56 @@ dict =
       , arabic = "أُريد بَيْتاً جَديداً"
       , meaning = "I want a new house."
       }
-
- 
-
-
-
-
-
-
-
-
+    , { latin  = "matHaf"
+      , kana = "マトハフ"
+      , arabic = "مَتحَف"
+      , meaning = "a museum"
+      }
+     , { latin  = "laHm"
+       , kana = "ラハム"
+       , arabic = "لَحْم"
+       , meaning = "meat"
+       }
+    , { latin  = "baTaaTaa"
+      , kana = "バターター"
+      , arabic = "بَطاطا"
+      , meaning = "potato"
+      }
+    , { latin  = "yashrab al-Haliib"
+      , kana = "ヤシュラブ アルハリーブ"
+      , arabic = "يَشْرَب الحَليب"
+      , meaning = "He drinks milk"
+      }
+    , { latin  = "al-muqab-bilaat"
+      , kana = "アルムカッビラート"
+      , arabic = "المُقَبِّلات"
+      , meaning = "appetizers"
+      }
+    , { latin  = "Hummusan"
+      , kana = "フンムサン"
+      , arabic = "حُمُّصاً"
+      , meaning = "chickpeas, hummus"
+      }
+    , { latin  = "SaHiiH"
+      , kana = "サヒーハ"
+      , arabic = "صَحيح"
+      , meaning = "true, right, correct"
+      }
+    , { latin  = "3aSiir"
+      , kana = "アアスィール"
+      , arabic = "عَصير"
+      , meaning = "juice"
+      }
+    , { latin  = "shuurba"
+      , kana = "シュールバ"
+      , arabic = "شورْبة"
+      , meaning = "soupe"
+      }
+    , { latin  = "salaTa"
+      , kana = "サラタ"
+      , arabic = "سَلَطة"
+      , meaning = "salad"
+      }
 
 
 
