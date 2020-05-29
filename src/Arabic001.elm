@@ -4443,10 +4443,36 @@ dict =
       , arabic = "سَلَطة"
       , meaning = "salad"
       }
-
-
-
-
+    , { latin  = "s-saakhin"
+      , kana = "ッサークヒン"
+      , arabic = "سّاخِن"
+      , meaning = "hot, warm"
+      }
+    , { latin  = "Halwaa"
+      , kana = "はルワー"
+      , arabic = "حَلْوى"
+      , meaning = "candy, dessert"
+      }
+    , { latin  = "kib-ba"
+      , kana = "キッバ"
+      , arabic = "كِبّة"
+      , meaning = "kibbeh"
+      }
+    , { latin  = "a-T-Tabaq"
+      , kana = "アッタバク"
+      , arabic = "الطَّبّق"
+      , meaning = "the plate, dish"
+      }
+    , { latin  = "Tabaq"
+      , kana = "タバク"
+      , arabic = "طّبّق"
+      , meaning = "plate, dish"
+      }
+    , { latin  = "2aina 2antum"
+      , kana = "アイナアントム"
+      , arabic = "أَيْن أَنْتُم"
+      , meaning = "Where are you?"
+      }
 
 
 
