@@ -4473,7 +4473,25 @@ dict =
       , arabic = "أَيْن أَنْتُم"
       , meaning = "Where are you?"
       }
-
-
+    , { latin  = "baaS"
+      , kana = "バーすぅ"
+      , arabic = "باص"
+      , meaning = "bus"
+      }
+    , { latin  = "tadhkara"
+      , kana = "たずカラ"
+      , arabic = "تَذْكَرة"
+      , meaning = "a ticket"
+      }
+    , { latin  = "Saff"
+      , kana = "すぁッフ"
+      , arabic = "صَفّ"
+      , meaning = "class"
+      }
+    , { latin  = "qiTaar"
+      , kana = "きたーる"
+      , arabic = "قِطار"
+      , meaning = "train"
+      }
 
     ]
