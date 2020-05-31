@@ -1948,7 +1948,7 @@ dict =
       , meaning = "a coat"
       }
     , { latin = "qubba3a zarqaa2 wa-bunniyya"
-      , kana = "クッバ ザルカー ワ ブンニーヤ"
+      , kana = "くッバ ザルかー ワ ブンニーヤ"
       , arabic = "قُبَّعة زَرْقاء وَبُنّية"
       , meaning = "a blue ad brown hat"
       }
@@ -2468,7 +2468,7 @@ dict =
       , meaning = "a blue house"
       }
     , { latin = "madiina zarqaa2"
-      , kana = "マディーナ ザルカー"
+      , kana = "マディーナ ザルかー"
       , arabic = "مَدينة زَرْقاء"
       , meaning = "a blue city"
       }
@@ -2478,12 +2478,12 @@ dict =
       , meaning = "The house is blue"
       }
     , { latin = "al-madiina zarqaa2"
-      , kana = "アル マディーナ ザルカー"
+      , kana = "アル マディーナ ザルかー"
       , arabic = "اَلْمَدينة زَرْقاء"
       , meaning = "The city is blue."
       }
     , { latin = "2azraq zarqaa2"
-      , kana = "アズラク ザルカー"
+      , kana = "アズらく ザルかー"
       , arabic = "أَزْرَق  زَرْقاء"
       , meaning = "blue"
       }
