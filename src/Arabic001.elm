@@ -331,7 +331,7 @@ dict =
       , meaning = "this dog is my dog"
       }
     , { latin = "hadhaa alkalb jaw3aan"
-      , kana = "ハーザー アルカルブ ジャウアーン"
+      , kana = "ハーザー アルカルブ ジャウあーン"
       , arabic = "هَذا الْكَلْب جَوْعان"
       , meaning = "this dog is hungry"
       }
@@ -920,7 +920,7 @@ dict =
       , meaning = "a pretty house"
       }
     , { latin = "mutarjim mumtaaz"
-      , kana = "ムタルジム ムムターズ"
+      , kana = "ムタるジム ムムターズ"
       , arabic = "مُتَرْجِم مُمْتاز"
       , meaning = "an amazing translator"
     }
@@ -1685,7 +1685,7 @@ dict =
       , meaning = "New York"
       }
     , { latin = "qar-yatik"
-      , kana = "カルヤティク"
+      , kana = "かるヤティク"
       , arabic = "قَرْيَتِك"
       , meaning = "your (to female) village"
       }
@@ -2853,7 +2853,7 @@ dict =
       , meaning = "Thank you very much."
       }
     , { latin = "jaw3aan"
-      , kana = "ジャウアーン"
+      , kana = "ジャウあーン"
       , arabic = "جَوعان"
       , meaning = "hungry, starving"
       }
@@ -3318,7 +3318,7 @@ dict =
       , meaning = "a shirt"
       }
     , { latin = "qaamuus"
-      , kana = "カームース"
+      , kana = "かームース"
       , arabic = "قاموس"
       , meaning = "dictionary"
       }
@@ -4009,7 +4009,7 @@ dict =
       , meaning = "I am not form here."
       }
     , { latin = "qarya"
-      , kana = "カリヤー"
+      , kana = "かりヤー"
       , arabic = "قَرية"
       , meaning = "a village"
       }
@@ -4234,7 +4234,7 @@ dict =
       , meaning = "a researcher"
       }
     , { latin = "last jaw3aana"
-      , kana = "ラスト ジャウアーナ"
+      , kana = "ラスト ジャウあーナ"
       , arabic = "لَسْت جَوعانة"
       , meaning = "I am not hungry."
       }
@@ -4513,19 +4513,126 @@ dict =
       , arabic = "فاكِهة"
       , meaning = "fruit"
       }
-    , { latin = "SaH-Hiya"
-      , kana = "さッひーヤ"
-      , arabic = "صَحّية"
-      , meaning = "healthy"
-      }
     , { latin = "yufaD-Dil"
       , kana = "ユファッでぃル"
       , arabic = "يُفَضِّل"
       , meaning = "he prefers"
       }
-
-
-
+    , { latin  = "tufaD-Dil"
+      , kana = "トゥファッでぃル"
+      , arabic = "تُفَضِّل"
+      , meaning = "you prefer"
+      }      
+    , { latin  = "al-banaduura"
+      , kana = "アルバナドゥーら"
+      , arabic = "البَنَدورة"
+      , meaning = "the tomato"
+      }
+    , { latin  = "banaduura"
+      , kana = "バナドゥーら"
+      , arabic = "بَنَدورة"
+      , meaning = "tomato"
+      }
+    , { latin  = "limaadhaa"
+      , kana = "リマーざー"
+      , arabic = "لِماذا"
+      , meaning = "Why?"
+      }
+    , { latin  = "maw3id"
+      , kana = "マウあイド"
+      , arabic = "مَوْعِد"
+      , meaning = "an appointment"
+      }
+    , { latin  = "lam"
+      , kana = "ラム"
+      , arabic = "لَم"
+      , meaning = "did not"
+      }
+    , { latin  = "yasmaH"
+      , kana = "ヤスマは"
+      , arabic = "يَسْمَح"
+      , meaning = "allow, permit"
+      }
+    , { latin  = "khuruuj"
+      , kana = "クフルージ"
+      , arabic = "خُروج"
+      , meaning = "exit, get out"
+      }
+    , { latin  = "laa ya2atii"
+      , kana = "ラー ヤアティー"
+      , arabic = "لا يَأْتي"
+      , meaning = "he does not come"
+      }
+    , { latin  = "khaTiib"
+      , kana = "クハてぃーブ"
+      , arabic = "خَطيب"
+      , meaning = "fiance"
+      }
+    , { latin  = "2abadan"
+      , kana = "アバダン"
+      , arabic = "أَبَدا"
+      , meaning = "never again"
+      }
+    , { latin  = "2arkab T-Taa2ira"
+      , kana = "アルカブ ッたーイら"
+      , arabic = "أَرْكَب الطائرة"
+      , meaning = "I ride the plane"
+      }
+    , { latin  = "2a3uud"
+      , kana = "アあぅード"
+      , arabic = "أَعود"
+      , meaning = "I come back, return"
+      }
+    , { latin  = "maa saafart"
+      , kana = "マー サーファるト"
+      , arabic = "ما سافَرْت"
+      , meaning = "I have not traveled"
+      }
+    , { latin  = "li2an-nak"
+      , kana = "リアンナク"
+      , arabic = "لِأَنَّك"
+      , meaning = "because you are"
+      }
+    , { latin  = "al-2akl a-S-S-H-Hiyy"
+      , kana = "アルアクル ッすぃひーユ"
+      , arabic = "الأَكل الصِّحِّي"
+      , meaning = "the healthy food"
+      }
+    , { latin  = "yajib 2an"
+      , kana = "ヤジブ アン"
+      , arabic = "يَجِب أَن"
+      , meaning = "must"
+      }
+    , { latin  = "tashtarii"
+      , kana = "タシュタりー"
+      , arabic = "تَشْتَري"
+      , meaning = "you buy"
+      }
+    , { latin  = "baamiya"
+      , kana = "バーミヤ"
+      , arabic = "بامية"
+      , meaning = "okra"
+      }
+    , { latin  = "kuusaa"
+      , kana = "クーサー"
+      , arabic = "كوسا"
+      , meaning = "zucchini"
+      }
+    , { latin  = "Taazij"
+      , kana = "たーズィジ"
+      , arabic = "طازِج"
+      , meaning = "fresh"
+      }
+    , { latin  = "jazar"
+      , kana = "ジャザる"
+      , arabic = "جَزَر"
+      , meaning = "carrot"
+      }
+    , { latin = "SiH-Hiya"
+      , kana = "すぃッひーヤ"
+      , arabic = "صِحِّية"
+      , meaning = "healthy"
+      }
 
 
 
