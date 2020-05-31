@@ -4626,7 +4626,7 @@ dict =
     , { latin  = "jazar"
       , kana = "ジャザる"
       , arabic = "جَزَر"
-      , meaning = "carrot"
+      , meaning = "carrots"
       }
     , { latin = "SiH-Hiya"
       , kana = "すぃッひーヤ"
