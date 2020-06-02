@@ -814,13 +814,13 @@ dict =
       , arabic = "قِطّة وَالْقِطّة"
       , meaning = "a cat and the cat"
       }
-    , { latin = "2ayDaan"
-      , kana = "アイダン"
+    , { latin = "2ayDan"
+      , kana = "アイだン"
       , arabic = "أَيْضاً"
       , meaning = "also"
       }
     , { latin = "almaT3m"
-      , kana = "アルマタム"
+      , kana = "アル マたあム"
       , arabic = "الْمَطْعْم"
       , meaning = "the restaurant"
       }
@@ -2448,7 +2448,7 @@ dict =
       , meaning = "Sudan and Iraq"
       }
     , { latin = "al-3aaSima"
-      , kana = "アルアースィマ"
+      , kana = "アルあーすぃマ"
       , arabic = "اَلْعاصِمة"
       , meaning = "the captal"
       }
@@ -4611,7 +4611,7 @@ dict =
     , { latin  = "baamiya"
       , kana = "バーミヤ"
       , arabic = "بامية"
-      , meaning = "okra"
+      , meaning = "squash, zucchini, pumpkin, okra"
       }
     , { latin  = "kuusaa"
       , kana = "クーサー"
@@ -4633,6 +4633,118 @@ dict =
       , arabic = "صِحِّية"
       , meaning = "healthy"
       }
+    , { latin  = "a2ashtarii"
+      , kana = "アシュタりー"
+      , arabic = "أَشْتَري"
+      , meaning = "I buy"
+      }
+    , { latin  = "tashtarii"
+      , kana = "タシュタりー"
+      , arabic = "تَشْتَري"
+      , meaning = "you buy (to a male), she buys"
+      }
+    , { latin  = "tashtariin"
+      , kana = "タシュタりーン"
+      , arabic = "تَشْتَرين"
+      , meaning = "you buy (to a female)"
+      }
+    , { latin  = "yashtarii"
+      , kana = "ヤシュタりー"
+      , arabic = "يَشْتَري"
+      , meaning = "he buys"
+      }
+    , { latin  = "nashtarii"
+      , kana = "ナシュタりー"
+      , arabic = "نَشْتَري"
+      , meaning = "we buy"
+      }
+    , { latin  = "tashtaruun"
+      , kana = "タシュタるーン"
+      , arabic = "تَشْتَرون"
+      , meaning = "you all buy, they buy"
+      }
+    , { latin  = "li2an-na l-3aalam ghariib"
+      , kana = "リアンナ ルあーラム ガりーブ"
+      , arabic = "لِأَنَّ ٱلْعالَم غَريب"
+      , meaning = "Because the world is weird."
+      }
+    , { latin  = "li2anna 2ukhtii tadhrus kathiiraan"
+      , kana = "リアンナ ウクフティー タずるス カしーラン"
+      , arabic = "لِأَنَّ أُخْتي تَذْرُس كَثيراً"
+      , meaning = "Because my sister studies a lot."
+      }
+    , { latin  = "li2an-nanii min misr"
+      , kana = "リアンナニー ミン ミスる"
+      , arabic = "لِأَنَّني مِن مِصر"
+      , meaning = "Because I am from Egypt."
+      }
+    , { latin  = "li2an-nik 2um-mii"
+      , kana = "リアンニク ウムミー"
+      , arabic = "لِأَنِّك أُمّي"
+      , meaning = "Because you are my mother."
+      }
+    , { latin  = "li2an-ni-haa mu3al-lma mumtaaza"
+      , kana = "リアンナハー ムあッリマ ムムターザ"
+      , arabic = "لِأَنَّها مُعَلِّمة مُمْتازة"
+      , meaning = "Because she is an amazing teacher."
+      }
+    , { latin  = "li-2an-na-hu sa3iid"
+      , kana = "リアンナフゥ サあイード"
+      , arabic = "لِأَنَّهُ سَعيد"
+      , meaning = "Because he is happy."
+      }
+    , { latin  = "li-2abii"
+      , kana = "リアビー"
+      , arabic = "لِأَبي"
+      , meaning = "to/for my father"
+      }
+    , { latin  = "li-haadhihi l-2ustaadha"
+      , kana = "リハーじヒ ル ウスターざ"
+      , arabic = "لِهٰذِهِ الْأُسْتاذة"
+      , meaning = "to/for this professor"
+      }
+    , { latin  = "li-bayruut"
+      , kana = "リバイるート"
+      , arabic = "لِبَيْروت"
+      , meaning = "to/for Beirut"
+      }
+    , { latin  = "li-l-bint"
+      , kana = "リルビント"
+      , arabic = "لِلْبِنْت"
+      , meaning = "to/for the girl"
+      }
+    , { latin  = "li-l-2ustaadha"
+      , kana = "リルウスターざ"
+      , arabic = "لِلْأُسْتاذة"
+      , meaning = "to/for the professor"
+      }
+    , { latin  = "li-l-qaahira"
+      , kana = "リルかーヒら"
+      , arabic = "لِلْقاهِرة"
+      , meaning = "to/for Cairo"
+      }
+    , { latin  = "al-maHal-l maHal-laka yaa 2ustaadh"
+      , kana = "アルマはッル マはッラカ ヤー ウスターず"
+      , arabic = "اَلْمَحَلّ مَحَلَّك يا أُسْتاذ!"
+      , meaning = "The shop is your shop, sir."
+      }
+    , { latin  = "hal turiid al-qaliil min al-maa2"
+      , kana = "ハル トゥりード イル かリール ミナル マー"
+      , arabic = "هَل تُريد اَلْقَليل مِن اَلْماء؟"
+      , meaning = "Do you want a little water?"
+      }
+    , { latin  = "3aada"
+      , kana = "あーダ"
+      , arabic = "عادة"
+      , meaning = "usually"
+      }
+    , { latin  = "ka3k"
+      , kana = "カあク"
+      , arabic = "كَعْك"
+      , meaning = "cakes"
+      }
+
+
 
 
 
