@@ -4743,6 +4743,31 @@ dict =
       , arabic = "كَعْك"
       , meaning = "cakes"
       }
+    , { latin  = "a2ashrab"
+      , kana = "アシュらブ"
+      , arabic = "أَشْرَب"
+      , meaning = "I drink"
+      }
+    , { latin  = "sa-2ashrab"
+      , kana = "サ アシュらブ"
+      , arabic = "سَأَشْرَب"
+      , meaning = "I will drink"
+      }
+    , { latin  = "tashrab"
+      , kana = "タシュらブ"
+      , arabic = "تَشْرَب"
+      , meaning = "you drink (to a male), she drinks"
+      }
+    , { latin  = "tashrabiin"
+      , kana = "タシュらビーン"
+      , arabic = "تَشْرَبين"
+      , meaning = "you drink (to a female)"
+      }
+    , { latin  = "yashrab"
+      , kana = "ヤシュらブ"
+      , arabic = "يَشْرَب"
+      , meaning = "he drinks"
+      }
 
 
 
