@@ -161,12 +161,12 @@ dict =
       , meaning = "on you"
       }
     , { latin = "SabaaH"
-      , kana = "サバーフ"
+      , kana = "サバーふ"
       , arabic = "صَبَاح"
       , meaning = "morning"
       }
     , { latin = "marHaban"
-      , kana = "マルハバン"
+      , kana = "マるはバン"
       , arabic = "مَرْحَبًا"
       , meaning = "Hello"
       }
