@@ -1,9 +1,13 @@
-module Myawesome exposing (main)
+module Myawesome exposing (main, this)
 
 -- this is a kind of translation from dotinstall myawesome application
 -- in order to change the application to smart phone format, add following line in the html version
--- <meta name="viewport" content="width=device-width, initial-scale=1">
 -- html version is like this elm make src/Myawesome.elm --output=Myawesome.html
+-- <meta name="viewport" content="width=device-width, initial-scale=1">
+-- HA.class "btn"
+-- .btn:hover {
+-- opacity: 0.5;
+-- }
 
 import Browser
 import Html exposing (..)
@@ -49,32 +53,62 @@ subscriptions model =
     Sub.none
 
 
-header : List (Html msg) -> Html msg
-header children =
-    div [ HA.style "font-size" "30pt" ] children
-
-
 button : List (Attribute msg) -> List (Html msg) -> Html msg
 button attributes children =
-    div ([ HA.style "font-size" "40pt" ] ++ attributes) children
+    div
+        ([ HA.class "btn"
+         , HA.style "font-size" "16px"
+         , HA.style "background" "#fff"
+         , HA.style "color" "#f59a00"
+         , HA.style "display" "block"
+         , HA.style "width" "140px"
+         , HA.style "line-height" "44px"
+         , HA.style "margin" "40px auto 48px"
+         , HA.style "font-weight" "bold"
+         , HA.style "border-radius" "10px"
+         ]
+            ++ attributes
+        )
+        children
+
+
+body : List (Attribute msg) -> List (Html msg) -> Html msg
+body attributes children =
+    div
+        ([ HA.style "font-size" "20pt"
+         , HA.style "margin" "0"
+         , HA.style "font-family" "Verdana, sans-serif"
+         , HA.style "color" "#333"
+         ]
+            ++ attributes
+        )
+        children
+
+
+header : List (Attribute msg) -> List (Html msg) -> Html msg
+header attributes children =
+    div
+        ([ HA.style "background" "#a59a55"
+         , HA.style "color" "#fff"
+         , HA.style "text-align" "center"
+         , HA.style "padding-top" "16px"
+         ]
+            ++ attributes
+        )
+        children
 
 
 view : Model -> Html Msg
 view model =
-    header
-        [ div
-            [ HA.style "background" "#a59a55"
-            , HA.style "color" "#fff"
-            , HA.style "text-align" "center"
-            , HA.style "padding-top" "16px"
-            ]
-            [ div [] [ text "すごいアプリ" ]
-            , div [] [ text "ウルトラすごいアプリです" ]
+    body []
+        [ header
+            []
+            [ div [ HA.style "font-size" "200%", HA.style "font-weight" "bold" ] [ text "すごいアプリ" ]
+            , p [ HA.style "margin" "0" ] [ text "ウルトラすごいアプリです" ]
             , button
-                [ HA.style "font-weight" "bold"
-                ]
+                []
                 [ text "ダウンロード" ]
-            , div [] [ text "لَيْسَ عِنْدِك وِشاح" ]
+            , div [ HA.class "btn" ] [ text "لَيْسَ عِنْدِك وِشاح" ]
             ]
         , section [] []
         , footer []
