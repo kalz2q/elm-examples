@@ -3548,7 +3548,7 @@ dict =
       , meaning = "I like sleeping in the afternoon."
       }
     , { latin = "alkalaam ma3a 2abii ba3d alDh-Dhuhr"
-      , kana = "アルカラーム マア アビー バァダ ッづホる"
+      , kana = "アルカラーム マあ アビー バァダ ッづホる"
       , arabic = "اَلْكَلام معَ أَبي بَعْد اَلْظَّهْر"
       , meaning = "talking with my father in the afternoon"
       }
