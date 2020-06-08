@@ -1,7 +1,8 @@
 module QA001 exposing (main)
 
 -- cf. Gakufu005.elm
--- cf. Myawesome.elm-- <meta name="viewport" content="width=device-width, initial-scale=1">
+-- cf. Myawesome.elm
+-- <meta name="viewport" content="width=device-width, initial-scale=1">
 
 import Browser
 import Html exposing (..)
@@ -23,7 +24,6 @@ main =
 type alias Model =
     { question : String
     , answer : String
-    , dolist : Bool
     , list : List QA
     }
 
@@ -42,21 +42,15 @@ init _ =
 
 
 type Msg
-    = Submit
-    | NewRandom Int
+    = NewRandom Int
     | Shuffle
     | NewList (List QA)
-    | ShowMusic Int
+    | ShowQA Int
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        Submit ->
-            ( model
-            , Random.generate NewRandom (Random.int 1 (List.length dict))
-            )
-
         NewRandom n ->
             case List.drop n dict of
                 x :: _ ->
@@ -85,7 +79,7 @@ update msg model =
             , Cmd.none
             )
 
-        ShowMusic index ->
+        ShowQA index ->
             case List.drop index model.list of
                 x :: _ ->
                     ( { model
@@ -93,7 +87,6 @@ update msg model =
                         , mp3Url = x.mp3Url
                         , title = x.title
                         , filename = x.filename
-                        , dolist = False
                       }
                     , Cmd.none
                     )
@@ -141,7 +134,7 @@ view model =
                 (List.indexedMap
                     (\index music ->
                         p
-                            [ HE.onClick (ShowMusic index)
+                            [ HE.onClick (ShowQA index)
                             , HA.style "background" (linecolor index)
                             ]
                             [ text music.title
