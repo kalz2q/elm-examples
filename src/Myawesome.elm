@@ -1,4 +1,4 @@
-module Myawesome exposing (main, this)
+module Myawesome exposing (main)
 
 -- this is a kind of translation from dotinstall myawesome application
 -- in order to change the application to smart phone format, add following line in the html version

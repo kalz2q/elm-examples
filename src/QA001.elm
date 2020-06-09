@@ -1,6 +1,6 @@
 module QA001 exposing (main)
 
--- cf. Gakufu005.elm
+-- copied from Gakufu005.elm
 -- cf. Myawesome.elm
 -- <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -36,7 +36,7 @@ type alias QA =
 
 init : () -> ( Model, Cmd Msg )
 init _ =
-    ( Model "" "" True dict
+    ( Model "" "" dict
     , Random.generate NewList (shuffle dict)
     )
 
@@ -55,10 +55,8 @@ update msg model =
             case List.drop n dict of
                 x :: _ ->
                     ( { model
-                        | jpgUrl = x.jpgUrl
-                        , mp3Url = x.mp3Url
-                        , title = x.title
-                        , filename = x.filename
+                        | question = x.question
+                        , answer = x.answer
                       }
                     , Cmd.none
                     )
@@ -83,10 +81,8 @@ update msg model =
             case List.drop index model.list of
                 x :: _ ->
                     ( { model
-                        | jpgUrl = x.jpgUrl
-                        , mp3Url = x.mp3Url
-                        , title = x.title
-                        , filename = x.filename
+                        | question = x.question
+                        , answer = x.answer
                       }
                     , Cmd.none
                     )
@@ -107,7 +103,7 @@ viewDetailedPdf model =
     div
         []
         [ img
-            [ HA.src model.jpgUrl
+            [ HA.src model.question
             , HA.style "width" "100%"
             ]
             []
@@ -125,49 +121,24 @@ linecolor index =
 
 view : Model -> Html Msg
 view model =
-    case model.dolist of
-        True ->
-            div
-                [ HA.style "margin" "auto"
-                , HA.style "width" "800px"
-                ]
-                (List.indexedMap
-                    (\index music ->
-                        p
-                            [ HE.onClick (ShowQA index)
-                            , HA.style "background" (linecolor index)
-                            ]
-                            [ text music.title
-                            , button
-                                [ HA.style "float" "right"
-                                , HA.style "background" (linecolor index)
-                                ]
-                                [ text "Show Music" ]
-                            ]
-                    )
-                    model.list
-                )
-
-        False ->
-            div []
-                [ div
-                    []
-                    [ h1 []
-                        [ audio
-                            [ HA.src model.mp3Url
-                            , HA.controls True
-                            , HA.style "float" "right"
-                            ]
-                            []
-                        ]
+    div
+        [ HA.style "font-size" "20pt"
+        , HA.style "text-align" "center"
+        , HA.style "margin" "0 32px"
+        , HA.style "font-family" "Verdana, sans-serif"
+        ]
+        (List.indexedMap
+            (\index qanda ->
+                p
+                    [ HA.style "background" (linecolor index)
                     ]
-                , div
-                    [ HA.style "margin" "auto"
-                    , HA.style "width" "90%"
+                    [ div [] [ text qanda.question ]
+                    , br [] []
+                    , div [ HA.style "font-size" "200%" ] [ text qanda.answer ]
                     ]
-                    [ viewDetailedPdf model
-                    ]
-                ]
+            )
+            model.list
+        )
 
 
 shuffle : List a -> Random.Generator (List a)
