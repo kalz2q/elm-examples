@@ -529,7 +529,7 @@ dict =
       , meaning = "There is no white notebook."
       }
     , { latin = "maTbakh"
-      , kana = "マタバクフ"
+      , kana = "マとバクフ"
       , arabic = "مَطْبَخ"
       , meaning = "a kitchen"
       }
@@ -749,7 +749,7 @@ dict =
       , meaning = "Her name is arabic."
       }
     , { latin = "riim Sadiiqa Sa3ba"
-      , kana = "リーム さディーカ サアバ"
+      , kana = "りーム さディーか サあバ"
       , arabic = "ريم صديقة صعبة"
       , meaning = "Reem is a difficult friend."
       }
@@ -784,7 +784,7 @@ dict =
       , meaning = "This is a difficult thing."
       }
     , { latin = "3alaaqa"
-      , kana = "アラーか"
+      , kana = "あアラーか"
       , arabic = "عَلاقَة"
       , meaning = "relationship"
       }
@@ -904,7 +904,7 @@ dict =
       , meaning = "I like traveling to Italy."
       }
     , { latin = "al-kalaam ma3a 2abii"
-      , kana = "アルカラーム マア アビー"
+      , kana = "アルカラーム マあ アビー"
       , arabic = "اَلْكَلام مَعَ أَبي"
       , meaning = "talking with my father"
       }
@@ -1374,7 +1374,7 @@ dict =
       , meaning = "historical"
       }
     , { latin = "juurj 3indhu 3amal mumtaaz"
-      , kana = "ジューるジュ あインドフゥ あアマル ムムターズ"
+      , kana = "ジューるジ あインドフゥ あアマル ムムターズ"
       , arabic = "جورْج عِنْدهُ عَمَل مُمْتاز"
       , meaning = "George has an amazing work."
       }
@@ -1719,7 +1719,7 @@ dict =
       , meaning = "an island"
       }
     , { latin = "Tabii3a"
-      , kana = "タビーア"
+      , kana = "たビーあ"
       , arabic = "طَبيعة"
       , meaning = "nature"
       }
@@ -1849,7 +1849,7 @@ dict =
       , meaning = "Alright, until next time."
       }
     , { latin = "ma3a as-salaama"
-      , kana = "マア アッサラーマ"
+      , kana = "マあ アッサラーマ"
       , arabic = "مَعَ الْسَّلامة"
       , meaning = "Goodbye."
       }
@@ -1964,7 +1964,7 @@ dict =
       , meaning = "smart"
       }
     , { latin = "ma3Taf"
-      , kana = "マアタフ"
+      , kana = "マあたフ"
       , arabic = "مَعْطَف"
       , meaning = "a coat"
       }
@@ -2229,17 +2229,17 @@ dict =
       , meaning = "a smart translator (female)"
       }
     , { latin = "2ustaadh 2amriikiyy"
-      , kana = "ウスターズ アマリキーイ"
+      , kana = "ウスターず アマりキーイ"
       , arabic = "أُسْتاذ أَمْريكِيّ"
       , meaning = "an American professor (male)"
       }
     , { latin = "2ustaadha 2amriikiyya"
-      , kana = "ウスターざ アマリキーヤ"
+      , kana = "ウスターざ アマりキーヤ"
       , arabic = "أُسْتاذة أَمْريكِيّة"
       , meaning = "an American professor (female)"
       }
     , { latin = "3alaa"
-      , kana = "アラー"
+      , kana = "あアラー"
       , arabic = "عَلى"
       , meaning = "on, on top of"
       }
@@ -2559,7 +2559,7 @@ dict =
       , meaning = "question"
       }
     , { latin = "ma3ii"
-      , kana = "マアイー"
+      , kana = "マあイー"
       , arabic = "معي"
       , meaning = "with me"
       }
@@ -2569,7 +2569,7 @@ dict =
       , meaning = "dress up"
       }
     , { latin = "man ma3ii"
-      , kana = "マン マアイー"
+      , kana = "マン マあイー"
       , arabic = "مَن مَعي؟"
       , meaning = "Who is this?"
       }
@@ -2594,7 +2594,7 @@ dict =
       , meaning = "The telephone is out of order and the television also."
       }
     , { latin = "hunaak mushkila ma3a t-tilaaz"
-      , kana = "フゥナーク ムシュキラ マア ッティルファーズ"
+      , kana = "フゥナーク ムシュキラ マあ ッティルファーズ"
       , arabic = "هُناك مُشْكِلة مَعَ الْتِّلْفاز"
       , meaning = "There is a problem with the television."
       }
@@ -2604,7 +2604,7 @@ dict =
       , meaning = "I know ..."
       }
     , { latin = "raqam"
-      , kana = "ラカム"
+      , kana = "らかム"
       , arabic = "رَقَم"
       , meaning = "number"
       }
@@ -3089,7 +3089,7 @@ dict =
       , meaning = "This table is hot."
       }
     , { latin = "ma3Taf khafiif"
-      , kana = "マアタフ クハフィーフ"
+      , kana = "マあたフ クハフィーフ"
       , arabic = "معطَف خَفيف"
       , meaning = "a light coat"
       }
@@ -3269,7 +3269,7 @@ dict =
       , meaning = "Tea please."
       }
     , { latin = "ma3a s-salaama"
-      , kana = "マア ッサラーマ"
+      , kana = "マあ ッサラーマ"
       , arabic = "مَعَ السَّلامة"
       , meaning = "Good bye."
       }
@@ -3774,7 +3774,7 @@ dict =
       , meaning = "to study"
       }
     , { latin = "ma3a 2ustaadh 2aHmad"
-      , kana = "マア ウスターズ アハマド"
+      , kana = "マあ ウスターず アはマド"
       , arabic = "مَعَ الأُستاذ أَحمَد"
       , meaning = "with Mr. Ahmed"
       }
@@ -4039,7 +4039,7 @@ dict =
       , meaning = "easy"
       }
     , { latin = "a-T-Tabii3a"
-      , kana = "アッタビーア"
+      , kana = "アッたビーあ"
       , arabic = "الطَّبيعة"
       , meaning = "nature"
       }
@@ -4129,7 +4129,7 @@ dict =
       , meaning = "my uncle's company"
       }
     , { latin = "madrasatii"
-      , kana = "マドラサティー"
+      , kana = "マドらサティー"
       , arabic = "مَدرَسَتي"
       , meaning = "my school"
       }
@@ -4184,7 +4184,7 @@ dict =
       , meaning = "How much is this?"
       }
     , { latin = "dimashq"
-      , kana = "ディマシュク"
+      , kana = "ディマシュく"
       , arabic = "دِمَشق"
       , meaning = "Damascus"
       }
@@ -4359,7 +4359,7 @@ dict =
       , meaning = "The writing is fun."
       }
     , { latin = "kura l-qadam"
-      , kana = "クーラルカダム"
+      , kana = "クーら ルかダム"
       , arabic = "كُرة اَلْقَدَم"
       , meaning = "soccer"
       }
