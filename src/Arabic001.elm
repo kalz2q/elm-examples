@@ -128,13 +128,14 @@ view model =
     div
         [ HA.style "font-size" "20pt"
         , HA.style "text-align" "left"
-        , HA.style "margin" "0px 32px"
+        , HA.style "margin" "0px 16px"
         , HA.style "font-family" "Verdana, sans-serif"
         ]
         (List.indexedMap
             (\index arabicdict ->
                 p
                     [ HA.style "background" (linecolor index)
+                    , HA.style "margin" "0px"
                     ]
                     [ div [] [ text arabicdict.latin ]
                     , div [ HA.style "font-size" "120%" ] [ text arabicdict.kana ]
@@ -749,7 +750,7 @@ dict =
       , meaning = "Her name is arabic."
       }
     , { latin = "riim Sadiiqa Sa3ba"
-      , kana = "りーム さディーか サあバ"
+      , kana = "りーム さディーか さあバ"
       , arabic = "ريم صديقة صعبة"
       , meaning = "Reem is a difficult friend."
       }
@@ -779,7 +780,7 @@ dict =
       , meaning = "His house is close to her house."
       }
     , { latin = "hadhaa shay2 Sa3b"
-      , kana = "ハーざー シャイ サあブ"
+      , kana = "ハーざー シャイ さあブ"
       , arabic = "هذا شيء صعب"
       , meaning = "This is a difficult thing."
       }
@@ -1384,7 +1385,7 @@ dict =
       , meaning = "My friend Tamer is very rich"
       }
     , { latin = "laa 2a3rif haadha l-2asad"
-      , kana = "ラー アありフ ハーザ ル アサド"
+      , kana = "ラー アありフ ハーざ ル アサド"
       , arabic = "لا أَعْرِف هَذا الْأَسّد"
       , meaning = "I do not know this lion."
       }
@@ -1724,7 +1725,7 @@ dict =
       , meaning = "nature"
       }
     , { latin = "al-2iskandariyya"
-      , kana = "アル イスカンダリーヤ"
+      , kana = "アル イスカンダりーヤ"
       , arabic = "اَلْإِسْكَندَرِيّة"
       , meaning = "Alexandria"
       }
@@ -2034,7 +2035,7 @@ dict =
       , meaning = "lead"
       }
     , { latin = "qalam raSaaS"
-      , kana = "カラム ラサース"
+      , kana = "かラム らさーす"
       , arabic = "قَلَم رَصاص"
       , meaning = "a pencil"
       }
@@ -2419,7 +2420,7 @@ dict =
       , meaning = "to stray"
       }
     , { latin = "3ind juudii bayt"
-      , kana = "アインド ジューディー バイト"
+      , kana = "あインド ジューディー バイト"
       , arabic = "عِنْد جودي بَيْت"
       , meaning = "Judy has a house."
       }
@@ -2434,22 +2435,22 @@ dict =
       , meaning = "You (to a man) have a house."
       }
     , { latin = "3indika bayt"
-      , kana = "アインディカ バイト"
+      , kana = "あインディカ バイト"
       , arabic = "عِنْدِك بَيْت"
       , meaning = "You (to a woman) have a house."
       }
     , { latin = "laysa 3ind juudii bayt"
-      , kana = "ライサ アインド ジュウディー バイト"
+      , kana = "ライサ あインド ジュウディー バイト"
       , arabic = "لَيْسَ عِنْد جودي بَيْت"
       , meaning = "Judy does not have a house."
       }
     , { latin = "laysa 3indii kalb"
-      , kana = "ライサ アインド カルブ"
+      , kana = "ライサ あインド カルブ"
       , arabic = "لَيْسَ عِنْدي كَلْب"
       , meaning = "I do not have a dog."
       }
     , { latin = "laysa 3indika wishaaH"
-      , kana = "ライサ アインディカ ウィシャーハ"
+      , kana = "ライサ あインディカ ウィシャーハ"
       , arabic = "لَيْسَ عِنْدِك وِشاح"
       , meaning = "You do not have a scarf. (to a woman)"
       }
@@ -2557,11 +2558,6 @@ dict =
       , kana = "スアール"
       , arabic = "سُؤال"
       , meaning = "question"
-      }
-    , { latin = "ma3ii"
-      , kana = "マあイー"
-      , arabic = "معي"
-      , meaning = "with me"
       }
     , { latin = "labisa"
       , kana = "ラビサ"
@@ -2844,7 +2840,7 @@ dict =
       , meaning = "milk (m)"
       }
     , { latin = "haatha l-maTar a-th-thaqiir Sa3b"
-      , kana = "ハーザ ル マたる アッさきール サあブ"
+      , kana = "ハーざ ル マたる アッさきール さあブ"
       , arabic = "هَذا المَطَر الثقيل صَعب"
       , meaning = "This heavy rain is difficult."
       }
@@ -2979,7 +2975,7 @@ dict =
       , meaning = "a mother (f)"
       }
     , { latin = "3ayn"
-      , kana = "アイン"
+      , kana = "あアイン"
       , arabic = "عَيْن"
       , meaning = "an eye (f)"
       }
@@ -3179,12 +3175,12 @@ dict =
       , meaning = "ا ب ت ث ج ح خ"
       }
     , { latin = "daal dhaal raa2 zaay siin shiin"
-      , kana = "ダール ざール らー ザーイ スィーン シーン"
+      , kana = "ダール づぁール らー ザーイ スィーン シーン"
       , arabic = "دال ذال راء زاي سين شين"
       , meaning = "د ذ ر ز س ش"
       }
     , { latin = "Saad Daad Taa2 Dhaa2 3ain ghain"
-      , kana = "すぁード だード たー づぁー アイン ガイン"
+      , kana = "すぁード だード たー づぁー あイン ガイン"
       , arabic = "صاد ضاد طاء ظاء عَين غَين"
       , meaning = "ص ض ط ظ ع غ"
       }
@@ -3279,7 +3275,7 @@ dict =
       , meaning = "the sun"
       }
     , { latin = "haadha l-qalam"
-      , kana = "ハーザ ル カラム"
+      , kana = "ハーざ ル かラム"
       , arabic = "هَذا القَلَم"
       , meaning = "this pen"
       }
@@ -3304,7 +3300,7 @@ dict =
       , meaning = "a school"
       }
     , { latin = "saa2iq"
-      , kana = "サーイク"
+      , kana = "サーイく"
       , arabic = "سائق"
       , meaning = "a driver"
       }
@@ -3639,7 +3635,7 @@ dict =
       , meaning = "God"
       }
     , { latin = "haadha l-bayt"
-      , kana = "ハーザ ル バイト"
+      , kana = "ハーざ ル バイト"
       , arabic = "هَذا البَيت"
       , meaning = "this house"
       }
@@ -4163,8 +4159,8 @@ dict =
       , arabic = "اَيْسَ كُلَّ يَوم"
       , meaning = "not every day"
       }
-    , { latin = "kul-l l-naas"
-      , kana = "クッル ル ナース"
+    , { latin = "kul-l a-n-naas"
+      , kana = "クッル アン ナース"
       , arabic = "كُلّ الناس"
       , meaning = "all the people"
       }
@@ -4249,7 +4245,7 @@ dict =
       , meaning = "homemaker, housewife"
       }
     , { latin = "baaHith"
-      , kana = "バーヒス"
+      , kana = "バーひス"
       , arabic = "باحِث"
       , meaning = "a researcher"
       }
@@ -4653,7 +4649,7 @@ dict =
       , arabic = "صِحِّية"
       , meaning = "healthy"
       }
-    , { latin = "a2ashtarii"
+    , { latin = "2ashtarii"
       , kana = "アシュタりー"
       , arabic = "أَشْتَري"
       , meaning = "I buy"
@@ -4788,4 +4784,66 @@ dict =
       , arabic = "يَشْرَب"
       , meaning = "he drinks"
       }
+    , { latin  = "sa-tashrab"
+      , kana = "サ タシュらブ"
+      , arabic = "سَتَشْرَب"
+      , meaning = "you will drink (to a male), she will drink"
+      }
+    , { latin  = "sa-tashrabiin	"
+      , kana = "サ タシュらビーン"
+      , arabic = "سَتَشْرَبين"
+      , meaning = "you will drink (to a female)"
+      }
+    , { latin  = "sa-yashrab"
+      , kana = "サ ヤシュらブ"
+      , arabic = "سَيَشْرَب"
+      , meaning = "he will drink"
+      }
+    , { latin  = "sa-nashrab"
+      , kana = ""
+      , arabic = "سَنَشْرَب"
+      , meaning = "we will drink"
+      }
+    , { latin  = "sa-tashrabuun"
+      , kana = "サ タシュらブーン"
+      , arabic = "سَتَشْرَبون"
+      , meaning = "you all will drink"
+      }
+    , { latin  = "sa-yashrabuun"
+      , kana = "サ ヤシュらブーン"
+      , arabic = "سَيَشْرَبون"
+      , meaning = "they will drink"
+      }
+    , { latin = "ma3ii"
+      , kana = "マあイー"
+      , arabic = "معي"
+      , meaning = "with me"
+      }
+    , { latin  = "ma3ak"
+      , kana = "マあアク"
+      , arabic = "مَعَك"
+      , meaning = "with you (to a male)"
+      }
+    , { latin  = "ma3ik"
+      , kana = "マあイク"
+      , arabic = "مَعِك"
+      , meaning = "with you (to a female)"
+      }
+    , { latin  = "ma3ahu"
+      , kana = "マあアフゥ"
+      , arabic = "مَعَهُ"
+      , meaning = "with him"
+      }
+    , { latin  = "ma3ahaa"
+      , kana = "マあアハー"
+      , arabic = "مَعَها"
+      , meaning = "with her"
+      }
+
+
+
+
+
+
+
     ]
