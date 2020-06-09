@@ -139,7 +139,7 @@ view model =
                     [ div [] [ text arabicdict.latin ]
                     , div [ HA.style "font-size" "120%" ] [ text arabicdict.kana ]
                     , div
-                        [ HA.style "font-size" "250%"
+                        [ HA.style "font-size" "200%"
                         , HA.style "text-align" "center"
                         ]
                         [ text arabicdict.arabic ]
