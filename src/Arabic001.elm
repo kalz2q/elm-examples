@@ -1670,22 +1670,22 @@ dict =
       , meaning = "your state"
       }
     , { latin = "madiina saaHiliyya"
-      , kana = "マディーナ サーヒリーヤ"
+      , kana = "マディーナ サーひリーヤ"
       , arabic = "مَدينة ساحِلِيّة"
       , meaning = "a coastal city"
       }
     , { latin = "muzdaHima"
-      , kana = "ムズダヒマ"
+      , kana = "ムズダひマ"
       , arabic = "مُزْدَحِمة"
       , meaning = "crowded"
       }
     , { latin = "wilaaya kaaliifuurniyaa"
-      , kana = "ウィラーヤ カーリーフールニヤー"
+      , kana = "ウィラーヤ カーリーフーるニヤー"
       , arabic = "وِلاية كاليفورْنْيا"
       , meaning = "the state of California"
       }
     , { latin = "baHr"
-      , kana = "バハル"
+      , kana = "バはる"
       , arabic = "بَحْر"
       , meaning = "sea"
       }
@@ -3585,7 +3585,7 @@ dict =
       , meaning = "unfortunately"
       }
     , { latin = "al-baHr al-2abyaD al-mutawas-siT"
-      , kana = "アル バハる アル アビヤど アル ムタワッスィと"
+      , kana = "アル バはる アル アビヤど アル ムタワッスィと"
       , arabic = "اَاْبَحْر اَلْأَبْيَض اَلْمُتَوَسِّط"
       , meaning = "the Meditteranean Sea"
       }
@@ -4839,6 +4839,37 @@ dict =
       , arabic = "مَعَها"
       , meaning = "with her"
       }
+    , { latin  = "yuHibb-nii"
+      , kana = "ユひッブニー"
+      , arabic = "يُحِبّني"
+      , meaning = "he likes/loves me"
+      }
+    , { latin  = "ta3rif-nii"
+      , kana = "タありフニー"
+      , arabic = "تَعْرِفني"
+      , meaning = "you know me"
+      }
+    , { latin  = "2uHibb-ak"
+      , kana = "ウひッブアク"
+      , arabic = "أُحِبَّك"
+      , meaning = "I like/love you (to a male)"
+      }
+    , { latin  = "ta3rif-ak"
+      , kana = "タありファク"
+      , arabic = "تَعْرِفَك"
+      , meaning = "she knows you (to a male)"
+      }
+    , { latin  = "yuHibb-ik"
+      , kana = "ユひッビク"
+      , arabic = "يُحِبِّك"
+      , meaning = "he likes/loves you (to a female)"
+      }
+    , { latin  = "na3rif-ik"
+      , kana = "ナありフィク"
+      , arabic = "نَعْرِفِك"
+      , meaning = "we know you (to a female)"
+      }
+
 
 
 
