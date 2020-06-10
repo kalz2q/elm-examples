@@ -4230,12 +4230,12 @@ dict =
       , meaning = "You work, we work"
       }
     , { latin = "2aakhar"
-      , kana = "アークハル"
+      , kana = "アークハる"
       , arabic = "آخَر"
       , meaning = "else, another, other than this"
       }
     , { latin = "lawn 2aakhar"
-      , kana = "ラウン アークハル"
+      , kana = "ラウン アークハる"
       , arabic = "لَوت آخَر"
       , meaning = "another lot, color"
       }
