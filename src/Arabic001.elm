@@ -920,7 +920,7 @@ dict =
       , meaning = "I want"
       }
     , { latin = "2uHibb 2iiTaaliyaa 2ayDan"
-      , kana = "ウひッブ イーターリヤー アイダン"
+      , kana = "ウひッブ イーたーリヤー アイだン"
       , arabic = "أُحِبّ إيطاليا أَيْضاً"
       , meaning = "I like Italy also."
       }
@@ -1095,7 +1095,7 @@ dict =
       , meaning = "a rainy summer"
       }
     , { latin = "a-r-ruTuubat al3aalya"
-      , kana = "アッるとぅーバト アルあーリヤ"
+      , kana = "アッるとぅーバト アルあアリヤ"
       , arabic = "اَلْرُّطوبة الْعالْية"
       , meaning = "the high humidity"
       }
@@ -1620,7 +1620,7 @@ dict =
       , meaning = "How do you count Omar?"
       }
     , { latin = "Kayf ta3ud-d min Sifr 2ilaa 3ashara yaa muHammad"
-      , kana = "カイフ タあウッド ミン スィフル イラー あアシャラ ヤー ムはンマド"
+      , kana = "カイフ タあウッド ミン スィフル イラー あアシャら ヤー ムはンマド"
       , arabic = "كَيْف تَعُدّ مِن٠ إِلى ١٠ يا مُحَمَّد"
       , meaning = "How do you count from 0 to 10 , Mohammed?"
       }
@@ -1730,7 +1730,7 @@ dict =
       , meaning = "Alexandria"
       }
     , { latin = "miSr"
-      , kana = "ミスル"
+      , kana = "ミする"
       , arabic = "مِصْر"
       , meaning = "Egypt"
       }
@@ -2050,27 +2050,27 @@ dict =
       , meaning = "Watch the live braodcast"
       }
     , { latin = "2a3iish"
-      , kana = "アーイーシュ"
+      , kana = "アあイーシュ"
       , arabic = "أَعيش"
       , meaning = "I live"
       }
     , { latin = "2a3iish fi l-yaabaan"
-      , kana = "アーイーシュ フィ ル ヤーバーン"
+      , kana = "アあイーシュ フィ ル ヤーバーン"
       , arabic = "أَعيش في لايابان"
       , meaning = "I live in Japan."
       }
     , { latin = "2anaa 2ismii faaTima"
-      , kana = "アナー イスミー ファーティマ"
+      , kana = "アナー イスミー ファーてぃマ"
       , arabic = "أَنا إِسمي فاطِمة"
       , meaning = "My name is Fatima (female name)."
       }
     , { latin = "2a3iish fii miSr"
-      , kana = "アーイーシュ フィー ミスル"
+      , kana = "アあイーシュ フィー ミする"
       , arabic = "أَعيش في مِصر"
       , meaning = "I live in Egypt."
       }
     , { latin = "al3mr"
-      , kana = "アラームル"
+      , kana = "アルあムル"
       , arabic = "العمر"
       , meaning = "age"
       }
@@ -2094,7 +2094,7 @@ dict =
       , arabic = "شِتاء"
       , meaning = "winter"
       }
-    , { latin = "Sayf mumTil"
+    , { latin = "Sayf mumTir"
       , kana = "さイフ ムムてぃる"
       , arabic = "صَيْف مُمْطِر"
       , meaning = "a rainy summer"
@@ -2104,7 +2104,7 @@ dict =
       , arabic = "عالْية"
       , meaning = "high"
       }
-    , { latin = "laa 2uHibb a-T-Taqs al mumTil"
+    , { latin = "laa 2uHibb a-T-Taqs al mumTir"
       , kana = "ラー ウひッブ アッたくス アル ムムてぃる"
       , arabic = "لا أُحِبّ اَلْطَّقْس اَلْمُمْطِر"
       , meaning = "I do not like rainy weather."
@@ -2115,7 +2115,7 @@ dict =
       , meaning = "a long hot summer"
       }
     , { latin = "ruTuuba 3aalya"
-      , kana = "ルトゥーバ アーリヤ"
+      , kana = "るとぅーバ あアリヤ"
       , arabic = "رُطوبة عالية"
       , meaning = "high humidity"
       }
@@ -2585,7 +2585,7 @@ dict =
       , meaning = "enter"
       }
     , { latin = "al-haatif mu3aTTal wa-t-tilfaaz 2ayDan"
-      , kana = "アルハーティフ ムアッタル ワッティルファーズ アイダン"
+      , kana = "アルハーティフ ムあッたル ワッティルファーズ アイだン"
       , arabic = "اَلْهاتِف مُعَطَّل وَالْتَّلْفاز أَيضاً"
       , meaning = "The telephone is out of order and the television also."
       }
@@ -2597,7 +2597,7 @@ dict =
     , { latin = "2a3rif"
       , kana = "アありフ"
       , arabic = "أَعْرِف"
-      , meaning = "I know ..."
+      , meaning = "I know "
       }
     , { latin = "raqam"
       , kana = "らかム"
@@ -3110,7 +3110,7 @@ dict =
       , meaning = "a hundred"
       }
     , { latin = "3ashara"
-      , kana = "アシャラ"
+      , kana = "あアシャら"
       , arabic = "عَشرة"
       , meaning = "ten"
       }
@@ -3370,7 +3370,7 @@ dict =
       , meaning = "an airplane"
       }
     , { latin = "Dhabii"
-      , kana = "ザビー"
+      , kana = "づぁビー"
       , arabic = "ظَبي"
       , meaning = "an antelope"
       }
@@ -3380,7 +3380,7 @@ dict =
       , meaning = "doctor"
       }
     , { latin = "laa 2a3rif 2ayna 2anaa"
-      , kana = "ラー アーりフ アイナ アナー"
+      , kana = "ラー アありフ アイナ アナー"
       , arabic = "لا أَعرِف أَين أَنا"
       , meaning = "I do not know where I am."
       }
@@ -3435,7 +3435,7 @@ dict =
       , meaning = "eating and sleeping"
       }
     , { latin = "2aiDan"
-      , kana = "アイダン"
+      , kana = "アイだン"
       , arabic = "أَيضاً"
       , meaning = "also"
       }
@@ -3875,27 +3875,27 @@ dict =
       , meaning = "in the car"
       }
     , { latin = "2iDaafa"
-      , kana = "イダーファ"
+      , kana = "イだーファ"
       , arabic = "إضافة"
       , meaning = "iDaafa, addition"
       }
     , { latin = "2aftaH"
-      , kana = "アフタハ"
+      , kana = "アフタは"
       , arabic = "أَفْتَح"
       , meaning = "I open"
       }
     , { latin = "tuHibb"
-      , kana = "トゥヒッブ"
+      , kana = "トゥひッブ"
       , arabic = "تُحِبّ"
       , meaning = "you like (to a male), she likes"
       }
     , { latin = "tuHibbiin"
-      , kana = "トゥヒッビーン"
+      , kana = "トゥひッビーン"
       , arabic = "تُحِبّين"
       , meaning = "you like (to a female)"
       }
     , { latin = "yuHibb"
-      , kana = "ユヒッブ"
+      , kana = "ユひッブ"
       , arabic = "يُحِبّ"
       , meaning = "he likes"
       }
@@ -3920,7 +3920,7 @@ dict =
       , meaning = "This city does not sleep."
       }
     , { latin = "maa ra2yik"
-      , kana = "マー ラ イイク"
+      , kana = "マー らイイク"
       , arabic = "ما رَأْيِك؟"
       , meaning = "What do you think?  (Literally: What is your opinion?)"
       }
@@ -3935,67 +3935,67 @@ dict =
       , meaning = "What do I study?"
       }
     , { latin = "as-saa3at ath-thaanya"
-      , kana = "アッサーアト アッサーニア"
+      , kana = "アッサーあト アッさーニア"
       , arabic = "اَلْسّاعة الْثّانْية"
       , meaning = "the second hour"
       }
     , { latin = "as-saa3at ath-thaalitha"
-      , kana = "アッサーアト アッサーリサ"
+      , kana = "アッサーあト アッさーリさ"
       , arabic = "اَلْسّاعة الْثّالِثة"
       , meaning = "the third hour"
       }
     , { latin = "as-saa3at ar-raabi3a"
-      , kana = "アッサーアト アッラービア"
+      , kana = "アッサーあト アッらービア"
       , arabic = "اَلْسّاعة الْرّابِعة"
       , meaning = "the fourth hour"
       }
     , { latin = "as-saa3at l-khaamisa"
-      , kana = "アッサーアト ル クハーミサ"
+      , kana = "アッサーあト ル クハーミサ"
       , arabic = "اَلْسّاعة الْخامِسة"
       , meaning = "the fifth hour"
       }
     , { latin = "as-saa3at as-saadisa"
-      , kana = "アッサーアト アッサーディサ"
+      , kana = "アッサーあト アッサーディサ"
       , arabic = "اَلْسّاعة الْسّادِسة"
       , meaning = "the sixth hour"
       }
     , { latin = "as-saa3at as-saabi3a"
-      , kana = "アッサーアト アッサービア"
+      , kana = "アッサーあト アッサービあ"
       , arabic = "اَلْسّاعة الْسّابِعة"
       , meaning = "the seventh hour"
       }
     , { latin = "as-saa3at ath-thaamina"
-      , kana = "アッサーアト アッサーミナ"
+      , kana = "アッサーあト アッさーミナ"
       , arabic = "اَلْسّاعة الْثّامِنة"
       , meaning = "the eighth hour"
       }
     , { latin = "as-saa3at at-taasi3a"
-      , kana = "アッサーアト アッタースィア"
+      , kana = "アッサーあト アッタースィあ"
       , arabic = "اَلْسّاعة الْتّاسِعة"
       , meaning = "the ninth hour"
       }
     , { latin = "as-saa3at l-3aashira"
-      , kana = "アッサーアト ル アーシラ"
+      , kana = "アッサーあト ル あーシラ"
       , arabic = "اَلْسّاعة الْعاشِرة"
       , meaning = "the tenth hour"
       }
     , { latin = "as-saa3at l-Haadya 3ashara"
-      , kana = "アッサーアト ル ハーディヤ アシャラ"
+      , kana = "アッサーあト ル はーディヤ あアシャら"
       , arabic = "اَلْسّاعة الْحادْية عَشَرة"
       , meaning = "the eleventh hour"
       }
     , { latin = "as-saa3ag ath-thaanya 3ashara"
-      , kana = "アッサーアト アッサーニヤ アシャラ"
+      , kana = "アッサーあト アッさーニヤ あアシャら"
       , arabic = "اَلْسّاعة الْثّانْية عَشَرة"
       , meaning = "the twelfth hour"
       }
     , { latin = "as-saa3at l-waaHida"
-      , kana = "アッサーアト ル ワーヒダ"
+      , kana = "アッサーあト ル ワーひダ"
       , arabic = "اَلْسّاعة الْواحِدة"
       , meaning = "the hour one"
       }
     , { latin = "as-saa3at ath-thaanya ba3d a-Dh-Dhuhr"
-      , kana = "アッサーアト アッサーニヤ バァダ ッズホル"
+      , kana = "アッサーあト アッさーニヤ バあダ ッづホル"
       , arabic = "اَلْسّاعة الْثّانْية بَعْد اَلْظُّهْر"
       , meaning = "two o'clock in the afternon"
       }
@@ -4030,7 +4030,7 @@ dict =
       , meaning = "a village"
       }
     , { latin = "sahl"
-      , kana = "サヘル"
+      , kana = "サハル"
       , arabic = "سَهل"
       , meaning = "easy"
       }
@@ -4225,7 +4225,7 @@ dict =
       , meaning = "I do not love him."
       }
     , { latin = "ta3mal"
-      , kana = "タあマル"
+      , kana = "ナあマル"
       , arabic = "نَعمَل"
       , meaning = "You work, we work"
       }
