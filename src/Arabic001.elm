@@ -1815,7 +1815,7 @@ dict =
       , meaning = "I am very sad."
       }
     , { latin = "2anaa mariiDa lil2asaf"
-      , kana = "アナー マリーダ リルアサフ"
+      , kana = "アナー マりーだ リルアサフ"
       , arabic = "أَنا مَريضة لِلْأَسَف"
       , meaning = "I am sick unfortunately."
       }
@@ -4010,7 +4010,7 @@ dict =
       , meaning = ""
       }
     , { latin = "lastu mariiDa"
-      , kana = "ラストゥ マリーダ"
+      , kana = "ラストゥ マりーだ"
       , arabic = "لَسْتُ مَريضة"
       , meaning = "I am not sick."
       }
