@@ -208,6 +208,24 @@ dict =
       , answer = "calc(50% - 32px);"
       }
     , { question = "elmのmainのTypeと構成"
-      , answer = "main : Program () Model Msg => Browser.elemt {init, update, subscriptions, view}"
+      , answer = "main : Program () Model Msg => Browser.element {init, update, subscriptions, view}"
       }
+    , { question = "affinity designerでペンツールで筆圧変化させるには"
+      , answer = "境界線スタジオを使う"
+      }
+    , { question  = "アメリカの五大湖とは"
+      , answer = "スペリオル、ミシガン、ヒューロン、エリー、オンタリオ"
+      }
+    , { question  = "アメリカの州名でMIMALとは"
+      , answer = "ミネソタ、アイオワ、ミズーリ、アーカンソー、ルイジアナ"
+      }
+    , { question  = "アメリカ南部とはどの州か"
+      , answer = "テキサス、アーカンソー、ルイジアナ、テネシー、ミシシッピ、アラバマ、ジョージア、サウスカロライナ、ノースカロライナ、バージニア"
+      }
+    , { question  = "affinity designerのデザイナーペルソナ(ベクター)でフリーハンドするには"
+      , answer = "鉛筆ツールを使う。コンテキストメニューのコントロールをオンにする。スカルプトで修正する。"
+      }
+
+
+
     ]

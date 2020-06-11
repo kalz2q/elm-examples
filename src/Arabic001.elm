@@ -485,7 +485,7 @@ dict =
       , meaning = "do you have a drink samia"
       }
     , { latin = "hunaak daftar rakhiiS"
-      , kana = "フゥナーク ダフタる らクヒーす"
+      , kana = "フゥナーク ダフタる らクヒーすぅ"
       , arabic = "هُناك دَفْتَر رَخيص"
       , meaning = "There is a cheep notebook"
       }
@@ -1430,7 +1430,7 @@ dict =
       , meaning = "My brother Bashir is busy."
       }
     , { latin = "fii haadhihi a-S-Suura imraa muD-Hika"
-      , kana = "フィー ハーじヒ アッすーラ イムらー ムどひカ"
+      , kana = "フィー ハーじヒ アッすぅーラ イムらー ムどひカ"
       , arabic = "في هَذِهِ الْصّورة اِمْرأة مُضْحِكة"
       , meaning = "Thre is a funny woman in this picture."
       }
@@ -1505,7 +1505,7 @@ dict =
       , meaning = "the big bed"
       }
     , { latin = "maa haadhaa a-S-Swut"
-      , kana = "マー ハーざー アッすウト"
+      , kana = "マー ハーざー アッすぅウト"
       , arabic = "ما هَذا الصّوُت"
       , meaning = "What is this noise?"
       }
@@ -1730,7 +1730,7 @@ dict =
       , meaning = "Alexandria"
       }
     , { latin = "miSr"
-      , kana = "ミする"
+      , kana = "ミすぅる"
       , arabic = "مِصْر"
       , meaning = "Egypt"
       }
@@ -2030,12 +2030,12 @@ dict =
       , meaning = "There is a chewing gum and a laptop in your bag."
       }
     , { latin = "raSaaS"
-      , kana = "らすぁーす"
+      , kana = "らすぁーすぅ"
       , arabic = "رَصاص"
       , meaning = "lead"
       }
     , { latin = "qalam raSaaS"
-      , kana = "かラム らすぁーす"
+      , kana = "かラム らすぁーすぅ"
       , arabic = "قَلَم رَصاص"
       , meaning = "a pencil"
       }
@@ -2065,7 +2065,7 @@ dict =
       , meaning = "My name is Fatima (female name)."
       }
     , { latin = "2a3iish fii miSr"
-      , kana = "アあイーシュ フィー ミする"
+      , kana = "アあイーシュ フィー ミすぅる"
       , arabic = "أَعيش في مِصر"
       , meaning = "I live in Egypt."
       }
@@ -2245,7 +2245,7 @@ dict =
       , meaning = "on, on top of"
       }
     , { latin = "al-3arabiyya l-fuSHaa"
-      , kana = "アルあラビーヤ ル フスハー"
+      , kana = "アルあラビーヤ ル フすぅはー"
       , arabic = "اَلْعَرَبِيّة الْفُصْحى"
       , meaning = "Standard Arabic"
       }
@@ -3470,7 +3470,7 @@ dict =
       , meaning = "Where is your university?"
       }
     , { latin = "a-t-taSwiir"
-      , kana = "アッタすウィーる"
+      , kana = "アッタすぅィーる"
       , arabic = "التصْوير"
       , meaning = "photography"
       }
@@ -4285,7 +4285,7 @@ dict =
       , meaning = "relative - relatives"
       }
     , { latin = "Sadiiq - 2aSdiqaa2"
-      , kana = "すぁディーく アすディかー"
+      , kana = "すぁディーく アすぅディかー"
       , arabic = "صَديق - أَصْذِقاء"
       , meaning = "friend - friends"
       }
