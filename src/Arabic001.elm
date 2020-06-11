@@ -670,7 +670,7 @@ dict =
       , meaning = "her friend"
       }
     , { latin = "jaarat-haa"
-      , kana = "ジャーラト ハー"
+      , kana = "ジャーらト ハー"
       , arabic = "جارَتها"
       , meaning = "her neighbor"
       }
@@ -830,7 +830,7 @@ dict =
       , meaning = "Writing is an important thing."
       }
     , { latin = "al-jaara wa-al-qiTTa"
-      , kana = "アル ジャーラ ワ アル きった"
+      , kana = "アル ジャーら ワ アル きった"
       , arabic = "اَلْجارة وَالْقِطّة"
       , meaning = "the neighbor and the cat"
       }
@@ -2360,22 +2360,22 @@ dict =
       , meaning = "your city (to a female)"
       }
     , { latin = "jaara"
-      , kana = "ジャーラ"
+      , kana = "ジャーら"
       , arabic = "جارة"
       , meaning = "a neighbor (female)"
       }
     , { latin = "jaaratii"
-      , kana = "ジャーラティ"
+      , kana = "ジャーらティ"
       , arabic = "جارَتي"
       , meaning = "my neighbor (female)"
       }
     , { latin = "jaaratak"
-      , kana = "ジャーラタク"
+      , kana = "ジャーらタク"
       , arabic = "جارَتَك"
       , meaning = "your (female) neighbor (to a male)"
       }
     , { latin = "jaaratik"
-      , kana = "ジャーラティク"
+      , kana = "ジャーらティク"
       , arabic = "جارَتِك"
       , meaning = "your (female) neighbor (to a female)"
       }
@@ -3005,7 +3005,7 @@ dict =
       , meaning = "I study at the university every day."
       }
     , { latin = "dhahaba"
-      , kana = "ザハバ"
+      , kana = "ざハバ"
       , arabic = "ذَهَبَ"
       , meaning = "He went"
       }
