@@ -2839,7 +2839,7 @@ dict =
       , arabic = "حَليب"
       , meaning = "milk (m)"
       }
-    , { latin = "haatha l-maTar a-th-thaqiir Sa3b"
+    , { latin = "haatha l-maTar a-th-thaqiil Sa3b"
       , kana = "ハーざ ル マたる アッさきール すぁあブ"
       , arabic = "هَذا المَطَر الثقيل صَعب"
       , meaning = "This heavy rain is difficult."
