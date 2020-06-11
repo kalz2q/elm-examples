@@ -131,6 +131,7 @@ view model =
             (\index qanda ->
                 p
                     [ HA.style "background" (linecolor index)
+                    , HA.style "margin" "5px"
                     ]
                     [ div [] [ text qanda.question ]
                     , br [] []
