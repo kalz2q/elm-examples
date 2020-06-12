@@ -225,6 +225,13 @@ dict =
     , { question  = "affinity designerのデザイナーペルソナ(ベクター)でフリーハンドするには"
       , answer = "鉛筆ツールを使う。コンテキストメニューのコントロールをオンにする。スカルプトで修正する。"
       }
+    , { question  = "affinity designerでシェイプとシェイプを合成するには"
+      , answer = "移動ツールで複数のシェイプを選択し、編集->ジオミトリ->追加とする"
+      }
+    , { question  = "affinity designerで選択を解除するには"
+      , answer = "ツールメニューの下のXマークをタップする"
+      }
+
 
 
 

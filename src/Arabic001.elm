@@ -1510,7 +1510,7 @@ dict =
       , meaning = "What is this noise?"
       }
     , { latin = "sariirii mumtaaz al-Hamdu li-l-laa"
-      , kana = "サリーリー ムムターズ アルハムド リッラー"
+      , kana = "サりーりー ムムターズ アルはムド リッラー"
       , arabic = "سَريري مُمتاز اَلْحَمْدُ لِله"
       , meaning = "My bed is amazing, praise be to God"
       }
@@ -2080,7 +2080,7 @@ dict =
       , meaning = "my sister and her friend George"
       }
     , { latin = "3amalii"
-      , kana = "アアマリー"
+      , kana = "あアマリー"
       , arabic = "عَمَلي"
       , meaning = "my work"
       }
@@ -3115,7 +3115,7 @@ dict =
       , meaning = "ten"
       }
     , { latin = "al-Hamdu li-l-laa"
-      , kana = "アルハムド リッラー"
+      , kana = "アルはムド リッラー"
       , arabic = "الحَمدُ لِلَّه"
       , meaning = "Praise be to God."
       }
