@@ -615,7 +615,7 @@ dict =
       , meaning = "American"
       }
     , { latin = "2amriikaa wa-a-S-Siin"
-      , kana = "アムりーカー ワ アッスィーン"
+      , kana = "アムりーカー ワ アッすぃーン"
       , arabic = "أَمْريكا وَالْصّين"
       , meaning = "America and China"
       }
@@ -790,7 +790,7 @@ dict =
       , meaning = "relationship"
       }
     , { latin = "al-qiTTa"
-      , kana = "アルきった"
+      , kana = "アルきッた"
       , arabic = "اَلْقِطّة"
       , meaning = "the cat"
       }
@@ -830,12 +830,12 @@ dict =
       , meaning = "Writing is an important thing."
       }
     , { latin = "al-jaara wa-al-qiTTa"
-      , kana = "アル ジャーら ワ アル きった"
+      , kana = "アル ジャーら ワ アル きッた"
       , arabic = "اَلْجارة وَالْقِطّة"
       , meaning = "the neighbor and the cat"
       }
     , { latin = "qiTTa wa-alqiTTa"
-      , kana = "きった ワ アルきった"
+      , kana = "きッた ワ アルきッた"
       , arabic = "قِطّة وَالْقِطّة"
       , meaning = "a cat and the cat"
       }
@@ -1190,7 +1190,7 @@ dict =
       , meaning = "a lot, much"
       }
     , { latin = "a-S-Siin"
-      , kana = "アッスィーン"
+      , kana = "アッすぃーン"
       , arabic = "اَلْصّين"
       , meaning = "China"
       }
@@ -1360,7 +1360,7 @@ dict =
       , meaning = "he does not have"
       }
     , { latin = "3indhaa kalb wa-qiTTa"
-      , kana = "あインドハー カルブ ワ きった"
+      , kana = "あインドハー カルブ ワ きッた"
       , arabic = "عِنْدها كَلْب وَقِطّة"
       , meaning = "She has a doc and a cat."
       }
@@ -1930,7 +1930,7 @@ dict =
       , meaning = "What is your name ma'am?"
       }
     , { latin = "qiTTatak malika"
-      , kana = "きったタク マリカ"
+      , kana = "きッたタク マリカ"
       , arabic = "قِطَّتَك مَلِكة"
       , meaning = "Your cat is a queen."
       }
@@ -1940,7 +1940,7 @@ dict =
       , meaning = "a kind grandmother and a kind grandfather"
       }
     , { latin = "qiTTa jadiida"
-      , kana = "きった ジャディーダ"
+      , kana = "きッた ジャディーダ"
       , arabic = "قِطّة جَديدة"
       , meaning = "a new cat"
       }
@@ -2710,7 +2710,7 @@ dict =
       , meaning = "a moment"
       }
     , { latin = "2ayna l-qiTTa"
-      , kana = "アイナ ルきった"
+      , kana = "アイナ ルきッた"
       , arabic = "أَينَ القِطّة"
       , meaning = "Where is the cat?"
       }
@@ -2800,7 +2800,7 @@ dict =
       , meaning = "garlic"
       }
     , { latin = "qiTTatii Saghiira"
-      , kana = "きったティー すぁギーラ"
+      , kana = "きッたティー すぁギーラ"
       , arabic = "قِطَّتي صَغيرة"
       , meaning = "my small cat"
       }
@@ -3705,7 +3705,7 @@ dict =
       , meaning = "Carrie’s university"
       }
     , { latin = "qiT-Tat al-walad"
-      , kana = "きったト アルワラド"
+      , kana = "きッたト アルワラド"
       , arabic = "قِطّة اَلْوَلَد"
       , meaning = "the boy’s cat"
       }
@@ -3800,7 +3800,7 @@ dict =
       , meaning = "under the desk"
       }
     , { latin = "amaam al-maHaTTa"
-      , kana = "アマーマ ル マはった"
+      , kana = "アマーマ ル マはッた"
       , arabic = "أَمام المَحطّة"
       , meaning = "in front of the station"
       }
@@ -4050,7 +4050,7 @@ dict =
       , meaning = "Alexandria in Egypt"
       }
     , { latin = "2ayna l-maHaT-Ta"
-      , kana = "アイナ ル マはった"
+      , kana = "アイナ ル マはッた"
       , arabic = "أَينَ المَحَطّة"
       , meaning = "Where is the station?"
       }
@@ -4609,8 +4609,8 @@ dict =
       , arabic = "لِأَنَّك"
       , meaning = "because you are"
       }
-    , { latin = "al-2akl a-S-S-H-Hiyy"
-      , kana = "アルアクル ッすぃひーユ"
+    , { latin = "al-2akl a-S-SiH-Hiyy"
+      , kana = "アルアクル ッすぃッひーユ"
       , arabic = "الأَكل الصِّحِّي"
       , meaning = "the healthy food"
       }
