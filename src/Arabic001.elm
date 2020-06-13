@@ -3075,7 +3075,7 @@ dict =
       , meaning = "Ok, good"
       }
     , { latin = "2abuu shaqra"
-      , kana = "アブーシャクラ"
+      , kana = "アブーシャくラ"
       , arabic = "أَبو شَقرة"
       , meaning = "Abu Shakra (restaurant)"
       }
@@ -3934,8 +3934,8 @@ dict =
       , arabic = "ماذا أَدْرُس؟"
       , meaning = "What do I study?"
       }
-    , { latin = "as-saa3at ath-thaanya"
-      , kana = "アッサーあト アッさーニア"
+    , { latin = "as-saa3at ash-shaanya"
+      , kana = "アッサーあト アッシャーニア"
       , arabic = "اَلْسّاعة الْثّانْية"
       , meaning = "the second hour"
       }
