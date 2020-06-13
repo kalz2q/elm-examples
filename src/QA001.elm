@@ -231,6 +231,13 @@ dict =
     , { question  = "affinity designerで選択を解除するには"
       , answer = "ツールメニューの下のXマークをタップする"
       }
+    , { question  = "八重の桜の主人公の女優"
+      , answer = "綾瀬はるか"
+      }
+    , { question  = "GUのモデルの女優"
+      , answer = "中条あやみ"
+      }
+
 
 
 
