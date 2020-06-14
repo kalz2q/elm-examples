@@ -310,12 +310,12 @@ dict =
       , meaning = "This is an old garden"
       }
     , { latin = "al-Haa2iT"
-      , kana = "アルハーイト"
+      , kana = "アルはーイと"
       , arabic = "الْحائط"
       , meaning = "the wall"
       }
     , { latin = "Haa2iT"
-      , kana = "ハーイト"
+      , kana = "はーイと"
       , arabic = "حائِط"
       , meaning = "wall"
       }
@@ -640,7 +640,7 @@ dict =
       , meaning = "food"
       }
     , { latin = "2akl 3arabiyy wa-qahwa 3arabiyy"
-      , kana = "アクル アラビーイ ワ かハワ アラビーイ"
+      , kana = "アクル あラビーイ ワ かハワ あラビーイ"
       , arabic = "أَكْل عَرَبيّ وَقَهْوة عَرَبيّة"
       , meaning = "Arabic food and Arabic coffee"
       }
@@ -745,7 +745,7 @@ dict =
       , meaning = "His house is close to the university"
       }
     , { latin = "ismhaa arabiyy"
-      , kana = "イスムハー アラビーイ"
+      , kana = "イスムハー あラビーイ"
       , arabic = "إسمها عربي"
       , meaning = "Her name is arabic."
       }
@@ -1600,7 +1600,7 @@ dict =
       , meaning = "in language"
       }
     , { latin = "bil-lugha l-3arabiya"
-      , kana = "ビッルガルあアラビーヤ"
+      , kana = "ビッルガ ル あラビーヤ"
       , arabic = "بِالْلُّغة الْعَرَبِيّة"
       , meaning = "in the arabic language"
       }
@@ -2255,7 +2255,7 @@ dict =
       , meaning = "Great Britain"
       }
     , { latin = "balad 3arabiyy"
-      , kana = "バラド アラビーイ"
+      , kana = "バラド あラビーイ"
       , arabic = "بَلَد عَرَبِيّ"
       , meaning = "an Arab country"
       }
@@ -2860,12 +2860,12 @@ dict =
       , meaning = "My wife is tired."
       }
     , { latin = "shukuran"
-      , kana = "シュクラン"
+      , kana = "シュクらン"
       , arabic = "شُكْراً"
       , meaning = "thank you"
       }
     , { latin = "shukran jaziilan"
-      , kana = "シュクラン ジャズィーラン"
+      , kana = "シュクらン ジャズィーラン"
       , arabic = "ثُكْراً جَزيلاً"
       , meaning = "Thank you very much."
       }
@@ -3050,7 +3050,7 @@ dict =
       , meaning = "right now"
       }
     , { latin = "saa3at Haa2iT"
-      , kana = "サーアト ハーイト"
+      , kana = "サーあト はーイと"
       , arabic = "ساعة حائط"
       , meaning = "a wall clock"
       }
