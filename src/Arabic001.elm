@@ -3975,7 +3975,7 @@ dict =
       , meaning = "the ninth hour"
       }
     , { latin = "as-saa3at l-3aashira"
-      , kana = "アッサーあト ル あーシラ"
+      , kana = "アッサーあト ル あーシら"
       , arabic = "اَلْسّاعة الْعاشِرة"
       , meaning = "the tenth hour"
       }
