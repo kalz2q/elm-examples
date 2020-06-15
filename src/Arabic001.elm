@@ -1795,12 +1795,12 @@ dict =
       , meaning = "sick"
       }
     , { latin = "yawm sa3iid"
-      , kana = "ヤウム サアイード"
+      , kana = "ヤウム サあイード"
       , arabic = "يَوْم سَعيد"
       , meaning = "Have a nice day."
       }
     , { latin = "sa3iid"
-      , kana = "サアイード"
+      , kana = "サあイード"
       , arabic = "سَعيد"
       , meaning = "happy"
       }
@@ -3012,7 +3012,7 @@ dict =
     , { latin = "katabaa"
       , kana = "カタバー"
       , arabic = "كَتَبَا"
-      , meaning = "They (two male) wrote"
+      , meaning = "They (to male) wrote"
       }
     , { latin = "katabtu"
       , kana = "カタブトゥ"
@@ -4330,7 +4330,7 @@ dict =
       , meaning = "art"
       }
     , { latin = "Haziin"
-      , kana = "ハズィーン"
+      , kana = "はズィーン"
       , arabic = "حَزين"
       , meaning = "sad"
       }
@@ -4434,8 +4434,8 @@ dict =
       , arabic = "المُقَبِّلات"
       , meaning = "appetizers"
       }
-    , { latin = "Hummusan"
-      , kana = "フンムサン"
+    , { latin = "HummuSan"
+      , kana = "フンムすぁン"
       , arabic = "حُمُّصاً"
       , meaning = "chickpeas, hummus"
       }
