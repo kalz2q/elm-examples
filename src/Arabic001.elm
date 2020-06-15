@@ -2530,7 +2530,7 @@ dict =
       , meaning = "rich"
       }
     , { latin = "amra2a"
-      , kana = "アムラア"
+      , kana = "アムらア"
       , arabic = "اَمْرَأة"
       , meaning = "a woman"
       }
@@ -4430,7 +4430,7 @@ dict =
       , meaning = "He drinks milk"
       }
     , { latin = "al-muqab-bilaat"
-      , kana = "アルムカッビラート"
+      , kana = "アルムかッビラート"
       , arabic = "المُقَبِّلات"
       , meaning = "appetizers"
       }
