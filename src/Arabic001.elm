@@ -640,7 +640,7 @@ dict =
       , meaning = "food"
       }
     , { latin = "2akl 3arabiyy wa-qahwa 3arabiyy"
-      , kana = "アクル あラビーイ ワ かハワ あラビーイ"
+      , kana = "アクル あらビーイ ワ かハワ あらビーイ"
       , arabic = "أَكْل عَرَبيّ وَقَهْوة عَرَبيّة"
       , meaning = "Arabic food and Arabic coffee"
       }
@@ -745,7 +745,7 @@ dict =
       , meaning = "His house is close to the university"
       }
     , { latin = "ismhaa arabiyy"
-      , kana = "イスムハー あラビーイ"
+      , kana = "イスムハー あらビーイ"
       , arabic = "إسمها عربي"
       , meaning = "Her name is arabic."
       }
@@ -1600,7 +1600,7 @@ dict =
       , meaning = "in language"
       }
     , { latin = "bil-lugha l-3arabiya"
-      , kana = "ビッルガ ル あラビーヤ"
+      , kana = "ビッルガ ル あらビーヤ"
       , arabic = "بِالْلُّغة الْعَرَبِيّة"
       , meaning = "in the arabic language"
       }
@@ -1995,7 +1995,7 @@ dict =
       , meaning = "This is an old living room."
       }
     , { latin = "haadhihi Hadiiqa 3arabiyya"
-      , kana = "ハーじヒ はディーか あラビーヤ"
+      , kana = "ハーじヒ はディーか あらビーヤ"
       , arabic = "هَذِهِ حَديقة عَرَبِيّة"
       , meaning = "This is an Arabian guarden."
       }
@@ -2245,7 +2245,7 @@ dict =
       , meaning = "on, on top of"
       }
     , { latin = "al-3arabiyya l-fuSHaa"
-      , kana = "アルあラビーヤ ル フすぅはー"
+      , kana = "アルあらビーヤ ル フすぅはー"
       , arabic = "اَلْعَرَبِيّة الْفُصْحى"
       , meaning = "Standard Arabic"
       }
@@ -2255,12 +2255,12 @@ dict =
       , meaning = "Great Britain"
       }
     , { latin = "balad 3arabiyy"
-      , kana = "バラド あラビーイ"
+      , kana = "バラド あらビーイ"
       , arabic = "بَلَد عَرَبِيّ"
       , meaning = "an Arab country"
       }
     , { latin = "madiina 3arabiyya"
-      , kana = "マディーナ あラビーヤ"
+      , kana = "マディーナ あらビーヤ"
       , arabic = "مَدينة عَرَبِيّة"
       , meaning = "an Arab city"
       }
@@ -2660,12 +2660,12 @@ dict =
       , meaning = "a young woman, a girl"
       }
     , { latin = "tis3a"
-      , kana = "ティスア"
+      , kana = "ティスあ"
       , arabic = "تِسعة"
       , meaning = "nine"
       }
     , { latin = "hal l-lghat l-3arabiyya Sa3ba"
-      , kana = "ハル ッルガト ルあラビーヤ すぁあバ"
+      , kana = "ハル ッルガト ルあらビーヤ すぁあバ"
       , arabic = "هَل اللُّغَة العَرَبية صَعبة"
       , meaning = "Is arabic language difficult?"
       }
