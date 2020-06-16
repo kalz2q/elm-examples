@@ -205,7 +205,7 @@ dict =
       , meaning = "large, big"
       }
     , { latin = "kabiira"
-      , kana = "カビーラ"
+      , kana = "カビーら"
       , arabic = "كبيرة"
       , meaning = "large, big"
       }
@@ -740,7 +740,7 @@ dict =
       , meaning = "I don't know where I am."
       }
     , { latin = "bayt-hu qariib min al-jaami3a"
-      , kana = "バイトフゥ カリーブ ミン アル ジャーミあ"
+      , kana = "バイトフゥ かりーブ ミン アル ジャーミあ"
       , arabic = "بيته قريب من الجامعة"
       , meaning = "His house is close to the university"
       }
@@ -1205,7 +1205,7 @@ dict =
       , meaning = "Venice"
       }
     , { latin = "filasTiin"
-      , kana = "フィラスティーン"
+      , kana = "フィラスてぃーン"
       , arabic = "فِلَسْطين"
       , meaning = "Palestine"
       }
@@ -1370,7 +1370,7 @@ dict =
       , meaning = "His friend Samia is rich."
       }
     , { latin = "taariikhiyya"
-      , kana = "ターリークヒーヤ"
+      , kana = "ターりークヒーヤ"
       , arabic = "تاريخِيّة"
       , meaning = "historical"
       }
@@ -1790,7 +1790,7 @@ dict =
       , meaning = "Hello, my name is Bob."
       }
     , { latin = "mariiD"
-      , kana = "マリード"
+      , kana = "マりーど"
       , arabic = "مَريض"
       , meaning = "sick"
       }
@@ -1840,7 +1840,7 @@ dict =
       , meaning = "What is your name?"
       }
     , { latin = "2anaa na3saan"
-      , kana = "アナー ナアサーン"
+      , kana = "アナー ナあサーン"
       , arabic = "أَنا نَعْسان"
       , meaning = "I am sleepy."
       }
@@ -2460,7 +2460,7 @@ dict =
       , meaning = "a Syrian city"
       }
     , { latin = "filasTiin makaan mashhuur"
-      , kana = "フィラストィーン マカーン マシュフール"
+      , kana = "フィラスてぃーン マカーン マシュフール"
       , arabic = "فِلَسْطين مَكان مَشْهور"
       , meaning = "Palestine is a famous place."
       }
@@ -4280,7 +4280,7 @@ dict =
       , meaning = "letter - letters"
       }
     , { latin = "qariib - 2aqaarib"
-      , kana = "カリーブ アカーリブ"
+      , kana = "かりーブ アかーりブ"
       , arabic = "قَريب - أَقارِب"
       , meaning = "relative - relatives"
       }
