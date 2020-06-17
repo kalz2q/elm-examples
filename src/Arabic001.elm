@@ -3500,7 +3500,7 @@ dict =
       , meaning = "My village is close to the city of Beirut."
       }
     , { latin = "3afwan"
-      , kana = "アフワン"
+      , kana = "あアフワン"
       , arabic = "عَفواً"
       , meaning = "Excuse me. Sure, it's Ok. (Reply to thank you)"
       }
