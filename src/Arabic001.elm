@@ -1195,7 +1195,7 @@ dict =
       , meaning = "China"
       }
     , { latin = "al-qaahira"
-      , kana = "アル カーヒラ"
+      , kana = "アル かーヒラ"
       , arabic = "اَلْقاهِرة"
       , meaning = "Cairo"
       }
