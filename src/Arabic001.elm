@@ -1430,7 +1430,7 @@ dict =
       , meaning = "My brother Bashir is busy."
       }
     , { latin = "fii haadhihi a-S-Suura imraa muD-Hika"
-      , kana = "フィー ハーじヒ アッすぅーラ イムらー ムどひカ"
+      , kana = "フィー ハーじヒ アッすぅーら イムらー ムどひカ"
       , arabic = "في هَذِهِ الْصّورة اِمْرأة مُضْحِكة"
       , meaning = "Thre is a funny woman in this picture."
       }
@@ -3484,8 +3484,8 @@ dict =
       , arabic = "جاري"
       , meaning = "my (male) neighbor"
       }
-    , { latin = "Dawaahii"
-      , kana = "だワーヒー"
+    , { latin = "DawaaHii"
+      , kana = "だワーひー"
       , arabic = "ضَواحي"
       , meaning = "suburbs"
       }
