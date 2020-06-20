@@ -2785,7 +2785,7 @@ dict =
       , meaning = "a stone"
       }
     , { latin = "muthal-lath"
-      , kana = "ムサッラス"
+      , kana = "ムさッラす"
       , arabic = "مُثَلَّث"
       , meaning = "a triangle"
       }
@@ -3325,7 +3325,7 @@ dict =
       , meaning = "one"
       }
     , { latin = "2ithnaan"
-      , kana = "イスナーン"
+      , kana = "イすナーン"
       , arabic = "اِثنان"
       , meaning = "two"
       }
